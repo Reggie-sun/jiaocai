@@ -1,0 +1,109 @@
+{
+  "data_kind": "synthetic_teaching_data",
+  "scene": "虚构社区公共步道L，改善夜间可见性，并考虑邻近居民、维护与能源。",
+  "notice": "需求陈述、观察和价格均为教学模拟；没有实施候选、真实调查或因果效果数据；lx读数不用于判定照明标准合规。",
+  "requirements": [
+    {
+      "speaker": "步道使用者甲",
+      "statement": "台阶边缘看不清，希望容易辨认高差。"
+    },
+    {
+      "speaker": "邻近居民乙",
+      "statement": "窗边直射光影响休息，希望减少溢出光。"
+    },
+    {
+      "speaker": "维护人员丙",
+      "statement": "灯具难检修，希望更换成本可控制。"
+    },
+    {
+      "speaker": "管理者丁",
+      "statement": "教学假定新增一次性支出上限4000元，不削减可用通行时间。"
+    }
+  ],
+  "observation_unit": {
+    "passers": "人次/30分钟",
+    "hesitations": "停顿次数/30分钟",
+    "illuminance": "lx（教学仪器读数）"
+  },
+  "observations": [
+    {
+      "row": "O1",
+      "location": "台阶",
+      "night": "N1",
+      "window": "20:00-20:30",
+      "illuminance_lx": 8,
+      "passers": 40,
+      "hesitations": 8,
+      "weather": "干燥",
+      "other_conditions": "同行提醒较少"
+    },
+    {
+      "row": "O2",
+      "location": "台阶",
+      "night": "N2",
+      "window": "20:00-20:30",
+      "illuminance_lx": 12,
+      "passers": 60,
+      "hesitations": 9,
+      "weather": "小雨",
+      "other_conditions": "部分撑伞，活动结束"
+    },
+    {
+      "row": "O3",
+      "location": "窗边",
+      "night": "N1",
+      "window": "20:00-20:30",
+      "illuminance_lx": 18,
+      "passers": 15,
+      "hesitations": 1,
+      "weather": "干燥",
+      "other_conditions": "收到2条溢出光意见"
+    },
+    {
+      "row": "O4",
+      "location": "窗边",
+      "night": "N2",
+      "window": "20:00-20:30",
+      "illuminance_lx": 20,
+      "passers": 20,
+      "hesitations": 2,
+      "weather": "小雨",
+      "other_conditions": "收到3条溢出光意见"
+    }
+  ],
+  "baseline": {
+    "lamps": 4,
+    "watts_per_lamp": 20,
+    "hours_per_day": 6,
+    "days_per_month": 30
+  },
+  "candidates": [
+    {
+      "id": "A",
+      "description": "把4盏灯全部换为30W灯具，位置与每天点亮6小时不变",
+      "one_time_cost_yuan": 3600,
+      "lamps": 4,
+      "watts_per_lamp": 30,
+      "hours_per_day": 6,
+      "days_per_month": 30,
+      "hypothesis": "较大功率可能改善部分位置照明；实际照度、眩光和可见性未测定。"
+    },
+    {
+      "id": "B",
+      "description": "保持4盏20W灯具，增加遮光罩并调整朝向，点亮时长不变",
+      "one_time_cost_yuan": 2800,
+      "lamps": 4,
+      "watts_per_lamp": 20,
+      "hours_per_day": 6,
+      "days_per_month": 30,
+      "hypothesis": "可能减少溢出光，台阶是否足够清晰需另测；可能把暗处移到其他位置。"
+    }
+  ],
+  "energy_assumptions": "仅灯具额定功率×点亮时长的教学估算，不计驱动损耗、调光和维修；1kWh=1000Wh。",
+  "known_evidence_gaps": [
+    "没有候选实施后对照数据",
+    "没有真实用户测试",
+    "没有灯具配光和照明合规测定",
+    "样本量和观测条件不一致，不能仅据相关得出因果"
+  ]
+}

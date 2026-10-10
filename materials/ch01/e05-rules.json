@@ -1,0 +1,27 @@
+{
+  "goal": "为全部4个预约分配合格工作人员和时段；不要求唯一最优",
+  "hard_constraints": [
+    "每请求恰好一次",
+    "时段同时属于请求与工作人员开放范围",
+    "工作人员资格满足请求",
+    "每resource_id/slot_id只服务1个请求",
+    "每请求participants=1且duration_slots=1，符合capacity=1"
+  ],
+  "preferences": [
+    "可比较较早完成；公平原则须另经说明，不能由编号推断价值优先级"
+  ],
+  "variants": [
+    {
+      "id": "baseline",
+      "expected_feasible": true
+    },
+    {
+      "id": "V2_without_screen_reader",
+      "resource_id": "V2",
+      "qualifications": [
+        "general"
+      ],
+      "expected_feasible": false
+    }
+  ]
+}

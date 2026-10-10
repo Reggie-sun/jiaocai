@@ -1,0 +1,35 @@
+{
+  "reference": [
+    {
+      "request_id": "R1",
+      "device_id": "D1",
+      "slot_id": "S1"
+    },
+    {
+      "request_id": "R2",
+      "device_id": "D1",
+      "slot_id": "S2"
+    },
+    {
+      "request_id": "R3",
+      "device_id": "D2",
+      "slot_id": "S2"
+    },
+    {
+      "request_id": "R4",
+      "device_id": "D1",
+      "slot_id": "S3"
+    }
+  ],
+  "baseline_expected_solution_count": 12,
+  "D2_closed_expected_solution_count": 0,
+  "unsat_argument": "D2关闭后只剩D1的3个设备时段，4个请求每个需要唯一位置，4>3；R1还占用S1，剩3个请求竞争S2/S3。",
+  "negotiation_boundary": "新增时段、借入设备或推迟请求均属于修改条件的待协商提案，不是原问题可行解。",
+  "rubric_dimensions": [
+    "条件完整",
+    "表示清楚",
+    "满足全部硬约束",
+    "区分可行/无解/协商提案",
+    "解释修正"
+  ]
+}

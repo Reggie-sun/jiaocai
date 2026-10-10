@@ -1,0 +1,25 @@
+{
+  "hard_constraints": [
+    "每个请求恰好安排一次",
+    "participants<=capacity",
+    "required_facilities为facilities的子集",
+    "场地和请求均允许时段",
+    "同一room_id/slot_id至多一个请求",
+    "duration_slots=1"
+  ],
+  "preferences": [
+    "只在满足硬约束后比较时段顺序"
+  ],
+  "variants": [
+    {
+      "id": "baseline",
+      "expected_feasible": true
+    },
+    {
+      "id": "C2_capacity18",
+      "room_id": "C2",
+      "capacity": 18,
+      "expected_feasible": false
+    }
+  ]
+}

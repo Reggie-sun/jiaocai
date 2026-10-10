@@ -1,0 +1,49 @@
+{
+  "task": "为T/P/W各写思想节点—证据—贡献—局限四列；改写一句把先后误当直接因果的叙述。",
+  "reference": [
+    {
+      "id": "T",
+      "source_id": "S03",
+      "original_excerpt": "the configuration determines the possible behaviour of the machine",
+      "quote_word_count": 9,
+      "locator": "§1 p.231，PDF p.2",
+      "translation": "配置决定机器可能的行为。",
+      "supported_contribution": "以明确状态与符号条件表达计算行为",
+      "boundary": "不证明现实所有问题可计算或同一流程可解决价值问题"
+    },
+    {
+      "id": "P",
+      "source_id": "S04",
+      "original_excerpt": "Some think of using the computer to program the kid; others think of using the kid to program the computer.",
+      "quote_word_count": 20,
+      "locator": "原报告p.1开篇，2022重印PDF p.3",
+      "translation": "一种取向是用计算机训练儿童，另一种取向是让儿童编程控制计算机。",
+      "supported_contribution": "学习者参与表达和探索的教育取向",
+      "boundary": "该短句是取向比较，不是效果数据；不能证明所有儿童必然获益"
+    },
+    {
+      "id": "W",
+      "source_id": "S01",
+      "original_excerpt": "Conceptualizing, not programming.",
+      "quote_word_count": 3,
+      "locator": "p.35首条特征",
+      "translation": "强调概念思考，超越单纯编程。",
+      "supported_contribution": "计算思维通用能力倡议中的概念与编程区别",
+      "boundary": "不表明编程无价值，也不证明2006发明全部相关思想"
+    }
+  ],
+  "acceptable_rewrite": "图中三份文献回答不同问题；本书把它们并置作教学比较，所附摘录不足以证明人物之间存在直接影响链。",
+  "date_note": "Turing年份说明1936收稿/报告与1937出版社引用；Papert/Solomon 1971；Wing2006。",
+  "rubric_dimensions": [
+    "准确追溯",
+    "区分贡献",
+    "解释边界",
+    "避免无证据因果"
+  ],
+  "score_levels": {
+    "0": "缺失或关键错误",
+    "1": "部分正确但漏条件或证据",
+    "2": "达到任务并解释依据",
+    "3": "达到任务、处理例外并说明边界"
+  }
+}

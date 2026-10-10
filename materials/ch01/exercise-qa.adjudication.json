@@ -1,0 +1,52 @@
+{
+  "kind": "bounded_independent_exercise_data_verification",
+  "parent": "Codex Parent",
+  "review_scope": "E01/E03/E04/E05的冻结模拟数据、答案与算术；未审阅整章正文，不替代教材AI自审或真实人工审校",
+  "invocation_id": "a9478c88-2262-4753-8448-f311361fcec2",
+  "route_qualification": {
+    "invocation_id": "4f2d5dc8-4234-4665-b382-e82f1ad6cc00",
+    "sha256": "5f3c17dcefcff35f54db521fa4c5435d8f9fb0b1da9ca4e108106a66cb767555"
+  },
+  "mechanically_observed": {
+    "provider_host": "api.kimi.ai",
+    "model": "k3",
+    "effort": "max",
+    "request_count": 2,
+    "read_only": true,
+    "docker_qualified": true
+  },
+  "frozen_files": {
+    "exercise-qa.inputs.json": "63afea7866b16a59a6d83ccd8260c17b6b29cb9d8a43bbfa9fee5bebc7289883",
+    "exercise-qa.evidence.json": "286b3b67b9ab0c8cd468edc224dcaec387c125c98c638d6ba2c48ae3c89d1b90",
+    "exercise-qa.scope.md": "7caeca92c8b0537e7a776b18d7d08f847ce20bf8b42e7a4c122aa6c749195c13"
+  },
+  "receipt_sha256": "8029cedaa82982ba2a9cd5085d6d9f5eee0faf5d0ae12e1fdd71cef844418df0",
+  "report_sha256": "878b94c3de6d4fcd72e6f50e24ecd2e72a01dc5db56e8f44f3f826ff5ca22580",
+  "parent_findings": [
+    {
+      "id": "QA01",
+      "decision": "CONFIRMED",
+      "concern": "输出证据被e*.json通配符误计为输入；shell重定向在脚本启动前截空文件，记录了空字节哈希。",
+      "resolution": "改为e[0-9][0-9]-*.json，仅列教学输入；捕获成功stdout后写输出并复核所有输入哈希。冻结evidence.json实际非空且包含计算结果，不能据自身输入条目的空哈希推断整个输出为空。"
+    },
+    {
+      "id": "QA02",
+      "decision": "CONFIRMED",
+      "concern": "E03反例缺少对应的源候选，可能被误读为映射E01正文参考表。",
+      "resolution": "在e03-guidance与1.3明确列非参考可行源候选及其改名后容量冲突；未改变问题条件或答案集合。"
+    },
+    {
+      "id": "QA03",
+      "decision": "CONFIRMED",
+      "concern": "独立手推与原机器计数一致。",
+      "resolution": "Parent重新执行有限枚举和逐项参考检查；E01 12/0，E03 2/0，E05 6/0，E04 14.4/21.6/14.4 kWh、20%/15%；不由模拟算术推断照明效果。"
+    }
+  ],
+  "remaining_blockers": [],
+  "re_review_decision": "本次为有限数据QA，不是Implementation Risk Gate reviewer；改动仅为输出哈希边界修复、反例来源澄清和摘录词数9的元数据订正，条件/参考解/解集未变。以当前可复算结果和Parent审阅完成裁定。",
+  "recorded_at": "2026-10-10T19:52:04.583245+00:00",
+  "sealed_manifest_sha256": "5e1fd9e21663bb1773e1f0d00f98e9502ece1c095ba7a63e59a511d176c7b3cb",
+  "contract_seal": "ded2bb3b59a6fd7e2616c3f45c27ed35f01be3ac59182bc99f3e96b51a28944c",
+  "execution_projection_sha256": "112882f3ddb05a62602e3006c0ed03979d6c193ae2d3699cf6a24f070334737d",
+  "source_projection_seal_checked": true
+}

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="890" viewBox="0 0 1400 890">
+<title>图1-5 结构迁移与新增条件</title>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8" fill="none" stroke="#414141" stroke-width="1.5"/></marker></defs>
+<rect width="1400" height="890" fill="white"/>
+<text x="50" y="60" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="36" fill="#202020" font-weight="700" text-anchor="start">图1-5  结构迁移与新增条件</text>
+<text x="65" y="125" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="31" fill="#202020" font-weight="700" text-anchor="start">设备借用 E01</text>
+<text x="615" y="125" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="31" fill="#202020" font-weight="700" text-anchor="start">社区场地 E03</text>
+<rect x="50" y="150" width="420" height="66" rx="7" fill="#f5f5f5" stroke="#414141" stroke-width="2"/>
+<text x="72" y="192" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="25" fill="#202020" font-weight="700" text-anchor="start">device_id</text>
+<polyline points="481,183 581,183" fill="none" stroke="#414141" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="595" y="150" width="540" height="66" rx="7" fill="#f5f5f5" stroke="#414141" stroke-width="2"/>
+<text x="617" y="192" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="25" fill="#202020" font-weight="700" text-anchor="start">room_id</text>
+<rect x="50" y="236" width="420" height="66" rx="7" fill="#f5f5f5" stroke="#414141" stroke-width="2"/>
+<text x="72" y="278" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="25" fill="#202020" font-weight="700" text-anchor="start">capabilities</text>
+<polyline points="481,269 581,269" fill="none" stroke="#414141" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="595" y="236" width="540" height="66" rx="7" fill="#f5f5f5" stroke="#414141" stroke-width="2"/>
+<text x="617" y="278" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="25" fill="#202020" font-weight="700" text-anchor="start">facilities（集合包含）</text>
+<rect x="50" y="322" width="420" height="66" rx="7" fill="#f5f5f5" stroke="#414141" stroke-width="2"/>
+<text x="72" y="364" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="25" fill="#202020" font-weight="700" text-anchor="start">allowed_slots</text>
+<polyline points="481,355 581,355" fill="none" stroke="#414141" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="595" y="322" width="540" height="66" rx="7" fill="#f5f5f5" stroke="#414141" stroke-width="2"/>
+<text x="617" y="364" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="25" fill="#202020" font-weight="700" text-anchor="start">allowed_slots</text>
+<rect x="50" y="408" width="420" height="66" rx="7" fill="#f5f5f5" stroke="#414141" stroke-width="2"/>
+<text x="72" y="450" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="25" fill="#202020" font-weight="700" text-anchor="start">设备在某时段开放</text>
+<polyline points="481,441 581,441" fill="none" stroke="#414141" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="595" y="408" width="540" height="66" rx="7" fill="#f5f5f5" stroke="#414141" stroke-width="2"/>
+<text x="617" y="450" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="25" fill="#202020" font-weight="700" text-anchor="start">场地在某时段开放</text>
+<rect x="50" y="494" width="420" height="66" rx="7" fill="#f5f5f5" stroke="#414141" stroke-width="2"/>
+<text x="72" y="536" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="25" fill="#202020" font-weight="700" text-anchor="start">device_id / slot_id唯一</text>
+<polyline points="481,527 581,527" fill="none" stroke="#414141" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="595" y="494" width="540" height="66" rx="7" fill="#f5f5f5" stroke="#414141" stroke-width="2"/>
+<text x="617" y="536" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="25" fill="#202020" font-weight="700" text-anchor="start">room_id / slot_id唯一</text>
+<rect x="50" y="617" width="1300" height="194" rx="7" fill="#f5f5f5" stroke="#414141" stroke-width="2"/>
+<text x="72" y="659" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="28" fill="#202020" font-weight="700" text-anchor="start">新增条件：participants ≤ capacity；required_facilities ⊆ facilities</text>
+<text x="72" y="703" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="28" fill="#202020" font-weight="400" text-anchor="start">反例：Q3有20人，C1容量12。时段不冲突、有投影仍不能安排。</text>
+<text x="72" y="747" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="28" fill="#202020" font-weight="400" text-anchor="start">变体：C2降到18人后，Q3在两个场地都无位置；不能只换名字沿用旧解。</text>
+<text x="50" y="858" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="27" fill="#202020" font-weight="400" text-anchor="start">教学示例；箭头只表示字段或规则对应，不表示两个领域的条件完全相同。</text>
+</svg>

@@ -1,0 +1,238 @@
+{
+  "chapter": 1,
+  "render_script": "materials/ch01/render_figures.py",
+  "render_script_sha256": "12a6dc4c0a21a8188577071da021532fb0d68c4f3655751ee348ff0df2b3e9d1",
+  "figures": [
+    {
+      "id": "图1-1",
+      "section": "1.1",
+      "title": "需求如何变成可检查的规则",
+      "caption": "需求如何变成可检查的规则",
+      "source": "本书原创教学图；据本章作者教学框架和模拟数据绘制。",
+      "description": "四行对照口头需求、数据字段、检查规则；前三行可逐请求检查，占用规则需要跨行检查。",
+      "file": "assets/figures/ch01/fig1-1.png",
+      "editable_source": "assets/figures/ch01/fig1-1.svg",
+      "status": "ready",
+      "files_sha256": {
+        "assets/figures/ch01/fig1-1.png": "5c35d96b6328cca99cba82f0366678f34b6cf0abf46fc6bb8abb0d11c663a1ae",
+        "assets/figures/ch01/fig1-1.svg": "a8944e1c23ecc9b75bd005b838ff837625449dc7ec83b91a9ebece66b252a1d8"
+      },
+      "pixel_size": [
+        2800,
+        1680
+      ],
+      "verification": {
+        "reviewer": "Codex Parent",
+        "review_kind": "ai_self",
+        "viewed_at": "2026-10-10T19:52:21.012104+00:00",
+        "actual_view": "逐图查看最终PNG；图1-1/1-3/1-7修订后再次查看",
+        "checked": [
+          "中文显示与阅读顺序",
+          "数据/符号/箭头含义对正文",
+          "图题/编号/来源",
+          "灰度线型与形状可分辨"
+        ],
+        "result": "pass_for_chapter_draft",
+        "limit": "未固定出版社页宽和字号；正式排版后须重新检查缩放、跨页与印刷效果。"
+      }
+    },
+    {
+      "id": "图1-2",
+      "section": "1.1",
+      "title": "从问题表示到检验的反馈",
+      "caption": "从问题表示到检验的反馈",
+      "source": "本书原创教学图；据本章作者教学框架和模拟数据绘制。",
+      "description": "从目标与输入到表示、过程、候选和检验；反馈分别返回条件、表示和步骤，结论可为可行、无解或信息不足。",
+      "file": "assets/figures/ch01/fig1-2.png",
+      "editable_source": "assets/figures/ch01/fig1-2.svg",
+      "status": "ready",
+      "files_sha256": {
+        "assets/figures/ch01/fig1-2.png": "04595c9301990bcb3cabc3d3881faefe115d25cd1c9f929d479c0eda96e53966",
+        "assets/figures/ch01/fig1-2.svg": "37040cd20362f87ca88fb0ec1ef9231207dd832f8cc923abd164bf30c2f3b78e"
+      },
+      "pixel_size": [
+        2800,
+        1760
+      ],
+      "verification": {
+        "reviewer": "Codex Parent",
+        "review_kind": "ai_self",
+        "viewed_at": "2026-10-10T19:52:21.012104+00:00",
+        "actual_view": "逐图查看最终PNG；图1-1/1-3/1-7修订后再次查看",
+        "checked": [
+          "中文显示与阅读顺序",
+          "数据/符号/箭头含义对正文",
+          "图题/编号/来源",
+          "灰度线型与形状可分辨"
+        ],
+        "result": "pass_for_chapter_draft",
+        "limit": "未固定出版社页宽和字号；正式排版后须重新检查缩放、跨页与印刷效果。"
+      }
+    },
+    {
+      "id": "图1-3",
+      "section": "1.1",
+      "title": "可借用组合与候选安排",
+      "caption": "可借用组合与候选安排",
+      "source": "本书原创教学图；据本章作者教学框架和模拟数据绘制。",
+      "description": "以○/●/—区分允许未选、已选与不允许；列为五个开放设备时段，四请求参考候选各占唯一列；关闭D2后4>3无解。",
+      "file": "assets/figures/ch01/fig1-3.png",
+      "editable_source": "assets/figures/ch01/fig1-3.svg",
+      "status": "ready",
+      "files_sha256": {
+        "assets/figures/ch01/fig1-3.png": "5d25c662bdd870bda8c68183ebfb928b2580d1b54acd87e9b664deacc5eeb572",
+        "assets/figures/ch01/fig1-3.svg": "829a6d547a843fd89eff0202ae2a7341c91aa0520b43cd40688a1e023b2b30ac"
+      },
+      "pixel_size": [
+        2800,
+        1700
+      ],
+      "verification": {
+        "reviewer": "Codex Parent",
+        "review_kind": "ai_self",
+        "viewed_at": "2026-10-10T19:52:21.012104+00:00",
+        "actual_view": "逐图查看最终PNG；图1-1/1-3/1-7修订后再次查看",
+        "checked": [
+          "中文显示与阅读顺序",
+          "数据/符号/箭头含义对正文",
+          "图题/编号/来源",
+          "灰度线型与形状可分辨"
+        ],
+        "result": "pass_for_chapter_draft",
+        "limit": "未固定出版社页宽和字号；正式排版后须重新检查缩放、跨页与印刷效果。"
+      }
+    },
+    {
+      "id": "图1-4",
+      "section": "1.2",
+      "title": "思想节点、贡献与证据",
+      "caption": "思想节点、贡献与证据",
+      "source": "本书绘制，据[1]、[3]、[4]原始材料整理；不表示直接影响链。",
+      "description": "并列三个思想节点和原文证据，1936收稿/报告与1937出版口径分明；不以有向箭头声称直接影响。",
+      "file": "assets/figures/ch01/fig1-4.png",
+      "editable_source": "assets/figures/ch01/fig1-4.svg",
+      "status": "ready",
+      "files_sha256": {
+        "assets/figures/ch01/fig1-4.png": "fc53c55586fd100674416c89e1b38ac4f203c99cec852bc2976fe44a4d7825e1",
+        "assets/figures/ch01/fig1-4.svg": "f41bf0d85d97b1a7c9e2b85242f4a6ecf8bbdf058975d5e4425a2ba5e287ca40"
+      },
+      "pixel_size": [
+        2800,
+        1600
+      ],
+      "verification": {
+        "reviewer": "Codex Parent",
+        "review_kind": "ai_self",
+        "viewed_at": "2026-10-10T19:52:21.012104+00:00",
+        "actual_view": "逐图查看最终PNG；图1-1/1-3/1-7修订后再次查看",
+        "checked": [
+          "中文显示与阅读顺序",
+          "数据/符号/箭头含义对正文",
+          "图题/编号/来源",
+          "灰度线型与形状可分辨"
+        ],
+        "result": "pass_for_chapter_draft",
+        "limit": "未固定出版社页宽和字号；正式排版后须重新检查缩放、跨页与印刷效果。"
+      }
+    },
+    {
+      "id": "图1-5",
+      "section": "1.3",
+      "title": "结构迁移与新增条件",
+      "caption": "结构迁移与新增条件",
+      "source": "本书原创教学图；据本章作者教学框架和模拟数据绘制。",
+      "description": "设备与场地字段的共同结构及新增人数、容量、设施条件；20人不可进入12人场地，24降18使Q3无合格场地。",
+      "file": "assets/figures/ch01/fig1-5.png",
+      "editable_source": "assets/figures/ch01/fig1-5.svg",
+      "status": "ready",
+      "files_sha256": {
+        "assets/figures/ch01/fig1-5.png": "acf19dc5e6c8b724727669ffd3c0ce16e24cd71623c04ed8c9467be2dd4001a5",
+        "assets/figures/ch01/fig1-5.svg": "79ce5472377981db3e425b1da0a2b858772d484b0141b339ab68ba4675460ffe"
+      },
+      "pixel_size": [
+        2800,
+        1780
+      ],
+      "verification": {
+        "reviewer": "Codex Parent",
+        "review_kind": "ai_self",
+        "viewed_at": "2026-10-10T19:52:21.012104+00:00",
+        "actual_view": "逐图查看最终PNG；图1-1/1-3/1-7修订后再次查看",
+        "checked": [
+          "中文显示与阅读顺序",
+          "数据/符号/箭头含义对正文",
+          "图题/编号/来源",
+          "灰度线型与形状可分辨"
+        ],
+        "result": "pass_for_chapter_draft",
+        "limit": "未固定出版社页宽和字号；正式排版后须重新检查缩放、跨页与印刷效果。"
+      }
+    },
+    {
+      "id": "图1-6",
+      "section": "1.4",
+      "title": "不同思维视角需要的证据",
+      "caption": "不同思维视角需要的证据",
+      "source": "本书绘制，相关方法依据[5]—[8]；六视角并列为作者教学综合，照明情境与数据为模拟。",
+      "description": "六个互补视角各列问题、所需证据与不能单独推出的结论；是作者教学综合，不是穷尽分类。",
+      "file": "assets/figures/ch01/fig1-6.png",
+      "editable_source": "assets/figures/ch01/fig1-6.svg",
+      "status": "ready",
+      "files_sha256": {
+        "assets/figures/ch01/fig1-6.png": "e28201997483140669a0f69a821e2889c989fa9e051b96d58d36d9ac56e7e599",
+        "assets/figures/ch01/fig1-6.svg": "4b5d62e63a2eb1cb5d2cb6d72aa0cee6d70a857b6726dd1a2e9529c8d205c15a"
+      },
+      "pixel_size": [
+        2800,
+        1950
+      ],
+      "verification": {
+        "reviewer": "Codex Parent",
+        "review_kind": "ai_self",
+        "viewed_at": "2026-10-10T19:52:21.012104+00:00",
+        "actual_view": "逐图查看最终PNG；图1-1/1-3/1-7修订后再次查看",
+        "checked": [
+          "中文显示与阅读顺序",
+          "数据/符号/箭头含义对正文",
+          "图题/编号/来源",
+          "灰度线型与形状可分辨"
+        ],
+        "result": "pass_for_chapter_draft",
+        "limit": "未固定出版社页宽和字号；正式排版后须重新检查缩放、跨页与印刷效果。"
+      }
+    },
+    {
+      "id": "图1-7",
+      "section": "章末综合训练E05",
+      "title": "综合任务的目标、约束与检验",
+      "caption": "综合任务的目标、约束与检验",
+      "source": "本书原创教学图；据本章作者教学框架和模拟数据绘制。",
+      "description": "从目标、资格到候选和检查；移除screen_reader资格使P3无合格者，虚线返回资格数据，左侧说明模型外效果证据。",
+      "file": "assets/figures/ch01/fig1-7.png",
+      "editable_source": "assets/figures/ch01/fig1-7.svg",
+      "status": "ready",
+      "files_sha256": {
+        "assets/figures/ch01/fig1-7.png": "2085f2da750c830d3c98cee468a5bd9c9201c90c8d615e97ed560c452243eff9",
+        "assets/figures/ch01/fig1-7.svg": "903875007d56feb0303ce8ca651f50d51573d32c85afca0bb63653cf7c424071"
+      },
+      "pixel_size": [
+        2800,
+        1750
+      ],
+      "verification": {
+        "reviewer": "Codex Parent",
+        "review_kind": "ai_self",
+        "viewed_at": "2026-10-10T19:52:21.012104+00:00",
+        "actual_view": "逐图查看最终PNG；图1-1/1-3/1-7修订后再次查看",
+        "checked": [
+          "中文显示与阅读顺序",
+          "数据/符号/箭头含义对正文",
+          "图题/编号/来源",
+          "灰度线型与形状可分辨"
+        ],
+        "result": "pass_for_chapter_draft",
+        "limit": "未固定出版社页宽和字号；正式排版后须重新检查缩放、跨页与印刷效果。"
+      }
+    }
+  ]
+}

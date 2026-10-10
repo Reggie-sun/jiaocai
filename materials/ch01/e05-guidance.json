@@ -1,0 +1,43 @@
+{
+  "reference": [
+    {
+      "request_id": "P1",
+      "resource_id": "V1",
+      "slot_id": "S1"
+    },
+    {
+      "request_id": "P2",
+      "resource_id": "V1",
+      "slot_id": "S2"
+    },
+    {
+      "request_id": "P3",
+      "resource_id": "V2",
+      "slot_id": "S2"
+    },
+    {
+      "request_id": "P4",
+      "resource_id": "V1",
+      "slot_id": "S3"
+    }
+  ],
+  "variant_unsat": "撤除V2的screen_reader资格后，P3没有合格工作人员，无解；不能安排给只有general的V1。",
+  "model_boundaries": [
+    "会使用screen_reader为教学假定资格，不代表真实职业认证或授权",
+    "未计入实际身份、服务内容、个人敏感信息和超时需求；现实应用需重建",
+    "不能以合格排程证明服务满意、公平或可达性真实达标"
+  ],
+  "acceptable_paths": [
+    "手工列允许位置并逐项核对",
+    "电子表格筛选与占用表",
+    "小程序有限枚举",
+    "AI生成候选后独立逐项核验，保留错误和修正"
+  ],
+  "rubric_dimensions": [
+    "完整问题说明",
+    "适用表示",
+    "可执行方案",
+    "实际检验",
+    "迁移与边界"
+  ]
+}

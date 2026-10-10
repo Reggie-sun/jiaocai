@@ -1,0 +1,88 @@
+{
+  "data_kind": "synthetic_teaching_data",
+  "notice": "本书自拟教学示例，不代表西南财经大学或真实社区。",
+  "slot_unit": "一个完整时段",
+  "slots": [
+    {
+      "slot_id": "S1",
+      "order": 1
+    },
+    {
+      "slot_id": "S2",
+      "order": 2
+    },
+    {
+      "slot_id": "S3",
+      "order": 3
+    }
+  ],
+  "scene": "虚构社区数字服务咨询预约",
+  "capacity_unit": "每工作人员每时段服务1个请求",
+  "resources": [
+    {
+      "resource_id": "V1",
+      "capacity": 1,
+      "qualifications": [
+        "general"
+      ],
+      "available_slots": [
+        "S1",
+        "S2",
+        "S3"
+      ]
+    },
+    {
+      "resource_id": "V2",
+      "capacity": 1,
+      "qualifications": [
+        "general",
+        "screen_reader"
+      ],
+      "available_slots": [
+        "S2",
+        "S3"
+      ]
+    }
+  ],
+  "requests": [
+    {
+      "request_id": "P1",
+      "participants": 1,
+      "required_qualification": "general",
+      "allowed_slots": [
+        "S1"
+      ],
+      "duration_slots": 1
+    },
+    {
+      "request_id": "P2",
+      "participants": 1,
+      "required_qualification": "general",
+      "allowed_slots": [
+        "S1",
+        "S2"
+      ],
+      "duration_slots": 1
+    },
+    {
+      "request_id": "P3",
+      "participants": 1,
+      "required_qualification": "screen_reader",
+      "allowed_slots": [
+        "S2",
+        "S3"
+      ],
+      "duration_slots": 1
+    },
+    {
+      "request_id": "P4",
+      "participants": 1,
+      "required_qualification": "general",
+      "allowed_slots": [
+        "S2",
+        "S3"
+      ],
+      "duration_slots": 1
+    }
+  ]
+}

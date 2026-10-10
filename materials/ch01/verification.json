@@ -1,0 +1,170 @@
+{
+  "chapter": 1,
+  "stage": "draft",
+  "reviewer": "Codex Parent（教材作者AI自审）",
+  "review_kind": "ai_self",
+  "reviewed_at": "2026-10-10T20:04:14.183712+00:00",
+  "manuscript": "manuscripts/ch01/ch01.md",
+  "word_count": {
+    "method": "Unicode U+4E00–U+9FFF raw manuscript count; no hidden comments/code fences present",
+    "han_characters_approx": 32131,
+    "part_counts": {
+      "opening.md": 824,
+      "s1-1.md": 9014,
+      "s1-2.md": 5334,
+      "s1-3.md": 7423,
+      "s1-4.md": 7425,
+      "closing.md": 2111
+    },
+    "budget": [
+      28000,
+      40000
+    ],
+    "formal_count": "not_evaluated"
+  },
+  "gates": {
+    "G01": {
+      "status": "pass_for_chapter_draft",
+      "review_type": "teaching",
+      "evidence": "通读章首、1.1—1.4与章末；四节与规格小节顺序一致，综合任务、术语、引用完整；只写第一章。"
+    },
+    "G02": {
+      "status": "pass_for_chapter_draft",
+      "review_type": "teaching",
+      "evidence": "LO1用概念对照及未核验输出反例；LO2用问题说明和条件澄清；LO3用候选、全约束检验与关闭变体；LO4用三段原文与证据表；LO5用字段/规则映射、容量反例；LO6用六视角证据需求及三条开放路径。E01—E05对应成果，章末统一0—3量规，E04四维细化一致。"
+    },
+    "G03": {
+      "status": "pass_for_chapter_draft",
+      "review_type": "consistency",
+      "evidence": "第一章仅为概念、方法轮廓和有限练习；未展开算法复杂度证明、模型训练、API部署、连接器、详细谬误与原型开发。后续章引用与蓝图第二至六章职责一致。"
+    },
+    "G04": {
+      "status": "pass_for_chapter_draft",
+      "review_type": "teaching",
+      "evidence": "每节从具体问题进入，案例分析引向概念/方法、可执行训练及反思。全文逐段通读由Codex Parent实施，标AI自审；压缩1.4重复输入和解释，保留一次完整数据表及多路径答案。未虚构访谈、试验或课堂经历。"
+    },
+    "G05": {
+      "status": "pass_for_chapter_draft",
+      "review_type": "consistency",
+      "evidence": "全稿按U+4E00—U+9FFF计32131个汉字；含标题、正文、教学表格/练习、图题与章末资料。无隐藏注释、代码块或外部原文长摘录凑篇幅。数值处于28000—40000；正式Word/出版社字数另核验。"
+    },
+    "G06": {
+      "status": "pass_for_chapter_draft",
+      "review_type": "exercises",
+      "evidence": "Parent按JSON输入重跑有限笛卡尔积枚举与独立参考检查，E01 12/0、E03 2/0、E05 6/0；逐项核对功能/资格、容量、开放、允许时段、恰好一次及唯一占用。E04能耗14.4/21.6/14.4 kWh，停顿比例20%/15%。E02三摘录原文定位与译释比对；开放题允许B小范围验证、A条件比较、先补证据三路径，不把模拟差异当效果。"
+    },
+    "G07": {
+      "status": "pass_for_chapter_draft",
+      "review_type": "sources",
+      "evidence": "核对9项原始/官方来源的作者、年份、内容位置和解释边界；两篇DOI书目信息实测。1936收稿/报告与1937书目分开；Papert与Solomon保留双署名；2010定义归属Cuny/Snyder/Wing；Meadows1999据机构存档版权页确认。工作性定义、六视角、工具功能比较为作者综合；所有场景/价格/观测标模拟，未采用旧前四章内容。"
+    },
+    "G08": {
+      "status": "pass_for_chapter_draft",
+      "review_type": "figures",
+      "evidence": "逐一实际查看7张PNG并对照SVG、正文及数据；图1-1/1-3/1-7修订后再看，图1-3区分允许与已选，图1-4无无证据影响箭头，图1-5容量边界，图1-7资格变化反馈。清单保留源/图题/出处/文字描述/字节哈希及查看记录。未固定出版页宽，印刷排版后需再查。"
+    },
+    "G09": {
+      "status": "pass_for_chapter_draft",
+      "review_type": "consistency",
+      "evidence": "图1-1—1-7、表1-1—1-34连续；引用[1]—[9]对应章末书目，术语与glossary一致。正文候选集合与程序输出比对，修复Q2遗漏C2-S2及其全局排除理由。瓦/瓦时/千瓦时与人数、人次、时段单位分明，单次费用不当成长期总成本。"
+    },
+    "G10": {
+      "status": "pass_for_chapter_draft",
+      "review_type": "consistency",
+      "evidence": "合并稿与六个组成文件同步，只有章节标题层级在合并时升一级。运行登记纳入spec/plan、原始输入、蓝图、数据、答案、来源、核算、图源/清单及当前审校记录；最终check/review另由Harness绑定完整当前快照，不以本文件代替验收。"
+    }
+  },
+  "outcome_mapping": {
+    "LO1": [
+      "1.1",
+      "E01",
+      "E05"
+    ],
+    "LO2": [
+      "1.1",
+      "1.3",
+      "E01",
+      "E03",
+      "E05"
+    ],
+    "LO3": [
+      "1.1",
+      "E01",
+      "E05"
+    ],
+    "LO4": [
+      "1.2",
+      "E02"
+    ],
+    "LO5": [
+      "1.3",
+      "E03",
+      "E05"
+    ],
+    "LO6": [
+      "1.4",
+      "E04",
+      "E05"
+    ]
+  },
+  "executable_verification": {
+    "command": "python3 materials/ch01/verify_exercises.py",
+    "exit_code": 0,
+    "output": "materials/ch01/executable-evidence.json",
+    "output_sha256": "ee0f8cb8ee29c3fe486782b7e0cfbf76960a4add96be00a6fba51ecb5cf1db16",
+    "scope": "有限模拟数据与参考解，不验证真实照明、公共服务或课堂学习效果。"
+  },
+  "engineering_verification": {
+    "commands": [
+      "python3 scripts/harness.py validate",
+      "python3 -m unittest discover -s tests -v"
+    ],
+    "validate": "pass",
+    "tests": {
+      "passed": 51,
+      "failed": 0
+    },
+    "scope": "Harness工程行为与隔离fixtures；不作为教材教学验收。"
+  },
+  "bounded_independent_qa": {
+    "record": "materials/ch01/exercise-qa.adjudication.json",
+    "scope": "冻结的E01/E03/E04/E05数据；非整章独立审校",
+    "parent_responsibility": "完整正文、来源支持、图像查看、候选集合/解集、最终结论由Parent检查和裁定。"
+  },
+  "resolved_issues": [
+    "穷举规模说明修正，程序自动化不等于任意规模可快速穷举。",
+    "Q2局部候选补C2-S2，并用Q3/Q4占尽C2两位置说明全局排除。",
+    "E03反例明确取自非参考E01可行安排，避免错误对应。",
+    "证据输出不再自计输入哈希，捕获完成输出后落盘；历史QA快照保留原样。",
+    "Turing短句词数从10订正为9，与原文9/20/3词摘录一致。",
+    "E04量规补3分层级；图1-6表型说明及单次支出含义统一。"
+  ],
+  "content_snapshot": {
+    "manuscripts/ch01/ch01.md": "c1709f5a11b65d8400f809cc19807fecced90c6df6b6d39b1586ed127d7c6b23",
+    "manuscripts/ch01/opening.md": "a5ff5fe92aeb5d1721b8dd8b83fe867a33327d0a5b899819cb3c2ac949941be1",
+    "manuscripts/ch01/s1-1.md": "a126c693df95494dc71a7eba14be3a59860f586d0ad6b80981fad48d0e78e4aa",
+    "manuscripts/ch01/s1-2.md": "dbea176c23e59c169d65e465302300b6201b598049adf96bccb72a76ecde4878",
+    "manuscripts/ch01/s1-3.md": "d2d5202bd63b38930e0805e0c741b2beb535208e89552bb0ae28b176d5bcb894",
+    "manuscripts/ch01/s1-4.md": "8a2b60802c426d271bb6cfb481336d899c9cd3377e57150b51c6f1772ea09bb4",
+    "manuscripts/ch01/closing.md": "2e8b8d99a8aee9f152b7feb3814bfee1edde04aa1e694810ed5976f50b43ca53"
+  },
+  "contract_snapshot": {
+    "specs/ch01.spec.md": "2c892d3cc5a98bcde6a10897685ca1a41f78222db2d45d1e793d143b2b74b386",
+    "plans/ch01.plan.md": "0bd8bdb2fcb723ab7ada4ef32065f51ecec103094bf0e85e704d6ca5d8182174",
+    "十章编写蓝图.md": "c881b9b30003308d7d1d9b95605f8ce75140ea3fd6bb58d0231ad2fa769241fc"
+  },
+  "input_snapshot": {
+    "AI时代的计算思维--跨界创新与终身学习能力培养-教材大纲.docx": "4b2526dd13a07ea1facaeefcef09658b9df46ab4496df6c782c8dc222967d8be",
+    "AI时代的思维训练3.1节样稿.docx": "2fde276942f55dd4cfb00f0036a0d4a8935bd8320cef4c2eb0c47ed707e5aa17"
+  },
+  "completion_owner": {
+    "G11": "真实进度追加与harness ch01-draft的check/review/accept；状态由harness.json维护。",
+    "session_record_evaluation": "Repository未声明独立session-capture Skill；本轮durable记录进入本审校记录、当前run及目的记录，未更新个人memory。"
+  },
+  "limits": [
+    "当前为完整章级初稿，未称出版社定稿或校方审定。",
+    "没有教师真实人工审校或学生课堂试教。",
+    "没有真实照明/公共服务干预，模拟资料不证明因果效果。",
+    "出版格式、正式字数、课时与校本材料要求尚待外部确认。"
+  ]
+}

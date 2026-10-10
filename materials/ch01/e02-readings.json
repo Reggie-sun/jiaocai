@@ -1,0 +1,74 @@
+{
+  "notice": "短摘录已比对原文；译文为本书教学译释。提供可访问原文与准确定位，无需付费账号。",
+  "readings": [
+    {
+      "id": "T",
+      "source_id": "S03",
+      "original_excerpt": "the configuration determines the possible behaviour of the machine",
+      "quote_word_count": 9,
+      "locator": "§1 p.231，PDF p.2",
+      "translation": "配置决定机器可能的行为。",
+      "supported_contribution": "以明确状态与符号条件表达计算行为",
+      "boundary": "不证明现实所有问题可计算或同一流程可解决价值问题"
+    },
+    {
+      "id": "P",
+      "source_id": "S04",
+      "original_excerpt": "Some think of using the computer to program the kid; others think of using the kid to program the computer.",
+      "quote_word_count": 20,
+      "locator": "原报告p.1开篇，2022重印PDF p.3",
+      "translation": "一种取向是用计算机训练儿童，另一种取向是让儿童编程控制计算机。",
+      "supported_contribution": "学习者参与表达和探索的教育取向",
+      "boundary": "该短句是取向比较，不是效果数据；不能证明所有儿童必然获益"
+    },
+    {
+      "id": "W",
+      "source_id": "S01",
+      "original_excerpt": "Conceptualizing, not programming.",
+      "quote_word_count": 3,
+      "locator": "p.35首条特征",
+      "translation": "强调概念思考，超越单纯编程。",
+      "supported_contribution": "计算思维通用能力倡议中的概念与编程区别",
+      "boundary": "不表明编程无价值，也不证明2006发明全部相关思想"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "author": "Jeannette M. Wing",
+      "year": 2006,
+      "title": "Computational Thinking",
+      "url": "https://www.cs.cmu.edu/~15110-s13/Wing06-ct.pdf",
+      "locators": [
+        "p.33 opening definition",
+        "p.35 Conceptualizing, not programming"
+      ]
+    },
+    {
+      "id": "S03",
+      "author": "Alan M. Turing",
+      "year": 1937,
+      "title": "On Computable Numbers, with an Application to the Entscheidungsproblem",
+      "url": "https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf",
+      "locators": [
+        "p.230 received 28 May 1936/read 12 November 1936",
+        "§1 pp.231–232 machine configurations and tape",
+        "§6 pp.241–242 universal machine",
+        "§11 Entscheidungsproblem"
+      ]
+    },
+    {
+      "id": "S04",
+      "author": "Seymour Papert; Cynthia Solomon",
+      "year": 1971,
+      "title": "Twenty Things To Do With A Computer",
+      "url": "https://dspace.mit.edu/entities/publication/35dcc702-9306-4ad7-8a42-1209517c9c1c",
+      "locators": [
+        "原报告封面，重印PDF p.2",
+        "原报告p.1开篇，重印PDF p.3",
+        "原报告p.2，重印PDF p.4",
+        "原报告p.3 Make a Turtle，重印PDF p.5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "hard_constraints": [
+    "每个请求恰好安排一次，占一个完整时段",
+    "设备开放且满足功能",
+    "请求时段允许",
+    "每个device_id/slot_id至多一个请求"
+  ],
+  "preferences": [
+    "在可行解内可比较较早完成，需声明指标，非唯一最优承诺"
+  ],
+  "variants": [
+    {
+      "id": "baseline",
+      "change": null,
+      "expected_feasible": true
+    },
+    {
+      "id": "D2_closed",
+      "device_id": "D2",
+      "available_slots": [],
+      "expected_feasible": false
+    }
+  ]
+}

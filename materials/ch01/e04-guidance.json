@@ -1,0 +1,65 @@
+{
+  "checks": {
+    "baseline_energy_kwh": 14.4,
+    "A_energy_kwh": 21.6,
+    "B_energy_kwh": 14.4,
+    "N1_stair_hesitation_rate": 0.2,
+    "N2_stair_hesitation_rate": 0.15
+  },
+  "paths": [
+    {
+      "id": "path-B-first",
+      "position": "把B作为优先小范围验证的候选",
+      "reason": "成本较低且额定能耗不增加，但须检验暗处转移和可见性；不能直接推广。"
+    },
+    {
+      "id": "path-A-conditional",
+      "position": "保留A进入实测比较",
+      "reason": "若实际数据表明台阶可见性改善且溢出光、能源和维护约束可满足，可以再决定；较大瓦数不证明更安全。"
+    },
+    {
+      "id": "path-reframe",
+      "position": "暂不选型，先测关键位置与用户任务",
+      "reason": "现有模拟资料不能判定安全效果；可提出新候选但不能把未提供条件当已实现。"
+    }
+  ],
+  "perspectives": [
+    {
+      "view": "计算",
+      "question": "如何表示目标、条件并重复检查",
+      "evidence": "字段、规则、候选和检查输出"
+    },
+    {
+      "view": "数学",
+      "question": "额定能耗、预算及比例是否计算正确",
+      "evidence": "单位、假设、公式和可重算数值"
+    },
+    {
+      "view": "实证",
+      "question": "真实使用效果是否改变",
+      "evidence": "适当比较、观察条件、任务记录和不确定性"
+    },
+    {
+      "view": "批判",
+      "question": "主张是否超过证据，谁被遗漏",
+      "evidence": "论断—支持对应、替代解释和缺口"
+    },
+    {
+      "view": "设计",
+      "question": "使用者需要怎样的体验",
+      "evidence": "任务、访谈、原型反馈，当前仅模拟"
+    },
+    {
+      "view": "系统",
+      "question": "调整如何影响关联部分",
+      "evidence": "边界、反馈、时延、维护和其他区域影响"
+    }
+  ],
+  "rubric_dimensions": [
+    "问题与视角对应",
+    "证据需求",
+    "约束与代价",
+    "结论强度"
+  ],
+  "causal_boundary": "停顿率从20%到15%只是一组不同条件的模拟观测差异，既非试验结果也非候选效果。"
+}

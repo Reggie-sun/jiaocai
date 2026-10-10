@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="975" viewBox="0 0 1400 975">
+<title>图1-6 不同思维视角需要的证据</title>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8" fill="none" stroke="#414141" stroke-width="1.5"/></marker></defs>
+<rect width="1400" height="975" fill="white"/>
+<text x="50" y="60" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="36" fill="#202020" font-weight="700" text-anchor="start">图1-6  不同思维视角需要的证据</text>
+<text x="50" y="119" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="27" fill="#202020" font-weight="400" text-anchor="start">同一照明问题可同时使用多个视角；下面是本书教学综合，不是互斥分类。</text>
+<text x="55" y="183" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="29" fill="#202020" font-weight="700" text-anchor="start">视角</text>
+<text x="265" y="183" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="29" fill="#202020" font-weight="700" text-anchor="start">所问问题</text>
+<text x="685" y="183" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="29" fill="#202020" font-weight="700" text-anchor="start">所需证据</text>
+<text x="1120" y="183" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="29" fill="#202020" font-weight="700" text-anchor="start">回答边界</text>
+<line x1="50" y1="206" x2="1350" y2="206" stroke="#7b7b7b" stroke-width="1.5"/>
+<text x="55" y="253" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="29" fill="#202020" font-weight="700" text-anchor="start">计算</text>
+<text x="265" y="245" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">规则如何表示</text>
+<text x="265" y="283" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">候选如何重复检查</text>
+<text x="685" y="245" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">字段、条件</text>
+<text x="685" y="283" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">实际检查结果</text>
+<text x="1120" y="245" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">模型内可行</text>
+<text x="1120" y="283" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">非现实效果</text>
+<line x1="50" y1="316" x2="1350" y2="316" stroke="#7b7b7b" stroke-width="1.5"/>
+<text x="55" y="363" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="29" fill="#202020" font-weight="700" text-anchor="start">数学</text>
+<text x="265" y="355" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">预算与能耗</text>
+<text x="265" y="393" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">是否核算正确</text>
+<text x="685" y="355" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">单位与假设</text>
+<text x="685" y="393" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">可重算公式</text>
+<text x="1120" y="355" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">推算有条件</text>
+<text x="1120" y="393" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">瓦数非照度</text>
+<line x1="50" y1="426" x2="1350" y2="426" stroke="#7b7b7b" stroke-width="1.5"/>
+<text x="55" y="473" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="29" fill="#202020" font-weight="700" text-anchor="start">实证</text>
+<text x="265" y="465" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">台阶是否更易辨认</text>
+<text x="265" y="503" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">溢出光是否减少</text>
+<text x="685" y="465" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">适当比较</text>
+<text x="685" y="503" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">实际观察与任务</text>
+<text x="1120" y="465" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">当前仅模拟</text>
+<text x="1120" y="503" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">尚无因果证据</text>
+<line x1="50" y1="536" x2="1350" y2="536" stroke="#7b7b7b" stroke-width="1.5"/>
+<text x="55" y="583" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="29" fill="#202020" font-weight="700" text-anchor="start">批判</text>
+<text x="265" y="575" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">主张是否过强</text>
+<text x="265" y="613" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">谁的需求被遗漏</text>
+<text x="685" y="575" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">原始支持</text>
+<text x="685" y="613" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">假设与替代解释</text>
+<text x="1120" y="575" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">暴露证据缺口</text>
+<text x="1120" y="613" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">不等于给定结论</text>
+<line x1="50" y1="646" x2="1350" y2="646" stroke="#7b7b7b" stroke-width="1.5"/>
+<text x="55" y="693" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="29" fill="#202020" font-weight="700" text-anchor="start">设计</text>
+<text x="265" y="685" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">使用者怎样体验</text>
+<text x="265" y="723" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">候选怎样修改</text>
+<text x="685" y="685" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">用户任务</text>
+<text x="685" y="723" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">原型与反馈</text>
+<text x="1120" y="685" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">需要真实验证</text>
+<text x="1120" y="723" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">不能假定需求</text>
+<line x1="50" y1="756" x2="1350" y2="756" stroke="#7b7b7b" stroke-width="1.5"/>
+<text x="55" y="803" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="29" fill="#202020" font-weight="700" text-anchor="start">系统</text>
+<text x="265" y="795" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">局部调整影响谁</text>
+<text x="265" y="833" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">反馈是否有时延</text>
+<text x="685" y="795" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">关系与边界</text>
+<text x="685" y="833" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">维护和其他区域</text>
+<text x="1120" y="795" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">关系为待查假设</text>
+<text x="1120" y="833" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">非实测因果图</text>
+<rect x="50" y="893" width="1300" height="66" rx="7" fill="#f5f5f5" stroke="#414141" stroke-width="2"/>
+<text x="72" y="935" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="700" text-anchor="start">读图：一份正确的能耗表，还缺哪些证据才能回答“现实使用是否改善”？</text>
+</svg>

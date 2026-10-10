@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="850" viewBox="0 0 1400 850">
+<title>图1-3 可借用组合与候选安排</title>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8" fill="none" stroke="#414141" stroke-width="1.5"/></marker></defs>
+<rect width="1400" height="850" fill="white"/>
+<text x="50" y="60" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="36" fill="#202020" font-weight="700" text-anchor="start">图1-3  可借用组合与候选安排</text>
+<text x="50" y="115" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="27" fill="#202020" font-weight="400" text-anchor="start">○ 允许但未选     ● 本次已选     — 不允许；每列是一个开放的设备时段</text>
+<text x="430" y="183" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="30" fill="#202020" font-weight="700" text-anchor="middle">D1-S1</text>
+<text x="625" y="183" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="30" fill="#202020" font-weight="700" text-anchor="middle">D1-S2</text>
+<text x="820" y="183" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="30" fill="#202020" font-weight="700" text-anchor="middle">D1-S3</text>
+<text x="1015" y="183" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="30" fill="#202020" font-weight="700" text-anchor="middle">D2-S2</text>
+<text x="1210" y="183" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="30" fill="#202020" font-weight="700" text-anchor="middle">D2-S3</text>
+<text x="95" y="257" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="32" fill="#202020" font-weight="700" text-anchor="start">R1</text>
+<line x1="50" y1="287" x2="1345" y2="287" stroke="#7b7b7b" stroke-width="1.5"/>
+<text x="430" y="257" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="36" fill="#202020" font-weight="400" text-anchor="middle">●</text>
+<text x="625" y="257" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="36" fill="#202020" font-weight="400" text-anchor="middle">—</text>
+<text x="820" y="257" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="36" fill="#202020" font-weight="400" text-anchor="middle">—</text>
+<text x="1015" y="257" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="36" fill="#202020" font-weight="400" text-anchor="middle">—</text>
+<text x="1210" y="257" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="36" fill="#202020" font-weight="400" text-anchor="middle">—</text>
+<text x="95" y="351" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="32" fill="#202020" font-weight="700" text-anchor="start">R2</text>
+<line x1="50" y1="381" x2="1345" y2="381" stroke="#7b7b7b" stroke-width="1.5"/>
+<text x="430" y="351" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="36" fill="#202020" font-weight="400" text-anchor="middle">○</text>
+<text x="625" y="351" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="36" fill="#202020" font-weight="400" text-anchor="middle">●</text>
+<text x="820" y="351" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="36" fill="#202020" font-weight="400" text-anchor="middle">—</text>
+<text x="1015" y="351" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="36" fill="#202020" font-weight="400" text-anchor="middle">○</text>
+<text x="1210" y="351" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="36" fill="#202020" font-weight="400" text-anchor="middle">—</text>
+<text x="95" y="445" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="32" fill="#202020" font-weight="700" text-anchor="start">R3</text>
+<line x1="50" y1="475" x2="1345" y2="475" stroke="#7b7b7b" stroke-width="1.5"/>
+<text x="430" y="445" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="36" fill="#202020" font-weight="400" text-anchor="middle">—</text>
+<text x="625" y="445" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="36" fill="#202020" font-weight="400" text-anchor="middle">○</text>
+<text x="820" y="445" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="36" fill="#202020" font-weight="400" text-anchor="middle">○</text>
+<text x="1015" y="445" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="36" fill="#202020" font-weight="400" text-anchor="middle">●</text>
+<text x="1210" y="445" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="36" fill="#202020" font-weight="400" text-anchor="middle">○</text>
+<text x="95" y="539" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="32" fill="#202020" font-weight="700" text-anchor="start">R4</text>
+<line x1="50" y1="569" x2="1345" y2="569" stroke="#7b7b7b" stroke-width="1.5"/>
+<text x="430" y="539" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="36" fill="#202020" font-weight="400" text-anchor="middle">—</text>
+<text x="625" y="539" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="36" fill="#202020" font-weight="400" text-anchor="middle">○</text>
+<text x="820" y="539" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="36" fill="#202020" font-weight="400" text-anchor="middle">●</text>
+<text x="1015" y="539" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="36" fill="#202020" font-weight="400" text-anchor="middle">○</text>
+<text x="1210" y="539" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="36" fill="#202020" font-weight="400" text-anchor="middle">○</text>
+<rect x="50" y="647" width="1295" height="127" rx="7" fill="#f5f5f5" stroke="#414141" stroke-width="2"/>
+<text x="72" y="689" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="29" fill="#202020" font-weight="700" text-anchor="start">关闭D2后：只剩D1-S1、D1-S2、D1-S3三个位置</text>
+<text x="72" y="733" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="29" fill="#202020" font-weight="400" text-anchor="start">四个请求各需一个不同位置；4 &gt; 3，因此原硬约束下无解。</text>
+<text x="50" y="815" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="25" fill="#202020" font-weight="400" text-anchor="start">教学示例；D2-S1不开放，未列入可选位置。读图：R2为什么不能选择D1-S1？</text>
+</svg>

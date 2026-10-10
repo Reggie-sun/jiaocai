@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="840" viewBox="0 0 1400 840">
+<title>图1-1 需求如何变成可检查的规则</title>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8" fill="none" stroke="#414141" stroke-width="1.5"/></marker></defs>
+<rect width="1400" height="840" fill="white"/>
+<text x="50" y="60" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="36" fill="#202020" font-weight="700" text-anchor="start">图1-1  需求如何变成可检查的规则</text>
+<text x="62" y="126" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="30" fill="#202020" font-weight="700" text-anchor="start">口头需求</text>
+<text x="512" y="126" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="30" fill="#202020" font-weight="700" text-anchor="start">数据表示</text>
+<text x="962" y="126" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="30" fill="#202020" font-weight="700" text-anchor="start">检查规则</text>
+<rect x="50" y="150" width="380" height="114" rx="7" fill="#f5f5f5" stroke="#414141" stroke-width="2"/>
+<text x="72" y="192" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="27" fill="#202020" font-weight="700" text-anchor="start">每组都借到一次</text>
+<polyline points="438,207 491,207" fill="none" stroke="#414141" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="500" y="150" width="380" height="114" rx="7" fill="#f5f5f5" stroke="#414141" stroke-width="2"/>
+<text x="522" y="192" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="27" fill="#202020" font-weight="700" text-anchor="start">request_id</text>
+<text x="522" y="236" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="27" fill="#202020" font-weight="400" text-anchor="start">完整请求清单</text>
+<polyline points="438,207 491,207" fill="none" stroke="#414141" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="950" y="150" width="380" height="114" rx="7" fill="#f5f5f5" stroke="#414141" stroke-width="2"/>
+<text x="972" y="192" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="27" fill="#202020" font-weight="700" text-anchor="start">每请求恰好一次</text>
+<text x="972" y="236" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="27" fill="#202020" font-weight="400" text-anchor="start">同时检查遗漏和重复</text>
+<rect x="50" y="288" width="380" height="114" rx="7" fill="#f5f5f5" stroke="#414141" stroke-width="2"/>
+<text x="72" y="330" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="27" fill="#202020" font-weight="700" text-anchor="start">只能在方便时借</text>
+<polyline points="438,345 491,345" fill="none" stroke="#414141" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="500" y="288" width="380" height="114" rx="7" fill="#f5f5f5" stroke="#414141" stroke-width="2"/>
+<text x="522" y="330" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="27" fill="#202020" font-weight="700" text-anchor="start">allowed_slots</text>
+<text x="522" y="374" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="27" fill="#202020" font-weight="400" text-anchor="start">available_slots</text>
+<polyline points="438,345 491,345" fill="none" stroke="#414141" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="950" y="288" width="380" height="114" rx="7" fill="#f5f5f5" stroke="#414141" stroke-width="2"/>
+<text x="972" y="330" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="27" fill="#202020" font-weight="700" text-anchor="start">时段属于两表交集</text>
+<text x="972" y="374" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="27" fill="#202020" font-weight="400" text-anchor="start">不能擅自改可用时间</text>
+<rect x="50" y="426" width="380" height="114" rx="7" fill="#f5f5f5" stroke="#414141" stroke-width="2"/>
+<text x="72" y="468" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="27" fill="#202020" font-weight="700" text-anchor="start">需要显示功能</text>
+<polyline points="438,483 491,483" fill="none" stroke="#414141" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="500" y="426" width="380" height="114" rx="7" fill="#f5f5f5" stroke="#414141" stroke-width="2"/>
+<text x="522" y="468" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="27" fill="#202020" font-weight="700" text-anchor="start">required_capability</text>
+<text x="522" y="512" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="27" fill="#202020" font-weight="400" text-anchor="start">capabilities</text>
+<polyline points="438,483 491,483" fill="none" stroke="#414141" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="950" y="426" width="380" height="114" rx="7" fill="#f5f5f5" stroke="#414141" stroke-width="2"/>
+<text x="972" y="468" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="27" fill="#202020" font-weight="700" text-anchor="start">功能满足请求</text>
+<text x="972" y="512" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="27" fill="#202020" font-weight="400" text-anchor="start">开放不等于功能满足</text>
+<rect x="50" y="564" width="380" height="114" rx="7" fill="#f5f5f5" stroke="#414141" stroke-width="2"/>
+<text x="72" y="606" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="27" fill="#202020" font-weight="700" text-anchor="start">设备不能撞期</text>
+<polyline points="438,621 491,621" fill="none" stroke="#414141" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="500" y="564" width="380" height="114" rx="7" fill="#f5f5f5" stroke="#414141" stroke-width="2"/>
+<text x="522" y="606" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="27" fill="#202020" font-weight="700" text-anchor="start">device_id + slot_id</text>
+<text x="522" y="650" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="27" fill="#202020" font-weight="400" text-anchor="start">占用位置</text>
+<polyline points="438,621 491,621" fill="none" stroke="#414141" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="950" y="564" width="380" height="114" rx="7" fill="#f5f5f5" stroke="#414141" stroke-width="2"/>
+<text x="972" y="606" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="27" fill="#202020" font-weight="700" text-anchor="start">每位置至多一请求</text>
+<text x="972" y="650" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="27" fill="#202020" font-weight="400" text-anchor="start">跨行检查重复占用</text>
+<text x="50" y="759" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="27" fill="#202020" font-weight="400" text-anchor="start">教学示例：每请求占一个完整时段；现实应用还须确认时长和交接。</text>
+<text x="50" y="805" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="27" fill="#202020" font-weight="400" text-anchor="start">读图：哪一项规则必须检查整张安排表，而不能只检查单行？</text>
+</svg>

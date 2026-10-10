@@ -1,0 +1,69 @@
+{
+  "data_kind": "synthetic_teaching_data",
+  "notice": "本书自拟教学示例，不代表西南财经大学或真实社区。",
+  "slot_unit": "一个完整时段",
+  "slots": [
+    {
+      "slot_id": "S1",
+      "order": 1
+    },
+    {
+      "slot_id": "S2",
+      "order": 2
+    },
+    {
+      "slot_id": "S3",
+      "order": 3
+    }
+  ],
+  "participants_unit": "人",
+  "requests": [
+    {
+      "request_id": "Q1",
+      "participants": 10,
+      "allowed_slots": [
+        "S1"
+      ],
+      "required_facilities": [
+        "projector"
+      ],
+      "duration_slots": 1
+    },
+    {
+      "request_id": "Q2",
+      "participants": 8,
+      "allowed_slots": [
+        "S1",
+        "S2"
+      ],
+      "required_facilities": [
+        "projector"
+      ],
+      "duration_slots": 1
+    },
+    {
+      "request_id": "Q3",
+      "participants": 20,
+      "allowed_slots": [
+        "S2",
+        "S3"
+      ],
+      "required_facilities": [
+        "projector"
+      ],
+      "duration_slots": 1
+    },
+    {
+      "request_id": "Q4",
+      "participants": 16,
+      "allowed_slots": [
+        "S2",
+        "S3"
+      ],
+      "required_facilities": [
+        "computers"
+      ],
+      "duration_slots": 1
+    }
+  ]
+}

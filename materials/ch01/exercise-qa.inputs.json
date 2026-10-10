@@ -1,0 +1,670 @@
+{
+  "e03-rooms.json": {
+    "data_kind": "synthetic_teaching_data",
+    "notice": "本书自拟教学示例，不代表西南财经大学或真实社区。",
+    "slot_unit": "一个完整时段",
+    "slots": [
+      {
+        "slot_id": "S1",
+        "order": 1
+      },
+      {
+        "slot_id": "S2",
+        "order": 2
+      },
+      {
+        "slot_id": "S3",
+        "order": 3
+      }
+    ],
+    "capacity_unit": "人",
+    "rooms": [
+      {
+        "room_id": "C1",
+        "capacity": 12,
+        "available_slots": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "facilities": [
+          "projector"
+        ]
+      },
+      {
+        "room_id": "C2",
+        "capacity": 24,
+        "available_slots": [
+          "S2",
+          "S3"
+        ],
+        "facilities": [
+          "projector",
+          "computers"
+        ]
+      }
+    ]
+  },
+  "e01-requests.json": {
+    "data_kind": "synthetic_teaching_data",
+    "notice": "本书自拟教学示例，不代表西南财经大学或真实社区。",
+    "slot_unit": "一个完整时段",
+    "slots": [
+      {
+        "slot_id": "S1",
+        "order": 1
+      },
+      {
+        "slot_id": "S2",
+        "order": 2
+      },
+      {
+        "slot_id": "S3",
+        "order": 3
+      }
+    ],
+    "requests": [
+      {
+        "request_id": "R1",
+        "required_capability": "display",
+        "allowed_slots": [
+          "S1"
+        ]
+      },
+      {
+        "request_id": "R2",
+        "required_capability": "display",
+        "allowed_slots": [
+          "S1",
+          "S2"
+        ]
+      },
+      {
+        "request_id": "R3",
+        "required_capability": "display",
+        "allowed_slots": [
+          "S2",
+          "S3"
+        ]
+      },
+      {
+        "request_id": "R4",
+        "required_capability": "display",
+        "allowed_slots": [
+          "S2",
+          "S3"
+        ]
+      }
+    ]
+  },
+  "e01-devices.json": {
+    "data_kind": "synthetic_teaching_data",
+    "notice": "本书自拟教学示例，不代表西南财经大学或真实社区。",
+    "slot_unit": "一个完整时段",
+    "slots": [
+      {
+        "slot_id": "S1",
+        "order": 1
+      },
+      {
+        "slot_id": "S2",
+        "order": 2
+      },
+      {
+        "slot_id": "S3",
+        "order": 3
+      }
+    ],
+    "devices": [
+      {
+        "device_id": "D1",
+        "capabilities": [
+          "display"
+        ],
+        "available_slots": [
+          "S1",
+          "S2",
+          "S3"
+        ]
+      },
+      {
+        "device_id": "D2",
+        "capabilities": [
+          "display"
+        ],
+        "available_slots": [
+          "S2",
+          "S3"
+        ]
+      }
+    ]
+  },
+  "e05-data.json": {
+    "data_kind": "synthetic_teaching_data",
+    "notice": "本书自拟教学示例，不代表西南财经大学或真实社区。",
+    "slot_unit": "一个完整时段",
+    "slots": [
+      {
+        "slot_id": "S1",
+        "order": 1
+      },
+      {
+        "slot_id": "S2",
+        "order": 2
+      },
+      {
+        "slot_id": "S3",
+        "order": 3
+      }
+    ],
+    "scene": "虚构社区数字服务咨询预约",
+    "capacity_unit": "每工作人员每时段服务1个请求",
+    "resources": [
+      {
+        "resource_id": "V1",
+        "capacity": 1,
+        "qualifications": [
+          "general"
+        ],
+        "available_slots": [
+          "S1",
+          "S2",
+          "S3"
+        ]
+      },
+      {
+        "resource_id": "V2",
+        "capacity": 1,
+        "qualifications": [
+          "general",
+          "screen_reader"
+        ],
+        "available_slots": [
+          "S2",
+          "S3"
+        ]
+      }
+    ],
+    "requests": [
+      {
+        "request_id": "P1",
+        "participants": 1,
+        "required_qualification": "general",
+        "allowed_slots": [
+          "S1"
+        ],
+        "duration_slots": 1
+      },
+      {
+        "request_id": "P2",
+        "participants": 1,
+        "required_qualification": "general",
+        "allowed_slots": [
+          "S1",
+          "S2"
+        ],
+        "duration_slots": 1
+      },
+      {
+        "request_id": "P3",
+        "participants": 1,
+        "required_qualification": "screen_reader",
+        "allowed_slots": [
+          "S2",
+          "S3"
+        ],
+        "duration_slots": 1
+      },
+      {
+        "request_id": "P4",
+        "participants": 1,
+        "required_qualification": "general",
+        "allowed_slots": [
+          "S2",
+          "S3"
+        ],
+        "duration_slots": 1
+      }
+    ]
+  },
+  "e04-guidance.json": {
+    "checks": {
+      "baseline_energy_kwh": 14.4,
+      "A_energy_kwh": 21.6,
+      "B_energy_kwh": 14.4,
+      "N1_stair_hesitation_rate": 0.2,
+      "N2_stair_hesitation_rate": 0.15
+    },
+    "paths": [
+      {
+        "id": "path-B-first",
+        "position": "把B作为优先小范围验证的候选",
+        "reason": "成本较低且额定能耗不增加，但须检验暗处转移和可见性；不能直接推广。"
+      },
+      {
+        "id": "path-A-conditional",
+        "position": "保留A进入实测比较",
+        "reason": "若实际数据表明台阶可见性改善且溢出光、能源和维护约束可满足，可以再决定；较大瓦数不证明更安全。"
+      },
+      {
+        "id": "path-reframe",
+        "position": "暂不选型，先测关键位置与用户任务",
+        "reason": "现有模拟资料不能判定安全效果；可提出新候选但不能把未提供条件当已实现。"
+      }
+    ],
+    "perspectives": [
+      {
+        "view": "计算",
+        "question": "如何表示目标、条件并重复检查",
+        "evidence": "字段、规则、候选和检查输出"
+      },
+      {
+        "view": "数学",
+        "question": "额定能耗、预算及比例是否计算正确",
+        "evidence": "单位、假设、公式和可重算数值"
+      },
+      {
+        "view": "实证",
+        "question": "真实使用效果是否改变",
+        "evidence": "适当比较、观察条件、任务记录和不确定性"
+      },
+      {
+        "view": "批判",
+        "question": "主张是否超过证据，谁被遗漏",
+        "evidence": "论断—支持对应、替代解释和缺口"
+      },
+      {
+        "view": "设计",
+        "question": "使用者需要怎样的体验",
+        "evidence": "任务、访谈、原型反馈，当前仅模拟"
+      },
+      {
+        "view": "系统",
+        "question": "调整如何影响关联部分",
+        "evidence": "边界、反馈、时延、维护和其他区域影响"
+      }
+    ],
+    "rubric_dimensions": [
+      "问题与视角对应",
+      "证据需求",
+      "约束与代价",
+      "结论强度"
+    ],
+    "causal_boundary": "停顿率从20%到15%只是一组不同条件的模拟观测差异，既非试验结果也非候选效果。"
+  },
+  "e03-requests.json": {
+    "data_kind": "synthetic_teaching_data",
+    "notice": "本书自拟教学示例，不代表西南财经大学或真实社区。",
+    "slot_unit": "一个完整时段",
+    "slots": [
+      {
+        "slot_id": "S1",
+        "order": 1
+      },
+      {
+        "slot_id": "S2",
+        "order": 2
+      },
+      {
+        "slot_id": "S3",
+        "order": 3
+      }
+    ],
+    "participants_unit": "人",
+    "requests": [
+      {
+        "request_id": "Q1",
+        "participants": 10,
+        "allowed_slots": [
+          "S1"
+        ],
+        "required_facilities": [
+          "projector"
+        ],
+        "duration_slots": 1
+      },
+      {
+        "request_id": "Q2",
+        "participants": 8,
+        "allowed_slots": [
+          "S1",
+          "S2"
+        ],
+        "required_facilities": [
+          "projector"
+        ],
+        "duration_slots": 1
+      },
+      {
+        "request_id": "Q3",
+        "participants": 20,
+        "allowed_slots": [
+          "S2",
+          "S3"
+        ],
+        "required_facilities": [
+          "projector"
+        ],
+        "duration_slots": 1
+      },
+      {
+        "request_id": "Q4",
+        "participants": 16,
+        "allowed_slots": [
+          "S2",
+          "S3"
+        ],
+        "required_facilities": [
+          "computers"
+        ],
+        "duration_slots": 1
+      }
+    ]
+  },
+  "e01-rules.json": {
+    "hard_constraints": [
+      "每个请求恰好安排一次，占一个完整时段",
+      "设备开放且满足功能",
+      "请求时段允许",
+      "每个device_id/slot_id至多一个请求"
+    ],
+    "preferences": [
+      "在可行解内可比较较早完成，需声明指标，非唯一最优承诺"
+    ],
+    "variants": [
+      {
+        "id": "baseline",
+        "change": null,
+        "expected_feasible": true
+      },
+      {
+        "id": "D2_closed",
+        "device_id": "D2",
+        "available_slots": [],
+        "expected_feasible": false
+      }
+    ]
+  },
+  "e03-guidance.json": {
+    "reference": [
+      {
+        "request_id": "Q1",
+        "room_id": "C1",
+        "slot_id": "S1"
+      },
+      {
+        "request_id": "Q2",
+        "room_id": "C1",
+        "slot_id": "S2"
+      },
+      {
+        "request_id": "Q3",
+        "room_id": "C2",
+        "slot_id": "S2"
+      },
+      {
+        "request_id": "Q4",
+        "room_id": "C2",
+        "slot_id": "S3"
+      }
+    ],
+    "mapping": {
+      "device_id": "room_id",
+      "capabilities": "facilities",
+      "allowed_slots": "allowed_slots",
+      "device/slot_unique": "room/slot_unique"
+    },
+    "new_conditions": [
+      "participants<=capacity",
+      "设施按集合包含而非仅有显示功能",
+      "实际场地还可能需要清洁、通行、许可，未计入本教学模型"
+    ],
+    "counterexample": "照搬设备可行解，把Q3的20人安排在C1-S3，时间不冲突且有投影，但20>12，非法。",
+    "variant_unsat": "C2容量18后，Q3的20人超过两个场地的容量12和18，无候选位置。",
+    "rubric_dimensions": [
+      "对应结构",
+      "领域条件",
+      "例外与反例",
+      "证据支持调整"
+    ]
+  },
+  "e03-rules.json": {
+    "hard_constraints": [
+      "每个请求恰好安排一次",
+      "participants<=capacity",
+      "required_facilities为facilities的子集",
+      "场地和请求均允许时段",
+      "同一room_id/slot_id至多一个请求",
+      "duration_slots=1"
+    ],
+    "preferences": [
+      "只在满足硬约束后比较时段顺序"
+    ],
+    "variants": [
+      {
+        "id": "baseline",
+        "expected_feasible": true
+      },
+      {
+        "id": "C2_capacity18",
+        "room_id": "C2",
+        "capacity": 18,
+        "expected_feasible": false
+      }
+    ]
+  },
+  "e04-brief.json": {
+    "data_kind": "synthetic_teaching_data",
+    "scene": "虚构社区公共步道L，改善夜间可见性，并考虑邻近居民、维护与能源。",
+    "notice": "需求陈述、观察和价格均为教学模拟；没有实施候选、真实调查或因果效果数据；lx读数不用于判定照明标准合规。",
+    "requirements": [
+      {
+        "speaker": "步道使用者甲",
+        "statement": "台阶边缘看不清，希望容易辨认高差。"
+      },
+      {
+        "speaker": "邻近居民乙",
+        "statement": "窗边直射光影响休息，希望减少溢出光。"
+      },
+      {
+        "speaker": "维护人员丙",
+        "statement": "灯具难检修，希望更换成本可控制。"
+      },
+      {
+        "speaker": "管理者丁",
+        "statement": "教学假定新增一次性支出上限4000元，不削减可用通行时间。"
+      }
+    ],
+    "observation_unit": {
+      "passers": "人次/30分钟",
+      "hesitations": "停顿次数/30分钟",
+      "illuminance": "lx（教学仪器读数）"
+    },
+    "observations": [
+      {
+        "row": "O1",
+        "location": "台阶",
+        "night": "N1",
+        "window": "20:00-20:30",
+        "illuminance_lx": 8,
+        "passers": 40,
+        "hesitations": 8,
+        "weather": "干燥",
+        "other_conditions": "同行提醒较少"
+      },
+      {
+        "row": "O2",
+        "location": "台阶",
+        "night": "N2",
+        "window": "20:00-20:30",
+        "illuminance_lx": 12,
+        "passers": 60,
+        "hesitations": 9,
+        "weather": "小雨",
+        "other_conditions": "部分撑伞，活动结束"
+      },
+      {
+        "row": "O3",
+        "location": "窗边",
+        "night": "N1",
+        "window": "20:00-20:30",
+        "illuminance_lx": 18,
+        "passers": 15,
+        "hesitations": 1,
+        "weather": "干燥",
+        "other_conditions": "收到2条溢出光意见"
+      },
+      {
+        "row": "O4",
+        "location": "窗边",
+        "night": "N2",
+        "window": "20:00-20:30",
+        "illuminance_lx": 20,
+        "passers": 20,
+        "hesitations": 2,
+        "weather": "小雨",
+        "other_conditions": "收到3条溢出光意见"
+      }
+    ],
+    "baseline": {
+      "lamps": 4,
+      "watts_per_lamp": 20,
+      "hours_per_day": 6,
+      "days_per_month": 30
+    },
+    "candidates": [
+      {
+        "id": "A",
+        "description": "把4盏灯全部换为30W灯具，位置与每天点亮6小时不变",
+        "one_time_cost_yuan": 3600,
+        "lamps": 4,
+        "watts_per_lamp": 30,
+        "hours_per_day": 6,
+        "days_per_month": 30,
+        "hypothesis": "较大功率可能改善部分位置照明；实际照度、眩光和可见性未测定。"
+      },
+      {
+        "id": "B",
+        "description": "保持4盏20W灯具，增加遮光罩并调整朝向，点亮时长不变",
+        "one_time_cost_yuan": 2800,
+        "lamps": 4,
+        "watts_per_lamp": 20,
+        "hours_per_day": 6,
+        "days_per_month": 30,
+        "hypothesis": "可能减少溢出光，台阶是否足够清晰需另测；可能把暗处移到其他位置。"
+      }
+    ],
+    "energy_assumptions": "仅灯具额定功率×点亮时长的教学估算，不计驱动损耗、调光和维修；1kWh=1000Wh。",
+    "known_evidence_gaps": [
+      "没有候选实施后对照数据",
+      "没有真实用户测试",
+      "没有灯具配光和照明合规测定",
+      "样本量和观测条件不一致，不能仅据相关得出因果"
+    ]
+  },
+  "e05-guidance.json": {
+    "reference": [
+      {
+        "request_id": "P1",
+        "resource_id": "V1",
+        "slot_id": "S1"
+      },
+      {
+        "request_id": "P2",
+        "resource_id": "V1",
+        "slot_id": "S2"
+      },
+      {
+        "request_id": "P3",
+        "resource_id": "V2",
+        "slot_id": "S2"
+      },
+      {
+        "request_id": "P4",
+        "resource_id": "V1",
+        "slot_id": "S3"
+      }
+    ],
+    "variant_unsat": "撤除V2的screen_reader资格后，P3没有合格工作人员，无解；不能安排给只有general的V1。",
+    "model_boundaries": [
+      "会使用screen_reader为教学假定资格，不代表真实职业认证或授权",
+      "未计入实际身份、服务内容、个人敏感信息和超时需求；现实应用需重建",
+      "不能以合格排程证明服务满意、公平或可达性真实达标"
+    ],
+    "acceptable_paths": [
+      "手工列允许位置并逐项核对",
+      "电子表格筛选与占用表",
+      "小程序有限枚举",
+      "AI生成候选后独立逐项核验，保留错误和修正"
+    ],
+    "rubric_dimensions": [
+      "完整问题说明",
+      "适用表示",
+      "可执行方案",
+      "实际检验",
+      "迁移与边界"
+    ]
+  },
+  "e01-reference.json": {
+    "reference": [
+      {
+        "request_id": "R1",
+        "device_id": "D1",
+        "slot_id": "S1"
+      },
+      {
+        "request_id": "R2",
+        "device_id": "D1",
+        "slot_id": "S2"
+      },
+      {
+        "request_id": "R3",
+        "device_id": "D2",
+        "slot_id": "S2"
+      },
+      {
+        "request_id": "R4",
+        "device_id": "D1",
+        "slot_id": "S3"
+      }
+    ],
+    "baseline_expected_solution_count": 12,
+    "D2_closed_expected_solution_count": 0,
+    "unsat_argument": "D2关闭后只剩D1的3个设备时段，4个请求每个需要唯一位置，4>3；R1还占用S1，剩3个请求竞争S2/S3。",
+    "negotiation_boundary": "新增时段、借入设备或推迟请求均属于修改条件的待协商提案，不是原问题可行解。",
+    "rubric_dimensions": [
+      "条件完整",
+      "表示清楚",
+      "满足全部硬约束",
+      "区分可行/无解/协商提案",
+      "解释修正"
+    ]
+  },
+  "e05-rules.json": {
+    "goal": "为全部4个预约分配合格工作人员和时段；不要求唯一最优",
+    "hard_constraints": [
+      "每请求恰好一次",
+      "时段同时属于请求与工作人员开放范围",
+      "工作人员资格满足请求",
+      "每resource_id/slot_id只服务1个请求",
+      "每请求participants=1且duration_slots=1，符合capacity=1"
+    ],
+    "preferences": [
+      "可比较较早完成；公平原则须另经说明，不能由编号推断价值优先级"
+    ],
+    "variants": [
+      {
+        "id": "baseline",
+        "expected_feasible": true
+      },
+      {
+        "id": "V2_without_screen_reader",
+        "resource_id": "V2",
+        "qualifications": [
+          "general"
+        ],
+        "expected_feasible": false
+      }
+    ]
+  }
+}

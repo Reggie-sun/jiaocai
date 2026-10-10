@@ -1,0 +1,127 @@
+{
+  "scope": "第一章教学用语；完整方法教程在后续章展开",
+  "entries": [
+    {
+      "term": "计算思维",
+      "first_section": "1.1",
+      "definition": "借助计算机科学的概念组织问题与解决过程，使表示、处理和检查有清楚依据；不限于编程。",
+      "source_ids": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "term": "问题表示",
+      "first_section": "1.1",
+      "definition": "为当前目标选择对象、关系和状态的表达方式。"
+    },
+    {
+      "term": "抽象",
+      "first_section": "1.1",
+      "definition": "保留相关信息，明确被略去的信息与代价。"
+    },
+    {
+      "term": "分解",
+      "first_section": "1.1",
+      "definition": "拆开子问题，同时保留依赖与整体检查。"
+    },
+    {
+      "term": "模式识别",
+      "first_section": "1.1",
+      "definition": "提出共同结构或规则，并保留例外。"
+    },
+    {
+      "term": "算法",
+      "first_section": "1.1",
+      "definition": "有明确输入、操作、判断和输出的处理步骤；本章要求步骤可执行且有限任务能终止。"
+    },
+    {
+      "term": "硬约束",
+      "first_section": "1.1",
+      "definition": "决定方案能否被接受为可行的必要条件。"
+    },
+    {
+      "term": "偏好",
+      "first_section": "1.1",
+      "definition": "在满足硬约束的候选中作比较的标准；比较口径须说明。"
+    },
+    {
+      "term": "可行",
+      "first_section": "1.1",
+      "definition": "候选满足当前问题的全部硬约束。"
+    },
+    {
+      "term": "无解",
+      "first_section": "1.1",
+      "definition": "有证据说明当前条件下不存在满足全部硬约束的方案；不同于暂未找到。"
+    },
+    {
+      "term": "迁移",
+      "first_section": "1.3",
+      "definition": "对应结构、重建新条件并检验适用范围。"
+    },
+    {
+      "term": "模型边界",
+      "first_section": "1.1",
+      "definition": "当前表示、假设和结论覆盖的范围。"
+    },
+    {
+      "term": "实证检验",
+      "first_section": "1.4",
+      "definition": "用适当观察与比较检查现实主张；模拟算术不证明真实干预效果。"
+    },
+    {
+      "term": "critical thinking",
+      "chinese": "批判性思维",
+      "first_section": "1.4",
+      "definition": "有目的、自我调节的判断，关注解释、分析、评价与推断。",
+      "source_ids": [
+        "S05"
+      ]
+    },
+    {
+      "term": "confabulation",
+      "chinese": "生成式AI自信输出错误或虚假内容的风险",
+      "first_section": "1.1",
+      "definition": "按NIST术语说明输出可能错误、偏离输入或自相矛盾；不以流畅度证明事实。",
+      "source_ids": [
+        "S09"
+      ]
+    },
+    {
+      "term": "评估",
+      "first_section": "1.1",
+      "definition": "对照目标与标准检查候选，并说明结论的适用范围。"
+    },
+    {
+      "term": "自动化",
+      "first_section": "1.1",
+      "definition": "让程序或工具重复执行已明确的操作。"
+    },
+    {
+      "term": "泛化",
+      "first_section": "1.1",
+      "definition": "提出规则的适用范围，并用新条件和例外检查它。"
+    }
+  ],
+  "names": [
+    {
+      "original": "Alan M. Turing",
+      "chinese": "图灵",
+      "citation_year": 1937,
+      "date_note": "原文1936年收稿与报告；书目1937年出版。"
+    },
+    {
+      "original": "Seymour Papert; Cynthia Solomon",
+      "chinese": "Papert与Solomon",
+      "citation_year": 1971,
+      "note": "保留两位作者；本章不主张术语最早创造者。"
+    },
+    {
+      "original": "Jeannette M. Wing",
+      "chinese": "Wing",
+      "citation_year": 2006,
+      "note": "2010文中采用的定义明确归于Cuny、Snyder与Wing。"
+    }
+  ]
+}

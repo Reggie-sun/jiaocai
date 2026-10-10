@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="880" viewBox="0 0 1400 880">
+<title>图1-2 从问题表示到检验的反馈</title>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8" fill="none" stroke="#414141" stroke-width="1.5"/></marker></defs>
+<rect width="1400" height="880" fill="white"/>
+<text x="50" y="60" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="36" fill="#202020" font-weight="700" text-anchor="start">图1-2  从问题表示到检验的反馈</text>
+<rect x="50" y="142" width="280" height="140" rx="7" fill="#f5f5f5" stroke="#414141" stroke-width="2"/>
+<text x="72" y="184" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="25" fill="#202020" font-weight="700" text-anchor="start">需求与条件</text>
+<text x="72" y="228" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="25" fill="#202020" font-weight="400" text-anchor="start">目标、已知与待确认</text>
+<rect x="390" y="142" width="280" height="140" rx="7" fill="#f5f5f5" stroke="#414141" stroke-width="2"/>
+<text x="412" y="184" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="25" fill="#202020" font-weight="700" text-anchor="start">问题表示</text>
+<text x="412" y="228" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="25" fill="#202020" font-weight="400" text-anchor="start">字段、关系与规则</text>
+<rect x="730" y="142" width="280" height="140" rx="7" fill="#f5f5f5" stroke="#414141" stroke-width="2"/>
+<text x="752" y="184" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="25" fill="#202020" font-weight="700" text-anchor="start">处理步骤</text>
+<text x="752" y="228" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="25" fill="#202020" font-weight="400" text-anchor="start">生成并保存候选</text>
+<rect x="1070" y="142" width="280" height="140" rx="7" fill="#f5f5f5" stroke="#414141" stroke-width="2"/>
+<text x="1092" y="184" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="25" fill="#202020" font-weight="700" text-anchor="start">实际检验</text>
+<text x="1092" y="228" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="25" fill="#202020" font-weight="400" text-anchor="start">逐项检查并记录</text>
+<polyline points="337,212 380,212" fill="none" stroke="#414141" stroke-width="2.5" marker-end="url(#arrow)"/>
+<polyline points="677,212 720,212" fill="none" stroke="#414141" stroke-width="2.5" marker-end="url(#arrow)"/>
+<polyline points="1017,212 1060,212" fill="none" stroke="#414141" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="70" y="106" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">上方箭头：本轮处理；下方虚线：依据失败返回相应位置</text>
+<rect x="930" y="425" width="420" height="170" rx="7" fill="#f5f5f5" stroke="#414141" stroke-width="2"/>
+<text x="952" y="467" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="700" text-anchor="start">检验结果与失败位置</text>
+<text x="952" y="511" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">通过：保留有边界的方案</text>
+<text x="952" y="555" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">失败：说明哪个条件不满足</text>
+<polyline points="1210,289 1210,413" fill="none" stroke="#414141" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="50" y="660" width="365" height="142" rx="7" fill="#f5f5f5" stroke="#414141" stroke-width="2"/>
+<text x="72" y="702" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="27" fill="#202020" font-weight="700" text-anchor="start">条件有误或发生变化</text>
+<text x="72" y="746" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="27" fill="#202020" font-weight="400" text-anchor="start">回到需求重新确认</text>
+<rect x="505" y="660" width="365" height="142" rx="7" fill="#f5f5f5" stroke="#414141" stroke-width="2"/>
+<text x="527" y="702" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="27" fill="#202020" font-weight="700" text-anchor="start">字段或关系遗漏</text>
+<text x="527" y="746" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="27" fill="#202020" font-weight="400" text-anchor="start">修订表示与规则</text>
+<rect x="960" y="660" width="365" height="142" rx="7" fill="#f5f5f5" stroke="#414141" stroke-width="2"/>
+<text x="982" y="702" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="27" fill="#202020" font-weight="700" text-anchor="start">候选存在占用冲突</text>
+<text x="982" y="746" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="27" fill="#202020" font-weight="400" text-anchor="start">修正处理步骤并重检</text>
+<polyline points="1090,602 1090,625 1142,625 1142,650" fill="none" stroke="#414141" stroke-width="2.5" marker-end="url(#arrow)" stroke-dasharray="9 6"/>
+<polyline points="1040,602 1040,625 687,625 687,650" fill="none" stroke="#414141" stroke-width="2.5" marker-end="url(#arrow)" stroke-dasharray="9 6"/>
+<polyline points="980,602 980,625 232,625 232,650" fill="none" stroke="#414141" stroke-width="2.5" marker-end="url(#arrow)" stroke-dasharray="9 6"/>
+<polyline points="50,730 25,730 25,315 190,315 190,292" fill="none" stroke="#414141" stroke-width="2.5" marker-end="url(#arrow)" stroke-dasharray="9 6"/>
+<polyline points="505,730 470,730 470,325 530,325 530,292" fill="none" stroke="#414141" stroke-width="2.5" marker-end="url(#arrow)" stroke-dasharray="9 6"/>
+<polyline points="1325,730 1375,730 1375,335 870,335 870,292" fill="none" stroke="#414141" stroke-width="2.5" marker-end="url(#arrow)" stroke-dasharray="9 6"/>
+<text x="50" y="852" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">本书教学组织图：反馈可能改条件、表示或步骤，不是只重跑同一候选。</text>
+</svg>

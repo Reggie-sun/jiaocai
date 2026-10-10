@@ -1,0 +1,43 @@
+{
+  "reference": [
+    {
+      "request_id": "Q1",
+      "room_id": "C1",
+      "slot_id": "S1"
+    },
+    {
+      "request_id": "Q2",
+      "room_id": "C1",
+      "slot_id": "S2"
+    },
+    {
+      "request_id": "Q3",
+      "room_id": "C2",
+      "slot_id": "S2"
+    },
+    {
+      "request_id": "Q4",
+      "room_id": "C2",
+      "slot_id": "S3"
+    }
+  ],
+  "mapping": {
+    "device_id": "room_id",
+    "capabilities": "facilities",
+    "allowed_slots": "allowed_slots",
+    "device/slot_unique": "room/slot_unique"
+  },
+  "new_conditions": [
+    "participants<=capacity",
+    "设施按集合包含而非仅有显示功能",
+    "实际场地还可能需要清洁、通行、许可，未计入本教学模型"
+  ],
+  "counterexample": "取E01的另一个可行解R1—D1—S1、R2—D2—S2、R3—D1—S3、R4—D2—S3（不是正文参考表），仅改名映射后Q3—C1—S3时间允许且有投影，但20>12，非法。",
+  "variant_unsat": "C2容量18后，Q3的20人超过两个场地的容量12和18，无候选位置。",
+  "rubric_dimensions": [
+    "对应结构",
+    "领域条件",
+    "例外与反例",
+    "证据支持调整"
+  ]
+}

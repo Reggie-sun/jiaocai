@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800">
+<title>图1-4 思想节点、贡献与证据</title>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8" fill="none" stroke="#414141" stroke-width="1.5"/></marker></defs>
+<rect width="1400" height="800" fill="white"/>
+<text x="50" y="60" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="36" fill="#202020" font-weight="700" text-anchor="start">图1-4  思想节点、贡献与证据</text>
+<text x="50" y="116" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="27" fill="#202020" font-weight="400" text-anchor="start">按文献时间并置；本图没有直接影响箭头，横向位置不构成因果证明。</text>
+<rect x="50" y="170" width="380" height="345" rx="7" fill="#f5f5f5" stroke="#414141" stroke-width="2"/>
+<text x="72" y="212" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="700" text-anchor="start">1936收稿 / 1937书目</text>
+<text x="72" y="256" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">Turing  [3]</text>
+<text x="72" y="300" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">有限状态与符号操作</text>
+<text x="72" y="344" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">通用计算机器</text>
+<text x="72" y="388" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">及判定问题边界</text>
+<text x="72" y="432" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">原文：§1、§6、§11</text>
+<rect x="510" y="170" width="380" height="345" rx="7" fill="#f5f5f5" stroke="#414141" stroke-width="2"/>
+<text x="532" y="212" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="700" text-anchor="start">1971  MIT报告</text>
+<text x="532" y="256" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">Papert与Solomon  [4]</text>
+<text x="532" y="300" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">学习者编程与探索</text>
+<text x="532" y="344" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">通过活动表达想法</text>
+<text x="532" y="388" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">教育设计主张</text>
+<text x="532" y="432" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">原文：开篇及活动1</text>
+<rect x="970" y="170" width="380" height="345" rx="7" fill="#f5f5f5" stroke="#414141" stroke-width="2"/>
+<text x="992" y="212" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="700" text-anchor="start">2006  CACM观点文章</text>
+<text x="992" y="256" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">Wing  [1]</text>
+<text x="992" y="300" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">计算思维通用能力倡议</text>
+<text x="992" y="344" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">强调概念思考超越编程</text>
+<text x="992" y="388" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">不是首创全部思想的证据</text>
+<text x="992" y="432" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="26" fill="#202020" font-weight="400" text-anchor="start">原文：pp.33–35</text>
+<rect x="50" y="574" width="1300" height="151" rx="7" fill="#f5f5f5" stroke="#414141" stroke-width="2"/>
+<text x="72" y="616" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="27" fill="#202020" font-weight="700" text-anchor="start">本书教学比较：如何表达可计算过程 / 如何借程序学习 / 谁需要这种能力</text>
+<text x="72" y="660" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="27" fill="#202020" font-weight="400" text-anchor="start">三类问题互相启发；所附短摘录不足以建立人物之间的直接影响链。</text>
+<text x="50" y="772" font-family="'Noto Sans CJK SC', 'Noto Sans CJK', sans-serif" font-size="27" fill="#202020" font-weight="400" text-anchor="start">读图：从原文可以确认哪个贡献？哪个教育效果或影响关系仍不能确认？</text>
+</svg>
