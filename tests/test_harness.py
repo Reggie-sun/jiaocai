@@ -80,9 +80,10 @@ class HarnessAcceptanceTests(unittest.TestCase):
     def check(self, run_id='fixture'):
         return self.success('check', '--id', run_id)
 
-    def evidence(self, run_id='fixture', statuses=None):
+    def evidence(self, run_id='fixture', statuses=None, kind='ai_self'):
         run = self.run_record(run_id)
         evidence = {'reviewer': 'parent fixture reviewer', 'reviewed_at': datetime.now(timezone.utc).isoformat(),
+                    'review_kind': kind, 'spec_sha256': run['spec_sha256'],
                     'policy_sha256': run['policy_sha256'], 'engine_sha256': run['engine_sha256'],
                     'snapshot': run['check']['snapshot'],
                     'checks': {key: {'status': 'pass', 'notes': f'Fixture inspection of {key}; not a real textbook review.'}
@@ -121,10 +122,12 @@ class HarnessAcceptanceTests(unittest.TestCase):
         for command in ('validate', 'start', 'check', 'review', 'accept', 'resume', 'status'):
             self.assertIn(command, result.stdout)
 
-    def test_policy_validates_and_real_ledger_has_no_fake_book_runs(self):
+    def test_policy_validates_without_assuming_real_project_is_empty(self):
         self.assertTrue(self.success('validate')['valid'])
-        real = json.loads((PROJECT / 'harness.json').read_text(encoding='utf-8'))
-        self.assertEqual(real['runs'], [])
+        result = subprocess.run([sys.executable, str(PROJECT / 'scripts/harness.py'), 'validate'],
+                                capture_output=True, text=True, timeout=20)
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertTrue(json.loads(result.stdout)['valid'])
 
     def test_malformed_json_does_not_damage_ledger(self):
         bad = b'{"policy": '
@@ -160,6 +163,27 @@ class HarnessAcceptanceTests(unittest.TestCase):
         for event in run['events']:
             self.assertIsNotNone(datetime.fromisoformat(event['at']).tzinfo)
         self.assertFalse(self.success('status', '--id', 'fixture')['stale'])
+
+    def test_status_summary_keeps_history_available_without_mutation(self):
+        self.accepted()
+        before = (self.root/'harness.json').read_bytes()
+        summary = self.success('status')['runs'][0]
+        self.assertEqual(summary['effective_state'], 'accepted')
+        self.assertEqual(summary['manuscript'], self.spec['manuscript'])
+        self.assertNotIn('events', summary)
+        detail = self.success('status', '--id', 'fixture')['runs'][0]
+        self.assertEqual(len(detail['events']), 4)
+        self.assertEqual(detail['review']['evidence']['review_kind'], 'ai_self')
+        self.assertEqual((self.root/'harness.json').read_bytes(), before)
+
+    def test_legacy_started_status_resume_flow_still_works(self):
+        self.start()
+        self.spec['todos'] = ['真实待办']
+        self.save_spec()
+        self.failure('status', '--id', 'fixture', code=1)
+        self.assertEqual(self.run_record()['state'], 'started')
+        self.success('resume', '--id', 'fixture')
+        self.assertEqual(self.check()['state'], 'checked')
 
     def test_section_is_not_subject_to_whole_chapter_word_budget(self):
         self.spec['stage'] = 'final'
@@ -260,8 +284,13 @@ class HarnessAcceptanceTests(unittest.TestCase):
         self.add_figure()
         self.accepted()
         self.write('assets/图 1.svg', '<svg/>')
+        before = (self.root / 'harness.json').read_bytes()
         self.failure('status', '--id', 'fixture', code=1)
-        self.assertEqual(self.run_record()['state'], 'blocked')
+        self.assertEqual(self.run_record()['state'], 'accepted')
+        self.assertEqual((self.root / 'harness.json').read_bytes(), before)
+        report = json.loads(self.cli('status', '--id', 'fixture').stdout)['runs'][0]
+        self.assertEqual(report['effective_state'], 'blocked')
+        self.assertIn('file changed: assets/图 1.svg', report['stale_reasons'])
         self.assertTrue(any(e['action'] == 'accept' for e in self.run_record()['events']))
 
     def test_changed_manuscript_core_source_blueprint_and_material_invalidate(self):
@@ -287,9 +316,14 @@ class HarnessAcceptanceTests(unittest.TestCase):
         self.assertFalse(self.success('status', '--id', 'fixture')['stale'])
         doc = json.loads((self.root / 'harness.json').read_text())
         doc['policy']['instructions'].append('New routing instruction')
+        doc['policy']['limits'].append('Clarify a limitation without changing a gate')
+        doc['policy']['name'] = 'Updated display name'
+        self.write('harness.json', json.dumps(doc, ensure_ascii=False))
+        self.assertFalse(self.success('status', '--id', 'fixture')['stale'])
+        doc['policy']['word_count']['chapter_min'] += 1
         self.write('harness.json', json.dumps(doc, ensure_ascii=False))
         self.failure('status', '--id', 'fixture', code=1)
-        self.assertEqual(self.run_record()['state'], 'blocked')
+        self.failure('accept', '--id', 'fixture', code=1, contains='stale')
 
     def test_engine_change_invalidates(self):
         self.accepted()
@@ -416,6 +450,169 @@ class HarnessAcceptanceTests(unittest.TestCase):
             self.assertEqual(result.returncode, 0, result.stderr)
         doc = json.loads((self.root / 'harness.json').read_text())
         self.assertEqual({run['id'] for run in doc['runs']}, {'one', 'two'})
+
+    def test_editing_started_spec_rechecks_without_status_or_resume(self):
+        self.start()
+        self.spec['todos'] = ['真实初稿待办']
+        self.save_spec()
+        run = self.check()
+        self.assertEqual(run['spec'], self.spec)
+        self.assertIn('真实初稿待办', run['check']['pending'])
+        self.assertEqual([e['action'] for e in run['events']], ['start', 'refresh', 'check'])
+
+    def test_unchanged_recheck_keeps_review_and_ledger_bytes(self):
+        for checkpoint in ['checked', 'reviewed', 'accepted']:
+            with self.subTest(checkpoint=checkpoint):
+                self.start(checkpoint)
+                self.check(checkpoint)
+                if checkpoint != 'checked':
+                    self.evidence(checkpoint)
+                    self.success('review', '--id', checkpoint, '--evidence', 'runs/review.json')
+                if checkpoint == 'accepted':
+                    self.success('accept', '--id', checkpoint)
+                before = (self.root / 'harness.json').read_bytes()
+                self.assertEqual(self.check(checkpoint)['state'], checkpoint)
+                self.assertEqual((self.root / 'harness.json').read_bytes(), before)
+
+    def test_accepted_revision_rechecks_and_old_review_cannot_be_reused(self):
+        old = self.accepted()
+        old_evidence = old['review']['evidence']
+        with (self.root / self.spec['manuscript']).open('a') as stream:
+            stream.write('\n新的教学解释\n')
+        updated = self.check()
+        self.assertEqual(updated['state'], 'checked')
+        self.assertIsNone(updated['review'])
+        self.assertIn('accept', [e['action'] for e in updated['events']])
+        self.assertNotEqual(updated['check']['snapshot'], old['check']['snapshot'])
+        self.write('runs/review.json', json.dumps(old_evidence))
+        self.failure('review', '--id', 'fixture', '--evidence', 'runs/review.json', code=1)
+        self.evidence()
+        self.review()
+        self.success('accept', '--id', 'fixture')
+        self.assertEqual(len([e for e in self.run_record()['events'] if e['action'] == 'accept']), 2)
+
+    def test_fixed_review_and_progress_retry_without_rechecking(self):
+        self.start()
+        self.check()
+        checked = self.run_record()['check']
+        evidence = self.evidence()
+        evidence['checks']['teaching']['status'] = 'pending'
+        self.write('runs/review.json', json.dumps(evidence))
+        self.failure('review', '--id', 'fixture', '--evidence', 'runs/review.json', code=1)
+        self.evidence()
+        self.review()
+        self.write('教材编写现状与目的.md', '进度链接暂缺')
+        self.failure('accept', '--id', 'fixture', code=1)
+        self.write('教材编写现状与目的.md', '[稿件](<manuscripts/一节 稿件.md>)\n范围section/draft，配图不适用，无待办。')
+        run = self.success('accept', '--id', 'fixture')
+        self.assertEqual(run['check'], checked)
+        self.assertEqual(len([e for e in run['events'] if e['action'] == 'check']), 1)
+        self.assertEqual(run['events'][-1]['details']['review_kind'], 'ai_self')
+        self.assertEqual(run['events'][-1]['details']['progress_sha256'],
+                         hashlib.sha256((self.root / '教材编写现状与目的.md').read_bytes()).hexdigest())
+
+    def test_recovery_never_bypasses_missing_or_stale_proofs(self):
+        self.start()
+        self.failure('review', '--id', 'fixture', '--evidence', 'runs/review.json', code=1)
+        self.failure('accept', '--id', 'fixture', code=1)
+        self.check()
+        self.evidence()
+        self.write('教材编写现状与目的.md', '链接暂缺')
+        self.review()
+        self.failure('accept', '--id', 'fixture', code=1)
+        with (self.root / self.spec['manuscript']).open('a') as stream:
+            stream.write('\n改变稿件\n')
+        self.write('教材编写现状与目的.md', '[稿件](<manuscripts/一节 稿件.md>)')
+        self.failure('accept', '--id', 'fixture', code=1, contains='stale')
+
+    def test_review_kind_and_spec_binding_are_required_for_new_reviews(self):
+        self.start()
+        self.check()
+        for field, value in [('review_kind', None), ('review_kind', 'pretend-independent'),
+                             ('spec_sha256', 'wrong')]:
+            with self.subTest(field=field, value=value):
+                evidence = self.evidence()
+                if value is None:
+                    del evidence[field]
+                else:
+                    evidence[field] = value
+                self.write('runs/review.json', json.dumps(evidence))
+                self.failure('review', '--id', 'fixture', '--evidence', 'runs/review.json', code=1)
+                self.check()
+        for kind in ['ai_self', 'independent', 'human']:
+            with self.subTest(kind=kind):
+                self.evidence(kind=kind)
+                run = self.review()
+                self.assertEqual(run['review']['evidence']['review_kind'], kind)
+                self.assertEqual(self.success('status', '--id', 'fixture')['runs'][0]['review_kind'], kind)
+                self.success('resume', '--id', 'fixture')
+                self.check()
+
+    def test_invalid_spec_refresh_leaves_saved_evidence_untouched(self):
+        self.accepted()
+        before = (self.root / 'harness.json').read_bytes()
+        self.spec['manuscript'] = '../outside.md'
+        self.save_spec()
+        self.failure('check', '--id', 'fixture', code=2, contains='escapes')
+        self.assertEqual((self.root / 'harness.json').read_bytes(), before)
+        self.failure('status', '--id', 'fixture', code=1)
+
+    def test_recheck_captures_a_newly_created_planned_figure(self):
+        self.spec['figures'] = [{'id': '图1-1', 'file': 'assets/planned.svg', 'caption': '关系图',
+                                'source': '计划自绘', 'status': 'planned'}]
+        self.save_spec()
+        self.start()
+        self.check()
+        self.assertNotIn('assets/planned.svg', self.run_record()['check']['snapshot'])
+        self.write('assets/planned.svg', '<svg/>')
+        self.failure('status', '--id', 'fixture', code=1)
+        self.assertIn('assets/planned.svg', self.check()['check']['snapshot'])
+
+    def test_final_chapter_requires_actual_registered_figures(self):
+        self.spec.update(scope='chapter', stage='final')
+        self.save_spec()
+        with (self.root / self.spec['manuscript']).open('a') as stream:
+            stream.write('教' * 30000)
+        self.start()
+        self.failure('check', '--id', 'fixture', code=1, contains='figure')
+
+    def test_ten_chapters_deliver_without_per_section_runs(self):
+        for chapter in range(1, 11):
+            run_id = f'ch{chapter:02d}'
+            name = f'manuscripts/ch{chapter:02d}.md'
+            self.spec.update(scope='chapter', stage='final', chapter=chapter, manuscript=name)
+            self.write(name, '# 问题分解\n学习目标 案例 方法 反思\n' + '教' * 30000 + '\n![关系图](../assets/shared.svg)\n图1-1 问题关系\n')
+            self.write('assets/shared.svg', '<svg xmlns="http://www.w3.org/2000/svg"/>')
+            self.spec['figures'] = [{'id':'图1-1', 'file':'assets/shared.svg', 'caption':'问题关系', 'source':'教学fixture', 'status':'ready'}]
+            spec_name = f'runs/{run_id}.spec.json'
+            self.save_spec(spec_name)
+            self.success('start', '--id', run_id, '--spec', spec_name)
+            # Repeated ordinary drafting requires no Harness calls.
+            with (self.root / name).open('a') as stream:
+                stream.write('\n连续修改一次\n再修改一次\n')
+            self.check(run_id)
+            self.evidence(run_id)
+            evidence_name = f'runs/{run_id}.review.json'
+            self.write(evidence_name, (self.root/'runs/review.json').read_text())
+            self.success('review', '--id', run_id, '--evidence', evidence_name)
+            with (self.root / '教材编写现状与目的.md').open('a') as stream:
+                stream.write(f'\n[第{chapter}章](../{self.root.name}/{name}) chapter/final；已完成，配图ready，无待办。\n')
+            self.success('accept', '--id', run_id)
+        report = self.success('status')
+        self.assertEqual(len(report['runs']), 10)
+        self.assertTrue(all(r['effective_state'] == 'accepted' for r in report['runs']))
+
+    def test_legacy_review_history_remains_unclassified(self):
+        self.accepted()
+        doc = json.loads((self.root/'harness.json').read_text())
+        evidence = doc['runs'][0]['review']['evidence']
+        del evidence['review_kind']
+        del evidence['spec_sha256']
+        self.write('harness.json', json.dumps(doc, ensure_ascii=False))
+        self.assertTrue(self.success('validate')['valid'])
+        report = self.success('status', '--id', 'fixture')['runs'][0]
+        self.assertEqual(report['review_kind'], 'legacy_unspecified')
+        self.failure('accept', '--id', 'fixture', code=1)
 
     def test_original_book_sources_remain_unchanged(self):
         expected = {'AI时代的计算思维--跨界创新与终身学习能力培养-教材大纲.docx': '4b2526dd13a07ea1facaeefcef09658b9df46ab4496df6c782c8dc222967d8be',

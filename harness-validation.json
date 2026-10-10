@@ -133,5 +133,126 @@
     "real_chapters_accepted": 0,
     "real_figures_created": 0,
     "next_action": "Register blueprint/draft with real spec, then author and inspect the ten-chapter blueprint."
+  },
+  "product_optimization": {
+    "recorded_at": "2026-10-10T19:34:40.421171+00:00",
+    "goal": "创作自主、过程轻量、交付严格、证据可信",
+    "implementation_owner": "Codex parent",
+    "snapshot": {
+      "scripts/harness.py": "3d226917d2aa30da1de9e48d6c7ee941cc3f84a9da9529212ae8e3360fbfb1af",
+      "tests/test_harness.py": "9b6d2a1c1b2e9bc12d76ad3704061f0d07684c84feb1a902e2d2431d8880d0e8",
+      "harness.json": "cec46cc1164f62f48b09a9754e9fea8af4926a86ff253ef6cc99234d2d2074a5",
+      "AGENTS.md": "fe1cbc0a601ff9207c4045e88dd5fb5edf3821d39719c4c6cc756078577facf0",
+      "README.md": "c3d65f8646c529748c8f640950463a70c82d429bd327318d4caabfdd69298da4",
+      "教材编写现状与目的.md": "913ee360301fe3c9b31b38a3cb142e0058febba693dd32c9d87e43e2c5110599",
+      "templates/run.example.json": "22a8a27962a64313553e42e1cbf82ba3117a31a81ba34fde0c33f163c8627634",
+      "/home/reggie/.local/share/chatgpt-desktop/skills/textbook-authoring/SKILL.md": "e4e06cecd599af99bc6ceea24f12293d7be97ca17d7bf9461d62398fa95a505b"
+    },
+    "policy_sha256": "a0e6a5968ef1f1c718eb423930e9f965ce3378d940a17fe44d9cb483509e90ab",
+    "engine_sha256": "3d226917d2aa30da1de9e48d6c7ee941cc3f84a9da9529212ae8e3360fbfb1af",
+    "verification": [
+      {
+        "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -v",
+        "exit_code": 0,
+        "tests_run": 51,
+        "observed_output": "Ran 51 tests in 12.517s; OK",
+        "isolation": "Temporary fixture projects; ten chapter/final deliveries exercise state, snapshots and recovery, not teaching quality or real textbook acceptance."
+      },
+      {
+        "command": "python3 scripts/harness.py validate",
+        "exit_code": 0,
+        "result": {
+          "valid": true,
+          "policy_sha256": "a0e6a5968ef1f1c718eb423930e9f965ce3378d940a17fe44d9cb483509e90ab",
+          "engine_sha256": "3d226917d2aa30da1de9e48d6c7ee941cc3f84a9da9529212ae8e3360fbfb1af",
+          "runs": 1
+        }
+      },
+      {
+        "command": "python3 scripts/harness.py status",
+        "exit_code": 1,
+        "result": {
+          "runs": [
+            {
+              "id": "blueprint-20261011",
+              "state": "reviewed",
+              "scope": "blueprint",
+              "stage": "draft",
+              "manuscript": "十章编写蓝图.md",
+              "pending": [
+                "第九章及第十章重组为编写提案，尚待外部确认",
+                "学时与评审意见、校本案例及出版社要求尚未确认",
+                "章级教学图为规划，本轮只制作试写节采用的图"
+              ],
+              "effective_state": "blocked",
+              "stale_reasons": [
+                "policy changed",
+                "engine changed"
+              ],
+              "review_kind": "legacy_unspecified"
+            }
+          ],
+          "stale": true
+        }
+      },
+      {
+        "command": "git diff --check",
+        "exit_code": 0
+      },
+      {
+        "command": "/usr/bin/python3 /home/reggie/.local/share/chatgpt-desktop/skills/.system/skill-creator/scripts/quick_validate.py /home/reggie/.local/share/chatgpt-desktop/skills/textbook-authoring",
+        "exit_code": 0,
+        "observed_output": "Skill is valid!"
+      }
+    ],
+    "baseline_tests": {
+      "tests_run": 38,
+      "passed": 37,
+      "failed": 1,
+      "failure": "Obsolete assertion required the real project ledger to remain empty despite a real blueprint run."
+    },
+    "integrity": {
+      "ledger_readonly": true,
+      "original_run_history_preserved": true,
+      "routing_links": {
+        "checked_files": 4,
+        "missing": []
+      },
+      "original_inputs_sha256": {
+        "AI时代的计算思维--跨界创新与终身学习能力培养-教材大纲.docx": "4b2526dd13a07ea1facaeefcef09658b9df46ab4496df6c782c8dc222967d8be",
+        "AI时代的思维训练3.1节样稿.docx": "2fde276942f55dd4cfb00f0036a0d4a8935bd8320cef4c2eb0c47ed707e5aa17"
+      },
+      "foreign_changes": "Existing chapter Markdown specs/plans, blueprint and run history preserved; commit includes only task-owned changes."
+    },
+    "delegation": {
+      "skill": "/home/reggie/.agents/skills/external-subagent/SKILL.md",
+      "role": "explorer",
+      "scope": "Bounded baseline flow investigation; not final implementation review",
+      "invocation_id": "258a3870-ae7d-44a6-8ea9-ed6c48dd3c09",
+      "classification": "SOURCE_CHANGED",
+      "receipt_path": "/home/reggie/.local/state/agent-subagent-router/runs/258a3870-ae7d-44a6-8ea9-ed6c48dd3c09/invocation-receipt.json",
+      "receipt_sha256": "fcbf2b315108db3eaf567e0ada0e05488d5e6a80bc8aae44da14b7b24934e164",
+      "wire_requests": 2,
+      "adoption": "None. AGENTS.md changed externally from chapter JSON to Markdown routing during the seal; no partial report used. Shared document ownership subsequently confirmed by user. No automatic retry or native fallback."
+    },
+    "review_risk_gate": {
+      "snapshot_identity": "product_optimization.snapshot",
+      "decision": "KIMI_REVIEW_NOT_REQUIRED",
+      "explicit_snapshot_review_requested": false,
+      "critical_consequence": "No credential, provider, deployment, destructive production or original textbook-source mutations; local locked/atomic ledger remains recoverable.",
+      "remaining_gap": "51 executable tests cover fresh/stale delivery, spec and policy bindings, recovery, exact evidence, pending/final gates, path safety and concurrency. No evidenced major engineering consequence with a remaining semantic verification gap requires another reviewer. Teaching quality and authentic independent review remain explicitly outside machine proof.",
+      "acceptance_owner": "Codex parent after final source/diff review"
+    },
+    "session_record_evaluation": "No repository-specific session-capture skill declared. Existing progress owner and this engineering record updated.",
+    "production_readiness": {
+      "can_start_chapter_01": true,
+      "real_chapters_accepted_this_task": 0,
+      "legacy_blueprint": "Saved reviewed history retained; effective_state blocked because policy and engine changed. Fresh check and actual review required for redelivery.",
+      "remaining_limits": [
+        "Review provenance is declared; Harness cannot authenticate reviewer identity or prove teaching quality.",
+        "Word/PDF layout, publisher word count and real classroom validation remain separate.",
+        "The existing chapter plan retains legacy optional commands; current CLI/AGENTS/README govern recovery."
+      ]
+    }
   }
 }

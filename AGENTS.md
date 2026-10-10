@@ -13,7 +13,7 @@
 
 ## Writing
 
-收到教材目录、正文、练习、图表规划或审校任务时，先读取 [textbook-authoring/SKILL.md](/home/reggie/.local/share/chatgpt-desktop/skills/textbook-authoring/SKILL.md)，再按其指南执行；教学、插图与交付细则由该技能维护。
+收到教材目录、正文、练习、图表规划或审校任务时，读取 [textbook-authoring/SKILL.md](/home/reggie/.local/share/chatgpt-desktop/skills/textbook-authoring/SKILL.md) 取得教学标准与能力入口。模型自主选择写作策略、任务拆分、检索工具与修改顺序；spec约束交付目标，plan提供依赖与里程碑，具体工程恢复以当前Harness为准。
 
 用户可在聊天消息中用 `$textbook-authoring` 显式调用，例如：
 
@@ -23,7 +23,7 @@ $textbook-authoring 请先阅读项目目的记录、教材提纲和3.1节样稿
 
 ## Skill Routing
 
-按当前任务选择必要的辅助技能，先读取对应入口再执行。以 `$` 标记的名称可在聊天中显式调用；辅助技能服从教材体例与当轮范围。
+按实际能力或证据缺口选择辅助技能，需要使用时读取入口；不为凑齐流程全部调用。以 `$` 标记的名称可在聊天中显式调用；辅助技能服从教材体例与当轮范围。
 
 | 任务 | Skill 入口 |
 | --- | --- |
@@ -42,9 +42,9 @@ $textbook-authoring 请先阅读项目目的记录、教材提纲和3.1节样稿
 
 ## Engineering Harness
 
-编写蓝图、单节或整章前，读取 [harness.json](/home/reggie/vscode_folder/jiaocai/harness.json)，按 [run模板](/home/reggie/vscode_folder/jiaocai/templates/run.example.json) 登记真实任务，通过 [scripts/harness.py](/home/reggie/vscode_folder/jiaocai/scripts/harness.py) 执行 `start → check → review → accept`；接口与审校模板见脚本 `--help`。JSON policy与脚本独占工程状态、证据快照和验收规则，教材主技能维护教学方法，目的记录维护当前进度。
+探索、试写和普通修改无需逐次登记或验收。默认在整章正式交付时验收；实际交付独立蓝图或单节时按对应范围登记。已有run只需在交付或需要诊断时重新check，文件未变则保留有效证据，变化后检查与实际审校必须对应当前完整快照。
 
-新窗口先执行 `python3 scripts/harness.py status`，发现失效证据后按policy执行 `resume` 再检查与审校。不得手填通过或把 `draft` 验收称为定稿；机器检查不替代实际教学、来源、练习和图表审校。未完成的任务保留实际状态并更新进度。
+[harness.json](/home/reggie/vscode_folder/jiaocai/harness.json) 与 [scripts/harness.py](/home/reggie/vscode_folder/jiaocai/scripts/harness.py) 独占工程状态、证据快照与验收规则；操作示例见 [README.md](/home/reggie/vscode_folder/jiaocai/README.md)，接口见脚本 `--help`。接续时用只读status核对 `effective_state` 与失效原因；check可直接恢复，resume是可选入口。不得手填通过或把draft称为定稿；审校注明AI自审、独立审校或真实人工审校，机器通过不替代教学、来源、练习、图表与一致性审校。进度与未决事项由目的记录维护。
 
 ## Progress
 

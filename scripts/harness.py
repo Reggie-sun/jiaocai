@@ -15,9 +15,9 @@ import tempfile
 from urllib.parse import unquote, urlparse
 
 STATES = ['started', 'checked', 'reviewed', 'accepted', 'blocked']
-TRANSITIONS = {'check': ['started', 'checked', 'reviewed', 'blocked'],
-               'review': ['checked'], 'accept': ['reviewed'],
-               'resume': ['blocked', 'checked', 'reviewed']}
+TRANSITIONS = {'check': ['started', 'checked', 'reviewed', 'accepted', 'blocked'],
+               'review': ['checked', 'blocked'], 'accept': ['reviewed', 'accepted', 'blocked'],
+               'resume': ['started', 'blocked', 'checked', 'reviewed', 'accepted']}
 MANUAL = ['teaching', 'sources', 'exercises', 'figures', 'consistency']
 POLICY_KEYS = {'name', 'scopes', 'stages', 'states', 'transitions', 'required_inputs',
                'manual_checks', 'final_forbidden_markers', 'word_count',
@@ -210,7 +210,10 @@ def ledger(root):
                         os.unlink(name)
 
 def policy_sha(doc):
-    return digest({'schema_version': doc['schema_version'], 'policy': doc['policy']})
+    # Advisory prose does not change an executable delivery gate.
+    gates = {key: value for key, value in doc['policy'].items()
+             if key not in {'name', 'instructions', 'limits'}}
+    return digest({'schema_version': doc['schema_version'], 'policy': gates})
 
 def engine_sha():
     return sha(Path(__file__).resolve())
@@ -245,6 +248,15 @@ def bind(root, doc, spec_path, spec, spec_hash):
             'policy_sha256': policy_sha(doc), 'engine_sha256': engine_sha(),
             'inputs': snapshot(root, doc['policy']['required_inputs']), 'check': None, 'review': None}
 
+def refresh_run(root, doc, run, action, reasons):
+    path = safe_path(root, run['spec_path'], True)
+    spec, spec_hash = stable_json(path)
+    validate_spec(root, doc['policy'], spec)
+    bindings = bind(root, doc, path, spec, spec_hash)
+    previous = {key: run[key] for key in bindings}
+    event(run, action, 'started', {'reasons': reasons, 'previous_bindings': previous})
+    run.update(bindings)
+
 def stale(root, doc, run):
     reasons = []
     if run['policy_sha256'] != policy_sha(doc):
@@ -263,13 +275,22 @@ def stale(root, doc, run):
                 reasons.append(f'file changed: {name}')
         except (HarnessError, OSError):
             reasons.append(f'file missing or unsafe: {name}')
+    if run['check'] is not None:
+        for fig in run['spec']['figures']:
+            if fig['file'] is not None:
+                try:
+                    path = safe_path(root, fig['file'])
+                    if path.is_file() and relative(root, path) not in run['check']['snapshot']:
+                        reasons.append(f'declared figure appeared: {fig["file"]}')
+                except HarnessError:
+                    reasons.append(f'file missing or unsafe: {fig["file"]}')
     return reasons
 
 def require_fresh(root, doc, run):
     reasons = stale(root, doc, run)
     if reasons:
         event(run, 'invalidate', 'blocked', reasons)
-        raise HarnessError('Evidence is stale; resume, check and review again: ' + '; '.join(reasons), 1)
+        raise HarnessError('Evidence is stale; check current files and review again: ' + '; '.join(reasons), 1)
 
 def require_transition(doc, run, action):
     if run['state'] not in doc['policy']['transitions'][action]:
@@ -373,6 +394,8 @@ def check_manuscript(root, doc, run):
         if path is not None:
             files.append(name)
     registered = set()
+    if spec['scope'] == 'chapter' and spec['stage'] == 'final' and not spec['figures']:
+        errors.append('Final chapter needs at least one actual teaching figure')
     for fig in spec['figures']:
         path = safe_path(root, fig['file']) if fig['file'] is not None else None
         if fig['status'] == 'planned':
@@ -404,8 +427,10 @@ def check_manuscript(root, doc, run):
             'han_characters_approx': count}
 
 def validate_review(doc, run, evidence):
-    fields = {'reviewer', 'reviewed_at', 'policy_sha256', 'engine_sha256', 'snapshot', 'checks'}
+    fields = {'reviewer', 'review_kind', 'reviewed_at', 'spec_sha256',
+              'policy_sha256', 'engine_sha256', 'snapshot', 'checks'}
     ensure(isinstance(evidence, dict) and set(evidence) == fields, 'Invalid review evidence fields')
+    ensure(evidence['review_kind'] in ['ai_self', 'independent', 'human'], 'Invalid review_kind')
     text(evidence['reviewer'], 'reviewer')
     ensure('待填写' not in evidence['reviewer'], 'reviewer must identify the actual reviewer')
     try:
@@ -417,6 +442,7 @@ def validate_review(doc, run, evidence):
     ensure(evidence['policy_sha256'] == run['policy_sha256'] and evidence['engine_sha256'] == run['engine_sha256'],
            'Review policy/engine hash mismatch')
     ensure(evidence['snapshot'] == run['check']['snapshot'], 'Review snapshot mismatch')
+    ensure(evidence['spec_sha256'] == run['spec_sha256'], 'Review spec hash mismatch')
     checks = evidence['checks']
     ensure(isinstance(checks, dict) and set(checks) == set(doc['policy']['manual_checks']), 'Missing or unknown manual check')
     for name, row in checks.items():
@@ -435,7 +461,9 @@ def validate_review(doc, run, evidence):
 
 def require_progress(root, doc, run):
     path = safe_path(root, doc['policy']['progress_file'], True)
+    before = sha(path)
     body = visible_markdown(path.read_text(encoding='utf-8'))
+    ensure(sha(path) == before, 'Progress record changed while reading')
     links = re.findall(r'(?<!!)\[[^\]]+\]\(\s*(<[^>]+>|[^\s)]+)', body)
     expected = safe_path(root, run['spec']['manuscript'], True)
     for link in links:
@@ -446,7 +474,7 @@ def require_progress(root, doc, run):
             continue
         try:
             if safe_path(root, str(path.parent / link)) == expected:
-                return
+                return before
         except HarnessError:
             pass
     raise HarnessError('Update the actual progress record with a Markdown link to this manuscript before accept', 1)
@@ -468,34 +496,37 @@ def execute(root, doc, args):
         return run
     if args.command == 'status':
         targets = [find_run(doc, args.id)] if args.id else doc['runs']
-        any_stale = False
+        reports = []
         for run in targets:
             reasons = stale(root, doc, run)
-            if reasons:
-                any_stale = True
-                if run['state'] != 'blocked' or run['events'][-1]['details'] != reasons:
-                    event(run, 'invalidate', 'blocked', reasons)
-        return {'runs': targets, 'stale': any_stale}
+            kind = run['review']['evidence'].get('review_kind', 'legacy_unspecified') if run['review'] else None
+            summary = run if args.id else {'id': run['id'], 'state': run['state'],
+                                          'scope': run['spec']['scope'], 'stage': run['spec']['stage'],
+                                          'manuscript': run['spec']['manuscript'],
+                                          'pending': run['check']['pending'] if run['check'] else run['spec']['todos']}
+            reports.append({**summary, 'effective_state': 'blocked' if reasons else run['state'],
+                            'stale_reasons': reasons, 'review_kind': kind})
+        return {'runs': reports, 'stale': any(r['stale_reasons'] for r in reports)}
     run = find_run(doc, args.id)
     require_transition(doc, run, args.command)
     if args.command == 'resume':
-        path = safe_path(root, run['spec_path'], True)
-        spec, spec_hash = stable_json(path)
-        validate_spec(root, p, spec)
-        bindings = bind(root, doc, path, spec, spec_hash)
-        # Events retain prior evidence; current proofs are explicitly reset.
-        event(run, 'resume', 'started', {'previous_check': run['check'], 'previous_review': run['review']})
-        run.update(bindings)
+        refresh_run(root, doc, run, 'resume', stale(root, doc, run))
         return run
-    require_fresh(root, doc, run)
     if args.command == 'check':
+        reasons = stale(root, doc, run)
+        if reasons:
+            refresh_run(root, doc, run, 'refresh', reasons)
+        elif run['state'] in {'checked', 'reviewed', 'accepted'} and run['check']['passed']:
+            return run
         result = check_manuscript(root, doc, run)
-        require_fresh(root, doc, run)
         run.update(check=result, review=None)
+        require_fresh(root, doc, run)
         event(run, 'check', 'checked' if result['passed'] else 'blocked', result)
         if not result['passed']:
             raise HarnessError('Mechanical checks failed: ' + '; '.join(result['errors']), 1)
     elif args.command == 'review':
+        ensure(run['check'] is not None and run['check']['passed'], 'Review requires a passing current check')
+        require_fresh(root, doc, run)
         try:
             path = safe_path(root, args.evidence, True)
             ensure(relative(root, path) not in run['check']['snapshot'] and relative(root, path) != run['spec_path'],
@@ -503,21 +534,29 @@ def execute(root, doc, args):
             evidence, evidence_hash = stable_json(path)
             validate_review(doc, run, evidence)
             require_fresh(root, doc, run)
+            ensure(sha(path) == evidence_hash, 'Review evidence changed while admitting')
         except HarnessError as exc:
             event(run, 'review', 'blocked', [str(exc)])
             raise HarnessError(str(exc), 1) from exc
         run['review'] = {'at': now(), 'path': relative(root, path), 'sha256': evidence_hash, 'evidence': evidence}
         event(run, 'review', 'reviewed', run['review'])
     elif args.command == 'accept':
+        ensure(run['check'] is not None and run['check']['passed'] and run['review'] is not None,
+               'Accept requires a passing current check and actual review')
+        require_fresh(root, doc, run)
         try:
             validate_review(doc, run, run['review']['evidence'])
-            require_progress(root, doc, run)
+            progress_hash = require_progress(root, doc, run)
             require_fresh(root, doc, run)
         except HarnessError as exc:
             event(run, 'accept', 'blocked', [str(exc)])
             raise HarnessError(str(exc), 1) from exc
+        if run['state'] == 'accepted':
+            return run
         event(run, 'accept', 'accepted', {'scope': run['spec']['scope'], 'stage': run['spec']['stage'],
-                                          'snapshot': run['check']['snapshot'], 'review_sha256': run['review']['sha256']})
+                                          'snapshot': run['check']['snapshot'], 'review_sha256': run['review']['sha256'],
+                                          'review_kind': run['review']['evidence']['review_kind'],
+                                          'progress_sha256': progress_hash})
     return run
 
 def parser():
@@ -528,20 +567,27 @@ planned figures, pending reviews, and out-of-range whole-chapter Han count.
 Accept applies only to the declared scope/stage; a draft acceptance is not final.
 The engine does not prove teaching quality or enforce other Codex tool use.
 '''
-    epilog = '''Workflow:
+    epilog = '''Delivery checkpoint (draft/edit freely before this):
   start --id ch01-s01-draft --spec runs/ch01-s01.spec.json
   check --id ch01-s01-draft
   review-template --id ch01-s01-draft > runs/ch01-s01.review.json
-  (Actually inspect files, edit each review row, reviewer and reviewed_at.)
+  (Actually inspect files, fill review_kind, each review row, reviewer and reviewed_at.)
   review --id ch01-s01-draft --evidence runs/ch01-s01.review.json
   (Update 教材编写现状与目的.md with manuscript link/status/figure progress.)
   accept --id ch01-s01-draft
   status --id ch01-s01-draft
-  resume --id ch01-s01-draft  (reset stale/blocked proofs; retain events)
+  check --id ch01-s01-draft  (refresh changed inputs; unchanged passing proofs are reused)
+  resume --id ch01-s01-draft  (optional explicit reset; retain history)
+Register once per actual delivery scope, normally a chapter, not every edit/section.
+status is a read-only summary; --id includes full history and evidence.
+effective_state/stale_reasons describe current evidence validity.
+Invalid review/progress can be corrected and review/accept retried without a recheck,
+provided all check/review dependencies are still fresh. Changed files need check/review.
 Spec: templates/run.example.json; blueprint scope uses chapter=null, blueprint=null.
 Figure: {id,file,caption,source,status:planned|ready}; planned file may be null.
 materials: local citation ledgers, data and editable diagram sources to hash.
-Review: {reviewer,reviewed_at,policy_sha256,engine_sha256,snapshot,checks}.
+Review: {reviewer,review_kind,reviewed_at,spec_sha256,policy_sha256,engine_sha256,snapshot,checks}.
+review_kind: ai_self|independent|human (declared provenance, not authenticated identity).
 checks: teaching/sources/exercises/figures/consistency -> {status:pass|pending|na,notes}.
 review-template emits pending rows; it never emits a passing review.
 '''
@@ -569,6 +615,7 @@ def main():
                 ensure(run['state'] == 'checked', 'review-template requires checked state')
                 require_fresh(root, doc, run)
                 result = {'reviewer': '待填写实际审校者', 'reviewed_at': now(),
+                          'review_kind': 'ai_self', 'spec_sha256': run['spec_sha256'],
                           'policy_sha256': run['policy_sha256'], 'engine_sha256': run['engine_sha256'],
                           'snapshot': run['check']['snapshot'],
                           'checks': {name: {'status': 'pending', 'notes': '待完成实际审校后填写依据'} for name in MANUAL}}
