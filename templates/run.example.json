@@ -1,0 +1,19 @@
+{
+  "scope": "section",
+  "stage": "draft",
+  "chapter": 1,
+  "title": "真实节标题（待填写）",
+  "manuscript": "manuscripts/ch01-section01.md",
+  "blueprint": "十章编写蓝图.md",
+  "required_content": [
+    "学习目标",
+    "案例",
+    "方法",
+    "反思"
+  ],
+  "figures": [],
+  "materials": [],
+  "todos": [
+    "待填写真实稿件与图表登记"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "policy": {
+    "name": "西南财经大学十章教材工程验收",
+    "scopes": [
+      "blueprint",
+      "section",
+      "chapter"
+    ],
+    "stages": [
+      "draft",
+      "final"
+    ],
+    "states": [
+      "started",
+      "checked",
+      "reviewed",
+      "accepted",
+      "blocked"
+    ],
+    "transitions": {
+      "check": [
+        "started",
+        "checked",
+        "reviewed",
+        "blocked"
+      ],
+      "review": [
+        "checked"
+      ],
+      "accept": [
+        "reviewed"
+      ],
+      "resume": [
+        "blocked",
+        "checked",
+        "reviewed"
+      ]
+    },
+    "required_inputs": [
+      "AI时代的计算思维--跨界创新与终身学习能力培养-教材大纲.docx",
+      "AI时代的思维训练3.1节样稿.docx"
+    ],
+    "manual_checks": [
+      "teaching",
+      "sources",
+      "exercises",
+      "figures",
+      "consistency"
+    ],
+    "final_forbidden_markers": [
+      "【待核验】",
+      "【待制作】",
+      "[待核验]",
+      "[待制作]",
+      "TODO:",
+      "TBD"
+    ],
+    "word_count": {
+      "method": "han_characters_approx",
+      "chapter_min": 28000,
+      "chapter_max": 40000
+    },
+    "progress_file": "教材编写现状与目的.md",
+    "limits": [
+      "机器检查通过只证明当前声明的结构、文件和状态门槛满足，教学质量、事实支持、答案计算和图的语义仍由实际审校者负责。",
+      "审校证据绑定本轮声明的稿件、蓝图、材料、图表、policy和脚本哈希；未登记的外部资料变化无法自动发现。",
+      "本地owner可修改policy、脚本及证据，系统不是防篡改或外部认证边界，也不能强制AI遵守AGENTS或限制其他工具。",
+      "v1自动读取Markdown正文和本地图像引用；Word/PDF排版、渲染及正式字数需要另行检查。",
+      "汉字数为近似预检口径；完整章final检查28000–40000，不能替代Word或出版社的正式统计，单节不应用整章限额。",
+      "draft验收只接受所声明范围的初稿，可保留已记录的待办；它不代表章节定稿、全书完成或校方验收。",
+      "仅识别约定的占位标记和已登记待办；普通文字中的不确定性以及遗漏的待办需人工审校发现。"
+    ],
+    "instructions": [
+      "详细运行约束以本JSON和scripts/harness.py为准；调用 python3 scripts/harness.py --help 查看接口，validate检查配置。",
+      "先复制templates/run.example.json到runs/<id>.spec.json，按真实任务填写scope、stage、title和路径；blueprint使用chapter=null、blueprint=null，其稿件必须有第1章至第10章的十个独立Markdown章标题。",
+      "start --id <id> --spec <path>登记开始，允许稿件尚未创建；id禁止覆盖。仅声明实际任务，不登记虚构完成记录。",
+      "图对象固定id/file/caption/source/status；planned文件可null，ready图片必须存在、在正文嵌入并出现图号图题。materials登记引用台账、数据和可编辑图源等审校依赖。",
+      "check --id <id>读取实际正文、蓝图、材料与图片并生成快照；draft允许明确待办、占位和planned图，final不允许这些项。所有阶段均禁止缺少声明的必要正文或ready图。",
+      "review-template --id <id>输出全部pending的审校模板；审校者实际阅读全文、核算练习、查看图表和核查来源后填写reviewer、reviewed_at及各项notes/status，再调用review --id <id> --evidence <path>。",
+      "人工审校项teaching/sources/exercises/figures/consistency均需记录实际依据；teaching与consistency须对当前scope/stage判为pass，其他项可有理由地na，已登记图不可na，final完整章图表计划需pass。pending只可用于draft的来源、练习或图表，须在状态记录公开；未填审校者或原模板notes不能作为审校证据。",
+      "accept只接受当前reviewed且证据未变化的run。事先在教材编写现状与目的.md写入该稿件的真实Markdown链接、scope/stage、已完成范围、图表进度及待办；脚本验证稿件链接，记录质量仍需人工核对。",
+      "稿件、蓝图、核心输入、材料、ready图、spec、policy、脚本或审校证据变化会使旧证据失效。status发现失效会将run标记blocked；修改后resume重新绑定输入并回到started，再依次check/review/accept。",
+      "状态与历史只能通过脚本维护，不手填PASS。resume保留事件历史；每章写完立即更新目的记录，未写完时在本轮结束前记录进度与下一步。",
+      "定稿占位统一用【待核验】、【待制作】、[待核验]、[待制作]、TODO:或TBD；代码块/注释中的示例不作为正文完整性证据，语义遗漏由人工审校处理。",
+      "图表按学习目标安排，数量不设机械配额；生成插画调用imagegen并查看实图，精确概念图/流程图/数据图保留可编辑源，审校结果按图登记。"
+    ]
+  },
+  "runs": []
+}

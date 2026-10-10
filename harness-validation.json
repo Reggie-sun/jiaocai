@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "record_kind": "engineering_validation",
+  "recorded_at": "2026-10-10T18:50:47.138637+00:00",
+  "scope": "Local JSON policy, run lifecycle CLI, evidence binding and durable routing; not textbook content acceptance",
+  "implementation_owner": "Codex parent; user requested takeover",
+  "snapshot": {
+    "harness.json": "bc70e09fe8880af8a1f24f0a3b2f4b2e9219a871d1b4914d0f4ceb41a215922c",
+    "scripts/harness.py": "76bd3913e292c1246d47ded9ea3fee9350dae7ab54ec4640d4da56dbdd9a43d5",
+    "templates/run.example.json": "22a8a27962a64313553e42e1cbf82ba3117a31a81ba34fde0c33f163c8627634",
+    "tests/test_harness.py": "89cfdafecfc3be8bdb5cd1482d1ef45f8b8d1919ae2fdcacd9823fefd7bcd060",
+    "AGENTS.md": "be55dd506901617f43fb5bfe034cbb4b7ca766659722e3f74cb4fd9e2284e195",
+    "教材编写现状与目的.md": "ad4897949f9441bd70c045e9012099cd11e5ebdb17410e80ac9a06cc795ce5c3",
+    "/home/reggie/.local/share/chatgpt-desktop/skills/textbook-authoring/SKILL.md": "fb5b1ddf8a52c95a5de40b0ed5ee7a2c38463cde3d56c3873b3e6f3e34a9f63a"
+  },
+  "policy_sha256": "3f479441724bc50490ecde1c186570b0c81e3cf8cc073fa3d89af5aa679a7288",
+  "engine_sha256": "76bd3913e292c1246d47ded9ea3fee9350dae7ab54ec4640d4da56dbdd9a43d5",
+  "verification": [
+    {
+      "command": "/usr/bin/python3 -m unittest discover -s tests -q",
+      "exit_code": 0,
+      "tests_run": 38,
+      "observed_output": "Ran 38 tests in 5.108s; OK",
+      "test_names": [
+        "test_blocked_resume_preserves_failure_and_clears_current_proofs",
+        "test_blueprint_scope_accepts_ten_real_headings",
+        "test_bundle_is_json_with_policy_and_runs",
+        "test_cannot_skip_check_or_review",
+        "test_changed_figure_invalidates_accepted_run",
+        "test_changed_manuscript_core_source_blueprint_and_material_invalidate",
+        "test_cli_exposes_help",
+        "test_concurrent_start_preserves_both_runs",
+        "test_draft_records_pending_items_and_final_rejects_them",
+        "test_draft_teaching_review_cannot_remain_pending",
+        "test_duplicate_id_preserves_existing_run",
+        "test_duplicate_json_keys_and_nan_fail_closed",
+        "test_engine_change_invalidates",
+        "test_file_changed_during_check_cannot_receive_passing_proof",
+        "test_final_manual_pending_and_teaching_na_rejected",
+        "test_final_rejects_explicit_placeholder",
+        "test_final_short_chapter_fails_approximate_budget",
+        "test_forged_progress_path_and_plaintext_link_do_not_pass",
+        "test_full_section_lifecycle_and_history",
+        "test_invalid_policy_type_does_not_damage_ledger",
+        "test_malformed_json_does_not_damage_ledger",
+        "test_missing_blueprint_ninth_chapter_blocks",
+        "test_missing_manuscript_blocks",
+        "test_missing_ready_figure_blocks_draft_too",
+        "test_original_book_sources_remain_unchanged",
+        "test_outside_root_and_symlink_escape_rejected",
+        "test_policy_changes_invalidate_but_other_runs_do_not",
+        "test_policy_validates_and_real_ledger_has_no_fake_book_runs",
+        "test_progress_updates_do_not_invalidate_review_snapshot",
+        "test_ready_figure_must_have_caption_and_be_embedded",
+        "test_required_content_in_comments_and_fences_does_not_count",
+        "test_review_file_change_invalidates",
+        "test_review_template_contains_no_automatic_pass",
+        "test_section_is_not_subject_to_whole_chapter_word_budget",
+        "test_unknown_policy_fields_fail_closed",
+        "test_unquoted_html_image_cannot_bypass_registration",
+        "test_unregistered_inline_reference_and_html_images_block",
+        "test_wrong_snapshot_and_missing_manual_rows_rejected"
+      ],
+      "isolation": "Temporary project roots, fixture Word bytes and mock reviews; no real chapter was accepted."
+    },
+    {
+      "command": "/usr/bin/python3 scripts/harness.py validate",
+      "exit_code": 0,
+      "valid": true,
+      "runs": 0
+    },
+    {
+      "command": "/usr/bin/python3 scripts/harness.py status",
+      "exit_code": 0,
+      "runs": [],
+      "stale": false
+    },
+    {
+      "command": "/usr/bin/python3 /home/reggie/.local/share/chatgpt-desktop/skills/.system/skill-creator/scripts/quick_validate.py /home/reggie/.local/share/chatgpt-desktop/skills/textbook-authoring",
+      "exit_code": 0,
+      "observed_output": "Skill is valid!"
+    },
+    {
+      "check": "Local Markdown routing links exist",
+      "checked_files": 3,
+      "missing": []
+    },
+    {
+      "check": "Original core source SHA-256 unchanged",
+      "sha256": {
+        "AI时代的计算思维--跨界创新与终身学习能力培养-教材大纲.docx": "4b2526dd13a07ea1facaeefcef09658b9df46ab4496df6c782c8dc222967d8be",
+        "AI时代的思维训练3.1节样稿.docx": "2fde276942f55dd4cfb00f0036a0d4a8935bd8320cef4c2eb0c47ed707e5aa17"
+      }
+    }
+  ],
+  "delegation": {
+    "first_author": {
+      "invocation_id": "840aeec1-d17b-4a27-970a-68cf5f800338",
+      "classification": "UPSTREAM_GENERATION_LIMIT",
+      "adoption": "No partial output adopted; no completed implementation report."
+    },
+    "narrow_json_author": {
+      "invocation_id": "ba189798-98f6-45ca-b8bb-d6252fd00668",
+      "classification": "PARSED",
+      "receipt_path": "/home/reggie/.local/state/agent-subagent-router/runs/ba189798-98f6-45ca-b8bb-d6252fd00668/invocation-receipt.json",
+      "receipt_sha256": "aab8f38e604c5029370b17cce549fefb5c44ec2cfbcf519972bde0c8c6e78c9c",
+      "report_sha256": "2c2637047e0c8fcb844a456d7a4c26081dcf800644085b3e11df32d17d6a1249",
+      "observed_reads_verified": 4,
+      "parent_resolution": "Candidate fully read. Parent rewrote policy instructions: resume resets to started, explicit placeholders avoid ordinary prose false positives, reviews require real reviewer/notes; parent implemented and tested all scripts.",
+      "lifecycle": "Already exited when takeover was checked; no running author process remained."
+    }
+  },
+  "review_risk_gate": {
+    "snapshot_identity": "snapshot map and policy_sha256 above",
+    "explicit_kimi_review_requested": false,
+    "critical_consequence_evidence": "No production, credential, paid-provider, deployment or textbook-source writes; ledger only is mutated with locked atomic replacement. Changes are local and recoverable.",
+    "remaining_gap_and_value_evidence": "38 executable tests cover state transitions, stale evidence, image registration, path boundaries, malformed config, concurrent starts and recovery. Teaching semantics are explicitly assigned to actual manual review; no independent engineering review requirement from an evidenced major consequence remains.",
+    "decision": "KIMI_REVIEW_NOT_REQUIRED",
+    "acceptance_owner": "Codex parent",
+    "unresolved_engineering_blockers": []
+  },
+  "limitations": [
+    "机器检查通过只证明当前声明的结构、文件和状态门槛满足，教学质量、事实支持、答案计算和图的语义仍由实际审校者负责。",
+    "审校证据绑定本轮声明的稿件、蓝图、材料、图表、policy和脚本哈希；未登记的外部资料变化无法自动发现。",
+    "本地owner可修改policy、脚本及证据，系统不是防篡改或外部认证边界，也不能强制AI遵守AGENTS或限制其他工具。",
+    "v1自动读取Markdown正文和本地图像引用；Word/PDF排版、渲染及正式字数需要另行检查。",
+    "汉字数为近似预检口径；完整章final检查28000–40000，不能替代Word或出版社的正式统计，单节不应用整章限额。",
+    "draft验收只接受所声明范围的初稿，可保留已记录的待办；它不代表章节定稿、全书完成或校方验收。",
+    "仅识别约定的占位标记和已登记待办；普通文字中的不确定性以及遗漏的待办需人工审校发现。"
+  ],
+  "book_acceptance": {
+    "real_runs": 0,
+    "real_chapters_accepted": 0,
+    "real_figures_created": 0,
+    "next_action": "Register blueprint/draft with real spec, then author and inspect the ten-chapter blueprint."
+  }
+}
