@@ -1,0 +1,421 @@
+{
+  "artifacts": [
+    {
+      "media_type": "application/json",
+      "path": "execution-view.json",
+      "producer": "supervisor",
+      "redaction_count": 0,
+      "redaction_version": 1,
+      "representation": "filtered",
+      "sha256": "21c815d5ac23964bec4dba46bcbb7b547eaa39d841d9903ddbaca06a239a1100",
+      "size": 4817
+    },
+    {
+      "media_type": "application/x-ndjson",
+      "path": "stdout.jsonl",
+      "producer": "supervisor",
+      "redaction_count": 2,
+      "redaction_version": 1,
+      "representation": "redacted",
+      "sha256": "d4dce4ad5dc7a850038cd9c21a88d713d6323935deea69fde7b92b0f85eec701",
+      "size": 3143448
+    },
+    {
+      "media_type": "text/plain",
+      "path": "stderr.txt",
+      "producer": "supervisor",
+      "redaction_count": 0,
+      "redaction_version": 1,
+      "representation": "filtered",
+      "sha256": "a135ab480d071b53b3d46164252c46b2e08e7b0f107f4d4e5120fda3feef150e",
+      "size": 73
+    },
+    {
+      "media_type": "application/json",
+      "path": "worker-report.json",
+      "producer": "worker",
+      "redaction_count": 0,
+      "redaction_version": 1,
+      "representation": "filtered",
+      "sha256": "cdaacc88f30f4a7c9f2f692a2965333f42110699eb184eb7511a1009506a85b7",
+      "size": 10163
+    }
+  ],
+  "attempt_id": "f9012925-c37f-473b-b7f8-d2c7d04392f7",
+  "budgets": {
+    "context_bytes": 8388608,
+    "generation_tokens": 32000,
+    "idle_seconds": 1800,
+    "output_bytes": 16777216,
+    "request_limit": 64,
+    "wall_seconds": 3600
+  },
+  "classification": "PARSED",
+  "containment": {
+    "checks": {
+      "apparmor": true,
+      "capabilities_dropped": true,
+      "clean_environment": true,
+      "docker_socket_denied": true,
+      "external_network_denied": true,
+      "host_home_denied": true,
+      "host_ipc_denied": true,
+      "host_proc_denied": true,
+      "host_secret_denied": true,
+      "no_broker_in_test_domain": true,
+      "no_new_privileges": true,
+      "non_root": true,
+      "private_processes": true,
+      "root_write_denied": true,
+      "scratch_writable": true,
+      "sealed_read": true,
+      "seccomp": true,
+      "source_chmod_denied": true,
+      "source_write_denied": true,
+      "symlink_escape_denied": true
+    },
+    "image": "sha256:08efb085f717fe5792d7380a069c3f770422fa09770d904e6e2436e3706e0c85",
+    "live_identity": "NOT_EVALUATED",
+    "native_denials": [
+      "Read",
+      "Read",
+      "Bash",
+      "Task",
+      "mcp__evil__run"
+    ],
+    "native_tools": "VERIFIED",
+    "os_boundary_verified": true,
+    "primitive": "docker",
+    "project_access": true,
+    "proof": "synthetic_adversarial_execution",
+    "qualified": true,
+    "runtime_sha256": "722210f05ba494d8f6df69423c4d4f2960900f7a007d0532851c7a36e375cab7"
+  },
+  "contract_seal": "7607e586e42108f0853b3d42bdf96c667272d4fa1a0c3fe46db53dba1791c6b6",
+  "evidence_kind": "live",
+  "fallback": "forbidden",
+  "finalized_at": "2026-10-11T13:02:54.604802+00:00",
+  "internal_retry_count": "unknown",
+  "invocation_id": "c4778a88-a11a-4e2d-b445-550341fdca7a",
+  "kind": "project-invocation",
+  "observations": [
+    {
+      "actual_cost": null,
+      "attempt_id": "ebf571a4-076c-4e49-8c0e-f650342810d6",
+      "budget_phase": "EXPLORE",
+      "classification": "IDENTITY_VERIFIED",
+      "client_request_sha256": "8901b2a81650adc10d83ebbcea3fe98427602f15b661eb564ac3c19491629d3a",
+      "duration_seconds": 14.589674347022083,
+      "effort": "max",
+      "generation_token_limit": 32000,
+      "http_status": 200,
+      "message_id": "msg_UMxY8BVWCp1humWKgov2Ogj7",
+      "proof": "authenticated_endpoint_declaration",
+      "request_max_tokens": 32000,
+      "request_model": "k3",
+      "request_number": 1,
+      "request_sha256": "e339ebfe92d76117f689c473a5bcd09725f0073afb09b7ce2c7cea5e59cf02fd",
+      "response_model": "k3",
+      "response_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "thinking": {
+        "type": "adaptive"
+      },
+      "upstream_bytes_received": 38372,
+      "upstream_host": "api.kimi.ai",
+      "upstream_request_id": "msg_UMxY8BVWCp1humWKgov2Ogj7",
+      "usage": {
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 2816,
+        "input_tokens": 7080,
+        "output_tokens": 372
+      },
+      "wire_started": true
+    },
+    {
+      "actual_cost": null,
+      "attempt_id": "b693887b-bc8f-4ff3-8c45-8a40cd1a4aa1",
+      "budget_phase": "EXPLORE",
+      "classification": "IDENTITY_VERIFIED",
+      "client_request_sha256": "7036a576a7449343c9553cc4388f8f73f93f436d1b7e5146ba885e415990ff3a",
+      "duration_seconds": 12.391885830031242,
+      "effort": "max",
+      "generation_token_limit": 32000,
+      "http_status": 200,
+      "message_id": "msg_MLgcvZu1rxWhXevsLtDokAID",
+      "proof": "authenticated_endpoint_declaration",
+      "request_max_tokens": 32000,
+      "request_model": "k3",
+      "request_number": 2,
+      "request_sha256": "bafb40d9494ca84eb9ecf4cbef76a74451c74fc51898c4114d10e932b00b5a3d",
+      "response_model": "k3",
+      "response_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "thinking": {
+        "type": "adaptive"
+      },
+      "upstream_bytes_received": 20828,
+      "upstream_host": "api.kimi.ai",
+      "upstream_request_id": "msg_MLgcvZu1rxWhXevsLtDokAID",
+      "usage": {
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 9728,
+        "input_tokens": 5640,
+        "output_tokens": 224
+      },
+      "wire_started": true
+    },
+    {
+      "actual_cost": null,
+      "attempt_id": "73b645c0-7e94-48ff-82b9-f5681b2f23ac",
+      "budget_phase": "EXPLORE",
+      "classification": "IDENTITY_VERIFIED",
+      "client_request_sha256": "bfcb295b6caac19dd12d2a921d3fff9deecc681d76ecc45413b6aa5cdd7578c5",
+      "duration_seconds": 8.325295411981642,
+      "effort": "max",
+      "generation_token_limit": 32000,
+      "http_status": 200,
+      "message_id": "msg_bSVXcYKTUUsVBYm0nis814vw",
+      "proof": "authenticated_endpoint_declaration",
+      "request_max_tokens": 32000,
+      "request_model": "k3",
+      "request_number": 3,
+      "request_sha256": "50a9bb675c326c3bf6162630a3fae143754b8305183698dfb1766a6290c2974d",
+      "response_model": "k3",
+      "response_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "thinking": {
+        "type": "adaptive"
+      },
+      "upstream_bytes_received": 13674,
+      "upstream_host": "api.kimi.ai",
+      "upstream_request_id": "msg_bSVXcYKTUUsVBYm0nis814vw",
+      "usage": {
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 15104,
+        "input_tokens": 21917,
+        "output_tokens": 144
+      },
+      "wire_started": true
+    },
+    {
+      "actual_cost": null,
+      "attempt_id": "c21233b5-594e-4902-8044-60a456a3a985",
+      "budget_phase": "EXPLORE",
+      "classification": "IDENTITY_VERIFIED",
+      "client_request_sha256": "5a022f81a052fc02cebbb2ff41e9330f5a273acec114dcabd843f598de804088",
+      "duration_seconds": 118.37247890699655,
+      "effort": "max",
+      "generation_token_limit": 32000,
+      "http_status": 200,
+      "message_id": "msg_6Kv41jpvwnOzQeSD5fgPjQlw",
+      "proof": "authenticated_endpoint_declaration",
+      "request_max_tokens": 32000,
+      "request_model": "k3",
+      "request_number": 4,
+      "request_sha256": "65a17a56a39009f5a60047b45dabf122e5efab40a69109bef15d9bbcc3196b0e",
+      "response_model": "k3",
+      "response_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "thinking": {
+        "type": "adaptive"
+      },
+      "upstream_bytes_received": 642020,
+      "upstream_host": "api.kimi.ai",
+      "upstream_request_id": "msg_6Kv41jpvwnOzQeSD5fgPjQlw",
+      "usage": {
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 36864,
+        "input_tokens": 17856,
+        "output_tokens": 5231
+      },
+      "wire_started": true
+    },
+    {
+      "actual_cost": null,
+      "attempt_id": "bd3af7ad-20ed-416e-85a7-9c723d90c15b",
+      "budget_phase": "EXPLORE",
+      "classification": "IDENTITY_VERIFIED",
+      "client_request_sha256": "d461923e5b6b50e2d7cf382a841c9ec26297b81f281ba7471afbadb3af79fd31",
+      "duration_seconds": 135.2652478920063,
+      "effort": "max",
+      "generation_token_limit": 32000,
+      "http_status": 200,
+      "message_id": "msg_RqMyKlmQLDzvv2GWvmJAZC1x",
+      "proof": "authenticated_endpoint_declaration",
+      "request_max_tokens": 32000,
+      "request_model": "k3",
+      "request_number": 5,
+      "request_sha256": "a3ae8ba994e8d416a3ffddd0416858faf60cce53c8444997838f675d989efe1a",
+      "response_model": "k3",
+      "response_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "thinking": {
+        "type": "adaptive"
+      },
+      "upstream_bytes_received": 677021,
+      "upstream_host": "api.kimi.ai",
+      "upstream_request_id": "msg_RqMyKlmQLDzvv2GWvmJAZC1x",
+      "usage": {
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 54528,
+        "input_tokens": 16139,
+        "output_tokens": 5699
+      },
+      "wire_started": true
+    },
+    {
+      "actual_cost": null,
+      "attempt_id": "8d350117-765a-49e2-91b0-1ce99f437f80",
+      "budget_phase": "EXPLORE",
+      "classification": "IDENTITY_VERIFIED",
+      "client_request_sha256": "78d96ad223fbd280f3951f1953e504e283dcd597a8375fe3ee080597cc7f6f10",
+      "duration_seconds": 138.35032458399655,
+      "effort": "max",
+      "generation_token_limit": 32000,
+      "http_status": 200,
+      "message_id": "msg_5izLDJ0cwoURPp7L5mOqmB0C",
+      "proof": "authenticated_endpoint_declaration",
+      "request_max_tokens": 32000,
+      "request_model": "k3",
+      "request_number": 6,
+      "request_sha256": "042e38c8ae605b2c2360a976832156529a16bbd6b2fd9c876514ffb27493da83",
+      "response_model": "k3",
+      "response_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "thinking": {
+        "type": "adaptive"
+      },
+      "upstream_bytes_received": 737432,
+      "upstream_host": "api.kimi.ai",
+      "upstream_request_id": "msg_5izLDJ0cwoURPp7L5mOqmB0C",
+      "usage": {
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 70400,
+        "input_tokens": 8725,
+        "output_tokens": 5830
+      },
+      "wire_started": true
+    }
+  ],
+  "observed_reads": [
+    {
+      "end_line": 10,
+      "native_tool_use_id": "tool_ImScYbHk9nfUJlM1HV7gIrFK",
+      "path": "/home/reggie/vscode_folder/jiaocai/materials/ch01-rewrite/professional-recovery-r2.md",
+      "sha256": "09d74c71a939c0c53619b19dbcda381a5b2b80813bcceeec47ecd0bbc0f3c611",
+      "start_line": 1,
+      "status": "complete",
+      "truncated": false
+    },
+    {
+      "end_line": 14,
+      "native_tool_use_id": "tool_QcmByTq4cVmBtNZWRiADqUt7",
+      "path": "/home/reggie/vscode_folder/jiaocai/materials/ch01-rewrite/teaching-review-r2.md",
+      "sha256": "d1ca9cac3b40ea1a3314b9600cfd006044e416cfd64085a0913c00fda4c8d9b1",
+      "start_line": 1,
+      "status": "complete",
+      "truncated": false
+    },
+    {
+      "end_line": 22,
+      "native_tool_use_id": "tool_JDeaaZaxLWya9KWt6EVAU4cZ",
+      "path": "/home/reggie/vscode_folder/jiaocai/materials/ch01-rewrite/professional-adjudication-r1.md",
+      "sha256": "ee721687d1600ba4d44128a24e6ac3b24d1f41002aa4efb2b2101dac4ceeeefc",
+      "start_line": 1,
+      "status": "complete",
+      "truncated": false
+    },
+    {
+      "end_line": 1,
+      "native_tool_use_id": "tool_YduMpGqyVPu7FjheUoW7TsgT",
+      "path": "/home/reggie/vscode_folder/jiaocai/materials/ch01-rewrite/professional-worker-report-r1.json",
+      "sha256": "5499b0b85e666ebd755ae48d9040355a3bf3703a66fee95509573a7e85be5849",
+      "start_line": 1,
+      "status": "complete",
+      "truncated": false
+    },
+    {
+      "end_line": 49,
+      "native_tool_use_id": "tool_VzMLFQSwbLGVdAhPmtTdxWkt",
+      "path": "/home/reggie/vscode_folder/jiaocai/specs/authoring-quality.spec.md",
+      "sha256": "3313588fc3551633f3182cdce9e5e597ff8db6c1587c91c5da33f1041cdc002e",
+      "start_line": 1,
+      "status": "complete",
+      "truncated": false
+    },
+    {
+      "end_line": 30,
+      "native_tool_use_id": "tool_N2P8reQspLYnw04rwdkhZJed",
+      "path": "/home/reggie/vscode_folder/jiaocai/specs/ch01-rewrite.spec.md",
+      "sha256": "938b265ca76eacdcdb35962e9ea7aa8d2c4b323f13e6c78e01f3cbee1e9999ff",
+      "start_line": 1,
+      "status": "complete",
+      "truncated": false
+    },
+    {
+      "end_line": 600,
+      "native_tool_use_id": "tool_18F2dWseQ1MKj4uQU7k8Bdfn",
+      "path": "/home/reggie/vscode_folder/jiaocai/manuscripts/ch01-rewrite/ch01.md",
+      "sha256": "9ea7a7acd3686bc71d3fb9bb445382396f138698dc0b3b9138f13c5094cfcc30",
+      "start_line": 1,
+      "status": "complete",
+      "truncated": false
+    },
+    {
+      "end_line": 217,
+      "native_tool_use_id": "tool_A1fzt8Yry23tKpq5yYQOtTu8",
+      "path": "/home/reggie/vscode_folder/jiaocai/skills/textbook-authoring/SKILL.md",
+      "sha256": "f89af4451378600baafef87a6cc8dd5806bfcfe29ac2fa5be7a579109b838579",
+      "start_line": 1,
+      "status": "complete",
+      "truncated": false
+    },
+    {
+      "end_line": 1023,
+      "native_tool_use_id": "tool_1C8vezmujR02wwSlL0Xfv9c2",
+      "path": "/home/reggie/vscode_folder/jiaocai/manuscripts/ch01-rewrite/ch01.md",
+      "sha256": "9ea7a7acd3686bc71d3fb9bb445382396f138698dc0b3b9138f13c5094cfcc30",
+      "start_line": 601,
+      "status": "complete",
+      "truncated": false
+    },
+    {
+      "end_line": 192,
+      "native_tool_use_id": "tool_lfQ4JrQBL5hUqTotIhiTSaDI",
+      "path": "/home/reggie/vscode_folder/jiaocai/materials/ch01-rewrite/sources.json",
+      "sha256": "bcfad76fe965256896fc3998acebd59b683ea2f123d7c498b28b5ef513228e4b",
+      "start_line": 1,
+      "status": "complete",
+      "truncated": false
+    },
+    {
+      "end_line": 814,
+      "native_tool_use_id": "tool_ytfEFPvu7sbOlTTvQmOtt7GB",
+      "path": "/home/reggie/vscode_folder/jiaocai/materials/ch01-rewrite/exercise-inputs.json",
+      "sha256": "ecafe3280071b847d2a3a76a812aabd1c21eca7279fcb311a0fddd5358de70c6",
+      "start_line": 1,
+      "status": "complete",
+      "truncated": false
+    }
+  ],
+  "orchestration_retries": 0,
+  "parent_acceptance": "NOT_EVALUATED",
+  "parent_session_id": "codex-jiaocai-ch01-rewrite-20261011",
+  "process": {
+    "descendants_terminated": false,
+    "duration_seconds": 428.8550695540034,
+    "exit_code": 0,
+    "reason": "exited",
+    "stderr_observed_bytes": 73,
+    "stdout_observed_bytes": 3143434,
+    "truncated": false
+  },
+  "report_format": "claude-json-schema-v1",
+  "route_qualification": {
+    "invocation_id": "4f2d5dc8-4234-4665-b382-e82f1ad6cc00",
+    "sha256": "5f3c17dcefcff35f54db521fa4c5435d8f9fb0b1da9ca4e108106a66cb767555"
+  },
+  "router": {
+    "source_sha256": "35618260d4f5b75cb19c929ee1511f2dfd5f63578b2b3bb0524957f034b6c705",
+    "version": "0.1.0"
+  },
+  "schema_version": 1,
+  "started_at": "2026-10-11T12:55:43.969281+00:00",
+  "task_id": "ch01-professional-review-r3",
+  "wire_requests": 6
+}

@@ -1,0 +1,229 @@
+{
+  "method": "finite_cartesian_enumeration_and_independent_reference_checks",
+  "e01": {
+    "baseline_count": 12,
+    "D2_closed_count": 0,
+    "choices": [
+      [
+        [
+          "D1",
+          "S1"
+        ]
+      ],
+      [
+        [
+          "D1",
+          "S1"
+        ],
+        [
+          "D1",
+          "S2"
+        ],
+        [
+          "D2",
+          "S2"
+        ]
+      ],
+      [
+        [
+          "D1",
+          "S2"
+        ],
+        [
+          "D1",
+          "S3"
+        ],
+        [
+          "D2",
+          "S2"
+        ],
+        [
+          "D2",
+          "S3"
+        ]
+      ],
+      [
+        [
+          "D1",
+          "S2"
+        ],
+        [
+          "D1",
+          "S3"
+        ],
+        [
+          "D2",
+          "S2"
+        ],
+        [
+          "D2",
+          "S3"
+        ]
+      ]
+    ],
+    "reference_checked": true,
+    "duplicate_rejected": true
+  },
+  "e03": {
+    "baseline_count": 2,
+    "C2_capacity18_count": 0,
+    "choices": [
+      [
+        [
+          "C1",
+          "S1"
+        ]
+      ],
+      [
+        [
+          "C1",
+          "S1"
+        ],
+        [
+          "C1",
+          "S2"
+        ],
+        [
+          "C2",
+          "S2"
+        ]
+      ],
+      [
+        [
+          "C2",
+          "S2"
+        ],
+        [
+          "C2",
+          "S3"
+        ]
+      ],
+      [
+        [
+          "C2",
+          "S2"
+        ],
+        [
+          "C2",
+          "S3"
+        ]
+      ]
+    ],
+    "Q3_variant_choices": [],
+    "reference_checked": true
+  },
+  "e04": {
+    "energy_kwh": {
+      "baseline": 14.4,
+      "A": 21.6,
+      "B": 14.4
+    },
+    "stair_hesitation_rates": [
+      0.2,
+      0.15
+    ],
+    "boundary": "模拟算术核验；不证明照明改善或因果效应"
+  },
+  "e05": {
+    "baseline_count": 6,
+    "V2_without_screen_reader_count": 0,
+    "choices": [
+      [
+        [
+          "V1",
+          "S1"
+        ]
+      ],
+      [
+        [
+          "V1",
+          "S1"
+        ],
+        [
+          "V1",
+          "S2"
+        ],
+        [
+          "V2",
+          "S2"
+        ]
+      ],
+      [
+        [
+          "V2",
+          "S2"
+        ],
+        [
+          "V2",
+          "S3"
+        ]
+      ],
+      [
+        [
+          "V1",
+          "S2"
+        ],
+        [
+          "V1",
+          "S3"
+        ],
+        [
+          "V2",
+          "S2"
+        ],
+        [
+          "V2",
+          "S3"
+        ]
+      ]
+    ],
+    "P3_variant_choices": [],
+    "reference_checked": true
+  },
+  "input_sha256": {
+    "e01-devices.json": "6a8d50fd2048746d1a07beae4f0fe7aa1ebe56ee329bc9072b035fc413071dd3",
+    "e01-reference.json": "bef784a04019faa0ededff40778f51f75da0b1624f7410a00bc833edef58cd8d",
+    "e01-requests.json": "c1d6c42cb00dc462b041695d3e86a90c3586962f7bd5d58d017fe81e1a2ea15f",
+    "e01-rules.json": "0ebdeaa96a188b26560016e70c4e59c308e748362cc86576ea7a4721d98952eb",
+    "e02-guidance.json": "ae08816cece7d3e29c85303c27f3ed328a05948ba64af56e9b44662ac9571ddc",
+    "e02-readings.json": "9fed3f2de47f6630f12d1037922820717ac4049585e1eab9161e6978944b2aac",
+    "e03-guidance.json": "13037284a97bc80a5a94ba8abb8901265a3f151ea1ef8034ba0fa525b7064c10",
+    "e03-requests.json": "e2bb98a8a72055865942f0b2fda78411fef59fc7ee488c4f881f989b10e384e7",
+    "e03-rooms.json": "11e5a893266bf547c27f24f87f9901c0d1fafaaad65bd302415eb7d3177c37ac",
+    "e03-rules.json": "bc7fc382b736275c6c6b5687257909ed05ca20295a949dce812869030da3eeb3",
+    "e04-brief.json": "234d7e78eb7d434332bc0a382c7eedc5832f301bf50030a0c57a4a85c1ced950",
+    "e04-guidance.json": "f600619afeccee20aa18b2a4d2b99b6ee8d49fb75c40d1ed1ce725d30651a379",
+    "e05-data.json": "e5a9fb2314539931c75df3bd966cf746e1c2796133fa48cb1beb7cf2994ccc9d",
+    "e05-guidance.json": "8fe4d4ed0e1a96eca5465dd296736204b2166610f18f09f2d25d7b761c61a969",
+    "e05-rules.json": "e93061653d5134e313cd08135c9696459a0e45733ae955bc50fe945de461592b"
+  },
+  "verification_script_sha256": "82419b6cf01e92659339748bfcca094d2afe0ef7c28157f1937a09298bda76a6",
+  "new_e01_answer_checked": true,
+  "bottleneck": {
+    "requests": 3,
+    "allowed_union": 2,
+    "infeasible": true
+  },
+  "half_open_interval_checks": {
+    "overlap": true,
+    "touching": false,
+    "exclusive_cleanup_preparation_overlap": true
+  },
+  "synthetic_impulse": {
+    "lbf_seconds": 5,
+    "factor_rounded": 4.45,
+    "newton_seconds": 22.25,
+    "not_mission_data": true
+  },
+  "e04_separate_worked_examples": {
+    "energy_kwh": [
+      7.56,
+      10.08
+    ],
+    "pause_rates": [
+      0.1,
+      0.15
+    ],
+    "separate_from_exercise": true
+  }
+}

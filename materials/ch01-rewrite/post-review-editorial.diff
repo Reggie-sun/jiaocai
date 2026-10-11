@@ -1,0 +1,18 @@
+--- materials/ch01-rewrite/snapshots/review-r3.md
++++ manuscripts/ch01-rewrite/ch01.md
+@@ -596 +596 @@
+-这些视角不构成彼此排斥的学派，也没有必须依次走完的固定流程。计算模型帮助把条件写清，数学复算能抓出单位或算术问题，实证计划寻找现实表现，批判审查证据强度，设计发现任务与未满足需要，系统分析寻找影响路径。某项新证据还可能改变最初的问题：从“选A还是B”返回“台阶边缘的辨识任务如何定义”或“是否应先确认窗户受光”。
++图1-7中的视角不构成彼此排斥的学派，也没有必须依次走完的固定流程。计算模型帮助把条件写清，数学复算能抓出单位或算术问题，实证计划寻找现实表现，批判审查证据强度，设计发现任务与未满足需要，系统分析寻找影响路径。某项新证据还可能改变最初的问题：从“选A还是B”返回“台阶边缘的辨识任务如何定义”或“是否应先确认窗户受光”。
+@@ -688 +688 @@
+-2. 20%和15%各自对应哪一夜？还有哪些条件不同，因此不能把差异归因于照明变化？
++2. 两夜各自的停顿比例是多少？还有哪些条件不同，因此不能把差异归因于照明变化？
+@@ -1004 +1004 @@
+-[1] Wing J M. Computational Thinking[J/OL]. Communications of the ACM, 2006, 49(3): 33-35. https://doi.org/10.1145/1118178.1118215.
++[1] Wing J M. Computational Thinking[J/OL]. Communications of the ACM, 2006, 49(3): 33-35[2026-10-11]. https://doi.org/10.1145/1118178.1118215.
+@@ -1010,3 +1010,3 @@
+-[4] Autio C, Schwartz R, Dunietz J, et al. Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile: NIST AI 600-1[R/OL]. 2024-07-26: 6. https://doi.org/10.6028/NIST.AI.600-1.
+-
+-[5] Turing A M. On Computable Numbers, with an Application to the Entscheidungsproblem[J/OL]. Proceedings of the London Mathematical Society, 1937, s2-42(1): 230-265. https://doi.org/10.1112/plms/s2-42.1.230.
++[4] Autio C, Schwartz R, Dunietz J, et al. Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile: NIST AI 600-1[R/OL]. 2024-07-26: 6[2026-10-11]. https://doi.org/10.6028/NIST.AI.600-1.
++
++[5] Turing A M. On Computable Numbers, with an Application to the Entscheidungsproblem[J/OL]. Proceedings of the London Mathematical Society, 1937, s2-42(1): 230-265[2026-10-11]. https://doi.org/10.1112/plms/s2-42.1.230.

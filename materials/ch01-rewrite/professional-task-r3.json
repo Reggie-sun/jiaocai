@@ -1,0 +1,68 @@
+{
+  "parent_session_id": "codex-jiaocai-ch01-rewrite-20261011",
+  "task_id": "ch01-professional-review-r3",
+  "cwd": "/home/reggie/vscode_folder/jiaocai",
+  "explicit_root": "/home/reggie/vscode_folder/jiaocai",
+  "role": "reviewer",
+  "goal": "Role: independent professional reviewer, targeted second review of the exact revised whole-chapter snapshot. Read all expected evidence. Investigate the stated delta rather than endorse parent decisions: independently check E04 separate worked examples, exercise requiring a genuinely new unresolved judgment, competing explanations and two discriminating results, answer/rubric alignment and unchanged original data/hard constraints; inspect actual F-01 through F-05 fixes and reference formatting changes for regression. Locate other affected whole-chapter interactions when needed. R1 claims are hypotheses; specifically independently adjudicate its F-08 versus native TR-01. Do not rerun unrelated full initial review or grade PDF. Report remaining concrete blocking_candidate/non_blocking findings with IDs, lines, evidence, impact and verification; also identify resolved prior findings with actual inspected lines. Output concise five-field canonical report, preferably under 2500 Chinese characters, no rewrite. Authority read-only, no Bash/network/writes/credentials/commit/push/nested delegation/permission changes. Parent owns final adjudication and acceptance. R2 ended OUTCOME_UNKNOWN and no partial output is adopted. This is the third and final managed review round; inspect the same exact candidate independently as the first completed targeted re-review. Do not infer success/failure from the recovery note. Complete the limited evidence-driven review and report concisely.",
+  "read_paths": [
+    "manuscripts/ch01-rewrite/ch01.md",
+    "specs/ch01-rewrite.spec.md",
+    "specs/authoring-quality.spec.md",
+    "skills/textbook-authoring/SKILL.md",
+    "materials/ch01-rewrite/sources.json",
+    "materials/ch01-rewrite/exercise-inputs.json",
+    "materials/ch01-rewrite/professional-worker-report-r1.json",
+    "materials/ch01-rewrite/professional-adjudication-r1.md",
+    "materials/ch01-rewrite/teaching-review-r2.md",
+    "materials/ch01-rewrite/professional-recovery-r2.md"
+  ],
+  "write_paths": [],
+  "permissions": [
+    "read"
+  ],
+  "selected_refs": [
+    {
+      "path": "specs/ch01-rewrite.spec.md",
+      "sha256": "938b265ca76eacdcdb35962e9ea7aa8d2c4b323f13e6c78e01f3cbee1e9999ff",
+      "accepted": true
+    },
+    {
+      "path": "specs/authoring-quality.spec.md",
+      "sha256": "3313588fc3551633f3182cdce9e5e597ff8db6c1587c91c5da33f1041cdc002e",
+      "accepted": true
+    }
+  ],
+  "active_documents": "accepted_refs",
+  "harness_refs": [],
+  "constitution_refs": [
+    "AGENTS.md"
+  ],
+  "skills": [],
+  "skill_roots": [],
+  "expected_evidence": [
+    "manuscripts/ch01-rewrite/ch01.md",
+    "specs/ch01-rewrite.spec.md",
+    "specs/authoring-quality.spec.md",
+    "skills/textbook-authoring/SKILL.md",
+    "materials/ch01-rewrite/sources.json",
+    "materials/ch01-rewrite/exercise-inputs.json",
+    "materials/ch01-rewrite/professional-worker-report-r1.json",
+    "materials/ch01-rewrite/professional-adjudication-r1.md",
+    "materials/ch01-rewrite/teaching-review-r2.md",
+    "materials/ch01-rewrite/professional-recovery-r2.md"
+  ],
+  "backend": "kimi",
+  "profile": "deep",
+  "budgets": {
+    "wall_seconds": 3600,
+    "idle_seconds": 1800,
+    "request_limit": 64,
+    "context_bytes": 8388608,
+    "generation_tokens": 32000,
+    "output_bytes": 16777216
+  },
+  "instruction_precedence": [
+    "AGENTS.md"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "standard": "GB/T 7714-2025",
+  "source_url": "https://www2.abc.edu.cn/xbbjb/upload/2026-01/26012010262341.pdf",
+  "sha256": "de306587f0bc08d7642aa1b55091000da85416633f674297b1576c92330010f4",
+  "actual_review": "Parent viewed the formal cover and printed pages 1,4,7,8,11,12,15,16 on 2026-10-11. Not a draft standard. Official metadata checked in project baseline; this turn official scan acquired directly after web fetch timeout.",
+  "applied": "Personal/organization names, dates and unknown dates, journal article format, report date/type/locators, DOI and URL rules. No invented dates or publishing entities.",
+  "review_kind": "ai_self",
+  "file_retention": "Formal scan kept only in /tmp; not copied or distributed as a project artifact.",
+  "editorial_consistency": "All 10 online entries show actual access date 2026-10-11; DOI-date addition is an internal consistency choice, not a claimed mandatory clause."
+}

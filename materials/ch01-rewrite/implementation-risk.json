@@ -1,0 +1,29 @@
+{
+  "decision": "KIMI_REVIEW_NOT_REQUIRED",
+  "scope": "Task-local reversible document assembly, original vector figure rendering and fixed-template typesetting adapters; separate mandatory textbook content review completed",
+  "stable_snapshot": {
+    "materials/ch01-rewrite/prepare.py": "43f8e040e7ba56dfed275b485eaec34a496db1a4de96df45aa635a56c4ec1d06",
+    "materials/ch01-rewrite/render_figures.py": "0524707cacb0d46f1dbf95d405c67b67808ff45674251692bb42364143693eb0",
+    "materials/ch01-rewrite/build_docx.py": "e3dcc4fd70c10e8131f645921f7a2c3b4dae464c52ef456bb09f029f47dee660",
+    "materials/ch01-rewrite/verify_layout.py": "52aea6675f7c042fe22c72cabd9e26666ffbd9a7e51265aa03c9d1dd7350661e",
+    "manuscripts/ch01-rewrite/ch01.md": "9a741d30cc9e6bf04e2bbf0d6c2ab5597a753f03ce190c1fda95cdd2e4c664ec",
+    "output/ch01/第一章-计算思维.docx": "fcf0d2a20c601b51a3830168377681c8812808911a086080e92b42924a893654",
+    "output/ch01/第一章-计算思维.pdf": "9cc42db1a774d9c527273c1223740495cf55576ec9ad0d41c5736e5df00b164b",
+    "specs/ch01-rewrite.spec.md": "938b265ca76eacdcdb35962e9ea7aa8d2c4b323f13e6c78e01f3cbee1e9999ff",
+    "plans/ch01-rewrite.plan.md": "ca31463b6fe516491cb09ccab519ba930d979a7785d8db97363015e55ce56e53"
+  },
+  "native_verification": {
+    "harness_unittests": "51 tests PASS; earlier in this task, unchanged harness engine and tests",
+    "validate": "PASS",
+    "exercise_numeric_proof": "PASS",
+    "source_word_pdf_correspondence": "PASS, 26 exact tables, 8 figures, native fields, embedded fonts, real page ranges, TOC cache matches PDF",
+    "actual_page_review": "79 pages covered; 16 label-fix pages, page 52 guide change and pages 58/78/79 editorial changes actually reread",
+    "protected_baseline_files": 57
+  },
+  "triggers": {
+    "explicit_user_implementation_kimi_review": false,
+    "critical_credential_authority_or_durable_state_consequence": false,
+    "significant_consequence_and_material_post_verification_gap_and_adversarial_value": false
+  },
+  "rationale": "No production state, authorization mechanism or credential handling is changed. Original files are hash-protected; generated output is reversible. Exact table/field/source checks and actual all-page viewing directly cover the local adapters. Human teaching trial and Word-native update are disclosed external acceptance limits, not evidence of a serious implementation failure path. Content expertise requires its independent review by repository teaching contract; that review is not replaced by this engineering decision."
+}

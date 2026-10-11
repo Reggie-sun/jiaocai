@@ -1,0 +1,20 @@
+{
+  "from_source_sha256": "9ea7a7acd3686bc71d3fb9bb445382396f138698dc0b3b9138f13c5094cfcc30",
+  "to_source_sha256": "9a741d30cc9e6bf04e2bbf0d6c2ab5597a753f03ce190c1fda95cdd2e4c664ec",
+  "checks": {
+    "e04_task_and_rubric": {
+      "unchanged": true,
+      "sha256": "d086f5a047a2ce413b6845cbf2ea6b54fbbc1c9e00530d6c2e8ccbd4827616e6"
+    },
+    "all_chapter_end_answers": {
+      "unchanged": true,
+      "sha256": "5f605da92241eb3b346b79e7f5a3e17164a209ab6db0626b5f8e86cba88b4c23"
+    },
+    "reference_order_addresses_and_metadata": {
+      "unchanged_except_actual_access_date": true
+    }
+  },
+  "actual_targeted_read": "teaching-review-r3.md",
+  "exact_diff": "post-review-editorial.diff",
+  "claim_boundary": "Kimi R3 reviewed the earlier source SHA, not the final bytes."
+}
