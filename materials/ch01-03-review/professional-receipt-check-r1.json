@@ -1,0 +1,117 @@
+{
+  "invocation_id": "181cfc60-3d61-4eef-8480-5eca6dcfdb9f",
+  "seal": "aa31c0ca91c36d7a8221fdb48cf4fd7d7d9d9082f9909dd7a539b08e4ebe3e3b",
+  "classification": "PARSED",
+  "process": {
+    "descendants_terminated": false,
+    "duration_seconds": 484.1489023769973,
+    "exit_code": 0,
+    "reason": "exited",
+    "stderr_observed_bytes": 73,
+    "stdout_observed_bytes": 6809023,
+    "truncated": false
+  },
+  "wire_requests": 8,
+  "profile": "deep",
+  "response_models": [
+    "k3"
+  ],
+  "all_wire_identity_verified": true,
+  "worker_report_sha256": "93b6809ac57efda6270cd548378ef6da0ecbbddd461f6b349836be8c8cd2e213",
+  "actual_read_coverage": [
+    {
+      "path": "/home/reggie/vscode_folder/jiaocai/materials/ch01-03-review/snapshots/ch01-baseline.md",
+      "sha256": "87fc722e0a53b4ce934dba90f720c3e2e40c3e9401d05560f48b4473f33deb66",
+      "actual_observed_ranges": [
+        [
+          1,
+          160
+        ],
+        [
+          161,
+          320
+        ],
+        [
+          321,
+          480
+        ],
+        [
+          481,
+          640
+        ],
+        [
+          641,
+          746
+        ]
+      ],
+      "source_line_count": 745,
+      "full_source_read": true
+    },
+    {
+      "path": "/home/reggie/vscode_folder/jiaocai/materials/ch01-03-review/snapshots/ch02-baseline.md",
+      "sha256": "f7e5ed4406330dc99b7dcafa61cd2cc52ad67288f86fff32c20b95f603db19cd",
+      "actual_observed_ranges": [
+        [
+          1,
+          160
+        ],
+        [
+          161,
+          320
+        ],
+        [
+          321,
+          480
+        ],
+        [
+          481,
+          640
+        ],
+        [
+          641,
+          800
+        ],
+        [
+          801,
+          935
+        ]
+      ],
+      "source_line_count": 934,
+      "full_source_read": true
+    },
+    {
+      "path": "/home/reggie/vscode_folder/jiaocai/materials/ch01-03-review/snapshots/ch03-baseline.md",
+      "sha256": "3b10a58d7bfdc6eef16a57e1ef35f2efa58a0a60555ab121372dc8980e552e61",
+      "actual_observed_ranges": [
+        [
+          1,
+          160
+        ],
+        [
+          161,
+          320
+        ],
+        [
+          321,
+          480
+        ],
+        [
+          481,
+          640
+        ],
+        [
+          641,
+          800
+        ],
+        [
+          801,
+          841
+        ]
+      ],
+      "source_line_count": 840,
+      "full_source_read": true
+    }
+  ],
+  "initial_frozen_check": "All 12 frozen inputs verified before authorized post-review 3.4 erratum; current drift check separately labels that subsequent Spec amendment.",
+  "acceptance": "Parent uses findings with independent verification; canonical transport PASS is not acceptance."
+}

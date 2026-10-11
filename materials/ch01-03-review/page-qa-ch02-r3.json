@@ -1,0 +1,13 @@
+{
+  "findings": [],
+  "resolved": "TEA-V01",
+  "page": 27,
+  "sha256": "9fd8ce982e73074a9ca4d12232372df6743740f3a9e883a09a415f0852edec7d",
+  "observers": [
+    "/root/teaching_readthrough",
+    "Codex Parent"
+  ],
+  "actual_view": true,
+  "detail": "original",
+  "observation": "第二行完整显示深度学习的隐规律挖掘，无单字尾行；正文和2.3.1接续正常。"
+}

@@ -1,0 +1,558 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "E01 confirmed step-free route",
+      "actual": [
+        [
+          "H",
+          "K",
+          "L"
+        ]
+      ],
+      "expected": [
+        [
+          "H",
+          "K",
+          "L"
+        ]
+      ]
+    },
+    {
+      "name": "E01 cancel stairs requirement still excludes late J-L",
+      "actual": [
+        [
+          "H",
+          "K",
+          "L"
+        ]
+      ],
+      "expected": [
+        [
+          "H",
+          "K",
+          "L"
+        ]
+      ]
+    },
+    {
+      "name": "E01 arrival minute",
+      "actual": 604,
+      "expected": 604
+    },
+    {
+      "name": "E01 coarse entering minimum source",
+      "actual": [
+        2,
+        "J"
+      ],
+      "expected": [
+        2,
+        "J"
+      ]
+    },
+    {
+      "name": "E01 coarse leaving minimum source",
+      "actual": [
+        2,
+        "J"
+      ],
+      "expected": [
+        2,
+        "J"
+      ]
+    },
+    {
+      "name": "E01 unknown K-L leaves no confirmed qualified route",
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "E02 D=5 finish",
+      "actual": 15,
+      "expected": 15
+    },
+    {
+      "name": "E02 D=5 F earliest start",
+      "actual": 11,
+      "expected": 11
+    },
+    {
+      "name": "E02 D=5 F dependency",
+      "actual": 11,
+      "expected": 11
+    },
+    {
+      "name": "E02 D=2 finish",
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "name": "E02 D=2 F earliest start",
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "name": "E02 D=2 F dependency",
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "name": "E02 D=1 finish",
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "name": "E02 D=1 F earliest start",
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "name": "E02 D=1 F dependency",
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "name": "E02 AI E start violates B dependency",
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "E02 AI F start violates baseline D dependency",
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "E03 d1 confusion TP/FP/FN/TN",
+      "actual": [
+        [
+          4,
+          0,
+          1,
+          3
+        ],
+        [
+          5,
+          0,
+          0,
+          3
+        ]
+      ],
+      "expected": [
+        [
+          4,
+          0,
+          1,
+          3
+        ],
+        [
+          5,
+          0,
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "name": "E03 d9 confusion TP/FP/FN/TN",
+      "actual": [
+        [
+          1,
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "expected": [
+        [
+          1,
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "name": "E04 all simple path minimum",
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "E04 minimum route",
+      "actual": [
+        [
+          "S",
+          "A",
+          "B",
+          "T"
+        ]
+      ],
+      "expected": [
+        [
+          "S",
+          "A",
+          "B",
+          "T"
+        ]
+      ]
+    },
+    {
+      "name": "E04 greedy candidate actual minutes",
+      "actual": 11,
+      "expected": 11
+    },
+    {
+      "name": "E04 minimum edge count",
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "name": "E04 negative variant minimum",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "E04 negative counterexample",
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "name": "E05 baseline success count",
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "name": "E05 baseline success sum",
+      "actual": 77,
+      "expected": 77
+    },
+    {
+      "name": "E05 candidate success count",
+      "actual": 6,
+      "expected": 6
+    },
+    {
+      "name": "E05 candidate success sum",
+      "actual": 49,
+      "expected": 49
+    },
+    {
+      "name": "E05 paired improvement exact",
+      "actual": "7/3",
+      "expected": "7/3"
+    },
+    {
+      "name": "E05 A successes B/C",
+      "actual": [
+        3,
+        2
+      ],
+      "expected": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "E05 penalty totals B/C",
+      "actual": [
+        93,
+        81
+      ],
+      "expected": [
+        93,
+        81
+      ]
+    },
+    {
+      "name": "E05 cache equality",
+      "actual": 160,
+      "expected": 160
+    },
+    {
+      "name": "E05 first strict integer win",
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "E06 stairs=False minimum",
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "name": "E06 stairs=False CD closed",
+      "actual": 14,
+      "expected": 14
+    },
+    {
+      "name": "E06 stairs=False confirmed subset",
+      "actual": 15,
+      "expected": 15
+    },
+    {
+      "name": "E06 stairs=False optimistic CX7",
+      "actual": 14,
+      "expected": 14
+    },
+    {
+      "name": "E06 stairs=True minimum",
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "name": "E06 stairs=True CD closed",
+      "actual": 14,
+      "expected": 14
+    },
+    {
+      "name": "E06 stairs=True confirmed subset",
+      "actual": 15,
+      "expected": 15
+    },
+    {
+      "name": "E06 stairs=True optimistic CX7",
+      "actual": 14,
+      "expected": 14
+    },
+    {
+      "name": "E06 service cutoff6",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "name": "E06 service cutoff7",
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "name": "E06 arrival deadline11 infeasible",
+      "actual": false,
+      "expected": false
+    },
+    {
+      "name": "E06 arrival deadline12 feasible",
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "New T1-T4 worked plan",
+      "actual": [
+        {
+          "T1": 0,
+          "T2": 0,
+          "T3": 1,
+          "T4": 3
+        },
+        {
+          "T1": 1,
+          "T2": 2,
+          "T3": 3,
+          "T4": 4
+        }
+      ],
+      "expected": [
+        {
+          "T1": 0,
+          "T2": 0,
+          "T3": 1,
+          "T4": 3
+        },
+        {
+          "T1": 1,
+          "T2": 2,
+          "T3": 3,
+          "T4": 4
+        }
+      ]
+    },
+    {
+      "name": "New worked route independent enumeration",
+      "actual": 6,
+      "expected": 6
+    },
+    {
+      "name": "New seven-record confusion",
+      "actual": [
+        2,
+        1,
+        2,
+        2
+      ],
+      "expected": [
+        2,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Label40 fixed predictions TP/FP/FN/TN",
+      "actual": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "expected": [
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "Label30 fixed predictions TP/FP/FN/TN",
+      "actual": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "expected": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "Decision threshold0.5 fixed labels",
+      "actual": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "expected": [
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "Decision threshold0.3 fixed labels",
+      "actual": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "expected": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "New four-request means B/C",
+      "actual": [
+        "12",
+        "17/2"
+      ],
+      "expected": [
+        "12",
+        "17/2"
+      ]
+    },
+    {
+      "name": "New threshold weighted score",
+      "actual": [
+        6,
+        6,
+        9
+      ],
+      "expected": [
+        6,
+        6,
+        9
+      ]
+    },
+    {
+      "name": "New threshold equal weight",
+      "actual": [
+        5,
+        4,
+        5
+      ],
+      "expected": [
+        5,
+        4,
+        5
+      ]
+    },
+    {
+      "name": "New cache first win differs from E05",
+      "actual": 6,
+      "expected": 6
+    },
+    {
+      "name": "New RL reward backup/regular",
+      "actual": [
+        -26,
+        -48
+      ],
+      "expected": [
+        -26,
+        -48
+      ]
+    },
+    {
+      "name": "PRO-01 all six routes exactly match actual prose",
+      "actual": {
+        "P→A→B→C→D": 6,
+        "P→B→C→D": 8,
+        "P→A→C→D": 10,
+        "P→A→B→D": 8,
+        "P→A→D": 13,
+        "P→B→D": 10
+      },
+      "expected": {
+        "P→A→B→C→D": 6,
+        "P→A→B→D": 8,
+        "P→A→C→D": 10,
+        "P→A→D": 13,
+        "P→B→C→D": 8,
+        "P→B→D": 10
+      }
+    },
+    {
+      "name": "PRO-01 six legal routes",
+      "actual": 6,
+      "expected": 6
+    },
+    {
+      "name": "PRO-02 prose inclusive deadline",
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "PRO-02 exact 10:00 is within inclusive cutoff",
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "E01 exact 10:05 is outside the prose arrival cutoff",
+      "actual": false,
+      "expected": false
+    }
+  ],
+  "check_count": 63,
+  "source_sha256": "00d10d3d24ef040c9639d241991996fed49a33fe0d61f5399fc4f665733d1eb2",
+  "inherited_input": "materials/ch02-progressive/exercise-inputs.json",
+  "input_sha256": "f89595a27eda8e103f1c8299459167c1a2ef8b4ab62902e6514263934cc2d6b7",
+  "data_binding": "All raw revised tables byte-identical to the accepted baseline; new route enumeration parsed from prose. Task-local arrival check follows the prose strict-before-10:05 rule, while J→L uses the inclusive 10:00 cutoff; original checker preserved.",
+  "boundary": "Fixed toy data, not actual models or classroom evidence."
+}

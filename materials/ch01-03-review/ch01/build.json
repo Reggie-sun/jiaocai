@@ -1,0 +1,31 @@
+{
+  "template": "templates/textbook-style-v1.0.dotx",
+  "template_sha256": "eef8ce505c3d9afb3493e61af1f38ee26bca6ff9a0aa12f7ad3e2a8cacad6473",
+  "manuscript_sha256": "8c0e23d6115f02de3133712c7d1114cd0c22a4e9810d88a7f30e921b33534636",
+  "docx_sha256": "155375f5989675b5af3dafe472faeb16000b77cf370c0e225c328c6bba7751dc",
+  "style": "textbook-style-v1.0",
+  "toc_cached_pages": {
+    "1.1 计算思维定义与内涵：超越编程": 4,
+    "1.2 计算思维溯源：从图灵到现代——思维范式的革命性演变": 17,
+    "1.3 计算思维的普适性：为何是跨学科的钥匙？": 32,
+    "1.4 计算思维 vs 其他思维方式：互补与融合": 46,
+    "章末综合训练": 59,
+    "本章回顾": 61,
+    "关键术语": 62,
+    "参考解与讨论": 63,
+    "参考文献": 72
+  },
+  "toc_headings": [
+    "1.1 计算思维定义与内涵：超越编程",
+    "1.2 计算思维溯源：从图灵到现代——思维范式的革命性演变",
+    "1.3 计算思维的普适性：为何是跨学科的钥匙？",
+    "1.4 计算思维 vs 其他思维方式：互补与融合",
+    "章末综合训练",
+    "本章回顾",
+    "关键术语",
+    "参考解与讨论",
+    "参考文献"
+  ],
+  "method": "Reused template styles and geometry; task-local chapter counter/numbering starts at1, header cache and nine answer bookmarks; native SEQ/REF/TOC/PAGEREF/PAGE preserved. No final DOCX LibreOffice roundtrip.",
+  "word_native_execution": "NOT_EVALUATED"
+}

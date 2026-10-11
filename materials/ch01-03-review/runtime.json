@@ -1,0 +1,20 @@
+{
+  "python": "/home/reggie/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python",
+  "node": "/home/reggie/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+  "renderer": "/home/reggie/.codex/plugins/cache/openai-primary-runtime/documents/26.1009.11318/skills/documents/render_docx.py",
+  "soffice": "/home/reggie/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/soffice",
+  "observed_version": "LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5",
+  "desktop_libreoffice_used": false,
+  "template": "templates/textbook-style-v1.0.dotx",
+  "template_sha256": "eef8ce505c3d9afb3493e61af1f38ee26bca6ff9a0aa12f7ad3e2a8cacad6473",
+  "render_directories": [
+    "/tmp/jiaocai-crossreview-ch01-r2",
+    "/tmp/jiaocai-crossreview-ch02-r3",
+    "/tmp/jiaocai-crossreview-ch03-r2"
+  ],
+  "final_pages": [
+    72,
+    81,
+    80
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "invocation_id": "a5e0e438-59ce-48d4-ac62-b9f474956b7b",
+  "classification": "PARSED",
+  "physical_live_attempt": 3,
+  "semantic_round": 2,
+  "failed_predecessor": "e5e7c1d3-3eef-4565-bd34-de2ecc1f55b7",
+  "seal": "951a728a50a37cb67dc239150459cbef6fbd8bcc22c5db6330b5ea82ece3ccae",
+  "frozen_sources": [
+    {
+      "path": "/home/reggie/AGENTS.md",
+      "sha256": "d782f8f4b471f9b65e9c8c13e759f5f95f32e1502f5818d352a5f8ff2957e518",
+      "current_matches": true
+    },
+    {
+      "path": "/home/reggie/vscode_folder/jiaocai/AGENTS.md",
+      "sha256": "1b859b79d8984157253df55df697679ba7fa28799299b3b443b8b516a01e67ae",
+      "current_matches": true
+    },
+    {
+      "path": "/home/reggie/vscode_folder/jiaocai/manuscripts/ch01-03-review/ch01.md",
+      "sha256": "8c0e23d6115f02de3133712c7d1114cd0c22a4e9810d88a7f30e921b33534636",
+      "current_matches": true
+    },
+    {
+      "path": "/home/reggie/vscode_folder/jiaocai/manuscripts/ch01-03-review/ch02.md",
+      "sha256": "00d10d3d24ef040c9639d241991996fed49a33fe0d61f5399fc4f665733d1eb2",
+      "current_matches": true
+    },
+    {
+      "path": "/home/reggie/vscode_folder/jiaocai/manuscripts/ch01-03-review/ch03.md",
+      "sha256": "8673ba4d1e0fd79afb6d64212625975d87cf10392fc66c90a9e0bfc706b5b1d5",
+      "current_matches": true
+    },
+    {
+      "path": "/home/reggie/vscode_folder/jiaocai/materials/ch01-03-review/ch01.diff",
+      "sha256": "e0520d82b41a18579c3597471b1787e30f51d8d68854f7620122d530bae7c657",
+      "current_matches": true
+    },
+    {
+      "path": "/home/reggie/vscode_folder/jiaocai/materials/ch01-03-review/ch02.diff",
+      "sha256": "603f1b209432aac90f72658e9ef5149340268cf9d1077f07cd26ee978aee18a6",
+      "current_matches": true
+    },
+    {
+      "path": "/home/reggie/vscode_folder/jiaocai/materials/ch01-03-review/ch03.diff",
+      "sha256": "2b37c51096dec36ec0f147985ed46804e3930d0cb1a925b0cbbd875e0d527f3b",
+      "current_matches": true
+    },
+    {
+      "path": "/home/reggie/vscode_folder/jiaocai/materials/ch01-03-review/outline.md",
+      "sha256": "0bce9110cd3340d9f5a0454edf153b0ae3bfb0a720d3439e4ba6dcf881260968",
+      "current_matches": true
+    },
+    {
+      "path": "/home/reggie/vscode_folder/jiaocai/materials/ch01-03-review/professional-r1.json",
+      "sha256": "93b6809ac57efda6270cd548378ef6da0ecbbddd461f6b349836be8c8cd2e213",
+      "current_matches": true
+    },
+    {
+      "path": "/home/reggie/vscode_folder/jiaocai/materials/ch01-03-review/source-check.md",
+      "sha256": "a178c471042e597dd8ec813f22edf65c4b219dbece8c8e7d5e6ccf9df27df5db",
+      "current_matches": true
+    },
+    {
+      "path": "/home/reggie/vscode_folder/jiaocai/plans/ch01-03-review.plan.md",
+      "sha256": "d3eb1232eb8cadce6b1fc3607d3c9e2a13772f60d8f171326086b59c6dc22c72",
+      "current_matches": true
+    },
+    {
+      "path": "/home/reggie/vscode_folder/jiaocai/specs/ch01-03-review.spec.md",
+      "sha256": "7083639e28f969ccaea240da5e6ba1348d6ef98563cc6f64a9a6c3cd9d5dddcd",
+      "current_matches": true
+    }
+  ],
+  "all_13_sources_unchanged": true,
+  "all_wire_identity_verified": true,
+  "route_qualification": {
+    "invocation_id": "4f2d5dc8-4234-4665-b382-e82f1ad6cc00",
+    "sha256": "5f3c17dcefcff35f54db521fa4c5435d8f9fb0b1da9ca4e108106a66cb767555"
+  },
+  "process": {
+    "descendants_terminated": false,
+    "duration_seconds": 478.8579224389978,
+    "exit_code": 0,
+    "reason": "exited",
+    "stderr_observed_bytes": 73,
+    "stdout_observed_bytes": 4708997,
+    "truncated": false
+  },
+  "wire_requests": 8,
+  "profile": "deep",
+  "response_models": [
+    "k3"
+  ],
+  "report_sha256": "ae015fe630e4cdd29dee6a7783edaeb87cde83c0e1f1ab0aa6105a907a331479",
+  "actual_read_coverage": [
+    {
+      "path": "/home/reggie/vscode_folder/jiaocai/manuscripts/ch01-03-review/ch01.md",
+      "sha256": "8c0e23d6115f02de3133712c7d1114cd0c22a4e9810d88a7f30e921b33534636",
+      "source_line_count": 749,
+      "actual_observed_ranges": [
+        [
+          1,
+          160
+        ],
+        [
+          161,
+          320
+        ],
+        [
+          321,
+          480
+        ],
+        [
+          481,
+          640
+        ],
+        [
+          641,
+          750
+        ]
+      ],
+      "full_source_read": true
+    },
+    {
+      "path": "/home/reggie/vscode_folder/jiaocai/manuscripts/ch01-03-review/ch02.md",
+      "sha256": "00d10d3d24ef040c9639d241991996fed49a33fe0d61f5399fc4f665733d1eb2",
+      "source_line_count": 934,
+      "actual_observed_ranges": [
+        [
+          1,
+          160
+        ],
+        [
+          161,
+          320
+        ],
+        [
+          321,
+          480
+        ],
+        [
+          481,
+          640
+        ],
+        [
+          641,
+          800
+        ],
+        [
+          801,
+          935
+        ]
+      ],
+      "full_source_read": true
+    },
+    {
+      "path": "/home/reggie/vscode_folder/jiaocai/manuscripts/ch01-03-review/ch03.md",
+      "sha256": "8673ba4d1e0fd79afb6d64212625975d87cf10392fc66c90a9e0bfc706b5b1d5",
+      "source_line_count": 870,
+      "actual_observed_ranges": [
+        [
+          1,
+          160
+        ],
+        [
+          161,
+          320
+        ],
+        [
+          321,
+          480
+        ],
+        [
+          481,
+          640
+        ],
+        [
+          641,
+          800
+        ],
+        [
+          801,
+          871
+        ]
+      ],
+      "full_source_read": true
+    }
+  ],
+  "parent_acceptance": "Report checked for transport/read provenance; findings still adjudicated separately, not automatic acceptance."
+}

@@ -1,0 +1,10 @@
+{
+  "protected_tracked_files": 918,
+  "all_unchanged": true,
+  "modified_protected_files": [],
+  "original_baseline_head": "2a35a6ee9e0ce7f3377f295afe51fe3faa446ef0",
+  "check_stage": "Before authorized purpose append and Harness registration",
+  "engine_sha256": "3d226917d2aa30da1de9e48d6c7ee941cc3f84a9da9529212ae8e3360fbfb1af",
+  "template_sha256": "eef8ce505c3d9afb3493e61af1f38ee26bca6ff9a0aa12f7ad3e2a8cacad6473",
+  "foreign_changes": "Existing untracked ch04-06 and second-chapter source materials remain outside owned paths and will not be staged."
+}

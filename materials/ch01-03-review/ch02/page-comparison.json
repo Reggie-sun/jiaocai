@@ -1,0 +1,545 @@
+{
+  "chapter": 2,
+  "baseline_archive": "materials/ch02-progressive/snapshots/final-pages-r4.zip",
+  "baseline_archive_sha256": "b7419bc49abc616e18d90eee505713856362340ee30e7ab2a689fd7e7632a64d",
+  "pages": [
+    {
+      "page": 1,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-1.png",
+      "sha256": "9b4b7c024bea6835fb317ac3ad33fd9867721bf13aa02e363ac5f5480dc59c67",
+      "inherited_archive_member": "page-1.png"
+    },
+    {
+      "page": 2,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-2.png",
+      "sha256": "4b6ddaa096262fb57ddad4b93b05ea1edff5c93e9788f82380eda7f99eb6498e",
+      "inherited_archive_member": "page-2.png"
+    },
+    {
+      "page": 3,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-3.png",
+      "sha256": "d85447ac4b6f7966390d6b7718a15fdcf31ab1d06956bc76c634ac70a5ff3c58",
+      "inherited_archive_member": "page-3.png"
+    },
+    {
+      "page": 4,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-4.png",
+      "sha256": "f8740a232c0efc9a5b7b1546f06e9db715a16eca12c4ed129dac2bd96a1a8a75",
+      "inherited_archive_member": "page-4.png"
+    },
+    {
+      "page": 5,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-5.png",
+      "sha256": "b559e4fb350b404b58f24eb815b068a886cde939ce4b9038e7303c5be2883f39",
+      "inherited_archive_member": "page-5.png"
+    },
+    {
+      "page": 6,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-6.png",
+      "sha256": "53cd76b5458efac7f8309cf12e5504624f9ce14745e67fe3c3d5207ad47f2fac",
+      "inherited_archive_member": "page-6.png"
+    },
+    {
+      "page": 7,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-7.png",
+      "sha256": "36217c08558e5e579a6f75b685b78c1e6055c8a91ea04730bb6e8e6ac84e31bf",
+      "inherited_archive_member": "page-7.png"
+    },
+    {
+      "page": 8,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-8.png",
+      "sha256": "c9593b00b271fddc909eb93c64a5f37b1e7202d9e5e3594155b1ceaca3aa47e9",
+      "inherited_archive_member": "page-8.png"
+    },
+    {
+      "page": 9,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-9.png",
+      "sha256": "4e0b2b690452cdf0cb37c4fbafa0b68bfd6ada49692d8b350675a8972d2e496c",
+      "inherited_archive_member": "page-9.png"
+    },
+    {
+      "page": 10,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-10.png",
+      "sha256": "f843579cc6476eb4e46fc435c12521d4c8af8223f38a7246eab9b7413ab3c9e8",
+      "inherited_archive_member": "page-10.png"
+    },
+    {
+      "page": 11,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-11.png",
+      "sha256": "d57ef70b3e486e7e95f2d78270647c66e92a857175f3caccd91715621758e099",
+      "inherited_archive_member": "page-11.png"
+    },
+    {
+      "page": 12,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-12.png",
+      "sha256": "bdb612cd236e883495241e947a579a05739188bcba77a582b13c89542ff32337",
+      "inherited_archive_member": "page-12.png"
+    },
+    {
+      "page": 13,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-13.png",
+      "sha256": "91f8814dd874b7b04d14ee8f7700ba90ea304631fcfa90806d908cef38d2db8c",
+      "inherited_archive_member": null
+    },
+    {
+      "page": 14,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-14.png",
+      "sha256": "884fc2783b5116d6480327dc09dfe0886d62ce8dfbadbbdd553e3a08571fc668",
+      "inherited_archive_member": "page-14.png"
+    },
+    {
+      "page": 15,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-15.png",
+      "sha256": "0673d7611505c240eb479e29b295e4b4c8c211b4c5d136e17d95e62e0a940488",
+      "inherited_archive_member": "page-15.png"
+    },
+    {
+      "page": 16,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-16.png",
+      "sha256": "a1c0382558cde1e1ba4544c54380046be872fc50568949d586748a7dbdd14681",
+      "inherited_archive_member": "page-16.png"
+    },
+    {
+      "page": 17,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-17.png",
+      "sha256": "a54ce732e0606547c91b88243d18868be83509e730850f759cea116e319a55c4",
+      "inherited_archive_member": "page-17.png"
+    },
+    {
+      "page": 18,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-18.png",
+      "sha256": "2198f43b6b2b2a2501b3d5a502bd5df0aa4733a4fa904a669a184e809b4f6147",
+      "inherited_archive_member": "page-18.png"
+    },
+    {
+      "page": 19,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-19.png",
+      "sha256": "d5b6baa49a506a78527fe08c239b68b02ecdb00b3296da65c5da15f4ef9c2b24",
+      "inherited_archive_member": "page-19.png"
+    },
+    {
+      "page": 20,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-20.png",
+      "sha256": "48e6a1d64d43a4f6331afbcfa0d22d950f5b1720bc797a50d7197e5adc08de4b",
+      "inherited_archive_member": "page-20.png"
+    },
+    {
+      "page": 21,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-21.png",
+      "sha256": "fee46152074e8d232dce49fd46e196c4fc9838c5510694bd4992d17aa2cedd53",
+      "inherited_archive_member": "page-21.png"
+    },
+    {
+      "page": 22,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-22.png",
+      "sha256": "373becb9d627ad8cb61d9af02d826c58d075be795c53a92bbc5d4a509e4c8667",
+      "inherited_archive_member": "page-22.png"
+    },
+    {
+      "page": 23,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-23.png",
+      "sha256": "d20b9dd9e390a91c58a038977346a1ba723cb69508bc43ad0b0d695a3aeadbe4",
+      "inherited_archive_member": "page-23.png"
+    },
+    {
+      "page": 24,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-24.png",
+      "sha256": "ee69fa58c410b74b17707115e52aaae9dcb5d8a9d3518400aa6beead28b5d69e",
+      "inherited_archive_member": "page-24.png"
+    },
+    {
+      "page": 25,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-25.png",
+      "sha256": "c7d913dbf1c9a9a3c7b2f0638e4b497cffd4321a32591b915d0ca61acb1a2b79",
+      "inherited_archive_member": "page-25.png"
+    },
+    {
+      "page": 26,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-26.png",
+      "sha256": "1663b4e9a10812343e88fb8ad3ac93ff54914c8003595727ad60698ae5eb5c24",
+      "inherited_archive_member": null
+    },
+    {
+      "page": 27,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-27.png",
+      "sha256": "a529da92da88ada6ee818db20c22352a590fffa5937d6e9f0878bd0aa6f56d6d",
+      "inherited_archive_member": null
+    },
+    {
+      "page": 28,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-28.png",
+      "sha256": "40784ec67e9218f511f215c1053ee81b3e1b3fd40286cba24a0d60c6b28c5083",
+      "inherited_archive_member": null
+    },
+    {
+      "page": 29,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-29.png",
+      "sha256": "d73043ebb365b99e4d06189f9ff8ab74eff6953199ea22a8ff54ca240481228c",
+      "inherited_archive_member": null
+    },
+    {
+      "page": 30,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-30.png",
+      "sha256": "29014a54949d39b262f53e32bd7602fe2dfd882f5f5b2a7025e28298061f3958",
+      "inherited_archive_member": null
+    },
+    {
+      "page": 31,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-31.png",
+      "sha256": "791b41a9f47151e0e77b60076684e99d5fa9ef02a7d010abf124ba7664d7da93",
+      "inherited_archive_member": "page-31.png"
+    },
+    {
+      "page": 32,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-32.png",
+      "sha256": "61a02aae42a1444cfd51569bab23ba43692b4d37364f48e6b83614a013426f98",
+      "inherited_archive_member": "page-32.png"
+    },
+    {
+      "page": 33,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-33.png",
+      "sha256": "7932806acbb9416fe8bdf1269c64182b53bea53ffcf2fe02d8f86e5aa109f5d3",
+      "inherited_archive_member": "page-33.png"
+    },
+    {
+      "page": 34,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-34.png",
+      "sha256": "35217c2914e5f02ecb53ccfa26d4b51da46c94d6c405545b6fefe45bbd7c14c4",
+      "inherited_archive_member": "page-34.png"
+    },
+    {
+      "page": 35,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-35.png",
+      "sha256": "a6085480994ea9e7b57bca46d5e0b0d009999f2c2bada550442cc680aefba567",
+      "inherited_archive_member": "page-35.png"
+    },
+    {
+      "page": 36,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-36.png",
+      "sha256": "051a5d65638988b7d22f905c61467a7e94fbbeb705780443436c3ea26ea4cefc",
+      "inherited_archive_member": "page-36.png"
+    },
+    {
+      "page": 37,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-37.png",
+      "sha256": "2b17e77098977220f27745a2dace5cfd4025bd2cb847abf083ee9b935529b88c",
+      "inherited_archive_member": "page-37.png"
+    },
+    {
+      "page": 38,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-38.png",
+      "sha256": "d95dc0eecefb723a92a85fd3979c38c30679633e3f6347aa1755d4a731cb9706",
+      "inherited_archive_member": "page-38.png"
+    },
+    {
+      "page": 39,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-39.png",
+      "sha256": "c393c077c2e6783dbf698080784db254cb21c23833b87c19aea05107e5707f79",
+      "inherited_archive_member": "page-39.png"
+    },
+    {
+      "page": 40,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-40.png",
+      "sha256": "1bec0bae46c305032a78b9817b102d93c5f1749d90a18f2ae50e59d2c462127c",
+      "inherited_archive_member": "page-40.png"
+    },
+    {
+      "page": 41,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-41.png",
+      "sha256": "e665b5e5dc5144cbf706218a8ef217353f0f02073de723707d235df70bbd7f58",
+      "inherited_archive_member": null
+    },
+    {
+      "page": 42,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-42.png",
+      "sha256": "421f1d0b795dab250578932edf79d7c76abcfe8ba76c1cc1da41a0e1f6cb7278",
+      "inherited_archive_member": "page-42.png"
+    },
+    {
+      "page": 43,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-43.png",
+      "sha256": "a26faa201c5d2c36936fe08c7ae1b8c205967b01ce7fbc7155caf628cba27a5a",
+      "inherited_archive_member": "page-43.png"
+    },
+    {
+      "page": 44,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-44.png",
+      "sha256": "a2a68384829910cecef165d042aa0ed9880aff5114d3e7f781f3f8ee5ab50dda",
+      "inherited_archive_member": "page-44.png"
+    },
+    {
+      "page": 45,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-45.png",
+      "sha256": "18ec81bdd044b4dfdb27ae2ec33d2d504cd83526c98d98e9a1faac23bda11518",
+      "inherited_archive_member": "page-45.png"
+    },
+    {
+      "page": 46,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-46.png",
+      "sha256": "7c0d1400f049d3b516ac6d8a8adaa601226969d7723de80d85a66a35c30917c4",
+      "inherited_archive_member": "page-46.png"
+    },
+    {
+      "page": 47,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-47.png",
+      "sha256": "98afc1455da6f8ef43836c5cedf2cf0f4bf2c3a75d5849b7460db3491c02cbf9",
+      "inherited_archive_member": "page-47.png"
+    },
+    {
+      "page": 48,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-48.png",
+      "sha256": "63c5e6ad00ec79402b320e36f53bc5ce1274710f936d1a38e4318db1f1e8c79e",
+      "inherited_archive_member": "page-48.png"
+    },
+    {
+      "page": 49,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-49.png",
+      "sha256": "659fd4638949c6592514107c2352a4a44213a91502149ae7d3e805ea6fccb03b",
+      "inherited_archive_member": "page-49.png"
+    },
+    {
+      "page": 50,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-50.png",
+      "sha256": "709e6863635a85edb9d4b02cfb4168ef44ea845097542427b559f5a6c7ca33fc",
+      "inherited_archive_member": "page-50.png"
+    },
+    {
+      "page": 51,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-51.png",
+      "sha256": "3378baf114cf49ed829282f64df831176060af3c5350db3401a77841bc6818d2",
+      "inherited_archive_member": "page-51.png"
+    },
+    {
+      "page": 52,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-52.png",
+      "sha256": "b9981edd18ecd1fc53c73634e51214c3c18fc28e52a03c3a4deb92be9af5f8c6",
+      "inherited_archive_member": "page-52.png"
+    },
+    {
+      "page": 53,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-53.png",
+      "sha256": "c46a2df940d2b0dc9f02f0962fcc9ba17514cf7efcbc9af012be1ed788491350",
+      "inherited_archive_member": "page-53.png"
+    },
+    {
+      "page": 54,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-54.png",
+      "sha256": "c84c7976ce4a8a7dec5c6513d5895cae01ecbf1690be3125b1f66c020815a569",
+      "inherited_archive_member": "page-54.png"
+    },
+    {
+      "page": 55,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-55.png",
+      "sha256": "d90725fd7ff23833b885d83629e4b1a2727e8cceab1c24a2a7fdea5d9c50989a",
+      "inherited_archive_member": "page-55.png"
+    },
+    {
+      "page": 56,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-56.png",
+      "sha256": "4d7c9782d671146611be9e74bccebaa5cfb1915b917046fd4e3aef1a54ce4add",
+      "inherited_archive_member": "page-56.png"
+    },
+    {
+      "page": 57,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-57.png",
+      "sha256": "f88b38d555603ca75d506517f746ff78431017d9654a863b91fff0223d20af00",
+      "inherited_archive_member": "page-57.png"
+    },
+    {
+      "page": 58,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-58.png",
+      "sha256": "d253f9781e90c74c76cde516021985788112a4ae220674a5186099086fbf17fe",
+      "inherited_archive_member": "page-58.png"
+    },
+    {
+      "page": 59,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-59.png",
+      "sha256": "60b07d55550665b29250d581ceb5c4cf1b7c83e4d6c7ae064c977a3f6d5951b1",
+      "inherited_archive_member": "page-59.png"
+    },
+    {
+      "page": 60,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-60.png",
+      "sha256": "f352ad072a06a2dbdcd9cae8f35f136a21ef8d93d7fa0a7806cba8bf6b0b2347",
+      "inherited_archive_member": "page-60.png"
+    },
+    {
+      "page": 61,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-61.png",
+      "sha256": "748e35d4838adafbcabeb86993680c6f7d6b9cf83e728277db63d3e0399e2fac",
+      "inherited_archive_member": "page-61.png"
+    },
+    {
+      "page": 62,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-62.png",
+      "sha256": "cc378042709da3636614c74134f73f9e00d5047e678c933a171d95a063ffd3c0",
+      "inherited_archive_member": "page-62.png"
+    },
+    {
+      "page": 63,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-63.png",
+      "sha256": "86c9745c89ec02c151912873ba59bfe2c2a742d507c1aee2f4c0021bf2aed687",
+      "inherited_archive_member": "page-63.png"
+    },
+    {
+      "page": 64,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-64.png",
+      "sha256": "9511a0c914154aef5f727afdb6f808bdf773c9c27c89c87e7333c345a68f66d2",
+      "inherited_archive_member": "page-64.png"
+    },
+    {
+      "page": 65,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-65.png",
+      "sha256": "5292a79ea026ecfff4faf3be896f440294135cb7a4e0285468be3e33deceadd0",
+      "inherited_archive_member": "page-65.png"
+    },
+    {
+      "page": 66,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-66.png",
+      "sha256": "5008221eca19b6c3cbf34d049031e2afa0c3980c715b7312b12825d093b137ad",
+      "inherited_archive_member": "page-66.png"
+    },
+    {
+      "page": 67,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-67.png",
+      "sha256": "eb8bec39ce17250d25571ba3e2dabf7fc80b699047f4aa08f456c80749d65610",
+      "inherited_archive_member": null
+    },
+    {
+      "page": 68,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-68.png",
+      "sha256": "d0d0544bc3d2a8f7ce63ff95ee68bf9a8831fcf56f595de8687352efe3ec3d22",
+      "inherited_archive_member": "page-68.png"
+    },
+    {
+      "page": 69,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-69.png",
+      "sha256": "535e2813bbbe0a6cb1c4a93dc8741a699d0a20aab724d9540457dc784470e7d3",
+      "inherited_archive_member": "page-69.png"
+    },
+    {
+      "page": 70,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-70.png",
+      "sha256": "f92ce653c12ed132d10c56228ca978310f422e0011c6ba3469c8e7f93316007a",
+      "inherited_archive_member": "page-70.png"
+    },
+    {
+      "page": 71,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-71.png",
+      "sha256": "66b1ae34a2d43f73c648ea6a314119f75e639b0102d5a229caef4d0ebcf640f2",
+      "inherited_archive_member": "page-71.png"
+    },
+    {
+      "page": 72,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-72.png",
+      "sha256": "8c1b6097ece9cc833ac2e1db171e7af9e71769f9b9ad6c1f0986850876fa43cd",
+      "inherited_archive_member": "page-72.png"
+    },
+    {
+      "page": 73,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-73.png",
+      "sha256": "c70563c3202466ab077afa8ae84031a34ed4483b58d59a891514250ebf597fd5",
+      "inherited_archive_member": "page-73.png"
+    },
+    {
+      "page": 74,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-74.png",
+      "sha256": "ec598837497b7fda7a6f1af3103612b59951396ce520b6be2cd660d1272d9a64",
+      "inherited_archive_member": "page-74.png"
+    },
+    {
+      "page": 75,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-75.png",
+      "sha256": "07671ed2bfc9b4d7b43d395ec0957be61c2e9391ea11b640ce5a0b6e0b603a0c",
+      "inherited_archive_member": "page-75.png"
+    },
+    {
+      "page": 76,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-76.png",
+      "sha256": "61a9e3bb541055ea22ae16631d86b1c1727f8acabbb38ca7e7f9cb6382ba6fbb",
+      "inherited_archive_member": "page-76.png"
+    },
+    {
+      "page": 77,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-77.png",
+      "sha256": "89f3465b7d9fe0ff3e7394e2e67ff9ffb0da5846c2666d884266715c936f01b1",
+      "inherited_archive_member": "page-77.png"
+    },
+    {
+      "page": 78,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-78.png",
+      "sha256": "3e045a3aaf515ced0dc48d170af585770273827d045c3b29fe3ef11b2bbdeae7",
+      "inherited_archive_member": "page-78.png"
+    },
+    {
+      "page": 79,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-79.png",
+      "sha256": "8d245ffb5ac24708f52ce026dbb181334fb2367da704bb14c63b3151ed4343a4",
+      "inherited_archive_member": "page-79.png"
+    },
+    {
+      "page": 80,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-80.png",
+      "sha256": "9f12f546ee8d7f823e10a8b151c403a0b0a5b141dd7b2f8435df256c8f793bf2",
+      "inherited_archive_member": "page-80.png"
+    },
+    {
+      "page": 81,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-81.png",
+      "sha256": "48f7d33f3019c45dd2a22c2d20716649cf7eef00c296c662b7fa143d1d904963",
+      "inherited_archive_member": "page-81.png"
+    }
+  ],
+  "changed_pages": [
+    {
+      "page": 13,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-13.png",
+      "sha256": "91f8814dd874b7b04d14ee8f7700ba90ea304631fcfa90806d908cef38d2db8c",
+      "inherited_archive_member": null
+    },
+    {
+      "page": 26,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-26.png",
+      "sha256": "1663b4e9a10812343e88fb8ad3ac93ff54914c8003595727ad60698ae5eb5c24",
+      "inherited_archive_member": null
+    },
+    {
+      "page": 27,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-27.png",
+      "sha256": "a529da92da88ada6ee818db20c22352a590fffa5937d6e9f0878bd0aa6f56d6d",
+      "inherited_archive_member": null
+    },
+    {
+      "page": 28,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-28.png",
+      "sha256": "40784ec67e9218f511f215c1053ee81b3e1b3fd40286cba24a0d60c6b28c5083",
+      "inherited_archive_member": null
+    },
+    {
+      "page": 29,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-29.png",
+      "sha256": "d73043ebb365b99e4d06189f9ff8ab74eff6953199ea22a8ff54ca240481228c",
+      "inherited_archive_member": null
+    },
+    {
+      "page": 30,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-30.png",
+      "sha256": "29014a54949d39b262f53e32bd7602fe2dfd882f5f5b2a7025e28298061f3958",
+      "inherited_archive_member": null
+    },
+    {
+      "page": 41,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-41.png",
+      "sha256": "e665b5e5dc5144cbf706218a8ef217353f0f02073de723707d235df70bbd7f58",
+      "inherited_archive_member": null
+    },
+    {
+      "page": 67,
+      "path": "/tmp/jiaocai-crossreview-ch02-r2/page-67.png",
+      "sha256": "eb8bec39ce17250d25571ba3e2dabf7fc80b699047f4aa08f456c80749d65610",
+      "inherited_archive_member": null
+    }
+  ],
+  "candidate": "r2-before-TEA-V01-title-wrap",
+  "final_page_evidence": "page-review.json"
+}

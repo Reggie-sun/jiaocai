@@ -1,0 +1,928 @@
+{
+  "source_sha256": "8c0e23d6115f02de3133712c7d1114cd0c22a4e9810d88a7f30e921b33534636",
+  "docx_sha256": "155375f5989675b5af3dafe472faeb16000b77cf370c0e225c328c6bba7751dc",
+  "pdf_sha256": "dc635420a3951d643e5ad66ee5de0f6224b39191debb70f8dde29404598d0832",
+  "pages": 72,
+  "archive": "materials/ch01-03-review/ch01/final-pages.zip",
+  "archive_sha256": "c3f580e04234208c38bc7f4cf8bb4032ac18e912585623d11bbf5115c458bff0",
+  "baseline_archive": "materials/ch01-history-layout/snapshots/final-pages.zip",
+  "baseline_archive_sha256": "5e5fa67e9aa6ea87cab50f829c2fe083d6a20b235f8ae7d5863fe8ef10f263ff",
+  "fresh_actual_page_observations": 16,
+  "inherited_identical_png_pages": 56,
+  "unviewed_final_page_bytes": [],
+  "rows": [
+    {
+      "page": 1,
+      "sha256": "8a3322848c57ab886c739edb755272ef1a4e87a6fc7c58ab2c88c248ddc14251",
+      "archive_member": "page-01.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-01.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 2,
+      "sha256": "12967823da8e030b11ab6876cd592df1403bea9f50498982a6a1da26b7947cb8",
+      "archive_member": "page-02.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-02.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 3,
+      "sha256": "a6b6e8c051f2cb17ea29d575b2736dce779385ebbe51ac946912a758c2eb38f5",
+      "archive_member": "page-03.png",
+      "observation": {
+        "chapter": 1,
+        "page": 3,
+        "sha256": "a6b6e8c051f2cb17ea29d575b2736dce779385ebbe51ac946912a758c2eb38f5",
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/teaching_readthrough",
+        "finding": null,
+        "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+      }
+    },
+    {
+      "page": 4,
+      "sha256": "38da1e4aa7a522eb9518daa1e6391bd37d2ce64170786386a780b4937e844a4d",
+      "archive_member": "page-04.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-04.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 5,
+      "sha256": "b873222eb96d82fae359c4f14af74e2d6c3c9fb1b3515b01f40203871f8fea01",
+      "archive_member": "page-05.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-05.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 6,
+      "sha256": "33fb417de119deb1ea6c07dc67f83ea2a158b4406a95881c34725924f2dae05f",
+      "archive_member": "page-06.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-06.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 7,
+      "sha256": "258555b0d340df8ec8ff625eb1a6f89b3f526d3981817840b8a396ffede02a99",
+      "archive_member": "page-07.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-07.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 8,
+      "sha256": "5beda758d825f4b35f973d6d7c915bc6c753942bbb6f35d59ff681ba51191f2b",
+      "archive_member": "page-08.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-08.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 9,
+      "sha256": "71802fec7334971bdb6e6772fa5a12b3c74a3deb07502c21e00220981f006e75",
+      "archive_member": "page-09.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-09.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 10,
+      "sha256": "ea380f0b129ff1ed586c4bef21ce805b68b9542e5248fbd183216df3b53f89bd",
+      "archive_member": "page-10.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-10.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 11,
+      "sha256": "ded6456d3ef7d9bd808094288694bfa6271b36e4bf8ddad39cda23a3b9b9c141",
+      "archive_member": "page-11.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-11.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 12,
+      "sha256": "ec985a785a31068d81bf264aeeb01feff74061662a9dce05ebbf7c7f47639cc6",
+      "archive_member": "page-12.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-12.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 13,
+      "sha256": "18a59d954c08469b1006a3d96e47d52c5952a23e56f17521343370af682b1096",
+      "archive_member": "page-13.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-13.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 14,
+      "sha256": "196e58718ee22b68d87cd761f46ce5798f61ea7243905607953bee73e7159c05",
+      "archive_member": "page-14.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-14.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 15,
+      "sha256": "96000f065c9f7bb6fb401d3773fc94672d08fb9dce26841c8d28564b3df9344f",
+      "archive_member": "page-15.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-15.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 16,
+      "sha256": "5f9bedbe38dc342a84bcafa61e30839484ea5f7e41539791c5333ed2c4a722dd",
+      "archive_member": "page-16.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-16.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 17,
+      "sha256": "cc24b585651bd00800d7c8d34cd676f08b60e5da0092d35d89964e4154584c6e",
+      "archive_member": "page-17.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-17.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 18,
+      "sha256": "ef1dd9382061a855d09e7a2348c419e1d5803a050d820bbfa0c22a942af97d87",
+      "archive_member": "page-18.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-18.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 19,
+      "sha256": "b159eacb1e95fafbdb523779123517044163631e9d4e10c7f5d1e6b058fabf36",
+      "archive_member": "page-19.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-19.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 20,
+      "sha256": "d1583041bf06b938b897be5f18d9efe056326e2ce90f4a3098d12c063583b9b0",
+      "archive_member": "page-20.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-20.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 21,
+      "sha256": "9e4ace9d1c68995cd0d4088ed8c4d8ef2d3f2b34c06a709743776ae1dc665a1e",
+      "archive_member": "page-21.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-21.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 22,
+      "sha256": "275d20fc2b9f5c18fdc8bf57f8b9c02abbf6d9f1bd05c24abd6af7b1382c40e8",
+      "archive_member": "page-22.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-22.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 23,
+      "sha256": "1b3843915050a1a435d41e39058b2877e3a95ccd68d4c852420d65247c9f8cb3",
+      "archive_member": "page-23.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-23.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 24,
+      "sha256": "7a3cfcca6917b2679da4f62042b400f29268337c354fd90f74ca124486c783b4",
+      "archive_member": "page-24.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-24.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 25,
+      "sha256": "6830db69509ee034bef8b1368772e52f891182f04310fe00c523f91f9afeec33",
+      "archive_member": "page-25.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-25.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 26,
+      "sha256": "b35a1eb25bb3482f6a73367afc89bd121c5dae344cfbc6df800909e3c4c56160",
+      "archive_member": "page-26.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-26.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 27,
+      "sha256": "088ff87274e66d552c842f54c68dfd42576dfd1077f0823213b2927be165c6e1",
+      "archive_member": "page-27.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-27.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 28,
+      "sha256": "9fbdf1a40e468da12b5b99e574467fccf8515aace4ccdc5c06fd50b1f1b3ca77",
+      "archive_member": "page-28.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-28.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 29,
+      "sha256": "d4a6cede7605ca8d29a5524b4c0ec8c20fbdc68fb48a0f2c1df6714ab18db3ba",
+      "archive_member": "page-29.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-29.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 30,
+      "sha256": "89c1165c0ef1401dc5a22ca14f69ae953ca7df04a5b3c933dfcde5f87575a4eb",
+      "archive_member": "page-30.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-30.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 31,
+      "sha256": "d5a00a5e9b21815f2c6d4b9e17150d4736b970b2695a1adb736866b3efc4693c",
+      "archive_member": "page-31.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-31.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 32,
+      "sha256": "ed89831f1630c143c52280b52a3676c808df1cd5bd9ed9b51bf7c3a0df8a008d",
+      "archive_member": "page-32.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-32.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 33,
+      "sha256": "750c274efc9e78c81e04ae8bf1b5a5c15a08ac502a51c0bbf2d43005ab70ec37",
+      "archive_member": "page-33.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-33.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 34,
+      "sha256": "700a71310e301c3eaa23ec4dd92faa3c64d28063075664bae67a4a69b320b170",
+      "archive_member": "page-34.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-34.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 35,
+      "sha256": "c6f26bb0d7bdef47548a213e5bba91fdb8b0ef1a11ae2de8f65857b4608692c3",
+      "archive_member": "page-35.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-35.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 36,
+      "sha256": "429e40ec72292e199df82ca6688327d8b6df4434b7fb7977afaad67e3d66ac1f",
+      "archive_member": "page-36.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-36.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 37,
+      "sha256": "1ede0addaddb1850daf6f2e313a6717be29fae9398051660c064d2c845fd5f52",
+      "archive_member": "page-37.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-37.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 38,
+      "sha256": "6861ec528d28a1e82c1364a16ce0bb52d468d38cf1b0158454607e0ec913dc73",
+      "archive_member": "page-38.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-38.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 39,
+      "sha256": "1c6bb7e14ffc8e4a758dae43612dc3e70128d7948ac693560697c4fcbd68f5ef",
+      "archive_member": "page-39.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-39.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 40,
+      "sha256": "dd60e182c7c52f37911c844dcb0fd09ff93c03860cb344cb474c543f03c83f30",
+      "archive_member": "page-40.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-40.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 41,
+      "sha256": "6d2779fa8846bbe623561c5894069677d247da694ebc0e0907a4b94f7d1ee38f",
+      "archive_member": "page-41.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-41.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 42,
+      "sha256": "a956e62d9b7fdedf32622bf97402af382e1806e5b6e461b696db7c03adf8f0f5",
+      "archive_member": "page-42.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-42.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 43,
+      "sha256": "24d3ee813bf200e65c6fd509970668b4e111c3b5c4e41b7af3185edffb45f27f",
+      "archive_member": "page-43.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-43.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 44,
+      "sha256": "2d61e51607a3db100be2f7b0b409536df09a1632e63311abbd5b2c1d0b4a1a48",
+      "archive_member": "page-44.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-44.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 45,
+      "sha256": "a642e77e6c70e5f7d597c65a3c8597062ebfd8d6852a9aa54f1d67b64e77280f",
+      "archive_member": "page-45.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-45.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 46,
+      "sha256": "55c0d31878693ea5fcc83d8d691300f173cfb5be8f5fa2a6e4c890d61071db06",
+      "archive_member": "page-46.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-46.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 47,
+      "sha256": "30818686055d8051a8efcc485685d4271cd7efb383f2b5a3b49bdb92d00658a1",
+      "archive_member": "page-47.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-47.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 48,
+      "sha256": "5bb31155c50c2a0ece4bc76742ece07a34d07dc76c79794904123f2e86ff19e5",
+      "archive_member": "page-48.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-48.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 49,
+      "sha256": "42370c47750ef0e98563db7ef2bc98801250808aa0191cc08a23f8451320fb7b",
+      "archive_member": "page-49.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-49.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 50,
+      "sha256": "4eac6b270975cca2a758218a1444c4713f5fdd89b15927da8fb31684e7f08479",
+      "archive_member": "page-50.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-50.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 51,
+      "sha256": "42a76f7ce838d979c7f7870ce7a0beb0077aa6fbdacc615f1c1b7b8ffab4505f",
+      "archive_member": "page-51.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-51.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 52,
+      "sha256": "033a3924fef41696a8b58a70be8aeae5fe72189d57934b792d3179077d214dde",
+      "archive_member": "page-52.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-52.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 53,
+      "sha256": "5fd73dcfbaf2fd93884076230c88152e15bbba0c644f5c47238de8acf1b29ae6",
+      "archive_member": "page-53.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-53.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 54,
+      "sha256": "d84007da8acfd86f01ca23ef8d3155b92c122d2bd94c1ffb038af9593351ca95",
+      "archive_member": "page-54.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-54.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 55,
+      "sha256": "53550975f7f6ec1fc4d318ae2137e3ed23184f7fce3f25f0755cbd42aa3519c1",
+      "archive_member": "page-55.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-55.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 56,
+      "sha256": "e1cdd6cbf6d29e521229d7fd62df817b176b9be782c4ecfb48dd804b0d305486",
+      "archive_member": "page-56.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-56.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 57,
+      "sha256": "a50302e39d6e6e62d033084268dd44fbb5949a76e9d744f74905ce6ddd597717",
+      "archive_member": "page-57.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-57.png",
+        "record": "materials/ch01-history-layout/page-review.json",
+        "record_sha256": "60c63547aa2b02d07417b0d7833ee5b97ee61be3532b00cd1b543db586e837af",
+        "baseline_pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23"
+      }
+    },
+    {
+      "page": 58,
+      "sha256": "07ee4e2f204d13d3a144edf642a42542591a2891ada15bace9c0818ad7f108d7",
+      "archive_member": "page-58.png",
+      "observation": {
+        "chapter": 1,
+        "page": 58,
+        "sha256": "07ee4e2f204d13d3a144edf642a42542591a2891ada15bace9c0818ad7f108d7",
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/teaching_readthrough",
+        "finding": null,
+        "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+      }
+    },
+    {
+      "page": 59,
+      "sha256": "51aaf028662cfd898050838312c92dda3c98a995e31f5836ef4a39602d22ba70",
+      "archive_member": "page-59.png",
+      "observation": {
+        "chapter": 1,
+        "page": 59,
+        "sha256": "51aaf028662cfd898050838312c92dda3c98a995e31f5836ef4a39602d22ba70",
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/teaching_readthrough",
+        "finding": null,
+        "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+      }
+    },
+    {
+      "page": 60,
+      "sha256": "5279c183f2e167e7223c225bde96766a6ea6054b6c54bf53026dd4e3be754928",
+      "archive_member": "page-60.png",
+      "observation": {
+        "chapter": 1,
+        "page": 60,
+        "sha256": "5279c183f2e167e7223c225bde96766a6ea6054b6c54bf53026dd4e3be754928",
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/teaching_readthrough",
+        "finding": null,
+        "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+      }
+    },
+    {
+      "page": 61,
+      "sha256": "15b229ab0f2f0be889c1841333ee078a999aa7d44e2ce816e6ef2ea93c5c103b",
+      "archive_member": "page-61.png",
+      "observation": {
+        "chapter": 1,
+        "page": 61,
+        "sha256": "15b229ab0f2f0be889c1841333ee078a999aa7d44e2ce816e6ef2ea93c5c103b",
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/teaching_readthrough",
+        "finding": null,
+        "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+      }
+    },
+    {
+      "page": 62,
+      "sha256": "9e11b4fa0e7e895d48bd2c356d2ebb08bf0fc09a0c2a64d19807c4475eed9405",
+      "archive_member": "page-62.png",
+      "observation": {
+        "chapter": 1,
+        "page": 62,
+        "sha256": "9e11b4fa0e7e895d48bd2c356d2ebb08bf0fc09a0c2a64d19807c4475eed9405",
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/teaching_readthrough",
+        "finding": null,
+        "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+      }
+    },
+    {
+      "page": 63,
+      "sha256": "949ee73adfa0a44435a1960d7b93c8ff39dde8338a6e690283c9a0b47bae9f1e",
+      "archive_member": "page-63.png",
+      "observation": {
+        "chapter": 1,
+        "page": 63,
+        "sha256": "949ee73adfa0a44435a1960d7b93c8ff39dde8338a6e690283c9a0b47bae9f1e",
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/teaching_readthrough",
+        "finding": null,
+        "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+      }
+    },
+    {
+      "page": 64,
+      "sha256": "58ececda4fc5ac90b8ff6beb39dd9e1c1717c8d1b665077213eca06bac36396a",
+      "archive_member": "page-64.png",
+      "observation": {
+        "chapter": 1,
+        "page": 64,
+        "sha256": "58ececda4fc5ac90b8ff6beb39dd9e1c1717c8d1b665077213eca06bac36396a",
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/teaching_readthrough",
+        "finding": null,
+        "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+      }
+    },
+    {
+      "page": 65,
+      "sha256": "b298da93ab615eed6a1582f2d3244ee62817afc8628d6ead803597001766b0b7",
+      "archive_member": "page-65.png",
+      "observation": {
+        "chapter": 1,
+        "page": 65,
+        "sha256": "b298da93ab615eed6a1582f2d3244ee62817afc8628d6ead803597001766b0b7",
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/teaching_readthrough",
+        "finding": null,
+        "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+      }
+    },
+    {
+      "page": 66,
+      "sha256": "e7f8ab65f68c89a2638a7f0aec65e4e55bae1ed7f3e68dbec5c8ec814f07ed6f",
+      "archive_member": "page-66.png",
+      "observation": {
+        "chapter": 1,
+        "page": 66,
+        "sha256": "e7f8ab65f68c89a2638a7f0aec65e4e55bae1ed7f3e68dbec5c8ec814f07ed6f",
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/teaching_readthrough",
+        "finding": null,
+        "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+      }
+    },
+    {
+      "page": 67,
+      "sha256": "fc9269214c702f616cee3b790abfca21c9e26a9c3b871ee310bf920235f10539",
+      "archive_member": "page-67.png",
+      "observation": {
+        "chapter": 1,
+        "page": 67,
+        "sha256": "fc9269214c702f616cee3b790abfca21c9e26a9c3b871ee310bf920235f10539",
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/teaching_readthrough",
+        "finding": null,
+        "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+      }
+    },
+    {
+      "page": 68,
+      "sha256": "f0d84a442aa1c1a0308bf70e68d57be56fac80a3606a5f261774d95f2ce1ef99",
+      "archive_member": "page-68.png",
+      "observation": {
+        "chapter": 1,
+        "page": 68,
+        "sha256": "f0d84a442aa1c1a0308bf70e68d57be56fac80a3606a5f261774d95f2ce1ef99",
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/teaching_readthrough",
+        "finding": null,
+        "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+      }
+    },
+    {
+      "page": 69,
+      "sha256": "a2b091db090c745e59fd798ee496dc61453c4ef704ace9faa9c4cc977244db6d",
+      "archive_member": "page-69.png",
+      "observation": {
+        "chapter": 1,
+        "page": 69,
+        "sha256": "a2b091db090c745e59fd798ee496dc61453c4ef704ace9faa9c4cc977244db6d",
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/teaching_readthrough",
+        "finding": null,
+        "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+      }
+    },
+    {
+      "page": 70,
+      "sha256": "ebf650194e52923ca36e59218d46c03637158f1ff94aca415a436a6026e304d7",
+      "archive_member": "page-70.png",
+      "observation": {
+        "chapter": 1,
+        "page": 70,
+        "sha256": "ebf650194e52923ca36e59218d46c03637158f1ff94aca415a436a6026e304d7",
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/teaching_readthrough",
+        "finding": null,
+        "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+      }
+    },
+    {
+      "page": 71,
+      "sha256": "933309b44f54cebe51c1c74df72a7651c4a6905af71e3a644e74477e33b98ea2",
+      "archive_member": "page-71.png",
+      "observation": {
+        "chapter": 1,
+        "page": 71,
+        "sha256": "933309b44f54cebe51c1c74df72a7651c4a6905af71e3a644e74477e33b98ea2",
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/teaching_readthrough",
+        "finding": null,
+        "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+      }
+    },
+    {
+      "page": 72,
+      "sha256": "8a6a2ba562cb912e30f463bf5ff3f6fd7015c9d0964c702bcc47c084fbea51ec",
+      "archive_member": "page-72.png",
+      "observation": {
+        "chapter": 1,
+        "page": 72,
+        "sha256": "8a6a2ba562cb912e30f463bf5ff3f6fd7015c9d0964c702bcc47c084fbea51ec",
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/teaching_readthrough",
+        "finding": null,
+        "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+      }
+    }
+  ],
+  "limits": "AI实际页面检查及字节一致继承；未在Microsoft Word原生刷新、实体打印或师生课堂中验收。"
+}

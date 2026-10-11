@@ -1,0 +1,17 @@
+[
+  {
+    "file": "manuscripts/ch01-03-review/ch01.md",
+    "sha256": "8c0e23d6115f02de3133712c7d1114cd0c22a4e9810d88a7f30e921b33534636",
+    "han_chars": 36192
+  },
+  {
+    "file": "manuscripts/ch01-03-review/ch02.md",
+    "sha256": "822d4bfdb9b2e8f609bbebe2dee0b4ac2092534862e384cf1f7ad48e166542e6",
+    "han_chars": 37013
+  },
+  {
+    "file": "manuscripts/ch01-03-review/ch03.md",
+    "sha256": "0807d8446c05c04d9ed7d07a50e5616d178b5ed602e596335ad7949bd133c57c",
+    "han_chars": 38277
+  }
+]

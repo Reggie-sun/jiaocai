@@ -1,0 +1,12 @@
+{
+  "invocation_id": "e5e7c1d3-3eef-4565-bd34-de2ecc1f55b7",
+  "classification": "EVIDENCE_INCOMPLETE",
+  "report_adopted": false,
+  "process_exit": 0,
+  "duration_seconds": 461.45381476701004,
+  "wire_requests": 4,
+  "output_bytes": 5688394,
+  "diagnosis": "Terminal evidence_refs cites professional-r1.json lines 1-4; receipt observed actual Read covers only line 1. Canonical protocol correctly rejects unsupported lines.",
+  "recovery": "One explicit finite attempt with precise reference instructions, same manuscript snapshot; not a fourth semantic review round. A repeated protocol failure must switch to named native profile under SUBAGENTS.md.",
+  "budget_consumption": "Live attempt 2 consumed the second of three default physical review attempts. Explicit recovery is live attempt 3; no fourth Kimi attempt is authorized by this record."
+}

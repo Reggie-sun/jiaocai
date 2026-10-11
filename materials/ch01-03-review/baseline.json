@@ -1,0 +1,20 @@
+{
+  "head": "2a35a6ee9e0ce7f3377f295afe51fe3faa446ef0",
+  "chapters": [
+    {
+      "chapter": 1,
+      "path": "manuscripts/ch01-history-layout/ch01.md",
+      "sha256": "87fc722e0a53b4ce934dba90f720c3e2e40c3e9401d05560f48b4473f33deb66"
+    },
+    {
+      "chapter": 2,
+      "path": "manuscripts/ch02-progressive/ch02.md",
+      "sha256": "f7e5ed4406330dc99b7dcafa61cd2cc52ad67288f86fff32c20b95f603db19cd"
+    },
+    {
+      "chapter": 3,
+      "path": "manuscripts/ch03-layout/ch03.md",
+      "sha256": "3b10a58d7bfdc6eef16a57e1ef35f2efa58a0a60555ab121372dc8980e552e61"
+    }
+  ]
+}

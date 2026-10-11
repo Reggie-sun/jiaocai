@@ -1,0 +1,60 @@
+{
+  "parent_session_id": "codex-jiaocai-crosschapter-20261012",
+  "task_id": "ch01-03-professional-r2",
+  "cwd": "/home/reggie/vscode_folder/jiaocai",
+  "explicit_root": "/home/reggie/vscode_folder/jiaocai",
+  "role": "reviewer",
+  "goal": "Targeted independent PROFESSIONAL re-review Round 2 of final revised Chapters 1-3. Previous report professional-r1.json PRO-01 incomplete six-route enumeration, PRO-02 before/not-later deadline mismatch, PRO-03 human vs ML generalization. Parent confirmed and repaired these in current manuscripts. Read complete current chapters in <=160 line continuous chunks and report actual read ranges/hash, compare changed portions with diffs. Recheck your own findings plus newly restored ch03 3.4 and Xiaomi case for mechanism/term/prerequisite/source-scope correctness. Parent source-check.md records actual primary-source verification; teaching simulation is not company workflow. Spec now corrects original 3.4 omission, old specs are historical. Max 5 substantive remaining or NEW PRO-xx findings with paths/lines/consequence/minimal fix/verification, empty allowed. No other review reports, no scoring or acceptance. Read-only no Bash/network/writes/credentials/nested delegation/commit/push. Canonical top-level only findings,proposed_changes,evidence_refs,uncertainties,questions. No Word/page/pixel claims. Round 2 of max 3.",
+  "read_paths": [
+    "manuscripts/ch01-03-review/ch01.md",
+    "manuscripts/ch01-03-review/ch02.md",
+    "manuscripts/ch01-03-review/ch03.md",
+    "materials/ch01-03-review/ch01.diff",
+    "materials/ch01-03-review/ch02.diff",
+    "materials/ch01-03-review/ch03.diff",
+    "materials/ch01-03-review/professional-r1.json",
+    "materials/ch01-03-review/source-check.md",
+    "materials/ch01-03-review/outline.md"
+  ],
+  "write_paths": [],
+  "permissions": [
+    "read"
+  ],
+  "selected_refs": [
+    {
+      "path": "specs/ch01-03-review.spec.md",
+      "sha256": "7083639e28f969ccaea240da5e6ba1348d6ef98563cc6f64a9a6c3cd9d5dddcd",
+      "accepted": true
+    },
+    {
+      "path": "plans/ch01-03-review.plan.md",
+      "sha256": "d3eb1232eb8cadce6b1fc3607d3c9e2a13772f60d8f171326086b59c6dc22c72",
+      "accepted": true
+    }
+  ],
+  "active_documents": "accepted_refs",
+  "harness_refs": [],
+  "constitution_refs": [
+    "AGENTS.md"
+  ],
+  "skills": [],
+  "skill_roots": [],
+  "expected_evidence": [
+    "manuscripts/ch01-03-review/ch01.md",
+    "manuscripts/ch01-03-review/ch02.md",
+    "manuscripts/ch01-03-review/ch03.md"
+  ],
+  "backend": "kimi",
+  "profile": "deep",
+  "budgets": {
+    "wall_seconds": 3600,
+    "idle_seconds": 1800,
+    "request_limit": 64,
+    "generation_tokens": 32000,
+    "output_bytes": 16777216,
+    "context_bytes": 8388608
+  },
+  "instruction_precedence": [
+    "AGENTS.md"
+  ]
+}

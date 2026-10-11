@@ -1,0 +1,34 @@
+{
+  "package": "output/ch01-03-review/前三章-跨章节审校修订版.zip",
+  "sha256": "30716d6da112ee4d23d49ec13bda2adcb9cf54b3e07fe4ea62123b90aaca2fd9",
+  "crc": "PASS",
+  "formal_files": [
+    {
+      "path": "output/ch01-03-review/第一章-计算思维-跨章审校版.docx",
+      "sha256": "155375f5989675b5af3dafe472faeb16000b77cf370c0e225c328c6bba7751dc"
+    },
+    {
+      "path": "output/ch01-03-review/第一章-计算思维-跨章审校版.pdf",
+      "sha256": "dc635420a3951d643e5ad66ee5de0f6224b39191debb70f8dde29404598d0832"
+    },
+    {
+      "path": "output/ch01-03-review/第三章-计算思维与人工智能素养-跨章审校版.docx",
+      "sha256": "1da576ad030791ca9d9f558c06f5e1db73d6b273a499eade7f497b65a3f4089b"
+    },
+    {
+      "path": "output/ch01-03-review/第三章-计算思维与人工智能素养-跨章审校版.pdf",
+      "sha256": "ae7aa71c885b102875198affaeac57ead6b77943124a3fc0cafb7b0b1640fb38"
+    },
+    {
+      "path": "output/ch01-03-review/第二章-AI时代计算思维的重构-跨章审校版.docx",
+      "sha256": "15e98edf502c0aaf76afef82fe596ae8e2043de362dee8aad6ad9811d77d1236"
+    },
+    {
+      "path": "output/ch01-03-review/第二章-AI时代计算思维的重构-跨章审校版.pdf",
+      "sha256": "2c603dc01ec37e7890e7dffa15e9d44e1b331a23fac9b3ffbf3389ccdd1ac668"
+    }
+  ],
+  "report": "审校报告.md",
+  "report_note": "Only links rebased to packaged Word/PDF names or repository paths; text otherwise retained.",
+  "original_editions_retained": true
+}

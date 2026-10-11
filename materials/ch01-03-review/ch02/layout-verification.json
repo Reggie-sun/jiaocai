@@ -1,0 +1,461 @@
+{
+  "checks": "PASS",
+  "source_sha256": "00d10d3d24ef040c9639d241991996fed49a33fe0d61f5399fc4f665733d1eb2",
+  "docx_sha256": "15e98edf502c0aaf76afef82fe596ae8e2043de362dee8aad6ad9811d77d1236",
+  "pdf_sha256": "2c603dc01ec37e7890e7dffa15e9d44e1b331a23fac9b3ffbf3389ccdd1ac668",
+  "pages": 81,
+  "tables_exactly_match_source": 15,
+  "figures": 8,
+  "reference_fields": 26,
+  "toc_pages": {
+    "2.1 抽象 (Abstraction)：数据本质的智能萃取": 4,
+    "2.2 分解 (Decomposition)：复杂问题的AI分层破解": 15,
+    "2.3 模式识别 (Pattern Recognition)：深度学习的隐规律挖掘": 27,
+    "2.4 算法设计 (Algorithm Design)：从人工逻辑到数据驱动优化": 40,
+    "2.5 评估与优化 (Evaluation & Optimization)：AI赋能的闭环进化系统": 51,
+    "章末综合训练": 64,
+    "本章回顾": 67,
+    "关键术语": 68,
+    "参考解与讨论": 69,
+    "参考文献": 79
+  },
+  "toc_cache_matches_actual_pages": true,
+  "all_fonts_embedded": [
+    "/BAAAAA+NotoSansCJKsc-Regular",
+    "/CAAAAA+NotoSansCJKsc-Bold",
+    "/DAAAAA+NotoSerifCJKsc-Regular",
+    "/EAAAAA+NotoSerifCJKsc-Regular",
+    "/FAAAAA+NotoSerifCJKsc-Bold",
+    "/GAAAAA+NotoSansCJKsc-Bold",
+    "/HAAAAA+NotoSansCJKsc-Bold",
+    "/IAAAAA+NotoSerifCJKsc-Regular",
+    "/JAAAAA+NotoSerifCJKsc-Regular",
+    "/KAAAAA+NotoSerifCJKsc-Regular",
+    "/LAAAAA+NotoSerifCJKsc-Bold",
+    "/MAAAAA+NotoSans-Regular",
+    "/NAAAAA+NotoSerifCJKsc-Regular",
+    "/OAAAAA+NotoSerifCJKsc-Regular",
+    "/PAAAAA+NotoSerifCJKsc-Regular",
+    "/QAAAAA+NotoSansCJKsc-Bold"
+  ],
+  "embedded_symbol_or_math_fonts": {
+    "MAAAAA+NotoSans-Regular": "₁₂"
+  },
+  "protected_files_unchanged": 918,
+  "foreign_changes_preserved": {},
+  "template_preserve_parts_identical": [
+    "word/styles.xml",
+    "word/fontTable.xml",
+    "word/theme/theme1.xml",
+    "word/settings.xml",
+    "word/footer1.xml"
+  ],
+  "page_extents": [
+    {
+      "page": 1,
+      "body_top": 84.5,
+      "body_bottom": 750.6
+    },
+    {
+      "page": 2,
+      "body_top": 79.8,
+      "body_bottom": 715.9
+    },
+    {
+      "page": 3,
+      "body_top": 83.0,
+      "body_bottom": 437.5
+    },
+    {
+      "page": 4,
+      "body_top": 95.0,
+      "body_bottom": 768.9
+    },
+    {
+      "page": 5,
+      "body_top": 79.8,
+      "body_bottom": 706.8
+    },
+    {
+      "page": 6,
+      "body_top": 79.8,
+      "body_bottom": 769.2
+    },
+    {
+      "page": 7,
+      "body_top": 79.8,
+      "body_bottom": 670.0
+    },
+    {
+      "page": 8,
+      "body_top": 81.5,
+      "body_bottom": 760.5
+    },
+    {
+      "page": 9,
+      "body_top": 79.8,
+      "body_bottom": 706.8
+    },
+    {
+      "page": 10,
+      "body_top": 79.8,
+      "body_bottom": 748.8
+    },
+    {
+      "page": 11,
+      "body_top": 79.8,
+      "body_bottom": 715.9
+    },
+    {
+      "page": 12,
+      "body_top": 319.1,
+      "body_bottom": 769.1
+    },
+    {
+      "page": 13,
+      "body_top": 79.8,
+      "body_bottom": 608.3
+    },
+    {
+      "page": 14,
+      "body_top": 78.7,
+      "body_bottom": 711.7
+    },
+    {
+      "page": 15,
+      "body_top": 79.8,
+      "body_bottom": 768.9
+    },
+    {
+      "page": 16,
+      "body_top": 79.8,
+      "body_bottom": 706.8
+    },
+    {
+      "page": 17,
+      "body_top": 79.8,
+      "body_bottom": 745.7
+    },
+    {
+      "page": 18,
+      "body_top": 79.8,
+      "body_bottom": 650.2
+    },
+    {
+      "page": 19,
+      "body_top": 372.7,
+      "body_bottom": 757.0
+    },
+    {
+      "page": 20,
+      "body_top": 79.8,
+      "body_bottom": 748.8
+    },
+    {
+      "page": 21,
+      "body_top": 81.5,
+      "body_bottom": 727.7
+    },
+    {
+      "page": 22,
+      "body_top": 79.8,
+      "body_bottom": 739.7
+    },
+    {
+      "page": 23,
+      "body_top": 79.8,
+      "body_bottom": 715.9
+    },
+    {
+      "page": 24,
+      "body_top": 79.8,
+      "body_bottom": 650.2
+    },
+    {
+      "page": 25,
+      "body_top": 81.5,
+      "body_bottom": 753.7
+    },
+    {
+      "page": 26,
+      "body_top": 79.8,
+      "body_bottom": 739.7
+    },
+    {
+      "page": 27,
+      "body_top": 79.8,
+      "body_bottom": 714.5
+    },
+    {
+      "page": 28,
+      "body_top": 79.8,
+      "body_bottom": 754.8
+    },
+    {
+      "page": 29,
+      "body_top": 79.8,
+      "body_bottom": 739.7
+    },
+    {
+      "page": 30,
+      "body_top": 79.8,
+      "body_bottom": 748.8
+    },
+    {
+      "page": 31,
+      "body_top": 81.5,
+      "body_bottom": 720.8
+    },
+    {
+      "page": 32,
+      "body_top": 79.8,
+      "body_bottom": 715.9
+    },
+    {
+      "page": 33,
+      "body_top": 79.8,
+      "body_bottom": 739.7
+    },
+    {
+      "page": 34,
+      "body_top": 79.8,
+      "body_bottom": 715.9
+    },
+    {
+      "page": 35,
+      "body_top": 79.8,
+      "body_bottom": 717.1
+    },
+    {
+      "page": 36,
+      "body_top": 79.8,
+      "body_bottom": 748.8
+    },
+    {
+      "page": 37,
+      "body_top": 79.8,
+      "body_bottom": 747.6
+    },
+    {
+      "page": 38,
+      "body_top": 79.8,
+      "body_bottom": 687.6
+    },
+    {
+      "page": 39,
+      "body_top": 79.8,
+      "body_bottom": 748.8
+    },
+    {
+      "page": 40,
+      "body_top": 79.8,
+      "body_bottom": 747.3
+    },
+    {
+      "page": 41,
+      "body_top": 79.8,
+      "body_bottom": 739.7
+    },
+    {
+      "page": 42,
+      "body_top": 79.8,
+      "body_bottom": 739.7
+    },
+    {
+      "page": 43,
+      "body_top": 79.8,
+      "body_bottom": 715.9
+    },
+    {
+      "page": 44,
+      "body_top": 79.8,
+      "body_bottom": 748.8
+    },
+    {
+      "page": 45,
+      "body_top": 79.8,
+      "body_bottom": 747.4
+    },
+    {
+      "page": 46,
+      "body_top": 79.8,
+      "body_bottom": 748.8
+    },
+    {
+      "page": 47,
+      "body_top": 79.8,
+      "body_bottom": 706.8
+    },
+    {
+      "page": 48,
+      "body_top": 79.8,
+      "body_bottom": 748.8
+    },
+    {
+      "page": 49,
+      "body_top": 79.8,
+      "body_bottom": 765.7
+    },
+    {
+      "page": 50,
+      "body_top": 79.8,
+      "body_bottom": 748.8
+    },
+    {
+      "page": 51,
+      "body_top": 79.8,
+      "body_bottom": 714.5
+    },
+    {
+      "page": 52,
+      "body_top": 81.5,
+      "body_bottom": 733.7
+    },
+    {
+      "page": 53,
+      "body_top": 79.8,
+      "body_bottom": 453.1
+    },
+    {
+      "page": 54,
+      "body_top": 375.2,
+      "body_bottom": 726.7
+    },
+    {
+      "page": 55,
+      "body_top": 79.8,
+      "body_bottom": 748.8
+    },
+    {
+      "page": 56,
+      "body_top": 81.5,
+      "body_bottom": 760.5
+    },
+    {
+      "page": 57,
+      "body_top": 79.8,
+      "body_bottom": 739.7
+    },
+    {
+      "page": 58,
+      "body_top": 79.8,
+      "body_bottom": 759.1
+    },
+    {
+      "page": 59,
+      "body_top": 81.5,
+      "body_bottom": 760.5
+    },
+    {
+      "page": 60,
+      "body_top": 79.8,
+      "body_bottom": 706.8
+    },
+    {
+      "page": 61,
+      "body_top": 79.8,
+      "body_bottom": 739.7
+    },
+    {
+      "page": 62,
+      "body_top": 79.8,
+      "body_bottom": 704.8
+    },
+    {
+      "page": 63,
+      "body_top": 79.8,
+      "body_bottom": 706.8
+    },
+    {
+      "page": 64,
+      "body_top": 83.0,
+      "body_bottom": 731.9
+    },
+    {
+      "page": 65,
+      "body_top": 83.2,
+      "body_bottom": 724.1
+    },
+    {
+      "page": 66,
+      "body_top": 79.8,
+      "body_bottom": 748.8
+    },
+    {
+      "page": 67,
+      "body_top": 79.8,
+      "body_bottom": 712.3
+    },
+    {
+      "page": 68,
+      "body_top": 79.8,
+      "body_bottom": 745.2
+    },
+    {
+      "page": 69,
+      "body_top": 79.8,
+      "body_bottom": 712.3
+    },
+    {
+      "page": 70,
+      "body_top": 79.8,
+      "body_bottom": 715.9
+    },
+    {
+      "page": 71,
+      "body_top": 79.8,
+      "body_bottom": 748.8
+    },
+    {
+      "page": 72,
+      "body_top": 79.8,
+      "body_bottom": 650.2
+    },
+    {
+      "page": 73,
+      "body_top": 78.7,
+      "body_bottom": 739.2
+    },
+    {
+      "page": 74,
+      "body_top": 79.8,
+      "body_bottom": 715.9
+    },
+    {
+      "page": 75,
+      "body_top": 79.8,
+      "body_bottom": 746.2
+    },
+    {
+      "page": 76,
+      "body_top": 79.8,
+      "body_bottom": 748.8
+    },
+    {
+      "page": 77,
+      "body_top": 79.8,
+      "body_bottom": 748.8
+    },
+    {
+      "page": 78,
+      "body_top": 79.8,
+      "body_bottom": 715.9
+    },
+    {
+      "page": 79,
+      "body_top": 79.8,
+      "body_bottom": 758.4
+    },
+    {
+      "page": 80,
+      "body_top": 78.7,
+      "body_bottom": 731.8
+    },
+    {
+      "page": 81,
+      "body_top": 78.7,
+      "body_bottom": 204.0
+    }
+  ],
+  "boundary": "Executable content/field/layout checks; does not substitute actual page viewing, classroom trial, Word native execution or publisher acceptance."
+}

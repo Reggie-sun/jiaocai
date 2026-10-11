@@ -1,0 +1,50 @@
+{
+  "runs": [
+    {
+      "id": "ch01-crossreview",
+      "effective_state": "accepted",
+      "review_kind": "ai_self",
+      "han_characters_approx": 36192
+    },
+    {
+      "id": "ch02-crossreview",
+      "effective_state": "accepted",
+      "review_kind": "ai_self",
+      "han_characters_approx": 37035
+    },
+    {
+      "id": "ch03-crossreview",
+      "effective_state": "accepted",
+      "review_kind": "ai_self",
+      "han_characters_approx": 38365
+    }
+  ],
+  "old_runs_equivalent_json": 8,
+  "old_protected_files_unchanged": 918,
+  "progress_original_prefix_preserved": true,
+  "progress_original_prefix_sha256": "b418c8edae8c6dac3d4a4aed988a3eb1d0a2949d88fcf766d806ccd1bab0a68c",
+  "global_historical_stale_runs_retained": [
+    "blueprint-20261011",
+    "ch01-draft",
+    "ch01-rewrite",
+    "ch02-delivery",
+    "ch01-figures"
+  ],
+  "current_source_sha256": {
+    "manuscripts/ch01-03-review/ch03.md": "8673ba4d1e0fd79afb6d64212625975d87cf10392fc66c90a9e0bfc706b5b1d5",
+    "manuscripts/ch01-03-review/ch01.md": "8c0e23d6115f02de3133712c7d1114cd0c22a4e9810d88a7f30e921b33534636",
+    "manuscripts/ch01-03-review/ch02.md": "00d10d3d24ef040c9639d241991996fed49a33fe0d61f5399fc4f665733d1eb2"
+  },
+  "package_sha256": "30716d6da112ee4d23d49ec13bda2adcb9cf54b3e07fe4ea62123b90aaca2fd9",
+  "whitespace_validation": {
+    "product_code_and_all_other_files": "PASS",
+    "exempted": [
+      "materials/ch01-03-review/ch01.diff",
+      "materials/ch01-03-review/ch02.diff",
+      "materials/ch01-03-review/ch03.diff",
+      "materials/ch01-03-review/outline.md"
+    ],
+    "reason": "Unified-diff blank context lines require a leading space; outline is a verbatim original DOCX text extraction. Preserve exact review inputs rather than alter sealed evidence."
+  },
+  "canonical_events": "harness.json and final status JSON retain start/check/review/accept; redundant CLI echo copies removed."
+}

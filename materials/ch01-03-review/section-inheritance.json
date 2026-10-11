@@ -1,0 +1,19 @@
+{
+  "relocated_existing_bodies": [
+    {
+      "baseline_section": "3.3.6",
+      "current_section": "3.4.2",
+      "body_byte_identical": true,
+      "sha256": "80211e357b60766bda9d3220bf3f158f9900424c8d8235674620afc6156773a0"
+    },
+    {
+      "baseline_section": "3.3.7",
+      "current_section": "3.4.3",
+      "body_byte_identical": true,
+      "sha256": "71a336e04b30395ebec65e64282bace278bae1112d3a735c9d43bb07b29a669c"
+    }
+  ],
+  "original_outline_paragraph": 116,
+  "new_3_4_original_title_present": true,
+  "new_entry_and_training_not_claimed_identical": true
+}

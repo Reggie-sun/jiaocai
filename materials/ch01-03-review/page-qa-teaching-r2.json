@@ -1,0 +1,256 @@
+{
+  "scope": "ch01 3,58–72; ch02 13,26–30,41,67",
+  "findings": [
+    {
+      "id": "TEA-V01",
+      "severity": "non_blocking",
+      "chapter": 2,
+      "page": 27,
+      "concern": "长标题尾行仅一字，拆开挖掘。",
+      "correction": "仅在深度学习前平衡换行，标题文字及模板不变。"
+    }
+  ],
+  "pages": [
+    {
+      "chapter": 1,
+      "page": 3,
+      "sha256": "a6b6e8c051f2cb17ea29d575b2736dce779385ebbe51ac946912a758c2eb38f5",
+      "actual_view": true,
+      "detail": "original",
+      "observer": "/root/teaching_readthrough",
+      "finding": null,
+      "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+    },
+    {
+      "chapter": 1,
+      "page": 58,
+      "sha256": "07ee4e2f204d13d3a144edf642a42542591a2891ada15bace9c0818ad7f108d7",
+      "actual_view": true,
+      "detail": "original",
+      "observer": "/root/teaching_readthrough",
+      "finding": null,
+      "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+    },
+    {
+      "chapter": 1,
+      "page": 59,
+      "sha256": "51aaf028662cfd898050838312c92dda3c98a995e31f5836ef4a39602d22ba70",
+      "actual_view": true,
+      "detail": "original",
+      "observer": "/root/teaching_readthrough",
+      "finding": null,
+      "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+    },
+    {
+      "chapter": 1,
+      "page": 60,
+      "sha256": "5279c183f2e167e7223c225bde96766a6ea6054b6c54bf53026dd4e3be754928",
+      "actual_view": true,
+      "detail": "original",
+      "observer": "/root/teaching_readthrough",
+      "finding": null,
+      "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+    },
+    {
+      "chapter": 1,
+      "page": 61,
+      "sha256": "15b229ab0f2f0be889c1841333ee078a999aa7d44e2ce816e6ef2ea93c5c103b",
+      "actual_view": true,
+      "detail": "original",
+      "observer": "/root/teaching_readthrough",
+      "finding": null,
+      "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+    },
+    {
+      "chapter": 1,
+      "page": 62,
+      "sha256": "9e11b4fa0e7e895d48bd2c356d2ebb08bf0fc09a0c2a64d19807c4475eed9405",
+      "actual_view": true,
+      "detail": "original",
+      "observer": "/root/teaching_readthrough",
+      "finding": null,
+      "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+    },
+    {
+      "chapter": 1,
+      "page": 63,
+      "sha256": "949ee73adfa0a44435a1960d7b93c8ff39dde8338a6e690283c9a0b47bae9f1e",
+      "actual_view": true,
+      "detail": "original",
+      "observer": "/root/teaching_readthrough",
+      "finding": null,
+      "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+    },
+    {
+      "chapter": 1,
+      "page": 64,
+      "sha256": "58ececda4fc5ac90b8ff6beb39dd9e1c1717c8d1b665077213eca06bac36396a",
+      "actual_view": true,
+      "detail": "original",
+      "observer": "/root/teaching_readthrough",
+      "finding": null,
+      "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+    },
+    {
+      "chapter": 1,
+      "page": 65,
+      "sha256": "b298da93ab615eed6a1582f2d3244ee62817afc8628d6ead803597001766b0b7",
+      "actual_view": true,
+      "detail": "original",
+      "observer": "/root/teaching_readthrough",
+      "finding": null,
+      "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+    },
+    {
+      "chapter": 1,
+      "page": 66,
+      "sha256": "e7f8ab65f68c89a2638a7f0aec65e4e55bae1ed7f3e68dbec5c8ec814f07ed6f",
+      "actual_view": true,
+      "detail": "original",
+      "observer": "/root/teaching_readthrough",
+      "finding": null,
+      "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+    },
+    {
+      "chapter": 1,
+      "page": 67,
+      "sha256": "fc9269214c702f616cee3b790abfca21c9e26a9c3b871ee310bf920235f10539",
+      "actual_view": true,
+      "detail": "original",
+      "observer": "/root/teaching_readthrough",
+      "finding": null,
+      "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+    },
+    {
+      "chapter": 1,
+      "page": 68,
+      "sha256": "f0d84a442aa1c1a0308bf70e68d57be56fac80a3606a5f261774d95f2ce1ef99",
+      "actual_view": true,
+      "detail": "original",
+      "observer": "/root/teaching_readthrough",
+      "finding": null,
+      "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+    },
+    {
+      "chapter": 1,
+      "page": 69,
+      "sha256": "a2b091db090c745e59fd798ee496dc61453c4ef704ace9faa9c4cc977244db6d",
+      "actual_view": true,
+      "detail": "original",
+      "observer": "/root/teaching_readthrough",
+      "finding": null,
+      "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+    },
+    {
+      "chapter": 1,
+      "page": 70,
+      "sha256": "ebf650194e52923ca36e59218d46c03637158f1ff94aca415a436a6026e304d7",
+      "actual_view": true,
+      "detail": "original",
+      "observer": "/root/teaching_readthrough",
+      "finding": null,
+      "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+    },
+    {
+      "chapter": 1,
+      "page": 71,
+      "sha256": "933309b44f54cebe51c1c74df72a7651c4a6905af71e3a644e74477e33b98ea2",
+      "actual_view": true,
+      "detail": "original",
+      "observer": "/root/teaching_readthrough",
+      "finding": null,
+      "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+    },
+    {
+      "chapter": 1,
+      "page": 72,
+      "sha256": "8a6a2ba562cb912e30f463bf5ff3f6fd7015c9d0964c702bcc47c084fbea51ec",
+      "actual_view": true,
+      "detail": "original",
+      "observer": "/root/teaching_readthrough",
+      "finding": null,
+      "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+    },
+    {
+      "chapter": 2,
+      "page": 13,
+      "sha256": "91f8814dd874b7b04d14ee8f7700ba90ea304631fcfa90806d908cef38d2db8c",
+      "actual_view": true,
+      "detail": "original",
+      "observer": "/root/teaching_readthrough",
+      "finding": null,
+      "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+    },
+    {
+      "chapter": 2,
+      "page": 26,
+      "sha256": "1663b4e9a10812343e88fb8ad3ac93ff54914c8003595727ad60698ae5eb5c24",
+      "actual_view": true,
+      "detail": "original",
+      "observer": "/root/teaching_readthrough",
+      "finding": null,
+      "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+    },
+    {
+      "chapter": 2,
+      "page": 27,
+      "sha256": "a529da92da88ada6ee818db20c22352a590fffa5937d6e9f0878bd0aa6f56d6d",
+      "actual_view": true,
+      "detail": "original",
+      "observer": "/root/teaching_readthrough",
+      "finding": "TEA-V01",
+      "observation": "标题单字尾行"
+    },
+    {
+      "chapter": 2,
+      "page": 28,
+      "sha256": "40784ec67e9218f511f215c1053ee81b3e1b3fd40286cba24a0d60c6b28c5083",
+      "actual_view": true,
+      "detail": "original",
+      "observer": "/root/teaching_readthrough",
+      "finding": null,
+      "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+    },
+    {
+      "chapter": 2,
+      "page": 29,
+      "sha256": "d73043ebb365b99e4d06189f9ff8ab74eff6953199ea22a8ff54ca240481228c",
+      "actual_view": true,
+      "detail": "original",
+      "observer": "/root/teaching_readthrough",
+      "finding": null,
+      "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+    },
+    {
+      "chapter": 2,
+      "page": 30,
+      "sha256": "29014a54949d39b262f53e32bd7602fe2dfd882f5f5b2a7025e28298061f3958",
+      "actual_view": true,
+      "detail": "original",
+      "observer": "/root/teaching_readthrough",
+      "finding": null,
+      "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+    },
+    {
+      "chapter": 2,
+      "page": 41,
+      "sha256": "e665b5e5dc5144cbf706218a8ef217353f0f02073de723707d235df70bbd7f58",
+      "actual_view": true,
+      "detail": "original",
+      "observer": "/root/teaching_readthrough",
+      "finding": null,
+      "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+    },
+    {
+      "chapter": 2,
+      "page": 67,
+      "sha256": "eb8bec39ce17250d25571ba3e2dabf7fc80b699047f4aa08f456c80749d65610",
+      "actual_view": true,
+      "detail": "original",
+      "observer": "/root/teaching_readthrough",
+      "finding": null,
+      "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+    }
+  ],
+  "limits": "实际24页PNG检查，非课堂试读或Microsoft Word原生检查。"
+}

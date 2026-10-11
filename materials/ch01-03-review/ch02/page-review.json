@@ -1,0 +1,1020 @@
+{
+  "source_sha256": "00d10d3d24ef040c9639d241991996fed49a33fe0d61f5399fc4f665733d1eb2",
+  "docx_sha256": "15e98edf502c0aaf76afef82fe596ae8e2043de362dee8aad6ad9811d77d1236",
+  "pdf_sha256": "2c603dc01ec37e7890e7dffa15e9d44e1b331a23fac9b3ffbf3389ccdd1ac668",
+  "pages": 81,
+  "archive": "materials/ch01-03-review/ch02/final-pages.zip",
+  "archive_sha256": "f644a9d6172ca198f3019e7b6aa5b828424e034a0316a2a170f10bb7a34bf840",
+  "baseline_archive": "materials/ch02-progressive/snapshots/final-pages-r4.zip",
+  "baseline_archive_sha256": "b7419bc49abc616e18d90eee505713856362340ee30e7ab2a689fd7e7632a64d",
+  "fresh_actual_page_observations": 8,
+  "inherited_identical_png_pages": 73,
+  "unviewed_final_page_bytes": [],
+  "rows": [
+    {
+      "page": 1,
+      "sha256": "9b4b7c024bea6835fb317ac3ad33fd9867721bf13aa02e363ac5f5480dc59c67",
+      "archive_member": "page-01.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-1.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 2,
+      "sha256": "4b6ddaa096262fb57ddad4b93b05ea1edff5c93e9788f82380eda7f99eb6498e",
+      "archive_member": "page-02.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-2.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 3,
+      "sha256": "d85447ac4b6f7966390d6b7718a15fdcf31ab1d06956bc76c634ac70a5ff3c58",
+      "archive_member": "page-03.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-3.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 4,
+      "sha256": "f8740a232c0efc9a5b7b1546f06e9db715a16eca12c4ed129dac2bd96a1a8a75",
+      "archive_member": "page-04.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-4.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 5,
+      "sha256": "b559e4fb350b404b58f24eb815b068a886cde939ce4b9038e7303c5be2883f39",
+      "archive_member": "page-05.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-5.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 6,
+      "sha256": "53cd76b5458efac7f8309cf12e5504624f9ce14745e67fe3c3d5207ad47f2fac",
+      "archive_member": "page-06.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-6.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 7,
+      "sha256": "36217c08558e5e579a6f75b685b78c1e6055c8a91ea04730bb6e8e6ac84e31bf",
+      "archive_member": "page-07.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-7.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 8,
+      "sha256": "c9593b00b271fddc909eb93c64a5f37b1e7202d9e5e3594155b1ceaca3aa47e9",
+      "archive_member": "page-08.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-8.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 9,
+      "sha256": "4e0b2b690452cdf0cb37c4fbafa0b68bfd6ada49692d8b350675a8972d2e496c",
+      "archive_member": "page-09.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-9.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 10,
+      "sha256": "f843579cc6476eb4e46fc435c12521d4c8af8223f38a7246eab9b7413ab3c9e8",
+      "archive_member": "page-10.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-10.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 11,
+      "sha256": "d57ef70b3e486e7e95f2d78270647c66e92a857175f3caccd91715621758e099",
+      "archive_member": "page-11.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-11.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 12,
+      "sha256": "bdb612cd236e883495241e947a579a05739188bcba77a582b13c89542ff32337",
+      "archive_member": "page-12.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-12.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 13,
+      "sha256": "91f8814dd874b7b04d14ee8f7700ba90ea304631fcfa90806d908cef38d2db8c",
+      "archive_member": "page-13.png",
+      "observation": {
+        "chapter": 2,
+        "page": 13,
+        "sha256": "91f8814dd874b7b04d14ee8f7700ba90ea304631fcfa90806d908cef38d2db8c",
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/teaching_readthrough",
+        "finding": null,
+        "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+      }
+    },
+    {
+      "page": 14,
+      "sha256": "884fc2783b5116d6480327dc09dfe0886d62ce8dfbadbbdd553e3a08571fc668",
+      "archive_member": "page-14.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-14.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 15,
+      "sha256": "0673d7611505c240eb479e29b295e4b4c8c211b4c5d136e17d95e62e0a940488",
+      "archive_member": "page-15.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-15.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 16,
+      "sha256": "a1c0382558cde1e1ba4544c54380046be872fc50568949d586748a7dbdd14681",
+      "archive_member": "page-16.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-16.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 17,
+      "sha256": "a54ce732e0606547c91b88243d18868be83509e730850f759cea116e319a55c4",
+      "archive_member": "page-17.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-17.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 18,
+      "sha256": "2198f43b6b2b2a2501b3d5a502bd5df0aa4733a4fa904a669a184e809b4f6147",
+      "archive_member": "page-18.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-18.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 19,
+      "sha256": "d5b6baa49a506a78527fe08c239b68b02ecdb00b3296da65c5da15f4ef9c2b24",
+      "archive_member": "page-19.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-19.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 20,
+      "sha256": "48e6a1d64d43a4f6331afbcfa0d22d950f5b1720bc797a50d7197e5adc08de4b",
+      "archive_member": "page-20.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-20.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 21,
+      "sha256": "fee46152074e8d232dce49fd46e196c4fc9838c5510694bd4992d17aa2cedd53",
+      "archive_member": "page-21.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-21.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 22,
+      "sha256": "373becb9d627ad8cb61d9af02d826c58d075be795c53a92bbc5d4a509e4c8667",
+      "archive_member": "page-22.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-22.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 23,
+      "sha256": "d20b9dd9e390a91c58a038977346a1ba723cb69508bc43ad0b0d695a3aeadbe4",
+      "archive_member": "page-23.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-23.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 24,
+      "sha256": "ee69fa58c410b74b17707115e52aaae9dcb5d8a9d3518400aa6beead28b5d69e",
+      "archive_member": "page-24.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-24.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 25,
+      "sha256": "c7d913dbf1c9a9a3c7b2f0638e4b497cffd4321a32591b915d0ca61acb1a2b79",
+      "archive_member": "page-25.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-25.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 26,
+      "sha256": "1663b4e9a10812343e88fb8ad3ac93ff54914c8003595727ad60698ae5eb5c24",
+      "archive_member": "page-26.png",
+      "observation": {
+        "chapter": 2,
+        "page": 26,
+        "sha256": "1663b4e9a10812343e88fb8ad3ac93ff54914c8003595727ad60698ae5eb5c24",
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/teaching_readthrough",
+        "finding": null,
+        "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+      }
+    },
+    {
+      "page": 27,
+      "sha256": "9fd8ce982e73074a9ca4d12232372df6743740f3a9e883a09a415f0852edec7d",
+      "archive_member": "page-27.png",
+      "observation": {
+        "findings": [],
+        "resolved": "TEA-V01",
+        "page": 27,
+        "sha256": "9fd8ce982e73074a9ca4d12232372df6743740f3a9e883a09a415f0852edec7d",
+        "observers": [
+          "/root/teaching_readthrough",
+          "Codex Parent"
+        ],
+        "actual_view": true,
+        "detail": "original",
+        "observation": "第二行完整显示深度学习的隐规律挖掘，无单字尾行；正文和2.3.1接续正常。",
+        "chapter": 2,
+        "observer": [
+          "/root/teaching_readthrough",
+          "Codex Parent"
+        ]
+      }
+    },
+    {
+      "page": 28,
+      "sha256": "40784ec67e9218f511f215c1053ee81b3e1b3fd40286cba24a0d60c6b28c5083",
+      "archive_member": "page-28.png",
+      "observation": {
+        "chapter": 2,
+        "page": 28,
+        "sha256": "40784ec67e9218f511f215c1053ee81b3e1b3fd40286cba24a0d60c6b28c5083",
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/teaching_readthrough",
+        "finding": null,
+        "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+      }
+    },
+    {
+      "page": 29,
+      "sha256": "d73043ebb365b99e4d06189f9ff8ab74eff6953199ea22a8ff54ca240481228c",
+      "archive_member": "page-29.png",
+      "observation": {
+        "chapter": 2,
+        "page": 29,
+        "sha256": "d73043ebb365b99e4d06189f9ff8ab74eff6953199ea22a8ff54ca240481228c",
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/teaching_readthrough",
+        "finding": null,
+        "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+      }
+    },
+    {
+      "page": 30,
+      "sha256": "29014a54949d39b262f53e32bd7602fe2dfd882f5f5b2a7025e28298061f3958",
+      "archive_member": "page-30.png",
+      "observation": {
+        "chapter": 2,
+        "page": 30,
+        "sha256": "29014a54949d39b262f53e32bd7602fe2dfd882f5f5b2a7025e28298061f3958",
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/teaching_readthrough",
+        "finding": null,
+        "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+      }
+    },
+    {
+      "page": 31,
+      "sha256": "791b41a9f47151e0e77b60076684e99d5fa9ef02a7d010abf124ba7664d7da93",
+      "archive_member": "page-31.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-31.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 32,
+      "sha256": "61a02aae42a1444cfd51569bab23ba43692b4d37364f48e6b83614a013426f98",
+      "archive_member": "page-32.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-32.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 33,
+      "sha256": "7932806acbb9416fe8bdf1269c64182b53bea53ffcf2fe02d8f86e5aa109f5d3",
+      "archive_member": "page-33.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-33.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 34,
+      "sha256": "35217c2914e5f02ecb53ccfa26d4b51da46c94d6c405545b6fefe45bbd7c14c4",
+      "archive_member": "page-34.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-34.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 35,
+      "sha256": "a6085480994ea9e7b57bca46d5e0b0d009999f2c2bada550442cc680aefba567",
+      "archive_member": "page-35.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-35.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 36,
+      "sha256": "051a5d65638988b7d22f905c61467a7e94fbbeb705780443436c3ea26ea4cefc",
+      "archive_member": "page-36.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-36.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 37,
+      "sha256": "2b17e77098977220f27745a2dace5cfd4025bd2cb847abf083ee9b935529b88c",
+      "archive_member": "page-37.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-37.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 38,
+      "sha256": "d95dc0eecefb723a92a85fd3979c38c30679633e3f6347aa1755d4a731cb9706",
+      "archive_member": "page-38.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-38.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 39,
+      "sha256": "c393c077c2e6783dbf698080784db254cb21c23833b87c19aea05107e5707f79",
+      "archive_member": "page-39.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-39.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 40,
+      "sha256": "1bec0bae46c305032a78b9817b102d93c5f1749d90a18f2ae50e59d2c462127c",
+      "archive_member": "page-40.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-40.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 41,
+      "sha256": "e665b5e5dc5144cbf706218a8ef217353f0f02073de723707d235df70bbd7f58",
+      "archive_member": "page-41.png",
+      "observation": {
+        "chapter": 2,
+        "page": 41,
+        "sha256": "e665b5e5dc5144cbf706218a8ef217353f0f02073de723707d235df70bbd7f58",
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/teaching_readthrough",
+        "finding": null,
+        "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+      }
+    },
+    {
+      "page": 42,
+      "sha256": "421f1d0b795dab250578932edf79d7c76abcfe8ba76c1cc1da41a0e1f6cb7278",
+      "archive_member": "page-42.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-42.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 43,
+      "sha256": "a26faa201c5d2c36936fe08c7ae1b8c205967b01ce7fbc7155caf628cba27a5a",
+      "archive_member": "page-43.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-43.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 44,
+      "sha256": "a2a68384829910cecef165d042aa0ed9880aff5114d3e7f781f3f8ee5ab50dda",
+      "archive_member": "page-44.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-44.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 45,
+      "sha256": "18ec81bdd044b4dfdb27ae2ec33d2d504cd83526c98d98e9a1faac23bda11518",
+      "archive_member": "page-45.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-45.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 46,
+      "sha256": "7c0d1400f049d3b516ac6d8a8adaa601226969d7723de80d85a66a35c30917c4",
+      "archive_member": "page-46.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-46.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 47,
+      "sha256": "98afc1455da6f8ef43836c5cedf2cf0f4bf2c3a75d5849b7460db3491c02cbf9",
+      "archive_member": "page-47.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-47.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 48,
+      "sha256": "63c5e6ad00ec79402b320e36f53bc5ce1274710f936d1a38e4318db1f1e8c79e",
+      "archive_member": "page-48.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-48.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 49,
+      "sha256": "659fd4638949c6592514107c2352a4a44213a91502149ae7d3e805ea6fccb03b",
+      "archive_member": "page-49.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-49.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 50,
+      "sha256": "709e6863635a85edb9d4b02cfb4168ef44ea845097542427b559f5a6c7ca33fc",
+      "archive_member": "page-50.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-50.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 51,
+      "sha256": "3378baf114cf49ed829282f64df831176060af3c5350db3401a77841bc6818d2",
+      "archive_member": "page-51.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-51.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 52,
+      "sha256": "b9981edd18ecd1fc53c73634e51214c3c18fc28e52a03c3a4deb92be9af5f8c6",
+      "archive_member": "page-52.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-52.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 53,
+      "sha256": "c46a2df940d2b0dc9f02f0962fcc9ba17514cf7efcbc9af012be1ed788491350",
+      "archive_member": "page-53.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-53.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 54,
+      "sha256": "c84c7976ce4a8a7dec5c6513d5895cae01ecbf1690be3125b1f66c020815a569",
+      "archive_member": "page-54.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-54.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 55,
+      "sha256": "d90725fd7ff23833b885d83629e4b1a2727e8cceab1c24a2a7fdea5d9c50989a",
+      "archive_member": "page-55.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-55.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 56,
+      "sha256": "4d7c9782d671146611be9e74bccebaa5cfb1915b917046fd4e3aef1a54ce4add",
+      "archive_member": "page-56.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-56.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 57,
+      "sha256": "f88b38d555603ca75d506517f746ff78431017d9654a863b91fff0223d20af00",
+      "archive_member": "page-57.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-57.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 58,
+      "sha256": "d253f9781e90c74c76cde516021985788112a4ae220674a5186099086fbf17fe",
+      "archive_member": "page-58.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-58.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 59,
+      "sha256": "60b07d55550665b29250d581ceb5c4cf1b7c83e4d6c7ae064c977a3f6d5951b1",
+      "archive_member": "page-59.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-59.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 60,
+      "sha256": "f352ad072a06a2dbdcd9cae8f35f136a21ef8d93d7fa0a7806cba8bf6b0b2347",
+      "archive_member": "page-60.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-60.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 61,
+      "sha256": "748e35d4838adafbcabeb86993680c6f7d6b9cf83e728277db63d3e0399e2fac",
+      "archive_member": "page-61.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-61.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 62,
+      "sha256": "cc378042709da3636614c74134f73f9e00d5047e678c933a171d95a063ffd3c0",
+      "archive_member": "page-62.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-62.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 63,
+      "sha256": "86c9745c89ec02c151912873ba59bfe2c2a742d507c1aee2f4c0021bf2aed687",
+      "archive_member": "page-63.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-63.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 64,
+      "sha256": "9511a0c914154aef5f727afdb6f808bdf773c9c27c89c87e7333c345a68f66d2",
+      "archive_member": "page-64.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-64.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 65,
+      "sha256": "5292a79ea026ecfff4faf3be896f440294135cb7a4e0285468be3e33deceadd0",
+      "archive_member": "page-65.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-65.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 66,
+      "sha256": "5008221eca19b6c3cbf34d049031e2afa0c3980c715b7312b12825d093b137ad",
+      "archive_member": "page-66.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-66.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 67,
+      "sha256": "eb8bec39ce17250d25571ba3e2dabf7fc80b699047f4aa08f456c80749d65610",
+      "archive_member": "page-67.png",
+      "observation": {
+        "chapter": 2,
+        "page": 67,
+        "sha256": "eb8bec39ce17250d25571ba3e2dabf7fc80b699047f4aa08f456c80749d65610",
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/teaching_readthrough",
+        "finding": null,
+        "observation": "实际逐页查看，页眉页码清晰，无重叠裁切；文字、层级与续页可读。"
+      }
+    },
+    {
+      "page": 68,
+      "sha256": "d0d0544bc3d2a8f7ce63ff95ee68bf9a8831fcf56f595de8687352efe3ec3d22",
+      "archive_member": "page-68.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-68.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 69,
+      "sha256": "535e2813bbbe0a6cb1c4a93dc8741a699d0a20aab724d9540457dc784470e7d3",
+      "archive_member": "page-69.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-69.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 70,
+      "sha256": "f92ce653c12ed132d10c56228ca978310f422e0011c6ba3469c8e7f93316007a",
+      "archive_member": "page-70.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-70.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 71,
+      "sha256": "66b1ae34a2d43f73c648ea6a314119f75e639b0102d5a229caef4d0ebcf640f2",
+      "archive_member": "page-71.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-71.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 72,
+      "sha256": "8c1b6097ece9cc833ac2e1db171e7af9e71769f9b9ad6c1f0986850876fa43cd",
+      "archive_member": "page-72.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-72.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 73,
+      "sha256": "c70563c3202466ab077afa8ae84031a34ed4483b58d59a891514250ebf597fd5",
+      "archive_member": "page-73.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-73.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 74,
+      "sha256": "ec598837497b7fda7a6f1af3103612b59951396ce520b6be2cd660d1272d9a64",
+      "archive_member": "page-74.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-74.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 75,
+      "sha256": "07671ed2bfc9b4d7b43d395ec0957be61c2e9391ea11b640ce5a0b6e0b603a0c",
+      "archive_member": "page-75.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-75.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 76,
+      "sha256": "61a9e3bb541055ea22ae16631d86b1c1727f8acabbb38ca7e7f9cb6382ba6fbb",
+      "archive_member": "page-76.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-76.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 77,
+      "sha256": "89f3465b7d9fe0ff3e7394e2e67ff9ffb0da5846c2666d884266715c936f01b1",
+      "archive_member": "page-77.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-77.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 78,
+      "sha256": "3e045a3aaf515ced0dc48d170af585770273827d045c3b29fe3ef11b2bbdeae7",
+      "archive_member": "page-78.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-78.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 79,
+      "sha256": "8d245ffb5ac24708f52ce026dbb181334fb2367da704bb14c63b3151ed4343a4",
+      "archive_member": "page-79.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-79.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 80,
+      "sha256": "9f12f546ee8d7f823e10a8b151c403a0b0a5b141dd7b2f8435df256c8f793bf2",
+      "archive_member": "page-80.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-80.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    },
+    {
+      "page": 81,
+      "sha256": "48f7d33f3019c45dd2a22c2d20716649cf7eef00c296c662b7fa143d1d904963",
+      "archive_member": "page-81.png",
+      "observation": {
+        "kind": "inherited_identical_png_bytes",
+        "prior_member": "page-81.png",
+        "record": "materials/ch02-progressive/page-review.json",
+        "record_sha256": "c23ce6c546ab8011c2b8bff2f533096bca1508b3184b86a938b55a977cf514b8",
+        "baseline_pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304"
+      }
+    }
+  ],
+  "limits": "AI实际页面检查及字节一致继承；未在Microsoft Word原生刷新、实体打印或师生课堂中验收。"
+}

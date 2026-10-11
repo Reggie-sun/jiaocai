@@ -1,0 +1,208 @@
+{
+  "figures": [
+    {
+      "id": "图1-1",
+      "file": "assets/figures/ch01-history-layout/fig1-1.png",
+      "sha256": "035c12770db7203203694aae8af4735cba85b1cbbedae16676b17c2ecb5af613",
+      "observer": "Codex Parent",
+      "actual_color_image_view": true,
+      "detail": "original",
+      "instructional_purpose": "区分目录缩小范围、定位卡片、阅读原文与形成内容判断；理解目录与原卡之间的对应关系。",
+      "judgment": "与当前模拟数据/概念关系相符，标注可读；保留。"
+    },
+    {
+      "id": "图1-2",
+      "file": "assets/figures/ch01-history-layout/fig1-2.png",
+      "sha256": "e1451f7565c41ccf50a43b061ab57e16681f37c06b4ce76ffcf61d9b5bc96a0f",
+      "observer": "Codex Parent",
+      "actual_color_image_view": true,
+      "detail": "original",
+      "instructional_purpose": "比较纸卡、表格与程序如何面对相同输入、规则、输出和核对条件。",
+      "judgment": "与当前模拟数据/概念关系相符，标注可读；保留。"
+    },
+    {
+      "id": "图1-3",
+      "file": "assets/figures/ch01-history-layout/fig1-3.png",
+      "sha256": "e2b10607100c5c84e3fcfb3dff720bdecfb82630da2f8127fc3d76ad3e55c4cd",
+      "observer": "Codex Parent",
+      "actual_color_image_view": true,
+      "detail": "original",
+      "instructional_purpose": "把历史节点放回各自问题、贡献与限制中，避免把年代先后读成单线因果。",
+      "judgment": "与当前模拟数据/概念关系相符，标注可读；保留。"
+    },
+    {
+      "id": "图1-4",
+      "file": "assets/figures/ch01-history-layout/fig1-4.png",
+      "sha256": "a050a20128f274e0b33ce38f3a09d4a60f3fb66426624b3f5590517570a7d225",
+      "observer": "Codex Parent",
+      "actual_color_image_view": true,
+      "detail": "original",
+      "instructional_purpose": "分清方形的数学约定、可复现的指令过程与真实移动的观察证据。",
+      "judgment": "与当前模拟数据/概念关系相符，标注可读；保留。"
+    },
+    {
+      "id": "图1-5",
+      "file": "assets/figures/ch01-history-layout/fig1-5.png",
+      "sha256": "b348ba4546650c753a0f5fa2b485f78f4ace527fad22899307b31460231272e0",
+      "observer": "Codex Parent",
+      "actual_color_image_view": true,
+      "detail": "original",
+      "instructional_purpose": "核对E05四行四列图案如何对应逐行标记，并定位单格改动。",
+      "judgment": "与当前模拟数据/概念关系相符，标注可读；保留。"
+    },
+    {
+      "id": "图1-6",
+      "file": "assets/figures/ch01-history-layout/fig1-6.png",
+      "sha256": "03aa0810d3ed15e7d58786391333f46fa4befa651971afcb8d318ccb4588ca8e",
+      "observer": "Codex Parent",
+      "actual_color_image_view": true,
+      "detail": "original",
+      "instructional_purpose": "辨认织造表示与访谈整理之间可迁移的组织关系，同时保留不确定性和领域差异。",
+      "judgment": "与当前模拟数据/概念关系相符，标注可读；保留。"
+    },
+    {
+      "id": "图1-7",
+      "file": "assets/figures/ch01-history-layout/fig1-7.png",
+      "sha256": "d9144be9dec7e7b458d122822fc0fb50011c42bc16e23357cefe4dacc08af7eb",
+      "observer": "Codex Parent",
+      "actual_color_image_view": true,
+      "detail": "original",
+      "instructional_purpose": "围绕同一个展览标题展示四类思维如何提出不同问题，并看出它们共同影响方案且没有高低排序。",
+      "judgment": "与当前模拟数据/概念关系相符，标注可读；保留。"
+    },
+    {
+      "id": "图2-1",
+      "file": "assets/figures/ch02-progressive/fig2-1.png",
+      "sha256": "41a0b4af63b73072a1d5aec67a749bc4ad07f00b90201e82b8aa1f47a716c8b4",
+      "observer": "Codex Parent",
+      "actual_color_image_view": true,
+      "detail": "original",
+      "instructional_purpose": "辨认哪些字段能从来源直接记录，以及哪些承诺仍缺少证据。",
+      "judgment": "与当前模拟数据/概念关系相符，标注可读；保留。"
+    },
+    {
+      "id": "图2-2",
+      "file": "assets/figures/ch02-progressive/fig2-2.png",
+      "sha256": "42c3f9aa8bfd492fd85735f2d8c550e2bb8b875b5198e60495d81cea63917869",
+      "observer": "Codex Parent",
+      "actual_color_image_view": true,
+      "detail": "original",
+      "instructional_purpose": "帮助理解局部图像信息如何经过多层组合进入任务输出，同时限制层级类比的含义。",
+      "judgment": "与当前模拟数据/概念关系相符，标注可读；保留。"
+    },
+    {
+      "id": "图2-3",
+      "file": "assets/figures/ch02-progressive/fig2-3.png",
+      "sha256": "9a7c50fec7f68ea1ac6bcfcd0958ba11388e7e655581a83aad16c93b144efc4d",
+      "observer": "Codex Parent",
+      "actual_color_image_view": true,
+      "detail": "original",
+      "instructional_purpose": "在一条共同时间轴上看出T1/T2可逻辑并行、T3/T4的依赖与最早4小时完成。",
+      "judgment": "与当前模拟数据/概念关系相符，标注可读；保留。"
+    },
+    {
+      "id": "图2-4",
+      "file": "assets/figures/ch02-progressive/fig2-4.png",
+      "sha256": "e25bb19632e588f32f04ea0f353912953955d13576da9cccfdaff97fe33f65f4",
+      "observer": "Codex Parent",
+      "actual_color_image_view": true,
+      "detail": "original",
+      "instructional_purpose": "按查询匹配、权重形成、值汇总的次序解释注意力机制，并提示时间可见范围。",
+      "judgment": "与当前模拟数据/概念关系相符，标注可读；保留。"
+    },
+    {
+      "id": "图2-5",
+      "file": "assets/figures/ch02-progressive/fig2-5.png",
+      "sha256": "5d0576f2d4609e16df76bcd7942d043c0df6997f24220213e41318d231e2e5fa",
+      "observer": "Codex Parent",
+      "actual_color_image_view": true,
+      "detail": "original",
+      "instructional_purpose": "区分原始记录的本地保留、更新上传和汇总模型返回，并标出隐私边界。",
+      "judgment": "与当前模拟数据/概念关系相符，标注可读；保留。"
+    },
+    {
+      "id": "图2-6",
+      "file": "assets/figures/ch02-progressive/fig2-6.png",
+      "sha256": "8a7fa904dadc7e7053d7e8ea5b5f7ec6fe364380a5a6cf1d832f5076cdbb6d08",
+      "observer": "Codex Parent",
+      "actual_color_image_view": true,
+      "detail": "original",
+      "instructional_purpose": "把正文的有向道路、距离更新和6分钟回溯路线放在一幅图中检查。",
+      "judgment": "与当前模拟数据/概念关系相符，标注可读；保留。"
+    },
+    {
+      "id": "图2-7",
+      "file": "assets/figures/ch02-progressive/fig2-7.png",
+      "sha256": "d593d3bc512a59371ee5fa914d18f245b4de16167aab1302f91516489a4055db",
+      "observer": "Codex Parent",
+      "actual_color_image_view": true,
+      "detail": "original",
+      "instructional_purpose": "并列检查覆盖和成功耗时，并区分全体成功请求与共同成功子集。",
+      "judgment": "与当前模拟数据/概念关系相符，标注可读；保留。"
+    },
+    {
+      "id": "图2-8",
+      "file": "assets/figures/ch02-progressive/fig2-8.png",
+      "sha256": "4bd162af362847b687c7273142183d8d5d7a2f44dc17d7d1ca36294534b6560c",
+      "observer": "Codex Parent",
+      "actual_color_image_view": true,
+      "detail": "original",
+      "instructional_purpose": "提供综合练习中可直接核对的确认道路、通行条件和任务限制。",
+      "judgment": "与当前模拟数据/概念关系相符，标注可读；保留。"
+    },
+    {
+      "id": "图3-1",
+      "file": "assets/figures/ch03-layout/fig3-1.png",
+      "sha256": "8b66871a6060d444fe2bc8de5fa147aa7ab104587e172cb7b30ab61512dc8721",
+      "observer": "Codex Parent",
+      "actual_color_image_view": true,
+      "detail": "original",
+      "instructional_purpose": "看出领域知识会改变目标、表示、实施和评价，并通过反馈修订设计；学科视角不是互斥部门。",
+      "judgment": "与当前模拟数据/概念关系相符，标注可读；保留。"
+    },
+    {
+      "id": "图3-2",
+      "file": "assets/figures/ch03-layout/fig3-2.png",
+      "sha256": "9e7fbad90cd86ea9da80e91e73b2119aaa5ad2504dfa6e59dadbe2a17458f034",
+      "observer": "Codex Parent",
+      "actual_color_image_view": true,
+      "detail": "original",
+      "instructional_purpose": "区分控制授权、指令送达、设备执行和确认返回；未收到确认时保留未知状态。",
+      "judgment": "与当前模拟数据/概念关系相符，标注可读；保留。"
+    },
+    {
+      "id": "图3-3",
+      "file": "assets/figures/ch03-layout/fig3-3.png",
+      "sha256": "9dbda9907e11be57bdef3c5636f44660d196019e6841e3647aea58aea72b482a",
+      "observer": "Codex Parent",
+      "actual_color_image_view": true,
+      "detail": "original",
+      "instructional_purpose": "依据表3-6区分误报、漏报与整体错分，正确使用各自分母并比较组A、组B。",
+      "judgment": "与当前模拟数据/概念关系相符，标注可读；保留。"
+    },
+    {
+      "id": "图3-4",
+      "file": "assets/figures/ch03-layout/fig3-4.png",
+      "sha256": "a25eacb19cf48ec7183ef8b2714624824ee0f8787f83716202a7972b9f0ad574",
+      "observer": "Codex Parent",
+      "actual_color_image_view": true,
+      "detail": "original",
+      "instructional_purpose": "把主张连到事实来源、数量与逻辑、影响对象与权限，再依据证据选择保留、修正、待调查或暂停。",
+      "judgment": "与当前模拟数据/概念关系相符，标注可读；保留。"
+    },
+    {
+      "id": "图3-5",
+      "file": "assets/figures/ch03-layout/fig3-5.png",
+      "sha256": "25912fa61848cffc313127957b7f199a2c01adde33f15900ac2021705849c1ae",
+      "observer": "Codex Parent",
+      "actual_color_image_view": true,
+      "detail": "original",
+      "instructional_purpose": "在共同0–8小时尺度上比较四间教室的原照明、分段需求与统一候选时间，供学生逐间检查硬条件。",
+      "judgment": "共同刻度清楚表现教室差异；移至参考解以免透露E05第一问答案。"
+    }
+  ],
+  "color_figures_actually_viewed": 20,
+  "new_grayscale_inspection": false,
+  "grayscale_evidence": "原资产字节未变，继承原图像及原灰度审查，不声称本次重新看过全部灰度图。",
+  "limit": "AI图文判断，非学生理解度试验。"
+}

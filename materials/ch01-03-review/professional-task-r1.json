@@ -1,0 +1,60 @@
+{
+  "parent_session_id": "codex-jiaocai-crosschapter-20261012",
+  "task_id": "ch01-03-professional-r1",
+  "cwd": "/home/reggie/vscode_folder/jiaocai",
+  "explicit_root": "/home/reggie/vscode_folder/jiaocai",
+  "role": "reviewer",
+  "goal": "Independent PROFESSIONAL CONTENT review across all three complete chapters as a continuous undergraduate textbook. Focus mechanism/concept accuracy, prerequisites supporting conclusions, technical depth, inconsistent definitions and figures-as-encoding via their supplied manuscript descriptions. Complementary native roles own teaching-experience and outline/whole-book mapping. Read all three entire chapter files in continuous batches of <=160 lines with no truncation; check missing ranges and actually read original outline plus supplied claim/support files. Max 8 stable PRO-xx substantive findings with blocking_candidate/non_blocking severity, exact paths/lines/short quotes, violated teaching contract, student consequence, minimal local correction and verification. Empty allowed. Do not inflate precision of toy simulations, infer live model results, request infrastructure changes, or demand whole-chapter regeneration. Authority read-only; no Bash/network/writes/credentials/commit/push/nested delegation. Stop/report conflicts with higher rules. Parent owns adjudication; no acceptance verdict or scoring. Canonical report top level only findings,proposed_changes,evidence_refs,uncertainties,questions. Actual Read evidence path/hash/range required. Initial plus at most two Parent-authorized rereviews. No pixel/Word rendering claims.",
+  "read_paths": [
+    "materials/ch01-03-review/snapshots/ch01-baseline.md",
+    "materials/ch01-03-review/snapshots/ch02-baseline.md",
+    "materials/ch01-03-review/snapshots/ch03-baseline.md",
+    "materials/ch01-03-review/outline.md",
+    "materials/ch01-history/sources.md",
+    "materials/ch02-progressive/source-claim-package.md",
+    "materials/ch03/source-claims.md",
+    "materials/ch03/source-excerpts.md"
+  ],
+  "write_paths": [],
+  "permissions": [
+    "read"
+  ],
+  "selected_refs": [
+    {
+      "path": "specs/ch01-03-review.spec.md",
+      "sha256": "9ada6bff4b878b3ed731a4f12d80672842db8da73900d6cb2f251f3591d35224",
+      "accepted": true
+    },
+    {
+      "path": "plans/ch01-03-review.plan.md",
+      "sha256": "d3eb1232eb8cadce6b1fc3607d3c9e2a13772f60d8f171326086b59c6dc22c72",
+      "accepted": true
+    }
+  ],
+  "active_documents": "accepted_refs",
+  "harness_refs": [],
+  "constitution_refs": [
+    "AGENTS.md"
+  ],
+  "skills": [],
+  "skill_roots": [],
+  "expected_evidence": [
+    "materials/ch01-03-review/snapshots/ch01-baseline.md",
+    "materials/ch01-03-review/snapshots/ch02-baseline.md",
+    "materials/ch01-03-review/snapshots/ch03-baseline.md",
+    "materials/ch01-03-review/outline.md"
+  ],
+  "backend": "kimi",
+  "profile": "deep",
+  "budgets": {
+    "wall_seconds": 3600,
+    "idle_seconds": 1800,
+    "request_limit": 64,
+    "generation_tokens": 32000,
+    "output_bytes": 16777216,
+    "context_bytes": 8388608
+  },
+  "instruction_precedence": [
+    "AGENTS.md"
+  ]
+}
