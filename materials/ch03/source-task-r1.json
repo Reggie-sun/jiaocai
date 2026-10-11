@@ -1,0 +1,54 @@
+{
+  "parent_session_id": "codex-jiaocai-ch03-20261012",
+  "task_id": "ch03-primary-source-r1",
+  "cwd": "/home/reggie/vscode_folder/jiaocai",
+  "explicit_root": "/home/reggie/vscode_folder/jiaocai",
+  "role": "explorer",
+  "goal": "Role read-only source investigator. Read all three required files fully in efficient batches; independently compare seven intended claims with original excerpts, identify material source mismatches or missing qualifications. Not whole-chapter review, not Spec/Plan self-review. S3/S5 browser-only are out of independent evidence scope; do not pretend reviewed their actual original. Max five stable-ID substantive findings with exact source lines, learner impact and minimal correction; empty allowed. No acceptance verdict, score or redundant research. Boundaries no Bash/network/writes/credentials/commit/push/nested agents. Respect higher rules; stop/report conflict. Canonical report only findings/proposed_changes/evidence_refs/uncertainties/questions; include actual source path/hash/read ranges. Parent owns adjudication. One initial attempt, followups only Parent based on receipt.",
+  "read_paths": [
+    "materials/ch03/source-claims.md",
+    "materials/ch03/source-excerpts.md",
+    "materials/ch03/sources.json"
+  ],
+  "write_paths": [],
+  "permissions": [
+    "read"
+  ],
+  "selected_refs": [
+    {
+      "path": "specs/ch03.spec.md",
+      "sha256": "dc15ed278f44e8774c5cacae176c4ead3190655d646b303660800fc4a3c1cca2",
+      "accepted": true
+    },
+    {
+      "path": "plans/ch03.plan.md",
+      "sha256": "206742f0ff9d8d65a9e7524be999a690486702cf01c69429d27fcaf35b346722",
+      "accepted": true
+    }
+  ],
+  "active_documents": "accepted_refs",
+  "harness_refs": [],
+  "constitution_refs": [
+    "AGENTS.md"
+  ],
+  "skills": [],
+  "skill_roots": [],
+  "expected_evidence": [
+    "materials/ch03/source-claims.md",
+    "materials/ch03/source-excerpts.md",
+    "materials/ch03/sources.json"
+  ],
+  "backend": "kimi",
+  "profile": "deep",
+  "budgets": {
+    "wall_seconds": 3600,
+    "idle_seconds": 1800,
+    "request_limit": 64,
+    "generation_tokens": 32000,
+    "output_bytes": 16777216,
+    "context_bytes": 8388608
+  },
+  "instruction_precedence": [
+    "AGENTS.md"
+  ]
+}

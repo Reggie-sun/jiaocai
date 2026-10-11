@@ -1,0 +1,23 @@
+{
+  "manuscript": "manuscripts/ch03/ch03.md",
+  "sha256": "38d90d7a397ba98f0279055838bf4aace2cd76cddf684001609cee748e719709",
+  "hanzi_approx": 35742,
+  "count_method": "CJK Hanzi; exclude fenced code and Markdown/standalone URL targets; includes answers/captions; not publisher or Word count",
+  "tables": 12,
+  "references": 9,
+  "exercises": 6,
+  "sources": {
+    "opening.md": "3b62f61511367c7f1c7d8e33a2a4231b6d2131908403b5ed69cc52feca1f660b",
+    "s3-1.md": "c67995cdb1f2d25a0d661aba36e241742e0801bf626474b68671ea470edbb9a1",
+    "s3-2.md": "3c542af7c1854089c2593495e9dfa9bf3bf8e9d703cccb939264d70dd6f5c7e1",
+    "s3-3.md": "9d8488fbbca300e09c0189a9f5ad2397be69c75149467e799977e2c8bed2cc8a",
+    "closing.md": "ad58f516a382ed0b9fd2bd1b45abe7612ce47ba539efb90b597fc5ce3de2d105",
+    "answers-e01.md": "4b54e1c904e92f480b47d2c6361e0dd0272ee2760a0d9e3e4b36e63e08b15e60",
+    "answers-e02.md": "551a446a185d4da3b8a3f593cb0ec0f92bf9f4debeb169b3dd9304038c064baf",
+    "answers-e03.md": "203145d49629ab5fef97a9535cbc7eac9db6ca5ea313ad5d9928113c69e4bb5e",
+    "answers-e04.md": "2fcda33c826d207e40df9b870b7af5ec164cf23c0998bebf83e0c6ee0ff3fe7a",
+    "answers-e05.md": "f370d7a6395d3dd10ba0f8c0b4683281c44bebae9039ac660d06dca085e92d7f",
+    "answers-e06.md": "de5a52cee2c0c2a48aa242260d0458827977588e1062518bc51cc71928f63dfc",
+    "references.md": "11621d7f7496ef5760c065acdb079bec218af44d04e0c786e0cbe0a26c7373ed"
+  }
+}

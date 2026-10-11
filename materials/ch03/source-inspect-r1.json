@@ -1,0 +1,51 @@
+{
+  "seal": "d0bbd607c18e92485f5849f1786c8fe5f8c5ae686c01c6a4057ae5c7a28b6c26",
+  "contract": "/home/reggie/.local/state/agent-subagent-router/contracts/5190030e-d12b-4aa1-aea0-9797f3de3df8/manifest.json",
+  "source_count": 7,
+  "project_access": "SEALED_ONLY",
+  "frozen_source_paths": [
+    "/home/reggie/AGENTS.md",
+    "/home/reggie/vscode_folder/jiaocai/AGENTS.md",
+    "/home/reggie/vscode_folder/jiaocai/materials/ch03/source-claims.md",
+    "/home/reggie/vscode_folder/jiaocai/materials/ch03/source-excerpts.md",
+    "/home/reggie/vscode_folder/jiaocai/materials/ch03/sources.json",
+    "/home/reggie/vscode_folder/jiaocai/plans/ch03.plan.md",
+    "/home/reggie/vscode_folder/jiaocai/specs/ch03.spec.md"
+  ],
+  "budgets": {
+    "wall_seconds": 3600,
+    "idle_seconds": 1800,
+    "request_limit": 64,
+    "output_bytes": 16777216,
+    "context_bytes": 8388608,
+    "generation_tokens": 32000
+  },
+  "route": {
+    "backend": "kimi",
+    "profile": "deep",
+    "identity": {
+      "name": "deep",
+      "client_model": "k3[1m]",
+      "wire_model": "k3",
+      "effort": "max",
+      "context_tokens": 1048576,
+      "backend": "kimi",
+      "runtime": "claude-code",
+      "endpoint": "https://api.kimi.ai/coding/",
+      "policy_version": 1,
+      "sha256": "2285307074cfd8c7d0c7006bb5c065df88119e2ae382a43e10ab3375b6933bfd"
+    }
+  },
+  "resource_policy": {
+    "name": "kimi-maximum-v1",
+    "requested_profile": "deep",
+    "requested_budgets": {
+      "wall_seconds": 3600,
+      "idle_seconds": 1800,
+      "request_limit": 64,
+      "output_bytes": 16777216,
+      "context_bytes": 8388608,
+      "generation_tokens": 32000
+    }
+  }
+}

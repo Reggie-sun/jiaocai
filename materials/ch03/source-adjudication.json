@@ -1,0 +1,19 @@
+{
+  "invocation": "f6daca78-1078-46a3-81f7-7e5aa4e2d7f6",
+  "source_snapshot": "r1 retained unchanged",
+  "report_sha256": "ce1af5d694276a84f1c02b656ca72b95d79c95ad56e7d2041ea36a80136e101d",
+  "decision": [
+    {
+      "id": "CH03-SRC-01",
+      "decision": "CONFIRMED",
+      "type": "source-package coverage gap",
+      "resolution": "Parent checked original NIST AI600-1 risk list and added source-supplement.md; intended manuscript claim unchanged. Whole-chapter professional independent reviewer receives supplement. Kimi has not reviewed supplement."
+    }
+  ],
+  "other_groups": "No material mismatch found in six bounded groups; not whole chapter/full paper acceptance",
+  "metadata": "S4 raw path correction recorded in supplement; originals retained",
+  "limits": [
+    "S3/S5 browser extraction Parent only",
+    "no classroom/human review"
+  ]
+}

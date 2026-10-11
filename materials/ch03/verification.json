@@ -1,0 +1,214 @@
+{
+  "date": "2026-10-12",
+  "delivery_scope": "complete Chapter 3 Markdown text draft; planned figures; no Word/PDF or full chapter Harness acceptance",
+  "baseline_head": "339c970719ba898d210002390c395020aeeca8fb",
+  "branch": "chapter-02-delivery",
+  "manuscript": {
+    "manuscript": "manuscripts/ch03/ch03.md",
+    "sha256": "38d90d7a397ba98f0279055838bf4aace2cd76cddf684001609cee748e719709",
+    "hanzi_approx": 35742,
+    "count_method": "CJK Hanzi; exclude fenced code and Markdown/standalone URL targets; includes answers/captions; not publisher or Word count",
+    "tables": 12,
+    "references": 9,
+    "exercises": 6,
+    "sources": {
+      "opening.md": "3b62f61511367c7f1c7d8e33a2a4231b6d2131908403b5ed69cc52feca1f660b",
+      "s3-1.md": "c67995cdb1f2d25a0d661aba36e241742e0801bf626474b68671ea470edbb9a1",
+      "s3-2.md": "3c542af7c1854089c2593495e9dfa9bf3bf8e9d703cccb939264d70dd6f5c7e1",
+      "s3-3.md": "9d8488fbbca300e09c0189a9f5ad2397be69c75149467e799977e2c8bed2cc8a",
+      "closing.md": "ad58f516a382ed0b9fd2bd1b45abe7612ce47ba539efb90b597fc5ce3de2d105",
+      "answers-e01.md": "4b54e1c904e92f480b47d2c6361e0dd0272ee2760a0d9e3e4b36e63e08b15e60",
+      "answers-e02.md": "551a446a185d4da3b8a3f593cb0ec0f92bf9f4debeb169b3dd9304038c064baf",
+      "answers-e03.md": "203145d49629ab5fef97a9535cbc7eac9db6ca5ea313ad5d9928113c69e4bb5e",
+      "answers-e04.md": "2fcda33c826d207e40df9b870b7af5ec164cf23c0998bebf83e0c6ee0ff3fe7a",
+      "answers-e05.md": "f370d7a6395d3dd10ba0f8c0b4683281c44bebae9039ac660d06dca085e92d7f",
+      "answers-e06.md": "de5a52cee2c0c2a48aa242260d0458827977588e1062518bc51cc71928f63dfc",
+      "references.md": "11621d7f7496ef5760c065acdb079bec218af44d04e0c786e0cbe0a26c7373ed"
+    }
+  },
+  "exercise_checks": {
+    "status": "PASS",
+    "count": 38,
+    "evidence": "materials/ch03/exercise-verification.json"
+  },
+  "content_review": {
+    "kind": "two actual independent AI content-review sessions; Parent adjudication",
+    "r1_sha256": "950da6e74abdbb17ea2b008231f7c515b2d17de0b40bf8f0f77a0f221347a80c",
+    "r2_sha256": "38d90d7a397ba98f0279055838bf4aace2cd76cddf684001609cee748e719709",
+    "professional": {
+      "session": "/root/review_professional",
+      "actual_rounds": 2,
+      "r1_full_lines": [
+        1,
+        798
+      ],
+      "r2_ranges": [
+        [
+          197,
+          225
+        ],
+        [
+          390,
+          420
+        ],
+        [
+          653,
+          700
+        ]
+      ],
+      "diff_lines": [
+        1,
+        30
+      ],
+      "unresolved_findings": []
+    },
+    "teaching": {
+      "session": "/root/review_teaching",
+      "actual_rounds": 2,
+      "r1_full_lines": [
+        1,
+        798
+      ],
+      "r2_ranges": [
+        [
+          197,
+          225
+        ],
+        [
+          390,
+          406
+        ],
+        [
+          653,
+          690
+        ],
+        [
+          716,
+          741
+        ]
+      ],
+      "diff_lines": [
+        1,
+        30
+      ],
+      "unresolved_findings": []
+    },
+    "inheritance": "Byte-identical ranges only: r1/r2 1-405, 407-682; r1 684-798 -> r2 686-800; actual full initial read plus actual affected-context re-read",
+    "reports": [
+      "materials/ch03/professional-r1.md",
+      "materials/ch03/professional-r2.md",
+      "materials/ch03/teaching-r1.md",
+      "materials/ch03/teaching-r2.md"
+    ],
+    "confirmed_findings_closed": [
+      "PRO-01",
+      "TEA-01",
+      "TEA-02"
+    ]
+  },
+  "source_investigation": {
+    "invocation": "f6daca78-1078-46a3-81f7-7e5aa4e2d7f6",
+    "receipt": "materials/ch03/source-receipt-r1.json",
+    "report_sha256": "ce1af5d694276a84f1c02b656ca72b95d79c95ad56e7d2041ea36a80136e101d",
+    "scope": "seven bounded source-claim groups, not whole chapter review",
+    "supplement": "Parent checked; professional reviewer actually read; not re-read by Kimi"
+  },
+  "implementation_risk_gate": {
+    "result": "KIMI_REVIEW_NOT_REQUIRED",
+    "snapshot": {
+      "specs/ch03.spec.md": "dc15ed278f44e8774c5cacae176c4ead3190655d646b303660800fc4a3c1cca2",
+      "plans/ch03.plan.md": "206742f0ff9d8d65a9e7524be999a690486702cf01c69429d27fcaf35b346722",
+      "manuscripts/ch03/ch03.md": "38d90d7a397ba98f0279055838bf4aace2cd76cddf684001609cee748e719709",
+      "materials/ch03/assemble.py": "f671605c86cd0c0b88480cafc886cc7c021103b15cd3972a1e0063bda6a87e8b",
+      "materials/ch03/verify_exercises.py": "84eaa8ebd894291c8f05562911eecf84dd9d5007e74ecb877270d00662cd65bb"
+    },
+    "explicit_request": false,
+    "critical_consequence": "No credential, authority, production or shared durable-state change; scripts write only owned, regenerable chapter materials",
+    "joint_consequence_gap_value": "No major implementation consequence or unresolved material runtime gap after local execution. Open teaching judgements covered by separate required content reviews; Kimi engineering review would not add an evidenced required gain"
+  },
+  "harness": {
+    "tests": 51,
+    "tests_status": "PASS",
+    "test_log": "materials/ch03/harness-tests.log",
+    "validate_exit": 0,
+    "status_exit": 1,
+    "accepted_current": [
+      "ch02-progressive",
+      "ch01-history-layout"
+    ],
+    "historical_stale_count": 5,
+    "chapter3_registered": false
+  },
+  "protection": {
+    "baseline_count": 793,
+    "unchanged_count": 792,
+    "changed_allowed": [
+      "教材编写现状与目的.md"
+    ],
+    "append_only_verified": true,
+    "foreign_files_preserved": true
+  },
+  "links": {
+    "missing": []
+  },
+  "artifacts_sha256": {
+    "specs/ch03.spec.md": "dc15ed278f44e8774c5cacae176c4ead3190655d646b303660800fc4a3c1cca2",
+    "plans/ch03.plan.md": "206742f0ff9d8d65a9e7524be999a690486702cf01c69429d27fcaf35b346722",
+    "教材编写现状与目的.md": "859340e220bb1ee81325847b0f674e0e43f45ba1d104d5078ed7411972ac9093",
+    "manuscripts/ch03/answers-e01.md": "4b54e1c904e92f480b47d2c6361e0dd0272ee2760a0d9e3e4b36e63e08b15e60",
+    "manuscripts/ch03/answers-e02.md": "551a446a185d4da3b8a3f593cb0ec0f92bf9f4debeb169b3dd9304038c064baf",
+    "manuscripts/ch03/answers-e03.md": "203145d49629ab5fef97a9535cbc7eac9db6ca5ea313ad5d9928113c69e4bb5e",
+    "manuscripts/ch03/answers-e04.md": "2fcda33c826d207e40df9b870b7af5ec164cf23c0998bebf83e0c6ee0ff3fe7a",
+    "manuscripts/ch03/answers-e05.md": "f370d7a6395d3dd10ba0f8c0b4683281c44bebae9039ac660d06dca085e92d7f",
+    "manuscripts/ch03/answers-e06.md": "de5a52cee2c0c2a48aa242260d0458827977588e1062518bc51cc71928f63dfc",
+    "manuscripts/ch03/ch03.md": "38d90d7a397ba98f0279055838bf4aace2cd76cddf684001609cee748e719709",
+    "manuscripts/ch03/closing.md": "ad58f516a382ed0b9fd2bd1b45abe7612ce47ba539efb90b597fc5ce3de2d105",
+    "manuscripts/ch03/opening.md": "3b62f61511367c7f1c7d8e33a2a4231b6d2131908403b5ed69cc52feca1f660b",
+    "manuscripts/ch03/references.md": "11621d7f7496ef5760c065acdb079bec218af44d04e0c786e0cbe0a26c7373ed",
+    "manuscripts/ch03/s3-1.md": "c67995cdb1f2d25a0d661aba36e241742e0801bf626474b68671ea470edbb9a1",
+    "manuscripts/ch03/s3-2.md": "3c542af7c1854089c2593495e9dfa9bf3bf8e9d703cccb939264d70dd6f5c7e1",
+    "manuscripts/ch03/s3-3.md": "9d8488fbbca300e09c0189a9f5ad2397be69c75149467e799977e2c8bed2cc8a",
+    "materials/ch03/assemble.py": "f671605c86cd0c0b88480cafc886cc7c021103b15cd3972a1e0063bda6a87e8b",
+    "materials/ch03/assembly.json": "2c22fbf23a97afadecd9026738986179971242fd44e34e06fcc03d9148e27400",
+    "materials/ch03/authoring-brief.md": "7312bf969706003e701dae6330b2be3565d87d3c7e429f8ccfe892cd81682a75",
+    "materials/ch03/content-adjudication.md": "86e9decb43923c1e94149ea090a7df92c30e3405e34e9cbbc72bdce523bfc8ea",
+    "materials/ch03/exercise-verification.json": "70553baf20b7bf56eb29dc56c7d46e3cc656442107ad33f2c96917d50537362f",
+    "materials/ch03/figures.md": "d6421b239d7543c8239200bd6e12bc5f96b8af829e6a3880282b8281471eb88b",
+    "materials/ch03/harness-status.json": "81c3392f2a9ff4745ee48d46cff40c4ed1ed648c6403c44936bf92f650382764",
+    "materials/ch03/harness-tests.log": "e099a6c8ac68029feb7e9486e1291fcb2137e9a884940d4c0a328053c49f7735",
+    "materials/ch03/harness-validate.json": "8fc0be0acd3c7d3db4af8705d1e106b6c383ab4edb66c6e9df538dff127af821",
+    "materials/ch03/professional-r1.md": "5900da1fca6136684e3de4b5c78b3c110de5a7f0ee2028d8e2b3e895369ec4c1",
+    "materials/ch03/professional-r2.md": "c92d97a384c1add2251d50baf2fda04197a173f2ef21345b8f32d49be2cf4bc7",
+    "materials/ch03/protected-files.json": "1e344c3c408bed5d5ea0bd411fd274b2992725b00f90ad7236f5e45c7f3695b3",
+    "materials/ch03/report.md": "947f84035794a956f857968a15885ced8d11ad2e2649ef4f5518a70e7b3c15c2",
+    "materials/ch03/snapshots/review-r1.json": "58b79787d7dcd76bb9b8a80063e630be98839ebc5825269c5db3a307b9668ef4",
+    "materials/ch03/snapshots/review-r1.md": "950da6e74abdbb17ea2b008231f7c515b2d17de0b40bf8f0f77a0f221347a80c",
+    "materials/ch03/snapshots/review-r2.diff": "96dbf2ca147a65b68115fc99cf30fd402b25474948e82fe5c0c5a417b7dc97b5",
+    "materials/ch03/snapshots/review-r2.json": "430d7f6e11a02d98b83070c702673693fac630603cbc0cd903b84864b0326e9f",
+    "materials/ch03/snapshots/review-r2.md": "38d90d7a397ba98f0279055838bf4aace2cd76cddf684001609cee748e719709",
+    "materials/ch03/source-adjudication.json": "268171da577caa1083bafdfb3155ae091836490a23706cf333d378129b80e874",
+    "materials/ch03/source-claims.md": "15e24616ca15622b2e8da5ca8abc126d3f92602a998a0b69a41ed61cc29b2dd0",
+    "materials/ch03/source-excerpts.md": "e5ed2e8dfb17225e668f9dc8406c78b36122b778435cdb8a0ff589c46d6335c9",
+    "materials/ch03/source-inspect-r1.json": "16a788f9f478ceb4a72c7003610fc433d7e7b1555b5357b2d7a98d890ed96177",
+    "materials/ch03/source-receipt-r1.json": "37f81fa19b70a1d2b090c483726dd70894bccee64d878ae656e8568a4ec5b87c",
+    "materials/ch03/source-report-r1.json": "ce1af5d694276a84f1c02b656ca72b95d79c95ad56e7d2041ea36a80136e101d",
+    "materials/ch03/source-run-r1.json": "0e6d313dd48f4fa36e7200a1b04d58e7d21d251b84a1a968a0aa398154ff992b",
+    "materials/ch03/source-supplement.md": "eff99528bf36537e8b1d6f80d378f713aeaf75b04b47b6882f6f4ebf8e3dc28a",
+    "materials/ch03/source-task-r1.json": "938f5d9cf2fb68f7a9d26b9d9ef115f708922d0666317bd3f2b2a2013590052e",
+    "materials/ch03/sources.json": "ccc6e95cdfd69abe70425c3999afb98f3ef0a7a941657021d78684e352e8d4a6",
+    "materials/ch03/teaching-r1.md": "11541b6a98ac14d7968e552a2c244840b368b35e6a71620dbefab35da2711873",
+    "materials/ch03/teaching-r2.md": "4d091b23dfc9adf4ed9c7ccb68bfb7504b174f4e4339f94079c2e64886b8c685",
+    "materials/ch03/verify_exercises.py": "84eaa8ebd894291c8f05562911eecf84dd9d5007e74ecb877270d00662cd65bb"
+  },
+  "remaining": [
+    "5 figures planned; not generated or inspected",
+    "Word/PDF not produced",
+    "No real teacher/student or classroom validation",
+    "No real system/deployment effectiveness validation",
+    "No full chapter Harness acceptance"
+  ],
+  "git_diff_check": {
+    "owned_manuscript_plan_spec_scripts_record_report_exit": 0,
+    "preserved_evidence_whitespace": "Raw reviewer Markdown hard breaks/terminal blank lines, extracted source trailing spaces, and unified-diff empty context markers intentionally retained; not claimed as whole-index whitespace PASS"
+  }
+}

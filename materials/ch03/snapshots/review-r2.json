@@ -1,0 +1,7 @@
+{
+  "manuscript": "manuscripts/ch03/ch03.md",
+  "snapshot": "materials/ch03/snapshots/review-r2.md",
+  "sha256": "38d90d7a397ba98f0279055838bf4aace2cd76cddf684001609cee748e719709",
+  "base_sha256": "950da6e74abdbb17ea2b008231f7c515b2d17de0b40bf8f0f77a0f221347a80c",
+  "scope": "E02 priority queue examples and missed-record discovery/capacity; E04 general rubric; unchanged remainder inherited from actual full r1 read"
+}

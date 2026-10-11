@@ -1,0 +1,7 @@
+{
+  "candidate": "materials/ch03/snapshots/review-r1.md",
+  "sha256": "950da6e74abdbb17ea2b008231f7c515b2d17de0b40bf8f0f77a0f221347a80c",
+  "assembly": "materials/ch03/assembly.json",
+  "sources": "materials/ch03/source-supplement.md",
+  "review_scope": "entire chapter text; figures are only planned, no Word/PDF in scope"
+}
