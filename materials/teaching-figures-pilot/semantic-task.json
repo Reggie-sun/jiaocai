@@ -1,0 +1,52 @@
+{
+  "parent_session_id": "codex-jiaocai-figures-20261011",
+  "task_id": "figure-semantics-qa",
+  "cwd": "/home/reggie/vscode_folder/jiaocai",
+  "explicit_root": "/home/reggie/vscode_folder/jiaocai",
+  "role": "explorer",
+  "goal": "Role: independent text QA of two baseline teaching figures, not final implementation review. Scope: independently compare the preserved original chapter context with the proposed exact relation/minute data; identify any incorrect edge, capacity assumption, inference, interval, duration or endpoint. Suggest what a clearer visualization must preserve and any reader confusion. Authority read-only. Boundaries: no writes, Bash, network, credentials, paid image API, commit, push or nested delegation. Obey higher-priority/system/developer/project/user/skill rules, report conflict without workaround. Do not decide completion. Expected output: concise five-field canonical report with stable finding IDs, paths and inspected lines, verified arithmetic, uncertainties and useful design constraints; do not invent measured learning/visual quality evidence. One finite investigation, no retries or profile upgrade. The goal is semantic verification before drafting, no favored tool or expected winner. Parent owns adjudication and visual/page review.",
+  "read_paths": [
+    "materials/teaching-figures-pilot/semantic-context.md",
+    "materials/teaching-figures-pilot/data.json"
+  ],
+  "write_paths": [],
+  "permissions": [
+    "read"
+  ],
+  "selected_refs": [
+    {
+      "path": "specs/teaching-figures.spec.md",
+      "sha256": "7e4813912995db130419e67dfe5f1b35e8dc6942cfd6ed4d597116a59ea6f024",
+      "accepted": true
+    },
+    {
+      "path": "plans/teaching-figures.plan.md",
+      "sha256": "8b6b184ba3c972f7960f6eb671f602fe6b28eb8d45fe5710c8a219fbebf36143",
+      "accepted": true
+    }
+  ],
+  "active_documents": "accepted_refs",
+  "harness_refs": [],
+  "constitution_refs": [
+    "AGENTS.md"
+  ],
+  "skills": [],
+  "skill_roots": [],
+  "expected_evidence": [
+    "materials/teaching-figures-pilot/semantic-context.md",
+    "materials/teaching-figures-pilot/data.json"
+  ],
+  "backend": "kimi",
+  "profile": "deep",
+  "budgets": {
+    "wall_seconds": 3600,
+    "idle_seconds": 1800,
+    "request_limit": 64,
+    "context_bytes": 8388608,
+    "generation_tokens": 32000,
+    "output_bytes": 16777216
+  },
+  "instruction_precedence": [
+    "AGENTS.md"
+  ]
+}

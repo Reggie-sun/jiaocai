@@ -1,0 +1,6 @@
+# Actual local figure environment used in this pilot; document rendering uses
+# the separate Codex primary runtime recorded in report.md.
+matplotlib==3.10.7
+numpy==2.2.6
+pillow==11.3.0
+fonttools==4.60.1

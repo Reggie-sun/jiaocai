@@ -1,0 +1,89 @@
+{
+  "source": "原创教学示例，依据第一章已交付正文和图1-2/图1-6；不是E01/E03练习原始数据",
+  "bottleneck": {
+    "requests": [
+      "T1",
+      "T2",
+      "T3"
+    ],
+    "positions": [
+      "b",
+      "c",
+      "d"
+    ],
+    "allowed": {
+      "T1": [
+        "b",
+        "c"
+      ],
+      "T2": [
+        "b",
+        "c"
+      ],
+      "T3": [
+        "b",
+        "c"
+      ]
+    },
+    "capacity_per_position": 1
+  },
+  "intervals": {
+    "resource": "同一场地；准备和清理均需独占",
+    "unit": "minutes since midnight",
+    "endpoint": "left-closed right-open",
+    "cases": [
+      {
+        "id": "overlap",
+        "A": [
+          540,
+          660
+        ],
+        "B": [
+          600,
+          660
+        ],
+        "expected_overlap": [
+          600,
+          660
+        ]
+      },
+      {
+        "id": "touch",
+        "A": [
+          540,
+          660
+        ],
+        "B": [
+          660,
+          720
+        ],
+        "expected_overlap": null
+      },
+      {
+        "id": "expanded",
+        "A": [
+          540,
+          660
+        ],
+        "B": [
+          660,
+          720
+        ],
+        "A_cleanup_minutes": 20,
+        "B_preparation_minutes": 15,
+        "effective_A": [
+          540,
+          680
+        ],
+        "effective_B": [
+          645,
+          720
+        ],
+        "expected_overlap": [
+          645,
+          680
+        ]
+      }
+    ]
+  }
+}

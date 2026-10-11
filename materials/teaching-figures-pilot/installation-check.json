@@ -1,0 +1,49 @@
+{
+  "drawio-skill": {
+    "upstream_files_unchanged": 79,
+    "additions": [
+      "UPSTREAM.json",
+      "data/APACHE-2.0.txt"
+    ],
+    "upstream_identity": {
+      "repo": "Agents365-ai/drawio-skill",
+      "sha": "57270820d3cd71cbdf4fb6b2f7091d4fb37bb019",
+      "stars": 10063,
+      "forks": 707,
+      "open_issues": 0,
+      "pushed_at": "2026-10-11T11:22:56Z"
+    },
+    "symlink_targets": {
+      "/home/reggie/.codex/skills/drawio-skill": "/home/reggie/vscode_folder/jiaocai/skills/drawio-skill",
+      "/home/reggie/.local/share/chatgpt-desktop/skills/drawio-skill": "/home/reggie/vscode_folder/jiaocai/skills/drawio-skill"
+    }
+  },
+  "scientific-visualization": {
+    "upstream_files_unchanged": 18,
+    "additions": [
+      "LICENSE.md",
+      "UPSTREAM.json"
+    ],
+    "upstream_identity": {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "sha": "92ace75ac21efe19a620434e0ca4e356081fe807",
+      "stars": 48371,
+      "forks": 4349,
+      "open_issues": 23,
+      "pushed_at": "2026-10-05T09:39:11Z"
+    },
+    "symlink_targets": {
+      "/home/reggie/.codex/skills/scientific-visualization": "/home/reggie/vscode_folder/jiaocai/skills/scientific-visualization",
+      "/home/reggie/.local/share/chatgpt-desktop/skills/scientific-visualization": "/home/reggie/vscode_folder/jiaocai/skills/scientific-visualization"
+    }
+  },
+  "local_runtime": {
+    "drawio_version": "32.4.1",
+    "license": "GPL-3.0-only",
+    "license_evidence": "dpkg-deb package License field and official v32.4.1 package.json",
+    "deb_sha256": "f4455b3bba3d3b539c3cd069218fc64f0462b1b01610fe8d11acc3ca8566f32b",
+    "python": "3.13.5",
+    "font_face": "Noto Sans CJK SC",
+    "binary_redistributed": false
+  }
+}

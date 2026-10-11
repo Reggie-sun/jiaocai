@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="drawio" version="32.4.1">
+  <diagram name="局部候选与全局瓶颈" id="bottleneck">
+    <mxGraphModel page="1" pageWidth="900" pageHeight="710">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="reachable" value="" style="html=0;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;rounded=1;container=1;pointerEvents=0;fillColor=#FFFFFF;strokeColor=#555555;dashed=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="60" width="660" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="heading" value="同一组请求的可达关系" style="html=0;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;text;strokeColor=none;fontSize=28;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="0" width="560" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T1" value="T1" style="html=0;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;ellipse;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=2;fontSize=28;" vertex="1" parent="reachable">
+          <mxGeometry x="60" y="145" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T2" value="T2" style="html=0;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;ellipse;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=2;fontSize=28;" vertex="1" parent="reachable">
+          <mxGeometry x="280" y="145" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T3" value="T3" style="html=0;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;ellipse;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=2;fontSize=28;" vertex="1" parent="reachable">
+          <mxGeometry x="500" y="145" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b" value="b" style="html=0;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;rounded=1;fillColor=#FFFFFF;strokeColor=#1F4E79;strokeWidth=3;fontSize=28;" vertex="1" parent="reachable">
+          <mxGeometry x="270" y="20" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="b-capacity" value="容量 1" style="html=0;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;text;strokeColor=none;fillColor=none;" vertex="1" parent="reachable">
+          <mxGeometry x="390" y="35" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c" value="c" style="html=0;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;rounded=1;fillColor=#FFFFFF;strokeColor=#1F4E79;strokeWidth=3;fontSize=28;" vertex="1" parent="reachable">
+          <mxGeometry x="270" y="295" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="c-capacity" value="容量 1" style="html=0;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;text;strokeColor=none;fillColor=none;" vertex="1" parent="reachable">
+          <mxGeometry x="390" y="310" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d" value="d" style="html=0;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;rounded=1;fillColor=#FFFFFF;strokeColor=#555555;dashed=1;strokeWidth=2;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="740" y="205" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="isolated-label" value="存在但不可达" style="html=0;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;text;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="690" y="305" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="isolated-note" value="无允许关系" style="html=0;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;text;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="700" y="350" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="allow-T1-b" style="html=0;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;endArrow=none;startArrow=none;strokeWidth=2;strokeColor=#1F4E79;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" edge="1" source="T1" target="b" parent="reachable">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="allow-T1-c" style="html=0;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;endArrow=none;startArrow=none;strokeWidth=2;strokeColor=#1F4E79;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" source="T1" target="c" parent="reachable">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="allow-T2-b" style="html=0;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;endArrow=none;startArrow=none;strokeWidth=2;strokeColor=#1F4E79;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" edge="1" source="T2" target="b" parent="reachable">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="allow-T2-c" style="html=0;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;endArrow=none;startArrow=none;strokeWidth=2;strokeColor=#1F4E79;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" source="T2" target="c" parent="reachable">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="allow-T3-b" style="html=0;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;endArrow=none;startArrow=none;strokeWidth=2;strokeColor=#1F4E79;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" edge="1" source="T3" target="b" parent="reachable">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="allow-T3-c" style="html=0;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;endArrow=none;startArrow=none;strokeWidth=2;strokeColor=#1F4E79;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" source="T3" target="c" parent="reachable">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" value="T1—T3 为请求；连线是允许关系，不是已选安排" style="html=0;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;text;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="500" width="900" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="count-left" value="3 项请求" style="html=0;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;text;strokeColor=none;fontSize=28;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="565" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="greater" value="&gt;" style="html=0;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;text;strokeColor=none;fontSize=40;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="580" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="count-right" value="2 个可达位置" style="html=0;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;text;strokeColor=none;fontSize=28;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="565" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="count-T1" value="T1" style="html=0;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;ellipse;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="65" y="615" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="count-T2" value="T2" style="html=0;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;ellipse;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="155" y="615" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="count-T3" value="T3" style="html=0;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;ellipse;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="245" y="615" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="count-b" value="b" style="html=0;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;rounded=1;fillColor=#FFFFFF;strokeColor=#1F4E79;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="575" y="615" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="count-c" value="c" style="html=0;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;rounded=1;fillColor=#FFFFFF;strokeColor=#1F4E79;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="685" y="615" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="proof" value="至少一项无处可放；增加不可达的 d 不能消除瓶颈" style="html=0;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;text;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="680" width="900" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,85 @@
+{
+  "protected_files": 134,
+  "protected_changed": [],
+  "allowed_edges": [
+    [
+      "T1",
+      "b"
+    ],
+    [
+      "T1",
+      "c"
+    ],
+    [
+      "T2",
+      "b"
+    ],
+    [
+      "T2",
+      "c"
+    ],
+    [
+      "T3",
+      "b"
+    ],
+    [
+      "T3",
+      "c"
+    ]
+  ],
+  "candidate_combinations": 8,
+  "feasible_assignments": 0,
+  "intervals": [
+    {
+      "id": "overlap",
+      "overlap_minutes": 60,
+      "overlap": [
+        600,
+        660
+      ]
+    },
+    {
+      "id": "touch",
+      "overlap_minutes": 0,
+      "overlap": null
+    },
+    {
+      "id": "expanded",
+      "overlap_minutes": 35,
+      "overlap": [
+        645,
+        680
+      ]
+    }
+  ],
+  "images": [
+    {
+      "figure": 2,
+      "pixels": [
+        2441,
+        1953
+      ],
+      "ppi_at_155mm": 400.01,
+      "sha256": "0a3f64f72194eb11e7c489baee4eaf01452badd5ba0b7e11691bd3930c0988ad"
+    },
+    {
+      "figure": 6,
+      "pixels": [
+        2440,
+        2472
+      ],
+      "ppi_at_155mm": 399.85,
+      "sha256": "7b7e03fa8037ff6fc915b9eb4022305f3d30cea4514e801bc782929a7dfb87c8"
+    }
+  ],
+  "graph_min_text_pt_at_155mm": 11.7,
+  "time_min_text_pt_at_155mm": 10.5,
+  "graph_svg_foreignObject": true,
+  "graph_edit_owner": ".drawio; Word uses PNG rather than foreignObject SVG",
+  "docx_images_width_mm": 155,
+  "docx_styles_identical_to_dotx": true,
+  "native_captions": 4,
+  "native_refs": 4,
+  "pdf_pages": 4,
+  "visual_review": "separate actual Parent observation in report.md; this script does not establish visual/teaching acceptance"
+}

@@ -1,0 +1,60 @@
+{
+  "checks": [
+    {
+      "actual": "PNG",
+      "detail": "File format is compared with the explicit allow-list.",
+      "expected": [
+        "PNG"
+      ],
+      "name": "format",
+      "status": "pass"
+    },
+    {
+      "actual": 400.00903225806445,
+      "detail": "DPI basis: effective at target width. Metadata DPI is not a quality measure; effective DPI depends on final physical size.",
+      "expected": {
+        "max": null,
+        "min": 300.0
+      },
+      "name": "dpi",
+      "status": "pass"
+    }
+  ],
+  "input": {
+    "name": "fig1-2-candidate.png",
+    "path": "/home/reggie/vscode_folder/jiaocai/assets/figures/teaching-pilot/fig1-2-candidate.png",
+    "size_bytes": 473463,
+    "suffix": ".png"
+  },
+  "metadata": {
+    "bands": [
+      "R",
+      "G",
+      "B"
+    ],
+    "compression": null,
+    "dpi_x": 399.9992,
+    "dpi_y": 399.9992,
+    "exif_present": false,
+    "format": "PNG",
+    "frames": 1,
+    "has_alpha": false,
+    "height_mm_from_metadata": 124.01574803149606,
+    "height_px": 1953,
+    "icc_profile_bytes": 0,
+    "icc_profile_present": false,
+    "kind": "raster",
+    "mode": "RGB",
+    "pixel_count": 4767273,
+    "width_mm_from_metadata": 155.00381000762002,
+    "width_px": 2441
+  },
+  "notice": "This deterministic metadata screen checks only the supplied constraints. It does not verify visual quality, scientific integrity, accessibility, embedded-raster resolution in vector files, or journal compliance.",
+  "schema_version": "1.0",
+  "screening_summary": {
+    "fail": 0,
+    "pass": 2,
+    "unknown": 0,
+    "warning": 0
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-11",
+  "snapshot_files": {
+    "assets/figures/ch01-rewrite/fig1-2.png": "e8374e2d68a45eae5e4eb8a3b5663355dd7a654836309cc55c5fecc7df67f094",
+    "assets/figures/ch01-rewrite/fig1-6.png": "852b767bf500362ebc7a546ae6846af77a2e1e2ba27163c8dda77efa5c8b9c6b",
+    "assets/figures/teaching-pilot/fig1-2-candidate.png": "0a3f64f72194eb11e7c489baee4eaf01452badd5ba0b7e11691bd3930c0988ad",
+    "assets/figures/teaching-pilot/fig1-6-candidate.png": "7b7e03fa8037ff6fc915b9eb4022305f3d30cea4514e801bc782929a7dfb87c8",
+    "assets/figures/teaching-pilot/fig1-2-candidate-grayscale.png": "8d152e822184e72a999e80c504b8c4c96b8f8980252e08303758048c06fd8aa3",
+    "assets/figures/teaching-pilot/fig1-6-candidate-grayscale.png": "23b19396184c84260205eac306f9c4012f3516e2c0d3cdb905729260b090d4b9",
+    "output/teaching-figures-pilot/render-approved/page-1.png": "b75b50b0ff9b0489f9f5405e343bb121c2754b702c0d414d118e713fc32a9dc0",
+    "output/teaching-figures-pilot/render-approved/page-2.png": "2ecba85ac4118c746c0a64b8f4e9a78ebe56eba25426a2655ba2b6665e3bdf84",
+    "output/teaching-figures-pilot/render-approved/page-3.png": "49f7f146a9a4689de3a437efb048ea6955bd217d46c0c93654790ccbf328f322",
+    "output/teaching-figures-pilot/render-approved/page-4.png": "4391b1c87231d1e2098e87f50f69a938029f81d1b2cf376aa408dca7591a43f0",
+    "materials/teaching-figures-pilot/data.json": "461cf304d747d3ed7592388bc1a4e20765d9fbb5061c81abee4d0d3055d8f1b4",
+    "materials/teaching-figures-pilot/semantic-context.md": "76a7d4c707dc18ff330134b3314503233c528e03a3e1b7212122808d0fa4e96d"
+  },
+  "ordered_sha256_manifest_digest": "05099cfc3555ab8611b83d49b777af8c662e41706378b51e9239eb9241324b53",
+  "parent": {
+    "actually_viewed": [
+      "assets/figures/ch01-rewrite/fig1-2.png",
+      "assets/figures/ch01-rewrite/fig1-6.png",
+      "assets/figures/teaching-pilot/fig1-2-candidate.png",
+      "assets/figures/teaching-pilot/fig1-6-candidate.png",
+      "assets/figures/teaching-pilot/fig1-2-candidate-grayscale.png",
+      "assets/figures/teaching-pilot/fig1-6-candidate-grayscale.png",
+      "output/teaching-figures-pilot/render-approved/page-1.png",
+      "output/teaching-figures-pilot/render-approved/page-2.png",
+      "output/teaching-figures-pilot/render-approved/page-3.png",
+      "output/teaching-figures-pilot/render-approved/page-4.png"
+    ],
+    "findings": "No clipping, label collision, caption separation or unreadable Chinese at final insertion width; visual/semantic comparison is AI judgment."
+  },
+  "independent_native": {
+    "agent": "/root/visual_teaching_qa",
+    "profile": "reviewer_high",
+    "profile_source": "/home/reggie/.codex/agents/reviewer-high.toml",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "high",
+    "authority": "read-only; no nested agents or tool installs",
+    "actually_viewed_images": [
+      "assets/figures/ch01-rewrite/fig1-2.png",
+      "assets/figures/ch01-rewrite/fig1-6.png",
+      "assets/figures/teaching-pilot/fig1-2-candidate.png",
+      "assets/figures/teaching-pilot/fig1-6-candidate.png",
+      "assets/figures/teaching-pilot/fig1-2-candidate-grayscale.png",
+      "assets/figures/teaching-pilot/fig1-6-candidate-grayscale.png",
+      "output/teaching-figures-pilot/render-approved/page-1.png",
+      "output/teaching-figures-pilot/render-approved/page-2.png",
+      "output/teaching-figures-pilot/render-approved/page-3.png",
+      "output/teaching-figures-pilot/render-approved/page-4.png"
+    ],
+    "semantic_baseline": [
+      "materials/teaching-figures-pilot/data.json",
+      "materials/teaching-figures-pilot/semantic-context.md"
+    ],
+    "blinding": "Did not read parent comparison report or Kimi findings",
+    "finding_set": [],
+    "quoted_result": "本轮没有blocking_candidate或non_blocking findings。",
+    "parent_adjudication": "Parent separately verified six edges, interval arithmetic and final pages; empty findings alone are not acceptance."
+  },
+  "output_sha256": {
+    "output/teaching-figures-pilot/教学图对照试排.docx": "148b0a9926a8e306fa6caed99938de6b00ff497c6921568b03e50a81d96cddf6",
+    "output/teaching-figures-pilot/教学图对照试排.pdf": "8dff87b6356819c4a3a1cefd30d0e2667c8958d0d75972b70d7cbe0b97ff5480"
+  },
+  "not_evaluated": [
+    "Teacher/student comprehension and transfer",
+    "Paper print",
+    "Native Microsoft Word update"
+  ]
+}

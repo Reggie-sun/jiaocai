@@ -1,0 +1,248 @@
+{
+  "artifacts": [
+    {
+      "media_type": "application/json",
+      "path": "execution-view.json",
+      "producer": "supervisor",
+      "redaction_count": 0,
+      "redaction_version": 1,
+      "representation": "filtered",
+      "sha256": "736f0f88e9a0b11ab1780e2f565b0fd3e4e22a902dfa9c9c964fafad247b42d0",
+      "size": 2489
+    },
+    {
+      "media_type": "application/x-ndjson",
+      "path": "stdout.jsonl",
+      "producer": "supervisor",
+      "redaction_count": 0,
+      "redaction_version": 1,
+      "representation": "filtered",
+      "sha256": "05f3694bc217c4004d0ef155ce3fdb0eead4fba34e7f76d9a874c0ffa3d2ba4a",
+      "size": 1864156
+    },
+    {
+      "media_type": "text/plain",
+      "path": "stderr.txt",
+      "producer": "supervisor",
+      "redaction_count": 0,
+      "redaction_version": 1,
+      "representation": "filtered",
+      "sha256": "a135ab480d071b53b3d46164252c46b2e08e7b0f107f4d4e5120fda3feef150e",
+      "size": 73
+    },
+    {
+      "media_type": "application/json",
+      "path": "worker-report.json",
+      "producer": "worker",
+      "redaction_count": 0,
+      "redaction_version": 1,
+      "representation": "filtered",
+      "sha256": "0c908ec221869f9450c1c52bfbbadce7f8d47e8689a123e930468bd1f198a72d",
+      "size": 11065
+    }
+  ],
+  "attempt_id": "f5260083-87f9-4b59-8986-f7e8e20c3f16",
+  "budgets": {
+    "context_bytes": 8388608,
+    "generation_tokens": 32000,
+    "idle_seconds": 1800,
+    "output_bytes": 16777216,
+    "request_limit": 64,
+    "wall_seconds": 3600
+  },
+  "classification": "PARSED",
+  "containment": {
+    "checks": {
+      "apparmor": true,
+      "capabilities_dropped": true,
+      "clean_environment": true,
+      "docker_socket_denied": true,
+      "external_network_denied": true,
+      "host_home_denied": true,
+      "host_ipc_denied": true,
+      "host_proc_denied": true,
+      "host_secret_denied": true,
+      "no_broker_in_test_domain": true,
+      "no_new_privileges": true,
+      "non_root": true,
+      "private_processes": true,
+      "root_write_denied": true,
+      "scratch_writable": true,
+      "sealed_read": true,
+      "seccomp": true,
+      "source_chmod_denied": true,
+      "source_write_denied": true,
+      "symlink_escape_denied": true
+    },
+    "image": "sha256:08efb085f717fe5792d7380a069c3f770422fa09770d904e6e2436e3706e0c85",
+    "live_identity": "NOT_EVALUATED",
+    "native_denials": [
+      "Read",
+      "Read",
+      "Bash",
+      "Task",
+      "mcp__evil__run"
+    ],
+    "native_tools": "VERIFIED",
+    "os_boundary_verified": true,
+    "primitive": "docker",
+    "project_access": true,
+    "proof": "synthetic_adversarial_execution",
+    "qualified": true,
+    "runtime_sha256": "722210f05ba494d8f6df69423c4d4f2960900f7a007d0532851c7a36e375cab7"
+  },
+  "contract_seal": "0b3b29426f75bf8032f38040f1158b9c7945a137a1fab11d74d95a708a8bde27",
+  "evidence_kind": "live",
+  "fallback": "forbidden",
+  "finalized_at": "2026-10-11T14:35:10.496837+00:00",
+  "internal_retry_count": "unknown",
+  "invocation_id": "b6a5d6cc-a437-461f-8a27-37eb739cb7fa",
+  "kind": "project-invocation",
+  "observations": [
+    {
+      "actual_cost": null,
+      "attempt_id": "15bae8f7-e020-47c2-910f-7921a3dc0251",
+      "budget_phase": "EXPLORE",
+      "classification": "IDENTITY_VERIFIED",
+      "client_request_sha256": "327bb959d51fa50fd600ff1236c9b8f3a6a070e1d1944f0b9b14f852fc032229",
+      "duration_seconds": 12.778933949011844,
+      "effort": "max",
+      "generation_token_limit": 32000,
+      "http_status": 200,
+      "message_id": "msg_QMM2Z61eKKQRqw5iVYOs9M8N",
+      "proof": "authenticated_endpoint_declaration",
+      "request_max_tokens": 32000,
+      "request_model": "k3",
+      "request_number": 1,
+      "request_sha256": "42c6452359598f97db58363d137b688cf85a2842d1ac52dbb2adeec457200976",
+      "response_model": "k3",
+      "response_output_sha256": "6e4b90c664be46781f95afe5ed4d0f04352b6b304f8027ecb23a69abd570501f",
+      "thinking": {
+        "type": "adaptive"
+      },
+      "upstream_bytes_received": 40187,
+      "upstream_host": "api.kimi.ai",
+      "upstream_request_id": "msg_QMM2Z61eKKQRqw5iVYOs9M8N",
+      "usage": {
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 2560,
+        "input_tokens": 5943,
+        "output_tokens": 430
+      },
+      "wire_started": true
+    },
+    {
+      "actual_cost": null,
+      "attempt_id": "6527413f-f0d4-4ebc-a7f2-7a6d56bd17df",
+      "budget_phase": "EXPLORE",
+      "classification": "IDENTITY_VERIFIED",
+      "client_request_sha256": "3afa2188fa8f68d5b7fc85a82cb5d2ab71bf88bae24385dddb7d8e214038bd93",
+      "duration_seconds": 300.4363485870417,
+      "effort": "max",
+      "generation_token_limit": 32000,
+      "http_status": 200,
+      "message_id": "msg_h0cAK6L2aaLhusosfYU3W9Ma",
+      "proof": "authenticated_endpoint_declaration",
+      "request_max_tokens": 32000,
+      "request_model": "k3",
+      "request_number": 2,
+      "request_sha256": "95cb288802759ee6641bbdf7df61d8dd4d6d7056d6760c352b1bfda5a9c0df84",
+      "response_model": "k3",
+      "response_output_sha256": "6dd288e2e07e677600845f593b356ea2888f6cc2ae589b19eb2ed82bc8302460",
+      "thinking": {
+        "type": "adaptive"
+      },
+      "upstream_bytes_received": 1513218,
+      "upstream_host": "api.kimi.ai",
+      "upstream_request_id": "msg_h0cAK6L2aaLhusosfYU3W9Ma",
+      "usage": {
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 8192,
+        "input_tokens": 8065,
+        "output_tokens": 12129
+      },
+      "wire_started": true
+    }
+  ],
+  "observed_reads": [
+    {
+      "end_line": 62,
+      "native_tool_use_id": "tool_kKc2YgapGabLwsmsBsWNZUxb",
+      "path": "/home/reggie/vscode_folder/jiaocai/AGENTS.md",
+      "sha256": "6fcba92e3cd33bfba53f0781f443a1ced12683cca581bf88f03cb02f99b1501c",
+      "start_line": 1,
+      "status": "complete",
+      "truncated": false
+    },
+    {
+      "end_line": 90,
+      "native_tool_use_id": "tool_ePMMj5U9NYFZQBTD3T76l61J",
+      "path": "/home/reggie/vscode_folder/jiaocai/materials/teaching-figures-pilot/data.json",
+      "sha256": "461cf304d747d3ed7592388bc1a4e20765d9fbb5061c81abee4d0d3055d8f1b4",
+      "start_line": 1,
+      "status": "complete",
+      "truncated": false
+    },
+    {
+      "end_line": 29,
+      "native_tool_use_id": "tool_6ljJPakgKuj3dsGKeQJWHgKQ",
+      "path": "/home/reggie/vscode_folder/jiaocai/specs/teaching-figures.spec.md",
+      "sha256": "7e4813912995db130419e67dfe5f1b35e8dc6942cfd6ed4d597116a59ea6f024",
+      "start_line": 1,
+      "status": "complete",
+      "truncated": false
+    },
+    {
+      "end_line": 23,
+      "native_tool_use_id": "tool_DfHmg9KGAIiL2rl80nNrWqNp",
+      "path": "/home/reggie/vscode_folder/jiaocai/plans/teaching-figures.plan.md",
+      "sha256": "8b6b184ba3c972f7960f6eb671f602fe6b28eb8d45fe5710c8a219fbebf36143",
+      "start_line": 1,
+      "status": "complete",
+      "truncated": false
+    },
+    {
+      "end_line": 41,
+      "native_tool_use_id": "tool_MyFHZ9vldJxOoAi6rLOYQA5w",
+      "path": "/home/reggie/vscode_folder/jiaocai/materials/teaching-figures-pilot/semantic-context.md",
+      "sha256": "76a7d4c707dc18ff330134b3314503233c528e03a3e1b7212122808d0fa4e96d",
+      "start_line": 1,
+      "status": "complete",
+      "truncated": false
+    },
+    {
+      "end_line": 103,
+      "native_tool_use_id": "tool_Pr79b80GpW1PLm1F83bWmNuV",
+      "path": "/home/reggie/AGENTS.md",
+      "sha256": "d782f8f4b471f9b65e9c8c13e759f5f95f32e1502f5818d352a5f8ff2957e518",
+      "start_line": 1,
+      "status": "complete",
+      "truncated": false
+    }
+  ],
+  "orchestration_retries": 0,
+  "parent_acceptance": "NOT_EVALUATED",
+  "parent_session_id": "codex-jiaocai-figures-20261011",
+  "process": {
+    "descendants_terminated": false,
+    "duration_seconds": 314.32509429199854,
+    "exit_code": 0,
+    "reason": "exited",
+    "stderr_observed_bytes": 73,
+    "stdout_observed_bytes": 1864156,
+    "truncated": false
+  },
+  "report_format": "claude-json-schema-v1",
+  "route_qualification": {
+    "invocation_id": "4f2d5dc8-4234-4665-b382-e82f1ad6cc00",
+    "sha256": "5f3c17dcefcff35f54db521fa4c5435d8f9fb0b1da9ca4e108106a66cb767555"
+  },
+  "router": {
+    "source_sha256": "35618260d4f5b75cb19c929ee1511f2dfd5f63578b2b3bb0524957f034b6c705",
+    "version": "0.1.0"
+  },
+  "schema_version": 1,
+  "started_at": "2026-10-11T14:29:54.155396+00:00",
+  "task_id": "figure-semantics-qa",
+  "wire_requests": 2
+}

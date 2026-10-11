@@ -1,0 +1,31 @@
+{
+  "style": "textbook-style-v1.0",
+  "stage": "independent candidates; not chapter replacements",
+  "figures": [
+    {
+      "baseline": "assets/figures/ch01-rewrite/fig1-2.png",
+      "id": "图1-2 independent candidate",
+      "description": "全部六条允许关系构成可达部分；d无连接。3项请求争用2个容量1的位置，整体无解。",
+      "insert_width_mm": 155,
+      "source": "本书原创教学示例重新可视化；不更改正文、练习或数据。",
+      "files": {
+        "assets/figures/teaching-pilot/fig1-2-candidate.drawio": "54488b9a6d99c54b0c1d8dfae5a4dce3ef2da6c00e3f95cf2e41221582035bfe",
+        "assets/figures/teaching-pilot/fig1-2-candidate.svg": "51dfe07bd2bf3a4d92482bc2e78dbb081194cd579fd87544d3c037b43779dd17",
+        "assets/figures/teaching-pilot/fig1-2-candidate.png": "0a3f64f72194eb11e7c489baee4eaf01452badd5ba0b7e11691bd3930c0988ad",
+        "assets/figures/teaching-pilot/fig1-2-candidate.pdf": "6704f3e7445e620cec85fa3497c1c2d4f49f243511ca4631cbbfff76d7c4aeed"
+      }
+    },
+    {
+      "baseline": "assets/figures/ch01-rewrite/fig1-6.png",
+      "id": "图1-6 independent candidate",
+      "description": "三组共用9至12点时间轴；重叠60分钟、相接0分钟、独占准备/清理后10:45至11:20冲突35分钟。",
+      "insert_width_mm": 155,
+      "source": "本书原创教学示例重新可视化；不更改正文、练习或数据。",
+      "files": {
+        "assets/figures/teaching-pilot/fig1-6-candidate.svg": "233fedba1ac1a143ee4ce3026dd298be075503837d30acae3d2d7047b205e912",
+        "assets/figures/teaching-pilot/fig1-6-candidate.png": "7b7e03fa8037ff6fc915b9eb4022305f3d30cea4514e801bc782929a7dfb87c8",
+        "assets/figures/teaching-pilot/fig1-6-candidate.pdf": "402df2c1cfb9353c843e686d99cd3ac847162b0e46335632ab5d093a78824e47"
+      }
+    }
+  ]
+}

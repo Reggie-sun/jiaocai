@@ -68,6 +68,8 @@ description: "为西南财经大学编写与审校《AI时代的计算思维：�
 
 按表达需要选择制作方式：
 
+先确定学生要从图中看出什么，再选择视觉编码：关系用集合/层次/网络/映射，算法用状态轨迹或递归树，系统用组件/分层/数据流，数量与时间用共同尺度，情境用必要的插画。不要默认把所有教学内容转为矩形流程图，也不以工具类型或图形数量作目标。工具与教材适配的薄路由见 [Teaching Figure Routes](references/teaching-figures.md)；`drawio-skill` 用于可编辑关系/算法/系统图，`scientific-visualization` 用于精确数据/时间图及导出检查，情境插画沿用下方 `imagegen`。上游 Skill 不接管教材体例、Harness或任务生命周期。
+
 - 概念结构图、流程图、依赖图和约束示意图优先使用SVG、图形工具或其他可编辑方式制作，保留源文件与导出图片；节点、箭头、条件与正文逐项核对。
 - 数据图使用绘图库根据明确的数据绘制，保留数据与绘图源文件；核对数值、单位、坐标轴、图例和比较口径。自拟数据标为教学示例。
 - 案例插画、情境图等位图调用 [imagegen](/home/reggie/.local/share/chatgpt-desktop/skills/.system/imagegen/SKILL.md)，按其指南使用内置图像工具。提示词说明教学目的、情境、构图、风格与必要文字；生成后实际查看并校核。关键中文标签与精确关系需要清晰可控的表达，必要时将插画背景与可编辑标注分开制作。
@@ -188,6 +190,7 @@ Word排版使用可自动更新编号的原生题注域及正文交叉引用域�
 - `pdf:pdf`：读取PDF原稿或检查导出页面。
 - `humanizer`：对已有正文进行语言审校，保留概念与证据。
 - `imagegen`：案例插画与情境位图生成、编辑；精确教学图表按 Illustrations 制作和核验。生成与编辑细节由其入口维护。
+- `drawio-skill` / `scientific-visualization`：按 [Teaching Figure Routes](references/teaching-figures.md) 选择本地、可编辑绘图与数据核验能力；上游默认字体/尺寸不能覆盖 `textbook-style-v1.0`。付费绘图 API 需用户先明确确认，不能从 `.env` 自动发现凭据并调用。
 
 这些技能提供专项能力，不替代用户指定范围或本项目的教学要求。只在需要时读取对应技能。
 

@@ -1,0 +1,11 @@
+{
+  "png_and_grayscale_byte_identical": true,
+  "files": {
+    "fig1-2-candidate.png": "0a3f64f72194eb11e7c489baee4eaf01452badd5ba0b7e11691bd3930c0988ad",
+    "fig1-2-candidate-grayscale.png": "8d152e822184e72a999e80c504b8c4c96b8f8980252e08303758048c06fd8aa3",
+    "fig1-6-candidate.png": "7b7e03fa8037ff6fc915b9eb4022305f3d30cea4514e801bc782929a7dfb87c8",
+    "fig1-6-candidate-grayscale.png": "23b19396184c84260205eac306f9c4012f3516e2c0d3cdb905729260b090d4b9"
+  },
+  "elapsed_seconds": 5.08,
+  "svg_pdf_note": "Byte identity not required: native export metadata and document identifiers may vary; editable sources/data are retained."
+}

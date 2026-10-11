@@ -1,0 +1,30 @@
+{
+  "label_edit": {
+    "changed_values": [
+      "b",
+      "count-b"
+    ],
+    "edges_changed": false,
+    "export_seconds": 2.07,
+    "validation": {
+      "errors": 0,
+      "warnings": 0,
+      "findings": []
+    }
+  },
+  "parameter_edit": {
+    "changed_json_values": 3,
+    "code_edits": 0,
+    "expected_overlap_minutes": 45,
+    "expected_end_label": "11:30",
+    "export_seconds": 0.55
+  },
+  "scope": "temporary test edits only; accepted teaching examples remain 20/15 and 60/0/35",
+  "artifacts": {
+    "label-edit.png": "94a9aea8c1351f54621f5431ea1c78d60571b06760ab4c48ee2593a0e6258698",
+    "label-edit.drawio": "b1c88a0fbf42da42f1af658d24a59625b3c7db82717406575072f3e2d11c5b1c",
+    "fig1-6-candidate.svg": "e096b795b0353ae8d0127c455d5f9b318c6bfc8fcf9c7f98dff36e9ca80da735",
+    "fig1-6-candidate.png": "4f50e6d8b9ed865716484faaa85b8be000b1642fc6fa823ae089bf5aff05cb7d"
+  },
+  "human_edit_time": "not measured; timings are machine export time only"
+}

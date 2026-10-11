@@ -1,0 +1,10 @@
+{
+  "style": "textbook-style-v1.0",
+  "expected_pages": [
+    "fig1-2 original",
+    "fig1-2 candidate",
+    "fig1-6 original",
+    "fig1-6 candidate"
+  ],
+  "insert_width_mm": 155
+}

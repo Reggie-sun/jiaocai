@@ -1,0 +1,55 @@
+{
+  "notice": "Export completed with explicit settings. This report does not establish visual, accessibility, scientific-integrity, or journal-submission compliance.",
+  "outputs": [
+    {
+      "format": "svg",
+      "kind": "vector-container",
+      "path": "/home/reggie/vscode_folder/jiaocai/assets/figures/teaching-pilot/fig1-6-candidate.svg",
+      "size_bytes": 278363
+    },
+    {
+      "format": "pdf",
+      "kind": "vector-container",
+      "path": "/home/reggie/vscode_folder/jiaocai/assets/figures/teaching-pilot/fig1-6-candidate.pdf",
+      "size_bytes": 67609
+    },
+    {
+      "format": "png",
+      "kind": "raster",
+      "path": "/home/reggie/vscode_folder/jiaocai/assets/figures/teaching-pilot/fig1-6-candidate.png",
+      "size_bytes": 238834
+    }
+  ],
+  "provenance": {
+    "raw_data": "materials/teaching-figures-pilot/data.json",
+    "source": "original chapter teaching example; not observed measurements",
+    "transformations": [
+      "minutes since midnight; cleanup extends A by 20, preparation extends B by 15"
+    ],
+    "uncertainty": "not applicable; exact example intervals"
+  },
+  "schema_version": "1.0",
+  "settings": {
+    "bbox_inches": null,
+    "dpi": 400.0,
+    "facecolor": "white",
+    "figure_size_inches": [
+      6.10236220472441,
+      6.181102362204725
+    ],
+    "font_mode": "truetype",
+    "formats": [
+      "svg",
+      "pdf",
+      "png"
+    ],
+    "pad_inches": 0.1,
+    "tiff_rgb": false,
+    "transparent": false
+  },
+  "versions": {
+    "matplotlib": "3.10.7",
+    "pillow": "11.3.0"
+  },
+  "warnings": []
+}
