@@ -1,0 +1,26 @@
+{
+  "sha256": {
+    "AGENTS.md": "1b859b79d8984157253df55df697679ba7fa28799299b3b443b8b516a01e67ae",
+    "skills/textbook-authoring/SKILL.md": "dbc0d3cb616e50d1eb512940ddad47848353ac1583130d1c62084ac78bf0fa3a",
+    "specs/authoring-quality.spec.md": "53ec4dbacd5b13d83f9bf3bfedb2e41b9a0fbc16fc9ff02a897c8ec6ab036fb5",
+    "specs/ch01-quality.spec.md": "c3369b2436b13eb1ebac18708287ccb2e53ed925a2146d54607017ec67942a08",
+    "specs/ch01-history.spec.md": "7e9998cce44523de5300ffea187d54bfea2bfb7004be6b33d6761969cb771787",
+    "plans/ch01-history.plan.md": "110b83e277487fdf85fa4d59e795db3638990003f8386efbef3c022bcc559375",
+    "materials/ch01-history/sources.md": "95d37a90c695e265ea37c2bf3f4329920c2f88f29ccaca57d0c36cb2f012f396",
+    "materials/ch01-history/figures.md": "116567aac65e7a3082c03ac6637bfa93a8a97cdbb4c18ef72080fb20267244d8",
+    "manuscripts/ch01-history/ch01.md": "0821dd957553a84a03f38f8b38132a968d48537bf6eac266ed1b0f53c5f036bb",
+    "AI时代的计算思维--跨界创新与终身学习能力培养-教材大纲.docx": "4b2526dd13a07ea1facaeefcef09658b9df46ab4496df6c782c8dc222967d8be",
+    "AI时代的思维训练3.1节样稿.docx": "2fde276942f55dd4cfb00f0036a0d4a8935bd8320cef4c2eb0c47ed707e5aa17",
+    "manuscripts/ch01-history/opening.md": "21808b4271e98f40a4829bf5a4cf7037244c5d07a09544d2ecccb7a687fe83ca",
+    "manuscripts/ch01-history/section-1.1.md": "609a36db8cf0a3fa45a37e406946b01f4eab8282e8f2bcc64e46c9fe817ada85",
+    "manuscripts/ch01-history/section-1.2.md": "a4628a25f04eea2c29cb18309a1c36e3143d31938fb06a3d5d9bc36ae10fd6bf",
+    "manuscripts/ch01-history/section-1.3.md": "cb25061a8c90b28263cf46b0b9b01c989d45cd11405024654c18a1741c098058",
+    "manuscripts/ch01-history/section-1.4.md": "28d022e83f78c24fcbb40b3d1784b12858393123649851b5a2890f646cf2b4a1",
+    "manuscripts/ch01-history/ending.md": "59605d0a863ffffd7af0ebc7300644b57c859bdeaddc9b74765b134341690294",
+    "manuscripts/ch01-history/answers-1.1.md": "d69f0cfa0614d4894639c889b8885a7d979962ab788176b7ed9784689145f7b2",
+    "manuscripts/ch01-history/answers-1.2-1.3.md": "fdcc8f3fd22a4d90ee6b5fcd7523786a3103eca58b9d05237fec411306976723",
+    "manuscripts/ch01-history/answers-1.4.md": "6c180c51cd2185a3548b821cddb5a229d48569044d4009661a0ec653ed544c7b"
+  },
+  "reviewed_candidate": "0821dd957553a84a03f38f8b38132a968d48537bf6eac266ed1b0f53c5f036bb",
+  "scope": "complete textual manuscript; no illustrated chapter acceptance"
+}

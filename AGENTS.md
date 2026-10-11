@@ -27,7 +27,7 @@
 
 收到教材目录、正文、练习、图表规划或审校任务时，读取 [textbook-authoring/SKILL.md](/home/reggie/.local/share/chatgpt-desktop/skills/textbook-authoring/SKILL.md) 取得教学标准与能力入口。模型自主选择写作策略、任务拆分、检索工具与修改顺序；spec约束交付目标，plan提供依赖与里程碑，具体工程恢复以当前Harness为准。
 
-按章编写并验收，当前批次为第一章。开始正文前读取 [第一章specs](/home/reggie/vscode_folder/jiaocai/specs/ch01.spec.md) 与 [第一章plan](/home/reggie/vscode_folder/jiaocai/plans/ch01.plan.md)；内容契约和执行依赖由这两份Markdown文档维护，全书蓝图用于衔接。后续章的specs与plan同样使用Markdown，程序直接消费的工程登记与证据使用JSON。当前请求仅为规格与计划时，不执行正文任务。
+按章编写并验收，当前第一章历史回顾重写的内容契约与执行依赖见 [第一章Spec](specs/ch01-history.spec.md) 与 [第一章plan](plans/ch01-history.plan.md)；原 [Spec](specs/ch01.spec.md) 与 [plan](plans/ch01.plan.md) 保留作历史记录，全书蓝图用于衔接。后续章的specs与plan同样使用Markdown，程序直接消费的工程登记与证据使用JSON。当前请求仅为规格与计划时，不执行正文任务。
 
 用户可在聊天消息中用 `$textbook-authoring` 显式调用，例如：
 

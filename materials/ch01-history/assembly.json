@@ -1,0 +1,31 @@
+{
+  "manuscript": "manuscripts/ch01-history/ch01.md",
+  "sha256": "0821dd957553a84a03f38f8b38132a968d48537bf6eac266ed1b0f53c5f036bb",
+  "chinese_characters": 35014,
+  "characters_without_link_targets": 41981,
+  "reference_order": [
+    "WING06",
+    "WING10",
+    "CENSUS1890",
+    "TURING37",
+    "SHANNON48",
+    "PAPERT93",
+    "DARTMOUTH55",
+    "JACQUARD",
+    "BABBAGE"
+  ],
+  "parts": {
+    "opening.md": "21808b4271e98f40a4829bf5a4cf7037244c5d07a09544d2ecccb7a687fe83ca",
+    "section-1.1.md": "609a36db8cf0a3fa45a37e406946b01f4eab8282e8f2bcc64e46c9fe817ada85",
+    "section-1.2.md": "a4628a25f04eea2c29cb18309a1c36e3143d31938fb06a3d5d9bc36ae10fd6bf",
+    "section-1.3.md": "cb25061a8c90b28263cf46b0b9b01c989d45cd11405024654c18a1741c098058",
+    "section-1.4.md": "28d022e83f78c24fcbb40b3d1784b12858393123649851b5a2890f646cf2b4a1",
+    "ending.md": "59605d0a863ffffd7af0ebc7300644b57c859bdeaddc9b74765b134341690294",
+    "answers-1.1.md": "d69f0cfa0614d4894639c889b8885a7d979962ab788176b7ed9784689145f7b2",
+    "answers-1.2-1.3.md": "fdcc8f3fd22a4d90ee6b5fcd7523786a3103eca58b9d05237fec411306976723",
+    "answers-1.4.md": "6c180c51cd2185a3548b821cddb5a229d48569044d4009661a0ec653ed544c7b"
+  },
+  "style": "textbook-style-v1.0",
+  "figures": "planned_only",
+  "count_scope": "one assembled manuscript; chapter-end answers included; HTML notes, code blocks and URL targets excluded"
+}

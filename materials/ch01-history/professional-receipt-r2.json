@@ -1,0 +1,316 @@
+{
+  "artifacts": [
+    {
+      "media_type": "application/json",
+      "path": "execution-view.json",
+      "producer": "supervisor",
+      "redaction_count": 0,
+      "redaction_version": 1,
+      "representation": "filtered",
+      "sha256": "a6d4b8f4a77f1c11c849e95ebc63d1e468e58be5ffe1f28feeb241947d2d5deb",
+      "size": 3203
+    },
+    {
+      "media_type": "application/x-ndjson",
+      "path": "stdout.jsonl",
+      "producer": "supervisor",
+      "redaction_count": 0,
+      "redaction_version": 1,
+      "representation": "filtered",
+      "sha256": "b453c1c685077b3d5b1b0d72f778d6fc3e8de542e9906649617c98d5fe0e49ee",
+      "size": 2860945
+    },
+    {
+      "media_type": "text/plain",
+      "path": "stderr.txt",
+      "producer": "supervisor",
+      "redaction_count": 0,
+      "redaction_version": 1,
+      "representation": "filtered",
+      "sha256": "a135ab480d071b53b3d46164252c46b2e08e7b0f107f4d4e5120fda3feef150e",
+      "size": 73
+    },
+    {
+      "media_type": "application/json",
+      "path": "worker-report.json",
+      "producer": "worker",
+      "redaction_count": 0,
+      "redaction_version": 1,
+      "representation": "filtered",
+      "sha256": "056ad423128e5c9b96026b2b72ffba9933c089db32a1bcbe1fea0e7f615e9977",
+      "size": 8782
+    }
+  ],
+  "attempt_id": "9b8acf55-6d79-4df0-b8b6-fde09687b3be",
+  "budgets": {
+    "context_bytes": 8388608,
+    "generation_tokens": 32000,
+    "idle_seconds": 1800,
+    "output_bytes": 16777216,
+    "request_limit": 64,
+    "wall_seconds": 3600
+  },
+  "classification": "PARSED",
+  "containment": {
+    "checks": {
+      "apparmor": true,
+      "capabilities_dropped": true,
+      "clean_environment": true,
+      "docker_socket_denied": true,
+      "external_network_denied": true,
+      "host_home_denied": true,
+      "host_ipc_denied": true,
+      "host_proc_denied": true,
+      "host_secret_denied": true,
+      "no_broker_in_test_domain": true,
+      "no_new_privileges": true,
+      "non_root": true,
+      "private_processes": true,
+      "root_write_denied": true,
+      "scratch_writable": true,
+      "sealed_read": true,
+      "seccomp": true,
+      "source_chmod_denied": true,
+      "source_write_denied": true,
+      "symlink_escape_denied": true
+    },
+    "image": "sha256:08efb085f717fe5792d7380a069c3f770422fa09770d904e6e2436e3706e0c85",
+    "live_identity": "NOT_EVALUATED",
+    "native_denials": [
+      "Read",
+      "Read",
+      "Bash",
+      "Task",
+      "mcp__evil__run"
+    ],
+    "native_tools": "VERIFIED",
+    "os_boundary_verified": true,
+    "primitive": "docker",
+    "project_access": true,
+    "proof": "synthetic_adversarial_execution",
+    "qualified": true,
+    "runtime_sha256": "722210f05ba494d8f6df69423c4d4f2960900f7a007d0532851c7a36e375cab7"
+  },
+  "contract_seal": "ac24acb5b8628704b442feb812174d8cdaebd98666ddbaa8a4cdc2e68207c281",
+  "evidence_kind": "live",
+  "fallback": "forbidden",
+  "finalized_at": "2026-10-11T17:05:19.113820+00:00",
+  "internal_retry_count": "unknown",
+  "invocation_id": "80399dfd-1134-41b3-829f-f84ef0e2d7a3",
+  "kind": "project-invocation",
+  "observations": [
+    {
+      "actual_cost": null,
+      "attempt_id": "b5911a2e-3496-413d-aac2-e8e6f1ffaecc",
+      "budget_phase": "EXPLORE",
+      "classification": "IDENTITY_VERIFIED",
+      "client_request_sha256": "0fe9553052fb99c372937e623f7e914b0391c16df279a62679f240b2cbd9da7d",
+      "duration_seconds": 17.583685757999774,
+      "effort": "max",
+      "generation_token_limit": 32000,
+      "http_status": 200,
+      "message_id": "msg_CZ5N6ek8J0TBz1yre5yuDD1z",
+      "proof": "authenticated_endpoint_declaration",
+      "request_max_tokens": 32000,
+      "request_model": "k3",
+      "request_number": 1,
+      "request_sha256": "2ed5381a43a99b860d588e3babf414c7877e3e341e09519aebc24b2f695ee878",
+      "response_model": "k3",
+      "response_output_sha256": "41602673f80d29293d7b2f793814618dd32c5dd8f2fabda611bc2999f221be0a",
+      "thinking": {
+        "type": "adaptive"
+      },
+      "upstream_bytes_received": 60071,
+      "upstream_host": "api.kimi.ai",
+      "upstream_request_id": "msg_CZ5N6ek8J0TBz1yre5yuDD1z",
+      "usage": {
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 2560,
+        "input_tokens": 6781,
+        "output_tokens": 521
+      },
+      "wire_started": true
+    },
+    {
+      "actual_cost": null,
+      "attempt_id": "49ab9307-eed9-43a6-85db-dc78ea570e7a",
+      "budget_phase": "EXPLORE",
+      "classification": "IDENTITY_VERIFIED",
+      "client_request_sha256": "f53d0cdd7117a3270ad1a7a48be82fe1a06dc1b448c63366af67a1bd2276d2e8",
+      "duration_seconds": 110.60749925603159,
+      "effort": "max",
+      "generation_token_limit": 32000,
+      "http_status": 200,
+      "message_id": "msg_jJb5hjBFoBf6MONMw4RwIcyT",
+      "proof": "authenticated_endpoint_declaration",
+      "request_max_tokens": 32000,
+      "request_model": "k3",
+      "request_number": 2,
+      "request_sha256": "076058ec0ffa399e31512329e772f44f4d5480ad5e1294e1d0b2145ea31410d6",
+      "response_model": "k3",
+      "response_output_sha256": "22f8f9615e6b6419254bf90d5a90f1da9a78450d5c2ce3fe76b586b1aece6f34",
+      "thinking": {
+        "type": "adaptive"
+      },
+      "upstream_bytes_received": 422101,
+      "upstream_host": "api.kimi.ai",
+      "upstream_request_id": "msg_jJb5hjBFoBf6MONMw4RwIcyT",
+      "usage": {
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 9216,
+        "input_tokens": 6706,
+        "output_tokens": 3652
+      },
+      "wire_started": true
+    },
+    {
+      "actual_cost": null,
+      "attempt_id": "ab21c9d3-d841-4a5f-a556-b7d4afbc4d99",
+      "budget_phase": "EXPLORE",
+      "classification": "IDENTITY_VERIFIED",
+      "client_request_sha256": "0f956760aced54fe0579e1e43c8c4b2118dd56e30c127ed0b7a820c931f98345",
+      "duration_seconds": 393.6318250760087,
+      "effort": "max",
+      "generation_token_limit": 32000,
+      "http_status": 200,
+      "message_id": "msg_gRKJyvQltffJkGe9kPg5QxVC",
+      "proof": "authenticated_endpoint_declaration",
+      "request_max_tokens": 32000,
+      "request_model": "k3",
+      "request_number": 3,
+      "request_sha256": "f9b6e14d8f05dda88d2954b32f2477e0571ba0cfd7c3b1fad591d0ab9b965357",
+      "response_model": "k3",
+      "response_output_sha256": "ea6e094401c8273207a9ce5c9383c2566805eb02d8d2a1c777cf8d5bc9279e6e",
+      "thinking": {
+        "type": "adaptive"
+      },
+      "upstream_bytes_received": 1562550,
+      "upstream_host": "api.kimi.ai",
+      "upstream_request_id": "msg_gRKJyvQltffJkGe9kPg5QxVC",
+      "usage": {
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 15616,
+        "input_tokens": 24210,
+        "output_tokens": 12542
+      },
+      "wire_started": true
+    }
+  ],
+  "observed_reads": [
+    {
+      "end_line": 26,
+      "native_tool_use_id": "tool_e3wCvNeoYUssMsW2voTgUo1J",
+      "path": "/home/reggie/vscode_folder/jiaocai/materials/ch01-history/sources.md",
+      "sha256": "95d37a90c695e265ea37c2bf3f4329920c2f88f29ccaca57d0c36cb2f012f396",
+      "start_line": 1,
+      "status": "complete",
+      "truncated": false
+    },
+    {
+      "end_line": 1,
+      "native_tool_use_id": "tool_4leSP8dJrw1qcMolQRpeJ1KT",
+      "path": "/home/reggie/vscode_folder/jiaocai/materials/ch01-history/professional-review-r1.json",
+      "sha256": "0b2bde3b8b734b2bff3eaf255a95528234074b66733a5be309833d8014e397bd",
+      "start_line": 1,
+      "status": "complete",
+      "truncated": false
+    },
+    {
+      "end_line": 61,
+      "native_tool_use_id": "tool_HCs0BNjbx0eueg6ozMfDzsJo",
+      "path": "/home/reggie/vscode_folder/jiaocai/materials/ch01-history/review-delta-r1-final.patch",
+      "sha256": "c198919b255bfccd0212e109d665427b84175272671ad7579d8cb66b1834b2db",
+      "start_line": 1,
+      "status": "complete",
+      "truncated": false
+    },
+    {
+      "end_line": 564,
+      "native_tool_use_id": "tool_kGcKrevjttYJLpuV3V4qF3Ah",
+      "path": "/home/reggie/vscode_folder/jiaocai/manuscripts/ch01-history/ch01.md",
+      "sha256": "0821dd957553a84a03f38f8b38132a968d48537bf6eac266ed1b0f53c5f036bb",
+      "start_line": 400,
+      "status": "complete",
+      "truncated": false
+    },
+    {
+      "end_line": 324,
+      "native_tool_use_id": "tool_8ChmxnulFaO5SD8e6rpIf1Th",
+      "path": "/home/reggie/vscode_folder/jiaocai/manuscripts/ch01-history/ch01.md",
+      "sha256": "0821dd957553a84a03f38f8b38132a968d48537bf6eac266ed1b0f53c5f036bb",
+      "start_line": 240,
+      "status": "complete",
+      "truncated": false
+    },
+    {
+      "end_line": 688,
+      "native_tool_use_id": "tool_zKmKi9VVmGbzTDucHMJs3peK",
+      "path": "/home/reggie/vscode_folder/jiaocai/manuscripts/ch01-history/ch01.md",
+      "sha256": "0821dd957553a84a03f38f8b38132a968d48537bf6eac266ed1b0f53c5f036bb",
+      "start_line": 595,
+      "status": "complete",
+      "truncated": false
+    },
+    {
+      "end_line": 60,
+      "native_tool_use_id": "tool_p1CzAWOqjt753Lu3STQGhWOV",
+      "path": "/home/reggie/vscode_folder/jiaocai/manuscripts/ch01-history/ch01.md",
+      "sha256": "0821dd957553a84a03f38f8b38132a968d48537bf6eac266ed1b0f53c5f036bb",
+      "start_line": 1,
+      "status": "complete",
+      "truncated": false
+    },
+    {
+      "end_line": 212,
+      "native_tool_use_id": "tool_uPvQ4KbW9iXHB8yoAWnzI5rH",
+      "path": "/home/reggie/vscode_folder/jiaocai/manuscripts/ch01-history/ch01.md",
+      "sha256": "0821dd957553a84a03f38f8b38132a968d48537bf6eac266ed1b0f53c5f036bb",
+      "start_line": 138,
+      "status": "complete",
+      "truncated": false
+    },
+    {
+      "end_line": 38,
+      "native_tool_use_id": "tool_gC4lCEgMo5TkuYx69Br1W4ae",
+      "path": "/home/reggie/vscode_folder/jiaocai/plans/ch01-history.plan.md",
+      "sha256": "110b83e277487fdf85fa4d59e795db3638990003f8386efbef3c022bcc559375",
+      "start_line": 1,
+      "status": "complete",
+      "truncated": false
+    },
+    {
+      "end_line": 56,
+      "native_tool_use_id": "tool_0SWS62AaKlAwukLiDWPPlDbd",
+      "path": "/home/reggie/vscode_folder/jiaocai/specs/ch01-history.spec.md",
+      "sha256": "7e9998cce44523de5300ffea187d54bfea2bfb7004be6b33d6761969cb771787",
+      "start_line": 1,
+      "status": "complete",
+      "truncated": false
+    }
+  ],
+  "orchestration_retries": 0,
+  "parent_acceptance": "NOT_EVALUATED",
+  "parent_session_id": "codex-jiaocai-ch01-history-20261012",
+  "process": {
+    "descendants_terminated": false,
+    "duration_seconds": 523.0734723369824,
+    "exit_code": 0,
+    "reason": "exited",
+    "stderr_observed_bytes": 73,
+    "stdout_observed_bytes": 2860945,
+    "truncated": false
+  },
+  "report_format": "claude-json-schema-v1",
+  "route_qualification": {
+    "invocation_id": "4f2d5dc8-4234-4665-b382-e82f1ad6cc00",
+    "sha256": "5f3c17dcefcff35f54db521fa4c5435d8f9fb0b1da9ca4e108106a66cb767555"
+  },
+  "router": {
+    "source_sha256": "35618260d4f5b75cb19c929ee1511f2dfd5f63578b2b3bb0524957f034b6c705",
+    "version": "0.1.0"
+  },
+  "schema_version": 1,
+  "started_at": "2026-10-11T16:56:34.208285+00:00",
+  "task_id": "ch01-history-professional-r2",
+  "wire_requests": 3
+}

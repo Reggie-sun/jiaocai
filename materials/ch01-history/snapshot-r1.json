@@ -1,0 +1,21 @@
+{
+  "snapshot": "S1",
+  "head_before_review": "af5dba6c632db36135a5a04122f29f4785390ed7",
+  "source_hashes": {
+    "AI时代的计算思维--跨界创新与终身学习能力培养-教材大纲.docx": "4b2526dd13a07ea1facaeefcef09658b9df46ab4496df6c782c8dc222967d8be",
+    "AI时代的思维训练3.1节样稿.docx": "2fde276942f55dd4cfb00f0036a0d4a8935bd8320cef4c2eb0c47ed707e5aa17",
+    "AGENTS.md": "995fdf5173cd727a9f67be2f8bd4de6c1cd9d9342b7e9036b90c9bba6af15496",
+    "skills/textbook-authoring/SKILL.md": "dbc0d3cb616e50d1eb512940ddad47848353ac1583130d1c62084ac78bf0fa3a",
+    "specs/authoring-quality.spec.md": "53ec4dbacd5b13d83f9bf3bfedb2e41b9a0fbc16fc9ff02a897c8ec6ab036fb5",
+    "specs/ch01-quality.spec.md": "c3369b2436b13eb1ebac18708287ccb2e53ed925a2146d54607017ec67942a08",
+    "specs/ch01-history.spec.md": "7e9998cce44523de5300ffea187d54bfea2bfb7004be6b33d6761969cb771787",
+    "plans/ch01-history.plan.md": "110b83e277487fdf85fa4d59e795db3638990003f8386efbef3c022bcc559375",
+    "manuscripts/ch01-history/ch01.md": "8303a4ded7510bff07b072a8ddfd3477a4f55f12e529dc68f75726fd9137f803",
+    "materials/ch01-history/sources.md": "5184649511a15fe6bcfec5e9df6dd956fe327745229798c5c5d086a60cab90c4"
+  },
+  "teaching_reviewer": "/root/teaching_reader",
+  "author_profile": "bounded_worker / gpt-6-luna / max",
+  "review_profile": "reviewer_high / gpt-6.1-sol / high",
+  "professional_invocation_id": "d8951182-0774-4172-afdc-2693d2e4dce6",
+  "scope": "full-text candidate; figures planned only; no Word/PDF delivery"
+}

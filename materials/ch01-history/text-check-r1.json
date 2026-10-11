@@ -1,0 +1,52 @@
+{
+  "section_titles": [
+    "计算思维定义与内涵：超越编程",
+    "计算思维溯源：从图灵到现代——思维范式的革命性演变",
+    "计算思维的普适性：为何是跨学科的钥匙？",
+    "计算思维 vs 其他思维方式：互补与融合"
+  ],
+  "exercise_ids": [
+    "E01",
+    "E02",
+    "E03",
+    "E04",
+    "E05",
+    "E06",
+    "E07",
+    "E08",
+    "E09"
+  ],
+  "reference_numbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "numeric_examples": {
+    "card_counts": [
+      3,
+      2,
+      1,
+      4
+    ],
+    "E05_changed_cells": [
+      [
+        3,
+        2
+      ]
+    ],
+    "E04_rectangle_endpoint": [
+      0,
+      0,
+      0
+    ]
+  },
+  "chinese_characters": 34489,
+  "manuscript_sha256": "8303a4ded7510bff07b072a8ddfd3477a4f55f12e529dc68f75726fd9137f803",
+  "status": "text_structure_and_examples_checked; not teaching acceptance"
+}
