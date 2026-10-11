@@ -1,0 +1,15 @@
+{
+  "invocation_id": "3a953c92-8738-44fd-90a6-ef81bb29a475",
+  "contract_seal": "2d52fd4281803b015719ade080c29ce7e3a6a0faf3dfb7f76d1c8286b67364c7",
+  "canonical_receipt_sha256": "8ba16da73763efecc316721d6c9ef8e6b9d1721894c4ca6a9d11ee9876c6a433",
+  "report_sha256": "8ef581b7b2782567c921cf856285bf906d440231ea51b407fbfd091533381082",
+  "canonical_process_exit": 0,
+  "classification": "PARSED",
+  "live_identity_verified_requests": 6,
+  "containment": "verified_docker",
+  "required_full_reads": 8,
+  "actual_full_reads": 10,
+  "all_required_reads_complete_and_current": true,
+  "accepted_refs_hash_match": true,
+  "parent_acceptance": "NOT_EVALUATED"
+}

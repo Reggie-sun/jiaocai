@@ -1,0 +1,18 @@
+{
+  "baseline_head": "72e6314e704e6ed272b622e269ba79f7b49755cd",
+  "protected_files": 840,
+  "unchanged_files": 838,
+  "authorized_existing_file_changes": [
+    "harness.json",
+    "教材编写现状与目的.md"
+  ],
+  "purpose_original_bytes_preserved_as_exact_prefix": true,
+  "purpose_appended_bytes": 3069,
+  "harness_original_policy_and_schema_unchanged": true,
+  "original_runs_unchanged": 7,
+  "only_new_run": "ch03-layout",
+  "all_other_protected_files_unchanged": true,
+  "foreign_source_files_preserved": true,
+  "template_original_chapter_and_prior_chapters_preserved": true,
+  "boundary": "Checks original files and original run objects; the new run legitimately progresses through check/review/accept under its canonical owner."
+}

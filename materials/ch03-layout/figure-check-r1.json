@@ -1,0 +1,62 @@
+{
+  "checks": "PASS",
+  "source_data_match": true,
+  "figures": [
+    {
+      "id": "图3-1",
+      "color_sha256": "739f27b4b17f6cda565c116061abeb387aec17e47d9b4a168391e6beb28984a2",
+      "gray_sha256": "57f28c3b7d9d6ce1ac38edc8c0d07161dd534dcbc1a6be7a0eef9f34690761b4",
+      "svg_sha256": "7ed65a5a1db88d928224cbd954d7a35ba2cb44f907eaf72b54fbb7a4725ddd34",
+      "min_font_pt": 10.74,
+      "min_line_pt": 0.98,
+      "color_and_grayscale_actually_viewed": true,
+      "observer": "Codex Parent",
+      "observation": "目标框已换行；三个状态分开出现；回返箭头及五种非互斥知识视角清晰。"
+    },
+    {
+      "id": "图3-2",
+      "color_sha256": "9e7fbad90cd86ea9da80e91e73b2119aaa5ad2504dfa6e59dadbe2a17458f034",
+      "gray_sha256": "6b584d4703df7a6ca77cb02750804f91675afb1b83d39901ddbe5d971f46532b",
+      "svg_sha256": "70e982cc9a612f3ea3e8a36a18f121bec1982ff4817cfbf7c9d80b7ce254dd7f",
+      "min_font_pt": 10.74,
+      "min_line_pt": 0.98,
+      "color_and_grayscale_actually_viewed": true,
+      "observer": "Codex Parent",
+      "observation": "授权先于指令；设备执行与回传分开；虚线支路指向状态未知，未写成成功。"
+    },
+    {
+      "id": "图3-3",
+      "color_sha256": "9dbda9907e11be57bdef3c5636f44660d196019e6841e3647aea58aea72b482a",
+      "gray_sha256": "29be786a4197372034a627bc9d71541fd8eb7def88019f91ed1014080fdd3c6d",
+      "svg_sha256": "99b31e6e35ae45d0cd8dc0d9792bc0955f3cb17004d9a518c6440867a08ae9c2",
+      "min_font_pt": 10.74,
+      "min_line_pt": 0.98,
+      "color_and_grayscale_actually_viewed": true,
+      "observer": "Codex Parent",
+      "observation": "两矩阵列题均在面板内；TP/FN/FP/TN与表3-6相符；六比例及分母正确，共同0–100%尺度。"
+    },
+    {
+      "id": "图3-4",
+      "color_sha256": "c8862c60ef889b29f149aacf13259e797142d5ad567572cf8531d319a73d5218",
+      "gray_sha256": "ef09f7108e266471d02905261599c44fafb6e373bdeb974a1910af8842890ba3",
+      "svg_sha256": "685ad103198b6e9a9f5602ba35bb9216da4be0ba2dd58c08f77df16b3ba6b006",
+      "min_font_pt": 10.74,
+      "min_line_pt": 0.98,
+      "color_and_grayscale_actually_viewed": true,
+      "observer": "Codex Parent",
+      "observation": "三类证据检查汇合到人工判断，四处置分开；箭头不重叠，明确不是自动裁定。"
+    },
+    {
+      "id": "图3-5",
+      "color_sha256": "25912fa61848cffc313127957b7f199a2c01adde33f15900ac2021705849c1ae",
+      "gray_sha256": "2adbb4989327b93a465f89dcfa9e6bfb967e924a16e756b7bbe7401c629ae9f6",
+      "svg_sha256": "8e6a6bded5f380e86bec92b570df2f65fac2e7d3f6d485bb60cae0844e1feea1",
+      "min_font_pt": 10.74,
+      "min_line_pt": 0.98,
+      "color_and_grayscale_actually_viewed": true,
+      "observer": "Codex Parent",
+      "observation": "四教室共用0–8小时尺度，6/5小时和0.5小时互不重叠；原8h及候选5h文字不贴框；纹理在灰度仍可辨。"
+    }
+  ],
+  "boundary": "Actual image viewing is recorded separately from executable font/hash/data checks."
+}

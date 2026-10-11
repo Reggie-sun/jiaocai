@@ -1,0 +1,575 @@
+{
+  "candidate": "r5-final",
+  "pdf_sha256": "9383a5ad709ddf8cff6bd29501a58bb5862700980f0472f265dc049b4a039366",
+  "docx_sha256": "f1e2bd9d4c4cb5f380260ebfc1f6ea268c2fb59ac816453c7c5b0b283479be8f",
+  "coverage": 78,
+  "unviewed_pages": [],
+  "actual_parent_final_pages": [
+    11,
+    14,
+    32,
+    49,
+    50,
+    59
+  ],
+  "independent_native_current_rechecks": [
+    49,
+    50
+  ],
+  "inherited_same_png_bytes_pages": 72,
+  "independent_reports": [
+    "page-qa-native-r2.md",
+    "page-qa-native-r4.md",
+    "page-qa-native-final.md"
+  ],
+  "resolved_layout_finding": "LAY-01",
+  "rows": [
+    {
+      "page": 1,
+      "final_sha256": "a9a0ea333de9011bbcb93d59b92944ec21160dd22a3f7f6d8de0b8d37f281e32",
+      "origin": "Codex Parent r2 pages 1–39",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 1 inherited at identical PNG bytes"
+    },
+    {
+      "page": 2,
+      "final_sha256": "7a68fd18d3a01972dfaa4c469aba1c188033d28b26e93f5c53b6676651bbfb7f",
+      "origin": "Codex Parent r2 pages 1–39",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 2 inherited at identical PNG bytes"
+    },
+    {
+      "page": 3,
+      "final_sha256": "9a758c25a3a86c3bba2d102d7064d57cd1fa35c462abc4c57e08bc263056f8a7",
+      "origin": "Codex Parent r2 pages 1–39",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 3 inherited at identical PNG bytes"
+    },
+    {
+      "page": 4,
+      "final_sha256": "885244f63ecd2ac9a4a44e9520b962dd74b3cba6c6bb1bfe32896f214d99aed0",
+      "origin": "Codex Parent r2 pages 1–39",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 4 inherited at identical PNG bytes"
+    },
+    {
+      "page": 5,
+      "final_sha256": "fddd083b2cf75ceb922bef57b581dfd59710446f6bdb403690dfff75d3369dba",
+      "origin": "Codex Parent r2 pages 1–39",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 5 inherited at identical PNG bytes"
+    },
+    {
+      "page": 6,
+      "final_sha256": "8dbd1b58ab11fedcedbfba05736ef8a5b249dde487e1e4ff7e54675a46df6313",
+      "origin": "Codex Parent r2 pages 1–39",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 6 inherited at identical PNG bytes"
+    },
+    {
+      "page": 7,
+      "final_sha256": "c173e6e99837afe9bc3918521e49dab97af7d261db0dad6492f4b33c07d7cd07",
+      "origin": "Codex Parent r2 pages 1–39",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 7 inherited at identical PNG bytes"
+    },
+    {
+      "page": 8,
+      "final_sha256": "308a254c8b66923a739c34b2dc2e8a52a974e897a52d37d91c1755cdd8ae31f0",
+      "origin": "Codex Parent r2 pages 1–39",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 8 inherited at identical PNG bytes"
+    },
+    {
+      "page": 9,
+      "final_sha256": "9b875bcf72d70a72c306cecc3caf012b3270f4a4cd09e8510741956cd78a9f4b",
+      "origin": "Codex Parent r2 pages 1–39",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 9 inherited at identical PNG bytes"
+    },
+    {
+      "page": 10,
+      "final_sha256": "18abfeb37c66bee4e0e93a7d6a8018f5d6381bc7b1106d3dcaa8cc27d5f4e646",
+      "origin": "Codex Parent r2 pages 1–39",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 10 inherited at identical PNG bytes"
+    },
+    {
+      "page": 11,
+      "final_sha256": "f8a7a68a55de83db98cebbac11e02b6120cd73291ccff0a946c9460b1871ffb7",
+      "origin": "Codex Parent final actual view",
+      "r2_identical_bytes_inherited": false,
+      "observation": "实际复看：图3-1完整落在版心内，两支反馈箭头分别进入目标与表示；标签无相交，图题/来源同页，3.1.4标题连接正文。"
+    },
+    {
+      "page": 12,
+      "final_sha256": "239f4b7fb036e46f87a8db02b9fb72365c4546f4bfdd3a327489f8d00fea8e4a",
+      "origin": "Codex Parent r2 pages 1–39",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 12 inherited at identical PNG bytes"
+    },
+    {
+      "page": 13,
+      "final_sha256": "f7fecfd774b0df5892ddce4b34db7698d600a05c7245c313d3c91fc726017bd7",
+      "origin": "Codex Parent r2 pages 1–39",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 13 inherited at identical PNG bytes"
+    },
+    {
+      "page": 14,
+      "final_sha256": "b4e92986dd282f34758cf0983e6cc74273c61728e41111b2e6bbbc24d3a3f27f",
+      "origin": "Codex Parent final actual view",
+      "r2_identical_bytes_inherited": false,
+      "observation": "实际复看：图3-2居中位于版心，授权/发送/执行/回传/确认顺序和未知支路清楚；图题/来源同页，后续标题有正文。"
+    },
+    {
+      "page": 15,
+      "final_sha256": "4cf2ce716a3d4d726e06d5d3b1f35a1e890b7ed5d80fc00fac7ef7a8c82c1f4b",
+      "origin": "Codex Parent r2 pages 1–39",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 15 inherited at identical PNG bytes"
+    },
+    {
+      "page": 16,
+      "final_sha256": "20f4902501bfb51bea2429a45b4bc075b68a32ca936189ea8e251649333ccb0e",
+      "origin": "Codex Parent r2 pages 1–39",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 16 inherited at identical PNG bytes"
+    },
+    {
+      "page": 17,
+      "final_sha256": "e6318e51da6d3c9c11d6d855cdc9d8eeec00979c422797209de94b284cceab4c",
+      "origin": "Codex Parent r2 pages 1–39",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 17 inherited at identical PNG bytes"
+    },
+    {
+      "page": 18,
+      "final_sha256": "91e69981c289f738194968f510db9221773d4559d05b3745e1f762c5f03dfbdd",
+      "origin": "Codex Parent r2 pages 1–39",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 18 inherited at identical PNG bytes"
+    },
+    {
+      "page": 19,
+      "final_sha256": "42a8aaa148e292679253a4e1624104a84de3bf8815b8b2a0d2b4fa6aceecf4df",
+      "origin": "Codex Parent r2 pages 1–39",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 19 inherited at identical PNG bytes"
+    },
+    {
+      "page": 20,
+      "final_sha256": "5b16ea1212c67afe8de20a5a6a2c765aeabe4ebfcb64993e8501f10482a39c6c",
+      "origin": "Codex Parent r2 pages 1–39",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 20 inherited at identical PNG bytes"
+    },
+    {
+      "page": 21,
+      "final_sha256": "866bde7f582bd9b5d16f28d7ecb71d082cf9a0999bf23801c3506a328ebee38d",
+      "origin": "Codex Parent r2 pages 1–39",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 21 inherited at identical PNG bytes"
+    },
+    {
+      "page": 22,
+      "final_sha256": "69cf2028a78066b56253dc2734072d70464c54cde7c9fdebf0a23e874d89db2a",
+      "origin": "Codex Parent r2 pages 1–39",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 22 inherited at identical PNG bytes"
+    },
+    {
+      "page": 23,
+      "final_sha256": "c5d14cb9f91e8656d1d21e8d4e65620d08b3b09942fa24c0ebee2b14860864c3",
+      "origin": "Codex Parent r2 pages 1–39",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 23 inherited at identical PNG bytes"
+    },
+    {
+      "page": 24,
+      "final_sha256": "2210ea2a8ed3fe868a7bbba5dc54d9623efcdfc986b4466a9405cde13e363013",
+      "origin": "Codex Parent r2 pages 1–39",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 24 inherited at identical PNG bytes"
+    },
+    {
+      "page": 25,
+      "final_sha256": "a087acb78cf62a93079742e447d82e1bd0784a64532ac2ea5797f5ea20cd1720",
+      "origin": "Codex Parent r2 pages 1–39",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 25 inherited at identical PNG bytes"
+    },
+    {
+      "page": 26,
+      "final_sha256": "4c6aca0aa4046e08ee80bcf5b70949fbc6369a4cf478368cf5a7c7ae9ca34d2e",
+      "origin": "Codex Parent r2 pages 1–39",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 26 inherited at identical PNG bytes"
+    },
+    {
+      "page": 27,
+      "final_sha256": "1eccce3f9f405e8cbf62403d58d9437fc45403c5f12d761c2ae511a7a728df7a",
+      "origin": "Codex Parent r2 pages 1–39",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 27 inherited at identical PNG bytes"
+    },
+    {
+      "page": 28,
+      "final_sha256": "c20914aa33f43f476a660a98513ae9479ed260ce79162f52b5757a731ae0ad18",
+      "origin": "Codex Parent r2 pages 1–39",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 28 inherited at identical PNG bytes"
+    },
+    {
+      "page": 29,
+      "final_sha256": "9b5a55a1f23560d3212e4ef446d401940918dcf1ecfc501eb2b262af372c1f53",
+      "origin": "Codex Parent r2 pages 1–39",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 29 inherited at identical PNG bytes"
+    },
+    {
+      "page": 30,
+      "final_sha256": "53c08e8101d06e5740f3232bcf54a4af638835573cd4d2d8da02545f5c22300e",
+      "origin": "Codex Parent r2 pages 1–39",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 30 inherited at identical PNG bytes"
+    },
+    {
+      "page": 31,
+      "final_sha256": "ab17147c443792c7721e9b6d16c46f6ec135e0f89af4e6afc76d3e21afb23060",
+      "origin": "Codex Parent r2 pages 1–39",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 31 inherited at identical PNG bytes"
+    },
+    {
+      "page": 32,
+      "final_sha256": "8b625630dcac9e6a0f1faf92a5ad62d2c02c8b000e7aed6103862e5401592497",
+      "origin": "Codex Parent final actual view",
+      "r2_identical_bytes_inherited": false,
+      "observation": "实际复看：图3-3两矩阵轴与0–100%共同尺度清晰，各分母及比例正确；图题/来源同页，图位于版心内。"
+    },
+    {
+      "page": 33,
+      "final_sha256": "600f65b9ff05ead62d6687db56f2828a059c6dae004261d3db1f7f079af91e2c",
+      "origin": "Codex Parent r2 pages 1–39",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 33 inherited at identical PNG bytes"
+    },
+    {
+      "page": 34,
+      "final_sha256": "ac7d22d310ad4abdcada6c12af12556b6c54182e9d4718afe138b990c28b6223",
+      "origin": "Codex Parent r2 pages 1–39",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 34 inherited at identical PNG bytes"
+    },
+    {
+      "page": 35,
+      "final_sha256": "0c92a151a23938e4f2ea6b9eda343fce0a9ea11e63f2a22a64651e740e7cccac",
+      "origin": "Codex Parent r2 pages 1–39",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 35 inherited at identical PNG bytes"
+    },
+    {
+      "page": 36,
+      "final_sha256": "90b9638e527febd25a965188b91fd860071f08dc1ddf018ee2b0652b79687e37",
+      "origin": "Codex Parent r2 pages 1–39",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 36 inherited at identical PNG bytes"
+    },
+    {
+      "page": 37,
+      "final_sha256": "4beebf3005bca91b8ed0c60c980ee8bad0917b7a290990faa919285defc12717",
+      "origin": "Codex Parent r2 pages 1–39",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 37 inherited at identical PNG bytes"
+    },
+    {
+      "page": 38,
+      "final_sha256": "89f43c14f867785cea3b8d4a503858de4746062c24a2c1e5bbf33cc9520b589c",
+      "origin": "Codex Parent r2 pages 1–39",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 38 inherited at identical PNG bytes"
+    },
+    {
+      "page": 39,
+      "final_sha256": "1170ef63a13e7adfefccc0e70e90da33bab305963c60bd4849ac47ecaf641361",
+      "origin": "Codex Parent r2 pages 1–39",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 39 inherited at identical PNG bytes"
+    },
+    {
+      "page": 40,
+      "final_sha256": "fe97eb05bb3336ca1f0ac5b65e74daa8dc24970b3c24cbd811c5c658103dfde8",
+      "origin": "Native reviewer_high r2 pages 40–78",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 40 inherited at identical PNG bytes"
+    },
+    {
+      "page": 41,
+      "final_sha256": "778f980b0cf5ccb4cb308232e5a16aaee62ce20a2bd2fff5fabde4eabc392ebc",
+      "origin": "Native reviewer_high r2 pages 40–78",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 41 inherited at identical PNG bytes"
+    },
+    {
+      "page": 42,
+      "final_sha256": "cf3412a54032cd2e9ce9e653d33b2f6e54551f5be9398330d3de63179976ed88",
+      "origin": "Native reviewer_high r2 pages 40–78",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 42 inherited at identical PNG bytes"
+    },
+    {
+      "page": 43,
+      "final_sha256": "54bad4c818e6dc7358da341b3427a9f16fb5de3d13ef2d3efbda56a86c0ae54e",
+      "origin": "Native reviewer_high r2 pages 40–78",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 43 inherited at identical PNG bytes"
+    },
+    {
+      "page": 44,
+      "final_sha256": "f47e945bbfca44777459ca5e38021d01a42dbfc04ab56910041c99d24a8f21b0",
+      "origin": "Native reviewer_high r2 pages 40–78",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 44 inherited at identical PNG bytes"
+    },
+    {
+      "page": 45,
+      "final_sha256": "948ca09c45930fa16b393f97441c73c34d00a55e10224acb7f56ce5e9e7bc9b9",
+      "origin": "Native reviewer_high r2 pages 40–78",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 45 inherited at identical PNG bytes"
+    },
+    {
+      "page": 46,
+      "final_sha256": "8cf1249216207485593254f8a048c57c5cb4fe4af6c7f652cccbc7c23e44364b",
+      "origin": "Native reviewer_high r2 pages 40–78",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 46 inherited at identical PNG bytes"
+    },
+    {
+      "page": 47,
+      "final_sha256": "45e22916810881f9907b785b09022ed54b51b89aac0d01701a3ceac66797090c",
+      "origin": "Native reviewer_high r2 pages 40–78",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 47 inherited at identical PNG bytes"
+    },
+    {
+      "page": 48,
+      "final_sha256": "43b1b8694337207e16ec3d195f49a2965cd8e7cd33da261f9c8205e2c9977041",
+      "origin": "Native reviewer_high r2 pages 40–78",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 48 inherited at identical PNG bytes"
+    },
+    {
+      "page": 49,
+      "final_sha256": "0ffd8c6bd256846ad2b80dc8452af8c5ef857445df2c7e46eb00cb8729c7e5c3",
+      "origin": "Codex Parent final actual view",
+      "r2_identical_bytes_inherited": false,
+      "observation": "实际复看：读图说明完整，保留/修正/待调查/暂停与检查汇合/处置路径措辞清楚，无缺字或重叠。"
+    },
+    {
+      "page": 50,
+      "final_sha256": "a16f9753a3b111bb074f525c1db3ae5e22bab8c1191ef7488a7418287ac25dfc",
+      "origin": "Codex Parent final actual view",
+      "r2_identical_bytes_inherited": false,
+      "observation": "实际复看：图3-4位于版心，修正/待调查标签及人工判断边界可读；箭头、图题、来源与后续正文无重叠。"
+    },
+    {
+      "page": 51,
+      "final_sha256": "fa3ee00c4b5cedd901223fc34c02cbfd70c6d551fde895c47141d529b6fce1cd",
+      "origin": "Native reviewer_high r2 pages 40–78",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 51 inherited at identical PNG bytes"
+    },
+    {
+      "page": 52,
+      "final_sha256": "6b8db10d0addb55ebb1788c3ad483c4cd7a4c4dab0f3e28034404b9bb7ce0700",
+      "origin": "Native reviewer_high r2 pages 40–78",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 52 inherited at identical PNG bytes"
+    },
+    {
+      "page": 53,
+      "final_sha256": "ccbfc07b5ea61d74d60144a546204737cbd06a462b1ec61a226304fd63bc6f81",
+      "origin": "Native reviewer_high r2 pages 40–78",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 53 inherited at identical PNG bytes"
+    },
+    {
+      "page": 54,
+      "final_sha256": "8473e934622daead0fa971fc948d4479389d0f404217cab39645a8f4865d1345",
+      "origin": "Native reviewer_high r2 pages 40–78",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 54 inherited at identical PNG bytes"
+    },
+    {
+      "page": 55,
+      "final_sha256": "999d40ff93c66719a597d2be6334d0d324b6f04c71c73d4582514da615cf2bb2",
+      "origin": "Native reviewer_high r2 pages 40–78",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 55 inherited at identical PNG bytes"
+    },
+    {
+      "page": 56,
+      "final_sha256": "8f83fcdeff1ad4e9f0c50c5b69906f920ef152bcae020fe9f19b1c8197ee5cb9",
+      "origin": "Native reviewer_high r2 pages 40–78",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 56 inherited at identical PNG bytes"
+    },
+    {
+      "page": 57,
+      "final_sha256": "f0175208b3bacae8c88a1efaf628f47b6984308d6e3a8d0cee5ce879e64f3957",
+      "origin": "Native reviewer_high r2 pages 40–78",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 57 inherited at identical PNG bytes"
+    },
+    {
+      "page": 58,
+      "final_sha256": "b323e48037db78890a0f45af54e55b72928087a6138f2ce84604b6765df03402",
+      "origin": "Native reviewer_high r2 pages 40–78",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 58 inherited at identical PNG bytes"
+    },
+    {
+      "page": 59,
+      "final_sha256": "3654a0d42ae1b1d8186330911d34fe7993b2b8180388148711201180ff5cff0e",
+      "origin": "Codex Parent final actual view",
+      "r2_identical_bytes_inherited": false,
+      "observation": "实际复看：图3-5位于版心，四室0–8h共同轴、斜纹教学及0.5h交叉纹清晰；5h候选和来源、反思正文完整。"
+    },
+    {
+      "page": 60,
+      "final_sha256": "51e0c01c88c4b0fd27ad1b0b9890ff62cba8a67529af011428e6801a021ae86f",
+      "origin": "Native reviewer_high r2 pages 40–78",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 60 inherited at identical PNG bytes"
+    },
+    {
+      "page": 61,
+      "final_sha256": "8ee7e683ca6abe822db1da0c14320779b788ee33cb26c84d2b18906a7a02ce18",
+      "origin": "Native reviewer_high r2 pages 40–78",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 61 inherited at identical PNG bytes"
+    },
+    {
+      "page": 62,
+      "final_sha256": "a323ad4570b33bcc61d76965e723d954e1c185dff809a005e6fb76d9488abdf8",
+      "origin": "Native reviewer_high r2 pages 40–78",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 62 inherited at identical PNG bytes"
+    },
+    {
+      "page": 63,
+      "final_sha256": "f408d67a73caa853e43e49e863ad9bb94cdb8c788f9359787175b8ccc8460d6b",
+      "origin": "Native reviewer_high r2 pages 40–78",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 63 inherited at identical PNG bytes"
+    },
+    {
+      "page": 64,
+      "final_sha256": "6ab5fafbda4dc26cd50a254e78cb9906779653671bde4f0f36e75e7f5bd70c1b",
+      "origin": "Native reviewer_high r2 pages 40–78",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 64 inherited at identical PNG bytes"
+    },
+    {
+      "page": 65,
+      "final_sha256": "723d0b55aff40f0a11ca14e62bc96f7d9bc980f9c424ca5d8b686dd9a717c755",
+      "origin": "Native reviewer_high r2 pages 40–78",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 65 inherited at identical PNG bytes"
+    },
+    {
+      "page": 66,
+      "final_sha256": "fb1574a006c91ad1dcdda23a308856a40d7d7bf14cb171d5e6b28315f318689f",
+      "origin": "Native reviewer_high r2 pages 40–78",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 66 inherited at identical PNG bytes"
+    },
+    {
+      "page": 67,
+      "final_sha256": "0f4dfa6fb7a74082564b8ba37b2342c29fdd63464c9e0eb591e8dc8fb877c3ee",
+      "origin": "Native reviewer_high r2 pages 40–78",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 67 inherited at identical PNG bytes"
+    },
+    {
+      "page": 68,
+      "final_sha256": "8dade0cb00a1a1afaffb4865f9a3f96918ca8f877c4bccad645996c86280e65a",
+      "origin": "Native reviewer_high r2 pages 40–78",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 68 inherited at identical PNG bytes"
+    },
+    {
+      "page": 69,
+      "final_sha256": "008ca7223f375ae0dabc302906ea364508f9bbb0358a661d18f5e8aeadbe4f70",
+      "origin": "Native reviewer_high r2 pages 40–78",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 69 inherited at identical PNG bytes"
+    },
+    {
+      "page": 70,
+      "final_sha256": "87755dda974f3e3183813e458f59c24a0f78b2cb0caa5893ddcca518c9e8f0b1",
+      "origin": "Native reviewer_high r2 pages 40–78",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 70 inherited at identical PNG bytes"
+    },
+    {
+      "page": 71,
+      "final_sha256": "52114c2c7a21e5d1bc19e77ad037d391d219c94d6f719be90cdd5e73291b0fed",
+      "origin": "Native reviewer_high r2 pages 40–78",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 71 inherited at identical PNG bytes"
+    },
+    {
+      "page": 72,
+      "final_sha256": "b7c25644ad434cf91ffc8e19e0cbb3969088ae5c97af86d7b1869198e5fd4113",
+      "origin": "Native reviewer_high r2 pages 40–78",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 72 inherited at identical PNG bytes"
+    },
+    {
+      "page": 73,
+      "final_sha256": "625fe44d3ee0d03f9d9da9601e480d6981b2fbd6b729ed4f0836889da36d0c32",
+      "origin": "Native reviewer_high r2 pages 40–78",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 73 inherited at identical PNG bytes"
+    },
+    {
+      "page": 74,
+      "final_sha256": "655f760983693a00b81574f69bb457c72e043b48a1cdf3d74d4bf9cb1ef87b28",
+      "origin": "Native reviewer_high r2 pages 40–78",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 74 inherited at identical PNG bytes"
+    },
+    {
+      "page": 75,
+      "final_sha256": "236680bd78bb3dd00b7678c7dcc1fa1a50d7e41ed8302f580fb151cfeb592249",
+      "origin": "Native reviewer_high r2 pages 40–78",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 75 inherited at identical PNG bytes"
+    },
+    {
+      "page": 76,
+      "final_sha256": "13ea65edd39d21d5b7daef2eb7736c795891389bac516cc2079fcfa83e0824d8",
+      "origin": "Native reviewer_high r2 pages 40–78",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 76 inherited at identical PNG bytes"
+    },
+    {
+      "page": 77,
+      "final_sha256": "0946232969bfd32e54d5e6809c22624c1de5a8a632be5f20f6e452e746c57f71",
+      "origin": "Native reviewer_high r2 pages 40–78",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 77 inherited at identical PNG bytes"
+    },
+    {
+      "page": 78,
+      "final_sha256": "e68ee4fb5bff596bef3c63a0317b180a16e179f0af64fd2ee17ac5655923a351",
+      "origin": "Native reviewer_high r2 pages 40–78",
+      "r2_identical_bytes_inherited": true,
+      "observation": "Original actual r2 observation for page 78 inherited at identical PNG bytes"
+    }
+  ],
+  "acceptance": "Only visible layout for declared AI-reviewed draft; no Word native refresh, physical printing or teaching acceptance."
+}

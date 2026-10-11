@@ -1,0 +1,56 @@
+{
+  "seal": "2d52fd4281803b015719ade080c29ce7e3a6a0faf3dfb7f76d1c8286b67364c7",
+  "contract": "/home/reggie/.local/state/agent-subagent-router/contracts/edb83783-e5ea-4a0f-801e-3acfaf524be3/manifest.json",
+  "source_count": 12,
+  "project_access": "SEALED_ONLY",
+  "frozen_source_paths": [
+    "/home/reggie/AGENTS.md",
+    "/home/reggie/vscode_folder/jiaocai/AGENTS.md",
+    "/home/reggie/vscode_folder/jiaocai/assets/figures/ch03-layout/fig3-1.svg",
+    "/home/reggie/vscode_folder/jiaocai/assets/figures/ch03-layout/fig3-4.svg",
+    "/home/reggie/vscode_folder/jiaocai/materials/ch03-layout/figure-context.md",
+    "/home/reggie/vscode_folder/jiaocai/materials/ch03-layout/figure-data.json",
+    "/home/reggie/vscode_folder/jiaocai/materials/ch03-layout/figure-manifest.json",
+    "/home/reggie/vscode_folder/jiaocai/materials/ch03-layout/figure-new-text.md",
+    "/home/reggie/vscode_folder/jiaocai/materials/ch03-layout/figure-report-r1.json",
+    "/home/reggie/vscode_folder/jiaocai/materials/ch03-layout/figure-resolution-r1.md",
+    "/home/reggie/vscode_folder/jiaocai/plans/ch03-layout.plan.md",
+    "/home/reggie/vscode_folder/jiaocai/specs/ch03-layout.spec.md"
+  ],
+  "budgets": {
+    "wall_seconds": 3600,
+    "idle_seconds": 1800,
+    "request_limit": 64,
+    "output_bytes": 16777216,
+    "context_bytes": 8388608,
+    "generation_tokens": 32000
+  },
+  "route": {
+    "backend": "kimi",
+    "profile": "deep",
+    "identity": {
+      "name": "deep",
+      "client_model": "k3[1m]",
+      "wire_model": "k3",
+      "effort": "max",
+      "context_tokens": 1048576,
+      "backend": "kimi",
+      "runtime": "claude-code",
+      "endpoint": "https://api.kimi.ai/coding/",
+      "policy_version": 1,
+      "sha256": "2285307074cfd8c7d0c7006bb5c065df88119e2ae382a43e10ab3375b6933bfd"
+    }
+  },
+  "resource_policy": {
+    "name": "kimi-maximum-v1",
+    "requested_profile": "deep",
+    "requested_budgets": {
+      "wall_seconds": 3600,
+      "idle_seconds": 1800,
+      "request_limit": 64,
+      "output_bytes": 16777216,
+      "context_bytes": 8388608,
+      "generation_tokens": 32000
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "figures": 5,
+  "png_width_px": 2400,
+  "ppi_at_insert": 393,
+  "min_font_pt_at_insert": 10.74,
+  "outputs": [
+    {
+      "id": "图3-1",
+      "png": "8b66871a6060d444fe2bc8de5fa147aa7ab104587e172cb7b30ab61512dc8721",
+      "gray": "e8703b019a8497be9d54fde65354aee634e2b168f81d55c58c34af41b05ee402",
+      "svg": "f3c168fd7bed491c28c864c49a4e31d0ec32d5c56ca4dc4d0d2dd344ed68c053"
+    },
+    {
+      "id": "图3-2",
+      "png": "9e7fbad90cd86ea9da80e91e73b2119aaa5ad2504dfa6e59dadbe2a17458f034",
+      "gray": "6b584d4703df7a6ca77cb02750804f91675afb1b83d39901ddbe5d971f46532b",
+      "svg": "70e982cc9a612f3ea3e8a36a18f121bec1982ff4817cfbf7c9d80b7ce254dd7f"
+    },
+    {
+      "id": "图3-3",
+      "png": "9dbda9907e11be57bdef3c5636f44660d196019e6841e3647aea58aea72b482a",
+      "gray": "29be786a4197372034a627bc9d71541fd8eb7def88019f91ed1014080fdd3c6d",
+      "svg": "99b31e6e35ae45d0cd8dc0d9792bc0955f3cb17004d9a518c6440867a08ae9c2"
+    },
+    {
+      "id": "图3-4",
+      "png": "a25eacb19cf48ec7183ef8b2714624824ee0f8787f83716202a7972b9f0ad574",
+      "gray": "7564a62d7ea7c0e98d559b8b759da9aa7bc2014517e8f6d11235993fe921e525",
+      "svg": "e7053bba0df7248721222eca370141c8a4dc7df4135cb757e0b40cdc1f0c029f"
+    },
+    {
+      "id": "图3-5",
+      "png": "25912fa61848cffc313127957b7f199a2c01adde33f15900ac2021705849c1ae",
+      "gray": "2adbb4989327b93a465f89dcfa9e6bfb967e924a16e756b7bbe7401c629ae9f6",
+      "svg": "8e6a6bded5f380e86bec92b570df2f65fac2e7d3f6d485bb60cae0844e1feea1"
+    }
+  ]
+}

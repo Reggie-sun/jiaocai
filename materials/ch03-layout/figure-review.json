@@ -1,0 +1,76 @@
+{
+  "kind": "Parent adjudication with independent managed Kimi SVG semantic evidence; actual pixel evidence separately by Parent",
+  "rounds": 2,
+  "max_rounds": 3,
+  "r1_invocation": "37bd7c7f-2741-4d4b-b11f-7047cb2f14ff",
+  "r2_invocation": "3a953c92-8738-44fd-90a6-ef81bb29a475",
+  "r2_report_sha256": "8ef581b7b2782567c921cf856285bf906d440231ea51b407fbfd091533381082",
+  "resolved_findings": [
+    {
+      "id": "FIG3-4-DISP-LABEL",
+      "state": "closed",
+      "evidence": "Parent correction/pixel check plus R2 independent actual full-read confirmation"
+    },
+    {
+      "id": "FIG3-1-FEEDBACK-TARGET",
+      "state": "closed",
+      "evidence": "Parent correction/pixel check plus R2 independent actual full-read confirmation"
+    },
+    {
+      "id": "FIG3-4-GUIDANCE-RETURN",
+      "state": "closed",
+      "evidence": "Parent correction/pixel check plus R2 independent actual full-read confirmation"
+    }
+  ],
+  "new_unresolved_findings": [],
+  "unresolved_blocking": [],
+  "figures": [
+    {
+      "id": "图3-1",
+      "svg_sha256": "f3c168fd7bed491c28c864c49a4e31d0ec32d5c56ca4dc4d0d2dd344ed68c053",
+      "color_sha256": "8b66871a6060d444fe2bc8de5fa147aa7ab104587e172cb7b30ab61512dc8721",
+      "gray_sha256": "e8703b019a8497be9d54fde65354aee634e2b168f81d55c58c34af41b05ee402",
+      "parent_semantics_and_actual_pixels": "pass",
+      "independent_semantics": "R2 targeted reread confirms corrections",
+      "classroom_acceptance": "NOT_EVALUATED"
+    },
+    {
+      "id": "图3-2",
+      "svg_sha256": "70e982cc9a612f3ea3e8a36a18f121bec1982ff4817cfbf7c9d80b7ce254dd7f",
+      "color_sha256": "9e7fbad90cd86ea9da80e91e73b2119aaa5ad2504dfa6e59dadbe2a17458f034",
+      "gray_sha256": "6b584d4703df7a6ca77cb02750804f91675afb1b83d39901ddbe5d971f46532b",
+      "parent_semantics_and_actual_pixels": "pass",
+      "independent_semantics": "R1 complete read; unchanged at R2",
+      "classroom_acceptance": "NOT_EVALUATED"
+    },
+    {
+      "id": "图3-3",
+      "svg_sha256": "99b31e6e35ae45d0cd8dc0d9792bc0955f3cb17004d9a518c6440867a08ae9c2",
+      "color_sha256": "9dbda9907e11be57bdef3c5636f44660d196019e6841e3647aea58aea72b482a",
+      "gray_sha256": "29be786a4197372034a627bc9d71541fd8eb7def88019f91ed1014080fdd3c6d",
+      "parent_semantics_and_actual_pixels": "pass",
+      "independent_semantics": "R1 complete read; unchanged at R2",
+      "classroom_acceptance": "NOT_EVALUATED"
+    },
+    {
+      "id": "图3-4",
+      "svg_sha256": "e7053bba0df7248721222eca370141c8a4dc7df4135cb757e0b40cdc1f0c029f",
+      "color_sha256": "a25eacb19cf48ec7183ef8b2714624824ee0f8787f83716202a7972b9f0ad574",
+      "gray_sha256": "7564a62d7ea7c0e98d559b8b759da9aa7bc2014517e8f6d11235993fe921e525",
+      "parent_semantics_and_actual_pixels": "pass",
+      "independent_semantics": "R2 targeted reread confirms corrections",
+      "classroom_acceptance": "NOT_EVALUATED"
+    },
+    {
+      "id": "图3-5",
+      "svg_sha256": "8e6a6bded5f380e86bec92b570df2f65fac2e7d3f6d485bb60cae0844e1feea1",
+      "color_sha256": "25912fa61848cffc313127957b7f199a2c01adde33f15900ac2021705849c1ae",
+      "gray_sha256": "2adbb4989327b93a465f89dcfa9e6bfb967e924a16e756b7bbe7401c629ae9f6",
+      "parent_semantics_and_actual_pixels": "pass",
+      "independent_semantics": "R1 complete read; unchanged at R2",
+      "classroom_acceptance": "NOT_EVALUATED"
+    }
+  ],
+  "baseline_text_unchanged": true,
+  "scope": "Five diagrams and new guide only. Original full-chapter reviews inherited exclusively at unchanged bytes; no new full-chapter read or human acceptance."
+}

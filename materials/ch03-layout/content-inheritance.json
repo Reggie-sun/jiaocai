@@ -1,0 +1,23 @@
+{
+  "baseline_sha256": "38d90d7a397ba98f0279055838bf4aace2cd76cddf684001609cee748e719709",
+  "inheritance": "Existing full professional/teaching reads plus actual r2 affected-context re-read apply only to unchanged prose. Figure status wording update and five new figure blocks receive current figure semantic/page checks; no claim of full chapter re-review.",
+  "inputs": {
+    "manuscripts/ch03/ch03.md": "38d90d7a397ba98f0279055838bf4aace2cd76cddf684001609cee748e719709",
+    "materials/ch03/professional-r1.md": "5900da1fca6136684e3de4b5c78b3c110de5a7f0ee2028d8e2b3e895369ec4c1",
+    "materials/ch03/professional-r2.md": "c92d97a384c1add2251d50baf2fda04197a173f2ef21345b8f32d49be2cf4bc7",
+    "materials/ch03/teaching-r1.md": "11541b6a98ac14d7968e552a2c244840b368b35e6a71620dbefab35da2711873",
+    "materials/ch03/teaching-r2.md": "4d091b23dfc9adf4ed9c7ccb68bfb7504b174f4e4339f94079c2e64886b8c685",
+    "materials/ch03/exercise-verification.json": "70553baf20b7bf56eb29dc56c7d46e3cc656442107ad33f2c96917d50537362f",
+    "materials/ch03/sources.json": "ccc6e95cdfd69abe70425c3999afb98f3ef0a7a941657021d78684e352e8d4a6",
+    "materials/ch03/source-claims.md": "15e24616ca15622b2e8da5ca8abc126d3f92602a998a0b69a41ed61cc29b2dd0",
+    "materials/ch03/source-adjudication.json": "268171da577caa1083bafdfb3155ae091836490a23706cf333d378129b80e874",
+    "materials/ch03/source-report-r1.json": "ce1af5d694276a84f1c02b656ca72b95d79c95ad56e7d2041ea36a80136e101d",
+    "materials/ch03/source-receipt-r1.json": "37f81fa19b70a1d2b090c483726dd70894bccee64d878ae656e8568a4ec5b87c"
+  },
+  "exercise_checks": {
+    "count": 38,
+    "mode": "inherit only at exact unchanged problem/answer/table source bytes; new figure-data arithmetic separately checked"
+  },
+  "actual_new_full_chapter_content_read": "not performed by a new content reviewer; original independent reports retained",
+  "classroom_validation": "not performed"
+}

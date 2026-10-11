@@ -1,0 +1,18 @@
+{
+  "invocation_id": "37bd7c7f-2741-4d4b-b11f-7047cb2f14ff",
+  "contract_seal": "f72bfa2476292cc2b68cac1eed23463256bd3894e9d3e4d6ea531446bfb0b08c",
+  "canonical_receipt_sha256": "81e544cf680723fdb17a4e8b94d3114847fa82d6d51e3c846c7118494c0c45ae",
+  "report_sha256": "8263fb703c0453bb58db43e656ffc74f8c4d36f71c9af7b756d785985292d391",
+  "canonical_process_exit": 0,
+  "classification": "PARSED",
+  "live_identity_verified_requests": 6,
+  "containment": "verified_docker",
+  "required_full_reads": 9,
+  "actual_full_reads": 11,
+  "all_required_reads_complete_and_current": true,
+  "accepted_refs_hash_match": true,
+  "historical_snapshot": "materials/ch03-layout/snapshots/figure-r1.zip",
+  "shell_session_poll_exit": 143,
+  "shell_exit_note": "Canonical supervisor finalized complete exit-0 process/report; no retry based on differing unified-session poll result.",
+  "parent_acceptance": "NOT_EVALUATED"
+}

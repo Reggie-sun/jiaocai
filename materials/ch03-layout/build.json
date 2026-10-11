@@ -1,0 +1,29 @@
+{
+  "template": "templates/textbook-style-v1.0.dotx",
+  "template_sha256": "eef8ce505c3d9afb3493e61af1f38ee26bca6ff9a0aa12f7ad3e2a8cacad6473",
+  "manuscript_sha256": "3b10a58d7bfdc6eef16a57e1ef35f2efa58a0a60555ab121372dc8980e552e61",
+  "docx_sha256": "f1e2bd9d4c4cb5f380260ebfc1f6ea268c2fb59ac816453c7c5b0b283479be8f",
+  "style": "textbook-style-v1.0",
+  "toc_cached_pages": {
+    "3.1 计算思维的演进与跨学科融合": 4,
+    "3.2 人工智能素养：四大核心维度": 23,
+    "3.3 生成式AI与高阶思维": 41,
+    "章末综合训练": 60,
+    "本章回顾": 62,
+    "关键术语": 63,
+    "参考解与讨论": 64,
+    "参考文献": 77
+  },
+  "toc_headings": [
+    "3.1 计算思维的演进与跨学科融合",
+    "3.2 人工智能素养：四大核心维度",
+    "3.3 生成式AI与高阶思维",
+    "章末综合训练",
+    "本章回顾",
+    "关键术语",
+    "参考解与讨论",
+    "参考文献"
+  ],
+  "method": "Reused template styles and geometry; task-local chapter counter/numbering starts at3, header cache and six answer bookmarks; native SEQ/REF/TOC/PAGEREF/PAGE preserved. No final DOCX LibreOffice roundtrip.",
+  "word_native_execution": "NOT_EVALUATED"
+}

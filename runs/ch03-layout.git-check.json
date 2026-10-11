@@ -1,0 +1,42 @@
+{
+  "source_diff_check": "PASS",
+  "raw_evidence_only_whitespace_diagnostics": [
+    "materials/ch03-layout/build_docx.py.reuse.diff:40: trailing whitespace.",
+    "+ ",
+    "materials/ch03-layout/build_docx.py.reuse.diff:41: trailing whitespace.",
+    "+ ",
+    "materials/ch03-layout/build_docx.py.reuse.diff:57: trailing whitespace.",
+    "+ ",
+    "materials/ch03-layout/build_docx.py.reuse.diff:58: trailing whitespace.",
+    "+ ",
+    "materials/ch03-layout/build_docx.py.reuse.diff:87: trailing whitespace.",
+    "+ ",
+    "materials/ch03-layout/build_docx.py.reuse.diff:88: trailing whitespace.",
+    "+ ",
+    "materials/ch03-layout/figure-context.md:129: new blank line at EOF.",
+    "materials/ch03-layout/figure-new-text.md:48: new blank line at EOF.",
+    "materials/ch03-layout/verify_layout.py.reuse.diff:4: trailing whitespace.",
+    "+ ",
+    "materials/ch03-layout/verify_layout.py.reuse.diff:11: trailing whitespace.",
+    "+ ",
+    "materials/ch03-layout/verify_layout.py.reuse.diff:12: trailing whitespace.",
+    "+ "
+  ],
+  "exceptions": {
+    "reuse_diffs": "Blank context lines in valid unified diffs intentionally retain their single-space prefix.",
+    "sealed_context_and_new_text": "Terminal blank lines preserved at exact Kimi-read hashes; substantive text and assembled manuscript already verified."
+  },
+  "checked_command": [
+    "git",
+    "diff",
+    "--cached",
+    "--check",
+    "--",
+    ".",
+    ":(exclude)materials/ch03-layout/build_docx.py.reuse.diff",
+    ":(exclude)materials/ch03-layout/verify_layout.py.reuse.diff",
+    ":(exclude)materials/ch03-layout/figure-context.md",
+    ":(exclude)materials/ch03-layout/figure-new-text.md"
+  ],
+  "no_code_manuscript_or_product_whitespace_diagnostics": true
+}

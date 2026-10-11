@@ -1,0 +1,28 @@
+{
+  "observer": "Codex Parent",
+  "candidate": "r5-final",
+  "pdf_sha256": "9383a5ad709ddf8cff6bd29501a58bb5862700980f0472f265dc049b4a039366",
+  "tool": "view_image(detail=original)",
+  "actual_views": {
+    "11": "实际复看：图3-1完整落在版心内，两支反馈箭头分别进入目标与表示；标签无相交，图题/来源同页，3.1.4标题连接正文。",
+    "14": "实际复看：图3-2居中位于版心，授权/发送/执行/回传/确认顺序和未知支路清楚；图题/来源同页，后续标题有正文。",
+    "32": "实际复看：图3-3两矩阵轴与0–100%共同尺度清晰，各分母及比例正确；图题/来源同页，图位于版心内。",
+    "49": "实际复看：读图说明完整，保留/修正/待调查/暂停与检查汇合/处置路径措辞清楚，无缺字或重叠。",
+    "50": "实际复看：图3-4位于版心，修正/待调查标签及人工判断边界可读；箭头、图题、来源与后续正文无重叠。",
+    "59": "实际复看：图3-5位于版心，四室0–8h共同轴、斜纹教学及0.5h交叉纹清晰；5h候选和来源、反思正文完整。"
+  },
+  "resolved_findings": [
+    {
+      "id": "LAY-01",
+      "state": "resolved",
+      "fix": "Picture paragraph firstLineChars=0 and wp:inline distances=0; original template unchanged.",
+      "verification": "Actual five final figure pages viewed; executable image bounds pass; toc/page count stable."
+    }
+  ],
+  "inheritance": "Only equal full PNG SHA256 may inherit r2 observations. Figure semantic changes additionally received actual color/grayscale viewing.",
+  "limitations": [
+    "No Microsoft Word native field refresh",
+    "No physical printing",
+    "No teacher/student/classroom acceptance"
+  ]
+}

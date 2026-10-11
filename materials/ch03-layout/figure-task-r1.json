@@ -1,0 +1,66 @@
+{
+  "parent_session_id": "codex-jiaocai-ch03-layout-20261012",
+  "task_id": "ch03-figure-semantic-r1",
+  "cwd": "/home/reggie/vscode_folder/jiaocai",
+  "explicit_root": "/home/reggie/vscode_folder/jiaocai",
+  "role": "reviewer",
+  "goal": "Read-only independent semantic review of FIVE teaching diagrams and new reading guidance, after real Parent pixel review. Read ALL nine required files completely in efficient batches; compare SVG labels, arrow coordinates, matrix axes and bar values with original subsection context/data. Check unknown versus confirmed execution, nonexclusive disciplinary roles, correct denominators from TABLE3-6 (NOT E03), human decision versus automated verdict, E05 duration/extra0.5/candidate5 consistency without supplying full answer. SVG text review ONLY: do not claim PNG perception or whole-chapter read. Max five stable-ID substantive findings; each severity blocking_candidate/non_blocking, exact path/concern/violated contract/evidence and minimal correction; empty allowed. No acceptance verdict, scores, gratuitous stylistic rewrite or independent spec/plan approval. Boundaries no Bash/network/writes/credentials/commit/push/nested agents. Canonical report only findings/proposed_changes/evidence_refs/uncertainties/questions; give actual file/hash/read ranges. Parent owns adjudication; one initial attempt plus at most two justified re-reviews. Stop and report missing evidence, never invent it.",
+  "read_paths": [
+    "materials/ch03-layout/figure-data.json",
+    "materials/ch03-layout/figure-manifest.json",
+    "materials/ch03-layout/figure-context.md",
+    "materials/ch03-layout/figure-new-text.md",
+    "assets/figures/ch03-layout/fig3-1.svg",
+    "assets/figures/ch03-layout/fig3-2.svg",
+    "assets/figures/ch03-layout/fig3-3.svg",
+    "assets/figures/ch03-layout/fig3-4.svg",
+    "assets/figures/ch03-layout/fig3-5.svg"
+  ],
+  "write_paths": [],
+  "permissions": [
+    "read"
+  ],
+  "selected_refs": [
+    {
+      "path": "specs/ch03-layout.spec.md",
+      "sha256": "97baeac32f8428a6c37975652205ae9ee242642a5ac9432d7fc4555f2ab77ad3",
+      "accepted": true
+    },
+    {
+      "path": "plans/ch03-layout.plan.md",
+      "sha256": "53ad47fcb201c2ed9ff5e13cb205ab35fd61c48927eda2d031091710b131331b",
+      "accepted": true
+    }
+  ],
+  "active_documents": "accepted_refs",
+  "harness_refs": [],
+  "constitution_refs": [
+    "AGENTS.md"
+  ],
+  "skills": [],
+  "skill_roots": [],
+  "expected_evidence": [
+    "materials/ch03-layout/figure-data.json",
+    "materials/ch03-layout/figure-manifest.json",
+    "materials/ch03-layout/figure-context.md",
+    "materials/ch03-layout/figure-new-text.md",
+    "assets/figures/ch03-layout/fig3-1.svg",
+    "assets/figures/ch03-layout/fig3-2.svg",
+    "assets/figures/ch03-layout/fig3-3.svg",
+    "assets/figures/ch03-layout/fig3-4.svg",
+    "assets/figures/ch03-layout/fig3-5.svg"
+  ],
+  "backend": "kimi",
+  "profile": "deep",
+  "budgets": {
+    "wall_seconds": 3600,
+    "idle_seconds": 1800,
+    "request_limit": 64,
+    "generation_tokens": 32000,
+    "output_bytes": 16777216,
+    "context_bytes": 8388608
+  },
+  "instruction_precedence": [
+    "AGENTS.md"
+  ]
+}

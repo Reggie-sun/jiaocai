@@ -1,0 +1,174 @@
+--- materials/ch01-history-layout/build_docx.py
++++ materials/ch03-layout/build_docx.py
+@@ -20,9 +20,9 @@
+ sys.dont_write_bytecode = True
+ ROOT = Path(__file__).resolve().parents[2]
+ HERE = Path(__file__).resolve().parent
+-SOURCE = ROOT / "manuscripts/ch01-history-layout/ch01.md"
++SOURCE = ROOT / "manuscripts/ch03-layout/ch03.md"
+ TEMPLATE = ROOT / "templates/textbook-style-v1.0.dotx"
+-OUTPUT = ROOT / "output/ch01-history-layout/第一章-计算思维-历史回顾版.docx"
++OUTPUT = ROOT / "output/ch03-layout/第三章-计算思维与人工智能素养.docx"
+ spec = importlib.util.spec_from_file_location("style_primitives", ROOT / "materials/style-pilot/build_sample.py")
+ style = importlib.util.module_from_spec(spec)
+ spec.loader.exec_module(style)
+@@ -32,10 +32,10 @@
+ def caption(doc, kind, number, text):
+     p = doc.add_paragraph(style="FigureCaption" if kind == "图" else "TableCaption")
+     identity = str((100 if kind == "图" else 200) + number)
+-    name = ("fig" if kind == "图" else "tbl") + "1_" + str(number)
++    name = ("fig" if kind == "图" else "tbl") + "3_" + str(number)
+     p.add_run(kind)
+     p._p.append(xml("w:bookmarkStart", id=identity, name=name))
+-    field(p, "SEQ Chapter \\c \\* ARABIC", "1")
++    field(p, "SEQ Chapter \\c \\* ARABIC", "3")
+     p.add_run("-")
+     field(p, "SEQ " + ("Figure" if kind == "图" else "Table") + " \\s 1 \\* ARABIC", str(number))
+     p._p.append(xml("w:bookmarkEnd", id=identity))
+@@ -47,8 +47,8 @@
+     p = doc.add_paragraph(text, style="ChapterTitle")
+     number = doc.part.numbering_part.element.xpath("./w:num[@w:numId='80']")[0]
+     override = xml("w:lvlOverride", ilvl="0")
+-    override.append(xml("w:startOverride", val="1")); number.append(override)
+-    style.hidden_counters(doc, [("Chapter \\r 1 \\* ARABIC", "1")] + [
++    override.append(xml("w:startOverride", val="3")); number.append(override)
++    style.hidden_counters(doc, [("Chapter \\r 3 \\* ARABIC", "3")] + [
+         (name + " \\r 0 \\h", "") for name in ("Section", "Subsection", "Figure", "Table")])
+     for part in (doc.sections[0].header.part,):
+         for node in part.element.xpath(".//w:t"):
+@@ -57,7 +57,7 @@
+ 
+ 
+ def hyperlink(paragraph, value):
+-    url = value.rstrip("。；，.")
++    url = value.rstrip("。；，.;")
+     link = OxmlElement("w:hyperlink")
+     link.set(qn("r:id"), paragraph.part.relate_to(url, RT.HYPERLINK, is_external=True))
+     run = OxmlElement("w:r")
+@@ -65,14 +65,14 @@
+     props.append(xml("w:color", val="000000"))
+     run.append(props)
+     text = OxmlElement("w:t")
+-    text.text = re.sub(r"([/\-_?&=])", lambda m: m[0] + "\u200b", url)
++    text.text = re.sub(r"(%[0-9A-Fa-f]{2}|[/\-_?&=])", lambda m: m[0] + "\u200b", url)
+     run.append(text); link.append(run); paragraph._p.append(link)
+     if url != value:
+         paragraph.add_run(value[len(url):])
+ 
+ 
+ def inline(paragraph, value, refs=True):
+-    pattern = r"(\*\*.*?\*\*|`[^`]+`|https?://[^\s。；，]+|[图表]1-\d+|E0[1-9]参考解与讨论|\[\d+\])"
++    pattern = r"(\*\*.*?\*\*|`[^`]+`|https?://[^\s。；，]+|[图表]3-\d+|E0[1-6]\s*参考解与讨论|\[\d+\])"
+     for token in re.split(pattern, value):
+         if not token:
+             continue
+@@ -82,11 +82,11 @@
+             paragraph.add_run(token[1:-1])
+         elif token.startswith("http"):
+             hyperlink(paragraph, token)
+-        elif refs and re.fullmatch(r"[图表]1-\d+", token):
++        elif refs and re.fullmatch(r"[图表]3-\d+", token):
+             name = ("fig" if token[0] == "图" else "tbl") + token[1:].replace("-", "_")
+             paragraph.add_run(token[0] + "\u00a0")
+             field(paragraph, "REF " + name + " \\h", token[1:])
+-        elif refs and re.fullmatch(r"E0[1-9]参考解与讨论", token):
++        elif refs and re.fullmatch(r"E0[1-6]\s*参考解与讨论", token):
+             field(paragraph, "REF answer_" + token[:3] + " \\h", token)
+         elif refs and re.fullmatch(r"\[\d+\]", token):
+             paragraph.add_run("\u2060")
+@@ -159,13 +159,13 @@
+                     run.bold = True
+                 cb = xml("w:tcBorders"); cb.append(xml("w:bottom", val="single", sz="4", color="000000"))
+                 cell._tc.get_or_add_tcPr().append(cb)
+-            elif re.fullmatch(r"[\d.]+", rows[ri][ci]):
++            elif re.fullmatch(r"[\d.／/%+-]+", rows[ri][ci]):
+                 p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
+     return tab
+ 
+ 
+ def build(pages):
+-    with tempfile.TemporaryDirectory(prefix="ch01-history-template-") as temporary:
++    with tempfile.TemporaryDirectory(prefix="ch03-template-") as temporary:
+         base = Path(temporary) / "base.docx"
+         with ZipFile(TEMPLATE) as source, ZipFile(base, "w", ZIP_DEFLATED) as target:
+             for item in source.infolist():
+@@ -178,7 +178,7 @@
+     for child in list(body):
+         if child.tag != qn("w:sectPr"):
+             body.remove(child)
+-    doc.core_properties.title = "第一章 计算思维：数字时代的核心素养"
++    doc.core_properties.title = "第三章 计算思维与人工智能素养"
+     doc.core_properties.subject = "textbook-style-v1.0"
+     doc.core_properties.author = ""
+     doc.core_properties.last_modified_by = ""
+@@ -200,42 +200,44 @@
+             chapter_title(doc, line.split(" ", 2)[2]); continue
+         if line.startswith("##"):
+             text = re.sub(r"^#+ ", "", line)
+-            if text.startswith("1.1 "):
++            if text.startswith("3.1 "):
+                 toc(doc, headings, pages)
+-            numbered = re.fullmatch(r"(1\.\d+(?:\.\d+)?) (.*)", text)
++            numbered = re.fullmatch(r"(3\.\d+(?:\.\d+)?) (.*)", text)
+             if numbered:
+                 p = style.numbered_heading(doc, numbered[1], numbered[2])
+-                if numbered[1] == "1.1":
++                if numbered[1] == "3.1":
+                     p.paragraph_format.page_break_before = True
+                     p._p.insert(1, xml("w:bookmarkStart", id="900", name="chapter_body"))
+-            elif line.startswith("###") and not re.match(r"E0[1-9]", text):
++            elif line.startswith("###") and not re.match(r"E0[1-6]", text):
+                 p = doc.add_paragraph(style="Body"); p.paragraph_format.first_line_indent = Pt(0)
+                 p.add_run(text).bold = True
+             else:
+                 p = doc.add_paragraph(text, style="SubsectionTitle" if line.startswith("###") else "SectionTitle")
+-            if line.startswith("### ") and re.match(r"E0[1-9] ", text):
++            if line.startswith("### ") and re.match(r"E0[1-6]", text) and "参考解与讨论" in text:
+                 bookmark(p, "answer_" + text[:3], 700 + int(text[2]))
+             if line.startswith("## ") and text not in ("学习目标", "学习路线"):
+                 bookmark(p, "section_" + str(heading_index), 500 + heading_index); heading_index += 1
+             continue
+         if line.startswith("!["):
+             match = re.fullmatch(r"!\[([^]]+)\]\(([^)]+)\)", line)
+-            current_figure = re.search(r"fig1-(\d+)", match[2])[1]
++            current_figure = re.search(r"fig3-(\d+)", match[2])[1]
+             p = doc.add_paragraph(style="Body")
+             p.paragraph_format.first_line_indent = Pt(0); p.paragraph_format.keep_with_next = True
++            p._p.get_or_add_pPr().find(qn("w:ind")).set(qn("w:firstLineChars"), "0")
+             p.paragraph_format.keep_together = True; p.paragraph_format.line_spacing = 1
+             p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+             p.add_run().add_picture(str(ROOT / figures[current_figure]["file"]), width=Mm(155))
++            for edge in ("T", "B", "L", "R"):
++                p._p.xpath(".//wp:inline")[0].set("dist" + edge, "0")
+             p._p.xpath(".//wp:docPr")[0].set("descr", figures[current_figure]["description"])
+             continue
+-        match = re.fullmatch(r"(?:\*\*)?([图表])1-(\d+) (.*?)(?:\*\*)?", line)
++        match = re.fullmatch(r"(?:\*\*)?([图表])3-(\d+) (.*?)(?:\*\*)?", line)
+         if match:
+             kind, number, title = match[1], int(match[2]), match[3]
+             p = caption(doc, kind, number, title)
+             p.paragraph_format.keep_with_next = True
+             if kind == "表":
+                 rows = []
+-                # Table 1-2 retains a one-line explanatory note before its grid.
+                 while i < len(lines) and not lines[i].startswith("|"):
+                     note = lines[i].strip(); i += 1
+                     if note:
+@@ -267,7 +269,7 @@
+             p.paragraph_format.left_indent = Pt(12); line = line[2:]
+         if line.startswith("**") and line.endswith("**"):
+             p.paragraph_format.first_line_indent = Pt(0); p.paragraph_format.keep_with_next = True
+-            answer = re.fullmatch(r"\*\*(E0[1-9])参考解与讨论\*\*", line)
++            answer = re.fullmatch(r"\*\*(E0[1-6])参考解与讨论\*\*", line)
+             if answer:
+                 inline(p, line, refs=False)
+                 bookmark(p, "answer_" + answer[1], 700 + int(answer[1][-1]))
+@@ -279,7 +281,7 @@
+     evidence = {"template": str(TEMPLATE.relative_to(ROOT)), "template_sha256": hashlib.sha256(TEMPLATE.read_bytes()).hexdigest(),
+         "manuscript_sha256": hashlib.sha256(SOURCE.read_bytes()).hexdigest(), "docx_sha256": hashlib.sha256(OUTPUT.read_bytes()).hexdigest(),
+         "style": "textbook-style-v1.0", "toc_cached_pages": pages, "toc_headings": headings,
+-        "method": "Reused template styles and geometry; task-local chapter counter/numbering starts at1, header cache and nine answer bookmarks; native SEQ/REF/TOC/PAGEREF/PAGE preserved. No final DOCX LibreOffice roundtrip.",
++        "method": "Reused template styles and geometry; task-local chapter counter/numbering starts at3, header cache and six answer bookmarks; native SEQ/REF/TOC/PAGEREF/PAGE preserved. No final DOCX LibreOffice roundtrip.",
+         "word_native_execution": "NOT_EVALUATED"}
+     (HERE / "build.json").write_text(json.dumps(evidence, ensure_ascii=False, indent=2) + "\n")
+     print(json.dumps({"file": str(OUTPUT), "tables": len(doc.tables), "figures": len(doc.inline_shapes), "toc_entries": len(headings)}))

@@ -1,0 +1,37 @@
+{
+  "source": "/home/reggie/.cache/codex-runtimes/codex-primary-runtime/runtime.json",
+  "manifest": {
+    "artifactToolVersion": "2.8.91",
+    "bundleFormatVersion": 2,
+    "bundleVersion": "26.1009.11318",
+    "bundledPlugins": [
+      "plugins/openai-primary-runtime"
+    ],
+    "bundledSkills": [],
+    "libreOfficeVersion": "25.2-headless-codex.1",
+    "nativeDependencies": [
+      "libheif",
+      "jxrlib",
+      "libreoffice-headless",
+      "poppler",
+      "git"
+    ],
+    "nodeVersion": "v24.19.0",
+    "pnpmVersion": "11.25.0",
+    "pythonVersion": "3.12.14",
+    "skillsToRemove": [
+      "codex-primary-runtime/spreadsheets",
+      "codex-primary-runtime/slides",
+      "doc",
+      "docs",
+      "spreadsheet",
+      "slides"
+    ],
+    "targetArch": "x64",
+    "targetPlatform": "linux"
+  },
+  "python": "/home/reggie/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python",
+  "node": "/home/reggie/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+  "skill_renderer": "/home/reggie/.codex/plugins/cache/openai-primary-runtime/documents/26.1009.11318/skills/documents/render_docx.py",
+  "dependency_loader": "not exposed; reuse installed runtime manifest and absolute binaries as verified previous chapter pattern"
+}

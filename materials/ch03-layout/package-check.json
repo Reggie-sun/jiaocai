@@ -1,0 +1,37 @@
+{
+  "checks": "PASS",
+  "deliverables": [
+    {
+      "file": "output/ch03-layout/第三章-计算思维与人工智能素养.pdf",
+      "sha256": "9383a5ad709ddf8cff6bd29501a58bb5862700980f0472f265dc049b4a039366",
+      "bytes": 2787005
+    },
+    {
+      "file": "output/ch03-layout/第三章-计算思维与人工智能素养.docx",
+      "sha256": "f1e2bd9d4c4cb5f380260ebfc1f6ea268c2fb59ac816453c7c5b0b283479be8f",
+      "bytes": 1431593
+    },
+    {
+      "file": "output/ch03-layout/第三章-五幅教学图.zip",
+      "sha256": "f2ffe8ce69faaab106c8e7bcbb87149c88a7e1917cf9af35180004a4a2361786",
+      "bytes": 1968630
+    }
+  ],
+  "page_archives": [
+    {
+      "file": "materials/ch03-layout/snapshots/final-pages.zip",
+      "sha256": "49a29b8802f48f45500d6671a6fdd5976e1c04ffaf2240c26798f204e3c1190f",
+      "pages": 78
+    },
+    {
+      "file": "materials/ch03-layout/snapshots/prior-pages-r2.zip",
+      "sha256": "d7a934672a9619412b252c1ebbe530f0d04f412bec716e3792fd67d73e1991e8",
+      "pages": 78
+    },
+    {
+      "file": "materials/ch03-layout/snapshots/targeted-pages-r4.zip",
+      "sha256": "c4350c011896493a2410df6e604b8807a054b55eb950c8e65959811a4a79b0b5",
+      "pages": 2
+    }
+  ]
+}
