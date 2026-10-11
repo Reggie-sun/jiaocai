@@ -1,0 +1,15 @@
+{
+  "baseline_head": "85bc920aa986d49b46d65adc376b08a1d1d16082",
+  "protected_file_count": 697,
+  "pre_delivery_all_tracked_files_unchanged": true,
+  "authorized_changes_excluded_from_final_check": [
+    "harness.json",
+    "教材编写现状与目的.md"
+  ],
+  "unrelated_untracked_not_owned": [
+    "materials/ch02-progressive/source-excerpts.md",
+    "materials/ch02-progressive/source-texts/",
+    "tests/__pycache__/"
+  ],
+  "new_run_only_no_policy_engine_or_old_run_changes": true
+}

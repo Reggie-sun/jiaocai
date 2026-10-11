@@ -1,0 +1,111 @@
+{
+  "result": "PASS",
+  "independent_check": "Parsed actual SVG attributes and opened actual raster files, not only manifest assertions.",
+  "figures": [
+    {
+      "id": "图1-1",
+      "svg_text_count": 20,
+      "min_font_pt": 10.74,
+      "min_stroke_pt": 0.976,
+      "png_dimensions": [
+        2400,
+        1347
+      ],
+      "ppi_at_155mm": 393.29,
+      "grayscale_mode": "L",
+      "svg_sha256": "745d2a348d26b4a02f69ee85adaf2e496a1036ee570d0243ae08aacc24448bca",
+      "png_sha256": "035c12770db7203203694aae8af4735cba85b1cbbedae16676b17c2ecb5af613",
+      "gray_sha256": "92fb0e60eeecebe2ca80d428313d4b5780041a638c2999e2e61c17b6db67112f"
+    },
+    {
+      "id": "图1-2",
+      "svg_text_count": 42,
+      "min_font_pt": 10.74,
+      "min_stroke_pt": 0.732,
+      "png_dimensions": [
+        2400,
+        1440
+      ],
+      "ppi_at_155mm": 393.29,
+      "grayscale_mode": "L",
+      "svg_sha256": "61248bf5b09f42c7084653e3f42bf7741e3e52f1908bd6b91cdced60b8b447d5",
+      "png_sha256": "e1451f7565c41ccf50a43b061ab57e16681f37c06b4ce76ffcf61d9b5bc96a0f",
+      "gray_sha256": "4eccee210cdefbfc73d411fffcc081505003beb1dd9758a3d7924df0c7981a6d"
+    },
+    {
+      "id": "图1-3",
+      "svg_text_count": 50,
+      "min_font_pt": 10.74,
+      "min_stroke_pt": 0.635,
+      "png_dimensions": [
+        2400,
+        1800
+      ],
+      "ppi_at_155mm": 393.29,
+      "grayscale_mode": "L",
+      "svg_sha256": "832262ea5f4ddedc23a06a6276224213bd73fb2725ed226484b04b39ba30b221",
+      "png_sha256": "e2b10607100c5c84e3fcfb3dff720bdecfb82630da2f8127fc3d76ad3e55c4cd",
+      "gray_sha256": "85132aae6b33f98e8851ed207e5d26c2b9357370304f409686f1afb3722fd611"
+    },
+    {
+      "id": "图1-4",
+      "svg_text_count": 23,
+      "min_font_pt": 10.74,
+      "min_stroke_pt": 0.635,
+      "png_dimensions": [
+        2400,
+        1307
+      ],
+      "ppi_at_155mm": 393.29,
+      "grayscale_mode": "L",
+      "svg_sha256": "25b515d84dab2164c97eb766ba0b865ea47b45cb67dcbbf76ef7d2bc7bb62dea",
+      "png_sha256": "a050a20128f274e0b33ce38f3a09d4a60f3fb66426624b3f5590517570a7d225",
+      "gray_sha256": "e08449347a6d1aa1c556dac422c909988bef68f14940cb8e3cbb62ee7b3b2ec9"
+    },
+    {
+      "id": "图1-5",
+      "svg_text_count": 45,
+      "min_font_pt": 10.74,
+      "min_stroke_pt": 0.879,
+      "png_dimensions": [
+        2400,
+        1360
+      ],
+      "ppi_at_155mm": 393.29,
+      "grayscale_mode": "L",
+      "svg_sha256": "df68991b41004e25598c2f99ba8df8e9003282a7f5a8de8e4ecb0d0c89645e7c",
+      "png_sha256": "b348ba4546650c753a0f5fa2b485f78f4ace527fad22899307b31460231272e0",
+      "gray_sha256": "5238e0355918f0176a85fa44fe3fc4b26a916f5628e6590b1c7c5d3f63fcdac4"
+    },
+    {
+      "id": "图1-6",
+      "svg_text_count": 41,
+      "min_font_pt": 10.74,
+      "min_stroke_pt": 0.683,
+      "png_dimensions": [
+        2400,
+        1813
+      ],
+      "ppi_at_155mm": 393.29,
+      "grayscale_mode": "L",
+      "svg_sha256": "171deb83dcba7414bba324e2faff819bffad94f537402c819a78dd90544084cd",
+      "png_sha256": "03aa0810d3ed15e7d58786391333f46fa4befa651971afcb8d318ccb4588ca8e",
+      "gray_sha256": "fd481ca16d87fe11d006fd345e36e953c5b217186369e01407a5b5b7c6fa1ef3"
+    },
+    {
+      "id": "图1-7",
+      "svg_text_count": 19,
+      "min_font_pt": 10.74,
+      "min_stroke_pt": 1.025,
+      "png_dimensions": [
+        2400,
+        1933
+      ],
+      "ppi_at_155mm": 393.29,
+      "grayscale_mode": "L",
+      "svg_sha256": "3587a9596a78d3b992aae2e3dd0285e05b5d5340acbe35af995331674c418a64",
+      "png_sha256": "d9144be9dec7e7b458d122822fc0fb50011c42bc16e23357cefe4dacc08af7eb",
+      "gray_sha256": "c2d4843899ce95462bb1dda2ec9cfe76c8caae4c16c7c995800f28a99b3fc00b"
+    }
+  ]
+}

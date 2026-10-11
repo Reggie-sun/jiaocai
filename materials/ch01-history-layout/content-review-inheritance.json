@@ -1,0 +1,15 @@
+{
+  "baseline": "manuscripts/ch01-history/ch01.md",
+  "baseline_sha256": "0821dd957553a84a03f38f8b38132a968d48537bf6eac266ed1b0f53c5f036bb",
+  "new_prose_source": "manuscripts/ch01-history-layout/ch01.md",
+  "applicability": "Only exact baseline prose bytes recovered by assembly.json; seven inserted figure introductions/captions/sources and figures require current review.",
+  "professional_reports": [
+    "materials/ch01-history/professional-review-r1.json",
+    "materials/ch01-history/professional-review-r2.json"
+  ],
+  "professional_adjudication": "materials/ch01-history/professional-adjudication.md",
+  "teaching_review": "materials/ch01-history/teaching-review.md",
+  "exercise_and_text_checks": "materials/ch01-history/text-check.json",
+  "prior_final_snapshot": "materials/ch01-history/snapshot-final.json",
+  "human_teaching_acceptance": "NOT_EVALUATED"
+}

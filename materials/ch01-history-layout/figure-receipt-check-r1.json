@@ -1,0 +1,12 @@
+{
+  "invocation_id": "a51cb216-db15-4967-acdb-d42dfc7e0327",
+  "contract_seal": "df33d7db142a1202b8517ea8d4468122411c2a3a8edc8a821f389baa66e3d72f",
+  "canonical_receipt_verified": true,
+  "report_schema_verified": true,
+  "artifact_hashes_verified": true,
+  "all_sealed_sources_unchanged_at_return": true,
+  "required_sources_actually_read": 14,
+  "identity_request_count": 6,
+  "semantic_findings": 2,
+  "parent_decision": "Apply both bounded wording improvements; no new prose or exercise redesign; targeted semantic re-review of changed figures."
+}

@@ -1,0 +1,11 @@
+{
+  "invocation_id": "31c514f2-f01e-4130-ba4a-9c77d39a7b6a",
+  "contract_seal": "f4c23486bfd3eb3c37fc9c785d607ad65645732d95db1281451dbc372f9a9506",
+  "canonical_receipt_verified": true,
+  "report_schema_verified": true,
+  "artifact_hashes_verified": true,
+  "all_sealed_sources_unchanged_at_return": true,
+  "required_sources_actually_read": 10,
+  "identity_request_count": 3,
+  "parent_result": "G01/G02 closure observations independently checked; no new proposed corrections; no unresolved blocking. R2 is targeted semantic source review only."
+}

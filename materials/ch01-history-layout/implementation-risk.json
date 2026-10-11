@@ -1,0 +1,31 @@
+{
+  "stable_candidate_sha256": {
+    "manuscripts/ch01-history-layout/ch01.md": "87fc722e0a53b4ce934dba90f720c3e2e40c3e9401d05560f48b4473f33deb66",
+    "output/ch01-history-layout/第一章-计算思维-历史回顾版.docx": "a50298d655c576b3dba2ee9924c3a7516c111c98d4cf4397342f63c5d24ccc17",
+    "output/ch01-history-layout/第一章-计算思维-历史回顾版.pdf": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23",
+    "materials/ch01-history-layout/build_docx.py": "d5df2a9f8ade5690a1d63635e254eefcd4babf1591c556937837ee5f730cf620",
+    "materials/ch01-history-layout/verify_layout.py": "65a36cbc0b47780d7f4beff8d8392bb5a5898ca80e82a97052245b8253d2aa19",
+    "materials/ch01-history-layout/render_figures.py": "2f80127bfd2a81dc393e56c4f4d1161e4961376e08dbc649b962e2ec07c1c52b",
+    "specs/ch01-history-layout.spec.md": "e016bc96433381fd5c49ab286224def3e4a3049781267041484905d70f2396b3",
+    "plans/ch01-history-layout.plan.md": "df90eb559788ef65643d1c19a86cbe1ac430f31462b41b3f47c8bb72ce7e6e1e"
+  },
+  "native_verification": [
+    "materials/ch01-history-layout/harness-tests.json",
+    "materials/ch01-history-layout/layout-final.json",
+    "materials/ch01-history-layout/page-review.json"
+  ],
+  "trigger_current_user_explicit_kimi_implementation_review": {
+    "matches": false,
+    "evidence": "User requests figures and Word/PDF; no engineering Kimi-review requirement."
+  },
+  "trigger_critical_credentials_authority_or_durable_state_consequence": {
+    "matches": false,
+    "evidence": "Task-local chapter adapters/new output files only. Existing core Harness, policy, original prose, template and all prior run entries retained; no credentials in document generation; reversible local artifacts."
+  },
+  "trigger_major_consequence_and_residual_gap_with_kimi_value": {
+    "matches": false,
+    "evidence": "Correspondence, native field targets, preserved styles,7 image bytes,2 table contents,fonts,page numbers,actual TOC and all72 final page bytes verified. No critical or major runtime gap identified. Untested native Word refresh/printing/classroom effect explicitly remain draft boundaries."
+  },
+  "decision": "KIMI_REVIEW_NOT_REQUIRED",
+  "separate_delegation": "Managed Kimi R1+targetedR2 review added teaching-figure semantics; Native reviewer independently actually viewed pages1–36. These distinct evidence purposes do not establish another engineering gate or human acceptance."
+}

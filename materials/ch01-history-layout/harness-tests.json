@@ -1,0 +1,7 @@
+{
+  "command": "PYTHONDONTWRITEBYTECODE=1 bundled-python -m unittest discover -s tests -v",
+  "tests": 51,
+  "result": "OK",
+  "runtime_python": "/home/reggie/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python",
+  "engine_changed": false
+}

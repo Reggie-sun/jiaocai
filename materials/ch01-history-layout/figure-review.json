@@ -1,0 +1,87 @@
+{
+  "reviewer": "Codex Parent",
+  "scope": "All14 final standalone images actually viewed; changed figures1/7 freshly reopened after R2, other5 retain identical colour/grayscale bytes.",
+  "observations": [
+    {
+      "id": "图1-1",
+      "colour_sha256": "035c12770db7203203694aae8af4735cba85b1cbbedae16676b17c2ecb5af613",
+      "gray_sha256": "92fb0e60eeecebe2ca80d428313d4b5780041a638c2999e2e61c17b6db67112f",
+      "viewed": [
+        "colour",
+        "grayscale"
+      ],
+      "result": "Actual R2 colour/grayscale reopened: subset/example wording clear, no clipping/overlap; original boundaries preserved."
+    },
+    {
+      "id": "图1-2",
+      "colour_sha256": "e1451f7565c41ccf50a43b061ab57e16681f37c06b4ce76ffcf61d9b5bc96a0f",
+      "gray_sha256": "4eccee210cdefbfc73d411fffcc081505003beb1dd9758a3d7924df0c7981a6d",
+      "viewed": [
+        "colour",
+        "grayscale"
+      ],
+      "result": "No clipping/overlap or unreadable labels observed; labels, positioning, line/shape distinguish semantics in grayscale."
+    },
+    {
+      "id": "图1-3",
+      "colour_sha256": "e2b10607100c5c84e3fcfb3dff720bdecfb82630da2f8127fc3d76ad3e55c4cd",
+      "gray_sha256": "85132aae6b33f98e8851ed207e5d26c2b9357370304f409686f1afb3722fd611",
+      "viewed": [
+        "colour",
+        "grayscale"
+      ],
+      "result": "No clipping/overlap or unreadable labels observed; labels, positioning, line/shape distinguish semantics in grayscale."
+    },
+    {
+      "id": "图1-4",
+      "colour_sha256": "a050a20128f274e0b33ce38f3a09d4a60f3fb66426624b3f5590517570a7d225",
+      "gray_sha256": "e08449347a6d1aa1c556dac422c909988bef68f14940cb8e3cbb62ee7b3b2ec9",
+      "viewed": [
+        "colour",
+        "grayscale"
+      ],
+      "result": "No clipping/overlap or unreadable labels observed; labels, positioning, line/shape distinguish semantics in grayscale."
+    },
+    {
+      "id": "图1-5",
+      "colour_sha256": "b348ba4546650c753a0f5fa2b485f78f4ace527fad22899307b31460231272e0",
+      "gray_sha256": "5238e0355918f0176a85fa44fe3fc4b26a916f5628e6590b1c7c5d3f63fcdac4",
+      "viewed": [
+        "colour",
+        "grayscale"
+      ],
+      "result": "No clipping/overlap or unreadable labels observed; labels, positioning, line/shape distinguish semantics in grayscale."
+    },
+    {
+      "id": "图1-6",
+      "colour_sha256": "03aa0810d3ed15e7d58786391333f46fa4befa651971afcb8d318ccb4588ca8e",
+      "gray_sha256": "fd481ca16d87fe11d006fd345e36e953c5b217186369e01407a5b5b7c6fa1ef3",
+      "viewed": [
+        "colour",
+        "grayscale"
+      ],
+      "result": "No clipping/overlap or unreadable labels observed; labels, positioning, line/shape distinguish semantics in grayscale."
+    },
+    {
+      "id": "图1-7",
+      "colour_sha256": "d9144be9dec7e7b458d122822fc0fb50011c42bc16e23357cefe4dacc08af7eb",
+      "gray_sha256": "c2d4843899ce95462bb1dda2ec9cfe76c8caae4c16c7c995800f28a99b3fc00b",
+      "viewed": [
+        "colour",
+        "grayscale"
+      ],
+      "result": "Actual R2 colour/grayscale reopened: subset/example wording clear, no clipping/overlap; original boundaries preserved."
+    }
+  ],
+  "specific_checks": [
+    "fig1-1 K01/K03 subset and original-card check visible",
+    "fig1-2 table position row has clear bottom gap",
+    "fig1-3 paired years contained in time column;1936/1937 and1980/1993 distinct",
+    "fig1-4 no fabricated measured trajectory",
+    "fig1-5 only r3c2 changes and row encoding matches",
+    "fig1-6 header clear and uncertain quote preserved",
+    "fig1-7 parallel perspectives and written-only permission boundary visible"
+  ],
+  "boundary": "Standalone actual image viewing; embedded-page evidence follows separately; not human/classroom/print acceptance.",
+  "prior_observations": "materials/ch01-history-layout/snapshots/figure-review-r2.json"
+}

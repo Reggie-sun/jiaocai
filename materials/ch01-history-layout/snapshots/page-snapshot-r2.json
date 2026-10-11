@@ -1,0 +1,368 @@
+{
+  "render": "r2",
+  "pages": 72,
+  "docx_sha256": "1730250e985404d6e6774726698a3246aaddc1d868b99a0c922e9918610c142f",
+  "pdf_sha256": "f7335222e7935852c21c15dd0243e2a5c819e9919a2a7a87ca388aeeb66df6a9",
+  "items": [
+    {
+      "page": 1,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-1.png",
+      "sha256": "8a3322848c57ab886c739edb755272ef1a4e87a6fc7c58ab2c88c248ddc14251"
+    },
+    {
+      "page": 2,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-2.png",
+      "sha256": "12967823da8e030b11ab6876cd592df1403bea9f50498982a6a1da26b7947cb8"
+    },
+    {
+      "page": 3,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-3.png",
+      "sha256": "88f170757ec009bcab004a1f15aa878f9a88e4fde60e6bc068c7cc0ebdc99440"
+    },
+    {
+      "page": 4,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-4.png",
+      "sha256": "38da1e4aa7a522eb9518daa1e6391bd37d2ce64170786386a780b4937e844a4d"
+    },
+    {
+      "page": 5,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-5.png",
+      "sha256": "b873222eb96d82fae359c4f14af74e2d6c3c9fb1b3515b01f40203871f8fea01"
+    },
+    {
+      "page": 6,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-6.png",
+      "sha256": "89b74d2343a88a2d29aa9ff4bcd737be4c53456d9cec6961a9cc6183ab6e4673"
+    },
+    {
+      "page": 7,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-7.png",
+      "sha256": "258555b0d340df8ec8ff625eb1a6f89b3f526d3981817840b8a396ffede02a99"
+    },
+    {
+      "page": 8,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-8.png",
+      "sha256": "5beda758d825f4b35f973d6d7c915bc6c753942bbb6f35d59ff681ba51191f2b"
+    },
+    {
+      "page": 9,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-9.png",
+      "sha256": "71802fec7334971bdb6e6772fa5a12b3c74a3deb07502c21e00220981f006e75"
+    },
+    {
+      "page": 10,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-10.png",
+      "sha256": "ea380f0b129ff1ed586c4bef21ce805b68b9542e5248fbd183216df3b53f89bd"
+    },
+    {
+      "page": 11,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-11.png",
+      "sha256": "ded6456d3ef7d9bd808094288694bfa6271b36e4bf8ddad39cda23a3b9b9c141"
+    },
+    {
+      "page": 12,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-12.png",
+      "sha256": "ec985a785a31068d81bf264aeeb01feff74061662a9dce05ebbf7c7f47639cc6"
+    },
+    {
+      "page": 13,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-13.png",
+      "sha256": "18a59d954c08469b1006a3d96e47d52c5952a23e56f17521343370af682b1096"
+    },
+    {
+      "page": 14,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-14.png",
+      "sha256": "196e58718ee22b68d87cd761f46ce5798f61ea7243905607953bee73e7159c05"
+    },
+    {
+      "page": 15,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-15.png",
+      "sha256": "96000f065c9f7bb6fb401d3773fc94672d08fb9dce26841c8d28564b3df9344f"
+    },
+    {
+      "page": 16,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-16.png",
+      "sha256": "5f9bedbe38dc342a84bcafa61e30839484ea5f7e41539791c5333ed2c4a722dd"
+    },
+    {
+      "page": 17,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-17.png",
+      "sha256": "cc24b585651bd00800d7c8d34cd676f08b60e5da0092d35d89964e4154584c6e"
+    },
+    {
+      "page": 18,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-18.png",
+      "sha256": "ef1dd9382061a855d09e7a2348c419e1d5803a050d820bbfa0c22a942af97d87"
+    },
+    {
+      "page": 19,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-19.png",
+      "sha256": "b159eacb1e95fafbdb523779123517044163631e9d4e10c7f5d1e6b058fabf36"
+    },
+    {
+      "page": 20,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-20.png",
+      "sha256": "d1583041bf06b938b897be5f18d9efe056326e2ce90f4a3098d12c063583b9b0"
+    },
+    {
+      "page": 21,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-21.png",
+      "sha256": "9e4ace9d1c68995cd0d4088ed8c4d8ef2d3f2b34c06a709743776ae1dc665a1e"
+    },
+    {
+      "page": 22,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-22.png",
+      "sha256": "275d20fc2b9f5c18fdc8bf57f8b9c02abbf6d9f1bd05c24abd6af7b1382c40e8"
+    },
+    {
+      "page": 23,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-23.png",
+      "sha256": "1b3843915050a1a435d41e39058b2877e3a95ccd68d4c852420d65247c9f8cb3"
+    },
+    {
+      "page": 24,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-24.png",
+      "sha256": "7a3cfcca6917b2679da4f62042b400f29268337c354fd90f74ca124486c783b4"
+    },
+    {
+      "page": 25,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-25.png",
+      "sha256": "6830db69509ee034bef8b1368772e52f891182f04310fe00c523f91f9afeec33"
+    },
+    {
+      "page": 26,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-26.png",
+      "sha256": "b35a1eb25bb3482f6a73367afc89bd121c5dae344cfbc6df800909e3c4c56160"
+    },
+    {
+      "page": 27,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-27.png",
+      "sha256": "088ff87274e66d552c842f54c68dfd42576dfd1077f0823213b2927be165c6e1"
+    },
+    {
+      "page": 28,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-28.png",
+      "sha256": "9fbdf1a40e468da12b5b99e574467fccf8515aace4ccdc5c06fd50b1f1b3ca77"
+    },
+    {
+      "page": 29,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-29.png",
+      "sha256": "d4a6cede7605ca8d29a5524b4c0ec8c20fbdc68fb48a0f2c1df6714ab18db3ba"
+    },
+    {
+      "page": 30,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-30.png",
+      "sha256": "89c1165c0ef1401dc5a22ca14f69ae953ca7df04a5b3c933dfcde5f87575a4eb"
+    },
+    {
+      "page": 31,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-31.png",
+      "sha256": "d5a00a5e9b21815f2c6d4b9e17150d4736b970b2695a1adb736866b3efc4693c"
+    },
+    {
+      "page": 32,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-32.png",
+      "sha256": "ed89831f1630c143c52280b52a3676c808df1cd5bd9ed9b51bf7c3a0df8a008d"
+    },
+    {
+      "page": 33,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-33.png",
+      "sha256": "750c274efc9e78c81e04ae8bf1b5a5c15a08ac502a51c0bbf2d43005ab70ec37"
+    },
+    {
+      "page": 34,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-34.png",
+      "sha256": "700a71310e301c3eaa23ec4dd92faa3c64d28063075664bae67a4a69b320b170"
+    },
+    {
+      "page": 35,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-35.png",
+      "sha256": "c6f26bb0d7bdef47548a213e5bba91fdb8b0ef1a11ae2de8f65857b4608692c3"
+    },
+    {
+      "page": 36,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-36.png",
+      "sha256": "429e40ec72292e199df82ca6688327d8b6df4434b7fb7977afaad67e3d66ac1f"
+    },
+    {
+      "page": 37,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-37.png",
+      "sha256": "1ede0addaddb1850daf6f2e313a6717be29fae9398051660c064d2c845fd5f52"
+    },
+    {
+      "page": 38,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-38.png",
+      "sha256": "6861ec528d28a1e82c1364a16ce0bb52d468d38cf1b0158454607e0ec913dc73"
+    },
+    {
+      "page": 39,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-39.png",
+      "sha256": "1c6bb7e14ffc8e4a758dae43612dc3e70128d7948ac693560697c4fcbd68f5ef"
+    },
+    {
+      "page": 40,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-40.png",
+      "sha256": "dd60e182c7c52f37911c844dcb0fd09ff93c03860cb344cb474c543f03c83f30"
+    },
+    {
+      "page": 41,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-41.png",
+      "sha256": "6d2779fa8846bbe623561c5894069677d247da694ebc0e0907a4b94f7d1ee38f"
+    },
+    {
+      "page": 42,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-42.png",
+      "sha256": "a956e62d9b7fdedf32622bf97402af382e1806e5b6e461b696db7c03adf8f0f5"
+    },
+    {
+      "page": 43,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-43.png",
+      "sha256": "24d3ee813bf200e65c6fd509970668b4e111c3b5c4e41b7af3185edffb45f27f"
+    },
+    {
+      "page": 44,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-44.png",
+      "sha256": "2d61e51607a3db100be2f7b0b409536df09a1632e63311abbd5b2c1d0b4a1a48"
+    },
+    {
+      "page": 45,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-45.png",
+      "sha256": "a642e77e6c70e5f7d597c65a3c8597062ebfd8d6852a9aa54f1d67b64e77280f"
+    },
+    {
+      "page": 46,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-46.png",
+      "sha256": "55c0d31878693ea5fcc83d8d691300f173cfb5be8f5fa2a6e4c890d61071db06"
+    },
+    {
+      "page": 47,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-47.png",
+      "sha256": "30818686055d8051a8efcc485685d4271cd7efb383f2b5a3b49bdb92d00658a1"
+    },
+    {
+      "page": 48,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-48.png",
+      "sha256": "5bb31155c50c2a0ece4bc76742ece07a34d07dc76c79794904123f2e86ff19e5"
+    },
+    {
+      "page": 49,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-49.png",
+      "sha256": "42370c47750ef0e98563db7ef2bc98801250808aa0191cc08a23f8451320fb7b"
+    },
+    {
+      "page": 50,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-50.png",
+      "sha256": "4eac6b270975cca2a758218a1444c4713f5fdd89b15927da8fb31684e7f08479"
+    },
+    {
+      "page": 51,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-51.png",
+      "sha256": "42a76f7ce838d979c7f7870ce7a0beb0077aa6fbdacc615f1c1b7b8ffab4505f"
+    },
+    {
+      "page": 52,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-52.png",
+      "sha256": "033a3924fef41696a8b58a70be8aeae5fe72189d57934b792d3179077d214dde"
+    },
+    {
+      "page": 53,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-53.png",
+      "sha256": "5fd73dcfbaf2fd93884076230c88152e15bbba0c644f5c47238de8acf1b29ae6"
+    },
+    {
+      "page": 54,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-54.png",
+      "sha256": "d84007da8acfd86f01ca23ef8d3155b92c122d2bd94c1ffb038af9593351ca95"
+    },
+    {
+      "page": 55,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-55.png",
+      "sha256": "53550975f7f6ec1fc4d318ae2137e3ed23184f7fce3f25f0755cbd42aa3519c1"
+    },
+    {
+      "page": 56,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-56.png",
+      "sha256": "b1ddf0706b256daae595b00526ac368eaeba4528c57856c7bba6e404fe518933"
+    },
+    {
+      "page": 57,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-57.png",
+      "sha256": "a50302e39d6e6e62d033084268dd44fbb5949a76e9d744f74905ce6ddd597717"
+    },
+    {
+      "page": 58,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-58.png",
+      "sha256": "66ea7132a8a96dce277a06f5d5aa0f8caeaf1769dafcacb4c01418ff34ffd2dd"
+    },
+    {
+      "page": 59,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-59.png",
+      "sha256": "0d61a38aa318db3078e30f41f44b731daf86fb479dd5c3e7457a65d96ae3925c"
+    },
+    {
+      "page": 60,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-60.png",
+      "sha256": "47a20424343f0700f764af8e3111c38d70fb97e30263836c5061080df580d261"
+    },
+    {
+      "page": 61,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-61.png",
+      "sha256": "ae0c38803169f385acb8138a25f5077ecc36fca4292965006397d8a3a168c47a"
+    },
+    {
+      "page": 62,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-62.png",
+      "sha256": "4baa42e4d4ee0e370581346852ad044dd20d800172fb533befe2a0d16ad4e387"
+    },
+    {
+      "page": 63,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-63.png",
+      "sha256": "8bf6524a50607b64381e392ebbb2a1a299d50b07797e5eaef90a8047a218e027"
+    },
+    {
+      "page": 64,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-64.png",
+      "sha256": "adf850bc7e9454d3b8cfdd2f25d86ba96161d0af8210cbc5766ed8b770bfaedf"
+    },
+    {
+      "page": 65,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-65.png",
+      "sha256": "3b7dbaf9908aba55aa10c6da55cb6cb76afd6938c067b5c98a77a88f2b0ee81a"
+    },
+    {
+      "page": 66,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-66.png",
+      "sha256": "f0a3fc33b8549ab677fa522b461e642bc6e077451c76f8f013e53263ddd40238"
+    },
+    {
+      "page": 67,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-67.png",
+      "sha256": "a0bf6dd0346dc2121f8f3eef35566759b610094b97759e648774aae1dd9e19fa"
+    },
+    {
+      "page": 68,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-68.png",
+      "sha256": "5899483b65a4e0853a376bc7cd590a9838e8427af1e1024f0d2e52af44493558"
+    },
+    {
+      "page": 69,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-69.png",
+      "sha256": "c4f619f31ff0f8e092f910d0f381fbb475a46c28f80b9dfafd1f2690f9a56a31"
+    },
+    {
+      "page": 70,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-70.png",
+      "sha256": "ca51447c5e388b651d3f42e58bd30822bff72f4434496fb390906dc657e5093e"
+    },
+    {
+      "page": 71,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-71.png",
+      "sha256": "8f48edc0a3dafca219164d1bd176ad64cefe7d74f1788123b8d4d8d68b996a65"
+    },
+    {
+      "page": 72,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-72.png",
+      "sha256": "fa4ba4a993b8e401a35dbfa24c05036d5fc679505a72037ad4a9a8b1f93c274c"
+    }
+  ]
+}

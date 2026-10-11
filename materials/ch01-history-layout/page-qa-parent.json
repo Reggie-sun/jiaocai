@@ -1,0 +1,23 @@
+{
+  "reviewer": "Codex Parent",
+  "snapshot": "materials/ch01-history-layout/page-snapshot.json",
+  "snapshot_sha256": "234a53ad145f78b151f0a14849909855a8d74a0ce14299e140677bc52fc71e77",
+  "docx_sha256": "a50298d655c576b3dba2ee9924c3a7516c111c98d4cf4397342f63c5d24ccc17",
+  "pdf_sha256": "8894c8b59bf99e475f3ac721888ea330ce1fde895af5c050cde2700e963d0a23",
+  "actually_reopened_pages": [
+    {
+      "page": 6,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r3/page-6.png",
+      "sha256": "33fb417de119deb1ea6c07dc67f83ea2a158b4406a95881c34725924f2dae05f"
+    },
+    {
+      "page": 56,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r3/page-56.png",
+      "sha256": "e1cdd6cbf6d29e521229d7fd62df817b176b9be782c4ecfb48dd804b0d305486"
+    }
+  ],
+  "findings": [],
+  "result": "R3 pages6/56 actually opened at original resolution: updated labels fit, caption/source remain together, body/headings clear.",
+  "unchanged_page_observation": "Only70 byte-identical pages inherit actual R2 views; see page-delta and original observer records.",
+  "boundary": "AI actual image viewing; native Microsoft Word refresh/physical printing/classroom acceptance untested."
+}

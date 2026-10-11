@@ -1,0 +1,233 @@
+{
+  "reviewer": "Codex Parent",
+  "snapshot": "materials/ch01-history-layout/page-snapshot.json",
+  "docx_sha256": "1730250e985404d6e6774726698a3246aaddc1d868b99a0c922e9918610c142f",
+  "pdf_sha256": "f7335222e7935852c21c15dd0243e2a5c819e9919a2a7a87ca388aeeb66df6a9",
+  "actual_full_resolution_pages": [
+    {
+      "page": 1,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-1.png",
+      "sha256": "8a3322848c57ab886c739edb755272ef1a4e87a6fc7c58ab2c88c248ddc14251"
+    },
+    {
+      "page": 3,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-3.png",
+      "sha256": "88f170757ec009bcab004a1f15aa878f9a88e4fde60e6bc068c7cc0ebdc99440"
+    },
+    {
+      "page": 6,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-6.png",
+      "sha256": "89b74d2343a88a2d29aa9ff4bcd737be4c53456d9cec6961a9cc6183ab6e4673"
+    },
+    {
+      "page": 14,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-14.png",
+      "sha256": "196e58718ee22b68d87cd761f46ce5798f61ea7243905607953bee73e7159c05"
+    },
+    {
+      "page": 29,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-29.png",
+      "sha256": "d4a6cede7605ca8d29a5524b4c0ec8c20fbdc68fb48a0f2c1df6714ab18db3ba"
+    },
+    {
+      "page": 31,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-31.png",
+      "sha256": "d5a00a5e9b21815f2c6d4b9e17150d4736b970b2695a1adb736866b3efc4693c"
+    },
+    {
+      "page": 35,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-35.png",
+      "sha256": "c6f26bb0d7bdef47548a213e5bba91fdb8b0ef1a11ae2de8f65857b4608692c3"
+    },
+    {
+      "page": 37,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-37.png",
+      "sha256": "1ede0addaddb1850daf6f2e313a6717be29fae9398051660c064d2c845fd5f52"
+    },
+    {
+      "page": 38,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-38.png",
+      "sha256": "6861ec528d28a1e82c1364a16ce0bb52d468d38cf1b0158454607e0ec913dc73"
+    },
+    {
+      "page": 39,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-39.png",
+      "sha256": "1c6bb7e14ffc8e4a758dae43612dc3e70128d7948ac693560697c4fcbd68f5ef"
+    },
+    {
+      "page": 40,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-40.png",
+      "sha256": "dd60e182c7c52f37911c844dcb0fd09ff93c03860cb344cb474c543f03c83f30"
+    },
+    {
+      "page": 41,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-41.png",
+      "sha256": "6d2779fa8846bbe623561c5894069677d247da694ebc0e0907a4b94f7d1ee38f"
+    },
+    {
+      "page": 42,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-42.png",
+      "sha256": "a956e62d9b7fdedf32622bf97402af382e1806e5b6e461b696db7c03adf8f0f5"
+    },
+    {
+      "page": 43,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-43.png",
+      "sha256": "24d3ee813bf200e65c6fd509970668b4e111c3b5c4e41b7af3185edffb45f27f"
+    },
+    {
+      "page": 44,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-44.png",
+      "sha256": "2d61e51607a3db100be2f7b0b409536df09a1632e63311abbd5b2c1d0b4a1a48"
+    },
+    {
+      "page": 45,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-45.png",
+      "sha256": "a642e77e6c70e5f7d597c65a3c8597062ebfd8d6852a9aa54f1d67b64e77280f"
+    },
+    {
+      "page": 46,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-46.png",
+      "sha256": "55c0d31878693ea5fcc83d8d691300f173cfb5be8f5fa2a6e4c890d61071db06"
+    },
+    {
+      "page": 47,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-47.png",
+      "sha256": "30818686055d8051a8efcc485685d4271cd7efb383f2b5a3b49bdb92d00658a1"
+    },
+    {
+      "page": 48,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-48.png",
+      "sha256": "5bb31155c50c2a0ece4bc76742ece07a34d07dc76c79794904123f2e86ff19e5"
+    },
+    {
+      "page": 49,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-49.png",
+      "sha256": "42370c47750ef0e98563db7ef2bc98801250808aa0191cc08a23f8451320fb7b"
+    },
+    {
+      "page": 50,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-50.png",
+      "sha256": "4eac6b270975cca2a758218a1444c4713f5fdd89b15927da8fb31684e7f08479"
+    },
+    {
+      "page": 51,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-51.png",
+      "sha256": "42a76f7ce838d979c7f7870ce7a0beb0077aa6fbdacc615f1c1b7b8ffab4505f"
+    },
+    {
+      "page": 52,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-52.png",
+      "sha256": "033a3924fef41696a8b58a70be8aeae5fe72189d57934b792d3179077d214dde"
+    },
+    {
+      "page": 53,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-53.png",
+      "sha256": "5fd73dcfbaf2fd93884076230c88152e15bbba0c644f5c47238de8acf1b29ae6"
+    },
+    {
+      "page": 54,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-54.png",
+      "sha256": "d84007da8acfd86f01ca23ef8d3155b92c122d2bd94c1ffb038af9593351ca95"
+    },
+    {
+      "page": 55,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-55.png",
+      "sha256": "53550975f7f6ec1fc4d318ae2137e3ed23184f7fce3f25f0755cbd42aa3519c1"
+    },
+    {
+      "page": 56,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-56.png",
+      "sha256": "b1ddf0706b256daae595b00526ac368eaeba4528c57856c7bba6e404fe518933"
+    },
+    {
+      "page": 57,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-57.png",
+      "sha256": "a50302e39d6e6e62d033084268dd44fbb5949a76e9d744f74905ce6ddd597717"
+    },
+    {
+      "page": 58,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-58.png",
+      "sha256": "66ea7132a8a96dce277a06f5d5aa0f8caeaf1769dafcacb4c01418ff34ffd2dd"
+    },
+    {
+      "page": 59,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-59.png",
+      "sha256": "0d61a38aa318db3078e30f41f44b731daf86fb479dd5c3e7457a65d96ae3925c"
+    },
+    {
+      "page": 60,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-60.png",
+      "sha256": "47a20424343f0700f764af8e3111c38d70fb97e30263836c5061080df580d261"
+    },
+    {
+      "page": 61,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-61.png",
+      "sha256": "ae0c38803169f385acb8138a25f5077ecc36fca4292965006397d8a3a168c47a"
+    },
+    {
+      "page": 62,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-62.png",
+      "sha256": "4baa42e4d4ee0e370581346852ad044dd20d800172fb533befe2a0d16ad4e387"
+    },
+    {
+      "page": 63,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-63.png",
+      "sha256": "8bf6524a50607b64381e392ebbb2a1a299d50b07797e5eaef90a8047a218e027"
+    },
+    {
+      "page": 64,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-64.png",
+      "sha256": "adf850bc7e9454d3b8cfdd2f25d86ba96161d0af8210cbc5766ed8b770bfaedf"
+    },
+    {
+      "page": 65,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-65.png",
+      "sha256": "3b7dbaf9908aba55aa10c6da55cb6cb76afd6938c067b5c98a77a88f2b0ee81a"
+    },
+    {
+      "page": 66,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-66.png",
+      "sha256": "f0a3fc33b8549ab677fa522b461e642bc6e077451c76f8f013e53263ddd40238"
+    },
+    {
+      "page": 67,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-67.png",
+      "sha256": "a0bf6dd0346dc2121f8f3eef35566759b610094b97759e648774aae1dd9e19fa"
+    },
+    {
+      "page": 68,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-68.png",
+      "sha256": "5899483b65a4e0853a376bc7cd590a9838e8427af1e1024f0d2e52af44493558"
+    },
+    {
+      "page": 69,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-69.png",
+      "sha256": "c4f619f31ff0f8e092f910d0f381fbb475a46c28f80b9dfafd1f2690f9a56a31"
+    },
+    {
+      "page": 70,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-70.png",
+      "sha256": "ca51447c5e388b651d3f42e58bd30822bff72f4434496fb390906dc657e5093e"
+    },
+    {
+      "page": 71,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-71.png",
+      "sha256": "8f48edc0a3dafca219164d1bd176ad64cefe7d74f1788123b8d4d8d68b996a65"
+    },
+    {
+      "page": 72,
+      "path": "/home/reggie/.local/state/jiaocai-ch01-history-layout-20261012/render-r2/page-72.png",
+      "sha256": "fa4ba4a993b8e401a35dbfa24c05036d5fc679505a72037ad4a9a8b1f93c274c"
+    }
+  ],
+  "method": "Every listed full-page PNG actually opened with view_image(detail=original), batch3/4. Actual observation, not contact-sheet or text-extraction substitution.",
+  "observations": [
+    "37-72 body/heading/table/answer/bibliography readable; no clipping/overlap or dangling heading observed",
+    "Page41 whitespace is the space needed to move the tall figure6 with caption/source as one unit to42",
+    "Page48 table1-2 remains complete three-line table with explanatory note and empty placeholders",
+    "All seven embedded figures and captions/source actually observed on6,14,29,31,35,42,56",
+    "Chapter title and final nine-entry TOC pages checked on1,3; bibliography71-72 remains within margins"
+  ],
+  "findings": [],
+  "boundary": "AI page-view QA; other1-36 pages assigned to independent native reader. No Word native refresh, physical print or teacher/student trial."
+}

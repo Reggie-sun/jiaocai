@@ -1,0 +1,239 @@
+{
+  "style": "textbook-style-v1.0",
+  "insert_width_mm": 155,
+  "png_ppi_at_insert": 393,
+  "min_label_pt_at_insert": 10.74,
+  "render_command": "/home/reggie/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python materials/ch01-history-layout/render_figures.py",
+  "visual_review": {
+    "status": "actual_color_and_grayscale_images_viewed",
+    "items": [
+      {
+        "id": "图1-1",
+        "png_sha256": "035c12770db7203203694aae8af4735cba85b1cbbedae16676b17c2ecb5af613",
+        "gray_sha256": "92fb0e60eeecebe2ca80d428313d4b5780041a638c2999e2e61c17b6db67112f",
+        "observation": "R2实际查看：标题“本次查找用到的字段”明确标出字段列表是本次查找子集；文字完整落在框内，灰度稿同样清楚。"
+      },
+      {
+        "id": "图1-2",
+        "png_sha256": "e1451f7565c41ccf50a43b061ab57e16681f37c06b4ce76ffcf61d9b5bc96a0f",
+        "gray_sha256": "4eccee210cdefbfc73d411fffcc081505003beb1dd9758a3d7924df0c7981a6d",
+        "observation": "纸卡、表格、程序按输入/规则/输出/核对对齐；表格三行输入均落在单元格内。灰度稿的文字和底色层次清楚。"
+      },
+      {
+        "id": "图1-3",
+        "png_sha256": "e2b10607100c5c84e3fcfb3dff720bdecfb82630da2f8127fc3d76ad3e55c4cd",
+        "gray_sha256": "85132aae6b33f98e8851ed207e5d26c2b9357370304f409686f1afb3722fd611",
+        "observation": "1936/1937与1980/1993分别上下分列，贡献栏标出收稿/宣读、卷册、初版与第二版；先后脚注清晰。灰度稿表格层次完整。"
+      },
+      {
+        "id": "图1-4",
+        "png_sha256": "a050a20128f274e0b33ce38f3a09d4a60f3fb66426624b3f5590517570a7d225",
+        "gray_sha256": "e08449347a6d1aa1c556dac422c909988bef68f14940cb8e3cbb62ee7b3b2ec9",
+        "observation": "数学约定、方形指令轨迹和待测真实移动分开；四次转向、观察字段和无实测数据说明清楚。灰度仍可辨实线指令与虚线目标。"
+      },
+      {
+        "id": "图1-5",
+        "png_sha256": "b348ba4546650c753a0f5fa2b485f78f4ace527fad22899307b31460231272e0",
+        "gray_sha256": "5238e0355918f0176a85fa44fe3fc4b26a916f5628e6590b1c7c5d3f63fcdac4",
+        "observation": "原图与改图只在r3c2从1变0；行标记显示0110→0010。灰度稿靠数字、行标签和边框仍能定位变化。"
+      },
+      {
+        "id": "图1-6",
+        "png_sha256": "03aa0810d3ed15e7d58786391333f46fa4befa651971afcb8d318ccb4588ca8e",
+        "gray_sha256": "fd481ca16d87fe11d006fd345e36e953c5b217186369e01407a5b5b7c6fa1ef3",
+        "observation": "目标任务标题与访谈卡片已分开；三段原句和时间确定程度均可见，底栏说明两类任务并非完全同构。灰度稿文字、格图和卡片边界清楚。"
+      },
+      {
+        "id": "图1-7",
+        "png_sha256": "d9144be9dec7e7b458d122822fc0fb50011c42bc16e23357cefe4dacc08af7eb",
+        "gray_sha256": "c2d4843899ce95462bb1dda2ec9cfe76c8caae4c16c7c995800f28a99b3fc00b",
+        "observation": "R2实际查看：“修订示例”清楚表明中心文字是暂定标题示例，原拟标题保持不变；中心文字未溢出，灰度稿可读。四类视角及许可边界保持完整。"
+      }
+    ]
+  },
+  "figures": [
+    {
+      "id": "图1-1",
+      "caption": "资料卡查找的几层结果",
+      "section_anchor": "1.1.1案例分析后",
+      "instructional_purpose": "区分目录缩小范围、定位卡片、阅读原文与形成内容判断；理解目录与原卡之间的对应关系。",
+      "description": "图中只列本次查找用到的目录字段（用途、难度、卡号、架位）。它们用于筛出K01和K03，并以编号和架位定位原卡；目录只支持定位，关于授权内容的判断仍须阅读K03全文。",
+      "source": "本书原创教学示意；资料卡及查询情境为本书课堂模拟。",
+      "status": "ready",
+      "editable_source": "assets/figures/ch01-history-layout/fig1-1.svg",
+      "file": "assets/figures/ch01-history-layout/fig1-1.png",
+      "png": "assets/figures/ch01-history-layout/fig1-1.png",
+      "grayscale_png": "assets/figures/ch01-history-layout/fig1-1-gray.png",
+      "sha256": "035c12770db7203203694aae8af4735cba85b1cbbedae16676b17c2ecb5af613",
+      "gray_sha256": "92fb0e60eeecebe2ca80d428313d4b5780041a638c2999e2e61c17b6db67112f",
+      "svg_sha256": "745d2a348d26b4a02f69ee85adaf2e496a1036ee570d0243ae08aacc24448bca",
+      "insert_width_mm": 155,
+      "viewbox_width": 900,
+      "png_ppi_at_insert": 393,
+      "declared_min_label_px": 22,
+      "min_font_pt_at_insert": 10.74,
+      "dimensions_px": {
+        "width_px": 2400,
+        "height_px": 1347
+      },
+      "gray_semantics": "标签、位置、边框、实虚线、格内数字与形状共同承载含义；颜色只是辅助。"
+    },
+    {
+      "id": "图1-2",
+      "caption": "同一查找问题的表示与执行",
+      "section_anchor": "1.1.3手工示范后",
+      "instructional_purpose": "比较纸卡、表格与程序如何面对相同输入、规则、输出和核对条件。",
+      "description": "三种方式都用同一目录与查找目标，分别按用途、难度和位置组织信息；预期候选均为K01和K03，并须回到原卡核对。",
+      "source": "本书原创教学示意；六张资料卡为本书课堂模拟。",
+      "status": "ready",
+      "editable_source": "assets/figures/ch01-history-layout/fig1-2.svg",
+      "file": "assets/figures/ch01-history-layout/fig1-2.png",
+      "png": "assets/figures/ch01-history-layout/fig1-2.png",
+      "grayscale_png": "assets/figures/ch01-history-layout/fig1-2-gray.png",
+      "sha256": "e1451f7565c41ccf50a43b061ab57e16681f37c06b4ce76ffcf61d9b5bc96a0f",
+      "gray_sha256": "4eccee210cdefbfc73d411fffcc081505003beb1dd9758a3d7924df0c7981a6d",
+      "svg_sha256": "61248bf5b09f42c7084653e3f42bf7741e3e52f1908bd6b91cdced60b8b447d5",
+      "insert_width_mm": 155,
+      "viewbox_width": 900,
+      "png_ppi_at_insert": 393,
+      "declared_min_label_px": 22,
+      "min_font_pt_at_insert": 10.74,
+      "dimensions_px": {
+        "width_px": 2400,
+        "height_px": 1440
+      },
+      "gray_semantics": "标签、位置、边框、实虚线、格内数字与形状共同承载含义；颜色只是辅助。"
+    },
+    {
+      "id": "图1-3",
+      "caption": "历史问题与思想的联系",
+      "section_anchor": "1.2.7后",
+      "instructional_purpose": "把历史节点放回各自问题、贡献与限制中，避免把年代先后读成单线因果。",
+      "description": "紧凑时间表区分1890、图灵论文1936收稿/宣读与1937卷册著录、1948、1955、帕佩特著作1980初版与1993第二版、2006等年份；年份标识清楚，行间距不按年份比例，节点相邻不表示因果。",
+      "source": "本书依据本章参考文献[1]、[3]—[7]作教学性整理。",
+      "source_ledger": "materials/ch01-history/sources.md",
+      "status": "ready",
+      "editable_source": "assets/figures/ch01-history-layout/fig1-3.svg",
+      "file": "assets/figures/ch01-history-layout/fig1-3.png",
+      "png": "assets/figures/ch01-history-layout/fig1-3.png",
+      "grayscale_png": "assets/figures/ch01-history-layout/fig1-3-gray.png",
+      "sha256": "e2b10607100c5c84e3fcfb3dff720bdecfb82630da2f8127fc3d76ad3e55c4cd",
+      "gray_sha256": "85132aae6b33f98e8851ed207e5d26c2b9357370304f409686f1afb3722fd611",
+      "svg_sha256": "832262ea5f4ddedc23a06a6276224213bd73fb2725ed226484b04b39ba30b221",
+      "insert_width_mm": 155,
+      "viewbox_width": 900,
+      "png_ppi_at_insert": 393,
+      "declared_min_label_px": 22,
+      "min_font_pt_at_insert": 10.74,
+      "dimensions_px": {
+        "width_px": 2400,
+        "height_px": 1800
+      },
+      "gray_semantics": "标签、位置、边框、实虚线、格内数字与形状共同承载含义；颜色只是辅助。"
+    },
+    {
+      "id": "图1-4",
+      "caption": "三类检查的证据对象",
+      "section_anchor": "1.2.8后",
+      "instructional_purpose": "分清方形的数学约定、可复现的指令过程与真实移动的观察证据。",
+      "description": "同一画方形任务分别检查理想几何条件、四次前进与右转的指令轨迹，以及尚待现场记录的真实运动；图中不提供伪造的实测轨迹或误差。",
+      "source": "本书原创教学示意，依据1.2.8方形活动；不含实际设备测量。",
+      "status": "ready",
+      "editable_source": "assets/figures/ch01-history-layout/fig1-4.svg",
+      "file": "assets/figures/ch01-history-layout/fig1-4.png",
+      "png": "assets/figures/ch01-history-layout/fig1-4.png",
+      "grayscale_png": "assets/figures/ch01-history-layout/fig1-4-gray.png",
+      "sha256": "a050a20128f274e0b33ce38f3a09d4a60f3fb66426624b3f5590517570a7d225",
+      "gray_sha256": "e08449347a6d1aa1c556dac422c909988bef68f14940cb8e3cbb62ee7b3b2ec9",
+      "svg_sha256": "25b515d84dab2164c97eb766ba0b865ea47b45cb67dcbbf76ef7d2bc7bb62dea",
+      "insert_width_mm": 155,
+      "viewbox_width": 900,
+      "png_ppi_at_insert": 393,
+      "declared_min_label_px": 22,
+      "min_font_pt_at_insert": 10.74,
+      "dimensions_px": {
+        "width_px": 2400,
+        "height_px": 1307
+      },
+      "gray_semantics": "标签、位置、边框、实虚线、格内数字与形状共同承载含义；颜色只是辅助。"
+    },
+    {
+      "id": "图1-5",
+      "caption": "图案与逐行标记",
+      "section_anchor": "1.3.1后",
+      "instructional_purpose": "核对E05四行四列图案如何对应逐行标记，并定位单格改动。",
+      "description": "原创教学格图的原始行标记为1001、0110、0110、1001；仅第三行第二列由1改为0，因此第三行从0110变为0010。",
+      "source": "本书原创纸格教学示意；不是历史提花卡的复原。",
+      "status": "ready",
+      "editable_source": "assets/figures/ch01-history-layout/fig1-5.svg",
+      "file": "assets/figures/ch01-history-layout/fig1-5.png",
+      "png": "assets/figures/ch01-history-layout/fig1-5.png",
+      "grayscale_png": "assets/figures/ch01-history-layout/fig1-5-gray.png",
+      "sha256": "b348ba4546650c753a0f5fa2b485f78f4ace527fad22899307b31460231272e0",
+      "gray_sha256": "5238e0355918f0176a85fa44fe3fc4b26a916f5628e6590b1c7c5d3f63fcdac4",
+      "svg_sha256": "df68991b41004e25598c2f99ba8df8e9003282a7f5a8de8e4ecb0d0c89645e7c",
+      "insert_width_mm": 155,
+      "viewbox_width": 900,
+      "png_ppi_at_insert": 393,
+      "declared_min_label_px": 22,
+      "min_font_pt_at_insert": 10.74,
+      "dimensions_px": {
+        "width_px": 2400,
+        "height_px": 1360
+      },
+      "gray_semantics": "标签、位置、边框、实虚线、格内数字与形状共同承载含义；颜色只是辅助。"
+    },
+    {
+      "id": "图1-6",
+      "caption": "迁移中保留与改变的关系",
+      "section_anchor": "1.3.5后",
+      "instructional_purpose": "辨认织造表示与访谈整理之间可迁移的组织关系，同时保留不确定性和领域差异。",
+      "description": "织造示例以固定的四行格图和0/1标记表达可逐格复现的图案；访谈整理可按主题和时间关系索引，但要保留原句，并把不确定时间记为未确认。二者只共享可查找表示的做法，并非完全同构。",
+      "source": "本书原创教学映射，内容取自1.3.1与1.3.5的格图和虚构访谈示例。",
+      "status": "ready",
+      "editable_source": "assets/figures/ch01-history-layout/fig1-6.svg",
+      "file": "assets/figures/ch01-history-layout/fig1-6.png",
+      "png": "assets/figures/ch01-history-layout/fig1-6.png",
+      "grayscale_png": "assets/figures/ch01-history-layout/fig1-6-gray.png",
+      "sha256": "03aa0810d3ed15e7d58786391333f46fa4befa651971afcb8d318ccb4588ca8e",
+      "gray_sha256": "fd481ca16d87fe11d006fd345e36e953c5b217186369e01407a5b5b7c6fa1ef3",
+      "svg_sha256": "171deb83dcba7414bba324e2faff819bffad94f537402c819a78dd90544084cd",
+      "insert_width_mm": 155,
+      "viewbox_width": 900,
+      "png_ppi_at_insert": 393,
+      "declared_min_label_px": 22,
+      "min_font_pt_at_insert": 10.74,
+      "dimensions_px": {
+        "width_px": 2400,
+        "height_px": 1813
+      },
+      "gray_semantics": "标签、位置、边框、实虚线、格内数字与形状共同承载含义；颜色只是辅助。"
+    },
+    {
+      "id": "图1-7",
+      "caption": "同一展览决定中的四种视角",
+      "section_anchor": "1.4.3标题修订段后",
+      "instructional_purpose": "围绕同一个展览标题展示四类思维如何提出不同问题，并看出它们共同影响方案且没有高低排序。",
+      "description": "以“公告板为什么失灵”为原拟标题，中心展示“几段经历中的纸面通知”这一暂定修订示例：批判视角核对证据范围，设计视角检查首次观看者理解，系统视角看通知路径与反馈，计算视角记录来源、许可和核验；四者平行相连，不排序。",
+      "source": "本书原创教学示意；只依据题内两段模拟文字和空白表样，不加入真人录音、真实授权或题外材料。",
+      "status": "ready",
+      "editable_source": "assets/figures/ch01-history-layout/fig1-7.svg",
+      "file": "assets/figures/ch01-history-layout/fig1-7.png",
+      "png": "assets/figures/ch01-history-layout/fig1-7.png",
+      "grayscale_png": "assets/figures/ch01-history-layout/fig1-7-gray.png",
+      "sha256": "d9144be9dec7e7b458d122822fc0fb50011c42bc16e23357cefe4dacc08af7eb",
+      "gray_sha256": "c2d4843899ce95462bb1dda2ec9cfe76c8caae4c16c7c995800f28a99b3fc00b",
+      "svg_sha256": "3587a9596a78d3b992aae2e3dd0285e05b5d5340acbe35af995331674c418a64",
+      "insert_width_mm": 155,
+      "viewbox_width": 900,
+      "png_ppi_at_insert": 393,
+      "declared_min_label_px": 22,
+      "min_font_pt_at_insert": 10.74,
+      "dimensions_px": {
+        "width_px": 2400,
+        "height_px": 1933
+      },
+      "gray_semantics": "标签、位置、边框、实虚线、格内数字与形状共同承载含义；颜色只是辅助。"
+    }
+  ]
+}
