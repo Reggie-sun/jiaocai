@@ -1,0 +1,25 @@
+{
+  "e01_count": 12,
+  "D2_closed_count": 0,
+  "bottleneck_count": 0,
+  "impulse_N_s": 22.25,
+  "transfer_failure": "Q3:20>C1:12",
+  "e03_count": 2,
+  "e03_forced_Q2": [
+    "C1",
+    "S2"
+  ],
+  "intervals": {
+    "overlap": {
+      "overlap": true,
+      "shared_hours": [
+        10
+      ]
+    },
+    "touching": {
+      "overlap": false,
+      "shared_hours": []
+    }
+  },
+  "limit": "验证例题数值和关系，不判断教学质量或课堂效果"
+}

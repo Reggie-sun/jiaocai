@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440">
+  <rect width="960" height="440" fill="white"/>
+  <g font-family="Noto Sans CJK SC, sans-serif" fill="#202b37">
+    <text x="42" y="45" font-size="25">每项请求有候选，仍可能无法同时安排</text>
+    <text x="48" y="86" font-size="18">自拟反例：每个位置至多服务一个请求</text>
+    <rect x="32" y="110" width="650" height="270" fill="none" stroke="#666" stroke-width="2" stroke-dasharray="9 7" rx="12"/>
+    <g stroke="#556575" stroke-width="2.5">
+      <path d="M205 157 L520 194 M205 157 L520 298 M205 245 L520 194 M205 245 L520 298 M205 333 L520 194 M205 333 L520 298"/>
+    </g>
+    <g fill="#edf2f6" stroke="#283c50" stroke-width="2">
+      <rect x="78" y="132" width="128" height="50" rx="7"/>
+      <rect x="78" y="220" width="128" height="50" rx="7"/>
+      <rect x="78" y="308" width="128" height="50" rx="7"/>
+      <rect x="520" y="169" width="128" height="50" rx="7"/>
+      <rect x="520" y="273" width="128" height="50" rx="7"/>
+      <rect x="750" y="221" width="150" height="50" rx="7" fill="#fff"/>
+    </g>
+    <g font-size="22" text-anchor="middle">
+      <text x="142" y="165">T1</text><text x="142" y="253">T2</text><text x="142" y="341">T3</text>
+      <text x="584" y="202">位置 b</text><text x="584" y="306">位置 c</text><text x="825" y="254">位置 d</text>
+    </g>
+    <g font-size="18" text-anchor="middle">
+      <text x="354" y="405">三个请求共同只能选择两个位置：3 &gt; 2</text>
+      <text x="825" y="303">存在但没有允许边</text>
+      <text x="825" y="333">不能解除当前瓶颈</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,120 @@
+{
+  "base_commit": "e9394b5c9c681cecfafa3bbfab76b5a3924ed783",
+  "baseline": {
+    "manuscripts/ch01/s1-2.md": "dbea176c23e59c169d65e465302300b6201b598049adf96bccb72a76ecde4878",
+    "manuscripts/ch01/opening.md": "a5ff5fe92aeb5d1721b8dd8b83fe867a33327d0a5b899819cb3c2ac949941be1",
+    "manuscripts/ch01/s1-3.md": "d2d5202bd63b38930e0805e0c741b2beb535208e89552bb0ae28b176d5bcb894",
+    "manuscripts/ch01/ch01.md": "c1709f5a11b65d8400f809cc19807fecced90c6df6b6d39b1586ed127d7c6b23",
+    "manuscripts/ch01/s1-4.md": "8a2b60802c426d271bb6cfb481336d899c9cd3377e57150b51c6f1772ea09bb4",
+    "manuscripts/ch01/closing.md": "2e8b8d99a8aee9f152b7feb3814bfee1edde04aa1e694810ed5976f50b43ca53",
+    "manuscripts/ch01/s1-1.md": "a126c693df95494dc71a7eba14be3a59860f586d0ad6b80981fad48d0e78e4aa",
+    "assets/figures/ch01/fig1-6.png": "e28201997483140669a0f69a821e2889c989fa9e051b96d58d36d9ac56e7e599",
+    "assets/figures/ch01/fig1-7.png": "2085f2da750c830d3c98cee468a5bd9c9201c90c8d615e97ed560c452243eff9",
+    "assets/figures/ch01/fig1-3.svg": "829a6d547a843fd89eff0202ae2a7341c91aa0520b43cd40688a1e023b2b30ac",
+    "assets/figures/ch01/fig1-7.svg": "903875007d56feb0303ce8ca651f50d51573d32c85afca0bb63653cf7c424071",
+    "assets/figures/ch01/fig1-4.png": "fc53c55586fd100674416c89e1b38ac4f203c99cec852bc2976fe44a4d7825e1",
+    "assets/figures/ch01/fig1-6.svg": "4b5d62e63a2eb1cb5d2cb6d72aa0cee6d70a857b6726dd1a2e9529c8d205c15a",
+    "assets/figures/ch01/fig1-3.png": "5d25c662bdd870bda8c68183ebfb928b2580d1b54acd87e9b664deacc5eeb572",
+    "assets/figures/ch01/fig1-2.png": "04595c9301990bcb3cabc3d3881faefe115d25cd1c9f929d479c0eda96e53966",
+    "assets/figures/ch01/manifest.json": "fa77a25759085d749e51337f2f8f7909137f6a382c258a1b0dc2156686da60de",
+    "assets/figures/ch01/fig1-5.png": "acf19dc5e6c8b724727669ffd3c0ce16e24cd71623c04ed8c9467be2dd4001a5",
+    "assets/figures/ch01/fig1-5.svg": "79ce5472377981db3e425b1da0a2b858772d484b0141b339ab68ba4675460ffe",
+    "assets/figures/ch01/fig1-1.svg": "a8944e1c23ecc9b75bd005b838ff837625449dc7ec83b91a9ebece66b252a1d8",
+    "assets/figures/ch01/fig1-2.svg": "37040cd20362f87ca88fb0ec1ef9231207dd832f8cc923abd164bf30c2f3b78e",
+    "assets/figures/ch01/fig1-1.png": "5c35d96b6328cca99cba82f0366678f34b6cf0abf46fc6bb8abb0d11c663a1ae",
+    "assets/figures/ch01/fig1-4.svg": "f41bf0d85d97b1a7c9e2b85242f4a6ecf8bbdf058975d5e4425a2ba5e287ca40",
+    "materials/ch01/e03-rooms.json": "11e5a893266bf547c27f24f87f9901c0d1fafaaad65bd302415eb7d3177c37ac",
+    "materials/ch01/e01-requests.json": "c1d6c42cb00dc462b041695d3e86a90c3586962f7bd5d58d017fe81e1a2ea15f",
+    "materials/ch01/e01-devices.json": "6a8d50fd2048746d1a07beae4f0fe7aa1ebe56ee329bc9072b035fc413071dd3",
+    "materials/ch01/e05-data.json": "e5a9fb2314539931c75df3bd966cf746e1c2796133fa48cb1beb7cf2994ccc9d",
+    "materials/ch01/e04-guidance.json": "f600619afeccee20aa18b2a4d2b99b6ee8d49fb75c40d1ed1ce725d30651a379",
+    "materials/ch01/executable-evidence.json": "ee0f8cb8ee29c3fe486782b7e0cfbf76960a4add96be00a6fba51ecb5cf1db16",
+    "materials/ch01/exercise-qa.adjudication.json": "fed758ef807d5ca9667b3b78fb4ecce875d1db8eb316c38c50edcb4cfef53c83",
+    "materials/ch01/glossary.json": "bc69fc2625fcee4fa32f4474263124cb41e8e4b42a46819d5f71ae15f184ea21",
+    "materials/ch01/claims.json": "75e7284ebc5f947ee33750d80c004f816a595737fe41e8d3a1bfc2f40d3b79fb",
+    "materials/ch01/e02-readings.json": "9fed3f2de47f6630f12d1037922820717ac4049585e1eab9161e6978944b2aac",
+    "materials/ch01/e02-guidance.json": "ae08816cece7d3e29c85303c27f3ed328a05948ba64af56e9b44662ac9571ddc",
+    "materials/ch01/e03-requests.json": "e2bb98a8a72055865942f0b2fda78411fef59fc7ee488c4f881f989b10e384e7",
+    "materials/ch01/exercise-qa.scope.md": "7caeca92c8b0537e7a776b18d7d08f847ce20bf8b42e7a4c122aa6c749195c13",
+    "materials/ch01/sources.json": "b8307bd5a847cce162ceb2d02120b3cf4e46db7bc965061db36d4a405b817293",
+    "materials/ch01/exercise-qa.evidence.json": "286b3b67b9ab0c8cd468edc224dcaec387c125c98c638d6ba2c48ae3c89d1b90",
+    "materials/ch01/implementation-risk.json": "e00a2e4eb66b8681cf0ee832466abf2170d8101677a6ea42c2486d54df77ddfc",
+    "materials/ch01/exercise-qa.receipt.json": "8029cedaa82982ba2a9cd5085d6d9f5eee0faf5d0ae12e1fdd71cef844418df0",
+    "materials/ch01/e01-rules.json": "0ebdeaa96a188b26560016e70c4e59c308e748362cc86576ea7a4721d98952eb",
+    "materials/ch01/e03-guidance.json": "13037284a97bc80a5a94ba8abb8901265a3f151ea1ef8034ba0fa525b7064c10",
+    "materials/ch01/exercise-qa.report.json": "878b94c3de6d4fcd72e6f50e24ecd2e72a01dc5db56e8f44f3f826ff5ca22580",
+    "materials/ch01/render_figures.py": "12a6dc4c0a21a8188577071da021532fb0d68c4f3655751ee348ff0df2b3e9d1",
+    "materials/ch01/verification.json": "2f8b3d462058a641eadec148e913a572f7df51dc1ae1f4dc2b39d5353c64a587",
+    "materials/ch01/e03-rules.json": "bc7fc382b736275c6c6b5687257909ed05ca20295a949dce812869030da3eeb3",
+    "materials/ch01/e04-brief.json": "234d7e78eb7d434332bc0a382c7eedc5832f301bf50030a0c57a4a85c1ced950",
+    "materials/ch01/exercise-qa.inputs.json": "63afea7866b16a59a6d83ccd8260c17b6b29cb9d8a43bbfa9fee5bebc7289883",
+    "materials/ch01/e05-guidance.json": "8fe4d4ed0e1a96eca5465dd296736204b2166610f18f09f2d25d7b761c61a969",
+    "materials/ch01/e01-reference.json": "bef784a04019faa0ededff40778f51f75da0b1624f7410a00bc833edef58cd8d",
+    "materials/ch01/verify_exercises.py": "82419b6cf01e92659339748bfcca094d2afe0ef7c28157f1937a09298bda76a6",
+    "materials/ch01/e05-rules.json": "e93061653d5134e313cd08135c9696459a0e45733ae955bc50fe945de461592b",
+    "specs/ch01.spec.md": "2c892d3cc5a98bcde6a10897685ca1a41f78222db2d45d1e793d143b2b74b386",
+    "plans/ch01.plan.md": "0bd8bdb2fcb723ab7ada4ef32065f51ecec103094bf0e85e704d6ca5d8182174",
+    "scripts/harness.py": "3d226917d2aa30da1de9e48d6c7ee941cc3f84a9da9529212ae8e3360fbfb1af",
+    "harness.json": "b6c4b176302bd69078aa910e69cc41cf8ed5e403359640fae70c6b59ca6888f0",
+    "AI时代的计算思维--跨界创新与终身学习能力培养-教材大纲.docx": "4b2526dd13a07ea1facaeefcef09658b9df46ab4496df6c782c8dc222967d8be",
+    "AI时代的思维训练3.1节样稿.docx": "2fde276942f55dd4cfb00f0036a0d4a8935bd8320cef4c2eb0c47ed707e5aa17"
+  },
+  "pilot_scope": [
+    "1.1.3",
+    "1.3.2"
+  ],
+  "scope_limit": "原稿与原工程证据保留；片段不等于完整节或整章验收",
+  "quality_contracts": {
+    "specs/authoring-quality.spec.md": "3313588fc3551633f3182cdce9e5e597ff8db6c1587c91c5da33f1041cdc002e",
+    "specs/ch01-quality.spec.md": "9b39e4c058e658d76b78672a7afd0438bd1bc662f3d6c0e5428af9d37fe874a1",
+    "plans/authoring-quality.plan.md": "88338aef0c38e9e2f3274be2e51cc124e6780f7c2c4be2d2b7c4f68c0ca3d28a",
+    "skills/textbook-authoring/SKILL.md": "c8f3b491daf9d4ba2810d5db0750d1ae197de76a1cf7c4d5d7491ea80fb3e409"
+  },
+  "candidate": {
+    "manuscripts/ch01-quality-pilot/s1-1-3.md": "9a7c317bc51dd9b690872f77e6680776799f09276068a1bf8f89f471041b0bbd",
+    "manuscripts/ch01-quality-pilot/s1-3-2.md": "929a406c8f9a3c5610e683cb1f042e418b2127045b6a239c39a2deefd25e661c",
+    "assets/figures/quality-pilot/bottleneck.svg": "cde6505bb388057c1ad03e78c79931cbe4937477332740a93df49be0fa9e0762",
+    "assets/figures/quality-pilot/bottleneck.png": "705362f2c0c50faf99ded793491fcc22ec11533414321c303f58925ed880299e",
+    "materials/quality-pilot/examples.json": "5becc7e5dd576673a0808592deed993d6376b99ff091d6b82d1600ff7c6fca5e",
+    "materials/quality-pilot/verify_examples.py": "1fd4c6e1ca0c1938401184fbf4fdb0247b1d79cb303827b8b9e51b6749fb14e4",
+    "materials/quality-pilot/executable-evidence.json": "0379558b70dbf5aa059db4589a916f8100ab2fec0aa030f8c92384b72788ad59"
+  },
+  "first_review_package": {
+    "materials/quality-pilot/comparison-x.md": "4a83314f0587a340cce3521ebce8d4b1be3a451cde27f2374607a68c7d653b32",
+    "materials/quality-pilot/comparison-y.md": "49e8e41bd6d8e3e36031e9ccfae0d87e242a0be8675a712b8e39466479b67551",
+    "materials/quality-pilot/review-brief.md": "32339ffc251baea489dc6719a55c04105c50703bfd35d0be77adf87b449f546a"
+  },
+  "first_candidate": {
+    "manuscripts/ch01-quality-pilot/s1-1-3.md": "0832975220798466086755dab1ce63a5861af802daa47cb63f5cd11e46990979",
+    "manuscripts/ch01-quality-pilot/s1-3-2.md": "d0c6aff732b8b0a1f2669c2c47fc4a52ffd30c1d81a8f156845337b41cf28228",
+    "assets/figures/quality-pilot/bottleneck.svg": "cde6505bb388057c1ad03e78c79931cbe4937477332740a93df49be0fa9e0762",
+    "assets/figures/quality-pilot/bottleneck.png": "705362f2c0c50faf99ded793491fcc22ec11533414321c303f58925ed880299e",
+    "materials/quality-pilot/examples.json": "5becc7e5dd576673a0808592deed993d6376b99ff091d6b82d1600ff7c6fca5e",
+    "materials/quality-pilot/verify_examples.py": "299e4665f657f2999af366d20fe90191fbb6153bbc82f59d115805bcfb0638e5",
+    "materials/quality-pilot/executable-evidence.json": "c9a11e9cbecdd84580f6ae8b98a5855d255cbd9028c554964017e4b3f2eb79ba"
+  },
+  "final_review_evidence": {
+    "materials/quality-pilot/subject-review.receipt.json": "c7bdf5c7ab3bc577673fee7ce6735f42c2bdf996f60935b92da09b14927e53b0",
+    "materials/quality-pilot/subject-review.report.json": "f52089e632b851c60ca85b5ac5896d1ad2aaa9ce90008cd7d96133018bdf7fae",
+    "materials/quality-pilot/subject-recheck.receipt.json": "c9bf04017da5b410de7b467c764231964e504bd96f29c6827da11ead5f50c7bc",
+    "materials/quality-pilot/subject-recheck.report.json": "a85462f0ddc44dbd929b936acd6b45a3e0cb72ad7ccb7689955b03193ccdb5d7",
+    "materials/quality-pilot/teaching-review.md": "12cbd49a45c0bb662da4824e63eb28d0919e03fdf5301466d089e0db5061ff49",
+    "materials/quality-pilot/teaching-recheck.md": "5ae5b1ad9bf39c2356dad53fca3fd8b8c09cf7b11c1f754451f139b067c1ccb2",
+    "materials/quality-pilot/adjudication.json": "ac341f97b669a83e75aac30ea3707a8dff59beff71ff316cf69fcdf885488c1c"
+  },
+  "reviewed_quality_contracts": {
+    "specs/authoring-quality.spec.md": "3313588fc3551633f3182cdce9e5e597ff8db6c1587c91c5da33f1041cdc002e",
+    "specs/ch01-quality.spec.md": "4c989dfcbe09af9ed2600ce199d62b8933c2105609af813d5e53cd71ddf2ac60",
+    "plans/authoring-quality.plan.md": "88338aef0c38e9e2f3274be2e51cc124e6780f7c2c4be2d2b7c4f68c0ca3d28a",
+    "skills/textbook-authoring/SKILL.md": "c8f3b491daf9d4ba2810d5db0750d1ae197de76a1cf7c4d5d7491ea80fb3e409"
+  },
+  "non_semantic_metadata_edits": [
+    {
+      "path": "specs/ch01-quality.spec.md",
+      "old_sha256": "4c989dfcbe09af9ed2600ce199d62b8933c2105609af813d5e53cd71ddf2ac60",
+      "new_sha256": "9b39e4c058e658d76b78672a7afd0438bd1bc662f3d6c0e5428af9d37fe874a1",
+      "change": "形式式→形式表示",
+      "reason": "纯笔误，未改变学习目标、选择自由、契约或范围；未声称reviewer读取新字节。"
+    }
+  ]
+}

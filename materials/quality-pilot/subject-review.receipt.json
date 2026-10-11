@@ -1,0 +1,230 @@
+{
+  "attempt_id": "9af8030c-e50c-4721-9056-ce70d38932ef",
+  "invocation_id": "ca3c5889-3c82-4ff7-9be4-3acf7e424b64",
+  "parent_session_id": "codex-jiaocai-quality-20261011",
+  "router": {
+    "source_sha256": "35618260d4f5b75cb19c929ee1511f2dfd5f63578b2b3bb0524957f034b6c705",
+    "version": "0.1.0"
+  },
+  "schema_version": 1,
+  "started_at": "2026-10-11T10:10:18.018818+00:00",
+  "task_id": "textbook-content-comparison",
+  "artifacts": [
+    {
+      "media_type": "application/json",
+      "path": "execution-view.json",
+      "producer": "supervisor",
+      "redaction_count": 0,
+      "redaction_version": 1,
+      "representation": "filtered",
+      "sha256": "e4ab47094327e2129af621fe223a8aa749211555cd80fc3e41f9252df231a75e",
+      "size": 2489
+    },
+    {
+      "media_type": "application/x-ndjson",
+      "path": "stdout.jsonl",
+      "producer": "supervisor",
+      "redaction_count": 0,
+      "redaction_version": 1,
+      "representation": "filtered",
+      "sha256": "445f2f94a4bd1f7b0e1217b1a8e7a3c62a642a291c3fbec2f406ba5852d92aec",
+      "size": 2158389
+    },
+    {
+      "media_type": "text/plain",
+      "path": "stderr.txt",
+      "producer": "supervisor",
+      "redaction_count": 0,
+      "redaction_version": 1,
+      "representation": "filtered",
+      "sha256": "a135ab480d071b53b3d46164252c46b2e08e7b0f107f4d4e5120fda3feef150e",
+      "size": 73
+    },
+    {
+      "media_type": "application/json",
+      "path": "worker-report.json",
+      "producer": "worker",
+      "redaction_count": 0,
+      "redaction_version": 1,
+      "representation": "filtered",
+      "sha256": "f52089e632b851c60ca85b5ac5896d1ad2aaa9ce90008cd7d96133018bdf7fae",
+      "size": 9951
+    }
+  ],
+  "budgets": {
+    "context_bytes": 8388608,
+    "generation_tokens": 32000,
+    "idle_seconds": 1800,
+    "output_bytes": 16777216,
+    "request_limit": 64,
+    "wall_seconds": 3600
+  },
+  "classification": "PARSED",
+  "containment": {
+    "checks": {
+      "apparmor": true,
+      "capabilities_dropped": true,
+      "clean_environment": true,
+      "docker_socket_denied": true,
+      "external_network_denied": true,
+      "host_home_denied": true,
+      "host_ipc_denied": true,
+      "host_proc_denied": true,
+      "host_secret_denied": true,
+      "no_broker_in_test_domain": true,
+      "no_new_privileges": true,
+      "non_root": true,
+      "private_processes": true,
+      "root_write_denied": true,
+      "scratch_writable": true,
+      "sealed_read": true,
+      "seccomp": true,
+      "source_chmod_denied": true,
+      "source_write_denied": true,
+      "symlink_escape_denied": true
+    },
+    "image": "sha256:08efb085f717fe5792d7380a069c3f770422fa09770d904e6e2436e3706e0c85",
+    "live_identity": "NOT_EVALUATED",
+    "native_denials": [
+      "Read",
+      "Read",
+      "Bash",
+      "Task",
+      "mcp__evil__run"
+    ],
+    "native_tools": "VERIFIED",
+    "os_boundary_verified": true,
+    "primitive": "docker",
+    "project_access": true,
+    "proof": "synthetic_adversarial_execution",
+    "qualified": true,
+    "runtime_sha256": "722210f05ba494d8f6df69423c4d4f2960900f7a007d0532851c7a36e375cab7"
+  },
+  "contract_seal": "4c254e2f2aa5f07bb9dbc3c7580a1215cb46eec24327ee76eb11e5b11b89001a",
+  "evidence_kind": "live",
+  "fallback": "forbidden",
+  "internal_retry_count": "unknown",
+  "kind": "project-invocation",
+  "observations": [
+    {
+      "actual_cost": null,
+      "attempt_id": "66f5f075-bcd5-4887-a9d0-4ba4f24b2c7b",
+      "budget_phase": "EXPLORE",
+      "classification": "IDENTITY_VERIFIED",
+      "client_request_sha256": "45f50ed29616a9dabbe0f386f36b5e0d1eec8db2359620745e34ca2ff44eb003",
+      "duration_seconds": 8.813291656028014,
+      "effort": "max",
+      "generation_token_limit": 32000,
+      "http_status": 200,
+      "message_id": "msg_HJscF4MdKXPDtqEP4kIjaUOf",
+      "proof": "authenticated_endpoint_declaration",
+      "request_max_tokens": 32000,
+      "request_model": "k3",
+      "request_number": 1,
+      "request_sha256": "25a2e9eea15de35b65622c672e9202d61bbc33718a6a50a2903f1eecebee7048",
+      "response_model": "k3",
+      "response_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "thinking": {
+        "type": "adaptive"
+      },
+      "upstream_bytes_received": 17834,
+      "upstream_host": "api.kimi.ai",
+      "upstream_request_id": "msg_HJscF4MdKXPDtqEP4kIjaUOf",
+      "usage": {
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 2560,
+        "input_tokens": 5794,
+        "output_tokens": 215
+      },
+      "wire_started": true
+    },
+    {
+      "actual_cost": null,
+      "attempt_id": "68cf062a-bcea-4b8f-9cfa-f4ae6e2468e7",
+      "budget_phase": "EXPLORE",
+      "classification": "IDENTITY_VERIFIED",
+      "client_request_sha256": "39425d3ad311aa45567a64bc052d318b095e61ea8650fcee4aa1782d9128e9df",
+      "duration_seconds": 408.5061584470095,
+      "effort": "max",
+      "generation_token_limit": 32000,
+      "http_status": 200,
+      "message_id": "msg_h5amoxhECyXBXDujCSaZeXVu",
+      "proof": "authenticated_endpoint_declaration",
+      "request_max_tokens": 32000,
+      "request_model": "k3",
+      "request_number": 2,
+      "request_sha256": "2c041b9f384035416bdaba883d5fef96375442a42bdbe4959ad9dfcea77129ab",
+      "response_model": "k3",
+      "response_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "thinking": {
+        "type": "adaptive"
+      },
+      "upstream_bytes_received": 1690250,
+      "upstream_host": "api.kimi.ai",
+      "upstream_request_id": "msg_h5amoxhECyXBXDujCSaZeXVu",
+      "usage": {
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 8192,
+        "input_tokens": 6721,
+        "output_tokens": 13479
+      },
+      "wire_started": true
+    }
+  ],
+  "observed_reads": [
+    {
+      "end_line": 18,
+      "native_tool_use_id": "tool_lsEoEdS5xfbh5bko8beqA2sf",
+      "path": "/home/reggie/vscode_folder/jiaocai/materials/quality-pilot/examples.json",
+      "sha256": "5becc7e5dd576673a0808592deed993d6376b99ff091d6b82d1600ff7c6fca5e",
+      "start_line": 1,
+      "status": "complete",
+      "truncated": false
+    },
+    {
+      "end_line": 8,
+      "native_tool_use_id": "tool_YmuOCYHMjWNkBMaXlwuFbHIB",
+      "path": "/home/reggie/vscode_folder/jiaocai/materials/quality-pilot/review-brief.md",
+      "sha256": "32339ffc251baea489dc6719a55c04105c50703bfd35d0be77adf87b449f546a",
+      "start_line": 1,
+      "status": "complete",
+      "truncated": false
+    },
+    {
+      "end_line": 101,
+      "native_tool_use_id": "tool_peg3kfoLp7PAmAPfwnmdoJTS",
+      "path": "/home/reggie/vscode_folder/jiaocai/materials/quality-pilot/comparison-y.md",
+      "sha256": "49e8e41bd6d8e3e36031e9ccfae0d87e242a0be8675a712b8e39466479b67551",
+      "start_line": 1,
+      "status": "complete",
+      "truncated": false
+    },
+    {
+      "end_line": 83,
+      "native_tool_use_id": "tool_pU3KAgxKE69fmzt1JwADEdBr",
+      "path": "/home/reggie/vscode_folder/jiaocai/materials/quality-pilot/comparison-x.md",
+      "sha256": "4a83314f0587a340cce3521ebce8d4b1be3a451cde27f2374607a68c7d653b32",
+      "start_line": 1,
+      "status": "complete",
+      "truncated": false
+    }
+  ],
+  "orchestration_retries": 0,
+  "parent_acceptance": "NOT_EVALUATED",
+  "process": {
+    "descendants_terminated": false,
+    "duration_seconds": 418.6326285790419,
+    "exit_code": 0,
+    "reason": "exited",
+    "stderr_observed_bytes": 73,
+    "stdout_observed_bytes": 2158389,
+    "truncated": false
+  },
+  "report_format": "claude-json-schema-v1",
+  "route_qualification": {
+    "invocation_id": "4f2d5dc8-4234-4665-b382-e82f1ad6cc00",
+    "sha256": "5f3c17dcefcff35f54db521fa4c5435d8f9fb0b1da9ca4e108106a66cb767555"
+  },
+  "wire_requests": 2,
+  "finalized_at": "2026-10-11T10:17:21.911069+00:00"
+}

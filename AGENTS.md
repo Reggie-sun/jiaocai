@@ -13,6 +13,10 @@
 
 ## Writing
 
+当前教学方法的版本化owner为 [textbook-authoring/SKILL.md](skills/textbook-authoring/SKILL.md)，已安装同名Skill只转接；正文写作/修订还须读取 [质量规格](specs/authoring-quality.spec.md) 及当前章Spec中的质量约定。第一章仅作第一轮基线，不作为后续九章必须模仿的标准样板。
+
+第一章质量增量见 [ch01-quality.spec.md](specs/ch01-quality.spec.md)，有限对照的依赖与边界见 [改进plan](plans/authoring-quality.plan.md)；原正文与历史spec/plan保留，试写不自动替换整章。
+
 收到教材目录、正文、练习、图表规划或审校任务时，读取 [textbook-authoring/SKILL.md](/home/reggie/.local/share/chatgpt-desktop/skills/textbook-authoring/SKILL.md) 取得教学标准与能力入口。模型自主选择写作策略、任务拆分、检索工具与修改顺序；spec约束交付目标，plan提供依赖与里程碑，具体工程恢复以当前Harness为准。
 
 按章编写并验收，当前批次为第一章。开始正文前读取 [第一章specs](/home/reggie/vscode_folder/jiaocai/specs/ch01.spec.md) 与 [第一章plan](/home/reggie/vscode_folder/jiaocai/plans/ch01.plan.md)；内容契约和执行依赖由这两份Markdown文档维护，全书蓝图用于衔接。后续章的specs与plan同样使用Markdown，程序直接消费的工程登记与证据使用JSON。当前请求仅为规格与计划时，不执行正文任务。

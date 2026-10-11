@@ -1,0 +1,32 @@
+{
+  "review_kind": "independent",
+  "invocation_id": "9b7e687f-ba1c-4ceb-bd9c-5caf0c9dca6e",
+  "failed_predecessor": "c344ff02-1eba-4167-8adf-73227d91a0d3",
+  "failed_predecessor_outcome": "OUTCOME_UNKNOWN/BROKEN_PIPE; no report adopted",
+  "parent_owner": "Codex Parent",
+  "items": [
+    {
+      "id": "D1",
+      "decision": "CONFIRMED",
+      "issue": "方法概览缺少具体选择失败与回退推演",
+      "resolution": "试写1.1.3展示R2占a使R1失败，回退至b，再给完整合法选择；必要条件解释全局瓶颈。不添加无关复杂度段落。"
+    },
+    {
+      "id": "D2",
+      "decision": "CONFIRMED",
+      "issue": "迁移缺少足以判别旧规则是否仍成立的机制",
+      "resolution": "试写1.3.2展示合法性/唯一占用的映射条件，连续占用反例与集合/区间表示及对照。"
+    },
+    {
+      "id": "D3",
+      "decision": "FALSE_POSITIVE_AS_CHAPTER_GAP",
+      "issue": "两片段没有完整候选及逐项核验",
+      "evidence": [
+        "manuscripts/ch01/s1-1.md:211 参考安排与逐项检查",
+        "manuscripts/ch01/s1-3.md:28 旧安排到新场地的失败示例",
+        "manuscripts/ch01/s1-3.md:166 参考安排与核验"
+      ],
+      "resolution": "原章1.1.5与1.3.1/1.3.5已有此项，不按建议再复制完整四请求检查表，避免扩大重复。"
+    }
+  ]
+}

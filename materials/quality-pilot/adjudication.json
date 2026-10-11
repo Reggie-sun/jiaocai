@@ -1,0 +1,129 @@
+{
+  "parent_owner": "Codex Parent",
+  "scope": [
+    "1.1.3",
+    "1.3.2"
+  ],
+  "baseline_preserved": true,
+  "subject_review": {
+    "receipt": "subject-review.receipt.json",
+    "invocation_id": "ca3c5889-3c82-4ff7-9be4-3acf7e424b64",
+    "classification": "PARSED",
+    "limit": "只读两个中性片段和examples，不作全章/课堂结论"
+  },
+  "teaching_review": {
+    "agent": "/root/teaching_comparison",
+    "report": "teaching-review.md",
+    "limit": "两个比较片段及原1.1/1.3邻节、新图"
+  },
+  "items": [
+    {
+      "id": "CMP-113-DEPTH",
+      "decision": "CONFIRMED_IN_EXCERPT_SCOPE",
+      "evidence": "原片段口头回退；新片段R2占a失败/回退和必要计数条件均可手算",
+      "resolution": "保留新分析；不将缺口推广到已有完整数据与练习的整章"
+    },
+    {
+      "id": "CMP-113-GAP",
+      "decision": "CONFIRMED_AND_REVISED",
+      "evidence": "首轮候选缺少模式识别的显式协同作用",
+      "resolution": "瓶颈段补可复用结构与重查允许关系，结尾补模式识别和自动化"
+    },
+    {
+      "id": "CMP-132-DEPTH",
+      "decision": "CONFIRMED_IN_EXCERPT_SCOPE",
+      "evidence": "原章已有容量反例；连续占用只作提醒，未解释开始位置检查为何失效",
+      "resolution": "保留占用集合/区间反例、端点相接对照和状态/检查同步改变"
+    },
+    {
+      "id": "CMP-132-SCAFFOLD",
+      "decision": "CONFIRMED_AND_REVISED",
+      "evidence": "新稿表格仍有继承/重建，但原显式路线和容量口径说明有价值",
+      "resolution": "表后增加短操作路线与领域口径，不完整复制原五步清单"
+    },
+    {
+      "id": "TC-01",
+      "decision": "CONFIRMED",
+      "evidence": "基线移除候选后只说回退，恢复状态可能被误解",
+      "resolution": "新稿保留原候选并维护/撤销占用，给实际失败/修复轨迹"
+    },
+    {
+      "id": "TC-02",
+      "decision": "CONFIRMED",
+      "evidence": "单纯新增duration或细分时段仍无法修复开始位置检查",
+      "resolution": "新稿明确占用全段、修改搜索状态和检验，给重叠/相接对照"
+    },
+    {
+      "id": "PC-4",
+      "decision": "CLARIFIED_AND_SOURCE_CHECKED_BY_PARENT",
+      "evidence": "NASA原报告印刷p.16、p.7、p.25实际核对；5×4.45独立复算",
+      "resolution": "当前措辞数值约为应有值的1/4.45；不声称专业reader联网核验"
+    },
+    {
+      "id": "PC-5",
+      "decision": "CHECKED_BY_PARENT",
+      "evidence": "新SVG/PNG存在且Parent/native首轮实看，新图三请求共用两位置；Parent本轮实看旧fig1-5",
+      "resolution": "旧图仅容量/设施，不声称覆盖新连续占用；印刷尺寸仍待后续排版"
+    },
+    {
+      "id": "TR-SCOPE-01",
+      "decision": "CONFIRMED_PACKAGE_ERROR_AND_REPLACED",
+      "evidence": "第二轮教学reader只读brief即停止，未评当前正文",
+      "resolution": "停止报告保留；新独立会话使用中性brief实际读当前片段，不采用停止为内容证据"
+    },
+    {
+      "id": "RC2-132-OLDSOL",
+      "decision": "DOCUMENTED_NON_BLOCKING_CONTEXT",
+      "evidence": "原1.3.1实际列R1-a/R2-c/R3-d/R4-e；其对应沿用到新1.3.2。新1.1.3用另一解R1-a/R2-b/R3-c/R4-d；两解均由原E01域验证合法。",
+      "resolution": "不是同一解的错误宣称；报告说明区别，不为对齐而修改安排。完整合入时可再加跨节提示。"
+    },
+    {
+      "id": "RC2-META-E01-COUNT",
+      "decision": "REJECTED_INFERENCE_REPLACED_WITH_EXECUTABLE_EVIDENCE",
+      "evidence": "专业复查把候选边数1+3+4+4=12与12条可行安排一致作为佐证，但边数不能推出完整解数。例如四请求各只有相同三位置，共12条边而无完整单射。",
+      "resolution": "采用verify_examples.py从原JSON独立构造域并枚举的12条；不采用该reviewer计数理由。其他具体轨迹与瓶颈推理由Parent分别核对。"
+    },
+    {
+      "id": "RC2-READ-LIMITS",
+      "decision": "CLOSED_BY_PARENT_WITH_LIMITS",
+      "evidence": "原1.1.3表1-3列七方法；原1.1.5第217行说明十二组可行安排及后续变化，原JSON与当前domains由脚本独立核对；NASA/图由Parent实检。",
+      "resolution": "不声称专业reader核验未读材料，不按问题机械追加轮次；真实课堂与完整章质量保留未评。"
+    }
+  ],
+  "recheck": {
+    "subject": {
+      "receipt": "subject-recheck.receipt.json",
+      "report": "subject-recheck.report.json",
+      "invocation_id": "3e6c5c64-4a44-4151-ad51-d7f0cbc5e1b3",
+      "classification": "PARSED",
+      "round": 2,
+      "actual_reads_verified": 7,
+      "resolved": [
+        "CMP-113-GAP",
+        "CMP-132-SCAFFOLD"
+      ],
+      "current_hashes": {
+        "manuscripts/ch01-quality-pilot/s1-1-3.md": "9a7c317bc51dd9b690872f77e6680776799f09276068a1bf8f89f471041b0bbd",
+        "manuscripts/ch01-quality-pilot/s1-3-2.md": "929a406c8f9a3c5610e683cb1f042e418b2127045b6a239c39a2deefd25e661c"
+      }
+    },
+    "teaching": {
+      "agent": "/root/teaching_final_recheck",
+      "report": "teaching-recheck.md",
+      "findings": [],
+      "current_hashes": {
+        "manuscripts/ch01-quality-pilot/s1-1-3.md": "9a7c317bc51dd9b690872f77e6680776799f09276068a1bf8f89f471041b0bbd",
+        "manuscripts/ch01-quality-pilot/s1-3-2.md": "929a406c8f9a3c5610e683cb1f042e418b2127045b6a239c39a2deefd25e661c"
+      }
+    }
+  },
+  "completion": "completed_bounded_pilot_by_parent",
+  "unresolved_blockers": [],
+  "limits": [
+    "非完整节/整章验收",
+    "AI比较非人类课堂效果",
+    "首次package中性标记非严格盲测",
+    "未验证未来九章持续效果"
+  ],
+  "quality_judgment": "两个片段的解释和操作增量有具体证据；无整章/长期/课堂结论；未解决阻断项为0，保留上下文改进建议。"
+}

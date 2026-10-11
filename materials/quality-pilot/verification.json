@@ -1,0 +1,224 @@
+{
+  "date": "2026-10-11",
+  "verification_owner": "Codex Parent",
+  "base_commit": "e9394b5c9c681cecfafa3bbfab76b5a3924ed783",
+  "scope": "教材生成与审校方法及两个片段；无正式章替换、无下一章、无新Harness评分器",
+  "stable_snapshot": {
+    "id": "sha256:95946110f942151dabac90d6868ec3f278f7fbfe2e01038e49c38b12c1f79111",
+    "artifact": "snapshot.json",
+    "core_current_hashes": {
+      "AGENTS.md": "6becc7b653a33b57f6b74cf337cfa9f37e14a0b857bb432541127ba567599fa5",
+      "README.md": "1c073003b18524cc051379f4a7c6d20e3afac989e4514183a70cd34d6f7cc127",
+      "assets/figures/quality-pilot/bottleneck.png": "705362f2c0c50faf99ded793491fcc22ec11533414321c303f58925ed880299e",
+      "assets/figures/quality-pilot/bottleneck.svg": "cde6505bb388057c1ad03e78c79931cbe4937477332740a93df49be0fa9e0762",
+      "manuscripts/ch01-quality-pilot/s1-1-3.md": "9a7c317bc51dd9b690872f77e6680776799f09276068a1bf8f89f471041b0bbd",
+      "manuscripts/ch01-quality-pilot/s1-3-2.md": "929a406c8f9a3c5610e683cb1f042e418b2127045b6a239c39a2deefd25e661c",
+      "materials/quality-pilot/examples.json": "5becc7e5dd576673a0808592deed993d6376b99ff091d6b82d1600ff7c6fca5e",
+      "materials/quality-pilot/executable-evidence.json": "0379558b70dbf5aa059db4589a916f8100ab2fec0aa030f8c92384b72788ad59",
+      "materials/quality-pilot/verify_examples.py": "1fd4c6e1ca0c1938401184fbf4fdb0247b1d79cb303827b8b9e51b6749fb14e4",
+      "plans/authoring-quality.plan.md": "88338aef0c38e9e2f3274be2e51cc124e6780f7c2c4be2d2b7c4f68c0ca3d28a",
+      "skills/textbook-authoring/SKILL.md": "c8f3b491daf9d4ba2810d5db0750d1ae197de76a1cf7c4d5d7491ea80fb3e409",
+      "specs/authoring-quality.spec.md": "3313588fc3551633f3182cdce9e5e597ff8db6c1587c91c5da33f1041cdc002e",
+      "specs/ch01-quality.spec.md": "9b39e4c058e658d76b78672a7afd0438bd1bc662f3d6c0e5428af9d37fe874a1"
+    },
+    "reports": "actual Read/receipt保持原始哈希，不手填新哈希复用旧结论"
+  },
+  "checks": {
+    "harness_tests": {
+      "command": "python3 -m unittest discover -s tests -v",
+      "exit_code": 0,
+      "tests": 51,
+      "seconds": 9.398,
+      "stdout_sha256": "a7967daa7cf29ce64e23f5c38d85db4c07c3d47a5a44ed7e3de743d367c02bb3",
+      "engine_and_policy_bytes_unchanged": true
+    },
+    "harness_validate": {
+      "command": "python3 scripts/harness.py validate",
+      "valid": true,
+      "runs": 2
+    },
+    "original_chapter_status": {
+      "command": "python3 scripts/harness.py status --id ch01-draft",
+      "state": "accepted",
+      "effective_state": "accepted",
+      "stale_reasons": [],
+      "limit": "旧契约chapter/draft，非v2整章内容验证"
+    },
+    "baseline": {
+      "files": 57,
+      "changed": []
+    },
+    "examples": {
+      "command": "python3 materials/quality-pilot/verify_examples.py",
+      "exit_code": 0,
+      "result": {
+        "e01_count": 12,
+        "D2_closed_count": 0,
+        "bottleneck_count": 0,
+        "impulse_N_s": 22.25,
+        "transfer_failure": "Q3:20>C1:12",
+        "e03_count": 2,
+        "e03_forced_Q2": [
+          "C1",
+          "S2"
+        ],
+        "intervals": {
+          "overlap": {
+            "overlap": true,
+            "shared_hours": [
+              10
+            ]
+          },
+          "touching": {
+            "overlap": false,
+            "shared_hours": []
+          }
+        },
+        "limit": "验证例题数值和关系，不判断教学质量或课堂效果"
+      }
+    },
+    "skill_validation": {
+      "command_prefix": "/usr/bin/python3 /home/reggie/.codex/skills/.system/skill-creator/scripts/quick_validate.py",
+      "paths": [
+        "skills/textbook-authoring",
+        "/home/reggie/.local/share/chatgpt-desktop/skills/textbook-authoring"
+      ],
+      "results": [
+        "Skill is valid!",
+        "Skill is valid!"
+      ],
+      "installed_entry_sha256": "17aef551f04e06d73f58f94bda3a54e8c52ed9e39016aa1c93ed26e18fa4e209"
+    },
+    "local_links": {
+      "checked": 106,
+      "missing": []
+    },
+    "diff_check": {
+      "command": "git -c core.whitespace=-blank-at-eof diff --cached --check",
+      "exit_code": 0,
+      "default_check_exit_code": 2,
+      "preserved_snapshot_warnings": [
+        "materials/quality-pilot/baseline-excerpts.md:76: new blank line at EOF.",
+        "materials/quality-pilot/comparison-y.md:100: new blank line at EOF."
+      ],
+      "reason": "原始摘录/首轮实际Read package保留逐字节哈希，不为移除EOF空行改写历史证据；其余默认whitespace检查通过。"
+    },
+    "actual_images_viewed": [
+      "assets/figures/quality-pilot/bottleneck.png",
+      "assets/figures/ch01/fig1-5.png"
+    ],
+    "nasa_primary": {
+      "url": "https://llis.nasa.gov/llis_lib/pdf/1009464main1_0641-mr.pdf",
+      "pdf_sha256": "d2d88108a22d26f8fdeeacc68aa37af2b195f2829ad768619b31c78847b6681f",
+      "printed_pages": [
+        7,
+        16,
+        25
+      ],
+      "checked_by": "Parent",
+      "reviewer_network_verification": "NOT_EVALUATED"
+    }
+  },
+  "content_review": {
+    "professional_rounds": 2,
+    "professional_latest_receipt": "subject-recheck.receipt.json",
+    "teaching_attempts": 3,
+    "teaching_latest_report": "teaching-recheck.md",
+    "findings_and_parent_decisions": "adjudication.json",
+    "current_candidate_bytes_unchanged_since_latest_valid_reviews": true,
+    "human_teaching_review": "NOT_EVALUATED",
+    "engineering_acceptance_of_pilot": "NOT_APPLICABLE_fragment_scope",
+    "non_semantic_spec_typo_after_recheck": [
+      {
+        "path": "specs/ch01-quality.spec.md",
+        "old_sha256": "4c989dfcbe09af9ed2600ce199d62b8933c2105609af813d5e53cd71ddf2ac60",
+        "new_sha256": "9b39e4c058e658d76b78672a7afd0438bd1bc662f3d6c0e5428af9d37fe874a1",
+        "change": "形式式→形式表示",
+        "reason": "纯笔误，未改变学习目标、选择自由、契约或范围；未声称reviewer读取新字节。"
+      }
+    ]
+  },
+  "implementation_review_risk_gate": {
+    "result": "KIMI_REVIEW_NOT_REQUIRED",
+    "candidate": {
+      "AGENTS.md": "6becc7b653a33b57f6b74cf337cfa9f37e14a0b857bb432541127ba567599fa5",
+      "README.md": "1c073003b18524cc051379f4a7c6d20e3afac989e4514183a70cd34d6f7cc127",
+      "assets/figures/quality-pilot/bottleneck.png": "705362f2c0c50faf99ded793491fcc22ec11533414321c303f58925ed880299e",
+      "assets/figures/quality-pilot/bottleneck.svg": "cde6505bb388057c1ad03e78c79931cbe4937477332740a93df49be0fa9e0762",
+      "manuscripts/ch01-quality-pilot/s1-1-3.md": "9a7c317bc51dd9b690872f77e6680776799f09276068a1bf8f89f471041b0bbd",
+      "manuscripts/ch01-quality-pilot/s1-3-2.md": "929a406c8f9a3c5610e683cb1f042e418b2127045b6a239c39a2deefd25e661c",
+      "materials/quality-pilot/examples.json": "5becc7e5dd576673a0808592deed993d6376b99ff091d6b82d1600ff7c6fca5e",
+      "materials/quality-pilot/executable-evidence.json": "0379558b70dbf5aa059db4589a916f8100ab2fec0aa030f8c92384b72788ad59",
+      "materials/quality-pilot/verify_examples.py": "1fd4c6e1ca0c1938401184fbf4fdb0247b1d79cb303827b8b9e51b6749fb14e4",
+      "plans/authoring-quality.plan.md": "88338aef0c38e9e2f3274be2e51cc124e6780f7c2c4be2d2b7c4f68c0ca3d28a",
+      "skills/textbook-authoring/SKILL.md": "c8f3b491daf9d4ba2810d5db0750d1ae197de76a1cf7c4d5d7491ea80fb3e409",
+      "specs/authoring-quality.spec.md": "3313588fc3551633f3182cdce9e5e597ff8db6c1587c91c5da33f1041cdc002e",
+      "specs/ch01-quality.spec.md": "9b39e4c058e658d76b78672a7afd0438bd1bc662f3d6c0e5428af9d37fe874a1"
+    },
+    "accepted_refs": {
+      "specs/authoring-quality.spec.md": "3313588fc3551633f3182cdce9e5e597ff8db6c1587c91c5da33f1041cdc002e",
+      "specs/ch01-quality.spec.md": "9b39e4c058e658d76b78672a7afd0438bd1bc662f3d6c0e5428af9d37fe874a1",
+      "plans/authoring-quality.plan.md": "88338aef0c38e9e2f3274be2e51cc124e6780f7c2c4be2d2b7c4f68c0ca3d28a",
+      "skills/textbook-authoring/SKILL.md": "c8f3b491daf9d4ba2810d5db0750d1ae197de76a1cf7c4d5d7491ea80fb3e409"
+    },
+    "explicit_kimi_implementation_review_request": false,
+    "critical_consequence": false,
+    "reason": "改动为可逆教学文档/提示契约、独立审校和只读示例核算。未触及凭据/授权/跨项目权限、生产状态、Harness状态机或数据迁移；无重大难恢复后果。",
+    "major_consequence_and_remaining_semantic_gap_and_kimi_gain": false,
+    "remaining_gap": "长期教学效果与真实先备无法由额外工程Kimi review解决；当前两片段由用户所要求的互补内容审校覆盖，数值由原数据复算。",
+    "no_extra_engineering_reviewer": "内容比较不是risk gate工程review，不因已有代理或一般文档更改追加一层。"
+  },
+  "record_capture": {
+    "repo_specific_capture_skill": "not_found",
+    "durable_records": [
+      "教材编写现状与目的.md",
+      "materials/quality-pilot/report.md",
+      "materials/quality-pilot/adjudication.json"
+    ]
+  },
+  "limits": [
+    "第一章仅首轮基线，不给未来九章提供必须模仿的模板",
+    "当前为片段质量校准，未完整章独立审校",
+    "原图片正式印刷尺度与全书排版未评",
+    "学生兴趣、时间、学习保持和迁移效果未评"
+  ],
+  "owned_paths": [
+    "AGENTS.md",
+    "README.md",
+    "assets/figures/quality-pilot/bottleneck.png",
+    "assets/figures/quality-pilot/bottleneck.svg",
+    "manuscripts/ch01-quality-pilot/s1-1-3.md",
+    "manuscripts/ch01-quality-pilot/s1-3-2.md",
+    "materials/quality-pilot/adjudication.json",
+    "materials/quality-pilot/baseline-excerpts.md",
+    "materials/quality-pilot/comparison-key.json",
+    "materials/quality-pilot/comparison-x.md",
+    "materials/quality-pilot/comparison-y.md",
+    "materials/quality-pilot/diagnosis-failed.receipt.json",
+    "materials/quality-pilot/diagnosis.adjudication.json",
+    "materials/quality-pilot/diagnosis.receipt.json",
+    "materials/quality-pilot/diagnosis.report.json",
+    "materials/quality-pilot/examples.json",
+    "materials/quality-pilot/executable-evidence.json",
+    "materials/quality-pilot/recheck-scope.md",
+    "materials/quality-pilot/report.md",
+    "materials/quality-pilot/research.md",
+    "materials/quality-pilot/review-brief.md",
+    "materials/quality-pilot/snapshot.json",
+    "materials/quality-pilot/subject-recheck.receipt.json",
+    "materials/quality-pilot/subject-recheck.report.json",
+    "materials/quality-pilot/subject-review.receipt.json",
+    "materials/quality-pilot/subject-review.report.json",
+    "materials/quality-pilot/teaching-recheck-brief.md",
+    "materials/quality-pilot/teaching-recheck-stopped.md",
+    "materials/quality-pilot/teaching-recheck.md",
+    "materials/quality-pilot/teaching-review.md",
+    "materials/quality-pilot/verification.json",
+    "materials/quality-pilot/verify_examples.py",
+    "plans/authoring-quality.plan.md",
+    "skills/textbook-authoring/SKILL.md",
+    "specs/authoring-quality.spec.md",
+    "specs/ch01-quality.spec.md",
+    "教材编写现状与目的.md"
+  ]
+}

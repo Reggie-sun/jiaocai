@@ -1,0 +1,17 @@
+{
+  "data_kind": "synthetic_teaching_data",
+  "scope": "仅为1.1.3和1.3.2试写的推演，不替换E01/E03",
+  "impulse": {"input_lbf_s": 5, "approximate_factor": 4.45, "expected_N_s": 22.25},
+  "domains": {
+    "R1": ["a"], "R2": ["a", "b", "c"],
+    "R3": ["b", "c", "d", "e"], "R4": ["b", "c", "d", "e"]
+  },
+  "positions": {"a": ["D1", "S1"], "b": ["D1", "S2"], "c": ["D2", "S2"], "d": ["D1", "S3"], "e": ["D2", "S3"]},
+  "bottleneck": {"resources": ["b", "c", "d"], "domains": {"T1": ["b", "c"], "T2": ["b", "c"], "T3": ["b", "c"]}},
+  "old_transfer_assignment": [["R1", "D1", "S1"], ["R2", "D2", "S2"], ["R3", "D1", "S3"], ["R4", "D2", "S3"]],
+  "interval_cases": {
+    "overlap": {"A": [9, 11], "B": [10, 11]},
+    "touching": {"A": [9, 10], "B": [10, 11]}
+  },
+  "interval_assumptions": ["同一场地", "左闭右开区间", "仅互斥占用", "无准备或清理间隔"]
+}
