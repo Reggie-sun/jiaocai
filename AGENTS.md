@@ -15,6 +15,10 @@
 
 当前教学方法的版本化owner为 [textbook-authoring/SKILL.md](skills/textbook-authoring/SKILL.md)，已安装同名Skill只转接；正文写作/修订还须读取 [质量规格](specs/authoring-quality.spec.md) 及当前章Spec中的质量约定。第一章仅作第一轮基线，不作为后续九章必须模仿的标准样板。
 
+教材必须从基础起步、由浅入深；全书入口、节内铺垫、练习分层及审校按主Skill的 [Difficulty Progression](skills/textbook-authoring/SKILL.md#difficulty-progression) 执行。大三、大四的读者定位不构成开篇直接进入复杂模型与高密度术语的理由。
+
+原提纲已明确的章标题保持不变，第一章以历史回顾为主，第二章讲AI时代计算思维的变化与重构；具体定位按主Skill的 [Titles and Chapter Roles](skills/textbook-authoring/SKILL.md#titles-and-chapter-roles) 与当前蓝图执行，缺失章节仍标为提案。
+
 教材写作、修订、审校及Word/PDF排版前，必须读取主Skill的 [Formal Textbook Style](skills/textbook-authoring/SKILL.md#formal-textbook-style)，沿用全书共用的`textbook-style-v1.0`；后九章及其Spec/plan直接引用该版本，不重新设计格式或复制样式细则。Word/PDF排版复用 [共用模板](templates/textbook-style-v1.0.dotx)，用法、已验证范围与限制见 [试排说明](materials/style-pilot/report.md)，文档生成与页面检查按下方Skill Routing选用能力。样张只用于格式验证，不作为固定节内教学结构或完整第一章排版验收；各节组织仍由学习目标与知识类型决定。
 
 第一章质量增量见 [ch01-quality.spec.md](specs/ch01-quality.spec.md)，有限对照的依赖与边界见 [改进plan](plans/authoring-quality.plan.md)；原正文与历史spec/plan保留，试写不自动替换整章。
