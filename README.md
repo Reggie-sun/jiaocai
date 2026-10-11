@@ -10,6 +10,8 @@
 
 全书体例已确定为`textbook-style-v1.0`，唯一owner是主Skill的 [Formal Textbook Style](skills/textbook-authoring/SKILL.md#formal-textbook-style)，包含题注、表格、章末答案、引用与Word/PDF命名样式。后九章直接继承，Spec/plan引用版本，不复制规则或重新设计格式；各节仍可选择适合知识类型的讲解方式。内容验收、文件导出与页面核验分别陈述，沿用现有Harness范围和阶段。
 
+共用[Word样式模板](templates/textbook-style-v1.0.dotx)及独立[试排Word](output/style-pilot/textbook-style-pilot.docx)/[PDF](output/style-pilot/textbook-style-pilot.pdf)用于小范围格式验证。模板只提供样式和章/节标题起点，不规定每节教学栏目。原第一章仍需修订，本轮未替换或整章排版；重建与已验证范围见[试排说明](materials/style-pilot/report.md)。
+
 模型根据学习目标自主选择策略、任务拆分、工具与修改顺序。章级spec约束交付内容与质量，plan提供依赖和里程碑；不要求逐条照演命令。探索、试写、检索、改稿与分节合并无需逐次登记或验收。按章推进时默认只在整章交付节点验收，只有实际交付独立蓝图或单节时才为该范围登记run。
 
 ## Delivery

@@ -1,0 +1,172 @@
+{
+  "date": "2026-10-11",
+  "scope": "small_style_pilot_only",
+  "style": "textbook-style-v1.0",
+  "snapshot": {
+    "manuscripts/style-pilot/sample.md": "c2123acedd560d9bb760ef4060962d7ab3bbee9dd60065b470b0bf212198afb3",
+    "materials/style-pilot/build_sample.py": "ec09e63b81afefdcf11a43112405fe992293c1826d28b80c7f84265ea794889f",
+    "materials/style-pilot/verify_sample.py": "b21ac804eb43875017597f39829c3621ee07ab287bce8f329a08cb432525bfb6",
+    "materials/style-pilot/fig1-1.svg": "dbbbd3ce198b1f0ba59992e50fe523fb07a96e3dadf21c0e2b7849c026a69caa",
+    "materials/style-pilot/fig1-1.png": "7dc70ae74b89037c4edf380d57093d5c6f5aa834d149587d024ab20e24a688d5",
+    "plans/textbook-style-pilot.plan.md": "6993f51f5380f1ecc1873633a763675c774daa5520535dd2d5b2bac8d7861543",
+    "skills/textbook-authoring/SKILL.md": "f89af4451378600baafef87a6cc8dd5806bfcfe29ac2fa5be7a579109b838579",
+    "templates/textbook-style-v1.0.dotx": "eef8ce505c3d9afb3493e61af1f38ee26bca6ff9a0aa12f7ad3e2a8cacad6473",
+    "output/style-pilot/textbook-style-pilot.docx": "bbe32d306b63b646346f6e15dead76e528ae5803afa1dada514098266fcb859f",
+    "output/style-pilot/textbook-style-pilot.pdf": "008f3d1dfbb5d095e0842a89e20f30fbd34afa157347aeb6336424723d4d509a"
+  },
+  "executable_verification": {
+    "scope": "small_style_pilot",
+    "checks": "PASS",
+    "pages": 8,
+    "exercise_solutions": {
+      "baseline": 12,
+      "D2_closed": 0
+    },
+    "protected_files_unchanged": 103,
+    "embedded_fonts": [
+      "/BAAAAA+NotoSansCJKsc-Regular",
+      "/CAAAAA+NotoSansCJKsc-Bold",
+      "/DAAAAA+NotoSerifCJKsc-Regular",
+      "/EAAAAA+NotoSansCJKsc-Bold",
+      "/FAAAAA+NotoSerifCJKsc-Regular",
+      "/GAAAAA+NotoSerifCJKsc-Regular",
+      "/HAAAAA+NotoSansCJKsc-Bold",
+      "/IAAAAA+NotoSerifCJKsc-Regular",
+      "/JAAAAA+NotoSerifCJKsc-Bold",
+      "/KAAAAA+NotoSerifCJKsc-Bold",
+      "/LAAAAA+NotoSerifCJKsc-Regular"
+    ],
+    "native_numbering_insertion_and_chapter_reset": "PASS",
+    "automatic_toc_cache_page": 2,
+    "microsoft_word_execution": "NOT_EVALUATED",
+    "visual_review": "separate_parent_record"
+  },
+  "visual_review": {
+    "kind": "ai_self",
+    "reviewer": "Codex Parent",
+    "renderer": "bundled documents/render_docx.py, LibreOffice 25.2-headless-codex.1",
+    "pdf_sha256": "008f3d1dfbb5d095e0842a89e20f30fbd34afa157347aeb6336424723d4d509a",
+    "pages_viewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "page_png_sha256": {
+      "1": "0dbcf3d5010e9ca4393aa54357885cd63c2efd6f5baf9db495338ee1cbf9fbf7",
+      "2": "80d2b4c06b148f02d86cb38977edd7a735d8a5f11022e5f9e57e41497d7ada63",
+      "3": "4c44695fc3981bcf8a832184ef8adf444354154d4abdeb029b20337b5891036e",
+      "4": "ec4ce559ad9bc9c3335af9011313b0405979e34bbdc0e4208c12013cfeb14d5d",
+      "5": "0d1deae59b06bae5c5405f6567db9c9d9fd448ae2d8934a79deb11c97712cbbe",
+      "6": "86d790e24d0c4aba43bdc09666f7bea8eff1936c6932dbd0f58eadbb9dd57741",
+      "7": "b1ae646c605ab49abe769e4b3c6fa14201f7e995764913ddc0c488a9ad1d2ac0",
+      "8": "6c40cdd47a5f187cd42f7237654078113e2f5067e927b4a4a4fde38643318087"
+    },
+    "template_preview_viewed": true,
+    "template_png_sha256": "144fc082a2e9543447ad6add610a067a2ab9486acf0d5eba8ebb70b9e553db9b",
+    "observations": [
+      "8页全部实际打开；标题/正文无已见缺字、裁切、重叠，页眉页码正确。",
+      "图与图题/来源同页；155 mm插入宽，2200像素宽约360 ppi，图内文字约12.8 pt；另查灰度图可读。",
+      "五张表三线表；短表不拆页；表1-4跨第5/6页重复表头，T01—T12各完整出现一次。",
+      "E01数据和评价标准在题目处，第7/8页集中显示参考解；两项参考文献悬挂缩进。",
+      "正文表1-4编号引用已补；句号行首问题由word joiner修正并实际查看。"
+    ],
+    "human_acceptance": "NOT_EVALUATED"
+  },
+  "qa": {
+    "invocation_id": "9fcf8154-f95a-4271-8131-300081e71c9c",
+    "contract_seal": "a342bcc056ad93330b7e5810ee547a1e7e085802f4852edeacc67ec09987b02d",
+    "classification": "PARSED",
+    "scope": "旧冻结样张与生成器的只读静态QA，不含视觉或Microsoft Word验收",
+    "receipt": "qa-invocation-receipt.json",
+    "report": "qa-worker-report.json",
+    "artifact_and_actual_read_hashes_verified": true,
+    "route": {
+      "provider": "kimi",
+      "request_model": "k3",
+      "response_model": "k3",
+      "profile": "deep",
+      "effort": "max",
+      "runtime": "claude-code",
+      "qualification": {
+        "invocation_id": "4f2d5dc8-4234-4665-b382-e82f1ad6cc00",
+        "sha256": "5f3c17dcefcff35f54db521fa4c5435d8f9fb0b1da9ca4e108106a66cb767555"
+      }
+    },
+    "adjudication": [
+      {
+        "id": "QA-PILOT-01",
+        "decision": "CONFIRMED",
+        "resolution": "将1.1.3的方位指代改为表1-4编号；保持测试语义，重生成并核对REF/页面。"
+      },
+      {
+        "id": "QA-PILOT-02..06",
+        "decision": "Parent核对静态结论及适用边界；题目/数据/参考解语义未改。"
+      },
+      {
+        "id": "QA-UNCERTAINTIES",
+        "decision": "正式标准与NIST作者、日期、印刷页6由Parent核验；编号ID唯一性和实际域行为由可执行检查覆盖；Microsoft Word仍未评估。"
+      }
+    ],
+    "post_qa_changes": {
+      "reviewed_builder_sha256": "1bac93e8e71ca9529f69a9f6f427f33df5da19c7a03261f88c66bed6e8c54d0a",
+      "final_builder_sha256": "ec09e63b81afefdcf11a43112405fe992293c1826d28b80c7f84265ea794889f",
+      "reviewed_sample_sha256": "f23282bf86cce4cab7a6c67ba5bd5694b537999b820b4ff7a7df41b06944f8b8",
+      "final_sample_sha256": "c2123acedd560d9bb760ef4060962d7ab3bbee9dd60065b470b0bf212198afb3",
+      "changes": "补编号引用、显式隐藏重置章/节的序号、引用断行保护；最终这些新bytes由Parent测试与页检，不宣称Kimi已审过最终生成器。",
+      "rereview": "NOT_REQUIRED_FOR_THIS_QA：教学内容和题解语义未变；域/版式调整有真实生成—更新—渲染的行为证据。此QA不是触发的adversarial implementation review。"
+    }
+  },
+  "implementation_risk_gate": {
+    "decision": "KIMI_REVIEW_NOT_REQUIRED",
+    "snapshot_sha256": "ec09e63b81afefdcf11a43112405fe992293c1826d28b80c7f84265ea794889f",
+    "explicit_user_review_request": false,
+    "critical_consequence": false,
+    "consequence_gap_value": "只新增可撤回的小样/模板；无生产/凭据/权限或历史章节写入。原生更新与页面已测；MS Word差异作为试排边界，未作正式全章验收承诺。无重大失败后果与残留语义缺口的组合，不另增加最终review。"
+  },
+  "harness": {
+    "validate": "PASS",
+    "status_exit_code": 1,
+    "ch01_draft_effective_state": "accepted",
+    "blueprint_effective_state": "blocked",
+    "blueprint_stale_reasons": [
+      "policy changed",
+      "engine changed"
+    ],
+    "new_run_created": false,
+    "engine_or_harness_changed": false,
+    "full_suite_rerun": false
+  },
+  "references": {
+    "standard": "GB/T 7714-2025",
+    "formal_scan_sha256": "de306587f0bc08d7642aa1b55091000da85416633f674297b1576c92330010f4",
+    "printed_pages_consulted": [
+      4,
+      7,
+      8,
+      11,
+      12,
+      15,
+      16
+    ],
+    "official_metadata_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=C6CE52E55AC09B9C79A20AEA77CEDD14",
+    "scan_url": "https://www2.abc.edu.cn/xbbjb/upload/2026-01/26012010262341.pdf",
+    "applied_clauses": [
+      "7.1",
+      "7.6—7.9",
+      "8.5.3",
+      "8.8.3"
+    ],
+    "nist_support_printed_page": 6,
+    "original_chapter_bibliography_changed": false
+  },
+  "limits": [
+    "仅小范围样张；原第一章仍待修订、全章正式排版及引用统一。",
+    "TOC为原生域，正确页码经PDF核对后缓存；LibreOffice未重建目录，Microsoft Word未执行。",
+    "没有真实教师/学生试读、课堂试教或印刷/出版验收。"
+  ]
+}
