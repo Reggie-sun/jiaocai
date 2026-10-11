@@ -1,0 +1,52 @@
+{
+  "parent_session_id": "codex-jiaocai-ch02-progressive-20261012",
+  "task_id": "ch02-progressive-ai-source-investigation-r1",
+  "cwd": "/home/reggie/vscode_folder/jiaocai",
+  "explicit_root": "/home/reggie/vscode_folder/jiaocai",
+  "role": "explorer",
+  "goal": "Role read-only source accuracy investigator. Scope only the eight intended AI mechanism claims and boundary statements in source-claim-package.md, using corresponding actual primary paper excerpts in source-excerpts.md. This is an independent research unit, not Spec/Plan self-review and not whole manuscript review. Read both required files fully in one efficient batch. Identify source/claim mismatches or missing essential qualifications, including CNN learned representations, attention/position, Grad-CAM coarse localization vs clinical/causal proof, FedAvg updates vs privacy guarantees, gradient leakage conditions, hierarchicalRL specific manager/worker example vs all AI dynamically decomposing, RL reward vs hard constraints, MAML initialization vs automatic optimizer. Return at most five substantive stable-ID findings with exact lines, short evidence, learner impact, minimal correction; empty set allowed. No redundant broad research, no scoring or acceptance. Concise final report <=1000 Chinese characters excluding evidence_refs. Boundaries read-only, no Bash/network/writes/credentials/commit/push/Harness/nested agents. Parent adjudicates and verifies. Canonical five fields only findings/proposed_changes/evidence_refs/uncertainties/questions, cite source path, exact hash, actual read line ranges. Uncertainties state excerpts only, not full external paper review or real classroom verification. Budget one initial and at most two evidence-based followups; do not retry yourself. Respect higher instructions and stop/report conflict.",
+  "read_paths": [
+    "materials/ch02-progressive/source-claim-package.md",
+    "materials/ch02-progressive/source-excerpts.md"
+  ],
+  "write_paths": [],
+  "permissions": [
+    "read"
+  ],
+  "selected_refs": [
+    {
+      "path": "specs/ch02-progressive.spec.md",
+      "sha256": "5ad09a6f9be77d878f11bced754a6229c5595abc44547be0dc9b28c1cf7b5bc8",
+      "accepted": true
+    },
+    {
+      "path": "plans/ch02-progressive.plan.md",
+      "sha256": "3e3891fefd865aa1daec0b43f6e5abd66f7fa3aef7364ec3de767217a30b8a81",
+      "accepted": true
+    }
+  ],
+  "active_documents": "accepted_refs",
+  "harness_refs": [],
+  "constitution_refs": [
+    "AGENTS.md"
+  ],
+  "skills": [],
+  "skill_roots": [],
+  "expected_evidence": [
+    "materials/ch02-progressive/source-claim-package.md",
+    "materials/ch02-progressive/source-excerpts.md"
+  ],
+  "backend": "kimi",
+  "profile": "deep",
+  "budgets": {
+    "wall_seconds": 3600,
+    "idle_seconds": 1800,
+    "request_limit": 64,
+    "generation_tokens": 32000,
+    "output_bytes": 16777216,
+    "context_bytes": 8388608
+  },
+  "instruction_precedence": [
+    "AGENTS.md"
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "manuscript_sha256": "f7e5ed4406330dc99b7dcafa61cd2cc52ad67288f86fff32c20b95f603db19cd",
+  "fragments": {
+    "opening.md": "a3e7ad0b4eedeb8de71cb97d672fde2d33d18a3337bbf0e9913da1c9cd0f1760",
+    "s2-1.md": "d99755a0c6f5eed93fa7f14ae1ad307db8c7a8e76fff4a4d14a40fb32e3e8d71",
+    "s2-2.md": "3018804e9120e9205c191c6c440e5b7b4badaea4a36513137863635a17cd55ab",
+    "s2-3.md": "9274153eb76f2f29d083a4afda39e4f75e3ff344d99aec54970af7f40e2b680c",
+    "s2-4.md": "0adb5fb1a230a7f0905e6f676bfd2ef4a56427a7c0be8178cb15f55568b83d3f",
+    "s2-5.md": "bf8914e46a2e373076794bddbc2064008c9303231f1734af00bc99adf88b9f89",
+    "capstone.md": "6f0d69efd14a4fcabb2a02abc0ae318a82ca3b02598ccd25206e8065a563478b",
+    "answers-e01.md": "e41cf2d85cff1cea98865b33cd503961ab8f20292f07299ca016143f43ed01de",
+    "answers-e02.md": "e70cdb609b4c7ee10e5aa9066cd95204051fef601d20cee2644af2a7bd9ecab7",
+    "answers-e03.md": "be62442d1e4b63cf78b24d852820883c55b497927194e4fb89781d35b77666aa",
+    "answers-e04.md": "b12ef2d8cd724b42f7fe2c75ce10c62201c4a0e5f3eedd77abc61eb78ec54ae6",
+    "answers-e05.md": "b08f5252b85e92b414f3ae6d744e79d7ca60c49056944469e46be9cf17b6ac15",
+    "answers-e06.md": "a3f5c5a470930bc544b6918d8d05eedab690a5a5b6daea0f98148612759041ce"
+  },
+  "han_count_without_code_or_link_targets": 36936,
+  "count_boundary": "章首、五节、章末及集中解答与参考文献；排除代码和链接目标，非Word或出版字数。",
+  "citation_order": {
+    "S01": 1,
+    "S11": 2,
+    "S13": 3,
+    "S02": 4,
+    "S16": 5,
+    "S03": 6,
+    "S04": 7,
+    "S19": 8,
+    "S12": 9,
+    "S14": 10,
+    "S15": 11,
+    "S05": 12,
+    "S06": 13,
+    "S17": 14,
+    "S08": 15,
+    "S18": 16,
+    "S10": 17,
+    "S09": 18
+  },
+  "uncited_inventory_sources": [
+    "S07"
+  ],
+  "tables": [
+    {
+      "id": "表2-1",
+      "caption": "通知事实与未提供信息的教学示例",
+      "columns": [
+        "要素",
+        "从通知可记录的内容",
+        "当前仍不知道的内容"
+      ]
+    },
+    {
+      "id": "表2-2",
+      "caption": "E01道路与通行条件教学数据",
+      "columns": [
+        "道路",
+        "时间",
+        "无台阶",
+        "额外条件"
+      ]
+    },
+    {
+      "id": "表2-3",
+      "caption": "微型展板任务卡的输入、成果与依赖",
+      "columns": [
+        "任务",
+        "可检查的成果",
+        "需要先完成的任务",
+        "用时"
+      ]
+    },
+    {
+      "id": "表2-4",
+      "caption": "E02固定的活动与依赖数据",
+      "columns": [
+        "任务",
+        "用时／分钟",
+        "前置任务"
+      ]
+    },
+    {
+      "id": "表2-5",
+      "caption": "四次候车观察的讲解示例",
+      "columns": [
+        "记录",
+        "临近下课",
+        "下雨",
+        "接下来十分钟最高人数",
+        "按40人门槛标记"
+      ]
+    },
+    {
+      "id": "表2-6",
+      "caption": "七条预测与实际标签的讲解示例",
+      "columns": [
+        "记录",
+        "实际标签",
+        "模型预测"
+      ]
+    },
+    {
+      "id": "表2-7",
+      "caption": "E03预测时已知输入与事后标签",
+      "columns": [
+        "记录",
+        "x（到访人数）",
+        "event",
+        "y（实际需增援）",
+        "用途"
+      ]
+    },
+    {
+      "id": "表2-8",
+      "caption": "E04有向道路的确认分钟",
+      "columns": [
+        "起点",
+        "终点",
+        "时间（分钟）"
+      ]
+    },
+    {
+      "id": "表2-9",
+      "caption": "四个模拟请求的初次比较",
+      "columns": [
+        "请求",
+        "方案B耗时/分钟",
+        "方案C耗时/分钟"
+      ]
+    },
+    {
+      "id": "表2-10",
+      "caption": "三个模拟阈值设置的开发结果",
+      "columns": [
+        "设置",
+        "误报次数",
+        "漏报次数",
+        "开发评分：误报+2×漏报"
+      ]
+    },
+    {
+      "id": "表2-11",
+      "caption": "E05固定请求的比较记录",
+      "columns": [
+        "请求",
+        "分组",
+        "B耗时/分钟",
+        "C耗时/分钟"
+      ]
+    },
+    {
+      "id": "表2-12",
+      "caption": "E06模拟地图的确认道路",
+      "columns": [
+        "双向道路",
+        "耗时/分钟",
+        "通行条件"
+      ]
+    },
+    {
+      "id": "表2-13",
+      "caption": "E03开发部分的规则核验",
+      "columns": [
+        "规则",
+        "TP",
+        "FP",
+        "FN",
+        "TN",
+        "准确率",
+        "精确率",
+        "召回率"
+      ]
+    },
+    {
+      "id": "表2-14",
+      "caption": "E03保留检验部分的规则核验",
+      "columns": [
+        "规则",
+        "TP",
+        "FP",
+        "FN",
+        "TN",
+        "准确率",
+        "精确率",
+        "召回率"
+      ]
+    },
+    {
+      "id": "表2-15",
+      "caption": "E04的Dijkstra逐轮记录",
+      "columns": [
+        "轮次",
+        "确定地点",
+        "更新后的暂定距离"
+      ]
+    }
+  ],
+  "figure_caption_count": 8,
+  "exercise_count": 6,
+  "draft_before_figures": false
+}

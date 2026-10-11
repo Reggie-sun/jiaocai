@@ -1,0 +1,212 @@
+{
+  "artifacts": [
+    {
+      "media_type": "application/json",
+      "path": "execution-view.json",
+      "producer": "supervisor",
+      "redaction_count": 0,
+      "redaction_version": 1,
+      "representation": "filtered",
+      "sha256": "816ddb926c641e341a33ab4c1ca30e5074231c02b6ae49778c04d3c24ab036c1",
+      "size": 2493
+    },
+    {
+      "media_type": "application/x-ndjson",
+      "path": "stdout.jsonl",
+      "producer": "supervisor",
+      "redaction_count": 0,
+      "redaction_version": 1,
+      "representation": "filtered",
+      "sha256": "7f945c93ed7e8ee7aeb2e904d67b0fce3b440b610117ac8078ad1f02fbccae10",
+      "size": 1531456
+    },
+    {
+      "media_type": "text/plain",
+      "path": "stderr.txt",
+      "producer": "supervisor",
+      "redaction_count": 0,
+      "redaction_version": 1,
+      "representation": "filtered",
+      "sha256": "a135ab480d071b53b3d46164252c46b2e08e7b0f107f4d4e5120fda3feef150e",
+      "size": 73
+    },
+    {
+      "media_type": "application/json",
+      "path": "worker-report.json",
+      "producer": "worker",
+      "redaction_count": 0,
+      "redaction_version": 1,
+      "representation": "filtered",
+      "sha256": "310edf085a14a494865fcdd3b3a1edc4f2c4f194289a07fc7f1b0435051d416e",
+      "size": 4441
+    }
+  ],
+  "attempt_id": "123b1296-96b8-4ce0-a970-faeca5215f45",
+  "budgets": {
+    "context_bytes": 8388608,
+    "generation_tokens": 32000,
+    "idle_seconds": 1800,
+    "output_bytes": 16777216,
+    "request_limit": 64,
+    "wall_seconds": 3600
+  },
+  "classification": "PARSED",
+  "containment": {
+    "checks": {
+      "apparmor": true,
+      "capabilities_dropped": true,
+      "clean_environment": true,
+      "docker_socket_denied": true,
+      "external_network_denied": true,
+      "host_home_denied": true,
+      "host_ipc_denied": true,
+      "host_proc_denied": true,
+      "host_secret_denied": true,
+      "no_broker_in_test_domain": true,
+      "no_new_privileges": true,
+      "non_root": true,
+      "private_processes": true,
+      "root_write_denied": true,
+      "scratch_writable": true,
+      "sealed_read": true,
+      "seccomp": true,
+      "source_chmod_denied": true,
+      "source_write_denied": true,
+      "symlink_escape_denied": true
+    },
+    "image": "sha256:08efb085f717fe5792d7380a069c3f770422fa09770d904e6e2436e3706e0c85",
+    "live_identity": "NOT_EVALUATED",
+    "native_denials": [
+      "Read",
+      "Read",
+      "Bash",
+      "Task",
+      "mcp__evil__run"
+    ],
+    "native_tools": "VERIFIED",
+    "os_boundary_verified": true,
+    "primitive": "docker",
+    "project_access": true,
+    "proof": "synthetic_adversarial_execution",
+    "qualified": true,
+    "runtime_sha256": "722210f05ba494d8f6df69423c4d4f2960900f7a007d0532851c7a36e375cab7"
+  },
+  "contract_seal": "240a2b905d6b213a3ed83b5f497c0f2e0b08bf66e489cc8af268992c9b7a84cf",
+  "evidence_kind": "live",
+  "fallback": "forbidden",
+  "finalized_at": "2026-10-11T16:42:04.770456+00:00",
+  "internal_retry_count": "unknown",
+  "invocation_id": "46c49e99-9d2e-44b6-a9ef-e7b41cb9a53e",
+  "kind": "project-invocation",
+  "observations": [
+    {
+      "actual_cost": null,
+      "attempt_id": "41c4c8e7-4ebd-4db4-8d32-60c174863286",
+      "budget_phase": "EXPLORE",
+      "classification": "IDENTITY_VERIFIED",
+      "client_request_sha256": "82748948be65b7cd680c25647d829d637721831799e4109a56f41e167e55875d",
+      "duration_seconds": 7.730309150007088,
+      "effort": "max",
+      "generation_token_limit": 32000,
+      "http_status": 200,
+      "message_id": "msg_HhsDIjDFwRKm061fbZ3yDrxc",
+      "proof": "authenticated_endpoint_declaration",
+      "request_max_tokens": 32000,
+      "request_model": "k3",
+      "request_number": 1,
+      "request_sha256": "825b18a453df9a16ad062e9283d5bbc12cca7d5924c5063506ebd68df38ff254",
+      "response_model": "k3",
+      "response_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "thinking": {
+        "type": "adaptive"
+      },
+      "upstream_bytes_received": 13680,
+      "upstream_host": "api.kimi.ai",
+      "upstream_request_id": "msg_HhsDIjDFwRKm061fbZ3yDrxc",
+      "usage": {
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1280,
+        "input_tokens": 7600,
+        "output_tokens": 135
+      },
+      "wire_started": true
+    },
+    {
+      "actual_cost": null,
+      "attempt_id": "cdbf0dfa-0bd3-4d1f-8dc6-7b11408a7fde",
+      "budget_phase": "EXPLORE",
+      "classification": "IDENTITY_VERIFIED",
+      "client_request_sha256": "ef6f32ea7d5e3143f7c00c7823caa1478ca87b79b5aa775e85ff009069ab1f6f",
+      "duration_seconds": 213.40160882100463,
+      "effort": "max",
+      "generation_token_limit": 32000,
+      "http_status": 200,
+      "message_id": "msg_3lWPoIjWUPyhuoTVQmxOXHXm",
+      "proof": "authenticated_endpoint_declaration",
+      "request_max_tokens": 32000,
+      "request_model": "k3",
+      "request_number": 2,
+      "request_sha256": "2011243a3927b15238cb92f4c0a0f1876076f918ea8c086a31105e73ff7a62c2",
+      "response_model": "k3",
+      "response_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "thinking": {
+        "type": "adaptive"
+      },
+      "upstream_bytes_received": 1013607,
+      "upstream_host": "api.kimi.ai",
+      "upstream_request_id": "msg_3lWPoIjWUPyhuoTVQmxOXHXm",
+      "usage": {
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 8704,
+        "input_tokens": 15048,
+        "output_tokens": 8074
+      },
+      "wire_started": true
+    }
+  ],
+  "observed_reads": [
+    {
+      "end_line": 54,
+      "native_tool_use_id": "tool_5C5d57JujVVXzkiYjiNRBGRq",
+      "path": "/home/reggie/vscode_folder/jiaocai/materials/ch02-progressive/source-claim-package.md",
+      "sha256": "f27dc693075e2e404b923fd2f57a0147c3407b6e69ac58ca8ad8b9acce56818e",
+      "start_line": 1,
+      "status": "complete",
+      "truncated": false
+    },
+    {
+      "end_line": 622,
+      "native_tool_use_id": "tool_Nvk5zvd8FjD8fs2YcPQOz81s",
+      "path": "/home/reggie/vscode_folder/jiaocai/materials/ch02-progressive/source-excerpts.md",
+      "sha256": "0e8c0dbb57f805408b045daaf945fee4941dc037923788b15230474c88eefc34",
+      "start_line": 1,
+      "status": "complete",
+      "truncated": false
+    }
+  ],
+  "orchestration_retries": 0,
+  "parent_acceptance": "NOT_EVALUATED",
+  "parent_session_id": "codex-jiaocai-ch02-progressive-20261012",
+  "process": {
+    "descendants_terminated": false,
+    "duration_seconds": 222.1063968950184,
+    "exit_code": 0,
+    "reason": "exited",
+    "stderr_observed_bytes": 73,
+    "stdout_observed_bytes": 1531456,
+    "truncated": false
+  },
+  "report_format": "claude-json-schema-v1",
+  "route_qualification": {
+    "invocation_id": "4f2d5dc8-4234-4665-b382-e82f1ad6cc00",
+    "sha256": "5f3c17dcefcff35f54db521fa4c5435d8f9fb0b1da9ca4e108106a66cb767555"
+  },
+  "router": {
+    "source_sha256": "35618260d4f5b75cb19c929ee1511f2dfd5f63578b2b3bb0524957f034b6c705",
+    "version": "0.1.0"
+  },
+  "schema_version": 1,
+  "started_at": "2026-10-11T16:38:20.741085+00:00",
+  "task_id": "ch02-progressive-ai-source-investigation-r1",
+  "wire_requests": 2
+}

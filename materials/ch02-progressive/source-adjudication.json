@@ -1,0 +1,56 @@
+{
+  "invocation_id": "46c49e99-9d2e-44b6-a9ef-e7b41cb9a53e",
+  "route": {
+    "profile": "deep",
+    "wire_model": "k3",
+    "effort": "max",
+    "qualification": {
+      "invocation_id": "4f2d5dc8-4234-4665-b382-e82f1ad6cc00",
+      "sha256": "5f3c17dcefcff35f54db521fa4c5435d8f9fb0b1da9ca4e108106a66cb767555"
+    }
+  },
+  "report_original_path": "/home/reggie/.local/state/agent-subagent-router/runs/46c49e99-9d2e-44b6-a9ef-e7b41cb9a53e/worker-report.json",
+  "report_sha256": "310edf085a14a494865fcdd3b3a1edc4f2c4f194289a07fc7f1b0435051d416e",
+  "observed_reads": [
+    {
+      "end_line": 54,
+      "native_tool_use_id": "tool_5C5d57JujVVXzkiYjiNRBGRq",
+      "path": "/home/reggie/vscode_folder/jiaocai/materials/ch02-progressive/source-claim-package.md",
+      "sha256": "f27dc693075e2e404b923fd2f57a0147c3407b6e69ac58ca8ad8b9acce56818e",
+      "start_line": 1,
+      "status": "complete",
+      "truncated": false
+    },
+    {
+      "end_line": 622,
+      "native_tool_use_id": "tool_Nvk5zvd8FjD8fs2YcPQOz81s",
+      "path": "/home/reggie/vscode_folder/jiaocai/materials/ch02-progressive/source-excerpts.md",
+      "sha256": "0e8c0dbb57f805408b045daaf945fee4941dc037923788b15230474c88eefc34",
+      "start_line": 1,
+      "status": "complete",
+      "truncated": false
+    }
+  ],
+  "provider_requests": 2,
+  "parent_mechanical_route_and_read_check": "verified",
+  "scope": "固定八项来源机制与限制，不审完整新正文。",
+  "findings": [
+    {
+      "id": "S11-F1",
+      "resolution": "CONFIRMED_CLARIFICATION",
+      "reason": "调查package泛称深度学习时并列CNN结构性质，容易过宽；新正文已经明确CNN归属，ledger补限定。",
+      "changed": "materials/ch02-progressive/sources.json S11"
+    },
+    {
+      "id": "S15-F2",
+      "resolution": "CONFIRMED_CLARIFICATION",
+      "reason": "原正文的特定设定仍太抽象，增加已知模型与共享梯度可访问等攻击条件；不采用泛化必泄露或必安全。",
+      "changed": "manuscripts/ch02-progressive/s2-3.md §2.3.5及sources.json S15"
+    }
+  ],
+  "question_resolution": {
+    "S12_translation": "Parent本轮读arXiv摘要与正文，论文实验是翻译；不将注意力直接当电网预测效果证据。",
+    "where_fix": "原package与摘录保留调用时字节，澄清进入实际正文及当前ledger；由后续完整专业审校检查新正文。"
+  },
+  "limits": "完整canonical报告保留router state；primary PDFs/excerpts为本地研究材料，不随公开产物分发。不把PARSED或空问题当教材验收。"
+}

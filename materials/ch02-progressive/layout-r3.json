@@ -1,0 +1,469 @@
+{
+  "checks": "PASS",
+  "source_sha256": "f7e5ed4406330dc99b7dcafa61cd2cc52ad67288f86fff32c20b95f603db19cd",
+  "docx_sha256": "1249bd8debd5ef412956620cbbe9136159110d8cbc59539516ae8055ea81d0fb",
+  "pdf_sha256": "d70dc0bcf4501933ee832712fe8289fc5633d188d9f2ec893c2e10b706d36fc6",
+  "pages": 81,
+  "tables_exactly_match_source": 15,
+  "figures": 8,
+  "reference_fields": 26,
+  "toc_pages": {
+    "2.1 抽象 (Abstraction)：数据本质的智能萃取": 4,
+    "2.2 分解 (Decomposition)：复杂问题的AI分层破解": 15,
+    "2.3 模式识别 (Pattern Recognition)：深度学习的隐规律挖掘": 27,
+    "2.4 算法设计 (Algorithm Design)：从人工逻辑到数据驱动优化": 40,
+    "2.5 评估与优化 (Evaluation & Optimization)：AI赋能的闭环进化系统": 51,
+    "章末综合训练": 64,
+    "本章回顾": 67,
+    "关键术语": 68,
+    "参考解与讨论": 69,
+    "参考文献": 79
+  },
+  "toc_cache_matches_actual_pages": true,
+  "all_fonts_embedded": [
+    "/BAAAAA+NotoSansCJKsc-Regular",
+    "/CAAAAA+NotoSansCJKsc-Bold",
+    "/DAAAAA+NotoSerifCJKsc-Regular",
+    "/EAAAAA+NotoSerifCJKsc-Regular",
+    "/FAAAAA+NotoSerifCJKsc-Bold",
+    "/GAAAAA+NotoSansCJKsc-Bold",
+    "/HAAAAA+NotoSansCJKsc-Bold",
+    "/IAAAAA+NotoSerifCJKsc-Regular",
+    "/JAAAAA+NotoSerifCJKsc-Regular",
+    "/KAAAAA+NotoSerifCJKsc-Regular",
+    "/LAAAAA+NotoSerifCJKsc-Bold",
+    "/MAAAAA+NotoSans-Regular",
+    "/NAAAAA+NotoSerifCJKsc-Regular",
+    "/OAAAAA+NotoSerifCJKsc-Regular",
+    "/PAAAAA+NotoSerifCJKsc-Regular",
+    "/QAAAAA+NotoSansCJKsc-Bold"
+  ],
+  "embedded_symbol_or_math_fonts": {
+    "MAAAAA+NotoSans-Regular": "₁₂"
+  },
+  "protected_files_unchanged": 556,
+  "foreign_changes_preserved": {
+    "AGENTS.md": {
+      "baseline_sha256": "995fdf5173cd727a9f67be2f8bd4de6c1cd9d9342b7e9036b90c9bba6af15496",
+      "current_sha256": "1b859b79d8984157253df55df697679ba7fa28799299b3b443b8b516a01e67ae",
+      "owner": "工作区第一章历史回顾会话",
+      "change": "仅把第一章指向新history Spec/Plan，原Spec/Plan作为历史保留；第二章不修改、不stage此文件。",
+      "diff": "diff --git a/AGENTS.md b/AGENTS.md\nindex c1171e6..d43537e 100644\n--- a/AGENTS.md\n+++ b/AGENTS.md\n@@ -27,7 +27,7 @@\n \n 收到教材目录、正文、练习、图表规划或审校任务时，读取 [textbook-authoring/SKILL.md](/home/reggie/.local/share/chatgpt-desktop/skills/textbook-authoring/SKILL.md) 取得教学标准与能力入口。模型自主选择写作策略、任务拆分、检索工具与修改顺序；spec约束交付目标，plan提供依赖与里程碑，具体工程恢复以当前Harness为准。\n \n-按章编写并验收，当前批次为第一章。开始正文前读取 [第一章specs](/home/reggie/vscode_folder/jiaocai/specs/ch01.spec.md) 与 [第一章plan](/home/reggie/vscode_folder/jiaocai/plans/ch01.plan.md)；内容契约和执行依赖由这两份Markdown文档维护，全书蓝图用于衔接。后续章的specs与plan同样使用Markdown，程序直接消费的工程登记与证据使用JSON。当前请求仅为规格与计划时，不执行正文任务。\n+按章编写并验收，当前第一章历史回顾重写的内容契约与执行依赖见 [第一章Spec](specs/ch01-history.spec.md) 与 [第一章plan](plans/ch01-history.plan.md)；原 [Spec](specs/ch01.spec.md) 与 [plan](plans/ch01.plan.md) 保留作历史记录，全书蓝图用于衔接。后续章的specs与plan同样使用Markdown，程序直接消费的工程登记与证据使用JSON。当前请求仅为规格与计划时，不执行正文任务。\n \n 用户可在聊天消息中用 `$textbook-authoring` 显式调用，例如：\n \n"
+    }
+  },
+  "template_preserve_parts_identical": [
+    "word/styles.xml",
+    "word/fontTable.xml",
+    "word/theme/theme1.xml",
+    "word/settings.xml",
+    "word/footer1.xml"
+  ],
+  "page_extents": [
+    {
+      "page": 1,
+      "body_top": 84.5,
+      "body_bottom": 750.6
+    },
+    {
+      "page": 2,
+      "body_top": 79.8,
+      "body_bottom": 715.9
+    },
+    {
+      "page": 3,
+      "body_top": 83.0,
+      "body_bottom": 437.5
+    },
+    {
+      "page": 4,
+      "body_top": 95.0,
+      "body_bottom": 768.9
+    },
+    {
+      "page": 5,
+      "body_top": 79.8,
+      "body_bottom": 706.8
+    },
+    {
+      "page": 6,
+      "body_top": 79.8,
+      "body_bottom": 769.2
+    },
+    {
+      "page": 7,
+      "body_top": 79.8,
+      "body_bottom": 670.0
+    },
+    {
+      "page": 8,
+      "body_top": 81.5,
+      "body_bottom": 760.5
+    },
+    {
+      "page": 9,
+      "body_top": 79.8,
+      "body_bottom": 706.8
+    },
+    {
+      "page": 10,
+      "body_top": 79.8,
+      "body_bottom": 748.8
+    },
+    {
+      "page": 11,
+      "body_top": 79.8,
+      "body_bottom": 715.9
+    },
+    {
+      "page": 12,
+      "body_top": 319.1,
+      "body_bottom": 769.1
+    },
+    {
+      "page": 13,
+      "body_top": 79.8,
+      "body_bottom": 608.3
+    },
+    {
+      "page": 14,
+      "body_top": 78.7,
+      "body_bottom": 711.7
+    },
+    {
+      "page": 15,
+      "body_top": 79.8,
+      "body_bottom": 768.9
+    },
+    {
+      "page": 16,
+      "body_top": 79.8,
+      "body_bottom": 706.8
+    },
+    {
+      "page": 17,
+      "body_top": 79.8,
+      "body_bottom": 745.7
+    },
+    {
+      "page": 18,
+      "body_top": 79.8,
+      "body_bottom": 650.2
+    },
+    {
+      "page": 19,
+      "body_top": 372.7,
+      "body_bottom": 757.0
+    },
+    {
+      "page": 20,
+      "body_top": 79.8,
+      "body_bottom": 748.8
+    },
+    {
+      "page": 21,
+      "body_top": 81.5,
+      "body_bottom": 727.7
+    },
+    {
+      "page": 22,
+      "body_top": 79.8,
+      "body_bottom": 739.7
+    },
+    {
+      "page": 23,
+      "body_top": 79.8,
+      "body_bottom": 715.9
+    },
+    {
+      "page": 24,
+      "body_top": 79.8,
+      "body_bottom": 650.2
+    },
+    {
+      "page": 25,
+      "body_top": 81.5,
+      "body_bottom": 753.7
+    },
+    {
+      "page": 26,
+      "body_top": 79.8,
+      "body_bottom": 706.8
+    },
+    {
+      "page": 27,
+      "body_top": 79.8,
+      "body_bottom": 747.3
+    },
+    {
+      "page": 28,
+      "body_top": 78.7,
+      "body_bottom": 748.8
+    },
+    {
+      "page": 29,
+      "body_top": 81.5,
+      "body_bottom": 727.7
+    },
+    {
+      "page": 30,
+      "body_top": 79.8,
+      "body_bottom": 683.1
+    },
+    {
+      "page": 31,
+      "body_top": 81.5,
+      "body_bottom": 720.8
+    },
+    {
+      "page": 32,
+      "body_top": 79.8,
+      "body_bottom": 715.9
+    },
+    {
+      "page": 33,
+      "body_top": 79.8,
+      "body_bottom": 739.7
+    },
+    {
+      "page": 34,
+      "body_top": 79.8,
+      "body_bottom": 715.9
+    },
+    {
+      "page": 35,
+      "body_top": 79.8,
+      "body_bottom": 717.1
+    },
+    {
+      "page": 36,
+      "body_top": 79.8,
+      "body_bottom": 748.8
+    },
+    {
+      "page": 37,
+      "body_top": 79.8,
+      "body_bottom": 747.6
+    },
+    {
+      "page": 38,
+      "body_top": 79.8,
+      "body_bottom": 687.6
+    },
+    {
+      "page": 39,
+      "body_top": 79.8,
+      "body_bottom": 748.8
+    },
+    {
+      "page": 40,
+      "body_top": 79.8,
+      "body_bottom": 747.3
+    },
+    {
+      "page": 41,
+      "body_top": 79.8,
+      "body_bottom": 706.8
+    },
+    {
+      "page": 42,
+      "body_top": 79.8,
+      "body_bottom": 739.7
+    },
+    {
+      "page": 43,
+      "body_top": 79.8,
+      "body_bottom": 715.9
+    },
+    {
+      "page": 44,
+      "body_top": 79.8,
+      "body_bottom": 748.8
+    },
+    {
+      "page": 45,
+      "body_top": 79.8,
+      "body_bottom": 747.4
+    },
+    {
+      "page": 46,
+      "body_top": 79.8,
+      "body_bottom": 748.8
+    },
+    {
+      "page": 47,
+      "body_top": 79.8,
+      "body_bottom": 706.8
+    },
+    {
+      "page": 48,
+      "body_top": 79.8,
+      "body_bottom": 748.8
+    },
+    {
+      "page": 49,
+      "body_top": 79.8,
+      "body_bottom": 765.7
+    },
+    {
+      "page": 50,
+      "body_top": 79.8,
+      "body_bottom": 748.8
+    },
+    {
+      "page": 51,
+      "body_top": 79.8,
+      "body_bottom": 714.5
+    },
+    {
+      "page": 52,
+      "body_top": 81.5,
+      "body_bottom": 733.7
+    },
+    {
+      "page": 53,
+      "body_top": 79.8,
+      "body_bottom": 453.1
+    },
+    {
+      "page": 54,
+      "body_top": 375.2,
+      "body_bottom": 726.7
+    },
+    {
+      "page": 55,
+      "body_top": 79.8,
+      "body_bottom": 748.8
+    },
+    {
+      "page": 56,
+      "body_top": 81.5,
+      "body_bottom": 760.5
+    },
+    {
+      "page": 57,
+      "body_top": 79.8,
+      "body_bottom": 739.7
+    },
+    {
+      "page": 58,
+      "body_top": 79.8,
+      "body_bottom": 759.1
+    },
+    {
+      "page": 59,
+      "body_top": 81.5,
+      "body_bottom": 760.5
+    },
+    {
+      "page": 60,
+      "body_top": 79.8,
+      "body_bottom": 706.8
+    },
+    {
+      "page": 61,
+      "body_top": 79.8,
+      "body_bottom": 739.7
+    },
+    {
+      "page": 62,
+      "body_top": 79.8,
+      "body_bottom": 704.8
+    },
+    {
+      "page": 63,
+      "body_top": 79.8,
+      "body_bottom": 706.8
+    },
+    {
+      "page": 64,
+      "body_top": 83.0,
+      "body_bottom": 760.4
+    },
+    {
+      "page": 65,
+      "body_top": 78.7,
+      "body_bottom": 730.7
+    },
+    {
+      "page": 66,
+      "body_top": 79.8,
+      "body_bottom": 748.8
+    },
+    {
+      "page": 67,
+      "body_top": 79.8,
+      "body_bottom": 712.3
+    },
+    {
+      "page": 68,
+      "body_top": 79.8,
+      "body_bottom": 745.2
+    },
+    {
+      "page": 69,
+      "body_top": 79.8,
+      "body_bottom": 712.3
+    },
+    {
+      "page": 70,
+      "body_top": 79.8,
+      "body_bottom": 715.9
+    },
+    {
+      "page": 71,
+      "body_top": 79.8,
+      "body_bottom": 748.8
+    },
+    {
+      "page": 72,
+      "body_top": 79.8,
+      "body_bottom": 763.4
+    },
+    {
+      "page": 73,
+      "body_top": 78.7,
+      "body_bottom": 757.4
+    },
+    {
+      "page": 74,
+      "body_top": 79.8,
+      "body_bottom": 744.7
+    },
+    {
+      "page": 75,
+      "body_top": 83.2,
+      "body_bottom": 719.4
+    },
+    {
+      "page": 76,
+      "body_top": 79.8,
+      "body_bottom": 683.1
+    },
+    {
+      "page": 77,
+      "body_top": 79.8,
+      "body_bottom": 715.9
+    },
+    {
+      "page": 78,
+      "body_top": 79.8,
+      "body_bottom": 748.8
+    },
+    {
+      "page": 79,
+      "body_top": 79.8,
+      "body_bottom": 728.7
+    },
+    {
+      "page": 80,
+      "body_top": 78.7,
+      "body_bottom": 754.8
+    },
+    {
+      "page": 81,
+      "body_top": 78.7,
+      "body_bottom": 112.2
+    }
+  ],
+  "boundary": "Executable content/field/layout checks; does not substitute actual page viewing, classroom trial, Word native execution or publisher acceptance."
+}

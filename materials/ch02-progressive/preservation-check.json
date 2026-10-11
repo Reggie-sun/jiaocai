@@ -1,0 +1,16 @@
+{
+  "result": "PASS",
+  "protected_baseline_files": 557,
+  "unchanged_files": 556,
+  "foreign_differences": {
+    "AGENTS.md": {
+      "before": "995fdf5173cd727a9f67be2f8bd4de6c1cd9d9342b7e9036b90c9bba6af15496",
+      "current": "1b859b79d8984157253df55df697679ba7fa28799299b3b443b8b516a01e67ae"
+    }
+  },
+  "foreign_commit": "2d333df",
+  "progress_append_after_foreign_commit": "First chapter current record committed and clean; Parent may append chapter2 within existing authorization. Pending question no longer applies because writer conflict ceased.",
+  "engine_unchanged": true,
+  "template_unchanged": true,
+  "boundary": "Purpose record/harness mutable ledger excluded at baseline; no old source/output/runs changed."
+}

@@ -1,0 +1,17 @@
+{
+  "review_round": 1,
+  "snapshot": "materials/ch02-progressive/snapshots/review-r1.md",
+  "sha256": "23e64fdb95136c7c4d9c3955774de668c0a99234a9b217865eabc620ea87a215",
+  "lines": 926,
+  "files": {
+    "manuscripts/ch02-progressive/ch02.md": "23e64fdb95136c7c4d9c3955774de668c0a99234a9b217865eabc620ea87a215",
+    "specs/ch02-progressive.spec.md": "5ad09a6f9be77d878f11bced754a6229c5595abc44547be0dc9b28c1cf7b5bc8",
+    "plans/ch02-progressive.plan.md": "3e3891fefd865aa1daec0b43f6e5abd66f7fa3aef7364ec3de767217a30b8a81",
+    "skills/textbook-authoring/SKILL.md": "dbc0d3cb616e50d1eb512940ddad47848353ac1583130d1c62084ac78bf0fa3a",
+    "specs/authoring-quality.spec.md": "53ec4dbacd5b13d83f9bf3bfedb2e41b9a0fbc16fc9ff02a897c8ec6ab036fb5",
+    "materials/ch02-progressive/sources.json": "7a12a015549cd6433821d6477f701b8f7322a11ecfa1baf655a8f30412540c3d",
+    "materials/ch02-progressive/exercise-inputs.json": "f89595a27eda8e103f1c8299459167c1a2ef8b4ab62902e6514263934cc2d6b7",
+    "materials/ch02-progressive/exercise-verification.json": "353a8d6f21b84c9d8836732f2a6dfff7680069fb56693d32a4e7119da42130bc"
+  },
+  "scope": "完整当前文本，图题与文字说明；实图与实际页面另检；无历史PASS或peer结论"
+}

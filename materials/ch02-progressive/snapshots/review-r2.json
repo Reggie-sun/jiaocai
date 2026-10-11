@@ -1,0 +1,13 @@
+{
+  "review_round": 2,
+  "snapshot": "materials/ch02-progressive/snapshots/review-r2.md",
+  "sha256": "f7e5ed4406330dc99b7dcafa61cd2cc52ad67288f86fff32c20b95f603db19cd",
+  "lines": 934,
+  "changes": "E01来源点、E02基准与不早于、T3尺寸简化、标签/决策门槛分离与S19、Dijkstra拓展推理、E04拓展题反馈；完整diff保留",
+  "files": {
+    "manuscripts/ch02-progressive/ch02.md": "f7e5ed4406330dc99b7dcafa61cd2cc52ad67288f86fff32c20b95f603db19cd",
+    "materials/ch02-progressive/sources.json": "39a3caf23e7d0734c29cc061e63e111266af343be7a587e63bf397125bd88918",
+    "materials/ch02-progressive/verify_exercises.py": "1e44ff47f6b4e4b1c9eab808b8c12f0bc5f790750d9251eb52f5d128abce270c",
+    "materials/ch02-progressive/exercise-verification.json": "3620f9d77b6ec55b939dd06e82e5d67f480e051424d79c642d35408f2a7a798c"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "result": "PASS",
+  "docx_sha256": "e4db08ff5962ad73d3c722b2ce4c1149c8817991f8281f69fcffded3ad53fed5",
+  "figures": [
+    {
+      "id": "图2-1",
+      "media_part": "word/media/image1.png",
+      "embedded_sha256": "41a0b4af63b73072a1d5aec67a749bc4ad07f00b90201e82b8aa1f47a716c8b4",
+      "file_sha256": "41a0b4af63b73072a1d5aec67a749bc4ad07f00b90201e82b8aa1f47a716c8b4"
+    },
+    {
+      "id": "图2-2",
+      "media_part": "word/media/image2.png",
+      "embedded_sha256": "42c3f9aa8bfd492fd85735f2d8c550e2bb8b875b5198e60495d81cea63917869",
+      "file_sha256": "42c3f9aa8bfd492fd85735f2d8c550e2bb8b875b5198e60495d81cea63917869"
+    },
+    {
+      "id": "图2-3",
+      "media_part": "word/media/image3.png",
+      "embedded_sha256": "9a7c50fec7f68ea1ac6bcfcd0958ba11388e7e655581a83aad16c93b144efc4d",
+      "file_sha256": "9a7c50fec7f68ea1ac6bcfcd0958ba11388e7e655581a83aad16c93b144efc4d"
+    },
+    {
+      "id": "图2-4",
+      "media_part": "word/media/image4.png",
+      "embedded_sha256": "e25bb19632e588f32f04ea0f353912953955d13576da9cccfdaff97fe33f65f4",
+      "file_sha256": "e25bb19632e588f32f04ea0f353912953955d13576da9cccfdaff97fe33f65f4"
+    },
+    {
+      "id": "图2-5",
+      "media_part": "word/media/image5.png",
+      "embedded_sha256": "5d0576f2d4609e16df76bcd7942d043c0df6997f24220213e41318d231e2e5fa",
+      "file_sha256": "5d0576f2d4609e16df76bcd7942d043c0df6997f24220213e41318d231e2e5fa"
+    },
+    {
+      "id": "图2-6",
+      "media_part": "word/media/image6.png",
+      "embedded_sha256": "8a7fa904dadc7e7053d7e8ea5b5f7ec6fe364380a5a6cf1d832f5076cdbb6d08",
+      "file_sha256": "8a7fa904dadc7e7053d7e8ea5b5f7ec6fe364380a5a6cf1d832f5076cdbb6d08"
+    },
+    {
+      "id": "图2-7",
+      "media_part": "word/media/image7.png",
+      "embedded_sha256": "d593d3bc512a59371ee5fa914d18f245b4de16167aab1302f91516489a4055db",
+      "file_sha256": "d593d3bc512a59371ee5fa914d18f245b4de16167aab1302f91516489a4055db"
+    },
+    {
+      "id": "图2-8",
+      "media_part": "word/media/image8.png",
+      "embedded_sha256": "4bd162af362847b687c7273142183d8d5d7a2f44dc17d7d1ca36294534b6560c",
+      "file_sha256": "4bd162af362847b687c7273142183d8d5d7a2f44dc17d7d1ca36294534b6560c"
+    }
+  ]
+}

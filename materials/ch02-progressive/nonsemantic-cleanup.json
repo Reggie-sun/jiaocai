@@ -1,0 +1,10 @@
+{
+  "old_script_sha256": "64d9133878198632473c656e0edc0e976088ecca5c5014ee3a5262b26838249d",
+  "new_script_sha256": "94179d780fe5031d773847924ef308b7aaddd75044c25e984fc1e751222d0c10",
+  "exact_change": "Delete single unused import struct; no other bytes changed",
+  "verification": "AST no Name struct; old source minus exact import line equals current source; actual current runtime fresh rebuild all24 hashes unchanged",
+  "manuscript_sha256": "f7e5ed4406330dc99b7dcafa61cd2cc52ad67288f86fff32c20b95f603db19cd",
+  "docx_sha256": "e4db08ff5962ad73d3c722b2ce4c1149c8817991f8281f69fcffded3ad53fed5",
+  "pdf_sha256": "08c5b2f59160906391804bdeb0b68896c6a92b8875bd9acfd68b3cf97cace304",
+  "review_equivalence": "Content snapshots/figure files/PDF pages unchanged; no semantic content or page re-review triggered."
+}
