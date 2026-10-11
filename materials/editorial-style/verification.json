@@ -1,0 +1,454 @@
+{
+  "recorded_at": "2026-10-11T11:26:15.934697+00:00",
+  "scope": "确定全书共用教材体例与排版规则，维护唯一Skill owner、薄入口和进度；无正文修订、Word/PDF生产或Harness变更。",
+  "style_version": "textbook-style-v1.0",
+  "base_commit": "a2dfed451827f004a60f5b725e9cf55e31c5e014",
+  "candidate_files": {
+    "skills/textbook-authoring/SKILL.md": "f89af4451378600baafef87a6cc8dd5806bfcfe29ac2fa5be7a579109b838579",
+    "README.md": "37766e2960d5f565929438d1119f4a7052c17111c2a107369be907cfdd4abf5a",
+    "教材编写现状与目的.md": "8e0863cd71061ad952d757de1a6ab8d7178ef999c37efba7f60849f8cf78da6b"
+  },
+  "verification": {
+    "engineering_tests": {
+      "command": "python3 -m unittest discover -s tests -v",
+      "exit_code": 0,
+      "tests": 51,
+      "scope": "在修改规则前的104项原文件快照上执行；测试源、引擎与Harness至最终候选未变，不证明教学或排版质量。"
+    },
+    "harness_validate": {
+      "command": "python3 scripts/harness.py validate",
+      "exit_code": 0
+    },
+    "skill_validation": {
+      "interpreter": "/home/reggie/miniconda3/bin/python",
+      "validator": "/home/reggie/.codex/skills/.system/skill-creator/scripts/quick_validate.py",
+      "targets": [
+        "skills/textbook-authoring",
+        "/home/reggie/.local/share/chatgpt-desktop/skills/textbook-authoring"
+      ],
+      "exit_code": 0
+    },
+    "local_links_checked": 60,
+    "single_installed_entry_owner_verified": true,
+    "git_diff_check_exit_code": 0,
+    "fonts_resolved": [
+      "Noto Serif CJK SC",
+      "Noto Sans CJK SC",
+      "Noto Sans Mono CJK SC"
+    ],
+    "harness_status": {
+      "command": "python3 scripts/harness.py status",
+      "exit_code": 1,
+      "ch01_draft_effective_state": "accepted",
+      "blueprint_effective_state": "blocked",
+      "blueprint_stale_reasons": [
+        "policy changed",
+        "engine changed"
+      ],
+      "interpretation": "与轮初一致；未恢复或重写旧蓝图证据。"
+    },
+    "protected_files": {
+      "tracked_baseline_count": 104,
+      "unchanged_count": 101,
+      "criterion": "除本轮三个owned文件以外的全部原tracked文件SHA-256均未变",
+      "critical_hashes": {
+        "harness.json": "b6c4b176302bd69078aa910e69cc41cf8ed5e403359640fae70c6b59ca6888f0",
+        "scripts/harness.py": "3d226917d2aa30da1de9e48d6c7ee941cc3f84a9da9529212ae8e3360fbfb1af",
+        "manuscripts/ch01/ch01.md": "c1709f5a11b65d8400f809cc19807fecced90c6df6b6d39b1586ed127d7c6b23",
+        "specs/ch01.spec.md": "2c892d3cc5a98bcde6a10897685ca1a41f78222db2d45d1e793d143b2b74b386",
+        "plans/ch01.plan.md": "0bd8bdb2fcb723ab7ada4ef32065f51ecec103094bf0e85e704d6ca5d8182174",
+        "AI时代的计算思维--跨界创新与终身学习能力培养-教材大纲.docx": "4b2526dd13a07ea1facaeefcef09658b9df46ab4496df6c782c8dc222967d8be",
+        "AI时代的思维训练3.1节样稿.docx": "2fde276942f55dd4cfb00f0036a0d4a8935bd8320cef4c2eb0c47ed707e5aa17"
+      }
+    }
+  },
+  "reference_standard_check": {
+    "checked_on": "2026-10-11",
+    "standard": "GB/T 7714-2025",
+    "official_source": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=C6CE52E55AC09B9C79A20AEA77CEDD14",
+    "status": "现行",
+    "implementation_date": "2026-07-01",
+    "checked_scope": "仅正式编号、名称、状态与实施日期；官方信息页不提供全文，不宣称已核验全部著录细则。"
+  },
+  "readonly_investigation": {
+    "role": "explorer",
+    "snapshot": "pre-edit contracts; latest format-lock steering handled by Parent",
+    "invocation_id": "058aa08c-ea6c-4e22-9596-6a1e54ec4fbc",
+    "contract_seal": "ea0fdd443c7b43c596c5079dd580fc4d718bdd77cf7252a5562f91d84660189e",
+    "canonical_receipt_path": "/home/reggie/.local/state/agent-subagent-router/runs/058aa08c-ea6c-4e22-9596-6a1e54ec4fbc/invocation-receipt.json",
+    "canonical_receipt_sha256": "3baecaa856dcaf1348469e65ba8ae5b887bd641a4d56ef23d5342c2b7cce8dce",
+    "classification": "PARSED",
+    "process": {
+      "descendants_terminated": false,
+      "duration_seconds": 397.3317542219884,
+      "exit_code": 0,
+      "reason": "exited",
+      "stderr_observed_bytes": 73,
+      "stdout_observed_bytes": 2457998,
+      "truncated": false
+    },
+    "budgets": {
+      "context_bytes": 8388608,
+      "generation_tokens": 32000,
+      "idle_seconds": 1800,
+      "output_bytes": 16777216,
+      "request_limit": 64,
+      "wall_seconds": 3600
+    },
+    "wire_requests": 3,
+    "observed_backend": "kimi",
+    "observed_wire_model": "k3",
+    "sealed_profile": "deep",
+    "observed_effort": "max",
+    "route_qualification": {
+      "invocation_id": "4f2d5dc8-4234-4665-b382-e82f1ad6cc00",
+      "sha256": "5f3c17dcefcff35f54db521fa4c5435d8f9fb0b1da9ca4e108106a66cb767555"
+    },
+    "observed_reads": [
+      {
+        "end_line": 46,
+        "native_tool_use_id": "tool_zNS3V0gdVvOSXSP2C7igU6o9",
+        "path": "/home/reggie/vscode_folder/jiaocai/README.md",
+        "sha256": "1c073003b18524cc051379f4a7c6d20e3afac989e4514183a70cd34d6f7cc127",
+        "start_line": 1,
+        "status": "complete",
+        "truncated": false
+      },
+      {
+        "end_line": 506,
+        "native_tool_use_id": "tool_Nbubl3Hbq8zAO2TvlJ3YUp2f",
+        "path": "/home/reggie/vscode_folder/jiaocai/specs/ch01.spec.md",
+        "sha256": "2c892d3cc5a98bcde6a10897685ca1a41f78222db2d45d1e793d143b2b74b386",
+        "start_line": 1,
+        "status": "complete",
+        "truncated": false
+      },
+      {
+        "end_line": 143,
+        "native_tool_use_id": "tool_ywlGFviRWXEKGVRTXZyab7If",
+        "path": "/home/reggie/vscode_folder/jiaocai/skills/textbook-authoring/SKILL.md",
+        "sha256": "c8f3b491daf9d4ba2810d5db0750d1ae197de76a1cf7c4d5d7491ea80fb3e409",
+        "start_line": 1,
+        "status": "complete",
+        "truncated": false
+      },
+      {
+        "end_line": 919,
+        "native_tool_use_id": "tool_FhQmIoNmNaOxBEbxYJKcbKUG",
+        "path": "/home/reggie/vscode_folder/jiaocai/manuscripts/ch01/ch01.md",
+        "sha256": "c1709f5a11b65d8400f809cc19807fecced90c6df6b6d39b1586ed127d7c6b23",
+        "start_line": 1,
+        "status": "complete",
+        "truncated": false
+      },
+      {
+        "end_line": 60,
+        "native_tool_use_id": "tool_v63NjrI0rIEYt8OHmEYLofLF",
+        "path": "/home/reggie/vscode_folder/jiaocai/AGENTS.md",
+        "sha256": "6becc7b653a33b57f6b74cf337cfa9f37e14a0b857bb432541127ba567599fa5",
+        "start_line": 1,
+        "status": "complete",
+        "truncated": false
+      },
+      {
+        "end_line": 49,
+        "native_tool_use_id": "tool_lNKUuM7NbMcBoaQPrFQXULGo",
+        "path": "/home/reggie/vscode_folder/jiaocai/specs/authoring-quality.spec.md",
+        "sha256": "3313588fc3551633f3182cdce9e5e597ff8db6c1587c91c5da33f1041cdc002e",
+        "start_line": 1,
+        "status": "complete",
+        "truncated": false
+      },
+      {
+        "end_line": 207,
+        "native_tool_use_id": "tool_JpfMarz9yq8q7TmMsLiCSOVY",
+        "path": "/home/reggie/vscode_folder/jiaocai/教材编写现状与目的.md",
+        "sha256": "b3f87b813b7dbac04c5f5e16487b03a494a5ad9b2797b6ca47c39f43c69e1276",
+        "start_line": 1,
+        "status": "complete",
+        "truncated": false
+      },
+      {
+        "end_line": 612,
+        "native_tool_use_id": "tool_roBHmtkfuj7zhVRJpdIhvDeq",
+        "path": "/home/reggie/vscode_folder/jiaocai/plans/ch01.plan.md",
+        "sha256": "0bd8bdb2fcb723ab7ada4ef32065f51ecec103094bf0e85e704d6ca5d8182174",
+        "start_line": 1,
+        "status": "complete",
+        "truncated": false
+      }
+    ],
+    "report_sha256": "378936b4da0482cec080b181df2444a26e722a8fbb0863154bbbf4f4d0bc1316",
+    "report": {
+      "evidence_refs": [
+        {
+          "end_line": 92,
+          "path": "/home/reggie/vscode_folder/jiaocai/skills/textbook-authoring/SKILL.md",
+          "sha256": "c8f3b491daf9d4ba2810d5db0750d1ae197de76a1cf7c4d5d7491ea80fb3e409",
+          "start_line": 80
+        },
+        {
+          "end_line": 102,
+          "path": "/home/reggie/vscode_folder/jiaocai/skills/textbook-authoring/SKILL.md",
+          "sha256": "c8f3b491daf9d4ba2810d5db0750d1ae197de76a1cf7c4d5d7491ea80fb3e409",
+          "start_line": 94
+        },
+        {
+          "end_line": 126,
+          "path": "/home/reggie/vscode_folder/jiaocai/skills/textbook-authoring/SKILL.md",
+          "sha256": "c8f3b491daf9d4ba2810d5db0750d1ae197de76a1cf7c4d5d7491ea80fb3e409",
+          "start_line": 120
+        },
+        {
+          "end_line": 45,
+          "path": "/home/reggie/vscode_folder/jiaocai/skills/textbook-authoring/SKILL.md",
+          "sha256": "c8f3b491daf9d4ba2810d5db0750d1ae197de76a1cf7c4d5d7491ea80fb3e409",
+          "start_line": 33
+        },
+        {
+          "end_line": 29,
+          "path": "/home/reggie/vscode_folder/jiaocai/README.md",
+          "sha256": "1c073003b18524cc051379f4a7c6d20e3afac989e4514183a70cd34d6f7cc127",
+          "start_line": 27
+        },
+        {
+          "end_line": 45,
+          "path": "/home/reggie/vscode_folder/jiaocai/README.md",
+          "sha256": "1c073003b18524cc051379f4a7c6d20e3afac989e4514183a70cd34d6f7cc127",
+          "start_line": 45
+        },
+        {
+          "end_line": 101,
+          "path": "/home/reggie/vscode_folder/jiaocai/specs/ch01.spec.md",
+          "sha256": "2c892d3cc5a98bcde6a10897685ca1a41f78222db2d45d1e793d143b2b74b386",
+          "start_line": 83
+        },
+        {
+          "end_line": 251,
+          "path": "/home/reggie/vscode_folder/jiaocai/specs/ch01.spec.md",
+          "sha256": "2c892d3cc5a98bcde6a10897685ca1a41f78222db2d45d1e793d143b2b74b386",
+          "start_line": 235
+        },
+        {
+          "end_line": 416,
+          "path": "/home/reggie/vscode_folder/jiaocai/specs/ch01.spec.md",
+          "sha256": "2c892d3cc5a98bcde6a10897685ca1a41f78222db2d45d1e793d143b2b74b386",
+          "start_line": 410
+        },
+        {
+          "end_line": 480,
+          "path": "/home/reggie/vscode_folder/jiaocai/specs/ch01.spec.md",
+          "sha256": "2c892d3cc5a98bcde6a10897685ca1a41f78222db2d45d1e793d143b2b74b386",
+          "start_line": 464
+        },
+        {
+          "end_line": 489,
+          "path": "/home/reggie/vscode_folder/jiaocai/specs/ch01.spec.md",
+          "sha256": "2c892d3cc5a98bcde6a10897685ca1a41f78222db2d45d1e793d143b2b74b386",
+          "start_line": 482
+        },
+        {
+          "end_line": 505,
+          "path": "/home/reggie/vscode_folder/jiaocai/specs/ch01.spec.md",
+          "sha256": "2c892d3cc5a98bcde6a10897685ca1a41f78222db2d45d1e793d143b2b74b386",
+          "start_line": 501
+        },
+        {
+          "end_line": 259,
+          "path": "/home/reggie/vscode_folder/jiaocai/manuscripts/ch01/ch01.md",
+          "sha256": "c1709f5a11b65d8400f809cc19807fecced90c6df6b6d39b1586ed127d7c6b23",
+          "start_line": 231
+        },
+        {
+          "end_line": 396,
+          "path": "/home/reggie/vscode_folder/jiaocai/manuscripts/ch01/ch01.md",
+          "sha256": "c1709f5a11b65d8400f809cc19807fecced90c6df6b6d39b1586ed127d7c6b23",
+          "start_line": 384
+        },
+        {
+          "end_line": 434,
+          "path": "/home/reggie/vscode_folder/jiaocai/manuscripts/ch01/ch01.md",
+          "sha256": "c1709f5a11b65d8400f809cc19807fecced90c6df6b6d39b1586ed127d7c6b23",
+          "start_line": 423
+        },
+        {
+          "end_line": 610,
+          "path": "/home/reggie/vscode_folder/jiaocai/manuscripts/ch01/ch01.md",
+          "sha256": "c1709f5a11b65d8400f809cc19807fecced90c6df6b6d39b1586ed127d7c6b23",
+          "start_line": 560
+        },
+        {
+          "end_line": 801,
+          "path": "/home/reggie/vscode_folder/jiaocai/manuscripts/ch01/ch01.md",
+          "sha256": "c1709f5a11b65d8400f809cc19807fecced90c6df6b6d39b1586ed127d7c6b23",
+          "start_line": 780
+        },
+        {
+          "end_line": 851,
+          "path": "/home/reggie/vscode_folder/jiaocai/manuscripts/ch01/ch01.md",
+          "sha256": "c1709f5a11b65d8400f809cc19807fecced90c6df6b6d39b1586ed127d7c6b23",
+          "start_line": 843
+        },
+        {
+          "end_line": 918,
+          "path": "/home/reggie/vscode_folder/jiaocai/manuscripts/ch01/ch01.md",
+          "sha256": "c1709f5a11b65d8400f809cc19807fecced90c6df6b6d39b1586ed127d7c6b23",
+          "start_line": 898
+        },
+        {
+          "end_line": 50,
+          "path": "/home/reggie/vscode_folder/jiaocai/manuscripts/ch01/ch01.md",
+          "sha256": "c1709f5a11b65d8400f809cc19807fecced90c6df6b6d39b1586ed127d7c6b23",
+          "start_line": 46
+        },
+        {
+          "end_line": 841,
+          "path": "/home/reggie/vscode_folder/jiaocai/manuscripts/ch01/ch01.md",
+          "sha256": "c1709f5a11b65d8400f809cc19807fecced90c6df6b6d39b1586ed127d7c6b23",
+          "start_line": 837
+        },
+        {
+          "end_line": 488,
+          "path": "/home/reggie/vscode_folder/jiaocai/plans/ch01.plan.md",
+          "sha256": "0bd8bdb2fcb723ab7ada4ef32065f51ecec103094bf0e85e704d6ca5d8182174",
+          "start_line": 452
+        },
+        {
+          "end_line": 192,
+          "path": "/home/reggie/vscode_folder/jiaocai/教材编写现状与目的.md",
+          "sha256": "b3f87b813b7dbac04c5f5e16487b03a494a5ad9b2797b6ca47c39f43c69e1276",
+          "start_line": 178
+        },
+        {
+          "end_line": 206,
+          "path": "/home/reggie/vscode_folder/jiaocai/教材编写现状与目的.md",
+          "sha256": "b3f87b813b7dbac04c5f5e16487b03a494a5ad9b2797b6ca47c39f43c69e1276",
+          "start_line": 204
+        },
+        {
+          "end_line": 40,
+          "path": "/home/reggie/vscode_folder/jiaocai/specs/authoring-quality.spec.md",
+          "sha256": "3313588fc3551633f3182cdce9e5e597ff8db6c1587c91c5da33f1041cdc002e",
+          "start_line": 25
+        },
+        {
+          "end_line": 53,
+          "path": "/home/reggie/vscode_folder/jiaocai/AGENTS.md",
+          "sha256": "6becc7b653a33b57f6b74cf337cfa9f37e14a0b857bb432541127ba567599fa5",
+          "start_line": 49
+        }
+      ],
+      "findings": [
+        "兼容性总览：拟议七条补充规则中四条已存在于现行契约，无冲突——Markdown稿与Word/PDF排版稿区分（SKILL.md:122“draft验收只确认当前范围初稿，Word/PDF排版与正式字数另行检查”；README.md:45；ch01.spec.md:412,414）、参考文献暂定体例（SKILL.md:100“尚未确认时保持一致并注明暂定”；ch01.md:900“引用暂用编号体例”）、多样教学组织（SKILL.md:33；authoring-quality.spec.md:25）、实际页面渲染检查（SKILL.md:124“Word/PDF交付另检查实际渲染、图表、页码和层级”；ch01.spec.md:487出版社体例未取得）。补充属明确化与扩展，无需Harness重建。",
+        "练习答案与任务分离与章级spec无直接冲突，但与现有ch01.md结构冲突：spec只要求数据、规则、答案或评价指引随稿交付并以JSON材料登记（ch01.spec.md:236-237,251,475,479），并未规定答案必须内嵌节正文；但现行第一章把E01—E05参考答案全部内嵌（ch01.md:231-259、384-396、570-610、780-801、847-851）。若将答案移至章末或教师材料，属于对ch01.md的实质修改，会使已accepted的ch01-draft快照证据失效，须按既有规则重新check/review/accept（README.md:27；教材编写现状与目的.md:190,204）。这触发的是既有失效/重验收流程，不是Harness重建，但补充条款应写明这一点。",
+        "答案后移的依赖边界缺失（核心缺口）：后续内容对E01/E03/E05的依赖主要在数据与规则（保留则无冲突），但答案段内含正文级教学内容——E01答案段含D2关闭后的无解证明、协商提案与迭代说明（ch01.md:255-259），E03答案段含候选集受力分析（ch01.md:572-583），E04参考答案指导块内含评价量规表1-30（ch01.md:792-801）；同时1.3.1正文用表1-16给出E01另一组可行安排作迁移反例（ch01.md:423-434），E03任务三要求检查该改名候选（ch01.md:566），E05任务要求对照E01或E03标出可继承规则（ch01.md:843）。用户规则要求preserve data/rubrics并distinguish worked examples，但现行契约没有划定“答案键”与“worked example/量规”的界线；若整段搬迁会连同量规和推理一起抽走，需在补充中显式定义该边界。",
+        "篇幅与材料登记口径缺失：节预算包含节内练习，章末已有“综合训练及答案指引”800字（ch01.spec.md:96,101）。答案移至章末仍在章内时，G05整章28000—40000字不受影响；若移至独立教师材料文件，契约未规定该文件是否计入章篇幅、是否须登记为harness材料（G10，ch01.spec.md:479；run materials清单见plans/ch01.plan.md:452-481）。当前章32131汉字、34张教学表（教材编写现状与目的.md:182-184），搬迁规模不致跌破下限，但口径需写明。",
+        "表格规则兼容：现行契约无表格数量上限，练习数据表/核验表/量规表承担“随任务交付数据与评价依据”职能（SKILL.md:84,88；ch01.spec.md:475）。“保留对数据/比较/量规有用的表、说明性内容用散文、不设数量上限”与现行契约一致；需补一句边界：练习数据表、核验记录表与量规表是交付载体，不因“说明用散文”改为散文。",
+        "Word题注编号与交叉引用规则兼容但缺映射边界：Markdown现用显式“图1-x/表1-x”编号，run spec以“图1-1”等id登记（plans/ch01.plan.md:402-450），G09要求编号与跨引用一致（ch01.spec.md:478）。Word自动题注若重新编号会破坏与已验收Markdown及harness登记的可追溯性；补充应规定排版稿保留章内显式编号或记录编号映射。另可顺带统一来源标注：现稿混用“**来源说明：**”（ch01.md:50,144,194,382,473,724）与“来源：”（ch01.md:839）。",
+        "既有验收与新排版要求的关系：ch01-draft为chapter/draft accepted，验收范围明确不含Word/PDF排版与正式字数（README.md:45；SKILL.md:122；教材编写现状与目的.md:190，出版社格式列为待处理事项:192；plans/ch01.plan.md:488）。新排版要求适用于后续Word/PDF阶段，不回溯影响已验收draft；补充应写明不得据此宣称原稿已满足排版要求（同类原则见authoring-quality.spec.md:40 Q6），且排版检查作为人工审校记录，不新增Harness阶段。",
+        "变更控制路径明确：若新规则改变第一章材料或验收要求（如答案不再内嵌），按Change Control须升spec版本并重建plan的规格哈希绑定（ch01.spec.md:503）；若仅作为全书Skill补充向前适用于后续章与排版阶段，则不动ch01契约。补充条款须写明适用范围以避免歧义。"
+      ],
+      "proposed_changes": [
+        {
+          "change": "增加稿件形态条款：Markdown内容稿是整章harness验收入口；Word/PDF排版稿为后续独立交付物，其实际题注编号、交叉引用、图题/表题与来源标注一致性、正文引用编号和页面渲染检查作为人工审校记录登记到现状记录，不新增Harness阶段；排版稿保留与已验收Markdown一致的图1-x/表1-x显式编号，或记录Word自动编号与章内编号的映射。",
+          "target": "skills/textbook-authoring/SKILL.md Delivery Check"
+        },
+        {
+          "change": "增加练习答案组织条款：任务、数据与评价量规留在学生用章内；答案键可移至章末答案区或教师材料文件。显式区分worked example（承担正文推理的内容，如无解证明、候选集受力分析、迁移反例，留在正文）与答案键（参考解及评分指引，可分离）；引用既有练习的后续节与章末综合任务只依赖随章保留的数据、规则与worked example，不依赖已分离的答案键。教师材料文件随稿交付并登记为harness材料，同时在章级spec写明其是否计入28000—40000字篇幅口径。",
+          "target": "skills/textbook-authoring/SKILL.md Practice and Reflection"
+        },
+        {
+          "change": "在现有“引用体例沿用已确认规范；尚未确认时保持一致并注明暂定”基础上补一句：取得校方或出版社体例后统一替换书目与正文引用编号，替换后按既有规则对受影响稿件重新check与实际审校；Word排版稿中的引用编号须与已验收Markdown一致或有映射记录。",
+          "target": "skills/textbook-authoring/SKILL.md Evidence and Language"
+        },
+        {
+          "change": "明确数据表、比较表、核验记录表与评价量规表作为数据与评价交付载体始终保留为表格；概念解释与推理叙述优先散文；不设表格数量上限，但每表须有问题或判断用途，避免纯装饰。",
+          "target": "skills/textbook-authoring/SKILL.md 表格表达（可并入Reader and Knowledge Gain或新条款）"
+        },
+        {
+          "change": "写明补充规则向前适用于后续章编写与Word/PDF排版阶段，不自动改写已accepted的第一章Markdown稿；如用户要求回溯应用于ch01.md，按ch01.spec.md Change Control升spec版本、重建plan绑定哈希，并对ch01-draft重新check/review/accept，不手填通过。",
+          "target": "新补充条款的适用范围说明"
+        }
+      ],
+      "questions": [
+        "答案分离规则是否回溯改写已accepted的第一章ch01.md，还是仅适用于第二章起及Word/PDF排版阶段？两种选择对应不同的变更控制路径（前者须升spec版本并重新check/review/accept）。",
+        "若新设教师材料文件，它是否登记为harness材料、是否计入章篇幅预算？现有契约只有materials/ch01/下JSON答案文件的登记先例，无教师材料文档概念。",
+        "Word排版稿的题注采用保留章内显式“图1-x/表1-x”编号，还是Word自动编号并记录映射？这影响G09一致性的可追溯口径。",
+        "章末800字“章末综合训练及答案指引”预算是否拟扩为涵盖E01—E04分离答案的章末答案区，还是章末答案区另立口径？"
+      ],
+      "uncertainties": [
+        "校方/出版社体例是否已取得未知：ch01.spec.md:487与现状记录:192均标记未取得，因此“references follow school/publisher style when known”当前只能落在暂定体例分支。",
+        "答案段从各节移出后的节级字数影响未逐节核算；整章32131汉字距28000下限余量约4000字，若答案移出章外（教师材料不计入）需实际复核是否仍满足G05。",
+        "E01—E04答案若移入章末答案区，章末原800字“综合训练及答案指引”预算口径是否覆盖新增答案文本，契约未规定。",
+        "本次为只读调查，未核对harness.json实际run状态与scripts/harness.py行为；“重新check/review/accept”路径依据README.md:27-37与plan记载，未实测。"
+      ]
+    },
+    "parent_adjudication": [
+      {
+        "id": "EDI01",
+        "disposition": "CONFIRMED",
+        "reason": "既有原则兼容；新增规则具体化。最新用户要求进一步确定全书共用textbook-style-v1.0，不逐章重选。"
+      },
+      {
+        "id": "EDI02",
+        "disposition": "CONFIRMED",
+        "reason": "答案分离不取消随稿交付；现有第一章未修改。以后实质改稿沿用原check/review/accept与适用契约变更规则。"
+      },
+      {
+        "id": "EDI03",
+        "disposition": "CONFIRMED",
+        "reason": "不得按整个答案标题块搬迁，保留任务所需数据、量规和正文推理，逐项核对后文依赖。"
+      },
+      {
+        "id": "EDI04",
+        "disposition": "OUT_OF_SCOPE",
+        "reason": "规则明确学生答案留章内，另行授权的教师材料登记且不能补足章正文预算；未搬迁或复算字数，不采用搬迁后必不低于下限的猜测。"
+      },
+      {
+        "id": "EDI05",
+        "disposition": "PARTIALLY_ADOPTED",
+        "reason": "保护数据、评价与操作功能，未采纳所有数据/核验表始终必须以表格呈现；表格取舍按教学用途，无数量配额。"
+      },
+      {
+        "id": "EDI06",
+        "disposition": "CONFIRMED",
+        "reason": "同一内容版本保持源稿、Word/PDF与登记编号一致；不用另一套编号映射代替一致性。原生题注与交叉引用的实际实现留给排版任务。"
+      },
+      {
+        "id": "EDI07",
+        "disposition": "CONFIRMED",
+        "reason": "新增排版规则不追认既有chapter/draft已满足；页面验收与机器/内容检查分开，未新增Harness状态。"
+      },
+      {
+        "id": "EDI08",
+        "disposition": "CONFIRMED",
+        "reason": "仅向后续写作、修订与排版提供共用规则，本轮保留原第一章Spec/plan；实际更改契约时遵循原变更控制。"
+      }
+    ],
+    "acceptance_limit": "PARSED与exit 0只证明本次调用/报告结果，调查不是最终候选独立审校或教材验收。"
+  },
+  "parent_self_review": {
+    "style_owner": "skills/textbook-authoring/SKILL.md Formal Textbook Style",
+    "latest_user_constraint": "本次确定全书格式，后九章直接继承，不反复设计；不把不同知识类型写成相同模板。",
+    "resolved_decisions": [
+      "学生版答案固定章末且计入章内预算",
+      "GB/T 7714-2025章内顺序编码制",
+      "A4与明确命名样式，采用当前实际可解析的Noto CJK字体",
+      "表格/图题/来源/编号样式固定，内容取舍与叙述顺序可自主选择",
+      "现有原稿和Harness验收范围不追认或改写"
+    ]
+  },
+  "implementation_review_risk_gate": {
+    "decision": "KIMI_REVIEW_NOT_REQUIRED",
+    "explicit_final_review_requested": false,
+    "critical_credential_authority_or_durable_damage_path": false,
+    "major_consequence_with_remaining_semantic_gap_and_independent_gain": false,
+    "reason": "稳定候选只修改可恢复的本地教学/排版规则及记录，无凭据、外部发布、引擎/权限路径或不可逆生产状态变化；当前缺少页面/教学验证属于明确未执行的后续交付范围，不能由额外工程review替代。"
+  },
+  "limits": [
+    "未修改第一章正文、减表或实际分离答案。",
+    "未生成或渲染Word/PDF，未制作Word模板，不声称排版页面就绪。",
+    "所选版式是项目基线，未声称获校方或出版社审定。",
+    "无真实教师/学生验收，后九章正文未开始。"
+  ]
+}
