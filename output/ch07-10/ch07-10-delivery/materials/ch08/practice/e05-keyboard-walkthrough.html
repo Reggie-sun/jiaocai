@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>键盘操作走查：离线练习表单</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, sans-serif; }
+    body { max-width: 46rem; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; color: #202124; }
+    label { display: block; margin-top: 1rem; font-weight: 650; }
+    input, textarea { box-sizing: border-box; width: 100%; min-height: 2.75rem; margin-top: .35rem; padding: .55rem; border: 1px solid #6b7280; border-radius: .25rem; font: inherit; }
+    textarea { min-height: 7rem; }
+    :focus-visible { outline: 3px solid #174ea6; outline-offset: 3px; }
+    input[type="date"]:focus-within { outline: 3px solid #174ea6; outline-offset: 3px; }
+    .notice { padding: .75rem; border-left: .25rem solid #174ea6; background: #f3f6fc; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>键盘操作走查：离线练习表单</h1>
+    <p class="notice">这是为课程练习制作的本地静态页面。页面只有以下四个输入字段，不联网、不加载外部资源、不提交或保存输入。请勿输入真实个人信息；走查结果另记在纸面或空记录文件中。</p>
+    <label for="project-id">项目编号</label>
+    <input id="project-id" name="project_id" type="text" autocomplete="off">
+
+    <label for="topic">主题</label>
+    <input id="topic" name="topic" type="text" autocomplete="off">
+
+    <label for="exercise-date">练习日期</label>
+    <input id="exercise-date" name="exercise_date" type="date" autocomplete="off">
+
+    <label for="notes">备注</label>
+    <textarea id="notes" name="notes"></textarea>
+  </main>
+</body>
+</html>

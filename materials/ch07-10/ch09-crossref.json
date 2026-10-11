@@ -1,0 +1,81 @@
+[
+  {
+    "doi": "10.17226/19007",
+    "status": 429
+  },
+  {
+    "doi": "10.2307/2666999",
+    "status": 200,
+    "title": [
+      "Psychological Safety and Learning Behavior in Work Teams"
+    ],
+    "author": [
+      {
+        "given": "Amy",
+        "family": "Edmondson",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Harvard University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          1999,
+          6
+        ]
+      ]
+    },
+    "volume": "44",
+    "issue": "2",
+    "page": "350-383",
+    "type": "journal-article"
+  },
+  {
+    "doi": "10.1145/3274591",
+    "status": 404
+  },
+  {
+    "doi": "10.6028/NIST.AI.100-1",
+    "status": 200,
+    "title": [
+      "Artificial Intelligence Risk Management Framework (AI RMF 1.0)"
+    ],
+    "author": [
+      {
+        "given": "Elham",
+        "family": "Tabassi",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          26
+        ]
+      ]
+    },
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "type": "report"
+  }
+]

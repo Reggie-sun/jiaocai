@@ -1,0 +1,176 @@
+{
+  "chapter": 10,
+  "docx_sha256": "fc9b8ca7d97ce1bcf0518ce9f3fabc66414d712fc32bf1ec1d8e513f92ebe5ee",
+  "pdf_sha256": "062c1f74c22241289bd7f57b49fc782847d7825fb9480efb8fe6189725ab48a2",
+  "verification_sha256": "8f5fe1bd4900540c2d0990c5cea00dc5767f08917fba5eff533c965ed2bec883",
+  "pages": [
+    {
+      "page": 1,
+      "file": "page-1.png",
+      "sha256": "407fa99e6130578c1355e48e1e60864140abe54caeedaf68dcf07340108c3124",
+      "actually_opened": true,
+      "observer": "Codex Parent",
+      "method": "individual full-page view_image"
+    },
+    {
+      "page": 2,
+      "file": "page-2.png",
+      "sha256": "1c217f28ba32b682dbfb471ab4c38e028d76dce5a8779ec5ce13cef116224889",
+      "actually_opened": true,
+      "observer": "Codex Parent",
+      "method": "individual full-page view_image"
+    },
+    {
+      "page": 3,
+      "file": "page-3.png",
+      "sha256": "81f978554974a0e8f07d051598685dfc3079cbe5ab3bd44de2a456d8adae7d59",
+      "actually_opened": true,
+      "observer": "Codex Parent",
+      "method": "individual full-page view_image"
+    },
+    {
+      "page": 4,
+      "file": "page-4.png",
+      "sha256": "3cdce91adb722efae7f9e9a2cbe4719235f1ce3950a9fc907622a5796f3d8ead",
+      "actually_opened": true,
+      "observer": "Codex Parent",
+      "method": "individual full-page view_image"
+    },
+    {
+      "page": 5,
+      "file": "page-5.png",
+      "sha256": "3388c82c922349e1d06c7afa069fc3e1b9f00271c98d5bddc0c756d516ea372d",
+      "actually_opened": true,
+      "observer": "Codex Parent",
+      "method": "individual full-page view_image"
+    },
+    {
+      "page": 6,
+      "file": "page-6.png",
+      "sha256": "0bb06700f3923614060d61a87f633e7946a975e2b629bd0d0343080bb24e2ef1",
+      "actually_opened": true,
+      "observer": "Codex Parent",
+      "method": "individual full-page view_image"
+    },
+    {
+      "page": 7,
+      "file": "page-7.png",
+      "sha256": "3ef547c0f33a6d3af46f5594573a87ca4c7aad00451e95ff1bf247a863deb831",
+      "actually_opened": true,
+      "observer": "Codex Parent",
+      "method": "individual full-page view_image"
+    },
+    {
+      "page": 8,
+      "file": "page-8.png",
+      "sha256": "17022121ff31c95c4370baffd41a19db7a777492c702d60b5e11b28acb902093",
+      "actually_opened": true,
+      "observer": "Codex Parent",
+      "method": "individual full-page view_image"
+    },
+    {
+      "page": 9,
+      "file": "page-9.png",
+      "sha256": "42689c21007abb3791038b5e5c8c73d36202c7ebafd002779c4db23b85cd8043",
+      "actually_opened": true,
+      "observer": "Codex Parent",
+      "method": "individual full-page view_image"
+    },
+    {
+      "page": 10,
+      "file": "page-10.png",
+      "sha256": "806a6afc680cd5b3e39bf547a54580c0cb8d00a2c809733f14d87846bcdfa14c",
+      "actually_opened": true,
+      "observer": "Codex Parent",
+      "method": "individual full-page view_image"
+    },
+    {
+      "page": 11,
+      "file": "page-11.png",
+      "sha256": "415b87104457b6332cbf7ad76f8794c229800874f0ac9b9297690c93fe913397",
+      "actually_opened": true,
+      "observer": "Codex Parent",
+      "method": "individual full-page view_image"
+    },
+    {
+      "page": 12,
+      "file": "page-12.png",
+      "sha256": "ec5488bb883e402968b721877934d340c219a86bcb8d599e31c3000b7d05e11c",
+      "actually_opened": true,
+      "observer": "Codex Parent",
+      "method": "individual full-page view_image"
+    },
+    {
+      "page": 13,
+      "file": "page-13.png",
+      "sha256": "6d5ee1e4af45d3341c085b280f2db344bf8fae9d1468a290834b0eefc93ce61b",
+      "actually_opened": true,
+      "observer": "Codex Parent",
+      "method": "individual full-page view_image"
+    },
+    {
+      "page": 14,
+      "file": "page-14.png",
+      "sha256": "8d8d800afd98c20b29c48feaaa496760e35328c41885e94e438a7d4fa23b7194",
+      "actually_opened": true,
+      "observer": "Codex Parent",
+      "method": "individual full-page view_image"
+    },
+    {
+      "page": 15,
+      "file": "page-15.png",
+      "sha256": "afc6cfef5b55b911af38c3b89f70cb6bc37b29cac1a477d41a3e7c513d6a0c64",
+      "actually_opened": true,
+      "observer": "Codex Parent",
+      "method": "individual full-page view_image"
+    },
+    {
+      "page": 16,
+      "file": "page-16.png",
+      "sha256": "a9e82a01e76cb425ba33cd9672323e113903e325de3b2b7e663a75a55971df00",
+      "actually_opened": true,
+      "observer": "Codex Parent",
+      "method": "individual full-page view_image"
+    },
+    {
+      "page": 17,
+      "file": "page-17.png",
+      "sha256": "efbcb9916447a0d46e052970411ed01fd039890666d1504a918b1ce66d05720e",
+      "actually_opened": true,
+      "observer": "Codex Parent",
+      "method": "individual full-page view_image"
+    },
+    {
+      "page": 18,
+      "file": "page-18.png",
+      "sha256": "740a821a64c3ea9d1c857d9dc741b07ba4866ef4198241e43df98f328d2d358c",
+      "actually_opened": true,
+      "observer": "Codex Parent",
+      "method": "individual full-page view_image"
+    },
+    {
+      "page": 19,
+      "file": "page-19.png",
+      "sha256": "d5aadc1422255701a77973ad0820a9c36419386405085c3dfb7b335ced9dcaf2",
+      "actually_opened": true,
+      "observer": "Codex Parent",
+      "method": "individual full-page view_image"
+    },
+    {
+      "page": 20,
+      "file": "page-20.png",
+      "sha256": "d5865159eb936bc27445bece7c069d63494d1c1cc19d686564e4cdfbd79f4147",
+      "actually_opened": true,
+      "observer": "Codex Parent",
+      "method": "individual full-page view_image"
+    }
+  ],
+  "limits": "Snapshot only; actual observation recorded separately.",
+  "actual_page_range": [
+    1,
+    20
+  ],
+  "phase": "partial_actual_observation",
+  "findings": [],
+  "notes": "Tables10-1/2 and figure10-1 readable/co-page; original long headings/TOC wrap; visible body/footer bounds clean."
+}

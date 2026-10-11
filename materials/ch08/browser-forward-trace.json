@@ -1,0 +1,339 @@
+[
+  {
+    "step": 1,
+    "key": "Tab",
+    "id": "project-id",
+    "tag": "INPUT",
+    "value": "SYN-01",
+    "focusVisible": true,
+    "outline": "rgb(23, 78, 166) solid 3px",
+    "labels": [
+      {
+        "for": "project-id",
+        "text": "项目编号"
+      },
+      {
+        "for": "topic",
+        "text": "主题"
+      },
+      {
+        "for": "exercise-date",
+        "text": "练习日期"
+      },
+      {
+        "for": "notes",
+        "text": "备注"
+      }
+    ],
+    "values": [
+      {
+        "id": "project-id",
+        "value": "SYN-01"
+      },
+      {
+        "id": "topic",
+        "value": ""
+      },
+      {
+        "id": "exercise-date",
+        "value": ""
+      },
+      {
+        "id": "notes",
+        "value": ""
+      }
+    ],
+    "screenshot": {
+      "file": "materials/ch08/browser-observation/forward-1.png",
+      "sha256": "de9f78d7b9e2393df112b37b8b0847b524e24ea696963f4d11f69fbae86c593e"
+    }
+  },
+  {
+    "step": 2,
+    "key": "Tab",
+    "id": "topic",
+    "tag": "INPUT",
+    "value": "键盘练习",
+    "focusVisible": true,
+    "outline": "rgb(23, 78, 166) solid 3px",
+    "labels": [
+      {
+        "for": "project-id",
+        "text": "项目编号"
+      },
+      {
+        "for": "topic",
+        "text": "主题"
+      },
+      {
+        "for": "exercise-date",
+        "text": "练习日期"
+      },
+      {
+        "for": "notes",
+        "text": "备注"
+      }
+    ],
+    "values": [
+      {
+        "id": "project-id",
+        "value": "SYN-01"
+      },
+      {
+        "id": "topic",
+        "value": "键盘练习"
+      },
+      {
+        "id": "exercise-date",
+        "value": ""
+      },
+      {
+        "id": "notes",
+        "value": ""
+      }
+    ],
+    "screenshot": {
+      "file": "materials/ch08/browser-observation/forward-2.png",
+      "sha256": "af0fae3d1375b28fea72361d8ad2d9a1e3cc1c1c6cbc024d33133ea7c21e1b93"
+    }
+  },
+  {
+    "step": 3,
+    "key": "Tab",
+    "id": "exercise-date",
+    "tag": "INPUT",
+    "value": "",
+    "focusVisible": true,
+    "outline": "rgb(23, 78, 166) solid 3px",
+    "labels": [
+      {
+        "for": "project-id",
+        "text": "项目编号"
+      },
+      {
+        "for": "topic",
+        "text": "主题"
+      },
+      {
+        "for": "exercise-date",
+        "text": "练习日期"
+      },
+      {
+        "for": "notes",
+        "text": "备注"
+      }
+    ],
+    "values": [
+      {
+        "id": "project-id",
+        "value": "SYN-01"
+      },
+      {
+        "id": "topic",
+        "value": "键盘练习"
+      },
+      {
+        "id": "exercise-date",
+        "value": ""
+      },
+      {
+        "id": "notes",
+        "value": ""
+      }
+    ],
+    "screenshot": {
+      "file": "materials/ch08/browser-observation/forward-3.png",
+      "sha256": "59383707fd6e297a2cb44c6c2023c61648c6f34ee1631538dbf289c921945a88"
+    }
+  },
+  {
+    "step": 4,
+    "key": "Tab",
+    "id": "exercise-date",
+    "tag": "INPUT",
+    "value": "",
+    "focusVisible": true,
+    "outline": "rgb(23, 78, 166) solid 3px",
+    "labels": [
+      {
+        "for": "project-id",
+        "text": "项目编号"
+      },
+      {
+        "for": "topic",
+        "text": "主题"
+      },
+      {
+        "for": "exercise-date",
+        "text": "练习日期"
+      },
+      {
+        "for": "notes",
+        "text": "备注"
+      }
+    ],
+    "values": [
+      {
+        "id": "project-id",
+        "value": "SYN-01"
+      },
+      {
+        "id": "topic",
+        "value": "键盘练习"
+      },
+      {
+        "id": "exercise-date",
+        "value": ""
+      },
+      {
+        "id": "notes",
+        "value": ""
+      }
+    ],
+    "screenshot": null
+  },
+  {
+    "step": 5,
+    "key": "Tab",
+    "id": "exercise-date",
+    "tag": "INPUT",
+    "value": "",
+    "focusVisible": true,
+    "outline": "rgb(23, 78, 166) solid 3px",
+    "labels": [
+      {
+        "for": "project-id",
+        "text": "项目编号"
+      },
+      {
+        "for": "topic",
+        "text": "主题"
+      },
+      {
+        "for": "exercise-date",
+        "text": "练习日期"
+      },
+      {
+        "for": "notes",
+        "text": "备注"
+      }
+    ],
+    "values": [
+      {
+        "id": "project-id",
+        "value": "SYN-01"
+      },
+      {
+        "id": "topic",
+        "value": "键盘练习"
+      },
+      {
+        "id": "exercise-date",
+        "value": ""
+      },
+      {
+        "id": "notes",
+        "value": ""
+      }
+    ],
+    "screenshot": null
+  },
+  {
+    "step": 6,
+    "key": "Tab",
+    "id": "exercise-date",
+    "tag": "INPUT",
+    "value": "",
+    "focusVisible": false,
+    "outline": "rgb(23, 78, 166) solid 3px",
+    "labels": [
+      {
+        "for": "project-id",
+        "text": "项目编号"
+      },
+      {
+        "for": "topic",
+        "text": "主题"
+      },
+      {
+        "for": "exercise-date",
+        "text": "练习日期"
+      },
+      {
+        "for": "notes",
+        "text": "备注"
+      }
+    ],
+    "values": [
+      {
+        "id": "project-id",
+        "value": "SYN-01"
+      },
+      {
+        "id": "topic",
+        "value": "键盘练习"
+      },
+      {
+        "id": "exercise-date",
+        "value": ""
+      },
+      {
+        "id": "notes",
+        "value": ""
+      }
+    ],
+    "screenshot": {
+      "file": "materials/ch08/browser-observation/forward-6.png",
+      "sha256": "eae16857abab325ef3ab07d92d12573af785c81eea4e2e30fd63ea290bf2bc00"
+    }
+  },
+  {
+    "step": 7,
+    "key": "Tab",
+    "id": "notes",
+    "tag": "TEXTAREA",
+    "value": "仅使用虚构练习输入",
+    "focusVisible": true,
+    "outline": "rgb(23, 78, 166) solid 3px",
+    "labels": [
+      {
+        "for": "project-id",
+        "text": "项目编号"
+      },
+      {
+        "for": "topic",
+        "text": "主题"
+      },
+      {
+        "for": "exercise-date",
+        "text": "练习日期"
+      },
+      {
+        "for": "notes",
+        "text": "备注"
+      }
+    ],
+    "values": [
+      {
+        "id": "project-id",
+        "value": "SYN-01"
+      },
+      {
+        "id": "topic",
+        "value": "键盘练习"
+      },
+      {
+        "id": "exercise-date",
+        "value": ""
+      },
+      {
+        "id": "notes",
+        "value": "仅使用虚构练习输入"
+      }
+    ],
+    "screenshot": {
+      "file": "materials/ch08/browser-observation/forward-7.png",
+      "sha256": "35144aae6603d190590c90f86aa7c85d07e5c8d717957b53c8fe1bcac88a0085"
+    }
+  }
+]

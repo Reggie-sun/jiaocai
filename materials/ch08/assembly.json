@@ -1,0 +1,11 @@
+{
+  "chapter": 8,
+  "original": "manuscripts/ch08/ch08.md",
+  "original_sha256": "d6e12eef8cf77b60ae2bee9d0b0bd9d2b254a1503b8afc516c2331e2b16ab1d8",
+  "illustrated": "manuscripts/ch08-layout/ch08.md",
+  "illustrated_sha256": "42642c5c24fff05da6a57d6896ae9760cb7de0c8021b7087b3286bd279d005ae",
+  "manifest_sha256": "c66125c057870c87f91997a03cff80b03eca8944aea409b1a30fec2112b7c629",
+  "figures": 6,
+  "original_prose_preserved": true,
+  "change": "Only agreed figure comment slots replaced with image objects."
+}

@@ -1,0 +1,69 @@
+{
+  "chapter": 7,
+  "items": [
+    {
+      "id": "图7-1",
+      "observer": "Codex Parent",
+      "observed_color_sha256": "4bcfe930edfb150328410cbb366a59e0e50b49b36033d8e30088d31a6124acb5",
+      "observed_gray_sha256": "39d2c61468e1d87b7bc134bc0af0d90434e186b901dda674fd83209d560743bf",
+      "color_and_gray_actually_opened": true,
+      "finding": "回箭头落在解释，环境虚线与主体路线区别清楚。",
+      "limits": "Actual image observation; Word insertion pages reviewed separately.",
+      "source_alignment": "Frozen manuscript caption/source/guide checked"
+    },
+    {
+      "id": "图7-2",
+      "observer": "Codex Parent",
+      "observed_color_sha256": "2822b28a8cf5657f9b41e79006424bbf7e60d2ff0a76f3ba5e1465fcf26fe174",
+      "observed_gray_sha256": "03d88cc32e97269cc1fa2418df9fec803e6fd214a0849115a841bbd22554df5e",
+      "color_and_gray_actually_opened": true,
+      "finding": "五个证据问题逐项可读，断开连接与独立证据提示可见。",
+      "limits": "Actual image observation; Word insertion pages reviewed separately.",
+      "source_alignment": "Frozen manuscript caption/source/guide checked"
+    },
+    {
+      "id": "图7-3",
+      "observer": "Codex Parent",
+      "observed_color_sha256": "83c38cb481e306b4ad66abd363a575cbc6e8070e08628d90ac02e2ba33541ff7",
+      "observed_gray_sha256": "6071fd72809ddcab3082c77a7a3a9c7dd3a985aefb9b7bdc90a4b36004d5ab63",
+      "color_and_gray_actually_opened": true,
+      "finding": "反应、事实解释与行动分离，文字未溢出。",
+      "limits": "Actual image observation; Word insertion pages reviewed separately.",
+      "source_alignment": "Frozen manuscript caption/source/guide checked"
+    },
+    {
+      "id": "图7-4",
+      "observer": "Codex Parent",
+      "observed_color_sha256": "e20ae9f287dfd6ecf4ee74a73bc70ef7c55294961925b27e4d4f2fc06a7ed464",
+      "observed_gray_sha256": "1835546433fea1aa70a66f5d86eec72fcddd0f712b070c1747ec39c0c91269be",
+      "color_and_gray_actually_opened": true,
+      "finding": "三个迁移选择清楚，暂不适用由虚框识别；分支箭头不重叠。",
+      "limits": "Actual image observation; Word insertion pages reviewed separately.",
+      "source_alignment": "Frozen manuscript caption/source/guide checked"
+    },
+    {
+      "id": "图7-5",
+      "observer": "Codex Parent",
+      "observed_color_sha256": "2f7da8ff0d46ccf5fb2abf0f163353ba095f5860de2dcf4d74abd2fbd98239cb",
+      "observed_gray_sha256": "ae0a1d69eb534c10f251ddae600eb7f7cc7c8ef922be58b1bea99f2ab5c3eac5",
+      "color_and_gray_actually_opened": true,
+      "finding": "叙述顺序与回望解释分区，未补造事件年份。",
+      "limits": "Actual image observation; Word insertion pages reviewed separately.",
+      "source_alignment": "Frozen manuscript caption/source/guide checked"
+    },
+    {
+      "id": "图7-6",
+      "observer": "Codex Parent",
+      "observed_color_sha256": "080b6f7b3b218ed08cce0913b8a7ff33d79eb21a44bdc48b44eb9209bc7d960c",
+      "observed_gray_sha256": "6467d504222a935004de92af50adfa84340e90569f0fb598f72c11b9e609da8c",
+      "color_and_gray_actually_opened": true,
+      "finding": "不同人和同一人多个时点分区，非数值示意与不可换算提示明确。",
+      "limits": "Actual image observation; Word insertion pages reviewed separately.",
+      "source_alignment": "Frozen manuscript caption/source/guide checked"
+    }
+  ],
+  "source_sha256": "e9a9812e2e4f8e6179b74071cf12e725a3aca6973d1b2c960364771fb743c5a9",
+  "final_caption_source_and_guide_actually_read": true,
+  "status": "color_gray_observed_and_final_source_aligned",
+  "inheritance": "Image bytes and figure caption/source/guide unchanged during exercise-only revisions; Parent confirmed exact correspondence on final source."
+}

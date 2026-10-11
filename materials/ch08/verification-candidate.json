@@ -1,0 +1,496 @@
+{
+  "checks": "PASS",
+  "chapter": 8,
+  "han_characters_approx": 31899,
+  "pages": 67,
+  "tables": 5,
+  "figures": 6,
+  "references": 11,
+  "native_reference_fields": 12,
+  "source_sha256": "42642c5c24fff05da6a57d6896ae9760cb7de0c8021b7087b3286bd279d005ae",
+  "docx_sha256": "26f58cfef742cf337ddc01df2375aabf00ec8fbc7bba240b950b1a41560c5831",
+  "pdf_sha256": "4ace7cc8e5ca493433d7e8a281b4f2dd143105ae3007e6c3f9664664286caf7c",
+  "toc_pages": {
+    "8.1 终身学习的必要性：技术迭代加速与职业演变。": 4,
+    "8.2 高效学习方法：主动学习、间隔重复、费曼技巧、构建知识网络。": 11,
+    "8.3 信息素养： 高效检索、筛选、评估、管理海量信息与学习资源（技术文档、论文、在线课程、社区）。": 19,
+    "8.4 学习工具与技术： 利用Anki, Notion, Obsidian, GitHub, MOOC平台等提升学习效率与知识管理。": 27,
+    "8.5 构建个人学习网络(PLN)：利用社交媒体、技术社区、行业会议进行学习与交流。": 34,
+    "8.6 制定个人学习计划(IDP)：设定目标、选择资源、跟踪进度、调整策略。（结合行业趋势与个人兴趣）": 42,
+    "章末综合训练": 54,
+    "本章回顾": 57,
+    "关键术语": 58,
+    "参考解与讨论": 59,
+    "参考文献": 66
+  },
+  "toc_cache_matches_actual_pages": false,
+  "figure_pages": {
+    "图8-1": 9,
+    "图8-2": 14,
+    "图8-3": 24,
+    "图8-4": 31,
+    "图8-5": 40,
+    "图8-6": 47
+  },
+  "embedded_fonts": [
+    "/BAAAAA+NotoSansCJKsc-Regular",
+    "/CAAAAA+NotoSansCJKsc-Bold",
+    "/DAAAAA+NotoSerifCJKsc-Regular",
+    "/EAAAAA+NotoSansCJKsc-Bold",
+    "/FAAAAA+NotoSerifCJKsc-Regular",
+    "/GAAAAA+NotoSerifCJKsc-Bold",
+    "/HAAAAA+NotoSansCJKsc-Bold",
+    "/IAAAAA+NotoSerifCJKsc-Regular",
+    "/JAAAAA+NotoSerifCJKsc-Bold",
+    "/KAAAAA+NotoSerifCJKsc-Regular",
+    "/LAAAAA+NotoSerifCJKsc-Regular",
+    "/MAAAAA+NotoSerifCJKsc-Regular",
+    "/NAAAAA+NotoSerifCJKsc-Regular",
+    "/OAAAAA+NotoSerifCJKsc-Regular",
+    "/PAAAAA+NotoSerifCJKsc-Regular",
+    "/QAAAAA+NotoSansMonoCJKsc-Regular"
+  ],
+  "page_extents": [
+    {
+      "page": 1,
+      "body_top": 84.5,
+      "body_bottom": 714.2,
+      "images": 0
+    },
+    {
+      "page": 2,
+      "body_top": 83.0,
+      "body_bottom": 404.7,
+      "images": 0
+    },
+    {
+      "page": 3,
+      "body_top": 83.0,
+      "body_bottom": 601.8,
+      "images": 0
+    },
+    {
+      "page": 4,
+      "body_top": 95.0,
+      "body_bottom": 768.9,
+      "images": 0
+    },
+    {
+      "page": 5,
+      "body_top": 79.8,
+      "body_bottom": 743.3,
+      "images": 0
+    },
+    {
+      "page": 6,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 7,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 8,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 9,
+      "body_top": 79.8,
+      "body_bottom": 662.2,
+      "images": 1
+    },
+    {
+      "page": 10,
+      "body_top": 81.5,
+      "body_bottom": 727.7,
+      "images": 0
+    },
+    {
+      "page": 11,
+      "body_top": 79.8,
+      "body_bottom": 747.3,
+      "images": 0
+    },
+    {
+      "page": 12,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 13,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 14,
+      "body_top": 79.8,
+      "body_bottom": 748.1,
+      "images": 1
+    },
+    {
+      "page": 15,
+      "body_top": 79.8,
+      "body_bottom": 683.1,
+      "images": 0
+    },
+    {
+      "page": 16,
+      "body_top": 81.5,
+      "body_bottom": 760.5,
+      "images": 0
+    },
+    {
+      "page": 17,
+      "body_top": 79.8,
+      "body_bottom": 715.9,
+      "images": 0
+    },
+    {
+      "page": 18,
+      "body_top": 79.8,
+      "body_bottom": 674.0,
+      "images": 0
+    },
+    {
+      "page": 19,
+      "body_top": 79.8,
+      "body_bottom": 714.5,
+      "images": 0
+    },
+    {
+      "page": 20,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 21,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 22,
+      "body_top": 79.8,
+      "body_bottom": 722.6,
+      "images": 0
+    },
+    {
+      "page": 23,
+      "body_top": 81.5,
+      "body_bottom": 629.1,
+      "images": 0
+    },
+    {
+      "page": 24,
+      "body_top": 245.8,
+      "body_bottom": 761.6,
+      "images": 1
+    },
+    {
+      "page": 25,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 26,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 27,
+      "body_top": 79.8,
+      "body_bottom": 723.6,
+      "images": 0
+    },
+    {
+      "page": 28,
+      "body_top": 79.8,
+      "body_bottom": 763.4,
+      "images": 0
+    },
+    {
+      "page": 29,
+      "body_top": 79.8,
+      "body_bottom": 715.9,
+      "images": 0
+    },
+    {
+      "page": 30,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 31,
+      "body_top": 79.8,
+      "body_bottom": 765.3,
+      "images": 1
+    },
+    {
+      "page": 32,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 33,
+      "body_top": 79.8,
+      "body_bottom": 706.8,
+      "images": 0
+    },
+    {
+      "page": 34,
+      "body_top": 79.8,
+      "body_bottom": 723.6,
+      "images": 0
+    },
+    {
+      "page": 35,
+      "body_top": 79.8,
+      "body_bottom": 763.4,
+      "images": 0
+    },
+    {
+      "page": 36,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 37,
+      "body_top": 79.8,
+      "body_bottom": 757.6,
+      "images": 0
+    },
+    {
+      "page": 38,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 39,
+      "body_top": 79.8,
+      "body_bottom": 518.8,
+      "images": 0
+    },
+    {
+      "page": 40,
+      "body_top": 385.0,
+      "body_bottom": 759.4,
+      "images": 1
+    },
+    {
+      "page": 41,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 42,
+      "body_top": 79.8,
+      "body_bottom": 723.6,
+      "images": 0
+    },
+    {
+      "page": 43,
+      "body_top": 79.8,
+      "body_bottom": 706.8,
+      "images": 0
+    },
+    {
+      "page": 44,
+      "body_top": 79.8,
+      "body_bottom": 706.8,
+      "images": 0
+    },
+    {
+      "page": 45,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 46,
+      "body_top": 79.8,
+      "body_bottom": 731.3,
+      "images": 0
+    },
+    {
+      "page": 47,
+      "body_top": 79.8,
+      "body_bottom": 669.8,
+      "images": 1
+    },
+    {
+      "page": 48,
+      "body_top": 78.7,
+      "body_bottom": 764.1,
+      "images": 0
+    },
+    {
+      "page": 49,
+      "body_top": 83.2,
+      "body_bottom": 712.1,
+      "images": 0
+    },
+    {
+      "page": 50,
+      "body_top": 78.8,
+      "body_bottom": 717.6,
+      "images": 0
+    },
+    {
+      "page": 51,
+      "body_top": 78.8,
+      "body_bottom": 706.1,
+      "images": 0
+    },
+    {
+      "page": 52,
+      "body_top": 79.8,
+      "body_bottom": 715.9,
+      "images": 0
+    },
+    {
+      "page": 53,
+      "body_top": 79.8,
+      "body_bottom": 729.8,
+      "images": 0
+    },
+    {
+      "page": 54,
+      "body_top": 79.8,
+      "body_bottom": 762.9,
+      "images": 0
+    },
+    {
+      "page": 55,
+      "body_top": 79.8,
+      "body_bottom": 715.9,
+      "images": 0
+    },
+    {
+      "page": 56,
+      "body_top": 79.8,
+      "body_bottom": 715.9,
+      "images": 0
+    },
+    {
+      "page": 57,
+      "body_top": 83.0,
+      "body_bottom": 667.5,
+      "images": 0
+    },
+    {
+      "page": 58,
+      "body_top": 83.0,
+      "body_bottom": 766.0,
+      "images": 0
+    },
+    {
+      "page": 59,
+      "body_top": 83.0,
+      "body_bottom": 658.4,
+      "images": 0
+    },
+    {
+      "page": 60,
+      "body_top": 81.5,
+      "body_bottom": 751.4,
+      "images": 0
+    },
+    {
+      "page": 61,
+      "body_top": 79.8,
+      "body_bottom": 706.8,
+      "images": 0
+    },
+    {
+      "page": 62,
+      "body_top": 79.8,
+      "body_bottom": 706.8,
+      "images": 0
+    },
+    {
+      "page": 63,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 64,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 65,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 66,
+      "body_top": 79.8,
+      "body_bottom": 706.2,
+      "images": 0
+    },
+    {
+      "page": 67,
+      "body_top": 78.7,
+      "body_bottom": 663.0,
+      "images": 0
+    }
+  ],
+  "limits": "Correspondence and executable layout checks only; actual page observation and content review recorded separately. Word native refresh, printing, teacher/student acceptance untested.",
+  "preserve_only_parts_byte_identical": [
+    "_rels/.rels",
+    "docProps/app.xml",
+    "word/styles.xml",
+    "word/stylesWithEffects.xml",
+    "word/settings.xml",
+    "word/webSettings.xml",
+    "word/fontTable.xml",
+    "word/theme/theme1.xml",
+    "customXml/item1.xml",
+    "customXml/_rels/item1.xml.rels",
+    "customXml/itemProps1.xml",
+    "word/footer1.xml",
+    "docProps/thumbnail.jpeg"
+  ],
+  "answer_bookmarks": [
+    "E01",
+    "E02",
+    "E03",
+    "E04",
+    "E05",
+    "E06",
+    "E07"
+  ],
+  "reference_first_use_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "table_header_repeat_and_rows_keep_together": true
+}

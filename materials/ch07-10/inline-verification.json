@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "cases": [
+    [
+      "*Nature* [1-3]",
+      "Nature ⁠[1-3]⁠"
+    ],
+    [
+      "`x*y*z [1-3]`",
+      "x*y*z [1-3]"
+    ],
+    [
+      "**重点 [1-3]**",
+      "重点 [1-3]"
+    ],
+    [
+      "x*y*z",
+      "x*y*z"
+    ],
+    [
+      "*未闭合",
+      "*未闭合"
+    ],
+    [
+      "`*literal*`",
+      "*literal*"
+    ]
+  ],
+  "files": {
+    "materials/ch07-10/build_docx.py": "7a0d62f761dc3f450e4b993ebfb15659a970f05f307c2c46520a3a9a599d8181",
+    "materials/ch07-10/verify_delivery.py": "1892823a93158d7d0e15fdd66666962f7fcb80b8055098ced4841d7ad2d4cf97"
+  },
+  "scope": "italics, compact citations, protected code/strong text, literal multiplication and unmatched stars"
+}

@@ -1,0 +1,218 @@
+{
+  "style": "textbook-style-v1.0",
+  "insert_width_mm": 155,
+  "png_ppi_at_insert": 393,
+  "min_label_pt_at_insert": 10.74,
+  "visual_review": {
+    "status": "color_gray_observed_and_final_source_aligned",
+    "items": [
+      {
+        "id": "图7-1",
+        "observer": "Codex Parent",
+        "observed_color_sha256": "4bcfe930edfb150328410cbb366a59e0e50b49b36033d8e30088d31a6124acb5",
+        "observed_gray_sha256": "39d2c61468e1d87b7bc134bc0af0d90434e186b901dda674fd83209d560743bf",
+        "color_and_gray_actually_opened": true,
+        "finding": "回箭头落在解释，环境虚线与主体路线区别清楚。",
+        "limits": "Actual image observation; Word insertion pages reviewed separately.",
+        "source_alignment": "Frozen manuscript caption/source/guide checked"
+      },
+      {
+        "id": "图7-2",
+        "observer": "Codex Parent",
+        "observed_color_sha256": "2822b28a8cf5657f9b41e79006424bbf7e60d2ff0a76f3ba5e1465fcf26fe174",
+        "observed_gray_sha256": "03d88cc32e97269cc1fa2418df9fec803e6fd214a0849115a841bbd22554df5e",
+        "color_and_gray_actually_opened": true,
+        "finding": "五个证据问题逐项可读，断开连接与独立证据提示可见。",
+        "limits": "Actual image observation; Word insertion pages reviewed separately.",
+        "source_alignment": "Frozen manuscript caption/source/guide checked"
+      },
+      {
+        "id": "图7-3",
+        "observer": "Codex Parent",
+        "observed_color_sha256": "83c38cb481e306b4ad66abd363a575cbc6e8070e08628d90ac02e2ba33541ff7",
+        "observed_gray_sha256": "6071fd72809ddcab3082c77a7a3a9c7dd3a985aefb9b7bdc90a4b36004d5ab63",
+        "color_and_gray_actually_opened": true,
+        "finding": "反应、事实解释与行动分离，文字未溢出。",
+        "limits": "Actual image observation; Word insertion pages reviewed separately.",
+        "source_alignment": "Frozen manuscript caption/source/guide checked"
+      },
+      {
+        "id": "图7-4",
+        "observer": "Codex Parent",
+        "observed_color_sha256": "e20ae9f287dfd6ecf4ee74a73bc70ef7c55294961925b27e4d4f2fc06a7ed464",
+        "observed_gray_sha256": "1835546433fea1aa70a66f5d86eec72fcddd0f712b070c1747ec39c0c91269be",
+        "color_and_gray_actually_opened": true,
+        "finding": "三个迁移选择清楚，暂不适用由虚框识别；分支箭头不重叠。",
+        "limits": "Actual image observation; Word insertion pages reviewed separately.",
+        "source_alignment": "Frozen manuscript caption/source/guide checked"
+      },
+      {
+        "id": "图7-5",
+        "observer": "Codex Parent",
+        "observed_color_sha256": "2f7da8ff0d46ccf5fb2abf0f163353ba095f5860de2dcf4d74abd2fbd98239cb",
+        "observed_gray_sha256": "ae0a1d69eb534c10f251ddae600eb7f7cc7c8ef922be58b1bea99f2ab5c3eac5",
+        "color_and_gray_actually_opened": true,
+        "finding": "叙述顺序与回望解释分区，未补造事件年份。",
+        "limits": "Actual image observation; Word insertion pages reviewed separately.",
+        "source_alignment": "Frozen manuscript caption/source/guide checked"
+      },
+      {
+        "id": "图7-6",
+        "observer": "Codex Parent",
+        "observed_color_sha256": "080b6f7b3b218ed08cce0913b8a7ff33d79eb21a44bdc48b44eb9209bc7d960c",
+        "observed_gray_sha256": "6467d504222a935004de92af50adfa84340e90569f0fb598f72c11b9e609da8c",
+        "color_and_gray_actually_opened": true,
+        "finding": "不同人和同一人多个时点分区，非数值示意与不可换算提示明确。",
+        "limits": "Actual image observation; Word insertion pages reviewed separately.",
+        "source_alignment": "Frozen manuscript caption/source/guide checked"
+      }
+    ],
+    "source_sha256": "e9a9812e2e4f8e6179b74071cf12e725a3aca6973d1b2c960364771fb743c5a9"
+  },
+  "figures": [
+    {
+      "id": "图7-1",
+      "caption": "能力信念怎样影响学习行动",
+      "source": "来源：作者原创。",
+      "description": "从“事件”开始，沿箭头依次看解释、目标、行动和新证据；再观察环境条件怎样影响每一环。改变解释可能改变下一步行动，但课程资源、任务难度和评价环境仍在其中；行动结果再回到新的解释，不存在一次选择便永久定型的终点。",
+      "file": "assets/figures/ch07/fig7-1.png",
+      "png": "assets/figures/ch07/fig7-1.png",
+      "editable_source": "assets/figures/ch07/fig7-1.svg",
+      "grayscale_png": "assets/figures/ch07/fig7-1-gray.png",
+      "sha256": "4bcfe930edfb150328410cbb366a59e0e50b49b36033d8e30088d31a6124acb5",
+      "gray_sha256": "39d2c61468e1d87b7bc134bc0af0d90434e186b901dda674fd83209d560743bf",
+      "svg_sha256": "5624f1d3db77a28731e56a91a8e2e5e2e53ab5465a843559b672d9b47fd8c71c",
+      "dimensions_px": {
+        "width_px": 2400,
+        "height_px": 880
+      },
+      "insert_width_mm": 155,
+      "png_ppi_at_insert": 393,
+      "min_font_pt_at_insert": 10.74,
+      "min_label_pt_at_insert": 10.74,
+      "declared_min_label_px": 22,
+      "status": "ready",
+      "gray_semantics": "标签、位置、边框和线型承载含义；颜色为辅助。"
+    },
+    {
+      "id": "图7-2",
+      "caption": "从学习经验到结论之间的证据层次",
+      "source": "来源：作者原创；依据文献[2-4]的证据范围组织。",
+      "description": "依次查看“参加特定练习”“观察到脑影像变化”“技能表现变化”“迁移到另一任务”“某种教育干预普遍有效”几个层次。断开的箭头表示每一步都需要独立证据；前面一层得到支持，不自动意味着后面每一层成立。",
+      "file": "assets/figures/ch07/fig7-2.png",
+      "png": "assets/figures/ch07/fig7-2.png",
+      "editable_source": "assets/figures/ch07/fig7-2.svg",
+      "grayscale_png": "assets/figures/ch07/fig7-2-gray.png",
+      "sha256": "2822b28a8cf5657f9b41e79006424bbf7e60d2ff0a76f3ba5e1465fcf26fe174",
+      "gray_sha256": "03d88cc32e97269cc1fa2418df9fec803e6fd214a0849115a841bbd22554df5e",
+      "svg_sha256": "4a5f908930edd21b171d4324691b9c2d1636bfbb4e148f32271c72132b8f9294",
+      "dimensions_px": {
+        "width_px": 2400,
+        "height_px": 1640
+      },
+      "insert_width_mm": 155,
+      "png_ppi_at_insert": 393,
+      "min_font_pt_at_insert": 10.74,
+      "min_label_pt_at_insert": 10.74,
+      "declared_min_label_px": 22,
+      "status": "ready",
+      "gray_semantics": "标签、位置、边框和线型承载含义；颜色为辅助。"
+    },
+    {
+      "id": "图7-3",
+      "caption": "从挫折到下一步学习行动的反馈环路",
+      "source": "来源：作者原创，参考情绪调节过程模型[6]作教学转化。",
+      "description": "沿“事件—反应—事实与解释—行动—新证据”阅读环路，并观察“情绪”和“资源条件”如何影响各环节。若行动未改善结果，可以返回检查问题或寻求支持；不必把“坚持原计划”视作唯一的积极选择。",
+      "file": "assets/figures/ch07/fig7-3.png",
+      "png": "assets/figures/ch07/fig7-3.png",
+      "editable_source": "assets/figures/ch07/fig7-3.svg",
+      "grayscale_png": "assets/figures/ch07/fig7-3-gray.png",
+      "sha256": "83c38cb481e306b4ad66abd363a575cbc6e8070e08628d90ac02e2ba33541ff7",
+      "gray_sha256": "6071fd72809ddcab3082c77a7a3a9c7dd3a985aefb9b7bdc90a4b36004d5ab63",
+      "svg_sha256": "68f8d26fabdb9e852b97d4368002fe68f93dbe8909c8fea03fac3f5557dd7b4a",
+      "dimensions_px": {
+        "width_px": 2400,
+        "height_px": 880
+      },
+      "insert_width_mm": 155,
+      "png_ppi_at_insert": 393,
+      "min_font_pt_at_insert": 10.74,
+      "min_label_pt_at_insert": 10.74,
+      "declared_min_label_px": 22,
+      "status": "ready",
+      "gray_semantics": "标签、位置、边框和线型承载含义；颜色为辅助。"
+    },
+    {
+      "id": "图7-4",
+      "caption": "从同伴经验提取可迁移方法",
+      "source": "来源：作者原创。",
+      "description": "从他人展示的结果向回追问先备、行动、反馈和资源，再用“能直接借用、需修改、暂不适用”区分迁移条件。图意不是让学生复制另一人的路线，而是把可观察的学习过程带回自己的任务检验。",
+      "file": "assets/figures/ch07/fig7-4.png",
+      "png": "assets/figures/ch07/fig7-4.png",
+      "editable_source": "assets/figures/ch07/fig7-4.svg",
+      "grayscale_png": "assets/figures/ch07/fig7-4-gray.png",
+      "sha256": "e20ae9f287dfd6ecf4ee74a73bc70ef7c55294961925b27e4d4f2fc06a7ed464",
+      "gray_sha256": "1835546433fea1aa70a66f5d86eec72fcddd0f712b070c1747ec39c0c91269be",
+      "svg_sha256": "a658bb50b5866cdca2473e7ebce8ef3cbaffdbee680f261b8d49f31671dd77d8",
+      "dimensions_px": {
+        "width_px": 2400,
+        "height_px": 1453
+      },
+      "insert_width_mm": 155,
+      "png_ppi_at_insert": 393,
+      "min_font_pt_at_insert": 10.74,
+      "min_label_pt_at_insert": 10.74,
+      "declared_min_label_px": 22,
+      "status": "ready",
+      "gray_semantics": "标签、位置、边框和线型承载含义；颜色为辅助。"
+    },
+    {
+      "id": "图7-5",
+      "caption": "乔布斯公开叙述中的离开、再起与回归",
+      "source": "来源：作者依据斯坦福大学保存的2005年毕业典礼讲稿整理[7]。",
+      "description": "时间线上标出演讲稿提到的主要事件，再看“事实记录”和“当事人回望”两种信息。创办NeXT、参与创办Pixar、苹果收购NeXT及其本人回归属于讲稿叙述；“这次挫折带来了创造性时期”是他事后的解释，不是任何人离开公司后都会得到相同结果的预测。",
+      "file": "assets/figures/ch07/fig7-5.png",
+      "png": "assets/figures/ch07/fig7-5.png",
+      "editable_source": "assets/figures/ch07/fig7-5.svg",
+      "grayscale_png": "assets/figures/ch07/fig7-5-gray.png",
+      "sha256": "2f7da8ff0d46ccf5fb2abf0f163353ba095f5860de2dcf4d74abd2fbd98239cb",
+      "gray_sha256": "ae0a1d69eb534c10f251ddae600eb7f7cc7c8ef922be58b1bea99f2ab5c3eac5",
+      "svg_sha256": "653717fc67395d2351dece22681135a7e426d1a13d77fcc01c6d875874f9b4a0",
+      "dimensions_px": {
+        "width_px": 2400,
+        "height_px": 1293
+      },
+      "insert_width_mm": 155,
+      "png_ppi_at_insert": 393,
+      "min_font_pt_at_insert": 10.74,
+      "min_label_pt_at_insert": 10.74,
+      "declared_min_label_px": 22,
+      "status": "ready",
+      "gray_semantics": "标签、位置、边框和线型承载含义；颜色为辅助。"
+    },
+    {
+      "id": "图7-6",
+      "caption": "群体差异与个人变化是两类证据",
+      "source": "来源：作者原创；依据文献[8-11]所讨论的统计层级差异绘制。",
+      "description": "左侧比较同一群体中不同人的评分差异，右侧追踪某一人多个时间点的评分。左侧的问题是变量怎样与群体差异相关，右侧的问题是某个人怎样变化、变化能否维持；不能把左侧的方差比例直接搬到右侧，当作个人配方。",
+      "file": "assets/figures/ch07/fig7-6.png",
+      "png": "assets/figures/ch07/fig7-6.png",
+      "editable_source": "assets/figures/ch07/fig7-6.svg",
+      "grayscale_png": "assets/figures/ch07/fig7-6-gray.png",
+      "sha256": "080b6f7b3b218ed08cce0913b8a7ff33d79eb21a44bdc48b44eb9209bc7d960c",
+      "gray_sha256": "6467d504222a935004de92af50adfa84340e90569f0fb598f72c11b9e609da8c",
+      "svg_sha256": "f2748c6f33d244bd71a161eac2ed074e0be0c3a3ddd707a9a80a4d0606f2282b",
+      "dimensions_px": {
+        "width_px": 2400,
+        "height_px": 1227
+      },
+      "insert_width_mm": 155,
+      "png_ppi_at_insert": 393,
+      "min_font_pt_at_insert": 10.74,
+      "min_label_pt_at_insert": 10.74,
+      "declared_min_label_px": 22,
+      "status": "ready",
+      "gray_semantics": "标签、位置、边框和线型承载含义；颜色为辅助。"
+    }
+  ]
+}

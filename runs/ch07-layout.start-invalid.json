@@ -1,0 +1,7 @@
+{
+  "run_id": "ch07-layout",
+  "command": "start",
+  "exit_code": 2,
+  "stderr": "{\"error\": \"Invalid or unknown run spec fields\", \"command\": \"start\"}\n",
+  "state": "Rejected before registration: missing mandatory todos field; engine not modified."
+}

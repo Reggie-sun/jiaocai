@@ -1,0 +1,30 @@
+{
+  "observer": "/root",
+  "html_sha256": "37a5a385c0d4232e744eeefcb2f9cbf5b00f1edd93a37c73101156bb3610d47b",
+  "checks": "PASS",
+  "actually_opened": [
+    {
+      "file": "materials/ch08/browser-observation/forward-1.png",
+      "sha256": "de9f78d7b9e2393df112b37b8b0847b524e24ea696963f4d11f69fbae86c593e"
+    },
+    {
+      "file": "materials/ch08/browser-observation/forward-2.png",
+      "sha256": "af0fae3d1375b28fea72361d8ad2d9a1e3cc1c1c6cbc024d33133ea7c21e1b93"
+    },
+    {
+      "file": "materials/ch08/browser-observation/forward-3.png",
+      "sha256": "59383707fd6e297a2cb44c6c2023c61648c6f34ee1631538dbf289c921945a88"
+    },
+    {
+      "file": "materials/ch08/browser-observation/forward-6.png",
+      "sha256": "eae16857abab325ef3ab07d92d12573af785c81eea4e2e30fd63ea290bf2bc00"
+    },
+    {
+      "file": "materials/ch08/browser-observation/forward-7.png",
+      "sha256": "35144aae6603d190590c90f86aa7c85d07e5c8d717957b53c8fe1bcac88a0085"
+    }
+  ],
+  "observations": "Five full1280x1000 screenshots actually opened: four labelled fields readable, blue3px outline visible on each first field entry and native date calendar-button stop, fictitious text visible. Native calendar icon also has its own black focus rectangle. Seven forward and six reverse Tab events reach each endpoint; no external page request observed.",
+  "limits": "One Linux Chrome headless environment. Native date parts may consume several Tab steps. No student trial, second browser engine, screen reader or physical keyboard/human acceptance.",
+  "cleanup": "Functional evidence generated before temporary-profile cleanup error; exact directory removal and bounded cleanup fix recorded separately."
+}

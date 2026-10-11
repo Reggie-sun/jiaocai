@@ -1,0 +1,135 @@
+{
+  "chapter": "ch10",
+  "e02": {
+    "task_hours": {
+      "T1": 5,
+      "T2": 6,
+      "T3": 4,
+      "T4": 3,
+      "T5": 4
+    },
+    "skill_matrix": {
+      "T1": {"小林": 2, "小叶": 0, "小陈": 1},
+      "T2": {"小林": 1, "小叶": 2, "小陈": 0},
+      "T3": {"小林": 1, "小叶": 1, "小陈": 2},
+      "T4": {"小林": 1, "小叶": 1, "小陈": 2},
+      "T5": {"小林": 2, "小叶": 1, "小陈": 1}
+    },
+    "capacity_hours": {"小林": 10, "小叶": 7, "小陈": 9},
+    "skill1_peer_review_hours": 1,
+    "worked_examples": {
+      "方案一": {
+        "assignments": {
+          "小林": ["T1", "T5"],
+          "小叶": ["T2"],
+          "小陈": ["T3", "T4"]
+        },
+        "peer_reviews": []
+      },
+      "方案二": {
+        "assignments": {
+          "小林": ["T3", "T5"],
+          "小叶": ["T2"],
+          "小陈": ["T1", "T4"]
+        },
+        "peer_reviews": [
+          {
+            "task": "T1",
+            "reviewer": "小林",
+            "assigned_to": "小陈",
+            "duration_hours": 1,
+            "included_in_task_estimate": false
+          },
+          {
+            "task": "T3",
+            "reviewer": "小陈",
+            "assigned_to": "小林",
+            "duration_hours": 1,
+            "included_in_task_estimate": false
+          }
+        ]
+      }
+    },
+    "expected_worked_loads": {
+      "方案一": {"小林": 9, "小叶": 6, "小陈": 7},
+      "方案二": {"小林": 9, "小叶": 6, "小陈": 9}
+    },
+    "expected_worked_remaining_hours": {
+      "方案一": {"小林": 1, "小叶": 1, "小陈": 2},
+      "方案二": {"小林": 1, "小叶": 1, "小陈": 0}
+    },
+    "expected_worked_total_hours": {
+      "方案一": 22,
+      "方案二": 24
+    },
+    "total_task_hours": 22,
+    "exercise_variant": {
+      "capacity_hours": {"小林": 10, "小叶": 4, "小陈": 9},
+      "minimum_acceptance": [
+        "三条合成故事都能打开浏览",
+        "每条页面都能显示与资料卡一致的来源状态"
+      ],
+      "deferred_scope_authorized_by_course_lead": true,
+      "skill1_peer_review_hours": 1,
+      "task_hours": {"T1": 5, "T2a": 4, "T3": 4, "T4": 3, "T5": 4},
+      "skill_matrix": {
+        "T1": {"小林": 2, "小叶": 0, "小陈": 1},
+        "T2a": {"小林": 1, "小叶": 2, "小陈": 0},
+        "T3": {"小林": 1, "小叶": 1, "小陈": 2},
+        "T4": {"小林": 1, "小叶": 1, "小陈": 2},
+        "T5": {"小林": 2, "小叶": 1, "小陈": 1}
+      },
+      "optional_deferred_task_hours": {"T2b": 2},
+      "assignments": {
+        "小林": ["T1", "T5"],
+        "小叶": ["T2a"],
+        "小陈": ["T3", "T4"]
+      },
+      "peer_reviews": [],
+      "expected_loads": {"小林": 9, "小叶": 4, "小陈": 7},
+      "expected_remaining_hours": {"小林": 1, "小叶": 0, "小陈": 2},
+      "expected_total_hours": 20
+    },
+    "full_scope_feasibility": {
+      "capacity_hours": {"小林": 10, "小叶": 4, "小陈": 9},
+      "expected_feasible": false,
+      "reason": "The complete T2 is 6 hours, the only skill-2 owner has 4 hours, and every skill-1 lead requires one additional hour from a skill-2 reviewer.",
+      "infeasibility_branch": {
+        "pre_T4_assignments": {
+          "小林": ["T2"],
+          "小叶": [],
+          "小陈": ["T1", "T5"]
+        },
+        "pre_T4_peer_reviews": [
+          {"task": "T2", "assigned_to": "小林", "reviewer": "小叶"},
+          {"task": "T1", "assigned_to": "小陈", "reviewer": "小林"},
+          {"task": "T5", "assigned_to": "小陈", "reviewer": "小林"}
+        ],
+        "next_task": "T4",
+        "next_owner": "小叶",
+        "next_reviewer": "小陈",
+        "expected_pre_T4_loads": {"小林": 8, "小叶": 1, "小陈": 9},
+        "expected_after_T4_and_review_loads": {"小林": 8, "小叶": 4, "小陈": 10}
+      }
+    }
+  },
+  "e03": {
+    "synthetic_activity_descriptions": 6,
+    "synthetic_route_prompts": 3,
+    "maintenance_weeks": 1,
+    "conditions": {
+      "classroom_only": true,
+      "external_trial_permission": false,
+      "external_service_data_handling_known": false,
+      "accessibility_routes_professionally_verified": false,
+      "real_student_data_in_pack": false
+    }
+  },
+  "portfolio_rubric": {
+    "dimensions": 6,
+    "minimum_per_dimension": 0,
+    "maximum_per_dimension": 4,
+    "maximum_total": 24,
+    "interpretation": "classroom feedback only; not a psychometric measure or universal leadership score"
+  }
+}

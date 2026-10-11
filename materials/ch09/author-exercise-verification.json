@@ -1,0 +1,99 @@
+{
+  "chapter": "ch09",
+  "verified_at_utc": "2026-10-11T21:55:07+00:00",
+  "scope": "numeric recalculation and manuscript structure only; not a teaching, source, figure, or human acceptance review",
+  "status": "PASS",
+  "checks": [
+    "assembled chapter exactly matches opening, section, and closing source files",
+    "E01 updated dependency graph is acyclic and recomputed schedule matches input/answer tables",
+    "E01 two critical paths and zero-buffer 8-day boundary match answer text",
+    "E03 weighted candidate scores match table and answer",
+    "E03 offline hard-constraint filter leaves only the feasible candidate",
+    "E04 answer removes the cross-exercise action cue and proposes a bounded read-back, confirmation, and follow-up review without inventing assigned roles",
+    "chapter sections and closing components appear in required order",
+    "supplement label, five unique figures, seven sequential numbered tables, and E01–E05 answer coverage present",
+    "E05 reference route covers all five deliverables and stays within the simulated evidence",
+    "Han-character count meets the 28,000–40,000 range after code/URL removal"
+  ],
+  "E01": {
+    "earliest_start_day_zero_based": {
+      "A": 0,
+      "B": 1,
+      "C": 1,
+      "D": 2,
+      "E": 4,
+      "F": 7
+    },
+    "earliest_finish_day_zero_based": {
+      "A": 1,
+      "B": 2,
+      "C": 2,
+      "D": 4,
+      "E": 7,
+      "F": 8
+    },
+    "critical_paths": [
+      [
+        "A",
+        "B",
+        "D",
+        "E",
+        "F"
+      ],
+      [
+        "A",
+        "C",
+        "D",
+        "E",
+        "F"
+      ]
+    ],
+    "minimum_duration_days": 8,
+    "deadline_days": 8,
+    "deadline_feasible": true,
+    "buffer_days": 0
+  },
+  "E03": {
+    "weighted_totals": {
+      "静态作品集": 19,
+      "互动网页": 14,
+      "嵌入式问答": 12
+    },
+    "offline_behavior_test": {
+      "conditions": "same device, browser cache cleared, Wi-Fi disconnected, cold start",
+      "acceptance_task": "find the specified project card and inspect its source status",
+      "results": {
+        "静态作品集": {
+          "passed": true,
+          "observation": "local package opened; three cards and status labels appeared; tester found the target and read its status"
+        },
+        "互动网页": {
+          "passed": false,
+          "observation": "only a blank shell appeared because the page script was not included in the offline package; tester could not find the target"
+        },
+        "嵌入式问答": {
+          "passed": false,
+          "observation": "interface opened but the query required a remote service and returned network unavailable before giving the source status"
+        }
+      }
+    },
+    "feasible_after_offline_hard_constraint": [
+      "静态作品集"
+    ]
+  },
+  "manuscript_han_count_excluding_fenced_code_inline_code_and_urls": 30871,
+  "inputs": {
+    "manuscript": {
+      "path": "manuscripts/ch09/ch09.md",
+      "sha256": "193e1edc44e0caf63badcf9c7b7874e88d50f99d20cffa7cf867fd39ebe2a0b7"
+    },
+    "exercise_data": {
+      "path": "materials/ch09/exercise-data.json",
+      "sha256": "68eb70053c165bddf800258c47790e4b30fb1d58e5a68c22e045d87dcccaef1e"
+    },
+    "verifier": {
+      "path": "materials/ch09/verify_exercises.py",
+      "sha256": "548486988234e0721b072e2e22119c4e4077cbf42636a99918c729aa0321da43"
+    }
+  }
+}

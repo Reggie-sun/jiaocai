@@ -1,0 +1,34 @@
+Source: https://escholarship.org/content/qt6wb2g3fw/qt6wb2g3fw.pdf
+Actual web PDF cover lines0–31 read by Parent.
+L0@P0: UC Riverside
+L1@P0: UC Riverside Previously Published Works
+L2@P0: Title
+L3@P0: Revisiting the Sustainable Happiness Model and Pie Chart: Can Happiness Be Successfully
+L4@P0: Pursued?
+L5@P0: Permalink
+L6@P0: https://escholarship.org/uc/item/6wb2g3fw
+L7@P0: Journal
+L8@P0: The Journal of Positive Psychology, 16(2)
+L9@P0: ISSN
+L10@P0: 1743-9760
+L11@P0: Authors
+L12@P0: Sheldon, Kennon M
+L13@P0: Lyubomirsky, Sonja
+L14@P0: Publication Date
+L15@P0: 2021-03-04
+L16@P0: DOI
+L17@P0: 10.1080/17439760.2019.1689421
+L18@P0: Peer reviewed
+L19@P0: eScholarship.org Powered by the California Digital Library
+L20@P0-1: University of CaliforniaFull Terms & Conditions of access and use can be found at
+L21@P1: https://www.tandfonline.com/action/journalInformation?journalCode=rpos20
+L22@P1: The Journal of Positive Psychology
+L23@P1: Dedicated to furthering research and promoting good practice
+L24@P1: ISSN: 1743-9760 (Print) 1743-9779 (Online) Journal homepage: https://www.tandfonline.com/loi/rpos20
+L25@P1: Revisiting the Sustainable Happiness Model and
+L26@P1: Pie Chart: Can Happiness Be Successfully Pursued?
+L27@P1: Kennon M. Sheldon & Sonja Lyubomirsky
+L28@P1: To cite this article: Kennon M. Sheldon & Sonja Lyubomirsky (2019): Revisiting the Sustainable
+L29@P1: Happiness Model and Pie Chart: Can Happiness Be Successfully Pursued?, The Journal of
+L30@P1: Positive Psychology, DOI: 10.1080/17439760.2019.1689421
+L31@P1: To link to this article: https://doi.org/10.1080/17439760.2019.1689421

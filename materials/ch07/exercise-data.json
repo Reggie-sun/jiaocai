@@ -1,0 +1,39 @@
+{
+  "exercises": {
+    "E05": {
+      "unit": "两次0–10分的学习状态自评（教学模拟）",
+      "scores": [
+        {"student": "G", "start": 2, "end": 4},
+        {"student": "H", "start": 8, "end": 7},
+        {"student": "I", "start": 5, "end": 5},
+        {"student": "J", "start": 3, "end": 4},
+        {"student": "K", "start": 6, "end": 7},
+        {"student": "L", "start": 4, "end": 3}
+      ],
+      "expected": {
+        "start_total": 28,
+        "end_total": 30,
+        "start_mean": "4.7",
+        "end_mean": "5.0",
+        "mean_change": "0.3",
+        "individual_changes": [2, -1, 0, 1, 1, -1],
+        "direction_counts": {
+          "increased": 3,
+          "decreased": 2,
+          "unchanged": 1
+        }
+      }
+    },
+    "E07": {
+      "unit": "天",
+      "historical_actual_days": [1, 3, 4, 2],
+      "planned_days": 1,
+      "expected": {
+        "historical_mean_days": "2.5",
+        "historical_median_days": "2.5",
+        "plan_below_mean": true,
+        "plan_below_median": true
+      }
+    }
+  }
+}

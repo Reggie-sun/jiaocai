@@ -1,0 +1,218 @@
+{
+  "style": "textbook-style-v1.0",
+  "insert_width_mm": 155,
+  "png_ppi_at_insert": 393,
+  "min_label_pt_at_insert": 10.74,
+  "visual_review": {
+    "status": "color_gray_observed_and_final_source_aligned",
+    "items": [
+      {
+        "id": "图8-1",
+        "observer": "Codex Parent",
+        "observed_color_sha256": "7ba3193caa93f1ff2eecddbb455ec49d23e7559b0b3c384b47df92f38b27af18",
+        "observed_gray_sha256": "1675aa75edb6cddec5dfc681ca66ccb29aac43c773e52431846d274c8a048385",
+        "color_and_gray_actually_opened": true,
+        "finding": "反馈返回能力差距，调查与个人任务层次分开。",
+        "limits": "Actual image observation; Word insertion-page observation recorded separately.",
+        "source_alignment": "Frozen manuscript caption/source/guide exact correspondence checked"
+      },
+      {
+        "id": "图8-2",
+        "observer": "Codex Parent",
+        "observed_color_sha256": "485a4f196a1e53911c8f2e3268a997f4ff765e4b687395d867d9a35072df7808",
+        "observed_gray_sha256": "c5707418d2cb32116883689b64f9044d08bed7522487125694f95d561d91e8b8",
+        "color_and_gray_actually_opened": true,
+        "finding": "示例日期和四种活动可辨，日期非最佳间隔已说明。",
+        "limits": "Actual image observation; Word insertion-page observation recorded separately.",
+        "source_alignment": "Frozen manuscript caption/source/guide exact correspondence checked"
+      },
+      {
+        "id": "图8-3",
+        "observer": "Codex Parent",
+        "observed_color_sha256": "6f87dead6216561dcfc863171188eb21c6f62e5b6cad7f0be2bc3b0980a24816",
+        "observed_gray_sha256": "a77792a7a9f876ccbca28fe8bbcbd09fbbf66e539224f8a6d4bc11bef87d2f2d",
+        "color_and_gray_actually_opened": true,
+        "finding": "来源、主张和条件核验分别出现，待验证状态可读。",
+        "limits": "Actual image observation; Word insertion-page observation recorded separately.",
+        "source_alignment": "Frozen manuscript caption/source/guide exact correspondence checked"
+      },
+      {
+        "id": "图8-4",
+        "observer": "Codex Parent",
+        "observed_color_sha256": "fe39d39a10cb85b07e90e8e6c893c11d483f8fe5a30a5ca19356936e00b72853",
+        "observed_gray_sha256": "bc144e888524eb047418aff4958b6a56f75587e04d97b9f6837d9764d9b6c2f0",
+        "color_and_gray_actually_opened": true,
+        "finding": "任务中心与五种材料相连，未暗示必须安装工具。",
+        "limits": "Actual image observation; Word insertion-page observation recorded separately.",
+        "source_alignment": "Frozen manuscript caption/source/guide exact correspondence checked"
+      },
+      {
+        "id": "图8-5",
+        "observer": "Codex Parent",
+        "observed_color_sha256": "1db9b36e11e70772512adafc1a0caf987841b21b06cdf73eb9a3d46f6c387f23",
+        "observed_gray_sha256": "e9b7e845cc31e7074a74ea8cdad63e4195e7e4ad4739db9a97ad03201b798d2c",
+        "color_and_gray_actually_opened": true,
+        "finding": "四类网络节点、个人判断及返回线可辨；共享源限制清楚。",
+        "limits": "Actual image observation; Word insertion-page observation recorded separately.",
+        "source_alignment": "Frozen manuscript caption/source/guide exact correspondence checked"
+      },
+      {
+        "id": "图8-6",
+        "observer": "Codex Parent",
+        "observed_color_sha256": "5b35c189d4321f17903f8820b65711827fd777070749c8c310e496b78ee52dfc",
+        "observed_gray_sha256": "87ae6e9c7e09519435aa8f25c077d1023feb9c92d5c7d1056a6b0c599e67e483",
+        "color_and_gray_actually_opened": true,
+        "finding": "资源前进与调整返回箭头分开，无相反箭头重合。",
+        "limits": "Actual image observation; Word insertion-page observation recorded separately.",
+        "source_alignment": "Frozen manuscript caption/source/guide exact correspondence checked"
+      }
+    ],
+    "source_sha256": "d6e12eef8cf77b60ae2bee9d0b0bd9d2b254a1503b8afc516c2331e2b16ab1d8"
+  },
+  "figures": [
+    {
+      "id": "图8-1",
+      "caption": "从外部变化到个人学习行动的判断路径",
+      "source": "来源：作者根据本节学习缺口诊断过程设计，图中箭头表示需要核对的信息关系，不代表所有职业变化都会按固定顺序发生。",
+      "description": "从“技术或岗位信号”向右追踪，先区分调查预期、组织采用和具体任务；只有发现与目标任务有关的差距后，才进入学习行动和表现检查。若中间证据缺失，应把问题标为待核实，而不是直接扩大个人学习清单。",
+      "file": "assets/figures/ch08/fig8-1.png",
+      "png": "assets/figures/ch08/fig8-1.png",
+      "editable_source": "assets/figures/ch08/fig8-1.svg",
+      "grayscale_png": "assets/figures/ch08/fig8-1-gray.png",
+      "sha256": "7ba3193caa93f1ff2eecddbb455ec49d23e7559b0b3c384b47df92f38b27af18",
+      "gray_sha256": "1675aa75edb6cddec5dfc681ca66ccb29aac43c773e52431846d274c8a048385",
+      "svg_sha256": "0268897253e0160eb4ff75e971130f0beacafa11c9f6ac0fa06125409b1e0186",
+      "dimensions_px": {
+        "width_px": 2400,
+        "height_px": 880
+      },
+      "insert_width_mm": 155,
+      "png_ppi_at_insert": 393,
+      "min_font_pt_at_insert": 10.74,
+      "min_label_pt_at_insert": 10.74,
+      "declared_min_label_px": 22,
+      "status": "ready",
+      "gray_semantics": "标签、位置、边框和线型承载含义；颜色为辅助。"
+    },
+    {
+      "id": "图8-2",
+      "caption": "一次学习如何连接讲解、延迟提取与应用",
+      "source": "来源：作者依据分散练习与延迟测试的教学逻辑绘制；图中日期是示例安排，不是通用最佳间隔，也不呈现任何实验的虚构分数。",
+      "description": "沿时间线观察每次活动的区别：先理解材料，再在资料关闭时尝试提取，随后核对并修正，最后把知识用于变化后的任务。若某次提取失败，应根据错误类型修改下一次活动，而不是只增加同一种重读。",
+      "file": "assets/figures/ch08/fig8-2.png",
+      "png": "assets/figures/ch08/fig8-2.png",
+      "editable_source": "assets/figures/ch08/fig8-2.svg",
+      "grayscale_png": "assets/figures/ch08/fig8-2-gray.png",
+      "sha256": "485a4f196a1e53911c8f2e3268a997f4ff765e4b687395d867d9a35072df7808",
+      "gray_sha256": "c5707418d2cb32116883689b64f9044d08bed7522487125694f95d561d91e8b8",
+      "svg_sha256": "0dd92e996d068364e8d0c1c6f7fb27cf78c9b1b620993edf621af8409a786334",
+      "dimensions_px": {
+        "width_px": 2400,
+        "height_px": 1040
+      },
+      "insert_width_mm": 155,
+      "png_ppi_at_insert": 393,
+      "min_font_pt_at_insert": 10.74,
+      "min_label_pt_at_insert": 10.74,
+      "declared_min_label_px": 22,
+      "status": "ready",
+      "gray_semantics": "标签、位置、边框和线型承载含义；颜色为辅助。"
+    },
+    {
+      "id": "图8-3",
+      "caption": "从问题到可复查结论的信息筛选路径",
+      "source": "来源：作者根据本节方法设计；路径中的“待验证”是有效结果状态，不表示搜索失败。",
+      "description": "沿着“问题与版本—来源选择—主张定位—条件核验—保存记录”阅读；如果缺少原文或关键条件，沿回路补查或把结论留在待验证状态。不同箭头表示信息依赖，不是一次搜索后必须得出确定答案。",
+      "file": "assets/figures/ch08/fig8-3.png",
+      "png": "assets/figures/ch08/fig8-3.png",
+      "editable_source": "assets/figures/ch08/fig8-3.svg",
+      "grayscale_png": "assets/figures/ch08/fig8-3-gray.png",
+      "sha256": "6f87dead6216561dcfc863171188eb21c6f62e5b6cad7f0be2bc3b0980a24816",
+      "gray_sha256": "a77792a7a9f876ccbca28fe8bbcbd09fbbf66e539224f8a6d4bc11bef87d2f2d",
+      "svg_sha256": "ec74f2ba61e006754f022553c6cb0e986351fff15d80407c2da711433705b826",
+      "dimensions_px": {
+        "width_px": 2400,
+        "height_px": 880
+      },
+      "insert_width_mm": 155,
+      "png_ppi_at_insert": 393,
+      "min_font_pt_at_insert": 10.74,
+      "min_label_pt_at_insert": 10.74,
+      "declared_min_label_px": 22,
+      "status": "ready",
+      "gray_semantics": "标签、位置、边框和线型承载含义；颜色为辅助。"
+    },
+    {
+      "id": "图8-4",
+      "caption": "学习工具围绕任务形成的材料网络",
+      "source": "来源：作者根据本节工具分工绘制。工具名称表示可替换的载体示例；每一类材料也可以存放在纸面或本地普通文件中。",
+      "description": "从“要完成的任务”向外观察目标记录、来源、提取练习、作品和反馈如何互相指向。箭头表示可以追踪的关系，不代表必须安装多个应用；若一项工具没有帮助完成或检查任务，可以删去该环节。",
+      "file": "assets/figures/ch08/fig8-4.png",
+      "png": "assets/figures/ch08/fig8-4.png",
+      "editable_source": "assets/figures/ch08/fig8-4.svg",
+      "grayscale_png": "assets/figures/ch08/fig8-4-gray.png",
+      "sha256": "fe39d39a10cb85b07e90e8e6c893c11d483f8fe5a30a5ca19356936e00b72853",
+      "gray_sha256": "bc144e888524eb047418aff4958b6a56f75587e04d97b9f6837d9764d9b6c2f0",
+      "svg_sha256": "950abafbf2d0fe35a91492a2b49366db8717e4cde684088833b91ace836f1f79",
+      "dimensions_px": {
+        "width_px": 2400,
+        "height_px": 1493
+      },
+      "insert_width_mm": 155,
+      "png_ppi_at_insert": 393,
+      "min_font_pt_at_insert": 10.74,
+      "min_label_pt_at_insert": 10.74,
+      "declared_min_label_px": 22,
+      "status": "ready",
+      "gray_semantics": "标签、位置、边框和线型承载含义；颜色为辅助。"
+    },
+    {
+      "id": "图8-5",
+      "caption": "从外部学习节点到个人判断的反馈网络",
+      "source": "来源：作者根据本节PLN的功能关系绘制；网络中的箭头表示提问、核验、反馈和知识整理的往返过程。",
+      "description": "从一个具体学习问题出发，观察它怎样连接来源、同伴、社区和实践反馈，再回到学习者自己的判断和贡献。节点之间的连线不等于证据相互独立；需要继续追溯共同引用的原始来源。",
+      "file": "assets/figures/ch08/fig8-5.png",
+      "png": "assets/figures/ch08/fig8-5.png",
+      "editable_source": "assets/figures/ch08/fig8-5.svg",
+      "grayscale_png": "assets/figures/ch08/fig8-5-gray.png",
+      "sha256": "1db9b36e11e70772512adafc1a0caf987841b21b06cdf73eb9a3d46f6c387f23",
+      "gray_sha256": "e9b7e845cc31e7074a74ea8cdad63e4195e7e4ad4739db9a97ad03201b798d2c",
+      "svg_sha256": "b1f4a23d01140434c3047f0d3ec35de55dc558aded21507ab314569b52879a96",
+      "dimensions_px": {
+        "width_px": 2400,
+        "height_px": 1640
+      },
+      "insert_width_mm": 155,
+      "png_ppi_at_insert": 393,
+      "min_font_pt_at_insert": 10.74,
+      "min_label_pt_at_insert": 10.74,
+      "declared_min_label_px": 22,
+      "status": "ready",
+      "gray_semantics": "标签、位置、边框和线型承载含义；颜色为辅助。"
+    },
+    {
+      "id": "图8-6",
+      "caption": "IDP从计划到证据再到调整的循环",
+      "source": "来源：作者为本节教学目的编制的流程图；循环各节点为计划记录要素的关系示意，不是实证效果模型。",
+      "description": "从个人动机和能力起点开始，沿着目标、资源、练习、证据逐步前进；检查点把结果带回目标和资源选择。若证据显示任务过难或过易，调整的是目标范围、先备、练习或时间之一，并记录调整理由，而不是仅把进度百分比改高。",
+      "file": "assets/figures/ch08/fig8-6.png",
+      "png": "assets/figures/ch08/fig8-6.png",
+      "editable_source": "assets/figures/ch08/fig8-6.svg",
+      "grayscale_png": "assets/figures/ch08/fig8-6-gray.png",
+      "sha256": "5b35c189d4321f17903f8820b65711827fd777070749c8c310e496b78ee52dfc",
+      "gray_sha256": "87ae6e9c7e09519435aa8f25c077d1023feb9c92d5c7d1056a6b0c599e67e483",
+      "svg_sha256": "5de014c50a27863a8d3911c2f8369d8c830a49890885728042e2e74f5ecc922d",
+      "dimensions_px": {
+        "width_px": 2400,
+        "height_px": 1280
+      },
+      "insert_width_mm": 155,
+      "png_ppi_at_insert": 393,
+      "min_font_pt_at_insert": 10.74,
+      "min_label_pt_at_insert": 10.74,
+      "declared_min_label_px": 22,
+      "status": "ready",
+      "gray_semantics": "标签、位置、边框和线型承载含义；颜色为辅助。"
+    }
+  ]
+}

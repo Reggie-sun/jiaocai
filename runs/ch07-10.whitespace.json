@@ -1,0 +1,67 @@
+{
+  "checks": "PASS",
+  "reason": "Final git diff --check found source-extract trailing spaces and owned documentation extra blank EOF lines. No source DOCX/manuscript/figure/Word/PDF/package/review conclusion changed. Independent original reading inherited only by exact whitespace-free byte equality.",
+  "files": [
+    {
+      "path": "materials/ch07-10/outline-actual.txt",
+      "before_sha256": "364ad7409c1658142bc4b0693426b39bf934897d9baaa5323ea2ff380363ed84",
+      "after_sha256": "ea0dd95ac10a1c45a6484d5d39392b7559214778377a8b4d4742aebe1436534c",
+      "only_trailing_whitespace_and_blank_EOF_removed": true
+    },
+    {
+      "path": "materials/ch10/author-notes.md",
+      "before_sha256": "2ebdb7c42cbb7522d41db3894bf5e318cea216f05bd8f66e3d5bf6baf65579f7",
+      "after_sha256": "3b383631c965d910b49e35bdd08be1dca99c2f1314a0c5d0efcbf70ae2c2f042",
+      "only_trailing_whitespace_and_blank_EOF_removed": true
+    },
+    {
+      "path": "plans/ch07.plan.md",
+      "before_sha256": "2ab9c98ef035cce29d2695f6b233f3bf7120b47cfe50ca51c9b3825eba25fcd1",
+      "after_sha256": "8f915df2c850510b47d4db189b6fe3b85bf0f8060a02fecead7659996d165f62",
+      "only_trailing_whitespace_and_blank_EOF_removed": true
+    },
+    {
+      "path": "specs/ch07.spec.md",
+      "before_sha256": "1385eac33ad9b91f1a40ba542c59ced087a34fccff67ab1e5069c1f5c0e380c5",
+      "after_sha256": "b5f23934b87f8f85f19f1c398ca5de5a070409b14e43783daeb5d4faffdd9fdc",
+      "only_trailing_whitespace_and_blank_EOF_removed": true
+    },
+    {
+      "path": "plans/ch08.plan.md",
+      "before_sha256": "9c7d66233416dc7416bcf3de8775b74748677469c663bc45677cf7dd28cb7a21",
+      "after_sha256": "2ab887b265c3ee81de423c19d3bc877b4e641de04c30c95b04deafb297e857be",
+      "only_trailing_whitespace_and_blank_EOF_removed": true
+    },
+    {
+      "path": "specs/ch08.spec.md",
+      "before_sha256": "14d9e8703380790b94a51af0d3b7881a79c78d401b3b367bba78b37486eacb44",
+      "after_sha256": "3e728c746cce3b9b998e835e61fd757ea82b0af719dc671ece66a199deb0ce9d",
+      "only_trailing_whitespace_and_blank_EOF_removed": true
+    },
+    {
+      "path": "plans/ch09.plan.md",
+      "before_sha256": "213af0a9d65319d4bce5e6efef74fede884d2d3429b7014dfbd7c622fc046671",
+      "after_sha256": "70c4df75790ba418eb79c0ea550fe1be0b2951f1c37e14a1733a4b54f250e0b6",
+      "only_trailing_whitespace_and_blank_EOF_removed": true
+    },
+    {
+      "path": "specs/ch09.spec.md",
+      "before_sha256": "aaa2382361fa657cc4e8243e5657371c72354ce6e5b249316df24c78eee842b4",
+      "after_sha256": "999b49b80bac425d35d207616801d8c677126b893b83d2107c8d555b794e45a9",
+      "only_trailing_whitespace_and_blank_EOF_removed": true
+    },
+    {
+      "path": "plans/ch10.plan.md",
+      "before_sha256": "b47e7238cca79f6715d7a7a4a35a094166e2329f700a1d975c34363bc581d63d",
+      "after_sha256": "a26e007a9d7ab68db80ce043e1cf465e22ff04eaeee6e774692aafdb8fe53033",
+      "only_trailing_whitespace_and_blank_EOF_removed": true
+    },
+    {
+      "path": "specs/ch10.spec.md",
+      "before_sha256": "b38ce69d3c2abf74fc63fcb04b48efeb46c081aa497a1c843cc0e5b06f0f1741",
+      "after_sha256": "59644383e612e467b0a265ef17dd61866ff487176c5d56c483971b3b034ef68c",
+      "only_trailing_whitespace_and_blank_EOF_removed": true
+    }
+  ],
+  "non_whitespace_bytes_equal": true
+}

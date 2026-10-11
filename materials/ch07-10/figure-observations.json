@@ -1,0 +1,200 @@
+{
+  "status": "All21color+gray images actually opened earlier; final caption/source/guide correspondence confirmed across frozen07–10.",
+  "items": [
+    {
+      "id": "图7-1",
+      "observer": "Codex Parent",
+      "observed_color_sha256": "4bcfe930edfb150328410cbb366a59e0e50b49b36033d8e30088d31a6124acb5",
+      "observed_gray_sha256": "39d2c61468e1d87b7bc134bc0af0d90434e186b901dda674fd83209d560743bf",
+      "color_and_gray_actually_opened": true,
+      "finding": "回箭头落在解释，环境虚线与主体路线区别清楚。",
+      "limits": "实际图像观察；最终正文图义对应仍在正文冻结后核对。"
+    },
+    {
+      "id": "图7-2",
+      "observer": "Codex Parent",
+      "observed_color_sha256": "2822b28a8cf5657f9b41e79006424bbf7e60d2ff0a76f3ba5e1465fcf26fe174",
+      "observed_gray_sha256": "03d88cc32e97269cc1fa2418df9fec803e6fd214a0849115a841bbd22554df5e",
+      "color_and_gray_actually_opened": true,
+      "finding": "五个证据问题逐项可读，断开连接与独立证据提示可见。",
+      "limits": "实际图像观察；最终正文图义对应仍在正文冻结后核对。"
+    },
+    {
+      "id": "图7-3",
+      "observer": "Codex Parent",
+      "observed_color_sha256": "83c38cb481e306b4ad66abd363a575cbc6e8070e08628d90ac02e2ba33541ff7",
+      "observed_gray_sha256": "6071fd72809ddcab3082c77a7a3a9c7dd3a985aefb9b7bdc90a4b36004d5ab63",
+      "color_and_gray_actually_opened": true,
+      "finding": "反应、事实解释与行动分离，文字未溢出。",
+      "limits": "实际图像观察；最终正文图义对应仍在正文冻结后核对。"
+    },
+    {
+      "id": "图7-4",
+      "observer": "Codex Parent",
+      "observed_color_sha256": "e20ae9f287dfd6ecf4ee74a73bc70ef7c55294961925b27e4d4f2fc06a7ed464",
+      "observed_gray_sha256": "1835546433fea1aa70a66f5d86eec72fcddd0f712b070c1747ec39c0c91269be",
+      "color_and_gray_actually_opened": true,
+      "finding": "三个迁移选择清楚，暂不适用由虚框识别；分支箭头不重叠。",
+      "limits": "实际图像观察；最终正文图义对应仍在正文冻结后核对。"
+    },
+    {
+      "id": "图7-5",
+      "observer": "Codex Parent",
+      "observed_color_sha256": "2f7da8ff0d46ccf5fb2abf0f163353ba095f5860de2dcf4d74abd2fbd98239cb",
+      "observed_gray_sha256": "ae0a1d69eb534c10f251ddae600eb7f7cc7c8ef922be58b1bea99f2ab5c3eac5",
+      "color_and_gray_actually_opened": true,
+      "finding": "叙述顺序与回望解释分区，未补造事件年份。",
+      "limits": "实际图像观察；最终正文图义对应仍在正文冻结后核对。"
+    },
+    {
+      "id": "图7-6",
+      "observer": "Codex Parent",
+      "observed_color_sha256": "080b6f7b3b218ed08cce0913b8a7ff33d79eb21a44bdc48b44eb9209bc7d960c",
+      "observed_gray_sha256": "6467d504222a935004de92af50adfa84340e90569f0fb598f72c11b9e609da8c",
+      "color_and_gray_actually_opened": true,
+      "finding": "不同人和同一人多个时点分区，非数值示意与不可换算提示明确。",
+      "limits": "实际图像观察；最终正文图义对应仍在正文冻结后核对。"
+    },
+    {
+      "id": "图8-1",
+      "observer": "Codex Parent",
+      "observed_color_sha256": "7ba3193caa93f1ff2eecddbb455ec49d23e7559b0b3c384b47df92f38b27af18",
+      "observed_gray_sha256": "1675aa75edb6cddec5dfc681ca66ccb29aac43c773e52431846d274c8a048385",
+      "color_and_gray_actually_opened": true,
+      "finding": "反馈返回能力差距，调查与个人任务层次分开。",
+      "limits": "实际图像观察；最终正文图义对应仍在正文冻结后核对。"
+    },
+    {
+      "id": "图8-2",
+      "observer": "Codex Parent",
+      "observed_color_sha256": "485a4f196a1e53911c8f2e3268a997f4ff765e4b687395d867d9a35072df7808",
+      "observed_gray_sha256": "c5707418d2cb32116883689b64f9044d08bed7522487125694f95d561d91e8b8",
+      "color_and_gray_actually_opened": true,
+      "finding": "示例日期和四种活动可辨，日期非最佳间隔已说明。",
+      "limits": "实际图像观察；最终正文图义对应仍在正文冻结后核对。"
+    },
+    {
+      "id": "图8-3",
+      "observer": "Codex Parent",
+      "observed_color_sha256": "6f87dead6216561dcfc863171188eb21c6f62e5b6cad7f0be2bc3b0980a24816",
+      "observed_gray_sha256": "a77792a7a9f876ccbca28fe8bbcbd09fbbf66e539224f8a6d4bc11bef87d2f2d",
+      "color_and_gray_actually_opened": true,
+      "finding": "来源、主张和条件核验分别出现，待验证状态可读。",
+      "limits": "实际图像观察；最终正文图义对应仍在正文冻结后核对。"
+    },
+    {
+      "id": "图8-4",
+      "observer": "Codex Parent",
+      "observed_color_sha256": "fe39d39a10cb85b07e90e8e6c893c11d483f8fe5a30a5ca19356936e00b72853",
+      "observed_gray_sha256": "bc144e888524eb047418aff4958b6a56f75587e04d97b9f6837d9764d9b6c2f0",
+      "color_and_gray_actually_opened": true,
+      "finding": "任务中心与五种材料相连，未暗示必须安装工具。",
+      "limits": "实际图像观察；最终正文图义对应仍在正文冻结后核对。"
+    },
+    {
+      "id": "图8-5",
+      "observer": "Codex Parent",
+      "observed_color_sha256": "1db9b36e11e70772512adafc1a0caf987841b21b06cdf73eb9a3d46f6c387f23",
+      "observed_gray_sha256": "e9b7e845cc31e7074a74ea8cdad63e4195e7e4ad4739db9a97ad03201b798d2c",
+      "color_and_gray_actually_opened": true,
+      "finding": "四类网络节点、个人判断及返回线可辨；共享源限制清楚。",
+      "limits": "实际图像观察；最终正文图义对应仍在正文冻结后核对。"
+    },
+    {
+      "id": "图8-6",
+      "observer": "Codex Parent",
+      "observed_color_sha256": "5b35c189d4321f17903f8820b65711827fd777070749c8c310e496b78ee52dfc",
+      "observed_gray_sha256": "87ae6e9c7e09519435aa8f25c077d1023feb9c92d5c7d1056a6b0c599e67e483",
+      "color_and_gray_actually_opened": true,
+      "finding": "资源前进与调整返回箭头分开，无相反箭头重合。",
+      "limits": "实际图像观察；最终正文图义对应仍在正文冻结后核对。"
+    },
+    {
+      "id": "图9-1",
+      "observer": "Codex Parent",
+      "observed_color_sha256": "26730c5f0e6ab13d72a688abdb3a0999bcdc49125ba6c0401fdc532511518367",
+      "observed_gray_sha256": "95354a578ea2c14586c607fa4e1ad3d8217b2e85c74a7a33805ce3e16bebc088",
+      "color_and_gray_actually_opened": true,
+      "finding": "读者、交付物和验收链对应，边界未知用虚线区分。",
+      "limits": "实际图像观察；最终正文图义对应仍在正文冻结后核对。"
+    },
+    {
+      "id": "图9-2",
+      "observer": "Codex Parent",
+      "observed_color_sha256": "e3c99676156a827fb4655b0f5672b6fd453dd2e3f53db5e57c0ea43f6ba1e108",
+      "observed_gray_sha256": "7ca5d1f145380902043d2a22e3db27c6608591cf74753ff2225265b2b5d1da53",
+      "color_and_gray_actually_opened": true,
+      "finding": "分叉与汇合依赖可读，评审虚线从左右返回。",
+      "limits": "实际图像观察；最终正文图义对应仍在正文冻结后核对。"
+    },
+    {
+      "id": "图9-3",
+      "observer": "Codex Parent",
+      "observed_color_sha256": "3acfb7b0baae34617a504119db0f28b87f68cb30ec26e7c7af0d84024a748bfe",
+      "observed_gray_sha256": "375c52a6132107963f4e880b6b6ecc83cd3753bab98f137fbf4e4cabe8f3ebc4",
+      "color_and_gray_actually_opened": true,
+      "finding": "六步沟通方向可追踪，中心证据提示不挡箭头。",
+      "limits": "实际图像观察；最终正文图义对应仍在正文冻结后核对。"
+    },
+    {
+      "id": "图9-4",
+      "observer": "Codex Parent",
+      "observed_color_sha256": "ca1ced37a5305c77cc2aca6be50bddec24cb8e3e98ec852955df26c790a98f2e",
+      "observed_gray_sha256": "a56e69efdbd27469af07febf1898054477b403bae58dd2a045d955fe1ffa38d7",
+      "color_and_gray_actually_opened": true,
+      "finding": "满足和未满足/未知两条分支清楚，复核虚线完整。",
+      "limits": "实际图像观察；最终正文图义对应仍在正文冻结后核对。"
+    },
+    {
+      "id": "图9-5",
+      "observer": "Codex Parent",
+      "observed_color_sha256": "ac4ba4e9ab34bc947127b5ece2fd3192a61da423886e8045b0a5068ebb7459c6",
+      "observed_gray_sha256": "9eadf0945119dc145a78e1a3f7101779b8a8ba7843929e11200061e1033233db",
+      "color_and_gray_actually_opened": true,
+      "finding": "返回线沿左侧外缘，不再穿过支持行动文字。",
+      "limits": "实际图像观察；最终正文图义对应仍在正文冻结后核对。"
+    },
+    {
+      "id": "图10-1",
+      "observer": "Codex Parent",
+      "observed_color_sha256": "1fea6eee1c1e2d51b9f43f1a1531e507d02d485c682570a27719db9b52a7358b",
+      "observed_gray_sha256": "97dad4e488653d4cb9ca8e44f6cb9b017650bee008b55bbc267181bb278bb6a2",
+      "color_and_gray_actually_opened": true,
+      "finding": "责任横带贯穿四节点，反馈返回方向，标签彩图/灰度可读。",
+      "limits": "实际逐张彩图与灰度观察；完整冻结正文图义及插入页核对待完成。"
+    },
+    {
+      "id": "图10-2",
+      "observer": "Codex Parent",
+      "observed_color_sha256": "31c418931aab598e2ed4c9404739d21d50cfe01f7332c58393329e8de804bf4f",
+      "observed_gray_sha256": "85a4bb76416caa46b4b2c824bfc094f81a296c78be43bb019301ebfc2e0c623e",
+      "color_and_gray_actually_opened": true,
+      "finding": "两行路线和外围回线没有穿过文字，容量、公平性及共同确认可读。",
+      "limits": "实际逐张彩图与灰度观察；完整冻结正文图义及插入页核对待完成。"
+    },
+    {
+      "id": "图10-3",
+      "observer": "Codex Parent",
+      "observed_color_sha256": "2d317e1fd639e25cdd06cdffd4d56d05693797b8e33e7db8f5426ff14ba53c6a",
+      "observed_gray_sha256": "8fdb9ebca5899ba90528949908ba87cdd4cae66169b124b344b2a3793d94d7f9",
+      "color_and_gray_actually_opened": true,
+      "finding": "六类受影响者与两种决定范围分开，箭头不作因果实证，文字没有溢出。",
+      "limits": "实际逐张彩图与灰度观察；完整冻结正文图义及插入页核对待完成。"
+    },
+    {
+      "id": "图10-4",
+      "observer": "Codex Parent",
+      "observed_color_sha256": "cd24928888db1c8d69462da240cdddefa31e21cb225a7bb928ad8f23fc8d0c7b",
+      "observed_gray_sha256": "2c3b82f9dbdb579730e6f7825bc0ccf1939505f1ad30f20226100d013b257aa4",
+      "color_and_gray_actually_opened": true,
+      "finding": "GOVERN横向包围三个功能，循环与非固定顺序提示清楚；灰度不丢失含义。",
+      "limits": "实际逐张彩图与灰度观察；完整冻结正文图义及插入页核对待完成。"
+    }
+  ],
+  "final_manuscript_hashes": {
+    "ch07": "e9a9812e2e4f8e6179b74071cf12e725a3aca6973d1b2c960364771fb743c5a9",
+    "ch08": "d6e12eef8cf77b60ae2bee9d0b0bd9d2b254a1503b8afc516c2331e2b16ab1d8",
+    "ch09": "193e1edc44e0caf63badcf9c7b7874e88d50f99d20cffa7cf867fd39ebe2a0b7",
+    "ch10": "da69285fdc210a4dad59b23beeb83da05a40ad8e481acaebf0e3e40bbf94954c"
+  }
+}

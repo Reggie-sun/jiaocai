@@ -1,0 +1,484 @@
+{
+  "checks": "PASS",
+  "chapter": 9,
+  "han_characters_approx": 30946,
+  "pages": 67,
+  "tables": 7,
+  "figures": 5,
+  "references": 4,
+  "native_reference_fields": 13,
+  "source_sha256": "4f337cb05dd596658ad1b83b4f3fe1caea5aef2efd18a32f739c1bd81299aced",
+  "docx_sha256": "479143756c9d228ce8eed6009ded22e8175dc43af7a33ee6637596b829a4222e",
+  "pdf_sha256": "d0dee21bd9302ff6ada7fbef501c7641313e537ee7f79e4a3b89a5a3ac580cac",
+  "toc_pages": {
+    "9.1 共同目标与可理解的技术表达": 4,
+    "9.2 分工、依赖与资源协调": 13,
+    "9.3 聆听、反馈与冲突处理": 22,
+    "9.4 团队决策：证据、责任与调整": 32,
+    "9.5 技术领导力：支持他人与共同复盘": 42,
+    "章末综合训练": 51,
+    "本章回顾": 53,
+    "关键术语": 54,
+    "参考解与讨论": 56,
+    "参考文献": 66
+  },
+  "toc_cache_matches_actual_pages": true,
+  "figure_pages": {
+    "图9-1": 8,
+    "图9-2": 16,
+    "图9-3": 25,
+    "图9-4": 38,
+    "图9-5": 48
+  },
+  "embedded_fonts": [
+    "/BAAAAA+NotoSansCJKsc-Regular",
+    "/CAAAAA+NotoSansCJKsc-Bold",
+    "/DAAAAA+NotoSerifCJKsc-Regular",
+    "/EAAAAA+NotoSansCJKsc-Bold",
+    "/FAAAAA+NotoSerifCJKsc-Regular",
+    "/GAAAAA+NotoSerifCJKsc-Bold",
+    "/HAAAAA+NotoSansCJKsc-Bold",
+    "/IAAAAA+NotoSerifCJKsc-Regular",
+    "/JAAAAA+NotoSerifCJKsc-Regular",
+    "/KAAAAA+NotoSerifCJKsc-Bold",
+    "/LAAAAA+NotoSerifCJKsc-Regular",
+    "/MAAAAA+NotoSerifCJKsc-Regular",
+    "/NAAAAA+NotoSerifCJKsc-Regular",
+    "/OAAAAA+NotoSansCJKsc-Bold",
+    "/PAAAAA+NotoSerifCJKsc-Regular"
+  ],
+  "page_extents": [
+    {
+      "page": 1,
+      "body_top": 84.5,
+      "body_bottom": 763.7,
+      "images": 0
+    },
+    {
+      "page": 2,
+      "body_top": 79.8,
+      "body_bottom": 548.1,
+      "images": 0
+    },
+    {
+      "page": 3,
+      "body_top": 83.0,
+      "body_bottom": 437.5,
+      "images": 0
+    },
+    {
+      "page": 4,
+      "body_top": 95.0,
+      "body_bottom": 768.9,
+      "images": 0
+    },
+    {
+      "page": 5,
+      "body_top": 79.8,
+      "body_bottom": 706.8,
+      "images": 0
+    },
+    {
+      "page": 6,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 7,
+      "body_top": 79.8,
+      "body_bottom": 466.6,
+      "images": 0
+    },
+    {
+      "page": 8,
+      "body_top": 287.4,
+      "body_bottom": 704.6,
+      "images": 1
+    },
+    {
+      "page": 9,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 10,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 11,
+      "body_top": 79.8,
+      "body_bottom": 715.9,
+      "images": 0
+    },
+    {
+      "page": 12,
+      "body_top": 79.8,
+      "body_bottom": 715.9,
+      "images": 0
+    },
+    {
+      "page": 13,
+      "body_top": 79.8,
+      "body_bottom": 736.1,
+      "images": 0
+    },
+    {
+      "page": 14,
+      "body_top": 79.8,
+      "body_bottom": 739.9,
+      "images": 0
+    },
+    {
+      "page": 15,
+      "body_top": 83.2,
+      "body_bottom": 734.5,
+      "images": 0
+    },
+    {
+      "page": 16,
+      "body_top": 79.8,
+      "body_bottom": 748.7,
+      "images": 1
+    },
+    {
+      "page": 17,
+      "body_top": 79.8,
+      "body_bottom": 715.9,
+      "images": 0
+    },
+    {
+      "page": 18,
+      "body_top": 79.8,
+      "body_bottom": 683.1,
+      "images": 0
+    },
+    {
+      "page": 19,
+      "body_top": 81.5,
+      "body_bottom": 694.8,
+      "images": 0
+    },
+    {
+      "page": 20,
+      "body_top": 81.5,
+      "body_bottom": 760.5,
+      "images": 0
+    },
+    {
+      "page": 21,
+      "body_top": 79.8,
+      "body_bottom": 713.4,
+      "images": 0
+    },
+    {
+      "page": 22,
+      "body_top": 79.8,
+      "body_bottom": 745.2,
+      "images": 0
+    },
+    {
+      "page": 23,
+      "body_top": 79.8,
+      "body_bottom": 730.6,
+      "images": 0
+    },
+    {
+      "page": 24,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 25,
+      "body_top": 79.8,
+      "body_bottom": 718.4,
+      "images": 1
+    },
+    {
+      "page": 26,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 27,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 28,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 29,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 30,
+      "body_top": 79.8,
+      "body_bottom": 683.1,
+      "images": 0
+    },
+    {
+      "page": 31,
+      "body_top": 79.8,
+      "body_bottom": 617.4,
+      "images": 0
+    },
+    {
+      "page": 32,
+      "body_top": 83.0,
+      "body_bottom": 691.2,
+      "images": 0
+    },
+    {
+      "page": 33,
+      "body_top": 81.5,
+      "body_bottom": 464.9,
+      "images": 0
+    },
+    {
+      "page": 34,
+      "body_top": 78.7,
+      "body_bottom": 704.9,
+      "images": 0
+    },
+    {
+      "page": 35,
+      "body_top": 79.8,
+      "body_bottom": 739.9,
+      "images": 0
+    },
+    {
+      "page": 36,
+      "body_top": 83.2,
+      "body_bottom": 725.0,
+      "images": 0
+    },
+    {
+      "page": 37,
+      "body_top": 79.8,
+      "body_bottom": 706.8,
+      "images": 0
+    },
+    {
+      "page": 38,
+      "body_top": 79.8,
+      "body_bottom": 763.2,
+      "images": 1
+    },
+    {
+      "page": 39,
+      "body_top": 79.8,
+      "body_bottom": 683.1,
+      "images": 0
+    },
+    {
+      "page": 40,
+      "body_top": 81.5,
+      "body_bottom": 751.4,
+      "images": 0
+    },
+    {
+      "page": 41,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 42,
+      "body_top": 79.8,
+      "body_bottom": 736.1,
+      "images": 0
+    },
+    {
+      "page": 43,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 44,
+      "body_top": 79.8,
+      "body_bottom": 617.4,
+      "images": 0
+    },
+    {
+      "page": 45,
+      "body_top": 81.5,
+      "body_bottom": 751.4,
+      "images": 0
+    },
+    {
+      "page": 46,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 47,
+      "body_top": 79.8,
+      "body_bottom": 486.0,
+      "images": 0
+    },
+    {
+      "page": 48,
+      "body_top": 304.4,
+      "body_bottom": 754.5,
+      "images": 1
+    },
+    {
+      "page": 49,
+      "body_top": 79.8,
+      "body_bottom": 715.9,
+      "images": 0
+    },
+    {
+      "page": 50,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 51,
+      "body_top": 79.8,
+      "body_bottom": 712.3,
+      "images": 0
+    },
+    {
+      "page": 52,
+      "body_top": 79.8,
+      "body_bottom": 486.0,
+      "images": 0
+    },
+    {
+      "page": 53,
+      "body_top": 78.7,
+      "body_bottom": 678.4,
+      "images": 0
+    },
+    {
+      "page": 54,
+      "body_top": 79.8,
+      "body_bottom": 712.3,
+      "images": 0
+    },
+    {
+      "page": 55,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 56,
+      "body_top": 83.0,
+      "body_bottom": 731.4,
+      "images": 0
+    },
+    {
+      "page": 57,
+      "body_top": 79.8,
+      "body_bottom": 706.8,
+      "images": 0
+    },
+    {
+      "page": 58,
+      "body_top": 79.8,
+      "body_bottom": 715.9,
+      "images": 0
+    },
+    {
+      "page": 59,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 60,
+      "body_top": 79.8,
+      "body_bottom": 715.9,
+      "images": 0
+    },
+    {
+      "page": 61,
+      "body_top": 79.8,
+      "body_bottom": 706.8,
+      "images": 0
+    },
+    {
+      "page": 62,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 63,
+      "body_top": 79.8,
+      "body_bottom": 683.1,
+      "images": 0
+    },
+    {
+      "page": 64,
+      "body_top": 79.8,
+      "body_bottom": 715.9,
+      "images": 0
+    },
+    {
+      "page": 65,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 66,
+      "body_top": 79.8,
+      "body_bottom": 755.7,
+      "images": 0
+    },
+    {
+      "page": 67,
+      "body_top": 78.7,
+      "body_bottom": 318.7,
+      "images": 0
+    }
+  ],
+  "limits": "Correspondence and executable layout checks only; actual page observation and content review recorded separately. Word native refresh, printing, teacher/student acceptance untested.",
+  "preserve_only_parts_byte_identical": [
+    "_rels/.rels",
+    "docProps/app.xml",
+    "word/styles.xml",
+    "word/stylesWithEffects.xml",
+    "word/settings.xml",
+    "word/webSettings.xml",
+    "word/fontTable.xml",
+    "word/theme/theme1.xml",
+    "customXml/item1.xml",
+    "customXml/_rels/item1.xml.rels",
+    "customXml/itemProps1.xml",
+    "word/footer1.xml",
+    "docProps/thumbnail.jpeg"
+  ],
+  "answer_bookmarks": [
+    "E01",
+    "E02",
+    "E03",
+    "E04",
+    "E05"
+  ],
+  "reference_first_use_order": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "table_header_repeat_and_rows_keep_together": true
+}

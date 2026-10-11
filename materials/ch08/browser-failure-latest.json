@@ -1,0 +1,5 @@
+{
+  "checks": "FAIL",
+  "reason": "Error: Visible keyboard focus missing",
+  "scope": "Owned temporary browser; no page publication or user profile mutation."
+}

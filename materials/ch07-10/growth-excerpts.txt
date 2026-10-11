@@ -1,0 +1,47 @@
+Source: https://www.nature.com/articles/s41586-019-1466-y
+Extracted raw text, abstract and discussion only.
+raw line 1: A national experiment reveals where a growth mindset improves achievement | Nature
+raw line 2: Skip to main content
+raw line 3: Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain
+raw line 4:             the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in
+raw line 5:             Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles
+raw line 6:             and JavaScript.
+raw line 7: Advertisement
+raw line 8: A national experiment reveals where a growth mindset improves achievement
+raw line 9: Download PDF
+raw line 10: Download PDF
+raw line 11: Abstract
+raw line 12: A global priority for the behavioural sciences is to develop cost-effective, scalable interventions that could improve the academic outcomes of adolescents at a population level, but no such interventions have so far been evaluated in a population-generalizable sample. Here we show that a short (less than one hour), online growth mindset intervention—which teaches that intellectual abilities can be developed—improved grades among lower-achieving students and increased overall enrolment to advanced mathematics courses in a nationally representative sample of students in secondary education in the United States. Notably, the study identified school contexts that sustained the effects of the growth mindset intervention: the intervention changed grades when peer norms aligned with the messages of the intervention. Confidence in the conclusions of this study comes from independent data collection and processing, pre-registration of analyses, and corroboration of results by a blinded Bayesian analysis.
+raw line 13: Similar content being viewed by others
+raw line 14: Shifting the mindset culture to address global educational disparities
+raw line 359: The National Study of Learning Mindsets showed that a low-cost treatment, delivered in less than an hour, attained a substantial proportion of the effects on grades of the most effective rigorously evaluated adolescent interventions of any cost or duration in the literature within the pre-registered group of lower-achieving students. Moreover, the intervention produced gains in the consequential outcome of advanced mathematics course-taking for students overall, which is meaningful because the rigor of mathematics courses taken in high school strongly predicts later educational attainment
+raw line 360: 8
+raw line 361: ,
+raw line 362: 9
+raw line 363: , and educational attainment is one of the leading predictors of longevity and health
+raw line 364: 38
+raw line 365: ,
+raw line 366: 42
+raw line 367: . The finding that the growth mindset intervention could redirect critical academic outcomes to such an extent—with no training of teachers; in an effectiveness trial conducted in a population-generalizable sample; with data collected by an independent research company using repeatable procedures; with data processed by a second independent research company; and while adhering to a comprehensive pre-registered analysis plan—is a major advance.
+raw line 368: Furthermore, the evidence about the kinds of schools where the growth mindset treatment effect on grades was sustained, and where it was not, has important implications for future interventions. We might have expected that the intervention would compensate for unsupportive school norms, and that students who already had supportive peer norms would not need the intervention as much. Instead, it was when the peer norm supported the adoption of intellectual challenges that the intervention promoted sustained benefits in the form of higher grades.
+raw line 369: Perhaps students in unsupportive peer climates risked paying a social price for taking on intellectual challenges in front of peers who thought it undesirable to do so. Sustained change may therefore require both a high-quality seed (an adaptive belief system conveyed by a compelling intervention) and conductive soil in which that seed can grow (a context congruent with the proffered belief system). A limitation of our moderation results, of course, is that we cannot draw causal conclusions about the effects of the school norm, as the norms were measured, not manipulated. It is encouraging that a Bayesian analysis, reported in the Supplementary Information section 8, yielded evidence consistent with a causal interpretation of the school norms variable. The present research therefore sets the stage for a new era of experimental research that seeks to enhance both students’ mindsets and the school environments that support student learning.
+raw line 370: We emphasize that not all forms of growth mindset interventions can be expected to increase grades or advanced course-taking, even in the targeted subgroups
+raw line 371: 11
+raw line 372: ,
+raw line 373: 12
+raw line 374: . New growth mindset interventions that go beyond the module and population tested here will need to be subjected to rigorous development and validation processes, as the current programme was
+raw line 375: 13
+raw line 376: .
+raw line 377: Finally, this study offers lessons for the science of adolescent behaviour change. Beliefs—and particularly beliefs that affect how students make sense of ongoing challenges—are important during high-stakes developmental turning points such as pubertal maturation
+raw line 378: 43
+raw line 379: ,
+raw line 380: 44
+raw line 381: or the transition to secondary school
+raw line 382: 6
+raw line 383: . Indeed, new interventions in the future should address the interpretation of other challenges that adolescents experience, including social and interpersonal difficulties, to affect outcomes (such as depression) that thus far have proven difficult to address
+raw line 384: 43
+raw line 385: . And the combined importance of belief change and school environments in our study underscores the need for interdisciplinary research to understand the numerous influences on adolescents’ developmental trajectories.
+raw line 386: Methods
+raw line 387: Ethics approval
+raw line 388: Approval for this study was obtained from the Institutional Review Board at Stanford University (30387), ICF (FWA00000845), and the University of Texas at Austin (#2016-03-0042). In most schools this experiment was conducted as a programme evaluation carried out at the request of the participating school district
+raw line 389: 45

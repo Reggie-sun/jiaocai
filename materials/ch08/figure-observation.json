@@ -1,0 +1,69 @@
+{
+  "chapter": 8,
+  "items": [
+    {
+      "id": "图8-1",
+      "observer": "Codex Parent",
+      "observed_color_sha256": "7ba3193caa93f1ff2eecddbb455ec49d23e7559b0b3c384b47df92f38b27af18",
+      "observed_gray_sha256": "1675aa75edb6cddec5dfc681ca66ccb29aac43c773e52431846d274c8a048385",
+      "color_and_gray_actually_opened": true,
+      "finding": "反馈返回能力差距，调查与个人任务层次分开。",
+      "limits": "Actual image observation; Word insertion-page observation recorded separately.",
+      "source_alignment": "Frozen manuscript caption/source/guide exact correspondence checked"
+    },
+    {
+      "id": "图8-2",
+      "observer": "Codex Parent",
+      "observed_color_sha256": "485a4f196a1e53911c8f2e3268a997f4ff765e4b687395d867d9a35072df7808",
+      "observed_gray_sha256": "c5707418d2cb32116883689b64f9044d08bed7522487125694f95d561d91e8b8",
+      "color_and_gray_actually_opened": true,
+      "finding": "示例日期和四种活动可辨，日期非最佳间隔已说明。",
+      "limits": "Actual image observation; Word insertion-page observation recorded separately.",
+      "source_alignment": "Frozen manuscript caption/source/guide exact correspondence checked"
+    },
+    {
+      "id": "图8-3",
+      "observer": "Codex Parent",
+      "observed_color_sha256": "6f87dead6216561dcfc863171188eb21c6f62e5b6cad7f0be2bc3b0980a24816",
+      "observed_gray_sha256": "a77792a7a9f876ccbca28fe8bbcbd09fbbf66e539224f8a6d4bc11bef87d2f2d",
+      "color_and_gray_actually_opened": true,
+      "finding": "来源、主张和条件核验分别出现，待验证状态可读。",
+      "limits": "Actual image observation; Word insertion-page observation recorded separately.",
+      "source_alignment": "Frozen manuscript caption/source/guide exact correspondence checked"
+    },
+    {
+      "id": "图8-4",
+      "observer": "Codex Parent",
+      "observed_color_sha256": "fe39d39a10cb85b07e90e8e6c893c11d483f8fe5a30a5ca19356936e00b72853",
+      "observed_gray_sha256": "bc144e888524eb047418aff4958b6a56f75587e04d97b9f6837d9764d9b6c2f0",
+      "color_and_gray_actually_opened": true,
+      "finding": "任务中心与五种材料相连，未暗示必须安装工具。",
+      "limits": "Actual image observation; Word insertion-page observation recorded separately.",
+      "source_alignment": "Frozen manuscript caption/source/guide exact correspondence checked"
+    },
+    {
+      "id": "图8-5",
+      "observer": "Codex Parent",
+      "observed_color_sha256": "1db9b36e11e70772512adafc1a0caf987841b21b06cdf73eb9a3d46f6c387f23",
+      "observed_gray_sha256": "e9b7e845cc31e7074a74ea8cdad63e4195e7e4ad4739db9a97ad03201b798d2c",
+      "color_and_gray_actually_opened": true,
+      "finding": "四类网络节点、个人判断及返回线可辨；共享源限制清楚。",
+      "limits": "Actual image observation; Word insertion-page observation recorded separately.",
+      "source_alignment": "Frozen manuscript caption/source/guide exact correspondence checked"
+    },
+    {
+      "id": "图8-6",
+      "observer": "Codex Parent",
+      "observed_color_sha256": "5b35c189d4321f17903f8820b65711827fd777070749c8c310e496b78ee52dfc",
+      "observed_gray_sha256": "87ae6e9c7e09519435aa8f25c077d1023feb9c92d5c7d1056a6b0c599e67e483",
+      "color_and_gray_actually_opened": true,
+      "finding": "资源前进与调整返回箭头分开，无相反箭头重合。",
+      "limits": "Actual image observation; Word insertion-page observation recorded separately.",
+      "source_alignment": "Frozen manuscript caption/source/guide exact correspondence checked"
+    }
+  ],
+  "source_sha256": "d6e12eef8cf77b60ae2bee9d0b0bd9d2b254a1503b8afc516c2331e2b16ab1d8",
+  "final_caption_source_and_guide_actually_read": true,
+  "status": "color_gray_observed_and_final_source_aligned",
+  "inheritance": "Image bytes and figure caption/source/guide unchanged during exercise-only revisions; Parent confirmed exact correspondence on final source."
+}

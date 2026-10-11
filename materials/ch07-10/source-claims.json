@@ -1,0 +1,15 @@
+{
+  "scope": "Two bounded claims for later Chapter7 writing; not final chapter review.",
+  "claims": [
+    {
+      "id": "G1",
+      "source": "growth-excerpts.txt",
+      "claim": "2019 US secondary-school study observed grade benefits among lower-achieving students and effects depended on supportive school/peer context; it does not establish guaranteed effects for all university learners or that neuroplasticity alone proves intervention efficacy."
+    },
+    {
+      "id": "H1",
+      "source": "happiness-revisit.txt",
+      "claim": "The 50/10/40 pie was an approximate speculative framework rather than a formula for partitioning one individual's happiness; later author revisit agrees with important critiques and acknowledges the activity estimate may overstate effects. Publication has online2019 and journal2021 distinction."
+    }
+  ]
+}

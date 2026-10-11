@@ -1,0 +1,15 @@
+{
+  "checks": "PASS",
+  "base_commit": "098cd16",
+  "old_tracked_files": 1293,
+  "only_authorized_old_changes": [
+    "harness.json",
+    "教材编写现状与目的.md"
+  ],
+  "old14run_objects_byte_semantics_equal": true,
+  "old_nonrun_configuration_equal": true,
+  "progress_append_only": true,
+  "foreign_untracked_preserved_not_in_task": "materials/ch02-progressive/source-excerpts.md, source-texts/ and tests/__pycache__/",
+  "harness_sha256": "47e87bac3c68af78d42dfc754e12227ef86749e1556279e5463c6612e217bdfb",
+  "progress_sha256": "2332833e5a26639234ef761d6407576d50d526355c04bf214b6d0fc3e04de7d7"
+}

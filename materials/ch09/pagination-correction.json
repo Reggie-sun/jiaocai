@@ -1,0 +1,19 @@
+{
+  "checks": "PASS",
+  "old_docx_sha256": "ff62bfbd4524bbf2adb9b907b93d27e82a6b0191051182fd7075e7a5669e5a6e",
+  "new_docx_sha256": "479143756c9d228ce8eed6009ded22e8175dc43af7a33ee6637596b829a4222e",
+  "manuscript_sha256": "193e1edc44e0caf63badcf9c7b7874e88d50f99d20cffa7cf867fd39ebe2a0b7",
+  "all_non_TOC_text_byte_equal": true,
+  "targeted_properties": {
+    "53": "keepNext",
+    "54": "keepLines",
+    "145": "keepNext",
+    "299": "keepNext"
+  },
+  "findings": [
+    "CH09-PAGE-001: Parent actual final page8 confirms figure/caption/source/full guide together",
+    "CH09-PAGE-002: Parent actual final page52 confirms label/five deliverables together",
+    "CH09-PAGE-003: Parent actual final pages23/24 confirms introduction with its four categories on24"
+  ],
+  "visual_closure": "Actual full final images opened: 8,23,24,52; all others inherited only identical PNG bytes."
+}

@@ -1,0 +1,13 @@
+{
+  "checks": "PASS",
+  "tracked_files_checked": 1293,
+  "allowed_changes": [
+    "教材编写现状与目的.md"
+  ],
+  "remaining_old_files_byte_identical": true,
+  "foreign_paths_preserved": [
+    "materials/ch02-progressive/source-excerpts.md",
+    "materials/ch02-progressive/source-texts",
+    "tests/__pycache__"
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "chapter": "ch10",
+  "verified_at_utc": "2026-10-11T21:53:16+00:00",
+  "scope": "numeric recalculation and manuscript structure only; not a teaching, source, figure, or human acceptance review",
+  "status": "PASS",
+  "checks": [
+    "opening/section/closing files exactly match the assembled manuscript",
+    "required section titles and chapter close components appear in order",
+    "E01-E04 each have an independent prompt and a detailed chapter-end answer",
+    "all 13 sequential table captions introduce rectangular Markdown grids",
+    "four unique sequential figure markers immediately introduce matching captions",
+    "four sequential bibliography items are cited in the chapter body",
+    "E02 worked examples and independent variant recompute task, review, capacity, and scope arithmetic; exhaustive search and a focused T4 branch check full-scope infeasibility",
+    "psychological safety is described as a team-level shared belief; individual experience is only a clue",
+    "E03 simulated scenario conditions and E04 rubric total match exercise data",
+    "Han-character count is within the 28,000–40,000 chapter range after code/URL removal"
+  ],
+  "E02": {
+    "original_work_package_hours": 22,
+    "worked_examples": {
+      "方案一": {
+        "task_owner_hours": {
+          "小林": 9,
+          "小叶": 6,
+          "小陈": 7
+        },
+        "peer_review_hours": {
+          "小林": 0,
+          "小叶": 0,
+          "小陈": 0
+        },
+        "total_loads": {
+          "小林": 9,
+          "小叶": 6,
+          "小陈": 7
+        },
+        "remaining_hours": {
+          "小林": 1,
+          "小叶": 1,
+          "小陈": 2
+        },
+        "team_total_hours": 22
+      },
+      "方案二": {
+        "task_owner_hours": {
+          "小林": 8,
+          "小叶": 6,
+          "小陈": 8
+        },
+        "peer_review_hours": {
+          "小林": 1,
+          "小叶": 0,
+          "小陈": 1
+        },
+        "total_loads": {
+          "小林": 9,
+          "小叶": 6,
+          "小陈": 9
+        },
+        "remaining_hours": {
+          "小林": 1,
+          "小叶": 1,
+          "小陈": 0
+        },
+        "team_total_hours": 24
+      }
+    },
+    "independent_variant": {
+      "task_owner_hours": {
+        "小林": 9,
+        "小叶": 4,
+        "小陈": 7
+      },
+      "peer_review_hours": {
+        "小林": 0,
+        "小叶": 0,
+        "小陈": 0
+      },
+      "total_loads": {
+        "小林": 9,
+        "小叶": 4,
+        "小陈": 7
+      },
+      "remaining_hours": {
+        "小林": 1,
+        "小叶": 0,
+        "小陈": 2
+      },
+      "team_total_hours": 20
+    },
+    "full_scope_feasible_under_new_capacity_and_review_rule": false,
+    "full_scope_infeasibility_branch": {
+      "pre_T4_loads": {
+        "小林": 8,
+        "小叶": 1,
+        "小陈": 9
+      },
+      "after_T4_and_required_review_loads": {
+        "小林": 8,
+        "小叶": 4,
+        "小陈": 10
+      },
+      "owner_fits_capacity": true,
+      "reviewer_exceeds_capacity": true
+    },
+    "skill1_peer_review_hours": 1,
+    "deferred_optional_hours": 2
+  },
+  "E03": {
+    "synthetic_activity_descriptions": 6,
+    "synthetic_route_prompts": 3,
+    "maintenance_weeks": 1,
+    "external_trial_permission": false,
+    "accessibility_routes_professionally_verified": false,
+    "proposed_risk_record_functions": [
+      "GOVERN",
+      "MAP",
+      "MEASURE",
+      "MANAGE"
+    ]
+  },
+  "E04_rubric_maximum_total": 24,
+  "table_count": 13,
+  "figure_ids": [
+    "10-1",
+    "10-2",
+    "10-3",
+    "10-4"
+  ],
+  "manuscript_han_count_excluding_fenced_code_inline_code_and_urls": 35490,
+  "inputs": {
+    "manuscript": {
+      "path": "manuscripts/ch10/ch10.md",
+      "sha256": "da69285fdc210a4dad59b23beeb83da05a40ad8e481acaebf0e3e40bbf94954c"
+    },
+    "exercise_data": {
+      "path": "materials/ch10/exercise-data.json",
+      "sha256": "634aedb9ea171e04356260f0c0ea9fdda78caa01940cc2bb0c560e1e7fa2fee2"
+    },
+    "verifier": {
+      "path": "materials/ch10/verify_exercises.py",
+      "sha256": "7279b924e687b05261eafd63ec6384cc78398bb574c8a1400f5252a526cb592d"
+    }
+  }
+}

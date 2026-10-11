@@ -1,0 +1,64 @@
+{
+  "parent_session_id": "codex-jiaocai-ch07-10-20261012",
+  "task_id": "ch07-professional-content-review-r1",
+  "cwd": "/home/reggie/vscode_folder/jiaocai",
+  "explicit_root": "/home/reggie/vscode_folder/jiaocai",
+  "role": "reviewer",
+  "goal": "Independent professional textbook content review of COMPLETE chapter7, not engineering implementation review. Fully Read every line of required files using contiguous chunks, cite actual complete ranges/hashes. Check correctness and calibrated support for growth mindset, neuroplasticity, adaptive emotion/feedback, bounded Stanford speech retrospective narrative, happiness pie-chart/statistical variance versus individual causal intervention, cognitive bias tasks; source facts versus author interpretation/fictional data distinguished. Compare claims to actual source excerpts and notes, do not pretend metadata/abstract/selected excerpts are full research paper review. Check concepts, numerical exercises/reference answers, first-use citations/bibliography and original heading preservation. Candidate notes are not authority. Concrete findings only, IDs C07-*, blocking_candidate/non_blocking, exact path/lines, contract, evidence and minimal correction. Canonical top-level ONLY findings/proposed_changes/evidence_refs/uncertainties/questions; no verdict. Authority read-only, no writes/Bash/network/credentials/commits/nested agents. Parent adjudicates. One bounded initial invocation, at most2 later explicitly sealed correction reviews. Not human/classroom acceptance.",
+  "read_paths": [
+    "manuscripts/ch07/ch07.md",
+    "materials/ch07/author-notes.md",
+    "specs/ch07.spec.md",
+    "specs/authoring-quality.spec.md",
+    "skills/textbook-authoring/SKILL.md",
+    "materials/ch07-10/growth-excerpts.txt",
+    "materials/ch07-10/happiness-revisit.txt",
+    "materials/ch07-10/happiness-metadata.txt"
+  ],
+  "write_paths": [],
+  "permissions": [
+    "read"
+  ],
+  "selected_refs": [
+    {
+      "path": "specs/ch07.spec.md",
+      "sha256": "1385eac33ad9b91f1a40ba542c59ced087a34fccff67ab1e5069c1f5c0e380c5",
+      "accepted": true
+    },
+    {
+      "path": "plans/ch07.plan.md",
+      "sha256": "2ab9c98ef035cce29d2695f6b233f3bf7120b47cfe50ca51c9b3825eba25fcd1",
+      "accepted": true
+    }
+  ],
+  "active_documents": "accepted_refs",
+  "harness_refs": [],
+  "constitution_refs": [
+    "AGENTS.md"
+  ],
+  "skills": [],
+  "skill_roots": [],
+  "expected_evidence": [
+    "manuscripts/ch07/ch07.md",
+    "materials/ch07/author-notes.md",
+    "specs/ch07.spec.md",
+    "specs/authoring-quality.spec.md",
+    "skills/textbook-authoring/SKILL.md",
+    "materials/ch07-10/growth-excerpts.txt",
+    "materials/ch07-10/happiness-revisit.txt",
+    "materials/ch07-10/happiness-metadata.txt"
+  ],
+  "backend": "kimi",
+  "profile": "deep",
+  "budgets": {
+    "wall_seconds": 3600,
+    "idle_seconds": 1800,
+    "request_limit": 64,
+    "generation_tokens": 32000,
+    "output_bytes": 16777216,
+    "context_bytes": 8388608
+  },
+  "instruction_precedence": [
+    "AGENTS.md"
+  ]
+}

@@ -1,0 +1,180 @@
+Source: https://escholarship.org/content/qt6wb2g3fw/qt6wb2g3fw.pdf
+Actual web PDF extraction lines28–205, partial primary article only.
+L28@P1: To cite this article: Kennon M. Sheldon & Sonja Lyubomirsky (2019): Revisiting the Sustainable
+L29@P1: Happiness Model and Pie Chart: Can Happiness Be Successfully Pursued?, The Journal of
+L30@P1: Positive Psychology, DOI: 10.1080/17439760.2019.1689421
+L31@P1: To link to this article: https://doi.org/10.1080/17439760.2019.1689421
+L32@P1: Published online: 07 Nov 2019.
+L33@P1: Submit your article to this journal
+L34@P1: View related articles
+L35@P1-2: View Crossmark dataRevisiting the Sustainable Happiness Model and Pie Chart: Can Happiness Be
+L36@P2: Successfully Pursued?
+L37@P2: Kennon M. Sheldona,b and Sonja Lyubomirskyc
+L38@P2: a
+L39@P2: University of Missouri, Columbia, MO, USA; bNational Research University Higher School of Economics, Moscow, Russian Federation; c
+L40@P2: University of California, Riverside, CA, USA
+L41@P2: ABSTRACT
+L42@P2: The Sustainable Happiness Model (SHM) has been influential in positive psychology and well-being
+L43@P2: science. However, the ‘pie chart’ aspect of the model has received valid critiques. In this article, we
+L44@P2: start by agreeing with many such critiques, while also explaining the context of the original article
+L45@P2: and noting that we were speculative but not dogmatic therein. We also show that subsequent
+L46@P2: research has supported the most important premise of the SHM – namely, that individuals can
+L47@P2: boost their well-being via their intentional behaviors, and maintain that boost in the longer-term.
+L48@P2: However, such effects may be weaker than we initially believed. We describe three contemporary
+L49@P2: models descended from the thinking embodied in the SHM – the Eudaimonic Activity Model, the
+L50@P2: Hedonic Adaptation Prevention model, and the Positive Activity Model. Research testing these
+L51@P2: models has further supported the premise that how people live makes a difference for their wellbeing.
+L52@P2: ARTICLE HISTORY
+L53@P2: Received 4 September 2019
+L54@P2: Accepted 8 October 2019
+L55@P2: KEYWORDS
+L56@P2: Subjective well-being;
+L57@P2: sustainable happiness
+L58@P2: model; pie chart; hedonic
+L59@P2: adaptation; intentional
+L60@P2: activities
+L61@P2: In a widely cited article, Lyubomirsky, Sheldon, and Schkade
+L62@P2: (2005) proposed a heuristic framework for understanding
+L63@P2: the influences on well-being. The Sustainable Happiness
+L64@P2: Model, as illustrated in the now well-known pie chart, distinguished among three overlapping kinds of influences:
+L65@P2: inherent genetic predispositions, current life circumstances,
+L66@P2: and current intentional activities. Lyubomirsky et al. also
+L67@P2: provided, based on certain starting assumptions and a nonexhaustive review of the literature of that time, initial estimates concerning the relative importance of the three
+L68@P2: factors in impacting chronic happiness levels: approximately 50% for genetic factors, 10% for circumstantial factors, and the remaining 40% for volitional or intentional
+L69@P2: activity factors. Figure 1 illustrates this basic pie chart.
+L70@P2: Based on their review, Lyubomirsky, Sheldon et al. (2005)
+L71@P2: suggested that there is considerable potential for people to
+L72@P2: take action to influence their own happiness. If happiness is
+L73@P2: not fully determined by a person’s genetics and circumstances, then there must be something left over for intentional behavior. At the time, these conclusions supported
+L74@P2: the nascent science of positive psychology, helping to
+L75@P2: justify its search for new ways to help people activate
+L76@P2: their potentials. The conclusions also dovetailed well with
+L77@P2: Thomas Jefferson’s contention that the right to ‘pursue
+L78@P2: happiness’ must be foundational in a just society, and
+L79@P2: were well aligned with Western and individualist ideological assumptions more generally.
+L80@P2: Today, however, the pie chart diagram appears to have
+L81@P2: outlived its usefulness (for recent critical reviews, see
+L82@P2: Bergink, 2015; Brown & Rohrer, 2019; Kashdan, 2015;
+L83@P2: Krueger, 2015). Brown and Rohrer (2019) have provided
+L84@P2: the most elaborated analysis, especially of the initial percentage estimates we provided. These critiques, with which
+L85@P2: we mostly agree, have provided us with an opportunity to
+L86@P2: articulate our current thinking. However, rather than
+L87@P2: addressing such criticisms in detail here, in this article we
+L88@P2: take a broader perspective. Accordingly, we first revisit the
+L89@P2: context in which the chart was proposed, point out the
+L90@P2: cautiousness with which we originally proposed it, and
+L91@P2: remind readers of our original goal in proposing it – namely,
+L92@P2: to show that it is theoretically possible for people to influence their own happiness via their intentional behaviors.
+L93@P2: Our reasoning was that if happiness is not completely
+L94@P2: determined by one’s genetic endowment (which is, after
+L95@P2: all, relatively constant over time), then happiness must
+L96@P2: fluctuate over time (as it clearly does). We further argued
+L97@P2: that patterns of behavioral activity provide one logical
+L98@P2: source of influence upon those fluctuations, and perhaps
+L99@P2: the most important influence, given the relatively weak
+L100@P2: effects that had been observed at that time within mainly
+L101@P2: Western cultures for many demographic-type variables,
+L102@P2: such as income, marital status, gender, and ethnicity.
+L103@P2: Today, we know this basic idea to be correct. The
+L104@P2: SHM, and some of the assumptions embodied in the
+L105@P2: CONTACT Kennon M. Sheldon SheldonK@missouri.edu
+L106@P2: THE JOURNAL OF POSITIVE PSYCHOLOGY
+L107@P2: https://doi.org/10.1080/17439760.2019.1689421
+L108@P2-3: © 2019 Informa UK Limited, trading as Taylor & Francis Grouppie chart, has informed both of our research efforts and
+L109@P3: has given rise to several more nuanced models, including our joint Hedonic Adaptation Prevention model
+L110@P3: (HAP; Sheldon & Lyubomirsky, 2012), Sheldon’s
+L111@P3: Eudaimonic Activity Model (EAM; Sheldon, 2017), and
+L112@P3: Lyubomirsky’s Positive Activity Model (Lyubomirsky &
+L113@P3: Layous, 2013). This more recent research affirms that
+L114@P3: people can affect their own happiness, via their deliberate efforts. Admittedly, however, these effects tend to be
+L115@P3: smaller than we initially believed. They are also difficult
+L116@P3: to investigate via double-blind experiments, the gold
+L117@P3: standard of psychological research, because the
+L118@P3: successful pursuit of happiness typically requires awareness, knowledge, and intentional buy-in by participants.
+L119@P3: As a way of considering the context in which we
+L120@P3: originally presented the Sustainable Happiness Model,
+L121@P3: let us first address a critical question: What does it mean
+L122@P3: to say that a person has achieved a stable (and perhaps
+L123@P3: sustainable) change in well-being? Figure 2 illustrates by
+L124@P3: showing three successive measurements of subjective
+L125@P3: well-being (SWB; namely, high positive affect and life
+L126@P3: satisfaction, and low negative affect; Diener, Suh, Lucas,
+L127@P3: & Smith, 1999).
+L128@P3: As the figure shows, at least three waves of data are
+L129@P3: required to demonstrate a stable change in SWB, in
+L130@P3: which a person’s happiness level first goes up, and
+L131@P3: then stays up. Importantly, the strong version of ‘happiness set-point’ theory (Lykken & Tellegen, 1996), to
+L132@P3: which our original article was a response, posits that
+L133@P3: staying up is simply not possible: After any fluctuation
+L134@P3: in their well-being, either up or down, people must
+L135@P3: always return to their characteristic set point. To our
+L136@P3: knowledge, ours was the first theoretical article to
+L137@P3: address this sustainable change issue. It also attempted
+L138@P3: to carve out a place in the happiness equation for intentional personality processes, which could potentially
+L139@P3: operate in addition to, in concert with, or in spite of,
+L140@P3: peoples’ genetic constitutions (Little, 1999).
+L141@P3: Still, it is worth noting that we were quite circumspect
+L142@P3: in our proposals. We stated that we were focusing on the
+L143@P3: genetic, circumstance, and activity categories because
+L144@P3: ‘they have historically received the majority of attention
+L145@P3: in the well-being literature’ (p. 116) and not, by implication, because these categories exhaustively described all
+L146@P3: the possible influences on happiness. On the same page,
+L147@P3: we also said that our numerical estimates were
+L148@P3: Figure 1. The pie chart aspect of the sustainable happiness
+L149@P3: model (Lyubomirsky et al., 2005).
+L150@P3: Figure 2. Illustrating a stable change in well-being.
+L151@P3-4: 2 K. M. SHELDON AND S. LYUBOMIRSKY‘suggestions,’ were ‘approximate,’ and were based on
+L152@P4: (then scarce) existing information, derived primarily
+L153@P4: from mere cross-sectional studies. In discussing intentional activity effects, we wrote that they offer
+L154@P4: a ‘potential’ and ‘arguably the most promising’ route to
+L155@P4: happiness, which might account for ‘as much as 40% of
+L156@P4: the variance.’ On p. 118, we further stated that activities
+L157@P4: ‘seem to offer the best potential route’ to sustainable
+L158@P4: happiness, based on the well-known fact that people
+L159@P4: readily adapt to unchanging circumstances. Although
+L160@P4: assigning numbers to the categories was risky on our
+L161@P4: parts, clearly scientific progress consists sometimes of
+L162@P4: engaging in speculation, which can open up new questions or possibilities, which must then, by necessity, be
+L163@P4: tested and fine-tuned. We believe this constructive process is precisely what is happening today, as our early
+L164@P4: speculations have a) attracted a great deal of scientific
+L165@P4: interest and attention, b) stimulated much new research,
+L166@P4: and c) are being corrected and refined, with the help of
+L167@P4: Brown and Rohrer (2019) and others.
+L168@P4: In support of the most general claim of the SHM –
+L169@P4: that intentional behavior can make a difference –
+L170@P4: Figure 3 provides the results of an early experimental
+L171@P4: study (Sheldon & Lyubomirsky, 2006). This study found
+L172@P4: that making a randomly assigned activity change had
+L173@P4: a larger and more sustainable effect on well-being than
+L174@P4: making an assigned circumstance change. When people
+L175@P4: change their intentional behavior – that is, doing something new that takes effort – they have a better chance
+L176@P4: of boosting their well-being and maintaining that boost
+L177@P4: than when they merely change a factual circumstance
+L178@P4: (such as moving into a new apartment, buying a car, or
+L179@P4: asking for and receiving a raise). This is because people
+L180@P4: are less likely to experience hedonic adaptation in
+L181@P4: response to life changes that involve continued motivated behavior, and conversely, are more likely to adapt
+L182@P4: to changes that merely substitute one stable circumstance for another. Later in this article, we discuss our
+L183@P4: HAP model (Lyubomirsky, 2007; Lyubomirsky, 2010;
+L184@P4: Sheldon, Boehm, & Lyubomirsky, 2012; Sheldon &
+L185@P4: Lyubomirsky, 2012), which specifies in detail the effortful
+L186@P4: processes required to maintain the initial boost derived
+L187@P4: from a positive circumstantial change.
+L188@P4: Despite such promising early results, one important
+L189@P4: insight we have gained from our own (and others’)
+L190@P4: intervention research is how difficult it is to ‘induce’
+L191@P4: people to become happier. It seems that people have
+L192@P4: to create life shifts – or changes in cognition and behavior – for themselves, which can require considerable
+L193@P4: motivation and effort (Lyubomirsky, Dickerhoof, Boehm,
+L194@P4: & Sheldon, 2011). Indeed, in the Sheldon and
+L195@P4: Lyubomirsky (2006) study, some participants reported
+L196@P4: not making the change that we requested they make.
+L197@P4: Not surprisingly, these participants did not display the
+L198@P4: pattern shown in Figure 3. This provided an early illustration of the theme mentioned above – namely, that
+L199@P4: interventions designed to change a person’s happiness
+L200@P4: require intentional buy-in by participants, and that
+L201@P4: merely assigning people to an activity condition may
+L202@P4: not be effective. We will return to this issue later.
+L203@P4: Brown and Rohrer (2019) criticized our initial estimate
+L204@P4: that 40% of the variation in happiness is due to intentional activity. Based on our research of the last 15 years,
+L205@P4: we agree that this figure was likely an over-estimate.

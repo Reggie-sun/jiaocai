@@ -1,0 +1,221 @@
+{
+  "artifacts": [
+    {
+      "media_type": "application/json",
+      "path": "execution-view.json",
+      "producer": "supervisor",
+      "redaction_count": 0,
+      "redaction_version": 1,
+      "representation": "filtered",
+      "sha256": "bfda3da20984eb800ee23ab0128bd556c6235bda43d56183b183a75e00f0ec39",
+      "size": 2102
+    },
+    {
+      "media_type": "application/x-ndjson",
+      "path": "stdout.jsonl",
+      "producer": "supervisor",
+      "redaction_count": 0,
+      "redaction_version": 1,
+      "representation": "filtered",
+      "sha256": "2f3e9b8e3c37d22929b08d795ace29baa229093e61e52ecdefc0554a80e8d478",
+      "size": 614041
+    },
+    {
+      "media_type": "text/plain",
+      "path": "stderr.txt",
+      "producer": "supervisor",
+      "redaction_count": 0,
+      "redaction_version": 1,
+      "representation": "filtered",
+      "sha256": "a135ab480d071b53b3d46164252c46b2e08e7b0f107f4d4e5120fda3feef150e",
+      "size": 73
+    },
+    {
+      "media_type": "application/json",
+      "path": "worker-report.json",
+      "producer": "worker",
+      "redaction_count": 0,
+      "redaction_version": 1,
+      "representation": "filtered",
+      "sha256": "fa6c2b4c60a33635a055108ac086811a6220f5c7f001cda1bb8c2e5c282d6b85",
+      "size": 8266
+    }
+  ],
+  "attempt_id": "bc0ea3bc-20a0-49bd-9dcb-46c9e025aa5a",
+  "budgets": {
+    "context_bytes": 8388608,
+    "generation_tokens": 32000,
+    "idle_seconds": 1800,
+    "output_bytes": 16777216,
+    "request_limit": 64,
+    "wall_seconds": 3600
+  },
+  "classification": "PARSED",
+  "containment": {
+    "checks": {
+      "apparmor": true,
+      "capabilities_dropped": true,
+      "clean_environment": true,
+      "docker_socket_denied": true,
+      "external_network_denied": true,
+      "host_home_denied": true,
+      "host_ipc_denied": true,
+      "host_proc_denied": true,
+      "host_secret_denied": true,
+      "no_broker_in_test_domain": true,
+      "no_new_privileges": true,
+      "non_root": true,
+      "private_processes": true,
+      "root_write_denied": true,
+      "scratch_writable": true,
+      "sealed_read": true,
+      "seccomp": true,
+      "source_chmod_denied": true,
+      "source_write_denied": true,
+      "symlink_escape_denied": true
+    },
+    "image": "sha256:08efb085f717fe5792d7380a069c3f770422fa09770d904e6e2436e3706e0c85",
+    "live_identity": "NOT_EVALUATED",
+    "native_denials": [
+      "Read",
+      "Read",
+      "Bash",
+      "Task",
+      "mcp__evil__run"
+    ],
+    "native_tools": "VERIFIED",
+    "os_boundary_verified": true,
+    "primitive": "docker",
+    "project_access": true,
+    "proof": "synthetic_adversarial_execution",
+    "qualified": true,
+    "runtime_sha256": "722210f05ba494d8f6df69423c4d4f2960900f7a007d0532851c7a36e375cab7"
+  },
+  "contract_seal": "0e197736a91b2b6b50bb8e493333ef8f1ce0b2225399f8e046ab02d20df1c2d5",
+  "evidence_kind": "live",
+  "fallback": "forbidden",
+  "finalized_at": "2026-10-11T21:02:10.452944+00:00",
+  "internal_retry_count": "unknown",
+  "invocation_id": "4dc28656-96d3-46cf-990a-64167b111538",
+  "kind": "project-invocation",
+  "observations": [
+    {
+      "actual_cost": null,
+      "attempt_id": "69f8724d-7453-4bb3-a6d0-6b3f563d8682",
+      "budget_phase": "EXPLORE",
+      "classification": "IDENTITY_VERIFIED",
+      "client_request_sha256": "a5b6647095b3018043be6b96b1a3377878c4a9081abcb3fc4832516126999dc8",
+      "duration_seconds": 5.698901436000597,
+      "effort": "max",
+      "generation_token_limit": 32000,
+      "http_status": 200,
+      "message_id": "msg_j0AmnxhvjoButy4sTfiusYZ2",
+      "proof": "authenticated_endpoint_declaration",
+      "request_max_tokens": 32000,
+      "request_model": "k3",
+      "request_number": 1,
+      "request_sha256": "a5a34e9691aa3beed0602c0d5f813fde77a60423aa9d582c3350cfa9cfd0ec20",
+      "response_model": "k3",
+      "response_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "thinking": {
+        "type": "adaptive"
+      },
+      "upstream_bytes_received": 19264,
+      "upstream_host": "api.kimi.ai",
+      "upstream_request_id": "msg_j0AmnxhvjoButy4sTfiusYZ2",
+      "usage": {
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 2560,
+        "input_tokens": 6006,
+        "output_tokens": 197
+      },
+      "wire_started": true
+    },
+    {
+      "actual_cost": null,
+      "attempt_id": "56932b0f-5163-45b7-b576-7d8bc46358f9",
+      "budget_phase": "EXPLORE",
+      "classification": "IDENTITY_VERIFIED",
+      "client_request_sha256": "4b663a043f58c436bab8a6f2787d61620bf83cc9c4c718224060b54e2393b7bc",
+      "duration_seconds": 87.07072806701763,
+      "effort": "max",
+      "generation_token_limit": 32000,
+      "http_status": 200,
+      "message_id": "msg_PesX2WRNrYZ7dgRVHU9JFKzv",
+      "proof": "authenticated_endpoint_declaration",
+      "request_max_tokens": 32000,
+      "request_model": "k3",
+      "request_number": 2,
+      "request_sha256": "11067599286b578fbcb4a8b3dd3cbe00842ea3c6b4de8f54f8ef82a9a813aafd",
+      "response_model": "k3",
+      "response_output_sha256": "60e7d4eae9f8881cb256a85ac9cb7b6a008bbc8f46bfa24d27bb6397a62f0841",
+      "thinking": {
+        "type": "adaptive"
+      },
+      "upstream_bytes_received": 619702,
+      "upstream_host": "api.kimi.ai",
+      "upstream_request_id": "msg_PesX2WRNrYZ7dgRVHU9JFKzv",
+      "usage": {
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 8448,
+        "input_tokens": 5811,
+        "output_tokens": 4912
+      },
+      "wire_started": true
+    }
+  ],
+  "observed_reads": [
+    {
+      "end_line": 181,
+      "native_tool_use_id": "tool_YVxYzamAybqJMUBXCTZyaViu",
+      "path": "/home/reggie/vscode_folder/jiaocai/materials/ch07-10/happiness-revisit.txt",
+      "sha256": "bbed7a8586c62008b6c79d377d9906b97a1f2f15fcd6640dc4d28fb3a3777a15",
+      "start_line": 1,
+      "status": "complete",
+      "truncated": false
+    },
+    {
+      "end_line": 16,
+      "native_tool_use_id": "tool_n7wfOW7cBAPXjXuxqK0cJtdh",
+      "path": "/home/reggie/vscode_folder/jiaocai/materials/ch07-10/source-claims.json",
+      "sha256": "561124ef2d7e5b63737692565cf351be530968607100de0719c036405e1f6f02",
+      "start_line": 1,
+      "status": "complete",
+      "truncated": false
+    },
+    {
+      "end_line": 48,
+      "native_tool_use_id": "tool_gEVeLLMhvGnbCe55EiKQlJuj",
+      "path": "/home/reggie/vscode_folder/jiaocai/materials/ch07-10/growth-excerpts.txt",
+      "sha256": "76e4e957a0d610fcddc922a0c89a3e9085d800a5a03425d0be2cc1049663c65f",
+      "start_line": 1,
+      "status": "complete",
+      "truncated": false
+    }
+  ],
+  "orchestration_retries": 0,
+  "parent_acceptance": "NOT_EVALUATED",
+  "parent_session_id": "codex-jiaocai-ch07-10-20261012",
+  "process": {
+    "descendants_terminated": false,
+    "duration_seconds": 93.65877672599163,
+    "exit_code": 0,
+    "reason": "exited",
+    "stderr_observed_bytes": 73,
+    "stdout_observed_bytes": 614041,
+    "truncated": false
+  },
+  "report_format": "claude-json-schema-v1",
+  "route_qualification": {
+    "invocation_id": "4f2d5dc8-4234-4665-b382-e82f1ad6cc00",
+    "sha256": "5f3c17dcefcff35f54db521fa4c5435d8f9fb0b1da9ca4e108106a66cb767555"
+  },
+  "router": {
+    "source_sha256": "35618260d4f5b75cb19c929ee1511f2dfd5f63578b2b3bb0524957f034b6c705",
+    "version": "0.1.0"
+  },
+  "schema_version": 1,
+  "started_at": "2026-10-11T21:00:34.839585+00:00",
+  "task_id": "ch07-10-bounded-evidence-support",
+  "wire_requests": 2
+}

@@ -1,0 +1,86 @@
+{
+  "checks": "PASS",
+  "source_sha256": "ae14ebac87fb13c8c9b1f896bd795b68029590ad3a38b6484174e19bae761724",
+  "local_commit_count": 2,
+  "commands": [
+    {
+      "command": "git init",
+      "exit_code": 0,
+      "stdout": "Initialized empty Git repository in /tmp/jiaocai-git-practice-44fs8hhv/.git/\n",
+      "stderr": "hint: Using 'master' as the name for the initial branch. This default branch name\nhint: is subject to change. To configure the initial branch name to use in all\nhint: of your new repositories, which will suppress this warning, call:\nhint: \nhint: \tgit config --global init.defaultBranch <name>\nhint: \nhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and\nhint: 'development'. The just-created branch can be renamed via this command:\nhint: \nhint: \tgit branch -m <name>\n"
+    },
+    {
+      "command": "git config --local user.name \"Practice Learner\"",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": "git config --local user.email \"learner@example.invalid\"",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": "git status",
+      "exit_code": 0,
+      "stdout": "On branch master\n\nNo commits yet\n\nUntracked files:\n  (use \"git add <file>...\" to include in what will be committed)\n\tREADME.md\n\tobservations.csv\n\nnothing added to commit but untracked files present (use \"git add\" to track)\n",
+      "stderr": ""
+    },
+    {
+      "command": "git add README.md observations.csv",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": "git diff --cached",
+      "exit_code": 0,
+      "stdout": "diff --git a/README.md b/README.md\nnew file mode 100644\nindex 0000000..a2b7fa3\n--- /dev/null\n+++ b/README.md\n@@ -0,0 +1,5 @@\n+# Local version practice\n+\n+Purpose: practice observing file changes with synthetic data.\n+Input: observations.csv (synthetic; not real student records).\n+Question: what would you check before interpreting the scores?\ndiff --git a/observations.csv b/observations.csv\nnew file mode 100644\nindex 0000000..689c2a6\n--- /dev/null\n+++ b/observations.csv\n@@ -0,0 +1,8 @@\n+record_id,score,topic\n+r01,84,graphs\n+r02,76,trees\n+r03,,graphs\n+r03,76,trees\n+r04,91,graphs\n+r05,52,sorting\n+r06,91,graphs\n",
+      "stderr": ""
+    },
+    {
+      "command": "git commit -m \"Start local version practice\"",
+      "exit_code": 0,
+      "stdout": "[master (root-commit) 2e7951b] Start local version practice\n 2 files changed, 13 insertions(+)\n create mode 100644 README.md\n create mode 100644 observations.csv\n",
+      "stderr": ""
+    },
+    {
+      "command": "git log --oneline",
+      "exit_code": 0,
+      "stdout": "2e7951b Start local version practice\n",
+      "stderr": ""
+    },
+    {
+      "command": "git status --short",
+      "exit_code": 0,
+      "stdout": " M README.md\n",
+      "stderr": ""
+    },
+    {
+      "command": "git diff",
+      "exit_code": 0,
+      "stdout": "diff --git a/README.md b/README.md\nindex a2b7fa3..04b0eec 100644\n--- a/README.md\n+++ b/README.md\n@@ -3,3 +3,5 @@\n Purpose: practice observing file changes with synthetic data.\n Input: observations.csv (synthetic; not real student records).\n Question: what would you check before interpreting the scores?\n+\n+Input is synthetic.\n",
+      "stderr": ""
+    },
+    {
+      "command": "git add README.md",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": "git commit -m \"Explain synthetic input\"",
+      "exit_code": 0,
+      "stdout": "[master b0a29e3] Explain synthetic input\n 1 file changed, 2 insertions(+)\n",
+      "stderr": ""
+    },
+    {
+      "command": "git log --oneline",
+      "exit_code": 0,
+      "stdout": "b0a29e3 Explain synthetic input\n2e7951b Start local version practice\n",
+      "stderr": ""
+    }
+  ],
+  "limits": "Parent executed the printed local Git starter sequence plus one synthetic README change in a disposable temp directory. Not a14-day learner trial or retention test; no remote/account/publication."
+}

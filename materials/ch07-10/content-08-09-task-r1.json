@@ -1,0 +1,74 @@
+{
+  "parent_session_id": "codex-jiaocai-ch07-10-20261012",
+  "task_id": "ch08-09-professional-content-review-r1",
+  "cwd": "/home/reggie/vscode_folder/jiaocai",
+  "explicit_root": "/home/reggie/vscode_folder/jiaocai",
+  "role": "reviewer",
+  "goal": "Independent professional textbook content review of COMPLETE chapters8/9, not an engineering implementation risk review. Read every line of each required file, split into contiguous chunks if needed and record hash/ranges. Check substantive correctness, calibrated claim/source support, no invented real data/outcomes, first-use citations/bibliography, concept consistency, reference-answer correctness, chapter9 supplement-proposal boundary and chapter10 role preserved. Use author-notes to identify actual source coverage, do not pretend metadata/abstract was full-text research. Source notes are candidate evidence, not authoritative conclusions. Concrete findings only, stable IDs C08-* / C09-*, severity blocking_candidate or non_blocking, exact path/lines, violated contract, evidence and minimal correction. Include actual complete-read ranges/hashes for required evidence. Top-level ONLY findings/proposed_changes/evidence_refs/uncertainties/questions; no verdict. Authority read-only, no files/writes/Bash/network/credentials/commits/nested agents. Parent adjudicates. One bounded invocation; initial plus at most2 later correction reviews only when parent explicitly seals them.",
+  "read_paths": [
+    "manuscripts/ch08/ch08.md",
+    "manuscripts/ch09/ch09.md",
+    "materials/ch08/author-notes.md",
+    "materials/ch09/author-notes.md",
+    "specs/ch08.spec.md",
+    "specs/ch09.spec.md",
+    "specs/authoring-quality.spec.md",
+    "skills/textbook-authoring/SKILL.md"
+  ],
+  "write_paths": [],
+  "permissions": [
+    "read"
+  ],
+  "selected_refs": [
+    {
+      "path": "specs/ch08.spec.md",
+      "sha256": "14d9e8703380790b94a51af0d3b7881a79c78d401b3b367bba78b37486eacb44",
+      "accepted": true
+    },
+    {
+      "path": "specs/ch09.spec.md",
+      "sha256": "aaa2382361fa657cc4e8243e5657371c72354ce6e5b249316df24c78eee842b4",
+      "accepted": true
+    },
+    {
+      "path": "plans/ch08.plan.md",
+      "sha256": "9c7d66233416dc7416bcf3de8775b74748677469c663bc45677cf7dd28cb7a21",
+      "accepted": true
+    },
+    {
+      "path": "plans/ch09.plan.md",
+      "sha256": "213af0a9d65319d4bce5e6efef74fede884d2d3429b7014dfbd7c622fc046671",
+      "accepted": true
+    }
+  ],
+  "active_documents": "accepted_refs",
+  "harness_refs": [],
+  "constitution_refs": [
+    "AGENTS.md"
+  ],
+  "skills": [],
+  "skill_roots": [],
+  "expected_evidence": [
+    "manuscripts/ch08/ch08.md",
+    "manuscripts/ch09/ch09.md",
+    "materials/ch08/author-notes.md",
+    "materials/ch09/author-notes.md",
+    "specs/ch08.spec.md",
+    "specs/ch09.spec.md",
+    "specs/authoring-quality.spec.md",
+    "skills/textbook-authoring/SKILL.md"
+  ],
+  "backend": "kimi",
+  "profile": "deep",
+  "budgets": {
+    "wall_seconds": 3600,
+    "idle_seconds": 1800,
+    "request_limit": 64,
+    "generation_tokens": 32000,
+    "output_bytes": 16777216,
+    "context_bytes": 8388608
+  },
+  "instruction_precedence": [
+    "AGENTS.md"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "status": "failed_route_switch_recorded",
+  "ch08_09_invocation": "b859f6ca-e9b5-4e16-bac7-88506c23925a",
+  "ch08_09_contract": "0577a696-61a3-4128-8258-702ce8547b04",
+  "ch07_contract": "4aca5e94-3542-46b3-aaa8-0a8a4f5053b3",
+  "note": "Both receipts UPSTREAM_GENERATION_LIMIT, no usable report. Freeze ended only after final receipts. Native full professional review pending final corrected snapshots; no automatic retry or accepted partial output.",
+  "ch07_invocation": "1ebc2775-799f-4f35-9ca7-7ec634d1ec06"
+}

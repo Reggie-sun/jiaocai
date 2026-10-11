@@ -1,0 +1,36 @@
+{
+  "template": "templates/textbook-style-v1.0.dotx",
+  "template_sha256": "eef8ce505c3d9afb3493e61af1f38ee26bca6ff9a0aa12f7ad3e2a8cacad6473",
+  "manuscript": "manuscripts/ch08-layout/ch08.md",
+  "manuscript_sha256": "42642c5c24fff05da6a57d6896ae9760cb7de0c8021b7087b3286bd279d005ae",
+  "docx_sha256": "49f2ebe5f8232bf3204194b4e2a8e1c9b93150583a771c96d2f07d03c39d1014",
+  "style": "textbook-style-v1.0",
+  "toc_cached_pages": {
+    "8.1 终身学习的必要性：技术迭代加速与职业演变。": 4,
+    "8.2 高效学习方法：主动学习、间隔重复、费曼技巧、构建知识网络。": 11,
+    "8.3 信息素养： 高效检索、筛选、评估、管理海量信息与学习资源（技术文档、论文、在线课程、社区）。": 19,
+    "8.4 学习工具与技术： 利用Anki, Notion, Obsidian, GitHub, MOOC平台等提升学习效率与知识管理。": 27,
+    "8.5 构建个人学习网络(PLN)：利用社交媒体、技术社区、行业会议进行学习与交流。": 34,
+    "8.6 制定个人学习计划(IDP)：设定目标、选择资源、跟踪进度、调整策略。（结合行业趋势与个人兴趣）": 42,
+    "章末综合训练": 54,
+    "本章回顾": 57,
+    "关键术语": 58,
+    "参考解与讨论": 59,
+    "参考文献": 66
+  },
+  "toc_headings": [
+    "8.1 终身学习的必要性：技术迭代加速与职业演变。",
+    "8.2 高效学习方法：主动学习、间隔重复、费曼技巧、构建知识网络。",
+    "8.3 信息素养： 高效检索、筛选、评估、管理海量信息与学习资源（技术文档、论文、在线课程、社区）。",
+    "8.4 学习工具与技术： 利用Anki, Notion, Obsidian, GitHub, MOOC平台等提升学习效率与知识管理。",
+    "8.5 构建个人学习网络(PLN)：利用社交媒体、技术社区、行业会议进行学习与交流。",
+    "8.6 制定个人学习计划(IDP)：设定目标、选择资源、跟踪进度、调整策略。（结合行业趋势与个人兴趣）",
+    "章末综合训练",
+    "本章回顾",
+    "关键术语",
+    "参考解与讨论",
+    "参考文献"
+  ],
+  "method": "Reused template styles and geometry; task-local chapter counter/numbering starts at the selected chapter, current header and answer bookmarks; native SEQ/REF/TOC/PAGEREF/PAGE preserved. No final DOCX LibreOffice roundtrip.",
+  "word_native_execution": "NOT_EVALUATED"
+}

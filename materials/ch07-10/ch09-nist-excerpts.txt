@@ -1,0 +1,39 @@
+Source: https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf
+Access: 2026-10-12
+Scope: only extracted numbered lines below actually returned to Parent; not a full PDF review.
+
+L614@P25: 5.1 Govern
+L615@P25: The GOVERN function:
+L616@P25: • cultivates and implements a culture of risk management within organizations designing, developing, deploying, evaluating, or acquiring AI systems;
+L623@P25: values and principles, and enables organizational practices and competencies for the
+L624@P25: individuals involved in acquiring, training, deploying, and monitoring such systems;
+L625@P25: and
+L626@P25: • addresses full product lifecycle and associated processes, including legal and other
+L627@P25: issues concerning use of third-party software or hardware systems and data.
+L628@P25-26: Page 21NIST AI 100-1 AI RMF 1.0
+L629@P26: GOVERN is a cross-cutting function that is infused throughout AI risk management and
+L630@P26: enables the other functions of the process. Aspects of GOVERN, especially those related to
+L631@P26: compliance or evaluation, should be integrated into each of the other functions. Attention
+L632@P26: to governance is a continual and intrinsic requirement for effective AI risk management
+L633@P26: over an AI system’s lifespan and the organization’s hierarchy.
+L634@P26: Strong governance can drive and enhance internal practices and norms to facilitate organizational risk culture. Governing authorities can determine the overarching policies that
+L635@P26: direct an organization’s mission, goals, values, culture, and risk tolerance. Senior leadership sets the tone for risk management within an organization, and with it, organizational
+L636@P26: culture. Management aligns the technical aspects of AI risk management to policies and
+L637@P26: operations. Documentation can enhance transparency, improve human review processes,
+L638@P26: and bolster accountability in AI system teams.
+L689@P27: GOVERN 2.1: Roles and responsibilities and lines of communication related to mapping, measuring, and managing AI risks are
+L690@P27: documented and are clear to individuals and teams throughout
+L691@P27: the organization.
+L692@P27: GOVERN 2.2: The organization’s personnel and partners receive
+L693@P27: AI risk management training to enable them to perform their duties and responsibilities consistent with related policies, procedures, and agreements.
+L694@P27: GOVERN 2.3: Executive leadership of the organization takes responsibility for decisions about risks associated with AI system
+L695@P27: development and deployment.
+L122@P6: deploying, or using AI systems to help manage the many risks of AI and promote trustworthy and responsible development and use of AI systems. The Framework is intended to be
+L123@P6: voluntary, rights-preserving, non-sector-specific, and use-case agnostic, providing flexibility to organizations of all sizes and in all sectors and throughout society to implement the
+L124@P6: approaches in the Framework.
+L125@P6: The Framework is designed to equip organizations and individuals – referred to here as
+L126@P6: AI actors – with approaches that increase the trustworthiness of AI systems, and to help
+L127@P6: foster the responsible design, development, deployment, and use of AI systems over time.
+L128@P6: AI actors are defined by the Organisation for Economic Co-operation and Development
+L129@P6: (OECD) as “those who play an active role in the AI system lifecycle, including organizations and individuals that deploy or operate AI” [OECD (2019) Artificial Intelligence in
+L130@P6: Society—OECD iLibrary] (See Appendix A).

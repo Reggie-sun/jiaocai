@@ -1,0 +1,50 @@
+{
+  "observed_pages": [
+    {
+      "page": 1,
+      "sha256": "3a39feee5df9c3742268bd27d9553276db5d0a4835eb5ae8b6b5d4c5be00ac9f",
+      "actually_opened": true,
+      "observer": "Codex Parent",
+      "finding": "No observed clipping/overlap; running header/footer and body readable."
+    },
+    {
+      "page": 2,
+      "sha256": "6b9fe939c19e2cb4062c4ce682f6c9c8fbf0a844e8baa35916c0bcd86e334c2e",
+      "actually_opened": true,
+      "observer": "Codex Parent",
+      "finding": "No clipped/overlapping text; TOC, table and paragraph continuation readable. Page2 contains temporary chapter7-progress sentence; content correction pending."
+    },
+    {
+      "page": 3,
+      "sha256": "e4fde289227408960e93aa56e533785508b11a6c002c93a038fba68606905316",
+      "actually_opened": true,
+      "observer": "Codex Parent",
+      "finding": "No observed clipping/overlap; running header/footer and body readable."
+    },
+    {
+      "page": 4,
+      "sha256": "f38a819ff875b08caab7457f4369eff0879f3633f42675d5aa7565dc4734328b",
+      "actually_opened": true,
+      "observer": "Codex Parent",
+      "finding": "No observed clipping/overlap; running header/footer and body readable."
+    },
+    {
+      "page": 5,
+      "sha256": "94be800712c13da5cfe14ec8d6f550644ab9bcbe22451a727bbab511cb41e0b2",
+      "actually_opened": true,
+      "observer": "Codex Parent",
+      "finding": "No observed clipping/overlap; running header/footer and body readable."
+    },
+    {
+      "page": 6,
+      "sha256": "7abf6c158903409c751718d45f81f6f4a376449cf02c27ee990cffa1b565f908",
+      "actually_opened": true,
+      "observer": "Codex Parent",
+      "finding": "No observed clipping/overlap; running header/footer and body readable."
+    }
+  ],
+  "docx_sha256": "6707bca48b3b7c8fb37295da964cba6d1f4a4f08562a701f9a2e502dd0a26366",
+  "pdf_sha256": "31fb497a62d305c4e3b58371ab858a59f157d5aeb055d4fd663cddbb24dc8be0",
+  "status": "partial6pages_only",
+  "limits": "Actual page observation, not content acceptance."
+}

@@ -1,0 +1,628 @@
+{
+  "chapter": 9,
+  "status": "PASS",
+  "observer": "/root final four pages plus /root/page_review previously observed byte-identical pages",
+  "docx_sha256": "479143756c9d228ce8eed6009ded22e8175dc43af7a33ee6637596b829a4222e",
+  "pdf_sha256": "d0dee21bd9302ff6ada7fbef501c7641313e537ee7f79e4a3b89a5a3ac580cac",
+  "snapshot_sha256": "4ad52d1c8904fb5441625757e71432476db82809886de7ea52ff00b461c77f57",
+  "verification_sha256": "7cb2017217ea262602bf58d36a40ba9b6a902340da2b49e1c76f36d0a338a084",
+  "pages": [
+    {
+      "page": 1,
+      "file": "page-1.png",
+      "sha256": "f6723c1cbda012377b10b7fc8e7d77c8b2d4f4ac74037507c39491775de4020f",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 2,
+      "file": "page-2.png",
+      "sha256": "d2c0968f8754a19073038c9d1cb0bc9da0aea27188eab0d3d6431f1b7cae8dde",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 3,
+      "file": "page-3.png",
+      "sha256": "4c6e6b4375ec984606b59bc2d6c042a07ec172a52beef577dd8dedfd92ff8fcd",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 4,
+      "file": "page-4.png",
+      "sha256": "979f809a2922466c2bfb052660b297ddae02f207f52aa6b2fe6477b064005b7b",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 5,
+      "file": "page-5.png",
+      "sha256": "a332a4d4fd555feb07c78d281303187aa3adfa8e8060086c79c7b66e0ec6f930",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 6,
+      "file": "page-6.png",
+      "sha256": "0589fbee3b9efade37fc8e520b717fc38466141e0ef6097ebd0d18a600109f0c",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 7,
+      "file": "page-7.png",
+      "sha256": "8294b8873f7451f70b787bdec21020b553edd997f82bec31328ba12fc6cdece9",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 8,
+      "file": "page-8.png",
+      "sha256": "646002e0932a17e44deede806aa8d74de94c7479fb27d8a3141a93de8abba56e",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "observation": "Figure9-1, caption, source and full guide on same page."
+    },
+    {
+      "page": 9,
+      "file": "page-9.png",
+      "sha256": "f9f1d3b69b8daa6fd8b6d032c5de8051f940ba9019124027f437d9968df70d27",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 10,
+      "file": "page-10.png",
+      "sha256": "3a33c4b25a1866b6524117f0a320e3b8e6c3f21815f453243adee027f20f2035",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 11,
+      "file": "page-11.png",
+      "sha256": "862e4b81ff9a045ad80c8699fb824ed6266828161a55e38df84bc6303a133477",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 12,
+      "file": "page-12.png",
+      "sha256": "9dc89c98fbedd681641240f4ec21fb190b587afb521c319d99cbaf328656c889",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 13,
+      "file": "page-13.png",
+      "sha256": "bdcb208bdc9eaf999882bc188c5c567e5f2273782bec3fea5f89ca1fc955d76d",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 14,
+      "file": "page-14.png",
+      "sha256": "5c652770cac2417cb7a279278d1eafc6ecd94fc4e50396784d757d8276e41fc4",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 15,
+      "file": "page-15.png",
+      "sha256": "7c05476ab7fbb6981958b5e69e5ede755a75ab0fbe5b201cdacd0d837b670d75",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 16,
+      "file": "page-16.png",
+      "sha256": "ab3716be56739e8caf9c0994d3eaf529258e61ab2e5d06f89399e5292e12ce15",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 17,
+      "file": "page-17.png",
+      "sha256": "67fa51c23b4b47f07f7c174c9a7cb376dfc0631ee8beaa1590891ab2dd377de3",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 18,
+      "file": "page-18.png",
+      "sha256": "6103102daac59e618df30a7eec092024ec9213116511fc8a1c92834d9f64eab7",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 19,
+      "file": "page-19.png",
+      "sha256": "4cc6616691de670dbd9194aa28f2917d59852b68dcbd631b2a24343ff8e19689",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 20,
+      "file": "page-20.png",
+      "sha256": "9d2a321b85a32c5fa2c5b8fc06cb9cead6fd803fb0c11997cee2c0acf76217fc",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 21,
+      "file": "page-21.png",
+      "sha256": "187e67465bd055a0ec1be4be3dbbe3c61c037d10cc7384c092379147e2276f9c",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 22,
+      "file": "page-22.png",
+      "sha256": "998578cadcb56815edbf24d1bee1b623ec02850a1a320cd2658d25a1e73988c9",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 23,
+      "file": "page-23.png",
+      "sha256": "c09f243612aef3d18cd564ed7bef6011969068858aae922e9999f27cc166f7be",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "observation": "List introduction removed from page end; content and page number intact."
+    },
+    {
+      "page": 24,
+      "file": "page-24.png",
+      "sha256": "82f85e0c796f46790e7c3f6e8df5b8bee2624e81b6b22ba4ba91bd030b30da79",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "observation": "List introduction and all four categories now together; body fits page."
+    },
+    {
+      "page": 25,
+      "file": "page-25.png",
+      "sha256": "c5f0faccd1b4250cf4bb16dcf31bd20f3e71a2db024bf99e078129726c890ab6",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 26,
+      "file": "page-26.png",
+      "sha256": "537b5e1f077d44562e5b3f750a9e8345ec824386a969bda1d753c688c00bce4a",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 27,
+      "file": "page-27.png",
+      "sha256": "8b44fbf2661e2f4e1f59f2098e60a234081d4840a639eeb5df8158c4c7044639",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 28,
+      "file": "page-28.png",
+      "sha256": "8847749e3b79526080561abb999145dd4ca5c91a71223844502f6c6b4dab22e8",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 29,
+      "file": "page-29.png",
+      "sha256": "72f7adfa25605040402b687252461e0360806bc57a15c3ad7a5aa495afac545b",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 30,
+      "file": "page-30.png",
+      "sha256": "b2ac2b9a21a2ef425eb9179fc4158d45a137ca1f93814cdbef0dde425a2da331",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 31,
+      "file": "page-31.png",
+      "sha256": "5fec361d19fd8be925e898cd83cb995e57bb7d7d510d000a92b2e473fc684853",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 32,
+      "file": "page-32.png",
+      "sha256": "170454193bb8f0a53db936c3e34c805f997c91cd0a4f66622e8c0c2498cc96b4",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 33,
+      "file": "page-33.png",
+      "sha256": "27cc0987ee4a0d8f2a157b21dff2ea9f37eefca060c27426471b763469cf8526",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 34,
+      "file": "page-34.png",
+      "sha256": "1aa8368942ca29f8d3c09c3b80cfec346e391d79784ee15860d9b97cc9858296",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 35,
+      "file": "page-35.png",
+      "sha256": "bf558d74564274051caaa049270cf500f34103473773e6b23aeb5107f3806a88",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 36,
+      "file": "page-36.png",
+      "sha256": "f1a2d8e1f9e3048a6a9b28531bfccd72aa70fe67efeb7aca0190b6af8860ca45",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 37,
+      "file": "page-37.png",
+      "sha256": "15e172e2829d10e31681ea6314fcf4776c335e0b7be02a34dd07dafe1ded52c4",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 38,
+      "file": "page-38.png",
+      "sha256": "2d712bf63da8d4edf7e9e04968379dd783bb2ae1340149e24845ed3dfa971dda",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 39,
+      "file": "page-39.png",
+      "sha256": "40698f25605eec1d5ff4f403fe200bd9ac1632ffbfc7dd2028bbec095a793661",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 40,
+      "file": "page-40.png",
+      "sha256": "5731234bde33b232898e76f307d68f14aed2e16e2f29c9203bf61e1b0b3c5ce6",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 41,
+      "file": "page-41.png",
+      "sha256": "02e7d1efa2a1ee1e3f9f24ea01777461907b9d42f43d1bff33c62c902a3dfe65",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 42,
+      "file": "page-42.png",
+      "sha256": "f2d1977ae092c18c8b98d408932f99c4e022085811d50c3bfe3ba562138047ff",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 43,
+      "file": "page-43.png",
+      "sha256": "ec32481b1a25d431b2301616255e60b344d69ec4f419e4ec357699d6a9c48b15",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 44,
+      "file": "page-44.png",
+      "sha256": "3476d62081825c966e5010de00af2e2c35dc8ce4cbd80f08eb010c320d371b50",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 45,
+      "file": "page-45.png",
+      "sha256": "b249911884320d57e0d1f62fc7893ae529f71ef6a6bcdb101512dff32eebc08e",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 46,
+      "file": "page-46.png",
+      "sha256": "519765717019f17cd4bf913147c9192395c6bc9fdf687967161b4fd9f88a4a21",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 47,
+      "file": "page-47.png",
+      "sha256": "0e787f8678e13c727dacad6e5c3e812351a47e0b379e89b1f6f8606e2e68e9f1",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 48,
+      "file": "page-48.png",
+      "sha256": "735c63e27a69944e1d08180d55cd5eab7c1d03954e0c5f754bb90b8a1cfb680c",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 49,
+      "file": "page-49.png",
+      "sha256": "d3e5e3c8c8981a965c92abad72e82fe8a131e00d48f21e1dd21ea8fffbe25992",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 50,
+      "file": "page-50.png",
+      "sha256": "011025e3e65d07db543402705fd15f5dda13bb33fd6b74bcc3028f8fa79e2a1d",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 51,
+      "file": "page-51.png",
+      "sha256": "472fb4a7288995994323e9f834d29cff0ec24a1adb6d8f5d56fb324cdcfc966c",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 52,
+      "file": "page-52.png",
+      "sha256": "f9f7e9daaf0cec56d3d4cbf0788add9b9ccd1f666ddbd4f9dc12ec77148e98da",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "observation": "Delivery label and all five deliverables on same page."
+    },
+    {
+      "page": 53,
+      "file": "page-53.png",
+      "sha256": "f29d0757a8ed326f50325f7d6b8f9492d7d29b5e571c1032ddf11e7d58fcb7fd",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 54,
+      "file": "page-54.png",
+      "sha256": "be94ab3b70d6a2b11cb52321358d7eabb04df979685a8a332880b06b3a7d6a86",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 55,
+      "file": "page-55.png",
+      "sha256": "722958f9d8917fe186a5fa82b6d2cc3a5a4e44029af4c884633e1abecbd3984b",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 56,
+      "file": "page-56.png",
+      "sha256": "6e86f40676b2c3b2057597861645796d91f3a5267a2911e2e9e94a371f1f3548",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 57,
+      "file": "page-57.png",
+      "sha256": "779ef9cd7988b1945163e0d8559e3caa22319d7ed49b1a5da07926b86942910e",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 58,
+      "file": "page-58.png",
+      "sha256": "6f2584116a6b97960f30b7a5035cb59900de84ec0e78eadf9fe0b2bdfd1a0f81",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 59,
+      "file": "page-59.png",
+      "sha256": "7d6256c6ce52e86ae82041d2496a4e78339f5f6e780ef4b384a7cd869323484a",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 60,
+      "file": "page-60.png",
+      "sha256": "f04652f0f90fc17f14a4001e1132f6dcce9a527e7300290b17b1deb466ea478a",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 61,
+      "file": "page-61.png",
+      "sha256": "d7e3c2f9ff0184fdb95d54f2b9da054481380323ce8cafd2c3015e23582cfbf2",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 62,
+      "file": "page-62.png",
+      "sha256": "9ebb9bccbd5e1f9e31c45bb783a3df68b36ea7fb58005f2212fe7128b945b194",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 63,
+      "file": "page-63.png",
+      "sha256": "4e82a0332a3adea24e4b615e7f7434ffc64fb1fd3bcafd1a176ca33128b66c8e",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 64,
+      "file": "page-64.png",
+      "sha256": "e5fb36f0130c737b08aec59791550f1eee01b436c97392f2ae14fb520e17699c",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 65,
+      "file": "page-65.png",
+      "sha256": "f7036706dec9a50afadd3acc6f16583abcab4d5a7f2d955c25a84e6e112d84f7",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 66,
+      "file": "page-66.png",
+      "sha256": "f39b23a657976b4619cba6b90cbcc2b9694e4c76ebe712cf3e09591a41d3ca8a",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    },
+    {
+      "page": 67,
+      "file": "page-67.png",
+      "sha256": "37db8354b988668f24cb3f55e1cce4ea3d5206d7735716a89eacfd32bd275f1c",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/page_review via immutable prior actual-observation report",
+      "observation": "Complete PNG bytes equal to page-review-pagination-r2.json actual observation or its previously observed identical-page chain."
+    }
+  ],
+  "findings": [],
+  "closed": [
+    "CH09-PAGE-001: Parent actual final page8 confirms figure/caption/source/full guide together",
+    "CH09-PAGE-002: Parent actual final page52 confirms label/five deliverables together",
+    "CH09-PAGE-003: Parent actual final pages23/24 confirms introduction with its four categories on24"
+  ],
+  "inherited_report": "materials/ch09/page-review-pagination-r2.json",
+  "inherited_report_sha256": "156e8279d8edf30bbbc416f95f90eba4890627ff366c3fdc5b02ad8de60f7e10",
+  "changed_pages": [
+    23,
+    24
+  ],
+  "start_end_hashes_equal": true,
+  "limits": "Actual PDF PNG review and byte-identical inheritance only; no native Word refresh, print, link-click or classroom acceptance."
+}

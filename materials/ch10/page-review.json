@@ -1,0 +1,698 @@
+{
+  "chapter": 10,
+  "docx_sha256": "4d957c1155e623a6f6c5e3c4b54f312e9a3371c95033f758fb4a758ceb541b05",
+  "pdf_sha256": "23254d12036fcf109ba0b008638f0948daed4ee9c853068b24d00192ce6a398d",
+  "verification_sha256": "0515b9bb832a5f0e424564a3e8bc4d85e49413d9b2456286795e08340477d796",
+  "pages": [
+    {
+      "page": 1,
+      "file": "page-1.png",
+      "sha256": "407fa99e6130578c1355e48e1e60864140abe54caeedaf68dcf07340108c3124",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root",
+      "predecessor": "page-parent-r1-partial.json"
+    },
+    {
+      "page": 2,
+      "file": "page-2.png",
+      "sha256": "1c217f28ba32b682dbfb471ab4c38e028d76dce5a8779ec5ce13cef116224889",
+      "actually_opened": true,
+      "inherited_identical_png": true,
+      "observer": "/root",
+      "predecessor": "page-parent-r1-partial.json",
+      "observation": "Full final page actually opened; displayed content and footer legible, no crop, overlap or orphan heading observed."
+    },
+    {
+      "page": 3,
+      "file": "page-3.png",
+      "sha256": "db89496036642619045a0080cf031b39032eea125c3af76714746acaf0c039b6",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; displayed content and footer legible, no crop, overlap or orphan heading observed."
+    },
+    {
+      "page": 4,
+      "file": "page-4.png",
+      "sha256": "3cdce91adb722efae7f9e9a2cbe4719235f1ce3950a9fc907622a5796f3d8ead",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root",
+      "predecessor": "page-parent-r1-partial.json"
+    },
+    {
+      "page": 5,
+      "file": "page-5.png",
+      "sha256": "3388c82c922349e1d06c7afa069fc3e1b9f00271c98d5bddc0c756d516ea372d",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root",
+      "predecessor": "page-parent-r1-partial.json"
+    },
+    {
+      "page": 6,
+      "file": "page-6.png",
+      "sha256": "0bb06700f3923614060d61a87f633e7946a975e2b629bd0d0343080bb24e2ef1",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root",
+      "predecessor": "page-parent-r1-partial.json"
+    },
+    {
+      "page": 7,
+      "file": "page-7.png",
+      "sha256": "3ef547c0f33a6d3af46f5594573a87ca4c7aad00451e95ff1bf247a863deb831",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root",
+      "predecessor": "page-parent-r1-partial.json"
+    },
+    {
+      "page": 8,
+      "file": "page-8.png",
+      "sha256": "17022121ff31c95c4370baffd41a19db7a777492c702d60b5e11b28acb902093",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root",
+      "predecessor": "page-parent-r1-partial.json"
+    },
+    {
+      "page": 9,
+      "file": "page-9.png",
+      "sha256": "42689c21007abb3791038b5e5c8c73d36202c7ebafd002779c4db23b85cd8043",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root",
+      "predecessor": "page-parent-r1-partial.json"
+    },
+    {
+      "page": 10,
+      "file": "page-10.png",
+      "sha256": "806a6afc680cd5b3e39bf547a54580c0cb8d00a2c809733f14d87846bcdfa14c",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root",
+      "predecessor": "page-parent-r1-partial.json"
+    },
+    {
+      "page": 11,
+      "file": "page-11.png",
+      "sha256": "415b87104457b6332cbf7ad76f8794c229800874f0ac9b9297690c93fe913397",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root",
+      "predecessor": "page-parent-r1-partial.json"
+    },
+    {
+      "page": 12,
+      "file": "page-12.png",
+      "sha256": "ec5488bb883e402968b721877934d340c219a86bcb8d599e31c3000b7d05e11c",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root",
+      "predecessor": "page-parent-r1-partial.json"
+    },
+    {
+      "page": 13,
+      "file": "page-13.png",
+      "sha256": "82b06a3e868cc0ee4e3aaa7bcbf9fbef79a3bb386adefadd2e3028ca4e6449fc",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root",
+      "predecessor": "page-parent-r2-partial.json"
+    },
+    {
+      "page": 14,
+      "file": "page-14.png",
+      "sha256": "00d62639a5e7002bf499016a6c6dba1dd25950b7cc34e118759e92ea70377c28",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root",
+      "predecessor": "page-parent-r2-partial.json"
+    },
+    {
+      "page": 15,
+      "file": "page-15.png",
+      "sha256": "00739d81643a49835de0735e5b487cdd550848083d77d49dc05f1884f6b3246d",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root",
+      "predecessor": "page-parent-r2-partial.json"
+    },
+    {
+      "page": 16,
+      "file": "page-16.png",
+      "sha256": "7a0d2d65779ee7061106e2a257d808dbfc56ddb884c867912e7baaa72fdf5113",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root",
+      "predecessor": "page-parent-r2-partial.json"
+    },
+    {
+      "page": 17,
+      "file": "page-17.png",
+      "sha256": "c480e9993be99477826c090a4147bb4bc585bf0620b2a025ba650e1a721e0420",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root",
+      "predecessor": "page-parent-r2-partial.json"
+    },
+    {
+      "page": 18,
+      "file": "page-18.png",
+      "sha256": "f558419ad0f6fbada19cd26d0907e8ca64c8007a76811773bb48a34ab845c005",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; displayed content and footer legible, no crop, overlap or orphan heading observed."
+    },
+    {
+      "page": 19,
+      "file": "page-19.png",
+      "sha256": "01b5d5c2d4f812511b4645ed7a1c4720b5732324cd26e1b96b955360d10fd358",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; displayed content and footer legible, no crop, overlap or orphan heading observed."
+    },
+    {
+      "page": 20,
+      "file": "page-20.png",
+      "sha256": "2f50a0286f916036d79dc0a8e5293398bcccf71c5f3d02c7d790bcac511dfa99",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; displayed content and footer legible, no crop, overlap or orphan heading observed."
+    },
+    {
+      "page": 21,
+      "file": "page-21.png",
+      "sha256": "ff7dcc1bb493885f274f0422be569883cc1cad33decc7cbe04cfea0ca6dc675b",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; displayed content and footer legible, no crop, overlap or orphan heading observed."
+    },
+    {
+      "page": 22,
+      "file": "page-22.png",
+      "sha256": "48ffb2de73fdd39cf7a6e9d0c1e8f13d0e6a9cdadcc06b099a8f53b50bd54454",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; displayed content and footer legible, no crop, overlap or orphan heading observed."
+    },
+    {
+      "page": 23,
+      "file": "page-23.png",
+      "sha256": "b9ff9375142d95e2724df653e93f619000e5473619adab160f308e856182037c",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; displayed content and footer legible, no crop, overlap or orphan heading observed."
+    },
+    {
+      "page": 24,
+      "file": "page-24.png",
+      "sha256": "c98c3d8cf9c89545f90c52fc06c8aebd7e8fd17bd16a1afa4f5bf4577e5c4b61",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; displayed content and footer legible, no crop, overlap or orphan heading observed."
+    },
+    {
+      "page": 25,
+      "file": "page-25.png",
+      "sha256": "6a98ac4c40b598f57523665e18eee518fb1bdb0b40f5f96afe7a23708a45023d",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; displayed content and footer legible, no crop, overlap or orphan heading observed."
+    },
+    {
+      "page": 26,
+      "file": "page-26.png",
+      "sha256": "0888bc041bc04d6ac11bf6ca2da630247c29cdd9e937272cab36b60947bc73ba",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; displayed content and footer legible, no crop, overlap or orphan heading observed."
+    },
+    {
+      "page": 27,
+      "file": "page-27.png",
+      "sha256": "d71faa4918a5a7e0cb3d3c2b1938c71b814fa2ca8e127903c1dcd39fef9d2503",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; E02 budget explanation and adjacent teaching prose readable, headings followed by body; no crop, overlap or missing glyph observed."
+    },
+    {
+      "page": 28,
+      "file": "page-28.png",
+      "sha256": "da0c3417966f7a73abf4c9b0903ccd3784f48eea8aa5a7d5237c3c1baacb361b",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; E02 budget explanation and adjacent teaching prose readable, headings followed by body; no crop, overlap or missing glyph observed."
+    },
+    {
+      "page": 29,
+      "file": "page-29.png",
+      "sha256": "b9062e7096c4c5720ce30d8206fc3007b0ba1cdef69c7947096d3c167c6f155b",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; E02 budget explanation and adjacent teaching prose readable, headings followed by body; no crop, overlap or missing glyph observed."
+    },
+    {
+      "page": 30,
+      "file": "page-30.png",
+      "sha256": "212a2da2217ef5c333e31316d6c690662f6a5addacaad046dadb257ac13fd599",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; E02 budget explanation and adjacent teaching prose readable, headings followed by body; no crop, overlap or missing glyph observed."
+    },
+    {
+      "page": 31,
+      "file": "page-31.png",
+      "sha256": "bdcae09e6b2ccbecb3d6036d26d21e20f8a9a8d94b2af73f89fcb9e619ca0673",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; E02 budget explanation and adjacent teaching prose readable, headings followed by body; no crop, overlap or missing glyph observed."
+    },
+    {
+      "page": 32,
+      "file": "page-32.png",
+      "sha256": "a644929a135677fdee309cd9ceee0b35060cf39619d8491d34a2c3502770f132",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; E02 budget explanation and adjacent teaching prose readable, headings followed by body; no crop, overlap or missing glyph observed."
+    },
+    {
+      "page": 33,
+      "file": "page-33.png",
+      "sha256": "9ff7ef66b3e5fd559e632e2855e6b89cc12006a6e902ad7fd91a618510e595c0",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; teaching prose and headings readable; Table10-5 on37 complete, Figure10-3 on38 with caption/source/guide legible; no crop or overlap observed."
+    },
+    {
+      "page": 34,
+      "file": "page-34.png",
+      "sha256": "5d1eec8eee6f719b9404f66876d3a695dea46b6ef34c4889d5e53bbe1e6a8c58",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; teaching prose and headings readable; Table10-5 on37 complete, Figure10-3 on38 with caption/source/guide legible; no crop or overlap observed."
+    },
+    {
+      "page": 35,
+      "file": "page-35.png",
+      "sha256": "01f1f0297c88598de7865e26049f7c4c325a2db085d63cfc0d3716bafa76b852",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; teaching prose and headings readable; Table10-5 on37 complete, Figure10-3 on38 with caption/source/guide legible; no crop or overlap observed."
+    },
+    {
+      "page": 36,
+      "file": "page-36.png",
+      "sha256": "14447055847387add388c29ac39fb72912868d70841453e49b23962ec484ede6",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; teaching prose and headings readable; Table10-5 on37 complete, Figure10-3 on38 with caption/source/guide legible; no crop or overlap observed."
+    },
+    {
+      "page": 37,
+      "file": "page-37.png",
+      "sha256": "8b26676e350e9a8d5484466cdf36618a7af3867e362fcc00e5194339590e7f22",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; teaching prose and headings readable; Table10-5 on37 complete, Figure10-3 on38 with caption/source/guide legible; no crop or overlap observed."
+    },
+    {
+      "page": 38,
+      "file": "page-38.png",
+      "sha256": "3c0e53a4f534740fb823391f16c9c615936887ba8b4a5b6ca765bbe87cd7729f",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; teaching prose and headings readable; Table10-5 on37 complete, Figure10-3 on38 with caption/source/guide legible; no crop or overlap observed."
+    },
+    {
+      "page": 39,
+      "file": "page-39.png",
+      "sha256": "d06af89c2278dbf17a96dfa07c080395ffb1e0cab1f214e0febdb0a56ef7b106",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; prose/headings legible, Table10-6 on39 and Table10-7 on41 complete; no crop, overlap or missing glyph observed."
+    },
+    {
+      "page": 40,
+      "file": "page-40.png",
+      "sha256": "cd58ad06f84be2c78670a3d4a8a197029d3767e0e797db7e3a4cf35f4d122ceb",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; prose/headings legible, Table10-6 on39 and Table10-7 on41 complete; no crop, overlap or missing glyph observed."
+    },
+    {
+      "page": 41,
+      "file": "page-41.png",
+      "sha256": "ef2f5c036a4cd0863940d53fa6426aa88f8b69f516de197ab3d2a056cc4b20ec",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; prose/headings legible, Table10-6 on39 and Table10-7 on41 complete; no crop, overlap or missing glyph observed."
+    },
+    {
+      "page": 42,
+      "file": "page-42.png",
+      "sha256": "da7ddb185fe408a9c40104d97134f47a29af89f7b69762237b4dfff4a1ec9fbc",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; prose/headings legible, Table10-6 on39 and Table10-7 on41 complete; no crop, overlap or missing glyph observed."
+    },
+    {
+      "page": 43,
+      "file": "page-43.png",
+      "sha256": "1dd2af99fd89947268b9c24a540d38f35bc823cfc100f3669be6137d4591d8e6",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; prose/headings legible, Table10-6 on39 and Table10-7 on41 complete; no crop, overlap or missing glyph observed."
+    },
+    {
+      "page": 44,
+      "file": "page-44.png",
+      "sha256": "38f77902306227cff19e1b39c70cbc1abf54dfd49526c80dcfcc35573a621cd5",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; prose/headings legible, Table10-6 on39 and Table10-7 on41 complete; no crop, overlap or missing glyph observed."
+    },
+    {
+      "page": 45,
+      "file": "page-45.png",
+      "sha256": "8873c63247f6365305d5abc046f1272467af872882a3db472e4a864bea54ff09",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; readable Figure10-4/caption/source/guide on45, Table10-8 on47 complete, E03 task on50 clear; no crop or overlap observed."
+    },
+    {
+      "page": 46,
+      "file": "page-46.png",
+      "sha256": "e261064753f943b91aefee44df8118b656229372149d1f40b8bb92654839bf99",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; readable Figure10-4/caption/source/guide on45, Table10-8 on47 complete, E03 task on50 clear; no crop or overlap observed."
+    },
+    {
+      "page": 47,
+      "file": "page-47.png",
+      "sha256": "1ad003911a4bf626e569f8a05ec8f1a17b2111e2a5a0d85e885cea68cb1a4d1f",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; readable Figure10-4/caption/source/guide on45, Table10-8 on47 complete, E03 task on50 clear; no crop or overlap observed."
+    },
+    {
+      "page": 48,
+      "file": "page-48.png",
+      "sha256": "d6f7963b59b9f277587f7d1f7c79439a9cce50028f05d9a94204235fc6a1e9b2",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; readable Figure10-4/caption/source/guide on45, Table10-8 on47 complete, E03 task on50 clear; no crop or overlap observed."
+    },
+    {
+      "page": 49,
+      "file": "page-49.png",
+      "sha256": "c81fa1e6e209d1807d576782a46ff9d4e9256292cb7306bfdeedd35d64425dcb",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; readable Figure10-4/caption/source/guide on45, Table10-8 on47 complete, E03 task on50 clear; no crop or overlap observed."
+    },
+    {
+      "page": 50,
+      "file": "page-50.png",
+      "sha256": "dea8e5320a6b3407bfe70df7ffd29d4577a1940d85d254e625d10982e02c3598",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; readable Figure10-4/caption/source/guide on45, Table10-8 on47 complete, E03 task on50 clear; no crop or overlap observed."
+    },
+    {
+      "page": 51,
+      "file": "page-51.png",
+      "sha256": "6383c98f6d14627d435e9bf6913e59daa63d3b9e5b75ded0ea14b8a79da5f5d7",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; E03 reflection/E04 task and growth records legible; Tables10-9/10/11 on54/55/56 intact with intentional blank response column; no crop or overlap observed."
+    },
+    {
+      "page": 52,
+      "file": "page-52.png",
+      "sha256": "3f6c055fc02100c036fef739e50dd8dcd91078f5f4170581182cee5e9f33f433",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; E03 reflection/E04 task and growth records legible; Tables10-9/10/11 on54/55/56 intact with intentional blank response column; no crop or overlap observed."
+    },
+    {
+      "page": 53,
+      "file": "page-53.png",
+      "sha256": "9a213c0575f9f5c25fc39e6702bfcfcab41b8a6820111c5082e4333501a8a148",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; E03 reflection/E04 task and growth records legible; Tables10-9/10/11 on54/55/56 intact with intentional blank response column; no crop or overlap observed."
+    },
+    {
+      "page": 54,
+      "file": "page-54.png",
+      "sha256": "29f2f275152da66568373c202650f49d276206039bdd669a20aad5e3eb50e398",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; E03 reflection/E04 task and growth records legible; Tables10-9/10/11 on54/55/56 intact with intentional blank response column; no crop or overlap observed."
+    },
+    {
+      "page": 55,
+      "file": "page-55.png",
+      "sha256": "2d0a6ca8ec336be86a45b06debd5d74d1f0c0e8600d62b09748b4f6209045d55",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; E03 reflection/E04 task and growth records legible; Tables10-9/10/11 on54/55/56 intact with intentional blank response column; no crop or overlap observed."
+    },
+    {
+      "page": 56,
+      "file": "page-56.png",
+      "sha256": "7c7a093f99688a45f1b8d822d0b8b42fbf31b30863ec49c5a6c6ac3630a1e153",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; E03 reflection/E04 task and growth records legible; Tables10-9/10/11 on54/55/56 intact with intentional blank response column; no crop or overlap observed."
+    },
+    {
+      "page": 57,
+      "file": "page-57.png",
+      "sha256": "ff01bd90db2a79aa579219d71a8318b8d0386c410a7325529e175a83c4411a2f",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; Tables10-12/13 on57/59 intact, summary/terms/answer headings with following text, footer separate; no crop or overlap observed."
+    },
+    {
+      "page": 58,
+      "file": "page-58.png",
+      "sha256": "6dc117815aef60ac18dd726e346cc310f139d9e3f92ad91e16e40b5d312f969b",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; Tables10-12/13 on57/59 intact, summary/terms/answer headings with following text, footer separate; no crop or overlap observed."
+    },
+    {
+      "page": 59,
+      "file": "page-59.png",
+      "sha256": "2ac89aadcb6a514fb343d7dd8e80504ef357f1ac5140ae40c90e3aa0a7ad45c9",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; Tables10-12/13 on57/59 intact, summary/terms/answer headings with following text, footer separate; no crop or overlap observed."
+    },
+    {
+      "page": 60,
+      "file": "page-60.png",
+      "sha256": "aa355ff9c60da1dde210a4438bc703f330c1a844d4353e4177fe3eae328f5487",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; Tables10-12/13 on57/59 intact, summary/terms/answer headings with following text, footer separate; no crop or overlap observed."
+    },
+    {
+      "page": 61,
+      "file": "page-61.png",
+      "sha256": "c1b5d67d171e51f30568d15af71101ce35094b952db7d26b1b11de779403c2c6",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; Tables10-12/13 on57/59 intact, summary/terms/answer headings with following text, footer separate; no crop or overlap observed."
+    },
+    {
+      "page": 62,
+      "file": "page-62.png",
+      "sha256": "56dd5bbb46b9059996f7de7a73b83708cea59d67e576e14d3ded503e0930a1d1",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; Tables10-12/13 on57/59 intact, summary/terms/answer headings with following text, footer separate; no crop or overlap observed."
+    },
+    {
+      "page": 63,
+      "file": "page-63.png",
+      "sha256": "9cc06a5459db5fca48549a83e77dd3968355996c4cb171d3fa2bcebdfc408b77",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; E01/E02/E03 worked discussions legible, mathematical expressions readable, E04 heading has following body on68; no crop or overlap observed."
+    },
+    {
+      "page": 64,
+      "file": "page-64.png",
+      "sha256": "0469e5fc7f83666e01d5497e9395b47506e2b6eed8173832ef2f5e8eba3d6e04",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; E01/E02/E03 worked discussions legible, mathematical expressions readable, E04 heading has following body on68; no crop or overlap observed."
+    },
+    {
+      "page": 65,
+      "file": "page-65.png",
+      "sha256": "cc28ac0a7aab5bd613f753264f07fc23d01da2e796825cbbc80bf81ecc413d8e",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; E01/E02/E03 worked discussions legible, mathematical expressions readable, E04 heading has following body on68; no crop or overlap observed."
+    },
+    {
+      "page": 66,
+      "file": "page-66.png",
+      "sha256": "610591e1f41087392d65d3dae9e81e1c1ec155f6a0c37b55d62520c96dd20382",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; E01/E02/E03 worked discussions legible, mathematical expressions readable, E04 heading has following body on68; no crop or overlap observed."
+    },
+    {
+      "page": 67,
+      "file": "page-67.png",
+      "sha256": "91bd88a444a28b138212ba9c815a95fa893b3edd53d96e06dcc8409ff5060614",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; E01/E02/E03 worked discussions legible, mathematical expressions readable, E04 heading has following body on68; no crop or overlap observed."
+    },
+    {
+      "page": 68,
+      "file": "page-68.png",
+      "sha256": "52f899c866455a40aaed014a0334616cc2cbd0fb42ba47081dd3074f04a35355",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; E01/E02/E03 worked discussions legible, mathematical expressions readable, E04 heading has following body on68; no crop or overlap observed."
+    },
+    {
+      "page": 69,
+      "file": "page-69.png",
+      "sha256": "0434e400994360b4108ef1a7cfcc8b90cfd19895d488a6e20e02f5cc8ff157a6",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; final E04 discussion and four references readable, URLs wrapped inside text area, no crop/overlap/missing glyph observed."
+    },
+    {
+      "page": 70,
+      "file": "page-70.png",
+      "sha256": "34113e6ef6aa7d0a6601d53669b28fd0a62a9214fdb78785ba64ce3b677bf7b6",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root",
+      "predecessor": null,
+      "observation": "Full final page actually opened; final E04 discussion and four references readable, URLs wrapped inside text area, no crop/overlap/missing glyph observed."
+    }
+  ],
+  "limits": "AI page observation; unchanged PNG byte inheritance only from actually observed prior pages. No physical print, native Microsoft Word refresh or human classroom acceptance.",
+  "status": "PASS",
+  "findings": [],
+  "actual_final_pages": 55,
+  "inherited_only_pages": 15
+}

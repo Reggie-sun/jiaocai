@@ -1,0 +1,308 @@
+{
+  "independent_exercise_ids": [
+    "E01",
+    "E02",
+    "E03",
+    "E04",
+    "E05",
+    "E06",
+    "E07"
+  ],
+  "exercise_contract": {
+    "required_fields": [
+      "材料：",
+      "任务：",
+      "成果：",
+      "评价标准："
+    ],
+    "detailed_answers": "chapter end only",
+    "answer_heading_format": "### E## 参考解与讨论"
+  },
+  "two_week_challenge": {
+    "learner_profile": "虚构示例：计算机专业高年级学生，对数据工程与协作开发有兴趣；会管理文件，但没有系统使用过Git；每周可投入不超过240分钟；只用本地合成数据，不公开个人资料。",
+    "goal": "在本地项目中使用Git记录一个小型数据整理练习的两个版本，能查看状态、差异和提交历史，并用自己的话说明每一步的含义。",
+    "available_minutes": 480,
+    "weekly_available_minutes": 240,
+    "planned_total_minutes": 445,
+    "schedule": [
+      {
+        "day": 1,
+        "minutes": 30,
+        "task": "写下目标和起点；闭卷解释自己目前怎样保存文件版本。"
+      },
+      {
+        "day": 2,
+        "minutes": 45,
+        "task": "阅读Git官方入门文档中本地仓库、跟踪、暂存和提交的相关内容，记录术语和待查问题。"
+      },
+      {
+        "day": 3,
+        "minutes": 20,
+        "task": "不看笔记，回忆仓库、工作区、暂存和提交的区别，再核对来源并标记错误。"
+      },
+      {
+        "day": 4,
+        "minutes": 45,
+        "task": "在练习副本中初始化本地仓库，为README和合成CSV建立第一份提交。"
+      },
+      {
+        "day": 5,
+        "minutes": 30,
+        "task": "修改README中的一条说明，查看状态和差异；保留未提交变化，记录文件变化何时进入提交。"
+      },
+      {
+        "day": 6,
+        "minutes": 15,
+        "task": "间隔提取三个核心术语，核对后补充一张错误修正卡。"
+      },
+      {
+        "day": 7,
+        "minutes": 45,
+        "task": "第一周检查点：从空白笔记解释状态、差异、提交和历史；检查一个已提交版本和一项仍未提交的差异。"
+      },
+      {
+        "day": 8,
+        "minutes": 30,
+        "task": "修改合成数据说明并复核差异，再把待提交变化保存为第二次提交。"
+      },
+      {
+        "day": 9,
+        "minutes": 0,
+        "task": "休息或补做；不把漏做的一天累积成必须加倍学习。"
+      },
+      {
+        "day": 10,
+        "minutes": 45,
+        "task": "不看笔记复做查看状态、差异和历史的步骤；遇到不确定处先暂停，再查官方说明。"
+      },
+      {
+        "day": 11,
+        "minutes": 20,
+        "task": "为合成CSV写一条字段来源与异常处理说明，并记录它属于练习材料。"
+      },
+      {
+        "day": 12,
+        "minutes": 45,
+        "task": "在新的练习目录中重新完成一次初始化、跟踪、提交和历史查看，不复制上次的终端答案。"
+      },
+      {
+        "day": 13,
+        "minutes": 30,
+        "task": "请同学按README检查仓库；没有同伴时用检查清单自审，再记录一个具体问题。"
+      },
+      {
+        "day": 14,
+        "minutes": 45,
+        "task": "第二周检查点：完成一个小型新变更，解释状态、差异和历史；比较起点与终点，决定下一步。"
+      }
+    ],
+    "checkpoints": [
+      {
+        "day": 7,
+        "pass_criteria": "能解释至少4个核心术语；能查看状态和一项差异；看到一个已提交版本和一项仍未提交的差异；未解决问题已记录。"
+      },
+      {
+        "day": 14,
+        "pass_criteria": "在练习副本中完成一次新提交并查看历史与差异；能解释本地练习的边界；明确一个可检验的下一目标。"
+      }
+    ],
+    "manual_alternative": "没有安装Git或不能运行终端时，复制同一练习目录为版本A和版本B，用文本比较功能或逐行标注差异；在纸上记录每次保存的时间、改动和理由，并完成相同的提取与解释任务。",
+    "sample_record_is_fictional": true
+  },
+  "e06_csv_fixture": "record_id,score,topic\nr01,84,graphs\nr02,76,trees\nr03,,graphs\nr03,76,trees\nr04,91,graphs\nr05,52,sorting\nr06,91,graphs\n",
+  "e06_expected_facts": {
+    "data_rows": 7,
+    "duplicate_record_ids": [
+      "r03"
+    ],
+    "empty_score_rows": 1,
+    "score_91_rows": 2
+  },
+  "e07_capstone": {
+    "learner_profile": "虚构学生许澄；两周最多360分钟；基础Python；兴趣为数据应用；偏好纸笔或本地文件。",
+    "weekly_budget_minutes": 180,
+    "source_cards": [
+      "甲：虚构课程讲义，描述异常值多种成因并要求保留复核证据",
+      "乙：五年前的个人教程，建议删除均值三倍标准差以外的数据",
+      "丙：虚构官方数据字典，注明字段、单位、空值代码和许可",
+      "丁：无输入、版本与复现步骤的社区回答"
+    ],
+    "required_dimensions": [
+      "observable learning outcome",
+      "baseline",
+      "source claim and limitation",
+      "spaced practice",
+      "peer feedback",
+      "privacy boundary",
+      "day 7 and day 14 checkpoints",
+      "adjustment rule"
+    ],
+    "schedule_example_days": [
+      1,
+      2,
+      3,
+      5,
+      7,
+      8,
+      10,
+      12,
+      14
+    ],
+    "schedule_example_minutes": [
+      30,
+      35,
+      20,
+      40,
+      25,
+      30,
+      45,
+      25,
+      50
+    ],
+    "schedule_example_weekly_minutes": [
+      150,
+      150
+    ],
+    "schedule_example_total_minutes": 300,
+    "fixture_paths": {
+      "baseline": "materials/ch08/practice/e07-baseline.csv",
+      "transfer": "materials/ch08/practice/e07-transfer.csv",
+      "dictionary": "materials/ch08/practice/e07-data-dictionary.md"
+    }
+  },
+  "mechanical_invariants": [
+    "all seven IDs occur once as independent exercise headings before the answer section",
+    "all detailed answers occur in matching order after the answer-section heading",
+    "every exercise supplies materials, a task, deliverables, and a rubric",
+    "the 14-day schedule is within the two-week and weekly minute budgets",
+    "the displayed E06 CSV and its recalculated basic facts match the author data",
+    "E03 is bound to its independent MapleDB default/runtime scenario and matching answer",
+    "E05 references and matches the offline four-field fixture while avoiding claimed browser observations",
+    "E07 baseline and transfer CSV facts recalculate from supplied files and match the answer"
+  ],
+  "e03_independent_scenario": {
+    "product": "虚构数据库 MapleDB",
+    "version": "4.2",
+    "parameter": "retry_policy",
+    "documented_default_when_omitted": "disabled",
+    "explicit_policy": {
+      "value": "bounded",
+      "eligible_requests": "幂等超时请求",
+      "maximum_retries": 2
+    },
+    "independent_from_section_case": "Section 8.3 uses a different fictional CSV parser and asks an unresolved default; E03 has a documented default plus a separate runtime-override question.",
+    "required_runtime_checks": [
+      "configuration file layers",
+      "environment variables",
+      "command-line arguments",
+      "rendered deployment template",
+      "minimal idempotent timeout test with version/config/log"
+    ],
+    "answer_boundary": "report the documented default separately from actual deployed behavior; no claim that runtime was tested"
+  },
+  "e05_fixtures": {
+    "html_path": "materials/ch08/practice/e05-keyboard-walkthrough.html",
+    "empty_record_path": "materials/ch08/practice/e05-empty-record.csv",
+    "observation_log_path": "materials/ch08/practice/e05-walkthrough-observations.csv",
+    "fields": [
+      {
+        "id": "project-id",
+        "name": "project_id",
+        "label": "项目编号",
+        "type": "text"
+      },
+      {
+        "id": "topic",
+        "name": "topic",
+        "label": "主题",
+        "type": "text"
+      },
+      {
+        "id": "exercise-date",
+        "name": "exercise_date",
+        "label": "练习日期",
+        "type": "date"
+      },
+      {
+        "id": "notes",
+        "name": "notes",
+        "label": "备注",
+        "type": "textarea"
+      }
+    ],
+    "input_header": [
+      "项目编号",
+      "主题",
+      "练习日期",
+      "备注"
+    ],
+    "constraints": [
+      "standalone static HTML",
+      "no external resources",
+      "no account or network required",
+      "no script or form submission",
+      "input is not saved"
+    ],
+    "answer_boundary": "source markup and CSS support only predicted order/focus styling; leave actual browser observations blank unless performed; paper-only work is labeled 未观察"
+  },
+  "e07_fixture_expected_facts": {
+    "headers": [
+      "date",
+      "station_id",
+      "temperature_c",
+      "rainfall_mm"
+    ],
+    "date_format": "YYYY-MM-DD",
+    "missing_sentinel": "NA",
+    "baseline": {
+      "data_rows": 6,
+      "duplicate_keys": [
+        {
+          "date": "2026-04-03",
+          "station_id": "ST01",
+          "count": 2
+        }
+      ],
+      "missing_by_field": {
+        "temperature_c": 1,
+        "rainfall_mm": 0
+      },
+      "candidate_values_for_review": {
+        "temperature_c": [
+          "43.8"
+        ]
+      },
+      "semantic_mismatch_values": {
+        "rainfall_mm": [
+          "-2.0"
+        ]
+      }
+    },
+    "transfer": {
+      "data_rows": 5,
+      "duplicate_keys": [],
+      "missing_by_field": {
+        "temperature_c": 0,
+        "rainfall_mm": 1
+      },
+      "candidate_values_for_review": {
+        "temperature_c": [
+          "88.0"
+        ],
+        "rainfall_mm": []
+      },
+      "semantic_mismatch_values": {
+        "rainfall_mm": []
+      }
+    },
+    "license": "CC0 1.0 applies only to the two author-created synthetic CSVs",
+    "cleaning": "raw inputs are not automatically cleaned; investigate duplicate keys and retain originals",
+    "semantic_rules": {
+      "nonnegative_quantity_fields": [
+        "rainfall_mm"
+      ],
+      "interpretation": "negative cumulative rainfall conflicts with the field semantics but does not establish cause or correct processing",
+      "required_response": "verify source value, encoding, or field definition; preserve the raw CSV; do not automatically delete or fill"
+    }
+  }
+}

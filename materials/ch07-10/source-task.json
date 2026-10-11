@@ -1,0 +1,43 @@
+{
+  "parent_session_id": "codex-jiaocai-ch07-10-20261012",
+  "task_id": "ch07-10-bounded-evidence-support",
+  "cwd": "/home/reggie/vscode_folder/jiaocai",
+  "explicit_root": "/home/reggie/vscode_folder/jiaocai",
+  "role": "explorer",
+  "goal": "Role source investigator. Scope ONLY claims G1/H1 in source-claims.json versus actual source excerpts. Authority read-only. Required fully Read all three files once. Identify unsupported claim/metadata strengths with stable ID, exact source lines, concrete evidence and minimal correction; include actual paths/hashes/read ranges in evidence_refs. No verdict or added top-level fields: only findings/proposed_changes/evidence_refs/uncertainties/questions. No writing, credentials, Bash/network, commits, nested delegation. Stop/report rule conflict. Parent adjudicates. This is narrow source investigation, not final chapter/content review. One bounded live attempt, no automatic retry.",
+  "read_paths": [
+    "materials/ch07-10/source-claims.json",
+    "materials/ch07-10/growth-excerpts.txt",
+    "materials/ch07-10/happiness-revisit.txt"
+  ],
+  "write_paths": [],
+  "permissions": [
+    "read"
+  ],
+  "selected_refs": [],
+  "active_documents": "not_applicable",
+  "harness_refs": [],
+  "constitution_refs": [
+    "AGENTS.md"
+  ],
+  "skills": [],
+  "skill_roots": [],
+  "expected_evidence": [
+    "materials/ch07-10/source-claims.json",
+    "materials/ch07-10/growth-excerpts.txt",
+    "materials/ch07-10/happiness-revisit.txt"
+  ],
+  "backend": "kimi",
+  "profile": "deep",
+  "budgets": {
+    "wall_seconds": 3600,
+    "idle_seconds": 1800,
+    "request_limit": 64,
+    "generation_tokens": 32000,
+    "output_bytes": 16777216,
+    "context_bytes": 8388608
+  },
+  "instruction_precedence": [
+    "AGENTS.md"
+  ]
+}

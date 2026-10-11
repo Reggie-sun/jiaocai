@@ -1,0 +1,31 @@
+{
+  "checks": "PASS",
+  "source_sha256": "d6e12eef8cf77b60ae2bee9d0b0bd9d2b254a1503b8afc516c2331e2b16ab1d8",
+  "read_only": true,
+  "results": {
+    "e07-baseline.csv": {
+      "sha256": "c8ad414bf18d25a8733a6c150b03bd54986d55bd135f8f30509bd4a4fa3cfdd7",
+      "records": 6,
+      "duplicate_keys": 1,
+      "NA_temperature": 1,
+      "NA_rainfall": 0,
+      "negative_rainfall": [
+        {
+          "date": "2026-04-05",
+          "station_id": "ST01",
+          "temperature_c": "19.6",
+          "rainfall_mm": "-2.0"
+        }
+      ]
+    },
+    "e07-transfer.csv": {
+      "sha256": "0a9e73b0f4ff31b9b8dfbd2385f0815655ed1b96e48005e43b3e18504e8f0e9c",
+      "records": 5,
+      "duplicate_keys": 0,
+      "NA_temperature": 0,
+      "NA_rainfall": 1,
+      "negative_rainfall": []
+    }
+  },
+  "limits": "Structural/field-semantic count only; no automatic deletion, replacement, domain upper-temperature validation or real weather claims."
+}

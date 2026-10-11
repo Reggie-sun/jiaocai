@@ -1,0 +1,676 @@
+{
+  "checks": "PASS",
+  "html_sha256": "37a5a385c0d4232e744eeefcb2f9cbf5b00f1edd93a37c73101156bb3610d47b",
+  "version": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/149.0.7827.53",
+    "revision": "@9d2c8156a72129edca4785abb98866fad60ea338",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+    "jsVersion": "14.9.207.21"
+  },
+  "route": "Owned temporary headless Chrome through loopback CDP; Chrome MCP new_page failed because its shared profile was already occupied.",
+  "initial": {
+    "id": "",
+    "tag": "BODY",
+    "focusVisible": false,
+    "outline": "rgb(32, 33, 36) none 3px",
+    "labels": [
+      {
+        "for": "project-id",
+        "text": "项目编号"
+      },
+      {
+        "for": "topic",
+        "text": "主题"
+      },
+      {
+        "for": "exercise-date",
+        "text": "练习日期"
+      },
+      {
+        "for": "notes",
+        "text": "备注"
+      }
+    ],
+    "values": [
+      {
+        "id": "project-id",
+        "value": ""
+      },
+      {
+        "id": "topic",
+        "value": ""
+      },
+      {
+        "id": "exercise-date",
+        "value": ""
+      },
+      {
+        "id": "notes",
+        "value": ""
+      }
+    ]
+  },
+  "forward": [
+    {
+      "step": 1,
+      "key": "Tab",
+      "id": "project-id",
+      "tag": "INPUT",
+      "value": "SYN-01",
+      "focusVisible": true,
+      "outline": "rgb(23, 78, 166) solid 3px",
+      "labels": [
+        {
+          "for": "project-id",
+          "text": "项目编号"
+        },
+        {
+          "for": "topic",
+          "text": "主题"
+        },
+        {
+          "for": "exercise-date",
+          "text": "练习日期"
+        },
+        {
+          "for": "notes",
+          "text": "备注"
+        }
+      ],
+      "values": [
+        {
+          "id": "project-id",
+          "value": "SYN-01"
+        },
+        {
+          "id": "topic",
+          "value": ""
+        },
+        {
+          "id": "exercise-date",
+          "value": ""
+        },
+        {
+          "id": "notes",
+          "value": ""
+        }
+      ],
+      "screenshot": {
+        "file": "materials/ch08/browser-observation/forward-1.png",
+        "sha256": "de9f78d7b9e2393df112b37b8b0847b524e24ea696963f4d11f69fbae86c593e"
+      }
+    },
+    {
+      "step": 2,
+      "key": "Tab",
+      "id": "topic",
+      "tag": "INPUT",
+      "value": "键盘练习",
+      "focusVisible": true,
+      "outline": "rgb(23, 78, 166) solid 3px",
+      "labels": [
+        {
+          "for": "project-id",
+          "text": "项目编号"
+        },
+        {
+          "for": "topic",
+          "text": "主题"
+        },
+        {
+          "for": "exercise-date",
+          "text": "练习日期"
+        },
+        {
+          "for": "notes",
+          "text": "备注"
+        }
+      ],
+      "values": [
+        {
+          "id": "project-id",
+          "value": "SYN-01"
+        },
+        {
+          "id": "topic",
+          "value": "键盘练习"
+        },
+        {
+          "id": "exercise-date",
+          "value": ""
+        },
+        {
+          "id": "notes",
+          "value": ""
+        }
+      ],
+      "screenshot": {
+        "file": "materials/ch08/browser-observation/forward-2.png",
+        "sha256": "af0fae3d1375b28fea72361d8ad2d9a1e3cc1c1c6cbc024d33133ea7c21e1b93"
+      }
+    },
+    {
+      "step": 3,
+      "key": "Tab",
+      "id": "exercise-date",
+      "tag": "INPUT",
+      "value": "",
+      "focusVisible": true,
+      "outline": "rgb(23, 78, 166) solid 3px",
+      "labels": [
+        {
+          "for": "project-id",
+          "text": "项目编号"
+        },
+        {
+          "for": "topic",
+          "text": "主题"
+        },
+        {
+          "for": "exercise-date",
+          "text": "练习日期"
+        },
+        {
+          "for": "notes",
+          "text": "备注"
+        }
+      ],
+      "values": [
+        {
+          "id": "project-id",
+          "value": "SYN-01"
+        },
+        {
+          "id": "topic",
+          "value": "键盘练习"
+        },
+        {
+          "id": "exercise-date",
+          "value": ""
+        },
+        {
+          "id": "notes",
+          "value": ""
+        }
+      ],
+      "screenshot": {
+        "file": "materials/ch08/browser-observation/forward-3.png",
+        "sha256": "59383707fd6e297a2cb44c6c2023c61648c6f34ee1631538dbf289c921945a88"
+      }
+    },
+    {
+      "step": 4,
+      "key": "Tab",
+      "id": "exercise-date",
+      "tag": "INPUT",
+      "value": "",
+      "focusVisible": true,
+      "outline": "rgb(23, 78, 166) solid 3px",
+      "labels": [
+        {
+          "for": "project-id",
+          "text": "项目编号"
+        },
+        {
+          "for": "topic",
+          "text": "主题"
+        },
+        {
+          "for": "exercise-date",
+          "text": "练习日期"
+        },
+        {
+          "for": "notes",
+          "text": "备注"
+        }
+      ],
+      "values": [
+        {
+          "id": "project-id",
+          "value": "SYN-01"
+        },
+        {
+          "id": "topic",
+          "value": "键盘练习"
+        },
+        {
+          "id": "exercise-date",
+          "value": ""
+        },
+        {
+          "id": "notes",
+          "value": ""
+        }
+      ],
+      "screenshot": null
+    },
+    {
+      "step": 5,
+      "key": "Tab",
+      "id": "exercise-date",
+      "tag": "INPUT",
+      "value": "",
+      "focusVisible": true,
+      "outline": "rgb(23, 78, 166) solid 3px",
+      "labels": [
+        {
+          "for": "project-id",
+          "text": "项目编号"
+        },
+        {
+          "for": "topic",
+          "text": "主题"
+        },
+        {
+          "for": "exercise-date",
+          "text": "练习日期"
+        },
+        {
+          "for": "notes",
+          "text": "备注"
+        }
+      ],
+      "values": [
+        {
+          "id": "project-id",
+          "value": "SYN-01"
+        },
+        {
+          "id": "topic",
+          "value": "键盘练习"
+        },
+        {
+          "id": "exercise-date",
+          "value": ""
+        },
+        {
+          "id": "notes",
+          "value": ""
+        }
+      ],
+      "screenshot": null
+    },
+    {
+      "step": 6,
+      "key": "Tab",
+      "id": "exercise-date",
+      "tag": "INPUT",
+      "value": "",
+      "focusVisible": false,
+      "outline": "rgb(23, 78, 166) solid 3px",
+      "labels": [
+        {
+          "for": "project-id",
+          "text": "项目编号"
+        },
+        {
+          "for": "topic",
+          "text": "主题"
+        },
+        {
+          "for": "exercise-date",
+          "text": "练习日期"
+        },
+        {
+          "for": "notes",
+          "text": "备注"
+        }
+      ],
+      "values": [
+        {
+          "id": "project-id",
+          "value": "SYN-01"
+        },
+        {
+          "id": "topic",
+          "value": "键盘练习"
+        },
+        {
+          "id": "exercise-date",
+          "value": ""
+        },
+        {
+          "id": "notes",
+          "value": ""
+        }
+      ],
+      "screenshot": {
+        "file": "materials/ch08/browser-observation/forward-6.png",
+        "sha256": "eae16857abab325ef3ab07d92d12573af785c81eea4e2e30fd63ea290bf2bc00"
+      }
+    },
+    {
+      "step": 7,
+      "key": "Tab",
+      "id": "notes",
+      "tag": "TEXTAREA",
+      "value": "仅使用虚构练习输入",
+      "focusVisible": true,
+      "outline": "rgb(23, 78, 166) solid 3px",
+      "labels": [
+        {
+          "for": "project-id",
+          "text": "项目编号"
+        },
+        {
+          "for": "topic",
+          "text": "主题"
+        },
+        {
+          "for": "exercise-date",
+          "text": "练习日期"
+        },
+        {
+          "for": "notes",
+          "text": "备注"
+        }
+      ],
+      "values": [
+        {
+          "id": "project-id",
+          "value": "SYN-01"
+        },
+        {
+          "id": "topic",
+          "value": "键盘练习"
+        },
+        {
+          "id": "exercise-date",
+          "value": ""
+        },
+        {
+          "id": "notes",
+          "value": "仅使用虚构练习输入"
+        }
+      ],
+      "screenshot": {
+        "file": "materials/ch08/browser-observation/forward-7.png",
+        "sha256": "35144aae6603d190590c90f86aa7c85d07e5c8d717957b53c8fe1bcac88a0085"
+      }
+    }
+  ],
+  "reverse": [
+    {
+      "step": 1,
+      "key": "Shift+Tab",
+      "id": "exercise-date",
+      "tag": "INPUT",
+      "value": "",
+      "focusVisible": false,
+      "outline": "rgb(23, 78, 166) solid 3px",
+      "labels": [
+        {
+          "for": "project-id",
+          "text": "项目编号"
+        },
+        {
+          "for": "topic",
+          "text": "主题"
+        },
+        {
+          "for": "exercise-date",
+          "text": "练习日期"
+        },
+        {
+          "for": "notes",
+          "text": "备注"
+        }
+      ],
+      "values": [
+        {
+          "id": "project-id",
+          "value": "SYN-01"
+        },
+        {
+          "id": "topic",
+          "value": "键盘练习"
+        },
+        {
+          "id": "exercise-date",
+          "value": ""
+        },
+        {
+          "id": "notes",
+          "value": "仅使用虚构练习输入"
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "key": "Shift+Tab",
+      "id": "exercise-date",
+      "tag": "INPUT",
+      "value": "",
+      "focusVisible": true,
+      "outline": "rgb(23, 78, 166) solid 3px",
+      "labels": [
+        {
+          "for": "project-id",
+          "text": "项目编号"
+        },
+        {
+          "for": "topic",
+          "text": "主题"
+        },
+        {
+          "for": "exercise-date",
+          "text": "练习日期"
+        },
+        {
+          "for": "notes",
+          "text": "备注"
+        }
+      ],
+      "values": [
+        {
+          "id": "project-id",
+          "value": "SYN-01"
+        },
+        {
+          "id": "topic",
+          "value": "键盘练习"
+        },
+        {
+          "id": "exercise-date",
+          "value": ""
+        },
+        {
+          "id": "notes",
+          "value": "仅使用虚构练习输入"
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "key": "Shift+Tab",
+      "id": "exercise-date",
+      "tag": "INPUT",
+      "value": "",
+      "focusVisible": true,
+      "outline": "rgb(23, 78, 166) solid 3px",
+      "labels": [
+        {
+          "for": "project-id",
+          "text": "项目编号"
+        },
+        {
+          "for": "topic",
+          "text": "主题"
+        },
+        {
+          "for": "exercise-date",
+          "text": "练习日期"
+        },
+        {
+          "for": "notes",
+          "text": "备注"
+        }
+      ],
+      "values": [
+        {
+          "id": "project-id",
+          "value": "SYN-01"
+        },
+        {
+          "id": "topic",
+          "value": "键盘练习"
+        },
+        {
+          "id": "exercise-date",
+          "value": ""
+        },
+        {
+          "id": "notes",
+          "value": "仅使用虚构练习输入"
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "key": "Shift+Tab",
+      "id": "exercise-date",
+      "tag": "INPUT",
+      "value": "",
+      "focusVisible": true,
+      "outline": "rgb(23, 78, 166) solid 3px",
+      "labels": [
+        {
+          "for": "project-id",
+          "text": "项目编号"
+        },
+        {
+          "for": "topic",
+          "text": "主题"
+        },
+        {
+          "for": "exercise-date",
+          "text": "练习日期"
+        },
+        {
+          "for": "notes",
+          "text": "备注"
+        }
+      ],
+      "values": [
+        {
+          "id": "project-id",
+          "value": "SYN-01"
+        },
+        {
+          "id": "topic",
+          "value": "键盘练习"
+        },
+        {
+          "id": "exercise-date",
+          "value": ""
+        },
+        {
+          "id": "notes",
+          "value": "仅使用虚构练习输入"
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "key": "Shift+Tab",
+      "id": "topic",
+      "tag": "INPUT",
+      "value": "键盘练习",
+      "focusVisible": true,
+      "outline": "rgb(23, 78, 166) solid 3px",
+      "labels": [
+        {
+          "for": "project-id",
+          "text": "项目编号"
+        },
+        {
+          "for": "topic",
+          "text": "主题"
+        },
+        {
+          "for": "exercise-date",
+          "text": "练习日期"
+        },
+        {
+          "for": "notes",
+          "text": "备注"
+        }
+      ],
+      "values": [
+        {
+          "id": "project-id",
+          "value": "SYN-01"
+        },
+        {
+          "id": "topic",
+          "value": "键盘练习"
+        },
+        {
+          "id": "exercise-date",
+          "value": ""
+        },
+        {
+          "id": "notes",
+          "value": "仅使用虚构练习输入"
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "key": "Shift+Tab",
+      "id": "project-id",
+      "tag": "INPUT",
+      "value": "SYN-01",
+      "focusVisible": true,
+      "outline": "rgb(23, 78, 166) solid 3px",
+      "labels": [
+        {
+          "for": "project-id",
+          "text": "项目编号"
+        },
+        {
+          "for": "topic",
+          "text": "主题"
+        },
+        {
+          "for": "exercise-date",
+          "text": "练习日期"
+        },
+        {
+          "for": "notes",
+          "text": "备注"
+        }
+      ],
+      "values": [
+        {
+          "id": "project-id",
+          "value": "SYN-01"
+        },
+        {
+          "id": "topic",
+          "value": "键盘练习"
+        },
+        {
+          "id": "exercise-date",
+          "value": ""
+        },
+        {
+          "id": "notes",
+          "value": "仅使用虚构练习输入"
+        }
+      ]
+    }
+  ],
+  "requests": [
+    "file:///home/reggie/vscode_folder/jiaocai/materials/ch08/practice/e05-keyboard-walkthrough.html",
+    "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSJXaW5kb3dUZXh0IiBkPSJNMjAgM2gtMVYxaC0ydjJIN1YxSDV2Mkg0Yy0xLjEgMC0yIC45LTIgMnYxNmMwIDEuMS45IDIgMiAyaDE2YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgMThINFY4aDE2djEzeiIvPjxwYXRoIGZpbGw9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMHoiLz48L3N2Zz4="
+  ],
+  "actual_unique_field_route": [
+    "project-id",
+    "topic",
+    "exercise-date",
+    "notes"
+  ],
+  "limits": "One Linux Chrome headless environment. Native date parts may consume several Tab steps. No student trial, second browser engine, screen reader or physical keyboard/human acceptance."
+}

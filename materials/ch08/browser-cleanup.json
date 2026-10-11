@@ -1,0 +1,7 @@
+{
+  "functional_keyboard_checks": "PASS in actual final run",
+  "process_exit": 1,
+  "reason": "Owned temporary profile cleanup ENOTEMPTY after successful evidence write; no functional assertion failed.",
+  "parent_recovery": "Exact owned temporary directory removed; absence verified. Cleanup now includes bounded filesystem maxRetries5/retryDelay200.",
+  "temporary_profile_absent": true
+}

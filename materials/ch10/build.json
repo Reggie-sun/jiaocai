@@ -1,0 +1,30 @@
+{
+  "template": "templates/textbook-style-v1.0.dotx",
+  "template_sha256": "eef8ce505c3d9afb3493e61af1f38ee26bca6ff9a0aa12f7ad3e2a8cacad6473",
+  "manuscript": "manuscripts/ch10-layout/ch10.md",
+  "manuscript_sha256": "865a3e602a186022aba11a60c46dc8197080370a4258d339fab7bf72cbd5b0dc",
+  "docx_sha256": "4d957c1155e623a6f6c5e3c4b54f312e9a3371c95033f758fb4a758ceb541b05",
+  "style": "textbook-style-v1.0",
+  "toc_cached_pages": {
+    "10.1 技术背景下的领导力内涵：愿景、影响力、赋能他人、决策力、沟通力，协作能力。聆听，欣赏，客观表达。": 4,
+    "10.2 在项目团队中展现领导力：目标设定、任务分配、冲突调解、激励成员。": 18,
+    "10.3 技术责任与伦理：在跨界应用中思考技术的边界与社会影响。": 34,
+    "章末综合训练": 52,
+    "本章回顾": 60,
+    "关键术语": 61,
+    "参考解与讨论": 62,
+    "参考文献": 70
+  },
+  "toc_headings": [
+    "10.1 技术背景下的领导力内涵：愿景、影响力、赋能他人、决策力、沟通力，协作能力。聆听，欣赏，客观表达。",
+    "10.2 在项目团队中展现领导力：目标设定、任务分配、冲突调解、激励成员。",
+    "10.3 技术责任与伦理：在跨界应用中思考技术的边界与社会影响。",
+    "章末综合训练",
+    "本章回顾",
+    "关键术语",
+    "参考解与讨论",
+    "参考文献"
+  ],
+  "method": "Reused template styles and geometry; task-local chapter counter/numbering starts at the selected chapter, current header and answer bookmarks; native SEQ/REF/TOC/PAGEREF/PAGE preserved. No final DOCX LibreOffice roundtrip.",
+  "word_native_execution": "NOT_EVALUATED"
+}

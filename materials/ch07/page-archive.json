@@ -1,0 +1,8 @@
+{
+  "chapter": 7,
+  "archive": "materials/ch07/final-pages.zip",
+  "sha256": "5340ed8ed3e0349df2c2c6bdee033dd4eeaeb4c3e4b39da47e2f1ca1d2eddba3",
+  "pages": 64,
+  "crc_and_every_uncompressed_page_hash_verified": true,
+  "restore": "Unzip final-pages.zip into materials/ch07/pages-final; compare page-review.json hashes."
+}

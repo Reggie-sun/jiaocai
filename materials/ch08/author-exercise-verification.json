@@ -1,0 +1,219 @@
+{
+  "status": "PASS",
+  "scope": "Chapter 8 exercise blocks and delayed answers, table order, two-week time budget, E03 independent scenario, E05 offline fixtures, and recalculated E06/E07 CSV facts",
+  "chapter_sha256": "d6e12eef8cf77b60ae2bee9d0b0bd9d2b254a1503b8afc516c2331e2b16ab1d8",
+  "data_sha256": "e91bdc6c28e33cb3969fc5559c5fef18a6f6f30eeb3f12ce0f8960a03da79698",
+  "exercise_count": 7,
+  "exercises": [
+    {
+      "id": "E01",
+      "task_fields": [
+        "材料：",
+        "任务：",
+        "成果：",
+        "评价标准："
+      ],
+      "answer_at_end": true
+    },
+    {
+      "id": "E02",
+      "task_fields": [
+        "材料：",
+        "任务：",
+        "成果：",
+        "评价标准："
+      ],
+      "answer_at_end": true
+    },
+    {
+      "id": "E03",
+      "task_fields": [
+        "材料：",
+        "任务：",
+        "成果：",
+        "评价标准："
+      ],
+      "answer_at_end": true
+    },
+    {
+      "id": "E04",
+      "task_fields": [
+        "材料：",
+        "任务：",
+        "成果：",
+        "评价标准："
+      ],
+      "answer_at_end": true
+    },
+    {
+      "id": "E05",
+      "task_fields": [
+        "材料：",
+        "任务：",
+        "成果：",
+        "评价标准："
+      ],
+      "answer_at_end": true
+    },
+    {
+      "id": "E06",
+      "task_fields": [
+        "材料：",
+        "任务：",
+        "成果：",
+        "评价标准："
+      ],
+      "answer_at_end": true
+    },
+    {
+      "id": "E07",
+      "task_fields": [
+        "材料：",
+        "任务：",
+        "成果：",
+        "评价标准："
+      ],
+      "answer_at_end": true
+    }
+  ],
+  "table_ids_in_first_appearance_order": [
+    "8-1",
+    "8-2",
+    "8-3",
+    "8-4",
+    "8-5"
+  ],
+  "two_week_schedule": {
+    "day_count": 14,
+    "week_one_minutes": 230,
+    "week_two_minutes": 215,
+    "planned_total_minutes": 445,
+    "available_minutes": 480,
+    "remaining_minutes": 35,
+    "checkpoint_days": [
+      7,
+      14
+    ],
+    "day_7_checks_committed_and_uncommitted_state": true,
+    "day_8_creates_second_commit": true
+  },
+  "e03_independent_scenario": {
+    "product": "虚构数据库 MapleDB",
+    "version": "4.2",
+    "documented_default_when_omitted": "disabled",
+    "runtime_override_checks": [
+      "configuration file layers",
+      "environment variables",
+      "command-line arguments",
+      "rendered deployment template",
+      "minimal idempotent timeout test with version/config/log"
+    ],
+    "answer_separates_documentation_from_runtime": true
+  },
+  "e05_fixture_verification": {
+    "ordered_labels": [
+      "项目编号",
+      "主题",
+      "练习日期",
+      "备注"
+    ],
+    "field_count": 4,
+    "offline_static_html": true,
+    "blank_record_rows": 1,
+    "blank_observation_rows": 4,
+    "answer_makes_no_browser_execution_claim": true
+  },
+  "e06_fixture_recalculation": {
+    "data_rows": 7,
+    "duplicate_record_ids": [
+      "r03"
+    ],
+    "empty_score_rows": 1,
+    "score_91_rows": 2
+  },
+  "e07_data_recalculation": {
+    "baseline": {
+      "data_rows": 6,
+      "duplicate_keys": [
+        {
+          "date": "2026-04-03",
+          "station_id": "ST01",
+          "count": 2
+        }
+      ],
+      "missing_by_field": {
+        "temperature_c": 1,
+        "rainfall_mm": 0
+      },
+      "candidate_values_for_review": {
+        "temperature_c": [
+          "43.8"
+        ]
+      },
+      "semantic_mismatch_values": {
+        "rainfall_mm": [
+          "-2.0"
+        ]
+      }
+    },
+    "transfer": {
+      "data_rows": 5,
+      "duplicate_keys": [],
+      "missing_by_field": {
+        "temperature_c": 0,
+        "rainfall_mm": 1
+      },
+      "candidate_values_for_review": {
+        "temperature_c": [
+          "88.0"
+        ],
+        "rainfall_mm": []
+      },
+      "semantic_mismatch_values": {
+        "rainfall_mm": []
+      }
+    },
+    "dictionary_fields_and_units_checked": [
+      "date: YYYY-MM-DD",
+      "station_id: text",
+      "temperature_c: °C",
+      "rainfall_mm: mm"
+    ],
+    "missing_sentinel": "NA",
+    "semantic_rule_review": {
+      "nonnegative_quantity_fields": [
+        "rainfall_mm"
+      ],
+      "baseline_negative_rainfall_is_semantic_mismatch": true,
+      "cause_and_processing_remain_unresolved": true,
+      "raw_value_preserved_without_auto_delete_or_fill": true,
+      "required_follow_up": "verify source value, encoding, or field definition; preserve the raw CSV; do not automatically delete or fill"
+    },
+    "license_scope": "CC0 1.0 applies only to the two author-created synthetic CSVs",
+    "dictionary_does_not_leak_answer_facts": true,
+    "raw_data_preserved": true
+  },
+  "e07_capstone_schedule_recalculation": {
+    "activity_count": 9,
+    "week_one_minutes": 150,
+    "week_two_minutes": 150,
+    "planned_total_minutes": 300,
+    "two_week_budget_minutes": 360,
+    "weekly_budget_minutes": 180,
+    "remaining_minutes": 60
+  },
+  "practice_file_sha256": {
+    "materials/ch08/practice/e05-keyboard-walkthrough.html": "37a5a385c0d4232e744eeefcb2f9cbf5b00f1edd93a37c73101156bb3610d47b",
+    "materials/ch08/practice/e05-empty-record.csv": "743a5f156d83b1b0495648c97f1765e8282ee4c856f73b1337ba6dfcf89a0a90",
+    "materials/ch08/practice/e05-walkthrough-observations.csv": "741d621ad3aa2f93dc1584e7c01360de22b879e2fde719cfb239db91b8bfdcb9",
+    "materials/ch08/practice/e07-baseline.csv": "c8ad414bf18d25a8733a6c150b03bd54986d55bd135f8f30509bd4a4fa3cfdd7",
+    "materials/ch08/practice/e07-transfer.csv": "0a9e73b0f4ff31b9b8dfbd2385f0815655ed1b96e48005e43b3e18504e8f0e9c",
+    "materials/ch08/practice/e07-data-dictionary.md": "c73d74e117b338412b1a5e9f9caca1023c0cb66d6275d7a21aa2cd30dfc99507"
+  },
+  "limitations": [
+    "PASS confirms only the mechanical content and arithmetic checks encoded here.",
+    "It does not establish that a learner executed the plan, retained skills, or achieved transfer.",
+    "It does not establish actual browser behavior; E05 results require learner execution in a stated environment.",
+    "It does not replace independent subject-matter or teaching review."
+  ]
+}

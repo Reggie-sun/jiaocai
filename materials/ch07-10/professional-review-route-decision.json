@@ -1,0 +1,221 @@
+{
+  "original_route": "managed kimi deep/max/1M, Docker qualified",
+  "attempts": [
+    {
+      "scope": "07",
+      "invocation_id": "1ebc2775-799f-4f35-9ca7-7ec634d1ec06",
+      "classification": "UPSTREAM_GENERATION_LIMIT",
+      "requests": 4,
+      "process_seconds": 604.5772187410039,
+      "sealed_generation_tokens": 32000,
+      "observed_full_reads": [
+        {
+          "end_line": 43,
+          "native_tool_use_id": "tool_JoNPjDbFnhRPMTVHrvdqGZy9",
+          "path": "/home/reggie/vscode_folder/jiaocai/specs/ch07.spec.md",
+          "sha256": "1385eac33ad9b91f1a40ba542c59ced087a34fccff67ab1e5069c1f5c0e380c5",
+          "start_line": 1,
+          "status": "complete",
+          "truncated": false
+        },
+        {
+          "end_line": 60,
+          "native_tool_use_id": "tool_qJxB8gHAsstc84fAS2b3s5E8",
+          "path": "/home/reggie/vscode_folder/jiaocai/materials/ch07/author-notes.md",
+          "sha256": "20cc43723be85965b37b574f3e82e09b87aaa8872c1b01f932c625d41b17b2b3",
+          "start_line": 1,
+          "status": "complete",
+          "truncated": false
+        },
+        {
+          "end_line": 673,
+          "native_tool_use_id": "tool_42QpCD9amkgTF3K2yWIpY8vU",
+          "path": "/home/reggie/vscode_folder/jiaocai/manuscripts/ch07/ch07.md",
+          "sha256": "0561f9fcf7751ec9ae2c99405f0f74e8916b4fba1ce6897693353de5eb6ea036",
+          "start_line": 1,
+          "status": "complete",
+          "truncated": false
+        },
+        {
+          "end_line": 71,
+          "native_tool_use_id": "tool_8OmdCSnnHA0Leg9HQnURscBv",
+          "path": "/home/reggie/vscode_folder/jiaocai/specs/authoring-quality.spec.md",
+          "sha256": "7c5c2e24ffb99f6d9e3013c7bcc3e7dc1f4b7d04e9f6af078f6f7057a05c7a14",
+          "start_line": 1,
+          "status": "complete",
+          "truncated": false
+        },
+        {
+          "end_line": 48,
+          "native_tool_use_id": "tool_cOGq8BLq6C4IsCmiUutKO4Sq",
+          "path": "/home/reggie/vscode_folder/jiaocai/materials/ch07-10/growth-excerpts.txt",
+          "sha256": "76e4e957a0d610fcddc922a0c89a3e9085d800a5a03425d0be2cc1049663c65f",
+          "start_line": 1,
+          "status": "complete",
+          "truncated": false
+        },
+        {
+          "end_line": 282,
+          "native_tool_use_id": "tool_7U30unudiAvAP5iUVwGS1dCG",
+          "path": "/home/reggie/vscode_folder/jiaocai/skills/textbook-authoring/SKILL.md",
+          "sha256": "bc08bde674c2dba84c100f9dd0c2e7448b1fd961c1c44fc2986456269a2ec5da",
+          "start_line": 1,
+          "status": "complete",
+          "truncated": false
+        },
+        {
+          "end_line": 35,
+          "native_tool_use_id": "tool_re66mN0bo70YkUoDA2GQAnWW",
+          "path": "/home/reggie/vscode_folder/jiaocai/materials/ch07-10/happiness-metadata.txt",
+          "sha256": "fe5fee3ac70b8224214b8cdf51605f87ae6e15bf3ae4eb2fe9b38ab11502c780",
+          "start_line": 1,
+          "status": "complete",
+          "truncated": false
+        },
+        {
+          "end_line": 181,
+          "native_tool_use_id": "tool_3AKyXyYA29QSEVUdpaSKkAMw",
+          "path": "/home/reggie/vscode_folder/jiaocai/materials/ch07-10/happiness-revisit.txt",
+          "sha256": "bbed7a8586c62008b6c79d377d9906b97a1f2f15fcd6640dc4d28fb3a3777a15",
+          "start_line": 1,
+          "status": "complete",
+          "truncated": false
+        },
+        {
+          "end_line": 33,
+          "native_tool_use_id": "tool_lGQe99n6Qwv8VvmrO5o5l1yZ",
+          "path": "/home/reggie/vscode_folder/jiaocai/plans/ch07.plan.md",
+          "sha256": "2ab9c98ef035cce29d2695f6b233f3bf7120b47cfe50ca51c9b3825eba25fcd1",
+          "start_line": 1,
+          "status": "complete",
+          "truncated": false
+        }
+      ],
+      "usable_report": false
+    },
+    {
+      "scope": "08-09",
+      "invocation_id": "b859f6ca-e9b5-4e16-bac7-88506c23925a",
+      "classification": "UPSTREAM_GENERATION_LIMIT",
+      "requests": 5,
+      "process_seconds": 793.7681898809969,
+      "sealed_generation_tokens": 32000,
+      "observed_full_reads": [
+        {
+          "end_line": 71,
+          "native_tool_use_id": "tool_AFMrQMIVSGo8vZjuWzzT3fHF",
+          "path": "/home/reggie/vscode_folder/jiaocai/specs/authoring-quality.spec.md",
+          "sha256": "7c5c2e24ffb99f6d9e3013c7bcc3e7dc1f4b7d04e9f6af078f6f7057a05c7a14",
+          "start_line": 1,
+          "status": "complete",
+          "truncated": false
+        },
+        {
+          "end_line": 43,
+          "native_tool_use_id": "tool_bjebslS8dSOtBZu61fX1FLla",
+          "path": "/home/reggie/vscode_folder/jiaocai/specs/ch09.spec.md",
+          "sha256": "aaa2382361fa657cc4e8243e5657371c72354ce6e5b249316df24c78eee842b4",
+          "start_line": 1,
+          "status": "complete",
+          "truncated": false
+        },
+        {
+          "end_line": 44,
+          "native_tool_use_id": "tool_sSbkY3o4lxeJ6DMRfPw511Vs",
+          "path": "/home/reggie/vscode_folder/jiaocai/specs/ch08.spec.md",
+          "sha256": "14d9e8703380790b94a51af0d3b7881a79c78d401b3b367bba78b37486eacb44",
+          "start_line": 1,
+          "status": "complete",
+          "truncated": false
+        },
+        {
+          "end_line": 282,
+          "native_tool_use_id": "tool_qBHoUog4h6cVzVOabtEijBaA",
+          "path": "/home/reggie/vscode_folder/jiaocai/skills/textbook-authoring/SKILL.md",
+          "sha256": "bc08bde674c2dba84c100f9dd0c2e7448b1fd961c1c44fc2986456269a2ec5da",
+          "start_line": 1,
+          "status": "complete",
+          "truncated": false
+        },
+        {
+          "end_line": 33,
+          "native_tool_use_id": "tool_w8Tlzf2hjeDaOv9KzJf0Lq1H",
+          "path": "/home/reggie/vscode_folder/jiaocai/plans/ch09.plan.md",
+          "sha256": "213af0a9d65319d4bce5e6efef74fede884d2d3429b7014dfbd7c622fc046671",
+          "start_line": 1,
+          "status": "complete",
+          "truncated": false
+        },
+        {
+          "end_line": 33,
+          "native_tool_use_id": "tool_0F2wT2O7Iff1dDydBgEcphwo",
+          "path": "/home/reggie/vscode_folder/jiaocai/plans/ch08.plan.md",
+          "sha256": "9c7d66233416dc7416bcf3de8775b74748677469c663bc45677cf7dd28cb7a21",
+          "start_line": 1,
+          "status": "complete",
+          "truncated": false
+        },
+        {
+          "end_line": 41,
+          "native_tool_use_id": "tool_nVkfGD2xoMbbtAGacO6y1EYX",
+          "path": "/home/reggie/vscode_folder/jiaocai/materials/ch09/author-notes.md",
+          "sha256": "7330442a7ad5de996c53dd94bdf43c0aa342fd94868fea7c608b11a206a63fbf",
+          "start_line": 1,
+          "status": "complete",
+          "truncated": false
+        },
+        {
+          "end_line": 51,
+          "native_tool_use_id": "tool_GxQjcFQv4cRBrXCG6YpNHRLe",
+          "path": "/home/reggie/vscode_folder/jiaocai/materials/ch08/author-notes.md",
+          "sha256": "21664a754c05bf3bd26b7f9b8ebed8161db5f296640b953804a486caf61155f5",
+          "start_line": 1,
+          "status": "complete",
+          "truncated": false
+        },
+        {
+          "end_line": 691,
+          "native_tool_use_id": "tool_DrLF04cJAJvX2di12ivbSzbg",
+          "path": "/home/reggie/vscode_folder/jiaocai/manuscripts/ch08/ch08.md",
+          "sha256": "ae14ebac87fb13c8c9b1f896bd795b68029590ad3a38b6484174e19bae761724",
+          "start_line": 1,
+          "status": "complete",
+          "truncated": false
+        },
+        {
+          "end_line": 729,
+          "native_tool_use_id": "tool_pbHa4hErsdtOUFENDnUUUhxK",
+          "path": "/home/reggie/vscode_folder/jiaocai/manuscripts/ch09/ch09.md",
+          "sha256": "c9d00d4eceed05b5341b5ad30e1ab2dfe2e224f76be8e755f0d727262f952317",
+          "start_line": 1,
+          "status": "complete",
+          "truncated": false
+        }
+      ],
+      "usable_report": false
+    }
+  ],
+  "decision": "Use one named read-only native professional reviewer for the complete Chapters 7–10 scope after teaching corrections. No further Kimi requests, no partial findings adopted.",
+  "reason": "Two sibling professional-review calls ended with the same generation-limit protocol failure and no report; external-subagent Skill Failed-receipt native route applies. The requests were for distinct chapter slices, not two retries of each slice. Both failed histories remain immutable.",
+  "native_budget": "initial full content reading + at most two evidence-driven targeted re-reviews",
+  "native_identity": "/root/professional_review, reviewer_high, separate actual session from author and teaching reader",
+  "containment_claim": "Native authority comes from its profile/prompt; Kimi Docker proof is not transferred.",
+  "native_execution": {
+    "agent": "/root/professional_review",
+    "profile": "reviewer_high",
+    "authority": "read-only independent professional contents; parent adjudicates",
+    "first_reviews": [
+      "07 complete",
+      "08 complete with PR-0801",
+      "09 complete with PR-0901",
+      "10 complete with PR-1001/02"
+    ],
+    "remaining": [],
+    "limits": "Neither failed Kimi invocation supplies an acceptance verdict.",
+    "closure_reviews": [
+      "08 r2 stable semantic closure plus proven citation-only equivalence",
+      "09 r2 final193e1edc closure",
+      "10 r2 professional correction then r3 final teaching increment closure"
+    ]
+  }
+}

@@ -1,0 +1,480 @@
+{
+  "checks": "PASS",
+  "chapter": 7,
+  "han_characters_approx": 30614,
+  "pages": 64,
+  "tables": 6,
+  "figures": 6,
+  "references": 14,
+  "native_reference_fields": 11,
+  "source_sha256": "d879b469d757c58f4714ae2350a741fa183113d5b38a4b68b2361cc58a0d7fe8",
+  "docx_sha256": "e1a87c74c30a0ccf3fb60c9bca3536e9b7c8eff4a91ae37e56c822259f811050",
+  "pdf_sha256": "f4d80d7bb3e59fa9014a6f1f96865d204238e76303f04726256cc254e935192e",
+  "toc_pages": {
+    "7.1 固定型思维 vs 成长型思维：核心差异与神经科学基础。": 4,
+    "7.2 如何培养成长型思维：看待挑战、努力、批评、他人成功的方式转变。": 13,
+    "7.3 在技术学习和项目挫折中应用成长型思维。案例：知名技术领袖的失败与再起。": 23,
+    "7.4 “幸福公式”解析": 32,
+    "7.5 认知偏差与思维调整": 42,
+    "章末综合训练": 51,
+    "本章回顾": 53,
+    "关键术语": 55,
+    "参考解与讨论": 56,
+    "参考文献": 62
+  },
+  "toc_cache_matches_actual_pages": true,
+  "figure_pages": {
+    "图7-1": 6,
+    "图7-2": 8,
+    "图7-3": 19,
+    "图7-4": 22,
+    "图7-5": 24,
+    "图7-6": 36
+  },
+  "embedded_fonts": [
+    "/BAAAAA+NotoSansCJKsc-Regular",
+    "/CAAAAA+NotoSansCJKsc-Bold",
+    "/DAAAAA+NotoSerifCJKsc-Regular",
+    "/EAAAAA+NotoSansCJKsc-Bold",
+    "/FAAAAA+NotoSerifCJKsc-Regular",
+    "/GAAAAA+NotoSerifCJKsc-Bold",
+    "/HAAAAA+NotoSansCJKsc-Bold",
+    "/IAAAAA+NotoSerifCJKsc-Regular",
+    "/JAAAAA+NotoSerifCJKsc-Regular",
+    "/KAAAAA+NotoSerifCJKsc-Regular",
+    "/LAAAAA+NotoSerifCJKsc-Regular",
+    "/MAAAAA+NotoSerifCJKsc-Bold",
+    "/NAAAAA+NotoSerifCJKsc-Regular",
+    "/OAAAAA+NotoSerifCJKsc-Regular",
+    "/PAAAAA+NotoSerifCJKsc-Regular",
+    "/QAAAAA+NotoSansCJKsc-Bold"
+  ],
+  "page_extents": [
+    {
+      "page": 1,
+      "body_top": 84.5,
+      "body_bottom": 652.1,
+      "images": 0
+    },
+    {
+      "page": 2,
+      "body_top": 83.0,
+      "body_bottom": 663.9,
+      "images": 0
+    },
+    {
+      "page": 3,
+      "body_top": 83.0,
+      "body_bottom": 470.4,
+      "images": 0
+    },
+    {
+      "page": 4,
+      "body_top": 95.0,
+      "body_bottom": 768.9,
+      "images": 0
+    },
+    {
+      "page": 5,
+      "body_top": 81.5,
+      "body_bottom": 760.5,
+      "images": 0
+    },
+    {
+      "page": 6,
+      "body_top": 79.8,
+      "body_bottom": 761.6,
+      "images": 1
+    },
+    {
+      "page": 7,
+      "body_top": 79.8,
+      "body_bottom": 486.0,
+      "images": 0
+    },
+    {
+      "page": 8,
+      "body_top": 385.0,
+      "body_bottom": 736.5,
+      "images": 1
+    },
+    {
+      "page": 9,
+      "body_top": 79.8,
+      "body_bottom": 726.9,
+      "images": 0
+    },
+    {
+      "page": 10,
+      "body_top": 79.8,
+      "body_bottom": 650.2,
+      "images": 0
+    },
+    {
+      "page": 11,
+      "body_top": 81.5,
+      "body_bottom": 751.4,
+      "images": 0
+    },
+    {
+      "page": 12,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 13,
+      "body_top": 79.8,
+      "body_bottom": 747.3,
+      "images": 0
+    },
+    {
+      "page": 14,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 15,
+      "body_top": 79.8,
+      "body_bottom": 706.8,
+      "images": 0
+    },
+    {
+      "page": 16,
+      "body_top": 79.8,
+      "body_bottom": 683.1,
+      "images": 0
+    },
+    {
+      "page": 17,
+      "body_top": 78.7,
+      "body_bottom": 765.8,
+      "images": 0
+    },
+    {
+      "page": 18,
+      "body_top": 79.8,
+      "body_bottom": 650.2,
+      "images": 0
+    },
+    {
+      "page": 19,
+      "body_top": 81.5,
+      "body_bottom": 691.2,
+      "images": 1
+    },
+    {
+      "page": 20,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 21,
+      "body_top": 79.8,
+      "body_bottom": 617.4,
+      "images": 0
+    },
+    {
+      "page": 22,
+      "body_top": 350.7,
+      "body_bottom": 767.9,
+      "images": 1
+    },
+    {
+      "page": 23,
+      "body_top": 79.8,
+      "body_bottom": 747.3,
+      "images": 0
+    },
+    {
+      "page": 24,
+      "body_top": 79.8,
+      "body_bottom": 714.9,
+      "images": 1
+    },
+    {
+      "page": 25,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 26,
+      "body_top": 79.8,
+      "body_bottom": 650.2,
+      "images": 0
+    },
+    {
+      "page": 27,
+      "body_top": 81.5,
+      "body_bottom": 760.5,
+      "images": 0
+    },
+    {
+      "page": 28,
+      "body_top": 79.8,
+      "body_bottom": 715.9,
+      "images": 0
+    },
+    {
+      "page": 29,
+      "body_top": 79.8,
+      "body_bottom": 706.8,
+      "images": 0
+    },
+    {
+      "page": 30,
+      "body_top": 79.8,
+      "body_bottom": 683.1,
+      "images": 0
+    },
+    {
+      "page": 31,
+      "body_top": 78.7,
+      "body_bottom": 733.0,
+      "images": 0
+    },
+    {
+      "page": 32,
+      "body_top": 79.8,
+      "body_bottom": 768.9,
+      "images": 0
+    },
+    {
+      "page": 33,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 34,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 35,
+      "body_top": 79.8,
+      "body_bottom": 715.9,
+      "images": 0
+    },
+    {
+      "page": 36,
+      "body_top": 79.8,
+      "body_bottom": 768.5,
+      "images": 1
+    },
+    {
+      "page": 37,
+      "body_top": 81.5,
+      "body_bottom": 760.5,
+      "images": 0
+    },
+    {
+      "page": 38,
+      "body_top": 79.8,
+      "body_bottom": 641.1,
+      "images": 0
+    },
+    {
+      "page": 39,
+      "body_top": 78.7,
+      "body_bottom": 711.7,
+      "images": 0
+    },
+    {
+      "page": 40,
+      "body_top": 79.8,
+      "body_bottom": 706.8,
+      "images": 0
+    },
+    {
+      "page": 41,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 42,
+      "body_top": 83.0,
+      "body_bottom": 691.2,
+      "images": 0
+    },
+    {
+      "page": 43,
+      "body_top": 81.5,
+      "body_bottom": 727.7,
+      "images": 0
+    },
+    {
+      "page": 44,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 45,
+      "body_top": 79.8,
+      "body_bottom": 650.2,
+      "images": 0
+    },
+    {
+      "page": 46,
+      "body_top": 81.5,
+      "body_bottom": 760.5,
+      "images": 0
+    },
+    {
+      "page": 47,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 48,
+      "body_top": 79.8,
+      "body_bottom": 532.3,
+      "images": 0
+    },
+    {
+      "page": 49,
+      "body_top": 78.7,
+      "body_bottom": 733.0,
+      "images": 0
+    },
+    {
+      "page": 50,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 51,
+      "body_top": 83.0,
+      "body_bottom": 750.9,
+      "images": 0
+    },
+    {
+      "page": 52,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 53,
+      "body_top": 83.0,
+      "body_bottom": 766.0,
+      "images": 0
+    },
+    {
+      "page": 54,
+      "body_top": 79.8,
+      "body_bottom": 715.9,
+      "images": 0
+    },
+    {
+      "page": 55,
+      "body_top": 83.0,
+      "body_bottom": 766.0,
+      "images": 0
+    },
+    {
+      "page": 56,
+      "body_top": 79.8,
+      "body_bottom": 721.0,
+      "images": 0
+    },
+    {
+      "page": 57,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 58,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 59,
+      "body_top": 79.8,
+      "body_bottom": 674.0,
+      "images": 0
+    },
+    {
+      "page": 60,
+      "body_top": 81.5,
+      "body_bottom": 718.6,
+      "images": 0
+    },
+    {
+      "page": 61,
+      "body_top": 79.8,
+      "body_bottom": 715.9,
+      "images": 0
+    },
+    {
+      "page": 62,
+      "body_top": 79.8,
+      "body_bottom": 765.1,
+      "images": 0
+    },
+    {
+      "page": 63,
+      "body_top": 78.7,
+      "body_bottom": 731.8,
+      "images": 0
+    },
+    {
+      "page": 64,
+      "body_top": 78.7,
+      "body_bottom": 135.1,
+      "images": 0
+    }
+  ],
+  "limits": "Correspondence and executable layout checks only; actual page observation and content review recorded separately. Word native refresh, printing, teacher/student acceptance untested.",
+  "preserve_only_parts_byte_identical": [
+    "_rels/.rels",
+    "docProps/app.xml",
+    "word/styles.xml",
+    "word/stylesWithEffects.xml",
+    "word/settings.xml",
+    "word/webSettings.xml",
+    "word/fontTable.xml",
+    "word/theme/theme1.xml",
+    "customXml/item1.xml",
+    "customXml/_rels/item1.xml.rels",
+    "customXml/itemProps1.xml",
+    "word/footer1.xml",
+    "docProps/thumbnail.jpeg"
+  ],
+  "answer_bookmarks": [
+    "E01",
+    "E02",
+    "E03",
+    "E04",
+    "E05",
+    "E06",
+    "E07"
+  ],
+  "reference_first_use_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "table_header_repeat_and_rows_keep_together": true
+}

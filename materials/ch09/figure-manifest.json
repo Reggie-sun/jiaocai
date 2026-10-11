@@ -1,0 +1,184 @@
+{
+  "style": "textbook-style-v1.0",
+  "insert_width_mm": 155,
+  "png_ppi_at_insert": 393,
+  "min_label_pt_at_insert": 10.74,
+  "visual_review": {
+    "status": "color_gray_observed_and_final_source_aligned",
+    "items": [
+      {
+        "id": "图9-1",
+        "observer": "Codex Parent",
+        "observed_color_sha256": "26730c5f0e6ab13d72a688abdb3a0999bcdc49125ba6c0401fdc532511518367",
+        "observed_gray_sha256": "95354a578ea2c14586c607fa4e1ad3d8217b2e85c74a7a33805ce3e16bebc088",
+        "color_and_gray_actually_opened": true,
+        "finding": "读者、交付物和验收链对应，边界未知用虚线区分。",
+        "limits": "Actual image observation; Word insertion-page observation recorded separately.",
+        "source_alignment": "Frozen manuscript caption/source/guide exact correspondence checked"
+      },
+      {
+        "id": "图9-2",
+        "observer": "Codex Parent",
+        "observed_color_sha256": "e3c99676156a827fb4655b0f5672b6fd453dd2e3f53db5e57c0ea43f6ba1e108",
+        "observed_gray_sha256": "7ca5d1f145380902043d2a22e3db27c6608591cf74753ff2225265b2b5d1da53",
+        "color_and_gray_actually_opened": true,
+        "finding": "分叉与汇合依赖可读，评审虚线从左右返回。",
+        "limits": "Actual image observation; Word insertion-page observation recorded separately.",
+        "source_alignment": "Frozen manuscript caption/source/guide exact correspondence checked"
+      },
+      {
+        "id": "图9-3",
+        "observer": "Codex Parent",
+        "observed_color_sha256": "3acfb7b0baae34617a504119db0f28b87f68cb30ec26e7c7af0d84024a748bfe",
+        "observed_gray_sha256": "375c52a6132107963f4e880b6b6ecc83cd3753bab98f137fbf4e4cabe8f3ebc4",
+        "color_and_gray_actually_opened": true,
+        "finding": "六步沟通方向可追踪，中心证据提示不挡箭头。",
+        "limits": "Actual image observation; Word insertion-page observation recorded separately.",
+        "source_alignment": "Frozen manuscript caption/source/guide exact correspondence checked"
+      },
+      {
+        "id": "图9-4",
+        "observer": "Codex Parent",
+        "observed_color_sha256": "ca1ced37a5305c77cc2aca6be50bddec24cb8e3e98ec852955df26c790a98f2e",
+        "observed_gray_sha256": "a56e69efdbd27469af07febf1898054477b403bae58dd2a045d955fe1ffa38d7",
+        "color_and_gray_actually_opened": true,
+        "finding": "满足和未满足/未知两条分支清楚，复核虚线完整。",
+        "limits": "Actual image observation; Word insertion-page observation recorded separately.",
+        "source_alignment": "Frozen manuscript caption/source/guide exact correspondence checked"
+      },
+      {
+        "id": "图9-5",
+        "observer": "Codex Parent",
+        "observed_color_sha256": "ac4ba4e9ab34bc947127b5ece2fd3192a61da423886e8045b0a5068ebb7459c6",
+        "observed_gray_sha256": "9eadf0945119dc145a78e1a3f7101779b8a8ba7843929e11200061e1033233db",
+        "color_and_gray_actually_opened": true,
+        "finding": "返回线沿左侧外缘，不再穿过支持行动文字。",
+        "limits": "Actual image observation; Word insertion-page observation recorded separately.",
+        "source_alignment": "Frozen manuscript caption/source/guide exact correspondence checked"
+      }
+    ],
+    "source_sha256": "193e1edc44e0caf63badcf9c7b7874e88d50f99d20cffa7cf867fd39ebe2a0b7"
+  },
+  "figures": [
+    {
+      "id": "图9-1",
+      "caption": "共同目标到交付验收的对齐链",
+      "source": "来源：作者原创（教学结构图）。",
+      "description": "沿“读者与任务—交付物—验收证据”顺序阅读，每个箭头都应能说明前一步怎样支持后一步；旁侧的“边界与未知”提醒团队把尚未确认的要求留作待决项。",
+      "file": "assets/figures/ch09/fig9-1.png",
+      "png": "assets/figures/ch09/fig9-1.png",
+      "editable_source": "assets/figures/ch09/fig9-1.svg",
+      "grayscale_png": "assets/figures/ch09/fig9-1-gray.png",
+      "sha256": "26730c5f0e6ab13d72a688abdb3a0999bcdc49125ba6c0401fdc532511518367",
+      "gray_sha256": "95354a578ea2c14586c607fa4e1ad3d8217b2e85c74a7a33805ce3e16bebc088",
+      "svg_sha256": "cb94b7296914e4969f501b2b43d4a66d1b845ff24a17b7341261c29fe099f1d0",
+      "dimensions_px": {
+        "width_px": 2400,
+        "height_px": 1107
+      },
+      "insert_width_mm": 155,
+      "png_ppi_at_insert": 393,
+      "min_font_pt_at_insert": 10.74,
+      "min_label_pt_at_insert": 10.74,
+      "declared_min_label_px": 22,
+      "status": "ready",
+      "gray_semantics": "标签、位置、边框和线型承载含义；颜色为辅助。"
+    },
+    {
+      "id": "图9-2",
+      "caption": "成果展任务的依赖关系与返回检查",
+      "source": "来源：作者原创（教学关系图）。",
+      "description": "实线箭头表示后项必须等前项输出，虚线回箭头表示评审可能要求重新检查前项；并行的内容核对与字段结构准备都可从目标确认后开始，但页面整合需要两项结果齐备。",
+      "file": "assets/figures/ch09/fig9-2.png",
+      "png": "assets/figures/ch09/fig9-2.png",
+      "editable_source": "assets/figures/ch09/fig9-2.svg",
+      "grayscale_png": "assets/figures/ch09/fig9-2-gray.png",
+      "sha256": "e3c99676156a827fb4655b0f5672b6fd453dd2e3f53db5e57c0ea43f6ba1e108",
+      "gray_sha256": "7ca5d1f145380902043d2a22e3db27c6608591cf74753ff2225265b2b5d1da53",
+      "svg_sha256": "cc7c8839028a7fe1aae10ebb566b533a4104e45260ea64eeec4a21644d311d59",
+      "dimensions_px": {
+        "width_px": 2400,
+        "height_px": 1707
+      },
+      "insert_width_mm": 155,
+      "png_ppi_at_insert": 393,
+      "min_font_pt_at_insert": 10.74,
+      "min_label_pt_at_insert": 10.74,
+      "declared_min_label_px": 22,
+      "status": "ready",
+      "gray_semantics": "标签、位置、边框和线型承载含义；颜色为辅助。"
+    },
+    {
+      "id": "图9-3",
+      "caption": "从分歧到可核对反馈的沟通循环",
+      "source": "来源：作者原创（教学结构图）。",
+      "description": "顺着“描述情境—给出证据—提出问题—复述确认—决定回应—检查后续”的箭头阅读；若证据不足，循环应回到补证据，而非直接进入归责。",
+      "file": "assets/figures/ch09/fig9-3.png",
+      "png": "assets/figures/ch09/fig9-3.png",
+      "editable_source": "assets/figures/ch09/fig9-3.svg",
+      "grayscale_png": "assets/figures/ch09/fig9-3-gray.png",
+      "sha256": "3acfb7b0baae34617a504119db0f28b87f68cb30ec26e7c7af0d84024a748bfe",
+      "gray_sha256": "375c52a6132107963f4e880b6b6ecc83cd3753bab98f137fbf4e4cabe8f3ebc4",
+      "svg_sha256": "fe0e620822f01869ec2cc994cc7bc590c74c0685ced91a9da2256f10769ae6a7",
+      "dimensions_px": {
+        "width_px": 2400,
+        "height_px": 1133
+      },
+      "insert_width_mm": 155,
+      "png_ppi_at_insert": 393,
+      "min_font_pt_at_insert": 10.74,
+      "min_label_pt_at_insert": 10.74,
+      "declared_min_label_px": 22,
+      "status": "ready",
+      "gray_semantics": "标签、位置、边框和线型承载含义；颜色为辅助。"
+    },
+    {
+      "id": "图9-4",
+      "caption": "团队决策的约束过滤与复核流程",
+      "source": "来源：作者原创（教学流程图）。",
+      "description": "先检查硬约束，未满足或未知的候选先暂停；再比较偏好与证据，记录决定者和理由；新条件触发时返回约束检查。",
+      "file": "assets/figures/ch09/fig9-4.png",
+      "png": "assets/figures/ch09/fig9-4.png",
+      "editable_source": "assets/figures/ch09/fig9-4.svg",
+      "grayscale_png": "assets/figures/ch09/fig9-4-gray.png",
+      "sha256": "ca1ced37a5305c77cc2aca6be50bddec24cb8e3e98ec852955df26c790a98f2e",
+      "gray_sha256": "a56e69efdbd27469af07febf1898054477b403bae58dd2a045d955fe1ffa38d7",
+      "svg_sha256": "51de9849b703741bfae39c884c1f2aa8e497a43a77e90befd08d0d182ab60bd5",
+      "dimensions_px": {
+        "width_px": 2400,
+        "height_px": 1427
+      },
+      "insert_width_mm": 155,
+      "png_ppi_at_insert": 393,
+      "min_font_pt_at_insert": 10.74,
+      "min_label_pt_at_insert": 10.74,
+      "declared_min_label_px": 22,
+      "status": "ready",
+      "gray_semantics": "标签、位置、边框和线型承载含义；颜色为辅助。"
+    },
+    {
+      "id": "图9-5",
+      "caption": "同伴支持与团队复盘的双向闭环",
+      "source": "来源：作者原创（教学结构图）。",
+      "description": "左侧由识别阻碍进入支持行动，支持结果形成任务证据；右侧把证据带入复盘，复盘产生下一次可观察的流程调整，并回到新的共同任务。",
+      "file": "assets/figures/ch09/fig9-5.png",
+      "png": "assets/figures/ch09/fig9-5.png",
+      "editable_source": "assets/figures/ch09/fig9-5.svg",
+      "grayscale_png": "assets/figures/ch09/fig9-5-gray.png",
+      "sha256": "ac4ba4e9ab34bc947127b5ece2fd3192a61da423886e8045b0a5068ebb7459c6",
+      "gray_sha256": "9eadf0945119dc145a78e1a3f7101779b8a8ba7843929e11200061e1033233db",
+      "svg_sha256": "c7fab14bf88e6125be0ebfd031ecc69d51ccd817b1d57daf40f4c900e0316023",
+      "dimensions_px": {
+        "width_px": 2400,
+        "height_px": 1200
+      },
+      "insert_width_mm": 155,
+      "png_ppi_at_insert": 393,
+      "min_font_pt_at_insert": 10.74,
+      "min_label_pt_at_insert": 10.74,
+      "declared_min_label_px": 22,
+      "status": "ready",
+      "gray_semantics": "标签、位置、边框和线型承载含义；颜色为辅助。"
+    }
+  ]
+}
