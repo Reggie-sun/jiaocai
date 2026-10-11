@@ -1,0 +1,12 @@
+{
+  "scope": "blueprint",
+  "stage": "draft",
+  "chapter": null,
+  "title": "十章编写蓝图",
+  "manuscript": "十章编写蓝图.md",
+  "blueprint": null,
+  "required_content": ["学习成果", "实践产物", "章间依赖", "篇幅分配", "教学图", "第九章", "未决事项"],
+  "figures": [],
+  "materials": [],
+  "todos": ["第九章及第十章重组为编写提案，尚待外部确认", "学时与评审意见、校本案例及出版社要求尚未确认", "章级教学图为规划，本轮只制作试写节采用的图"]
+}

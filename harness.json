@@ -90,6 +90,266 @@
   },
   "runs": [
     {
+      "id": "blueprint-20261011",
+      "created_at": "2026-10-10T19:04:02.888324+00:00",
+      "updated_at": "2026-10-10T19:06:45.969434+00:00",
+      "state": "reviewed",
+      "events": [
+        {
+          "at": "2026-10-10T19:04:02.888594+00:00",
+          "action": "start",
+          "state": "started",
+          "details": [
+            "Inputs, spec, policy and engine captured"
+          ]
+        },
+        {
+          "at": "2026-10-10T19:06:01.611632+00:00",
+          "action": "check",
+          "state": "blocked",
+          "details": {
+            "at": "2026-10-10T19:06:01.611364+00:00",
+            "passed": false,
+            "snapshot": {
+              "AI时代的计算思维--跨界创新与终身学习能力培养-教材大纲.docx": "4b2526dd13a07ea1facaeefcef09658b9df46ab4496df6c782c8dc222967d8be",
+              "AI时代的思维训练3.1节样稿.docx": "2fde276942f55dd4cfb00f0036a0d4a8935bd8320cef4c2eb0c47ed707e5aa17",
+              "十章编写蓝图.md": "59ceb9b9a8422de3af3879f53b200a1455cd6e118fac7ac1928275611d750498"
+            },
+            "errors": [
+              "Blueprint needs exactly ten chapter headings, numbered 1–10"
+            ],
+            "pending": [
+              "第九章及第十章重组为编写提案，尚待外部确认",
+              "学时与评审意见、校本案例及出版社要求尚未确认",
+              "章级教学图为规划，本轮只制作试写节采用的图"
+            ],
+            "han_characters_approx": 6353
+          }
+        },
+        {
+          "at": "2026-10-10T19:06:05.287284+00:00",
+          "action": "invalidate",
+          "state": "blocked",
+          "details": [
+            "file changed: 十章编写蓝图.md"
+          ]
+        },
+        {
+          "at": "2026-10-10T19:06:07.598708+00:00",
+          "action": "resume",
+          "state": "started",
+          "details": {
+            "previous_check": {
+              "at": "2026-10-10T19:06:01.611364+00:00",
+              "passed": false,
+              "snapshot": {
+                "AI时代的计算思维--跨界创新与终身学习能力培养-教材大纲.docx": "4b2526dd13a07ea1facaeefcef09658b9df46ab4496df6c782c8dc222967d8be",
+                "AI时代的思维训练3.1节样稿.docx": "2fde276942f55dd4cfb00f0036a0d4a8935bd8320cef4c2eb0c47ed707e5aa17",
+                "十章编写蓝图.md": "59ceb9b9a8422de3af3879f53b200a1455cd6e118fac7ac1928275611d750498"
+              },
+              "errors": [
+                "Blueprint needs exactly ten chapter headings, numbered 1–10"
+              ],
+              "pending": [
+                "第九章及第十章重组为编写提案，尚待外部确认",
+                "学时与评审意见、校本案例及出版社要求尚未确认",
+                "章级教学图为规划，本轮只制作试写节采用的图"
+              ],
+              "han_characters_approx": 6353
+            },
+            "previous_review": null
+          }
+        },
+        {
+          "at": "2026-10-10T19:06:07.637356+00:00",
+          "action": "check",
+          "state": "checked",
+          "details": {
+            "at": "2026-10-10T19:06:07.637112+00:00",
+            "passed": true,
+            "snapshot": {
+              "AI时代的计算思维--跨界创新与终身学习能力培养-教材大纲.docx": "4b2526dd13a07ea1facaeefcef09658b9df46ab4496df6c782c8dc222967d8be",
+              "AI时代的思维训练3.1节样稿.docx": "2fde276942f55dd4cfb00f0036a0d4a8935bd8320cef4c2eb0c47ed707e5aa17",
+              "十章编写蓝图.md": "c881b9b30003308d7d1d9b95605f8ce75140ea3fd6bb58d0231ad2fa769241fc"
+            },
+            "errors": [],
+            "pending": [
+              "第九章及第十章重组为编写提案，尚待外部确认",
+              "学时与评审意见、校本案例及出版社要求尚未确认",
+              "章级教学图为规划，本轮只制作试写节采用的图"
+            ],
+            "han_characters_approx": 6352
+          }
+        },
+        {
+          "at": "2026-10-10T19:06:23.610347+00:00",
+          "action": "review",
+          "state": "blocked",
+          "details": [
+            "Missing file: runs/blueprint-20261011.review.json"
+          ]
+        },
+        {
+          "at": "2026-10-10T19:06:34.953827+00:00",
+          "action": "rejected:review",
+          "state": "blocked",
+          "details": [
+            "Invalid state transition"
+          ]
+        },
+        {
+          "at": "2026-10-10T19:06:45.877293+00:00",
+          "action": "check",
+          "state": "checked",
+          "details": {
+            "at": "2026-10-10T19:06:45.877011+00:00",
+            "passed": true,
+            "snapshot": {
+              "AI时代的计算思维--跨界创新与终身学习能力培养-教材大纲.docx": "4b2526dd13a07ea1facaeefcef09658b9df46ab4496df6c782c8dc222967d8be",
+              "AI时代的思维训练3.1节样稿.docx": "2fde276942f55dd4cfb00f0036a0d4a8935bd8320cef4c2eb0c47ed707e5aa17",
+              "十章编写蓝图.md": "c881b9b30003308d7d1d9b95605f8ce75140ea3fd6bb58d0231ad2fa769241fc"
+            },
+            "errors": [],
+            "pending": [
+              "第九章及第十章重组为编写提案，尚待外部确认",
+              "学时与评审意见、校本案例及出版社要求尚未确认",
+              "章级教学图为规划，本轮只制作试写节采用的图"
+            ],
+            "han_characters_approx": 6352
+          }
+        },
+        {
+          "at": "2026-10-10T19:06:45.969434+00:00",
+          "action": "review",
+          "state": "reviewed",
+          "details": {
+            "at": "2026-10-10T19:06:45.969421+00:00",
+            "path": "runs/blueprint-20261011.review.json",
+            "sha256": "c6a53012b1fd3ed1e7a5200355dc74fa229c4367cbfa6d10615c1b532176e9ef",
+            "evidence": {
+              "reviewer": "Codex主代理（蓝图内容与教学自审）",
+              "reviewed_at": "2026-10-10T19:06:45.935718+00:00",
+              "policy_sha256": "3f479441724bc50490ecde1c186570b0c81e3cf8cc073fa3d89af5aa679a7288",
+              "engine_sha256": "76bd3913e292c1246d47ded9ea3fee9350dae7ab54ec4640d4da56dbdd9a43d5",
+              "snapshot": {
+                "AI时代的计算思维--跨界创新与终身学习能力培养-教材大纲.docx": "4b2526dd13a07ea1facaeefcef09658b9df46ab4496df6c782c8dc222967d8be",
+                "AI时代的思维训练3.1节样稿.docx": "2fde276942f55dd4cfb00f0036a0d4a8935bd8320cef4c2eb0c47ed707e5aa17",
+                "十章编写蓝图.md": "c881b9b30003308d7d1d9b95605f8ce75140ea3fd6bb58d0231ad2fa769241fc"
+              },
+              "checks": {
+                "teaching": {
+                  "status": "pass",
+                  "notes": "实际通读蓝图全部十章：每章有可观察学习成果、实践产物、评价依据及先备边界；48个节标题形成由问题表示到迁移、项目、学习与责任的递进。第六章最小协作工具使其不等待第九章，避免循环依赖。"
+                },
+                "sources": {
+                  "status": "pass",
+                  "notes": "对照两份实际Word正文和表格、现状与讨论主代理裁定：提纲正文跳过第九章而优化说明提领导力在第九章；重组明确标为提案。核算实施表10+14+10=34，未把32学时或校本占位当已确认事实。待用技术与研究论断明确要求随章查证，本蓝图未声称已验证它们。"
+                },
+                "exercises": {
+                  "status": "pass",
+                  "notes": "检查十章实践产物和评价与学习成果的对应。本scope是编写蓝图，章级练习为设计，不声称已提供各章全套题材或参考答案；本轮只制作1.1配套材料。"
+                },
+                "figures": {
+                  "status": "pass",
+                  "notes": "逐项检查28张主要教学图的编号、题意、对应节、读图任务、制作方式与来源类型，全部明确为已规划；未把图表计划当实图。"
+                },
+                "consistency": {
+                  "status": "pass",
+                  "notes": "正文章标题恰为第一至十章；48个二级节唯一。每章节预算加章首章末2千字分别30/34/32/32/35/38/30/32/32/31，总326千字；全书术语首次讲解与后续深化边界已区分。初次check误将第九章补缺说明标题识别为章，已改标题并resume，保留失败历史，当前check通过。"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "spec": {
+        "scope": "blueprint",
+        "stage": "draft",
+        "chapter": null,
+        "title": "十章编写蓝图",
+        "manuscript": "十章编写蓝图.md",
+        "blueprint": null,
+        "required_content": [
+          "学习成果",
+          "实践产物",
+          "章间依赖",
+          "篇幅分配",
+          "教学图",
+          "第九章",
+          "未决事项"
+        ],
+        "figures": [],
+        "materials": [],
+        "todos": [
+          "第九章及第十章重组为编写提案，尚待外部确认",
+          "学时与评审意见、校本案例及出版社要求尚未确认",
+          "章级教学图为规划，本轮只制作试写节采用的图"
+        ]
+      },
+      "spec_path": "runs/blueprint-20261011.spec.json",
+      "spec_sha256": "b3ae21b7791ab1bb3cc1452863ad0fec8f9961635fe32992a630b97592fa1dd0",
+      "policy_sha256": "3f479441724bc50490ecde1c186570b0c81e3cf8cc073fa3d89af5aa679a7288",
+      "engine_sha256": "76bd3913e292c1246d47ded9ea3fee9350dae7ab54ec4640d4da56dbdd9a43d5",
+      "inputs": {
+        "AI时代的计算思维--跨界创新与终身学习能力培养-教材大纲.docx": "4b2526dd13a07ea1facaeefcef09658b9df46ab4496df6c782c8dc222967d8be",
+        "AI时代的思维训练3.1节样稿.docx": "2fde276942f55dd4cfb00f0036a0d4a8935bd8320cef4c2eb0c47ed707e5aa17"
+      },
+      "check": {
+        "at": "2026-10-10T19:06:45.877011+00:00",
+        "passed": true,
+        "snapshot": {
+          "AI时代的计算思维--跨界创新与终身学习能力培养-教材大纲.docx": "4b2526dd13a07ea1facaeefcef09658b9df46ab4496df6c782c8dc222967d8be",
+          "AI时代的思维训练3.1节样稿.docx": "2fde276942f55dd4cfb00f0036a0d4a8935bd8320cef4c2eb0c47ed707e5aa17",
+          "十章编写蓝图.md": "c881b9b30003308d7d1d9b95605f8ce75140ea3fd6bb58d0231ad2fa769241fc"
+        },
+        "errors": [],
+        "pending": [
+          "第九章及第十章重组为编写提案，尚待外部确认",
+          "学时与评审意见、校本案例及出版社要求尚未确认",
+          "章级教学图为规划，本轮只制作试写节采用的图"
+        ],
+        "han_characters_approx": 6352
+      },
+      "review": {
+        "at": "2026-10-10T19:06:45.969421+00:00",
+        "path": "runs/blueprint-20261011.review.json",
+        "sha256": "c6a53012b1fd3ed1e7a5200355dc74fa229c4367cbfa6d10615c1b532176e9ef",
+        "evidence": {
+          "reviewer": "Codex主代理（蓝图内容与教学自审）",
+          "reviewed_at": "2026-10-10T19:06:45.935718+00:00",
+          "policy_sha256": "3f479441724bc50490ecde1c186570b0c81e3cf8cc073fa3d89af5aa679a7288",
+          "engine_sha256": "76bd3913e292c1246d47ded9ea3fee9350dae7ab54ec4640d4da56dbdd9a43d5",
+          "snapshot": {
+            "AI时代的计算思维--跨界创新与终身学习能力培养-教材大纲.docx": "4b2526dd13a07ea1facaeefcef09658b9df46ab4496df6c782c8dc222967d8be",
+            "AI时代的思维训练3.1节样稿.docx": "2fde276942f55dd4cfb00f0036a0d4a8935bd8320cef4c2eb0c47ed707e5aa17",
+            "十章编写蓝图.md": "c881b9b30003308d7d1d9b95605f8ce75140ea3fd6bb58d0231ad2fa769241fc"
+          },
+          "checks": {
+            "teaching": {
+              "status": "pass",
+              "notes": "实际通读蓝图全部十章：每章有可观察学习成果、实践产物、评价依据及先备边界；48个节标题形成由问题表示到迁移、项目、学习与责任的递进。第六章最小协作工具使其不等待第九章，避免循环依赖。"
+            },
+            "sources": {
+              "status": "pass",
+              "notes": "对照两份实际Word正文和表格、现状与讨论主代理裁定：提纲正文跳过第九章而优化说明提领导力在第九章；重组明确标为提案。核算实施表10+14+10=34，未把32学时或校本占位当已确认事实。待用技术与研究论断明确要求随章查证，本蓝图未声称已验证它们。"
+            },
+            "exercises": {
+              "status": "pass",
+              "notes": "检查十章实践产物和评价与学习成果的对应。本scope是编写蓝图，章级练习为设计，不声称已提供各章全套题材或参考答案；本轮只制作1.1配套材料。"
+            },
+            "figures": {
+              "status": "pass",
+              "notes": "逐项检查28张主要教学图的编号、题意、对应节、读图任务、制作方式与来源类型，全部明确为已规划；未把图表计划当实图。"
+            },
+            "consistency": {
+              "status": "pass",
+              "notes": "正文章标题恰为第一至十章；48个二级节唯一。每章节预算加章首章末2千字分别30/34/32/32/35/38/30/32/32/31，总326千字；全书术语首次讲解与后续深化边界已区分。初次check误将第九章补缺说明标题识别为章，已改标题并resume，保留失败历史，当前check通过。"
+            }
+          }
+        }
+      }
+    },
+    {
       "id": "ch01-draft",
       "created_at": "2026-10-10T20:04:32.104349+00:00",
       "updated_at": "2026-10-10T20:07:26.375397+00:00",
