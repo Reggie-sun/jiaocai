@@ -1,0 +1,251 @@
+{
+  "chapter": 4,
+  "verified_on": "2026-10-12",
+  "script": "materials/ch04/verify_exercises.py",
+  "input": "materials/ch04/exercise-data.json",
+  "data_status": "original teaching simulations; not real institutional or model performance data",
+  "checks_run": 40,
+  "status": "PASS",
+  "checks": [
+    {
+      "id": "s4_1_demo_percent",
+      "actual": 90.0,
+      "expected": 90.0,
+      "status": "PASS"
+    },
+    {
+      "id": "high_preparation_ai_percent",
+      "actual": 75.0,
+      "expected": 75.0,
+      "status": "PASS"
+    },
+    {
+      "id": "high_preparation_no_ai_percent",
+      "actual": 95.0,
+      "expected": 95.0,
+      "status": "PASS"
+    },
+    {
+      "id": "low_preparation_ai_percent",
+      "actual": 10.0,
+      "expected": 10.0,
+      "status": "PASS"
+    },
+    {
+      "id": "low_preparation_no_ai_percent",
+      "actual": 10.0,
+      "expected": 10.0,
+      "status": "PASS"
+    },
+    {
+      "id": "overall_ai_percent",
+      "actual": 62.0,
+      "expected": 62.0,
+      "status": "PASS"
+    },
+    {
+      "id": "overall_no_ai_percent",
+      "actual": 27.0,
+      "expected": 27.0,
+      "status": "PASS"
+    },
+    {
+      "id": "s4_2_screening_total",
+      "actual": 1000,
+      "expected": 1000,
+      "status": "PASS"
+    },
+    {
+      "id": "s4_2_screening_recall_percent",
+      "actual": 80.0,
+      "expected": 80.0,
+      "status": "PASS"
+    },
+    {
+      "id": "s4_2_screening_false_positive_rate_percent",
+      "actual": 15.0,
+      "expected": 15.0,
+      "status": "PASS"
+    },
+    {
+      "id": "s4_2_screening_accuracy_percent",
+      "actual": 84.4,
+      "expected": 84.4,
+      "status": "PASS"
+    },
+    {
+      "id": "s4_2_screening_precision_percent",
+      "actual": 42.1,
+      "expected": 42.1,
+      "status": "PASS"
+    },
+    {
+      "id": "s4_2_absolute_time_decrease",
+      "actual": 4,
+      "expected": 4,
+      "status": "PASS"
+    },
+    {
+      "id": "s4_2_relative_time_decrease_percent",
+      "actual": 33.333333,
+      "expected": 33.333333,
+      "status": "PASS"
+    },
+    {
+      "id": "s4_3_protection_manual",
+      "actual": 3.6,
+      "expected": 3.6,
+      "status": "PASS"
+    },
+    {
+      "id": "s4_3_protection_assisted",
+      "actual": 3.2,
+      "expected": 3.2,
+      "status": "PASS"
+    },
+    {
+      "id": "s4_3_protection_automatic",
+      "actual": 2.1,
+      "expected": 2.1,
+      "status": "PASS"
+    },
+    {
+      "id": "s4_3_access_manual",
+      "actual": 3.0,
+      "expected": 3.0,
+      "status": "PASS"
+    },
+    {
+      "id": "s4_3_access_assisted",
+      "actual": 3.5,
+      "expected": 3.5,
+      "status": "PASS"
+    },
+    {
+      "id": "s4_3_access_automatic",
+      "actual": 3.2,
+      "expected": 3.2,
+      "status": "PASS"
+    },
+    {
+      "id": "E02_confusion_total",
+      "actual": 500,
+      "expected": 500,
+      "status": "PASS"
+    },
+    {
+      "id": "E02_recall_percent",
+      "actual": 75.0,
+      "expected": 75.0,
+      "status": "PASS"
+    },
+    {
+      "id": "E02_false_positive_rate_percent",
+      "actual": 10.0,
+      "expected": 10.0,
+      "status": "PASS"
+    },
+    {
+      "id": "E02_precision_percent",
+      "actual": 39.47,
+      "expected": 39.47,
+      "status": "PASS"
+    },
+    {
+      "id": "E02_accuracy_percent",
+      "actual": 88.8,
+      "expected": 88.8,
+      "status": "PASS"
+    },
+    {
+      "id": "E03_high_reminder_percent",
+      "actual": 80.0,
+      "expected": 80.0,
+      "status": "PASS"
+    },
+    {
+      "id": "E03_high_no_reminder_percent",
+      "actual": 90.0,
+      "expected": 90.0,
+      "status": "PASS"
+    },
+    {
+      "id": "E03_low_reminder_percent",
+      "actual": 10.0,
+      "expected": 10.0,
+      "status": "PASS"
+    },
+    {
+      "id": "E03_low_no_reminder_percent",
+      "actual": 10.0,
+      "expected": 10.0,
+      "status": "PASS"
+    },
+    {
+      "id": "E03_overall_reminder_percent",
+      "actual": 52.0,
+      "expected": 52.0,
+      "status": "PASS"
+    },
+    {
+      "id": "E03_overall_no_reminder_percent",
+      "actual": 26.0,
+      "expected": 26.0,
+      "status": "PASS"
+    },
+    {
+      "id": "E03_high_participation_share_reminder_percent",
+      "actual": 60.0,
+      "expected": 60.0,
+      "status": "PASS"
+    },
+    {
+      "id": "E03_high_participation_share_no_reminder_percent",
+      "actual": 20.0,
+      "expected": 20.0,
+      "status": "PASS"
+    },
+    {
+      "id": "E04_group_A_A",
+      "actual": 3.9,
+      "expected": 3.9,
+      "status": "PASS"
+    },
+    {
+      "id": "E04_group_A_B",
+      "actual": 3.7,
+      "expected": 3.7,
+      "status": "PASS"
+    },
+    {
+      "id": "E04_group_A_C",
+      "actual": 2.6,
+      "expected": 2.6,
+      "status": "PASS"
+    },
+    {
+      "id": "E04_group_B_A",
+      "actual": 3.2,
+      "expected": 3.2,
+      "status": "PASS"
+    },
+    {
+      "id": "E04_group_B_B",
+      "actual": 3.8,
+      "expected": 3.8,
+      "status": "PASS"
+    },
+    {
+      "id": "E04_group_B_C",
+      "actual": 3.5,
+      "expected": 3.5,
+      "status": "PASS"
+    },
+    {
+      "id": "E06_demo_percent",
+      "actual": 92.0,
+      "expected": 92.0,
+      "status": "PASS"
+    }
+  ]
+}

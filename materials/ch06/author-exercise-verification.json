@@ -1,0 +1,203 @@
+{
+  "scope": "本章讲解示例、独立题关键算术、单位/价格变化和fail-closed行为",
+  "data_identity": "exercise-data.json; author-created teaching values",
+  "calculation_method": "independent Decimal formula: count × W ÷ 1000 × hours/day × days; cost = signed kWh × teaching CNY/kWh",
+  "case_count": 10,
+  "case_results": [
+    {
+      "case": "worked_A_30d",
+      "status": "READY_FOR_HUMAN_REVIEW",
+      "checks": [
+        "worked_A_30d.status",
+        "worked_A_30d.signed_change_kwh",
+        "worked_A_30d.simulated_cost_change_cny",
+        "worked_A_30d.baseline_kwh",
+        "worked_A_30d.candidate_kwh",
+        "worked_A_30d.baseline_kwh",
+        "worked_A_30d.candidate_kwh",
+        "worked_A_30d.signed_change_kwh",
+        "worked_A_30d.simulated_cost_change_cny",
+        "worked_A_30d.independent_baseline_kwh",
+        "worked_A_30d.independent_candidate_kwh",
+        "worked_A_30d.independent_signed_change_kwh",
+        "worked_A_30d.independent_simulated_cost_change_cny"
+      ]
+    },
+    {
+      "case": "worked_ABC_and_D",
+      "status": "READY_FOR_HUMAN_REVIEW",
+      "checks": [
+        "worked_ABC_and_D.total_signed_change_kwh",
+        "worked_ABC_and_D.total_simulated_cost_change_cny",
+        "worked_ABC_and_D.D_status",
+        "worked_ABC_and_D.D_calculation"
+      ]
+    },
+    {
+      "case": "E02_X_30d",
+      "status": "READY_FOR_HUMAN_REVIEW",
+      "checks": [
+        "E02_X_30d.baseline_kwh",
+        "E02_X_30d.candidate_kwh",
+        "E02_X_30d.signed_change_kwh",
+        "E02_X_30d.simulated_cost_change_cny",
+        "E02_X_30d.independent_baseline_kwh",
+        "E02_X_30d.independent_candidate_kwh",
+        "E02_X_30d.independent_signed_change_kwh",
+        "E02_X_30d.independent_simulated_cost_change_cny"
+      ]
+    },
+    {
+      "case": "E02_X_31d",
+      "status": "READY_FOR_HUMAN_REVIEW",
+      "checks": [
+        "E02_X_31d.baseline_kwh",
+        "E02_X_31d.candidate_kwh",
+        "E02_X_31d.signed_change_kwh",
+        "E02_X_31d.simulated_cost_change_cny",
+        "E02_X_31d.independent_baseline_kwh",
+        "E02_X_31d.independent_candidate_kwh",
+        "E02_X_31d.independent_signed_change_kwh",
+        "E02_X_31d.independent_simulated_cost_change_cny"
+      ]
+    },
+    {
+      "case": "E02_Y_unknown",
+      "status": "HOLD_CONFIRMATION",
+      "checks": [
+        "E02_Y_unknown.status",
+        "E02_Y_unknown.calculation"
+      ]
+    },
+    {
+      "case": "E02_Y_if_confirmed_no",
+      "status": "SCENARIO_INCREASE",
+      "checks": [
+        "E02_Y_if_confirmed_no.status",
+        "E02_Y_if_confirmed_no.signed_change_kwh",
+        "E02_Y_if_confirmed_no.simulated_cost_change_cny",
+        "E02_Y_if_confirmed_no.signed_change_kwh",
+        "E02_Y_if_confirmed_no.simulated_cost_change_cny",
+        "E02_Y_if_confirmed_no.independent_baseline_kwh",
+        "E02_Y_if_confirmed_no.independent_candidate_kwh",
+        "E02_Y_if_confirmed_no.independent_signed_change_kwh",
+        "E02_Y_if_confirmed_no.independent_simulated_cost_change_cny"
+      ]
+    },
+    {
+      "case": "E04_X_increase",
+      "status": "SCENARIO_INCREASE",
+      "checks": [
+        "E04_X_increase.status",
+        "E04_X_increase.signed_change_kwh",
+        "E04_X_increase.simulated_cost_change_cny",
+        "E04_X_increase.signed_change_kwh",
+        "E04_X_increase.simulated_cost_change_cny",
+        "E04_X_increase.independent_baseline_kwh",
+        "E04_X_increase.independent_candidate_kwh",
+        "E04_X_increase.independent_signed_change_kwh",
+        "E04_X_increase.independent_simulated_cost_change_cny"
+      ]
+    },
+    {
+      "case": "A_31d",
+      "status": "READY_FOR_HUMAN_REVIEW",
+      "checks": [
+        "A_31d.signed_change_kwh",
+        "A_31d.simulated_cost_change_cny",
+        "A_31d.independent_baseline_kwh",
+        "A_31d.independent_candidate_kwh",
+        "A_31d.independent_signed_change_kwh",
+        "A_31d.independent_simulated_cost_change_cny"
+      ]
+    },
+    {
+      "case": "A_price_070",
+      "status": "READY_FOR_HUMAN_REVIEW",
+      "checks": [
+        "A_price_070.signed_change_kwh",
+        "A_price_070.simulated_cost_change_cny",
+        "A_price_070.independent_baseline_kwh",
+        "A_price_070.independent_candidate_kwh",
+        "A_price_070.independent_signed_change_kwh",
+        "A_price_070.independent_simulated_cost_change_cny"
+      ]
+    },
+    {
+      "case": "E06_ABC_price_070",
+      "status": "READY_FOR_HUMAN_REVIEW",
+      "checks": [
+        "E06_ABC_price_070.total_signed_change_kwh",
+        "E06_ABC_price_070.total_simulated_cost_change_cny"
+      ]
+    }
+  ],
+  "behavior_check_count": 12,
+  "behavior_checks": [
+    {
+      "case": "missing_watts",
+      "expected": "HOLD_CONFLICT; no calculation",
+      "actual": "HOLD_CONFLICT"
+    },
+    {
+      "case": "hours_over_24",
+      "expected": "HOLD_CONFLICT; no calculation",
+      "actual": "HOLD_CONFLICT"
+    },
+    {
+      "case": "unknown_protection",
+      "expected": "HOLD_CONFIRMATION; no calculation",
+      "actual": "HOLD_CONFIRMATION"
+    },
+    {
+      "case": "null_protection",
+      "expected": "HOLD_CONFLICT; no calculation",
+      "actual": "HOLD_CONFLICT"
+    },
+    {
+      "case": "missing_protection",
+      "expected": "HOLD_CONFLICT; no calculation",
+      "actual": "HOLD_CONFLICT"
+    },
+    {
+      "case": "invalid_protection_string",
+      "expected": "HOLD_CONFLICT; no calculation",
+      "actual": "HOLD_CONFLICT"
+    },
+    {
+      "case": "boolean_protection",
+      "expected": "HOLD_CONFLICT; no calculation",
+      "actual": "HOLD_CONFLICT"
+    },
+    {
+      "case": "malformed_protection",
+      "expected": "HOLD_CONFLICT; no calculation",
+      "actual": "HOLD_CONFLICT"
+    },
+    {
+      "case": "duplicate_zone_id",
+      "expected": "both rows HOLD_CONFLICT; no calculation",
+      "actual": "both rows HOLD_CONFLICT"
+    },
+    {
+      "case": "period_change_30_to_31",
+      "expected": "40.176 kWh",
+      "actual": "40.176 kWh"
+    },
+    {
+      "case": "price_change_0.62_to_0.70",
+      "expected": "38.88 kWh; 27.22 CNY",
+      "actual": "38.88 kWh; 27.22 CNY"
+    },
+    {
+      "case": "missing_dataset_period",
+      "expected": "HOLD_DATASET; no zone calculation",
+      "actual": "HOLD_DATASET"
+    }
+  ],
+  "status": "PASS",
+  "limitations": [
+    "PASS only confirms arithmetic and software behavior for these teaching fixtures.",
+    "It is not a field measurement, real tariff, accessibility/safety evaluation, or teaching-effectiveness assessment."
+  ]
+}

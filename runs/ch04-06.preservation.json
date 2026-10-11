@@ -1,0 +1,28 @@
+{
+  "result": "PASS",
+  "base_commit": "8bc73008481200c0c1afd49c1a4ec822afdbd10c",
+  "current_head": "4ef086cd70446f11ef16bfead5a2117cab47c82c",
+  "baseline_tracked_files": 1037,
+  "unchanged_tracked_excluding_two_owned_shared_and_two_foreign_rules": 1033,
+  "own_existing_changed": [
+    "harness.json",
+    "教材编写现状与目的.md"
+  ],
+  "foreign_rule_changes_preserved": {
+    "skills/textbook-authoring/SKILL.md": "bc08bde674c2dba84c100f9dd0c2e7448b1fd961c1c44fc2986456269a2ec5da",
+    "specs/authoring-quality.spec.md": "7c5c2e24ffb99f6d9e3013c7bcc3e7dc1f4b7d04e9f6af078f6f7057a05c7a14"
+  },
+  "progress_original_prefix_preserved": true,
+  "eleven_original_run_objects_unchanged": true,
+  "only_three_new_runs_added": [
+    "ch04-layout",
+    "ch05-layout",
+    "ch06-layout"
+  ],
+  "foreign_untracked_retained": [
+    "materials/ch02-progressive/source-excerpts.md",
+    "materials/ch02-progressive/source-texts",
+    "tests/__pycache__"
+  ],
+  "current_run_freshness": "Three chapter/draft runs accepted with empty stale reasons, checked separately."
+}

@@ -1,0 +1,55 @@
+{
+  "chapter": 5,
+  "observer": "Codex Parent /root",
+  "observed_at": "2026-10-11T20:19:16.071201+00:00",
+  "manifest_sha256": "f4f1532b945d1daf8325a8cbf8f1c83c53e826668726a68ee01a8cbed6d5cc15",
+  "scope": "Every color and grayscale PNG actually opened with view_image, including all changed final diagrams; insertion-size page inspection separate.",
+  "figures": [
+    {
+      "id": "图5-1",
+      "color_sha256": "dcff9227f3bb2bb947663034832187264f6d1ab17e719eabf341758dd89a8c61",
+      "gray_sha256": "b2c06947e897c0b015baa2af83cca37295e4f81e4f2807427670616031ff7ea7",
+      "observations": "Labels, arrows and separate branches readable; no clipping or overlap; gray rendering retains semantic distinctions."
+    },
+    {
+      "id": "图5-2",
+      "color_sha256": "34194be5d956170dd9e360c6364558942d0507078480fbf7307c4799eae26d28",
+      "gray_sha256": "a7b717cddd716cd5c689ac70bb29456de6bd39dc6fbd6ee3bb3eed8d358fa679",
+      "observations": "Labels, arrows and separate branches readable; no clipping or overlap; gray rendering retains semantic distinctions."
+    },
+    {
+      "id": "图5-3",
+      "color_sha256": "516814833220e5a8e2b4efa006a0d7cdc655c2c40bbbb053c5bfba11d49a8218",
+      "gray_sha256": "68d2c2e416c098b4a91f51d34e39662db669ca2478e94b81230e25efd582e0bb",
+      "observations": "Labels, arrows and separate branches readable; no clipping or overlap; gray rendering retains semantic distinctions."
+    },
+    {
+      "id": "图5-4",
+      "color_sha256": "404e32cbaf85e8f1555b84f1ae1f396b34af2a64fa622e5d18c2014e6dad1346",
+      "gray_sha256": "55c92663a8be5bb3f243cfbe5a020ba4f7647b74f3115d6c3987ecfcdfac843b",
+      "observations": "Labels, arrows and separate branches readable; no clipping or overlap; gray rendering retains semantic distinctions."
+    },
+    {
+      "id": "图5-5",
+      "color_sha256": "7cbf13e13da11aa2d6a0f9613a3c465adccdf81ac5e968b53718ff256f791147",
+      "gray_sha256": "0b2897d2453afde1fb4a84a148ab43b3220984ce5b48f1b7c4cb4dd5dc80b7c7",
+      "observations": "Labels, arrows and separate branches readable; no clipping or overlap; gray rendering retains semantic distinctions."
+    },
+    {
+      "id": "图5-6",
+      "color_sha256": "2335d8dab613818f2588c8533f7b9e2e07a8b764f36e0a86d5d401372b592bf3",
+      "gray_sha256": "59d50ef1c47cd3d4d1266558c636dbaf2e6a10508f3c0d878b162396dc3743b4",
+      "observations": "Labels, arrows and separate branches readable; no clipping or overlap; gray rendering retains semantic distinctions."
+    },
+    {
+      "id": "图5-7",
+      "color_sha256": "8caa91fcd45613f1bb36a8ab41d19b6c2c8dbbb4fe0f52c95af47b66d58c0c8d",
+      "gray_sha256": "866cfec2f93ecc57a5cbaa3ea502fff378824fd832b1ac4da0f6761d211752ba",
+      "observations": "Labels, arrows and separate branches readable; no clipping or overlap; gray rendering retains semantic distinctions."
+    }
+  ],
+  "limits": "AI visual inspection; no physical print or human classroom validation.",
+  "fixes": [
+    "图5-5标明四类材料及RNA引导DNA切割；图5-7改为依据策略选行动；重开两幅彩图及全部七幅灰度图。图5-4数据owner明确正文首个在线服务到维修预约的类比。"
+  ]
+}

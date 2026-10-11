@@ -1,0 +1,38 @@
+[
+  {
+    "id": "F1",
+    "url": "https://proceedings.mlr.press/v54/mcmahan17a.html",
+    "claim": "联邦学习原论文以本地计算更新聚合成共享模型，不宣称天然隐私保证。",
+    "file": "materials/ch04-06/F1-primary.txt",
+    "sha256": "c56d06078af197e3266c53e83791a3d9520cfab9e5580251717962cdfefff938",
+    "checked_on": "2026-10-12",
+    "role": "Primary publication; bounded support check, not whole textbook."
+  },
+  {
+    "id": "F2",
+    "url": "https://papers.nips.cc/paper/2019/hash/60a6c4002cc7b29142def8871531281a-Abstract.html",
+    "claim": "梯度共享在论文所测条件下可泄漏训练信息，不代表所有协议或任何模型都必然能还原。",
+    "file": "materials/ch04-06/F2-primary.txt",
+    "sha256": "3d39f7ffc1beec4c7df9b5411b150402840127817ad4d393930b32766bc14050",
+    "checked_on": "2026-10-12",
+    "role": "Primary publication; bounded support check, not whole textbook."
+  },
+  {
+    "id": "D1",
+    "url": "https://dschool.stanford.edu/tools/design-thinking-bootleg",
+    "claim": "共情、定义、构思、原型、测试是模式，不是唯一不可返回直线顺序。",
+    "file": "materials/ch04-06/D1-primary.txt",
+    "sha256": "c946a395e8136a7fbf8923e4bab68431e8fd5c904c1cafc8ad351523f8031be0",
+    "checked_on": "2026-10-12",
+    "role": "Primary publication; bounded support check, not whole textbook."
+  },
+  {
+    "id": "P1",
+    "url": "https://www.pblworks.org/gold-standard/pbl-project-design",
+    "claim": "该机构列项目设计要素；方法框架本身不证明本教材真实课堂效果。",
+    "file": "materials/ch04-06/P1-primary.txt",
+    "sha256": "3dec3898a5e93cc4812c49e30b5fb6dc2789468c792f17c6a91f1f61ec5104d7",
+    "checked_on": "2026-10-12",
+    "role": "Primary publication; bounded support check, not whole textbook."
+  }
+]

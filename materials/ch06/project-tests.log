@@ -1,0 +1,23 @@
+test_boolean_protection_value_holds (test_prototype.PrototypeTests.test_boolean_protection_value_holds) ... ok
+test_conflicting_or_out_of_range_input_holds (test_prototype.PrototypeTests.test_conflicting_or_out_of_range_input_holds) ... ok
+test_dataset_level_unknowns_hold_every_zone (test_prototype.PrototypeTests.test_dataset_level_unknowns_hold_every_zone) ... ok
+test_days_and_rate_changes_are_separate (test_prototype.PrototypeTests.test_days_and_rate_changes_are_separate) ... ok
+test_duplicate_id_holds_both_rows (test_prototype.PrototypeTests.test_duplicate_id_holds_both_rows) ... ok
+test_fractional_price_is_displayed_exactly_and_reconciles (test_prototype.PrototypeTests.test_fractional_price_is_displayed_exactly_and_reconciles) ... ok
+test_invalid_emergency_value_does_not_crash_or_pass (test_prototype.PrototypeTests.test_invalid_emergency_value_does_not_crash_or_pass) ... ok
+test_invalid_protection_string_holds (test_prototype.PrototypeTests.test_invalid_protection_string_holds) ... ok
+test_known_zones_and_protected_zone (test_prototype.PrototypeTests.test_known_zones_and_protected_zone) ... ok
+test_longer_candidate_is_reported_as_increase (test_prototype.PrototypeTests.test_longer_candidate_is_reported_as_increase) ... ok
+test_missing_data_does_not_get_filled (test_prototype.PrototypeTests.test_missing_data_does_not_get_filled) ... ok
+test_missing_protection_state_holds (test_prototype.PrototypeTests.test_missing_protection_state_holds) ... ok
+test_null_protection_state_holds_as_conflict (test_prototype.PrototypeTests.test_null_protection_state_holds_as_conflict) ... ok
+test_numeric_contract_accepts_int_float_and_decimal (test_prototype.PrototypeTests.test_numeric_contract_accepts_int_float_and_decimal) ... ok
+test_numeric_contract_rejects_strings_and_booleans (test_prototype.PrototypeTests.test_numeric_contract_rejects_strings_and_booleans) ... ok
+test_report_preserves_zone_inputs_units_and_sources_for_ready_and_hold (test_prototype.PrototypeTests.test_report_preserves_zone_inputs_units_and_sources_for_ready_and_hold) ... ok
+test_source_note_changes_reach_report (test_prototype.PrototypeTests.test_source_note_changes_reach_report) ... ok
+test_unknown_protection_state_holds (test_prototype.PrototypeTests.test_unknown_protection_state_holds) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.003s
+
+OK

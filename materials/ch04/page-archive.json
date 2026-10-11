@@ -1,0 +1,9 @@
+{
+  "file": "materials/ch04/final-pages.zip",
+  "sha256": "47e9b2e1882fe050de1acb3ea821035bcaa5d01d18b2fb847b898e323c35c66c",
+  "page_count": 69,
+  "snapshot_sha256": "d0214c8d9dc7b8363672bec0ffa5b7ab525b41357d601aec315ca428686d74a7",
+  "entry_names": "page-1.png through page-N.png",
+  "restore_to": "materials/ch04/pages",
+  "crc_check": "PASS"
+}

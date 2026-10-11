@@ -1,0 +1,38 @@
+{
+  "template": "templates/textbook-style-v1.0.dotx",
+  "template_sha256": "eef8ce505c3d9afb3493e61af1f38ee26bca6ff9a0aa12f7ad3e2a8cacad6473",
+  "manuscript": "manuscripts/ch06-layout/ch06.md",
+  "manuscript_sha256": "7431cfac4658295489f68d2ecbbbf3a0a9674637b977a3075e7b52519a9378b6",
+  "docx_sha256": "13ad4111a6582251f79d3614108cf0b7010b9cc5b09cd104897a94dbea9fb38f",
+  "style": "textbook-style-v1.0",
+  "toc_cached_pages": {
+    "6.1 选题与需求：确定用户、目标和边界": 5,
+    "6.2 证据与可行性：数据、资源和风险": 16,
+    "6.3 方案与原型：模块、接口和关键流程": 28,
+    "6.4 测试与迭代：指标、失败和修正": 38,
+    "6.5 展示与复盘：解释成果及其限制": 48,
+    "章末综合训练": 59,
+    "本章回顾": 60,
+    "关键术语": 61,
+    "参考解与讨论": 63,
+    "参考文献": 69
+  },
+  "toc_headings": [
+    "6.1 选题与需求：确定用户、目标和边界",
+    "6.2 证据与可行性：数据、资源和风险",
+    "6.3 方案与原型：模块、接口和关键流程",
+    "6.4 测试与迭代：指标、失败和修正",
+    "6.5 展示与复盘：解释成果及其限制",
+    "章末综合训练",
+    "本章回顾",
+    "关键术语",
+    "参考解与讨论",
+    "参考文献"
+  ],
+  "method": "Reused template styles and geometry; task-local chapter counter/numbering starts at the selected chapter, current header and answer bookmarks; native SEQ/REF/TOC/PAGEREF/PAGE preserved. No final DOCX LibreOffice roundtrip.",
+  "word_native_execution": "NOT_EVALUATED",
+  "post_build_markdown_link_normalization": {
+    "current_manuscript_sha256": "6d7e15a9eb965ab380515d02aa16646419155cb325dd2ae038f9ce926d685b27",
+    "change": "Only image hrefs changed from repository-root-like paths to actual manuscript-relative paths; prose and figure bytes unchanged. Original build manuscript hash retained. DOCX images are loaded from figure manifest, so Word/PDF output unchanged; current-source correspondence rechecked."
+  }
+}

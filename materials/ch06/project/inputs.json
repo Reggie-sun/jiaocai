@@ -1,0 +1,47 @@
+{
+  "period_days": 30,
+  "teaching_price_cny_per_kwh": 0.62,
+  "teaching_price_note": "0.62元/千瓦时为课堂模拟参数，不是现实校园费率",
+  "zones": [
+    {
+      "id": "A",
+      "name": "A座位区",
+      "lamp_count": 48,
+      "watts_per_lamp": 18,
+      "baseline_hours_per_day": 12,
+      "candidate_hours_per_day": 10.5,
+      "emergency_lighting_status": "confirmed_no",
+      "source_note": "作者自拟教学示例；现场灯具与运行情况未核验"
+    },
+    {
+      "id": "B",
+      "name": "B讨论区",
+      "lamp_count": 36,
+      "watts_per_lamp": 24,
+      "baseline_hours_per_day": 14,
+      "candidate_hours_per_day": 12,
+      "emergency_lighting_status": "confirmed_no",
+      "source_note": "作者自拟教学示例；现场灯具与运行情况未核验"
+    },
+    {
+      "id": "C",
+      "name": "C静读区",
+      "lamp_count": 24,
+      "watts_per_lamp": 12,
+      "baseline_hours_per_day": 10,
+      "candidate_hours_per_day": 9,
+      "emergency_lighting_status": "confirmed_no",
+      "source_note": "作者自拟教学示例；现场灯具与运行情况未核验"
+    },
+    {
+      "id": "D",
+      "name": "D入口边界区",
+      "lamp_count": 20,
+      "watts_per_lamp": 18,
+      "baseline_hours_per_day": 15,
+      "candidate_hours_per_day": 14.5,
+      "emergency_lighting_status": "confirmed_yes",
+      "source_note": "作者自拟教学示例；标记为包含应急照明"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "verified_at": "2026-10-11T20:48:10.888969+00:00",
+  "parent": "Codex Parent /root",
+  "checks": "PASS",
+  "chapters": [
+    {
+      "chapter": 4,
+      "han_characters_approx": 32236,
+      "pages": 69,
+      "tables": 9,
+      "figures": 6,
+      "references": 4,
+      "docx_sha256": "4144c6a1b26c331814c76be0fd294abbbac42d2c0f2921f592909d4d728b64ab",
+      "pdf_sha256": "dd99f73b13719fcf22f191c54b87487ffb58c6f036d5f77ff408012b6ac55a27",
+      "source_sha256": "7ecc696ecde5713155a90ed35aff501b6c6e12e1131c60c70d97f6e917bf32f9",
+      "actual_page_coverage": "all pages; unchanged bytes inherit initial observation",
+      "current_layout_evidence_sha256": "92b8a6499d6f9d803a770efdcc796133024c820d8e3c9537c9bc2fb111c3e493",
+      "current_page_evidence_sha256": "ad75536cb3b8bcbf9626b7a95acb6e4bc3d63125f79ee2956302c1fa511087b7"
+    },
+    {
+      "chapter": 5,
+      "han_characters_approx": 32857,
+      "pages": 69,
+      "tables": 8,
+      "figures": 7,
+      "references": 14,
+      "docx_sha256": "5cc0ec2bd52d3f3231f3460faec46352165dd9775e296cbb9e04f8afda08f264",
+      "pdf_sha256": "616a745f0e099bf4b5894190ff62fa4cf6f6470152adf6c99b6ada73fb4e6742",
+      "source_sha256": "e6dd19575f9f0986321c8635bcd2335981e8a2f4c17f7b9fb1a0ee059b08a106",
+      "actual_page_coverage": "all pages; unchanged bytes inherit initial observation",
+      "current_layout_evidence_sha256": "f0c3e87f379dcc4d26f095426e4d2c3d9f964a7d47044693cde012f4ee7d91f6",
+      "current_page_evidence_sha256": "96392e90ce7e3565efba756ce5088118dbe031b39eed5bbe8dc24e3b6cb05108"
+    },
+    {
+      "chapter": 6,
+      "han_characters_approx": 31472,
+      "pages": 70,
+      "tables": 8,
+      "figures": 8,
+      "references": 3,
+      "docx_sha256": "13ad4111a6582251f79d3614108cf0b7010b9cc5b09cd104897a94dbea9fb38f",
+      "pdf_sha256": "248e12d7015e286b0eac5ab6f8273c93c7448a8b5818637fb40101334bdba0e0",
+      "source_sha256": "6d7e15a9eb965ab380515d02aa16646419155cb325dd2ae038f9ce926d685b27",
+      "actual_page_coverage": "all pages; unchanged bytes inherit initial observation",
+      "current_layout_evidence_sha256": "41d02f58218a6d939dd800732febffc96e40a11845757c04f55ea898e46ad98b",
+      "current_page_evidence_sha256": "be5180a9505a987495c671b03939c6d3bb7d09cc22cf84eee786ec4bf63b1a11"
+    }
+  ],
+  "total_han": 96565,
+  "total_pages": 208,
+  "total_figures": 21,
+  "harness_unit_tests": 51,
+  "harness_log_sha256": "102e3c8f5d5247599afb37d1cf10494eed6681d705724567b2e62fba89187bce",
+  "harness_engine_sha256": "3d226917d2aa30da1de9e48d6c7ee941cc3f84a9da9529212ae8e3360fbfb1af",
+  "prototype_tests": 18,
+  "prototype_evidence_sha256": "b7bd58ce725442323829be18e3c3e94aaedb55f510ad6546a56f84c4d96351a6",
+  "package_entries": 81,
+  "package_sha256": "b3daee13cb02d75628574d9f362604bb621c713c6a4447801784d206a3253504",
+  "page_archive_sha_crc_checks": "PASS",
+  "limits": "Executable correspondence, arithmetic and software checks plus documented AI observations; no teacher/student, physical printing or Microsoft Word native refresh acceptance.",
+  "markdown_image_links": 21,
+  "current_rule_and_continuity_evidence": {
+    "skills/textbook-authoring/SKILL.md": "bc08bde674c2dba84c100f9dd0c2e7448b1fd961c1c44fc2986456269a2ec5da",
+    "specs/authoring-quality.spec.md": "7c5c2e24ffb99f6d9e3013c7bcc3e7dc1f4b7d04e9f6af078f6f7057a05c7a14",
+    "materials/ch04-06/continuity-review.md": "a701225c8bd4279f66536d3b325dbacc2869778916f0c73092c0a6ba5b6bed39",
+    "materials/ch04-06/foreign-rules-snapshot.json": "bc0152fb8efe7e7e4f36de7335aa24840d1cdeec2085003e02adaf25fb6bd521"
+  }
+}

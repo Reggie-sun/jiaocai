@@ -1,0 +1,132 @@
+{
+  "result": "PASS",
+  "image_links": [
+    {
+      "manuscript": "manuscripts/ch04-layout/ch04.md",
+      "href": "../../assets/figures/ch04/fig4-1.png",
+      "resolved": "assets/figures/ch04/fig4-1.png",
+      "sha256": "2e5f488c000c70721a26c309af64f4b029a9c5981aef9bf86f43d68f5a430895"
+    },
+    {
+      "manuscript": "manuscripts/ch04-layout/ch04.md",
+      "href": "../../assets/figures/ch04/fig4-2.png",
+      "resolved": "assets/figures/ch04/fig4-2.png",
+      "sha256": "806e0d8ddab2f4a01133ad4f5ae3cd4272d4c1c434b64a9724cdde53ac087427"
+    },
+    {
+      "manuscript": "manuscripts/ch04-layout/ch04.md",
+      "href": "../../assets/figures/ch04/fig4-3.png",
+      "resolved": "assets/figures/ch04/fig4-3.png",
+      "sha256": "ad2bb153436cfa37dfa8051c66415cd30c7c74b3da33520fd955a4408f030f27"
+    },
+    {
+      "manuscript": "manuscripts/ch04-layout/ch04.md",
+      "href": "../../assets/figures/ch04/fig4-4.png",
+      "resolved": "assets/figures/ch04/fig4-4.png",
+      "sha256": "f0f19000bafa372d6d9743436912d3d3f4691ff26763db1ef38b3ef43eff9f40"
+    },
+    {
+      "manuscript": "manuscripts/ch04-layout/ch04.md",
+      "href": "../../assets/figures/ch04/fig4-5.png",
+      "resolved": "assets/figures/ch04/fig4-5.png",
+      "sha256": "0aa9a15ace38d188fb6bcc1519b8ebed51e756e2c9f26cbae3935a7b39b30820"
+    },
+    {
+      "manuscript": "manuscripts/ch04-layout/ch04.md",
+      "href": "../../assets/figures/ch04/fig4-6.png",
+      "resolved": "assets/figures/ch04/fig4-6.png",
+      "sha256": "77af3dd8c2368cf4ca0beb5fc8dc91dcca07015e2052904d7d10544eae17c4ef"
+    },
+    {
+      "manuscript": "manuscripts/ch05-layout/ch05.md",
+      "href": "../../assets/figures/ch05/fig5-1.png",
+      "resolved": "assets/figures/ch05/fig5-1.png",
+      "sha256": "dcff9227f3bb2bb947663034832187264f6d1ab17e719eabf341758dd89a8c61"
+    },
+    {
+      "manuscript": "manuscripts/ch05-layout/ch05.md",
+      "href": "../../assets/figures/ch05/fig5-2.png",
+      "resolved": "assets/figures/ch05/fig5-2.png",
+      "sha256": "34194be5d956170dd9e360c6364558942d0507078480fbf7307c4799eae26d28"
+    },
+    {
+      "manuscript": "manuscripts/ch05-layout/ch05.md",
+      "href": "../../assets/figures/ch05/fig5-3.png",
+      "resolved": "assets/figures/ch05/fig5-3.png",
+      "sha256": "516814833220e5a8e2b4efa006a0d7cdc655c2c40bbbb053c5bfba11d49a8218"
+    },
+    {
+      "manuscript": "manuscripts/ch05-layout/ch05.md",
+      "href": "../../assets/figures/ch05/fig5-4.png",
+      "resolved": "assets/figures/ch05/fig5-4.png",
+      "sha256": "404e32cbaf85e8f1555b84f1ae1f396b34af2a64fa622e5d18c2014e6dad1346"
+    },
+    {
+      "manuscript": "manuscripts/ch05-layout/ch05.md",
+      "href": "../../assets/figures/ch05/fig5-5.png",
+      "resolved": "assets/figures/ch05/fig5-5.png",
+      "sha256": "7cbf13e13da11aa2d6a0f9613a3c465adccdf81ac5e968b53718ff256f791147"
+    },
+    {
+      "manuscript": "manuscripts/ch05-layout/ch05.md",
+      "href": "../../assets/figures/ch05/fig5-6.png",
+      "resolved": "assets/figures/ch05/fig5-6.png",
+      "sha256": "2335d8dab613818f2588c8533f7b9e2e07a8b764f36e0a86d5d401372b592bf3"
+    },
+    {
+      "manuscript": "manuscripts/ch05-layout/ch05.md",
+      "href": "../../assets/figures/ch05/fig5-7.png",
+      "resolved": "assets/figures/ch05/fig5-7.png",
+      "sha256": "8caa91fcd45613f1bb36a8ab41d19b6c2c8dbbb4fe0f52c95af47b66d58c0c8d"
+    },
+    {
+      "manuscript": "manuscripts/ch06-layout/ch06.md",
+      "href": "../../assets/figures/ch06/fig6-1.png",
+      "resolved": "assets/figures/ch06/fig6-1.png",
+      "sha256": "0aa77fbc8d3fb46541429468545da6e814b830dd5a729e94259fdab461c7fe1c"
+    },
+    {
+      "manuscript": "manuscripts/ch06-layout/ch06.md",
+      "href": "../../assets/figures/ch06/fig6-2.png",
+      "resolved": "assets/figures/ch06/fig6-2.png",
+      "sha256": "a36d259ad4577d9b1d20a81b0082040ec0be6d9bddd6e43e775d2873b55e0921"
+    },
+    {
+      "manuscript": "manuscripts/ch06-layout/ch06.md",
+      "href": "../../assets/figures/ch06/fig6-3.png",
+      "resolved": "assets/figures/ch06/fig6-3.png",
+      "sha256": "a93c7a4d2ca1c5776253197b06d241e814e3ed76868d20a7617918872555f8ac"
+    },
+    {
+      "manuscript": "manuscripts/ch06-layout/ch06.md",
+      "href": "../../assets/figures/ch06/fig6-4.png",
+      "resolved": "assets/figures/ch06/fig6-4.png",
+      "sha256": "5c662fbbb7c6082f79a10eedf8ba89e7a838e0ab4066a23c7f6c15b49c640f2c"
+    },
+    {
+      "manuscript": "manuscripts/ch06-layout/ch06.md",
+      "href": "../../assets/figures/ch06/fig6-5.png",
+      "resolved": "assets/figures/ch06/fig6-5.png",
+      "sha256": "5aaa6bc5702540a5899e5d015c3427f4bd810e6966ab12add1f277e965f46ef4"
+    },
+    {
+      "manuscript": "manuscripts/ch06-layout/ch06.md",
+      "href": "../../assets/figures/ch06/fig6-6.png",
+      "resolved": "assets/figures/ch06/fig6-6.png",
+      "sha256": "727ff97f1449052d4f421bce6f1aace1db43414e1f968ccbc4cb4de0ecab45e8"
+    },
+    {
+      "manuscript": "manuscripts/ch06-layout/ch06.md",
+      "href": "../../assets/figures/ch06/fig6-7.png",
+      "resolved": "assets/figures/ch06/fig6-7.png",
+      "sha256": "e26001fe2116904f3a4b639b2fcc354445bcca7aa95b5f3db0533b02d5d7a561"
+    },
+    {
+      "manuscript": "manuscripts/ch06-layout/ch06.md",
+      "href": "../../assets/figures/ch06/fig6-8.png",
+      "resolved": "assets/figures/ch06/fig6-8.png",
+      "sha256": "7d40c43239d8760a74cbab6ba850c4bf6a5288f9b7d9151913fb6f2dd55a099b"
+    }
+  ],
+  "scope": "Actual manuscript-relative image file resolution, with original prose preservation separately asserted by assemble_illustrated.py."
+}

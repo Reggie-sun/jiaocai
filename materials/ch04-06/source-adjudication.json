@@ -1,0 +1,44 @@
+{
+  "scope": "Four bounded primary source claims, not whole-chapter or pixel review",
+  "invocation_id": "99dd80f4-07f8-4c7c-8d93-dfed082247b9",
+  "classification": "PARSED",
+  "process_exit_code": 0,
+  "route_qualification": {
+    "invocation_id": "4f2d5dc8-4234-4665-b382-e82f1ad6cc00",
+    "sha256": "5f3c17dcefcff35f54db521fa4c5435d8f9fb0b1da9ca4e108106a66cb767555"
+  },
+  "authenticated_models": [
+    "k3"
+  ],
+  "all_expected_reads_complete": true,
+  "report_sha256": "45f1d9d65764a00a86f985d4da325356bf5e405bd61fffb743910af53c93a6a5",
+  "parent_adjudication": [
+    {
+      "id": "F1",
+      "decision": "CONFIRMED_LIMITATION",
+      "resolution": "所封存F1是摘要落地页，不能据此声称读过整篇。正文隐私边界以F2真实泄漏研究作反例，不依赖全文缺席断言。",
+      "changed_content": "此处为来源使用裁定，未改writer稿件。"
+    },
+    {
+      "id": "F2",
+      "decision": "SUPPORTED_WITH_SCOPE",
+      "resolution": "只用所测任务存在泄漏可能性，不枚举未读架构/批大小，不推广为全部协议必然还原。"
+    },
+    {
+      "id": "D1",
+      "decision": "SUPPORTED_WITH_SCOPE",
+      "resolution": "五modes和任意起点受本页支持；往返修订是本教材教学组织和测试反推需求的作者解释，不伪称原页逐字规定。"
+    },
+    {
+      "id": "P1",
+      "decision": "SUPPORTED_WITH_SCOPE",
+      "resolution": "七设计要素有原文支持；不推出本教材已验证课堂成效，也不推出PBL没有成效证据。"
+    },
+    {
+      "id": "DATE",
+      "decision": "FALSE_POSITIVE",
+      "resolution": "环境2026-10-12 Asia/Hong_Kong；UTC仍为10-11属时区差，登记日期来自当前用户environment，非未来来源。"
+    }
+  ],
+  "parent_acceptance": "not_a_chapter_acceptance"
+}

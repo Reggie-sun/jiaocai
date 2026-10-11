@@ -1,0 +1,75 @@
+Communication-Efficient Learning of Deep Networks from Decentralized Data
+Proceedings of Machine Learning Research
+Volume 54
+JMLR
+DMLR
+TMLR
+MLOSS
+FAQ
+Submission Format
+[
+edit
+]
+Communication-Efficient Learning of Deep Networks from Decentralized Data
+Brendan McMahan, Eider Moore, Daniel Ramage, Seth Hampson, Blaise Aguera y Arcas
+Proceedings of the 20th International Conference on Artificial Intelligence and Statistics
+, PMLR 54:1273-1282, 2017.
+Abstract
+Modern mobile devices have access to a wealth of data suitable for learning models, which in turn can greatly improve the user experience on the device. For example, language models can improve speech recognition and text entry, and image models can automatically select good photos. However, this rich data is often privacy sensitive, large in quantity, or both, which may preclude logging to the data center and training there using conventional approaches.  We advocate an alternative that leaves the training data distributed on the mobile devices, and learns a shared model by aggregating locally-computed updates. We term this decentralized approach Federated Learning.  We present a practical method for the federated learning of deep networks based on iterative model averaging, and conduct an extensive empirical evaluation, considering five different model architectures and four datasets. These experiments demonstrate the approach is robust to the unbalanced and non-IID data distributions that are a defining characteristic of this setting. Communication costs are the principal constraint, and we show a reduction in required communication rounds by 10-100x as compared to synchronized stochastic gradient descent.
+Cite this Paper
+BibTeX
+@InProceedings{pmlr-v54-mcmahan17a,
+  title = 	 {{Communication-Efficient Learning of Deep Networks from Decentralized Data}},
+  author = 	 {McMahan, Brendan and Moore, Eider and Ramage, Daniel and Hampson, Seth and Arcas, Blaise Aguera y},
+  booktitle = 	 {Proceedings of the 20th International Conference on Artificial Intelligence and Statistics},
+  pages = 	 {1273--1282},
+  year = 	 {2017},
+  editor = 	 {Singh, Aarti and Zhu, Jerry},
+  volume = 	 {54},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {20--22 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v54/mcmahan17a/mcmahan17a.pdf},
+  url = 	 {https://proceedings.mlr.press/v54/mcmahan17a.html},
+  abstract = 	 {Modern mobile devices have access to a wealth of data suitable for learning models, which in turn can greatly improve the user experience on the device. For example, language models can improve speech recognition and text entry, and image models can automatically select good photos. However, this rich data is often privacy sensitive, large in quantity, or both, which may preclude logging to the data center and training there using conventional approaches.  We advocate an alternative that leaves the training data distributed on the mobile devices, and learns a shared model by aggregating locally-computed updates. We term this decentralized approach Federated Learning.  We present a practical method for the federated learning of deep networks based on iterative model averaging, and conduct an extensive empirical evaluation, considering five different model architectures and four datasets. These experiments demonstrate the approach is robust to the unbalanced and non-IID data distributions that are a defining characteristic of this setting. Communication costs are the principal constraint, and we show a reduction in required communication rounds by 10-100x as compared to synchronized stochastic gradient descent. }
+}
+Copy to Clipboard
+Download
+Endnote
+%0 Conference Paper
+%T Communication-Efficient Learning of Deep Networks from Decentralized Data
+%A Brendan McMahan
+%A Eider Moore
+%A Daniel Ramage
+%A Seth Hampson
+%A Blaise Aguera y Arcas
+%B Proceedings of the 20th International Conference on Artificial Intelligence and Statistics
+%C Proceedings of Machine Learning Research
+%D 2017
+%E Aarti Singh
+%E Jerry Zhu	
+%F pmlr-v54-mcmahan17a
+%I PMLR
+%P 1273--1282
+%U https://proceedings.mlr.press/v54/mcmahan17a.html
+%V 54
+%X Modern mobile devices have access to a wealth of data suitable for learning models, which in turn can greatly improve the user experience on the device. For example, language models can improve speech recognition and text entry, and image models can automatically select good photos. However, this rich data is often privacy sensitive, large in quantity, or both, which may preclude logging to the data center and training there using conventional approaches.  We advocate an alternative that leaves the training data distributed on the mobile devices, and learns a shared model by aggregating locally-computed updates. We term this decentralized approach Federated Learning.  We present a practical method for the federated learning of deep networks based on iterative model averaging, and conduct an extensive empirical evaluation, considering five different model architectures and four datasets. These experiments demonstrate the approach is robust to the unbalanced and non-IID data distributions that are a defining characteristic of this setting. Communication costs are the principal constraint, and we show a reduction in required communication rounds by 10-100x as compared to synchronized stochastic gradient descent.
+Copy to Clipboard
+Download
+APA
+McMahan, B., Moore, E., Ramage, D., Hampson, S. & Arcas, B.A.y.. (2017). Communication-Efficient Learning of Deep Networks from Decentralized Data.
+Proceedings of the 20th International Conference on Artificial Intelligence and Statistics
+, in
+Proceedings of Machine Learning Research
+54:1273-1282 Available from https://proceedings.mlr.press/v54/mcmahan17a.html.
+Copy to Clipboard
+Download
+Related Material
+Download PDF
+Supplementary PDF
+This site last compiled Sun, 04 Oct 2026 20:54:05 +0000
+Github Account
+Copyright ©
+The authors and PMLR
+2026.
+MLResearchPress

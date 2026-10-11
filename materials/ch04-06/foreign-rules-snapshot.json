@@ -1,0 +1,15 @@
+{
+  "owner": "Other session: ten-chapter teaching rules; explicit plan preserves this session shared progress/Harness and chapters4–6",
+  "ownership_plan": "plans/ten-chapter-quality-rules.plan.md",
+  "foreign_files": {
+    "skills/textbook-authoring/SKILL.md": "bc08bde674c2dba84c100f9dd0c2e7448b1fd961c1c44fc2986456269a2ec5da",
+    "specs/authoring-quality.spec.md": "7c5c2e24ffb99f6d9e3013c7bcc3e7dc1f4b7d04e9f6af078f6f7057a05c7a14",
+    "plans/ten-chapter-quality-rules.plan.md": "5d5d340a926de773138b0965ad0dfa1d2d259403f4f66c2301a2a8d2cc0fd7b4",
+    "materials/ch01-03-review/ten-chapter-rules.md": "4b01ff92d7a20ed453e475f76e1ef89f90aff259637ca128e16ac5166b3fae65"
+  },
+  "current_adjacent_chapter": {
+    "file": "manuscripts/ch01-03-review/ch03.md",
+    "sha256": "8673ba4d1e0fd79afb6d64212625975d87cf10392fc66c90a9e0bfc706b5b1d5"
+  },
+  "parent_task_actions": "Read current rules and adjacent text, update own Specs and evidence; do not edit/stage/commit foreign files."
+}

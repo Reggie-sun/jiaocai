@@ -1,0 +1,49 @@
+{
+  "chapter": 4,
+  "observer": "Codex Parent /root",
+  "observed_at": "2026-10-11T20:19:16.070733+00:00",
+  "manifest_sha256": "b3bfe96b55c1b7bae69c504bf2b48a18f430ee8026ec877944c3ed14c5bc348e",
+  "scope": "Every color and grayscale PNG actually opened with view_image, including all changed final diagrams; insertion-size page inspection separate.",
+  "figures": [
+    {
+      "id": "图4-1",
+      "color_sha256": "2e5f488c000c70721a26c309af64f4b029a9c5981aef9bf86f43d68f5a430895",
+      "gray_sha256": "b5d60ca3791ca7d563013af1c84eedda54072bf8d3832aeed496f44d9ff62d12",
+      "observations": "Labels, arrows and separate branches readable; no clipping or overlap; gray rendering retains semantic distinctions."
+    },
+    {
+      "id": "图4-2",
+      "color_sha256": "806e0d8ddab2f4a01133ad4f5ae3cd4272d4c1c434b64a9724cdde53ac087427",
+      "gray_sha256": "7479ffbbd0d205cd450b5eab121c4fb2f41cc37da4c695b107d806459596f4d2",
+      "observations": "Labels, arrows and separate branches readable; no clipping or overlap; gray rendering retains semantic distinctions."
+    },
+    {
+      "id": "图4-3",
+      "color_sha256": "ad2bb153436cfa37dfa8051c66415cd30c7c74b3da33520fd955a4408f030f27",
+      "gray_sha256": "a8accc0944baddb255b41a2d6b50b5ccd5b74e68e9591baa89601bc7cfac1953",
+      "observations": "Labels, arrows and separate branches readable; no clipping or overlap; gray rendering retains semantic distinctions."
+    },
+    {
+      "id": "图4-4",
+      "color_sha256": "f0f19000bafa372d6d9743436912d3d3f4691ff26763db1ef38b3ef43eff9f40",
+      "gray_sha256": "e64d5a3fe33b367f88859fda478e6933de266a63ecb091181aacf9fb836dbb17",
+      "observations": "Labels, arrows and separate branches readable; no clipping or overlap; gray rendering retains semantic distinctions."
+    },
+    {
+      "id": "图4-5",
+      "color_sha256": "0aa9a15ace38d188fb6bcc1519b8ebed51e756e2c9f26cbae3935a7b39b30820",
+      "gray_sha256": "01ab8c0f7dde7e8cc884402e54eedac795da42393597739e3301e4201782ae7f",
+      "observations": "Labels, arrows and separate branches readable; no clipping or overlap; gray rendering retains semantic distinctions."
+    },
+    {
+      "id": "图4-6",
+      "color_sha256": "77af3dd8c2368cf4ca0beb5fc8dc91dcca07015e2052904d7d10544eae17c4ef",
+      "gray_sha256": "949e2b0cfa83009990d8223ce1174fcd84900746d2518f3c4658cb4356a7d491",
+      "observations": "Labels, arrows and separate branches readable; no clipping or overlap; gray rendering retains semantic distinctions."
+    }
+  ],
+  "limits": "AI visual inspection; no physical print or human classroom validation.",
+  "fixes": [
+    "按正文首次出现重排2因果、3分类、4传播图；重开三幅彩图及全部六幅灰度图。"
+  ]
+}

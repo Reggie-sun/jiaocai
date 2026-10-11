@@ -1,0 +1,36 @@
+{
+  "template": "templates/textbook-style-v1.0.dotx",
+  "template_sha256": "eef8ce505c3d9afb3493e61af1f38ee26bca6ff9a0aa12f7ad3e2a8cacad6473",
+  "manuscript": "manuscripts/ch04-layout/ch04.md",
+  "manuscript_sha256": "b56cd56185c972c600c8191ec1bd98ca4d2227d903952981274253b3c12f4877",
+  "docx_sha256": "4144c6a1b26c331814c76be0fd294abbbac42d2c0f2921f592909d4d728b64ab",
+  "style": "textbook-style-v1.0",
+  "toc_cached_pages": {
+    "4.1 批判性思维核心：质疑、分析、评估、推理、解释、自我修正": 4,
+    "4.2 识别信息陷阱：偏见、谬误、伪相关性、数据操纵": 14,
+    "4.3 有效论证：构建与拆解": 29,
+    "4.4 计算思维赋能批判性思维": 43,
+    "章末综合训练": 55,
+    "本章回顾": 61,
+    "关键术语": 61,
+    "参考解与讨论": 62,
+    "参考文献": 68
+  },
+  "toc_headings": [
+    "4.1 批判性思维核心：质疑、分析、评估、推理、解释、自我修正",
+    "4.2 识别信息陷阱：偏见、谬误、伪相关性、数据操纵",
+    "4.3 有效论证：构建与拆解",
+    "4.4 计算思维赋能批判性思维",
+    "章末综合训练",
+    "本章回顾",
+    "关键术语",
+    "参考解与讨论",
+    "参考文献"
+  ],
+  "method": "Reused template styles and geometry; task-local chapter counter/numbering starts at the selected chapter, current header and answer bookmarks; native SEQ/REF/TOC/PAGEREF/PAGE preserved. No final DOCX LibreOffice roundtrip.",
+  "word_native_execution": "NOT_EVALUATED",
+  "post_build_markdown_link_normalization": {
+    "current_manuscript_sha256": "7ecc696ecde5713155a90ed35aff501b6c6e12e1131c60c70d97f6e917bf32f9",
+    "change": "Only image hrefs changed from repository-root-like paths to actual manuscript-relative paths; prose and figure bytes unchanged. Original build manuscript hash retained. DOCX images are loaded from figure manifest, so Word/PDF output unchanged; current-source correspondence rechecked."
+  }
+}

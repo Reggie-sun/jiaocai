@@ -1,0 +1,115 @@
+{
+  "chapter": "ch05",
+  "verification": "PASS",
+  "method": "Python Decimal weighted-sum recomputation; structural checks over the chapter components",
+  "han_character_count_excluding_urls_and_code": 32747,
+  "target_range": [
+    31000,
+    35000
+  ],
+  "minimum": 28000,
+  "matrices": {
+    "worked_example_table_5_2": {
+      "A": "4.30",
+      "B": "2.55",
+      "C": "4.35",
+      "D": "3.45"
+    },
+    "exercise_E01_table_5_3": {
+      "A": "3.80",
+      "B": "2.35",
+      "C": "3.75",
+      "D": "2.80"
+    }
+  },
+  "exercise_ids": [
+    "E01",
+    "E02",
+    "E03",
+    "E04",
+    "E05",
+    "E06",
+    "E07",
+    "E08"
+  ],
+  "answer_ids": [
+    "E01",
+    "E02",
+    "E03",
+    "E04",
+    "E05",
+    "E06",
+    "E07",
+    "E08"
+  ],
+  "table_ids_in_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "figure_ids_in_order": [
+    "fig5-1",
+    "fig5-2",
+    "fig5-3",
+    "fig5-4",
+    "fig5-5",
+    "fig5-6",
+    "fig5-7"
+  ],
+  "reference_ids_in_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "citation_first_use_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "source_register_numbering": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "chapter_bibliography_matches_source_register_urls": true,
+  "chapter_sha256": "6e0578d7ddae3d2021400cabe985f3bc6782de396ba565ad472cfe570a0a4061",
+  "chapter_file_matches_components": true
+}

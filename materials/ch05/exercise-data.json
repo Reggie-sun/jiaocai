@@ -1,0 +1,140 @@
+{
+  "chapter": "ch05",
+  "units": {
+    "weight": "decimal fraction; sum must equal 1",
+    "score": "integer on a 1-5 scale",
+    "total": "sum(weight * score)"
+  },
+  "source_note": "All scores are fictional teaching simulations, not participant research or institutional data.",
+  "worked_example_table_5_2": {
+    "criteria": [
+      {
+        "name": "task_completion",
+        "weight": "0.30"
+      },
+      {
+        "name": "information_clarity",
+        "weight": "0.25"
+      },
+      {
+        "name": "data_minimization",
+        "weight": "0.20"
+      },
+      {
+        "name": "low_cost_validation",
+        "weight": "0.15"
+      },
+      {
+        "name": "management_burden",
+        "weight": "0.10"
+      }
+    ],
+    "scores": {
+      "A": [
+        4,
+        5,
+        4,
+        5,
+        3
+      ],
+      "B": [
+        3,
+        3,
+        2,
+        2,
+        2
+      ],
+      "C": [
+        4,
+        4,
+        5,
+        5,
+        4
+      ],
+      "D": [
+        3,
+        3,
+        4,
+        4,
+        4
+      ]
+    },
+    "expected_totals": {
+      "A": "4.30",
+      "B": "2.55",
+      "C": "4.35",
+      "D": "3.45"
+    }
+  },
+  "exercise_E01_table_5_3": {
+    "criteria": [
+      {
+        "name": "task_completion",
+        "weight": "0.35"
+      },
+      {
+        "name": "information_clarity",
+        "weight": "0.25"
+      },
+      {
+        "name": "data_minimization",
+        "weight": "0.20"
+      },
+      {
+        "name": "low_cost_validation",
+        "weight": "0.10"
+      },
+      {
+        "name": "management_burden",
+        "weight": "0.10"
+      }
+    ],
+    "scores": {
+      "A": [
+        4,
+        4,
+        4,
+        3,
+        3
+      ],
+      "B": [
+        3,
+        2,
+        2,
+        2,
+        2
+      ],
+      "C": [
+        3,
+        4,
+        5,
+        5,
+        2
+      ],
+      "D": [
+        2,
+        2,
+        4,
+        4,
+        4
+      ]
+    },
+    "expected_totals": {
+      "A": "3.80",
+      "B": "2.35",
+      "C": "3.75",
+      "D": "2.80"
+    },
+    "hard_constraints": [
+      "without_mouse_for_key_tasks",
+      "read_open_hours_and_equipment_before_confirmation",
+      "no_unrelated_personal_information"
+    ],
+    "candidate_assessment": {
+      "B": "voice interaction satisfies the no-mouse condition as described, but collecting an unrelated booking reason violates data minimization; voice suitability still needs testing",
+      "D": "mouse-dependent controls and color/hover-only essential information fail the stated no-mouse and pre-confirmation information constraints",
+      "A": "design intent matches but requires accessibility testing",
+      "C": "phone or assisted paper candidate matches no-mouse access as described but service capacity requires testing"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "runs": [
+    {
+      "id": "ch04-layout",
+      "effective_state": "accepted",
+      "scope": "chapter",
+      "stage": "draft",
+      "review_kind": "ai_self",
+      "snapshot_files": 103,
+      "spec_sha256": "3b9e9a87c2aa9949bdc8cabfac3506cca46604285e80cfeaa2012ab0d4d4ff1a"
+    },
+    {
+      "id": "ch05-layout",
+      "effective_state": "accepted",
+      "scope": "chapter",
+      "stage": "draft",
+      "review_kind": "ai_self",
+      "snapshot_files": 109,
+      "spec_sha256": "2844764e2c37565a14235d41ac1456ac281444ed567a852c0db05d676d87b290"
+    },
+    {
+      "id": "ch06-layout",
+      "effective_state": "accepted",
+      "scope": "chapter",
+      "stage": "draft",
+      "review_kind": "ai_self",
+      "snapshot_files": 122,
+      "spec_sha256": "166965f3d006bc1a899fbd17c5ae86f2ed59043d5d01668948f09bbbdd3c20b7"
+    }
+  ],
+  "validation": {
+    "valid": true,
+    "policy_sha256": "a0e6a5968ef1f1c718eb423930e9f965ce3378d940a17fe44d9cb483509e90ab",
+    "engine_sha256": "3d226917d2aa30da1de9e48d6c7ee941cc3f84a9da9529212ae8e3360fbfb1af",
+    "runs": 14
+  },
+  "report": "materials/ch04-06/report.md",
+  "package": "output/ch04-06/ch04-06-delivery.zip",
+  "boundary": "Full AI-reviewed chapter/draft; teacher/student and publication acceptance pending."
+}

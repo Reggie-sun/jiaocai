@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "chapter": 4,
+    "data_status": "teaching_simulation_unless_marked_primary_source",
+    "note": "All numerical examples and exercise data here are original teaching simulations; cited publication counts are not recalculated as exercise results."
+  },
+  "examples": {
+    "s4_1_demo": {"numerator": 18, "denominator": 20, "expected_percent": 90.0},
+    "s4_2_confounded_groups": {
+      "high_preparation_ai": {"passed": 60, "total": 80, "expected_percent": 75.0},
+      "high_preparation_no_ai": {"passed": 19, "total": 20, "expected_percent": 95.0},
+      "low_preparation_ai": {"passed": 2, "total": 20, "expected_percent": 10.0},
+      "low_preparation_no_ai": {"passed": 8, "total": 80, "expected_percent": 10.0},
+      "overall_ai": {"passed": 62, "total": 100, "expected_percent": 62.0},
+      "overall_no_ai": {"passed": 27, "total": 100, "expected_percent": 27.0}
+    },
+    "s4_2_screening_matrix": {"tp": 96, "fn": 24, "fp": 132, "tn": 748, "total": 1000},
+    "s4_2_time_change_minutes": {"before": 12, "after": 8, "expected_absolute_decrease": 4, "expected_relative_percent": 33.333333},
+    "s4_3_weight_sensitivity": {
+      "criterion_order": ["access", "error_control", "privacy"],
+      "scores": {"manual": [2, 4, 4], "assisted": [4, 3, 3], "automatic": [5, 1, 2]},
+      "protection_weights": [0.2, 0.5, 0.3],
+      "access_weights": [0.5, 0.3, 0.2],
+      "expected_protection_scores": {"manual": 3.6, "assisted": 3.2, "automatic": 2.1},
+      "expected_access_scores": {"manual": 3.0, "assisted": 3.5, "automatic": 3.2}
+    }
+  },
+  "exercises": {
+    "E02_classifier": {
+      "tp": 30, "fn": 10, "fp": 46, "tn": 414, "total": 500,
+      "expected_percent": {"recall": 75.0, "false_positive_rate": 10.0, "precision": 39.47, "accuracy": 88.8}
+    },
+    "E03_reminder_groups": {
+      "high_reminder": {"passed": 48, "total": 60, "expected_percent": 80.0},
+      "high_no_reminder": {"passed": 18, "total": 20, "expected_percent": 90.0},
+      "low_reminder": {"passed": 4, "total": 40, "expected_percent": 10.0},
+      "low_no_reminder": {"passed": 8, "total": 80, "expected_percent": 10.0},
+      "overall_reminder": {"passed": 52, "total": 100, "expected_percent": 52.0},
+      "overall_no_reminder": {"passed": 26, "total": 100, "expected_percent": 26.0},
+      "high_participation_share_reminder": {"numerator": 60, "denominator": 100, "expected_percent": 60.0},
+      "high_participation_share_no_reminder": {"numerator": 20, "denominator": 100, "expected_percent": 20.0}
+    },
+    "E04_weight_sensitivity": {
+      "criterion_order": ["access", "error_control", "privacy"],
+      "scores": {"A": [2, 4, 5], "B": [4, 4, 3], "C": [5, 2, 2]},
+      "group_A_weights": [0.2, 0.5, 0.3],
+      "group_B_weights": [0.5, 0.3, 0.2],
+      "expected_group_A_scores": {"A": 3.9, "B": 3.7, "C": 2.6},
+      "expected_group_B_scores": {"A": 3.2, "B": 3.8, "C": 3.5}
+    },
+    "E06_demo_images": {"correct": 46, "total": 50, "expected_percent": 92.0}
+  }
+}

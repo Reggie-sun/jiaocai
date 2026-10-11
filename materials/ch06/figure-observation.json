@@ -1,0 +1,61 @@
+{
+  "chapter": 6,
+  "observer": "Codex Parent /root",
+  "observed_at": "2026-10-11T20:08:59.632648+00:00",
+  "manifest_sha256": "bbda6f45038e2d8791df4114235ca85c85018fa08527575929a3ee64ba2e2880",
+  "scope": "Every final color and grayscale PNG actually opened with view_image at source resolution; final insertion-size pages checked separately.",
+  "figures": [
+    {
+      "id": "图6-1",
+      "color_sha256": "0aa77fbc8d3fb46541429468545da6e814b830dd5a729e94259fdab461c7fe1c",
+      "gray_sha256": "735fd2a36172a3b09219616c906733e8f35db2e3cfab79ed140a24ecdbd298ed",
+      "observations": "Labels and arrows readable; no text clipping or overlaps; structure distinguishes branches without color alone."
+    },
+    {
+      "id": "图6-2",
+      "color_sha256": "a36d259ad4577d9b1d20a81b0082040ec0be6d9bddd6e43e775d2873b55e0921",
+      "gray_sha256": "3785eb96be3f81bd797bc7514bf6e4b8b4d9d319f69e8b5011fba56645b71018",
+      "observations": "Labels and arrows readable; no text clipping or overlaps; structure distinguishes branches without color alone."
+    },
+    {
+      "id": "图6-3",
+      "color_sha256": "a93c7a4d2ca1c5776253197b06d241e814e3ed76868d20a7617918872555f8ac",
+      "gray_sha256": "1496cc152a949cb4ef502d7d3fe18e005769dc8e86dad217bfe69e4465549e9b",
+      "observations": "Labels and arrows readable; no text clipping or overlaps; structure distinguishes branches without color alone."
+    },
+    {
+      "id": "图6-4",
+      "color_sha256": "5c662fbbb7c6082f79a10eedf8ba89e7a838e0ab4066a23c7f6c15b49c640f2c",
+      "gray_sha256": "2740bece9686a88d9dba43c764b51e029d88bea4f5063a386a3f3df291c4f639",
+      "observations": "Labels and arrows readable; no text clipping or overlaps; structure distinguishes branches without color alone."
+    },
+    {
+      "id": "图6-5",
+      "color_sha256": "5aaa6bc5702540a5899e5d015c3427f4bd810e6966ab12add1f277e965f46ef4",
+      "gray_sha256": "c7948f807eb6a759eec11be88499bb31c660cb023c44ade1a51c50091f321928",
+      "observations": "Labels and arrows readable; no text clipping or overlaps; structure distinguishes branches without color alone."
+    },
+    {
+      "id": "图6-6",
+      "color_sha256": "727ff97f1449052d4f421bce6f1aace1db43414e1f968ccbc4cb4de0ecab45e8",
+      "gray_sha256": "29dd457104a1e6dab1ac85fcfece7ce6a95bb90f30a8f84839656be26230c1c6",
+      "observations": "Labels and arrows readable; no text clipping or overlaps; structure distinguishes branches without color alone."
+    },
+    {
+      "id": "图6-7",
+      "color_sha256": "e26001fe2116904f3a4b639b2fcc354445bcca7aa95b5f3db0533b02d5d7a561",
+      "gray_sha256": "a89ddbec31413c9291aaeb5e5b557ed988efce45ae1f75984a1a3102545af4ce",
+      "observations": "Labels and arrows readable; no text clipping or overlaps; structure distinguishes branches without color alone."
+    },
+    {
+      "id": "图6-8",
+      "color_sha256": "7d40c43239d8760a74cbab6ba850c4bf6a5288f9b7d9151913fb6f2dd55a099b",
+      "gray_sha256": "d997639f49f2a70f9d31778e44f992be6109e629ae126600664e729032f02677",
+      "observations": "Labels and arrows readable; no text clipping or overlaps; structure distinguishes branches without color alone."
+    }
+  ],
+  "fixes": [
+    "图6-3改为具体输入指向输入记录，移除可能误导的估算回流箭头；图6-5异常分支绕开人工复核标签，修改后重开彩图及全部灰度图。"
+  ],
+  "limits": "AI visual inspection, no physical print or human classroom validation."
+}

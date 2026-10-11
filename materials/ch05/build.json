@@ -1,0 +1,42 @@
+{
+  "template": "templates/textbook-style-v1.0.dotx",
+  "template_sha256": "eef8ce505c3d9afb3493e61af1f38ee26bca6ff9a0aa12f7ad3e2a8cacad6473",
+  "manuscript": "manuscripts/ch05-layout/ch05.md",
+  "manuscript_sha256": "8f3419f1ac3465fb1c98db74b82676b703d341eb0ed82706b43a8fdbcdd6f31f",
+  "docx_sha256": "5cc0ec2bd52d3f3231f3460faec46352165dd9775e296cbb9e04f8afda08f264",
+  "style": "textbook-style-v1.0",
+  "toc_cached_pages": {
+    "5.1 创新思维要素：联想、类比、逆向思维、发散与收敛": 4,
+    "5.2 好奇心：主动探索的动力源。如何培养和保持好奇心？": 13,
+    "5.3 设计思维简介：以人为本的创新方法论": 20,
+    "5.4 跨界类比迁移": 27,
+    "5.5 人类进步中的好奇心案例：牛顿苹果，莱特兄弟飞行，CRISPR基因编辑": 33,
+    "5.6 打破思维惯性：逆向假设，跨域类比思维": 41,
+    "5.7 前沿AI学习范式：强化学习，迁移学习，联邦学习的创新价值": 48,
+    "章末综合训练": 59,
+    "本章回顾": 60,
+    "关键术语": 61,
+    "参考解与讨论": 62,
+    "参考文献": 68
+  },
+  "toc_headings": [
+    "5.1 创新思维要素：联想、类比、逆向思维、发散与收敛",
+    "5.2 好奇心：主动探索的动力源。如何培养和保持好奇心？",
+    "5.3 设计思维简介：以人为本的创新方法论",
+    "5.4 跨界类比迁移",
+    "5.5 人类进步中的好奇心案例：牛顿苹果，莱特兄弟飞行，CRISPR基因编辑",
+    "5.6 打破思维惯性：逆向假设，跨域类比思维",
+    "5.7 前沿AI学习范式：强化学习，迁移学习，联邦学习的创新价值",
+    "章末综合训练",
+    "本章回顾",
+    "关键术语",
+    "参考解与讨论",
+    "参考文献"
+  ],
+  "method": "Reused template styles and geometry; task-local chapter counter/numbering starts at the selected chapter, current header and answer bookmarks; native SEQ/REF/TOC/PAGEREF/PAGE preserved. No final DOCX LibreOffice roundtrip.",
+  "word_native_execution": "NOT_EVALUATED",
+  "post_build_markdown_link_normalization": {
+    "current_manuscript_sha256": "e6dd19575f9f0986321c8635bcd2335981e8a2f4c17f7b9fb1a0ee059b08a106",
+    "change": "Only image hrefs changed from repository-root-like paths to actual manuscript-relative paths; prose and figure bytes unchanged. Original build manuscript hash retained. DOCX images are loaded from figure manifest, so Word/PDF output unchanged; current-source correspondence rechecked."
+  }
+}

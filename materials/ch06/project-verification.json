@@ -1,0 +1,19 @@
+{
+  "observer": "Codex Parent /root",
+  "verified_at": "2026-10-11T20:38:46.958721+00:00",
+  "unit_tests": 18,
+  "unit_test_result": "PASS",
+  "cli_report_matches_expected_bytes": true,
+  "input_output_scope": "Local teaching input; no external interface or lamp actuation",
+  "snapshot": {
+    "materials/ch06/project/README.md": "e730258db62a5e1ce9325968e86c0a948ed67c0228c5fd5541c8f24ee3debf81",
+    "materials/ch06/project/expected-output.txt": "6362a1d9e8c02b872c01ca5c45cf6d4c3af9b08fad0971b54239744cf0386cda",
+    "materials/ch06/project/inputs.json": "2d7afda20ec8970fdb0fd2bf6ac7ccb744e5853cc9fdf6224e0997cc66ef09d2",
+    "materials/ch06/project/prototype.py": "b634101c71bd7d2439088a4f998d81c714aaccd9380bb726a499992a3836f4d9",
+    "materials/ch06/project/test_prototype.py": "184aa6532670fcbedba097fd3bfc48c7900d300dbc2b38364f8fa45ac04a4655"
+  },
+  "evidence": [
+    "materials/ch06/project-tests.log",
+    "materials/ch06/project-actual-output.txt"
+  ]
+}

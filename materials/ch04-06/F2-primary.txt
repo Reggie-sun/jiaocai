@@ -1,0 +1,23 @@
+Deep Leakage from Gradients
+NeurIPS Proceedings
+Search
+Deep Leakage from Gradients
+Ligeng Zhu, Zhijian Liu, Song Han
+Advances in Neural Information Processing Systems 32  (NeurIPS 2019)
+AuthorFeedback
+Bibtex
+MetaReview
+Metadata
+Paper
+Reviews
+Supplemental
+Abstract
+Passing gradient is a widely used scheme in  modern multi-node learning system (e.g, distributed training, collaborative learning). In a long time, people used to believe that gradients are safe to share: i.e, the training set will not be leaked by gradient sharing.  However, in this paper, we show that we can obtain the private training set from the publicly shared gradients.  The leaking only takes few gradient steps to process and can obtain the original training set instead of look-alike alternatives.  We name this leakage as \textit{deep leakage from gradient}  and practically validate the effectiveness of our algorithm on both computer vision and natural language processing tasks. We empirically show that our attack is much stronger than previous approaches and thereby and raise people's awareness to rethink the gradients' safety. We also discuss some possible strategies to defend this deep leakage.
+Name Change Policy
+×
+Requests for name changes in the electronic proceedings will be accepted with no questions asked.  However name changes may cause bibliographic tracking issues.  Authors are asked to consider this carefully and discuss it with their co-authors prior to requesting a name change in the electronic proceedings.
+Use the "Report an Issue" link to request a name change.
+Report an Issue
+|
+Name Change Policy
+Do not remove: This comment is monitored to verify that the site is working properly

@@ -1,0 +1,478 @@
+{
+  "checks": "PASS",
+  "chapter": 6,
+  "han_characters_approx": 31472,
+  "pages": 70,
+  "tables": 8,
+  "figures": 8,
+  "references": 3,
+  "native_reference_fields": 24,
+  "source_sha256": "6d7e15a9eb965ab380515d02aa16646419155cb325dd2ae038f9ce926d685b27",
+  "docx_sha256": "13ad4111a6582251f79d3614108cf0b7010b9cc5b09cd104897a94dbea9fb38f",
+  "pdf_sha256": "248e12d7015e286b0eac5ab6f8273c93c7448a8b5818637fb40101334bdba0e0",
+  "toc_pages": {
+    "6.1 选题与需求：确定用户、目标和边界": 5,
+    "6.2 证据与可行性：数据、资源和风险": 16,
+    "6.3 方案与原型：模块、接口和关键流程": 28,
+    "6.4 测试与迭代：指标、失败和修正": 38,
+    "6.5 展示与复盘：解释成果及其限制": 48,
+    "章末综合训练": 59,
+    "本章回顾": 60,
+    "关键术语": 61,
+    "参考解与讨论": 63,
+    "参考文献": 69
+  },
+  "toc_cache_matches_actual_pages": true,
+  "figure_pages": {
+    "图6-1": 7,
+    "图6-2": 11,
+    "图6-3": 17,
+    "图6-4": 22,
+    "图6-5": 30,
+    "图6-6": 39,
+    "图6-7": 45,
+    "图6-8": 56
+  },
+  "embedded_fonts": [
+    "/BAAAAA+NotoSansCJKsc-Regular",
+    "/CAAAAA+NotoSansCJKsc-Bold",
+    "/DAAAAA+NotoSerifCJKsc-Regular",
+    "/EAAAAA+NotoSerifCJKsc-Regular",
+    "/FAAAAA+NotoSansCJKsc-Bold",
+    "/GAAAAA+NotoSerifCJKsc-Regular",
+    "/HAAAAA+NotoSerifCJKsc-Bold",
+    "/IAAAAA+NotoSansCJKsc-Bold",
+    "/JAAAAA+NotoSerifCJKsc-Regular",
+    "/KAAAAA+NotoSerifCJKsc-Regular",
+    "/LAAAAA+NotoSerifCJKsc-Bold",
+    "/MAAAAA+NotoSerifCJKsc-Regular",
+    "/NAAAAA+NotoSerifCJKsc-Regular",
+    "/OAAAAA+NotoSansMonoCJKsc-Regular",
+    "/PAAAAA+NotoSansCJKsc-Bold",
+    "/QAAAAA+NotoSerifCJKsc-Regular",
+    "/RAAAAA+NotoSerifCJKsc-Regular"
+  ],
+  "page_extents": [
+    {
+      "page": 1,
+      "body_top": 84.5,
+      "body_bottom": 734.5,
+      "images": 0
+    },
+    {
+      "page": 2,
+      "body_top": 83.0,
+      "body_bottom": 762.4,
+      "images": 0
+    },
+    {
+      "page": 3,
+      "body_top": 79.8,
+      "body_bottom": 256.0,
+      "images": 0
+    },
+    {
+      "page": 4,
+      "body_top": 83.0,
+      "body_bottom": 437.5,
+      "images": 0
+    },
+    {
+      "page": 5,
+      "body_top": 95.0,
+      "body_bottom": 736.1,
+      "images": 0
+    },
+    {
+      "page": 6,
+      "body_top": 79.8,
+      "body_bottom": 551.7,
+      "images": 0
+    },
+    {
+      "page": 7,
+      "body_top": 328.8,
+      "body_bottom": 746.0,
+      "images": 1
+    },
+    {
+      "page": 8,
+      "body_top": 79.8,
+      "body_bottom": 754.8,
+      "images": 0
+    },
+    {
+      "page": 9,
+      "body_top": 78.7,
+      "body_bottom": 737.4,
+      "images": 0
+    },
+    {
+      "page": 10,
+      "body_top": 79.8,
+      "body_bottom": 617.4,
+      "images": 0
+    },
+    {
+      "page": 11,
+      "body_top": 397.2,
+      "body_bottom": 748.7,
+      "images": 1
+    },
+    {
+      "page": 12,
+      "body_top": 79.8,
+      "body_bottom": 706.8,
+      "images": 0
+    },
+    {
+      "page": 13,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 14,
+      "body_top": 79.8,
+      "body_bottom": 706.8,
+      "images": 0
+    },
+    {
+      "page": 15,
+      "body_top": 79.8,
+      "body_bottom": 683.1,
+      "images": 0
+    },
+    {
+      "page": 16,
+      "body_top": 83.0,
+      "body_bottom": 756.9,
+      "images": 0
+    },
+    {
+      "page": 17,
+      "body_top": 79.8,
+      "body_bottom": 746.8,
+      "images": 1
+    },
+    {
+      "page": 18,
+      "body_top": 79.8,
+      "body_bottom": 711.5,
+      "images": 0
+    },
+    {
+      "page": 19,
+      "body_top": 83.2,
+      "body_bottom": 721.4,
+      "images": 0
+    },
+    {
+      "page": 20,
+      "body_top": 81.5,
+      "body_bottom": 760.5,
+      "images": 0
+    },
+    {
+      "page": 21,
+      "body_top": 79.8,
+      "body_bottom": 708.5,
+      "images": 0
+    },
+    {
+      "page": 22,
+      "body_top": 79.8,
+      "body_bottom": 684.8,
+      "images": 1
+    },
+    {
+      "page": 23,
+      "body_top": 81.5,
+      "body_bottom": 760.5,
+      "images": 0
+    },
+    {
+      "page": 24,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 25,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 26,
+      "body_top": 79.8,
+      "body_bottom": 706.8,
+      "images": 0
+    },
+    {
+      "page": 27,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 28,
+      "body_top": 79.8,
+      "body_bottom": 768.9,
+      "images": 0
+    },
+    {
+      "page": 29,
+      "body_top": 79.8,
+      "body_bottom": 584.5,
+      "images": 0
+    },
+    {
+      "page": 30,
+      "body_top": 358.0,
+      "body_bottom": 709.5,
+      "images": 1
+    },
+    {
+      "page": 31,
+      "body_top": 79.8,
+      "body_bottom": 650.2,
+      "images": 0
+    },
+    {
+      "page": 32,
+      "body_top": 78.7,
+      "body_bottom": 728.7,
+      "images": 0
+    },
+    {
+      "page": 33,
+      "body_top": 79.8,
+      "body_bottom": 716.3,
+      "images": 0
+    },
+    {
+      "page": 34,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 35,
+      "body_top": 79.8,
+      "body_bottom": 706.8,
+      "images": 0
+    },
+    {
+      "page": 36,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 37,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 38,
+      "body_top": 79.8,
+      "body_bottom": 736.1,
+      "images": 0
+    },
+    {
+      "page": 39,
+      "body_top": 79.8,
+      "body_bottom": 718.7,
+      "images": 1
+    },
+    {
+      "page": 40,
+      "body_top": 79.8,
+      "body_bottom": 706.8,
+      "images": 0
+    },
+    {
+      "page": 41,
+      "body_top": 79.8,
+      "body_bottom": 757.8,
+      "images": 0
+    },
+    {
+      "page": 42,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 43,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 44,
+      "body_top": 79.8,
+      "body_bottom": 706.8,
+      "images": 0
+    },
+    {
+      "page": 45,
+      "body_top": 79.8,
+      "body_bottom": 768.7,
+      "images": 1
+    },
+    {
+      "page": 46,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 47,
+      "body_top": 79.8,
+      "body_bottom": 674.0,
+      "images": 0
+    },
+    {
+      "page": 48,
+      "body_top": 79.8,
+      "body_bottom": 768.9,
+      "images": 0
+    },
+    {
+      "page": 49,
+      "body_top": 79.8,
+      "body_bottom": 706.8,
+      "images": 0
+    },
+    {
+      "page": 50,
+      "body_top": 79.8,
+      "body_bottom": 751.2,
+      "images": 0
+    },
+    {
+      "page": 51,
+      "body_top": 81.5,
+      "body_bottom": 727.7,
+      "images": 0
+    },
+    {
+      "page": 52,
+      "body_top": 79.8,
+      "body_bottom": 734.5,
+      "images": 0
+    },
+    {
+      "page": 53,
+      "body_top": 83.2,
+      "body_bottom": 760.5,
+      "images": 0
+    },
+    {
+      "page": 54,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 55,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 56,
+      "body_top": 79.8,
+      "body_bottom": 722.4,
+      "images": 1
+    },
+    {
+      "page": 57,
+      "body_top": 81.5,
+      "body_bottom": 760.5,
+      "images": 0
+    },
+    {
+      "page": 58,
+      "body_top": 81.5,
+      "body_bottom": 727.7,
+      "images": 0
+    },
+    {
+      "page": 59,
+      "body_top": 79.8,
+      "body_bottom": 762.9,
+      "images": 0
+    },
+    {
+      "page": 60,
+      "body_top": 79.8,
+      "body_bottom": 712.3,
+      "images": 0
+    },
+    {
+      "page": 61,
+      "body_top": 79.8,
+      "body_bottom": 712.3,
+      "images": 0
+    },
+    {
+      "page": 62,
+      "body_top": 79.8,
+      "body_bottom": 715.9,
+      "images": 0
+    },
+    {
+      "page": 63,
+      "body_top": 79.8,
+      "body_bottom": 768.9,
+      "images": 0
+    },
+    {
+      "page": 64,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 65,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 66,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 67,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 68,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 69,
+      "body_top": 79.8,
+      "body_bottom": 765.6,
+      "images": 0
+    },
+    {
+      "page": 70,
+      "body_top": 78.7,
+      "body_bottom": 249.9,
+      "images": 0
+    }
+  ],
+  "limits": "Correspondence and executable layout checks only; actual page observation and content review recorded separately. Word native refresh, printing, teacher/student acceptance untested."
+}

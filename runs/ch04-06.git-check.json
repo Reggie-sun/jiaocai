@@ -1,0 +1,10 @@
+{
+  "result": "PASS",
+  "method": "git diff --cached --check on owned staged changes, excluding two captured raw source snapshots",
+  "excluded_raw_snapshots": [
+    "materials/ch04-06/F1-primary.txt",
+    "materials/ch04-06/core-inputs.md"
+  ],
+  "reason": "Original publisher/export trailing whitespace retained to preserve sealed source byte identity; no edits to these bytes for formatting. Extra EOF blanks in authored Specs/Plans/builder corrected; builder AST unchanged.",
+  "scope": "Whitespace validation only; chapter content, figures, actual page observations, numeric tests and Harness have separate evidence."
+}

@@ -1,0 +1,11 @@
+{
+  "chapter": 4,
+  "original": "manuscripts/ch04/ch04.md",
+  "original_sha256": "dd6eab95dc5dc3d23619445d352e0c2b522303edff974cc344d671f5b83d7e99",
+  "illustrated": "manuscripts/ch04-layout/ch04.md",
+  "illustrated_sha256": "7ecc696ecde5713155a90ed35aff501b6c6e12e1131c60c70d97f6e917bf32f9",
+  "manifest_sha256": "b3bfe96b55c1b7bae69c504bf2b48a18f430ee8026ec877944c3ed14c5bc348e",
+  "figures": 6,
+  "original_prose_preserved": true,
+  "change": "Only image Markdown objects inserted directly above original figure captions."
+}

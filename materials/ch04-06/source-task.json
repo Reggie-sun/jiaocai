@@ -1,0 +1,63 @@
+{
+  "parent_session_id": "codex-jiaocai-ch04-06-20261012",
+  "task_id": "ch04-06-bounded-primary-support",
+  "cwd": "/home/reggie/vscode_folder/jiaocai",
+  "explicit_root": "/home/reggie/vscode_folder/jiaocai",
+  "role": "explorer",
+  "goal": "Role source investigator, Authority read-only. Independently compare four intended claims in source-claims.json to four actual primary source text files. Required Read all five files fully once. Scope ONLY federated-learning/privacy boundary, gradient leakage limits, design-thinking modes/iteration, PBL design versus learning outcome. Report concrete unsupported qualifiers using stable IDs, exact file/lines, learner impact and minimal correction; no verdict/score. No writing, Bash/network, credentials, commit/push, nested delegation. Stop/report rule conflict. Parent owns acceptance. Canonical five-field report findings/proposed_changes/evidence_refs/uncertainties/questions, exact paths/hashes/read ranges. One bounded attempt, no automatic retry.",
+  "read_paths": [
+    "materials/ch04-06/source-claims.json",
+    "materials/ch04-06/F1-primary.txt",
+    "materials/ch04-06/F2-primary.txt",
+    "materials/ch04-06/D1-primary.txt",
+    "materials/ch04-06/P1-primary.txt"
+  ],
+  "write_paths": [],
+  "permissions": [
+    "read"
+  ],
+  "selected_refs": [
+    {
+      "path": "specs/ch04.spec.md",
+      "sha256": "445b0a01abca5fd486254aa9ad22f83cbffc6b2640e0a36f0f77b17c3e1249da",
+      "accepted": true
+    },
+    {
+      "path": "specs/ch05.spec.md",
+      "sha256": "03c348a311813381b24110a32b96e609601b1e6ab7746de632a42174cf165408",
+      "accepted": true
+    },
+    {
+      "path": "specs/ch06.spec.md",
+      "sha256": "f41cbd10ad573aef0ed85fb168466f36188aab3bbfbc154c6522208f611e400d",
+      "accepted": true
+    }
+  ],
+  "active_documents": "accepted_refs",
+  "harness_refs": [],
+  "constitution_refs": [
+    "AGENTS.md"
+  ],
+  "skills": [],
+  "skill_roots": [],
+  "expected_evidence": [
+    "materials/ch04-06/source-claims.json",
+    "materials/ch04-06/F1-primary.txt",
+    "materials/ch04-06/F2-primary.txt",
+    "materials/ch04-06/D1-primary.txt",
+    "materials/ch04-06/P1-primary.txt"
+  ],
+  "backend": "kimi",
+  "profile": "deep",
+  "budgets": {
+    "wall_seconds": 3600,
+    "idle_seconds": 1800,
+    "request_limit": 64,
+    "generation_tokens": 32000,
+    "output_bytes": 16777216,
+    "context_bytes": 8388608
+  },
+  "instruction_precedence": [
+    "AGENTS.md"
+  ]
+}

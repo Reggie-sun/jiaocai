@@ -1,0 +1,42 @@
+{
+  "observer": "Codex Parent /root",
+  "snapshot_sha256": "d0214c8d9dc7b8363672bec0ffa5b7ab525b41357d601aec315ca428686d74a7",
+  "actual_view_image_pages": [
+    1,
+    3,
+    8,
+    20,
+    21,
+    22,
+    23,
+    26,
+    28,
+    29,
+    30,
+    31,
+    32,
+    47,
+    68,
+    69
+  ],
+  "page_hashes": {
+    "1": "febbc1b90ae8b48f180432f7d05ebb9408a88e1678e39f50feeb5c5a405c2e55",
+    "3": "aff6c2700d7492b32895d3541dc254693b6ced30d1bb57eeee04107ba7e44305",
+    "8": "1db412ec520f7525f791fe63c5a48d437c0d8db12d5205a918ca6d2e5dfc0af1",
+    "20": "34ae8ed49db34584f979fa4b3ba72ed49c8c2dbc0de7c5b73ffdcdc486b4607c",
+    "21": "8fafb8da73a5652c5cd8511d4346c4d1f0370bcd12ff6089c1a76292a0eda0f7",
+    "22": "cc72e8ea7d005e205bfa8ffaf4379ac50484ba6362e1742cbd1b056028bbda1f",
+    "23": "1569c114104aa6e06a356e27c8b872bbcae09d756997da38c9716c8db9e7a446",
+    "26": "9575bb0853e24374ae5636936dc79a92ebefcc33f0034959a31275d580a46f5a",
+    "28": "4b2a2cede278d2228e1beec1aa555f5480fbb6fa7d98b71ab4020af7db4d7c2f",
+    "29": "52a291970eb8be67c7c369d9f1213746f484138049a6b7e480a79a56c307f1a8",
+    "30": "20739150d389f1f2513d2da71f972738ecd411a6d13d11cbb8888ee965a862bb",
+    "31": "c465d570a78b160b9563bf3a386b558c0db9f621a21dea37e457ec93d1383a8d",
+    "32": "e0aa8d936c14735754f14a0b2326e2600d4c852fb23f9fc352515e661c4be0e0",
+    "47": "fe6d8a70af6e8778c25e4be1a9b3a1c4334f91b7e2c0fa13779b6fe4a29a6a9b",
+    "68": "5d05f199b64a144d1faa1ae0bb0a64453f6cc7f40743f89fe758a53785b50493",
+    "69": "504b04479300b9c80b51708d05f7aee2e04c62869d2fc6b7e594f5cd58542ed0"
+  },
+  "observations": "All figure insertions readable and inside body margins; actual TOC/answers/reference pages checked. Ch4 changed28–31, Ch5 changed19–20, Ch6 changed47–50 reopened after fixes. Other sampled pages had identical PNG bytes to their actually viewed prior snapshot.",
+  "scope": "Parent samples only; independent full-page coverage is in page-review.json"
+}

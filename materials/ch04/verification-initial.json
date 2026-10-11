@@ -1,0 +1,439 @@
+{
+  "checks": "PASS",
+  "chapter": 4,
+  "han_characters_approx": 30968,
+  "pages": 64,
+  "tables": 9,
+  "figures": 6,
+  "references": 4,
+  "native_reference_fields": 26,
+  "source_sha256": "4913a4ed0c0c1c4c888ff3dfb33760210727e8970e8d04509234d7aa2b6abc4b",
+  "docx_sha256": "ef227ea29bfdb0e1108586f20a42f3608f51bf45ca1ab422aa3559044daf3b87",
+  "pdf_sha256": "51d6a6870ed25fd2076390191a64c3305309fb379acb521550ff70d00d7cc7f5",
+  "toc_pages": {
+    "4.1 批判性思维核心：质疑、分析、评估、推理、解释、自我修正": 4,
+    "4.2 识别信息陷阱：偏见、谬误、伪相关性、数据操纵": 14,
+    "4.3 有效论证：构建与拆解": 27,
+    "4.4 计算思维赋能批判性思维": 40,
+    "章末综合训练": 51,
+    "本章回顾": 57,
+    "关键术语": 57,
+    "参考解与讨论": 58,
+    "参考文献": 64
+  },
+  "toc_cache_matches_actual_pages": false,
+  "figure_pages": {
+    "图4-1": 8,
+    "图4-2": 19,
+    "图4-3": 21,
+    "图4-4": 24,
+    "图4-5": 30,
+    "图4-6": 44
+  },
+  "embedded_fonts": [
+    "/BAAAAA+NotoSansCJKsc-Regular",
+    "/CAAAAA+NotoSansCJKsc-Bold",
+    "/DAAAAA+NotoSerifCJKsc-Regular",
+    "/EAAAAA+NotoSerifCJKsc-Regular",
+    "/FAAAAA+NotoSansCJKsc-Bold",
+    "/GAAAAA+NotoSerifCJKsc-Bold",
+    "/HAAAAA+NotoSerifCJKsc-Regular",
+    "/IAAAAA+NotoSerifCJKsc-Regular",
+    "/JAAAAA+NotoSerifCJKsc-Regular",
+    "/KAAAAA+NotoSerifCJKsc-Bold",
+    "/LAAAAA+NotoSerifCJKsc-Regular",
+    "/MAAAAA+NotoSerifCJKsc-Regular",
+    "/NAAAAA+NotoSerifCJKsc-Bold",
+    "/OAAAAA+NotoSerifCJKsc-Regular",
+    "/PAAAAA+NotoSansCJKsc-Bold",
+    "/QAAAAA+NotoSansMonoCJKsc-Regular",
+    "/RAAAAA+NotoSerifCJKsc-Regular"
+  ],
+  "page_extents": [
+    {
+      "page": 1,
+      "body_top": 84.5,
+      "body_bottom": 714.2,
+      "images": 0
+    },
+    {
+      "page": 2,
+      "body_top": 79.8,
+      "body_bottom": 679.5,
+      "images": 0
+    },
+    {
+      "page": 3,
+      "body_top": 83.0,
+      "body_bottom": 404.7,
+      "images": 0
+    },
+    {
+      "page": 4,
+      "body_top": 95.0,
+      "body_bottom": 756.4,
+      "images": 0
+    },
+    {
+      "page": 5,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 6,
+      "body_top": 79.8,
+      "body_bottom": 748.9,
+      "images": 0
+    },
+    {
+      "page": 7,
+      "body_top": 79.8,
+      "body_bottom": 551.7,
+      "images": 0
+    },
+    {
+      "page": 8,
+      "body_top": 387.4,
+      "body_bottom": 757.9,
+      "images": 1
+    },
+    {
+      "page": 9,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 10,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 11,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 12,
+      "body_top": 79.8,
+      "body_bottom": 715.9,
+      "images": 0
+    },
+    {
+      "page": 13,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 14,
+      "body_top": 79.8,
+      "body_bottom": 745.2,
+      "images": 0
+    },
+    {
+      "page": 15,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 16,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 17,
+      "body_top": 79.8,
+      "body_bottom": 683.1,
+      "images": 0
+    },
+    {
+      "page": 18,
+      "body_top": 79.8,
+      "body_bottom": 769.0,
+      "images": 0
+    },
+    {
+      "page": 19,
+      "body_top": 79.8,
+      "body_bottom": 762.6,
+      "images": 1
+    },
+    {
+      "page": 20,
+      "body_top": 79.8,
+      "body_bottom": 769.0,
+      "images": 0
+    },
+    {
+      "page": 21,
+      "body_top": 79.8,
+      "body_bottom": 756.6,
+      "images": 1
+    },
+    {
+      "page": 22,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 23,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 24,
+      "body_top": 333.7,
+      "body_bottom": 769.9,
+      "images": 1
+    },
+    {
+      "page": 25,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 26,
+      "body_top": 79.8,
+      "body_bottom": 715.9,
+      "images": 0
+    },
+    {
+      "page": 27,
+      "body_top": 79.8,
+      "body_bottom": 712.3,
+      "images": 0
+    },
+    {
+      "page": 28,
+      "body_top": 79.8,
+      "body_bottom": 715.9,
+      "images": 0
+    },
+    {
+      "page": 29,
+      "body_top": 78.7,
+      "body_bottom": 641.2,
+      "images": 0
+    },
+    {
+      "page": 30,
+      "body_top": 346.0,
+      "body_bottom": 749.3,
+      "images": 1
+    },
+    {
+      "page": 31,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 32,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 33,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 34,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 35,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 36,
+      "body_top": 79.8,
+      "body_bottom": 715.9,
+      "images": 0
+    },
+    {
+      "page": 37,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 38,
+      "body_top": 79.8,
+      "body_bottom": 715.9,
+      "images": 0
+    },
+    {
+      "page": 39,
+      "body_top": 79.8,
+      "body_bottom": 715.9,
+      "images": 0
+    },
+    {
+      "page": 40,
+      "body_top": 79.8,
+      "body_bottom": 712.3,
+      "images": 0
+    },
+    {
+      "page": 41,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 42,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 43,
+      "body_top": 79.8,
+      "body_bottom": 715.9,
+      "images": 0
+    },
+    {
+      "page": 44,
+      "body_top": 319.1,
+      "body_bottom": 755.3,
+      "images": 1
+    },
+    {
+      "page": 45,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 46,
+      "body_top": 79.8,
+      "body_bottom": 715.9,
+      "images": 0
+    },
+    {
+      "page": 47,
+      "body_top": 79.8,
+      "body_bottom": 715.9,
+      "images": 0
+    },
+    {
+      "page": 48,
+      "body_top": 78.7,
+      "body_bottom": 708.1,
+      "images": 0
+    },
+    {
+      "page": 49,
+      "body_top": 79.8,
+      "body_bottom": 743.8,
+      "images": 0
+    },
+    {
+      "page": 50,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 51,
+      "body_top": 79.8,
+      "body_bottom": 679.5,
+      "images": 0
+    },
+    {
+      "page": 52,
+      "body_top": 81.5,
+      "body_bottom": 743.1,
+      "images": 0
+    },
+    {
+      "page": 53,
+      "body_top": 79.8,
+      "body_bottom": 727.1,
+      "images": 0
+    },
+    {
+      "page": 54,
+      "body_top": 79.8,
+      "body_bottom": 759.9,
+      "images": 0
+    },
+    {
+      "page": 55,
+      "body_top": 79.8,
+      "body_bottom": 763.4,
+      "images": 0
+    },
+    {
+      "page": 56,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 57,
+      "body_top": 79.8,
+      "body_bottom": 741.6,
+      "images": 0
+    },
+    {
+      "page": 58,
+      "body_top": 79.8,
+      "body_bottom": 730.1,
+      "images": 0
+    },
+    {
+      "page": 59,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 60,
+      "body_top": 79.8,
+      "body_bottom": 706.8,
+      "images": 0
+    },
+    {
+      "page": 61,
+      "body_top": 79.8,
+      "body_bottom": 706.8,
+      "images": 0
+    },
+    {
+      "page": 62,
+      "body_top": 81.5,
+      "body_bottom": 717.8,
+      "images": 0
+    },
+    {
+      "page": 63,
+      "body_top": 79.8,
+      "body_bottom": 706.8,
+      "images": 0
+    },
+    {
+      "page": 64,
+      "body_top": 79.8,
+      "body_bottom": 535.2,
+      "images": 0
+    }
+  ],
+  "limits": "Correspondence and executable layout checks only; actual page observation and content review recorded separately. Word native refresh, printing, teacher/student acceptance untested."
+}
