@@ -17,9 +17,11 @@
 
 教材必须从基础起步、由浅入深；全书入口、节内铺垫、练习分层及审校按主Skill的 [Difficulty Progression](skills/textbook-authoring/SKILL.md#difficulty-progression) 执行。大三、大四的读者定位不构成开篇直接进入复杂模型与高密度术语的理由。
 
-原提纲已明确的章标题保持不变，第一章以历史回顾为主，第二章讲AI时代计算思维的变化与重构；具体定位按主Skill的 [Titles and Chapter Roles](skills/textbook-authoring/SKILL.md#titles-and-chapter-roles) 与当前蓝图执行，缺失章节仍标为提案。
+原提纲作为总纲，已明确的目录标题、章序与主题保持不变。全书围绕AI时代计算思维的变化与重构，培养跨界创新、学习能力与良好思考习惯；定位由主Skill的 [Book Positioning](skills/textbook-authoring/SKILL.md#book-positioning) 维护。第一章以历史回顾为主，第二章集中讲重构，按 [Titles and Chapter Roles](skills/textbook-authoring/SKILL.md#titles-and-chapter-roles) 与当前蓝图执行，缺失章节仍标为提案。
 
-教材写作、修订、审校及Word/PDF排版前，必须读取主Skill的 [Formal Textbook Style](skills/textbook-authoring/SKILL.md#formal-textbook-style)，沿用全书共用的`textbook-style-v1.0`；后九章及其Spec/plan直接引用该版本，不重新设计格式或复制样式细则。Word/PDF排版复用 [共用模板](templates/textbook-style-v1.0.dotx)，用法、已验证范围与限制见 [试排说明](materials/style-pilot/report.md)，文档生成与页面检查按下方Skill Routing选用能力。样张只用于格式验证，不作为固定节内教学结构或完整第一章排版验收；各节组织仍由学习目标与知识类型决定。
+每章2.8万—4万字；每节的导语、首小节案例描述与分析、后续讲解、适用时的思维训练及结尾反思按主Skill的 [Teaching Design](skills/textbook-authoring/SKILL.md#teaching-design) 执行。当前文字先行，插图后期统一处理；规划与交付要求按 [Illustrations](skills/textbook-authoring/SKILL.md#illustrations) 执行。
+
+教材写作、修订、审校及Word/PDF排版前，必须读取主Skill的 [Formal Textbook Style](skills/textbook-authoring/SKILL.md#formal-textbook-style)，沿用全书共用的`textbook-style-v1.0`；后九章及其Spec/plan直接引用该版本，不重新设计格式或复制样式细则。Word/PDF排版复用 [共用模板](templates/textbook-style-v1.0.dotx)，用法、已验证范围与限制见 [试排说明](materials/style-pilot/report.md)，文档生成与页面检查按下方Skill Routing选用能力。样张只用于格式验证，不作为固定节内教学结构或完整第一章排版验收；各节中段组织仍由学习目标与知识类型决定。
 
 第一章质量增量见 [ch01-quality.spec.md](specs/ch01-quality.spec.md)，有限对照的依赖与边界见 [改进plan](plans/authoring-quality.plan.md)；原正文与历史spec/plan保留，试写不自动替换整章。
 
@@ -30,7 +32,7 @@
 用户可在聊天消息中用 `$textbook-authoring` 显式调用，例如：
 
 ```text
-$textbook-authoring 请先阅读现状记录、第一章specs与plan，按第一章计划分节编写并同步配图，完成后做整章审校、harness验收并更新现状记录。
+$textbook-authoring 请先阅读现状记录、第一章specs与plan，按当前规则和计划分节编写，随文规划图表、后期统一制作，完成后做整章审校、harness验收并更新现状记录。
 ```
 
 ## Skill Routing
