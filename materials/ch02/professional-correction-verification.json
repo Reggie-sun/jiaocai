@@ -1,0 +1,322 @@
+{
+  "manuscript_sha256": "e09aa94519f298a7fc7979f7c494c525f2146e1bbfcc56a913ba41d0311ca8b0",
+  "inputs_sha256": "f1807d5d386fae04f9e6fa5a1cc9b5c1b7cb05901edaa94f9706401e3f02eee9",
+  "script_sha256": "e4fcf1b4a2945c97643d4ac018084f2582427a2e4fa6849666968e9dc7fb10bf",
+  "P01": {
+    "schedule_by_D_minutes": {
+      "5": {
+        "topological_order": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        "schedule": {
+          "A": {
+            "start": 0,
+            "finish": 2
+          },
+          "B": {
+            "start": 2,
+            "finish": 6
+          },
+          "C": {
+            "start": 2,
+            "finish": 5
+          },
+          "D": {
+            "start": 6,
+            "finish": 11
+          },
+          "E": {
+            "start": 6,
+            "finish": 8
+          },
+          "F": {
+            "start": 11,
+            "finish": 14
+          },
+          "G": {
+            "start": 14,
+            "finish": 15
+          }
+        },
+        "project_minutes": 15,
+        "critical_paths": [
+          {
+            "path": [
+              "A",
+              "B",
+              "D",
+              "F",
+              "G"
+            ],
+            "minutes": 15
+          }
+        ],
+        "all_source_to_sink_paths": [
+          {
+            "path": [
+              "A",
+              "B",
+              "D",
+              "F",
+              "G"
+            ],
+            "minutes": 15
+          },
+          {
+            "path": [
+              "A",
+              "B",
+              "E",
+              "F",
+              "G"
+            ],
+            "minutes": 12
+          },
+          {
+            "path": [
+              "A",
+              "C",
+              "D",
+              "F",
+              "G"
+            ],
+            "minutes": 14
+          }
+        ]
+      },
+      "2": {
+        "topological_order": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        "schedule": {
+          "A": {
+            "start": 0,
+            "finish": 2
+          },
+          "B": {
+            "start": 2,
+            "finish": 6
+          },
+          "C": {
+            "start": 2,
+            "finish": 5
+          },
+          "D": {
+            "start": 6,
+            "finish": 8
+          },
+          "E": {
+            "start": 6,
+            "finish": 8
+          },
+          "F": {
+            "start": 8,
+            "finish": 11
+          },
+          "G": {
+            "start": 11,
+            "finish": 12
+          }
+        },
+        "project_minutes": 12,
+        "critical_paths": [
+          {
+            "path": [
+              "A",
+              "B",
+              "D",
+              "F",
+              "G"
+            ],
+            "minutes": 12
+          },
+          {
+            "path": [
+              "A",
+              "B",
+              "E",
+              "F",
+              "G"
+            ],
+            "minutes": 12
+          }
+        ],
+        "all_source_to_sink_paths": [
+          {
+            "path": [
+              "A",
+              "B",
+              "D",
+              "F",
+              "G"
+            ],
+            "minutes": 12
+          },
+          {
+            "path": [
+              "A",
+              "B",
+              "E",
+              "F",
+              "G"
+            ],
+            "minutes": 12
+          },
+          {
+            "path": [
+              "A",
+              "C",
+              "D",
+              "F",
+              "G"
+            ],
+            "minutes": 11
+          }
+        ]
+      },
+      "1": {
+        "topological_order": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        "schedule": {
+          "A": {
+            "start": 0,
+            "finish": 2
+          },
+          "B": {
+            "start": 2,
+            "finish": 6
+          },
+          "C": {
+            "start": 2,
+            "finish": 5
+          },
+          "D": {
+            "start": 6,
+            "finish": 7
+          },
+          "E": {
+            "start": 6,
+            "finish": 8
+          },
+          "F": {
+            "start": 8,
+            "finish": 11
+          },
+          "G": {
+            "start": 11,
+            "finish": 12
+          }
+        },
+        "project_minutes": 12,
+        "critical_paths": [
+          {
+            "path": [
+              "A",
+              "B",
+              "E",
+              "F",
+              "G"
+            ],
+            "minutes": 12
+          }
+        ],
+        "all_source_to_sink_paths": [
+          {
+            "path": [
+              "A",
+              "B",
+              "D",
+              "F",
+              "G"
+            ],
+            "minutes": 11
+          },
+          {
+            "path": [
+              "A",
+              "B",
+              "E",
+              "F",
+              "G"
+            ],
+            "minutes": 12
+          },
+          {
+            "path": [
+              "A",
+              "C",
+              "D",
+              "F",
+              "G"
+            ],
+            "minutes": 10
+          }
+        ]
+      }
+    },
+    "conclusion": "D5→2 decreases project15→12 by3; D2→1 leaves12 due E finish8"
+  },
+  "P02": {
+    "fixed_cost_minutes_C_X": 7,
+    "arrival_deadline": 12,
+    "cases": {
+      "optimistic_C_X_available": {
+        "search": {
+          "reachable": true,
+          "minimum_minutes": 14,
+          "route": [
+            "G",
+            "P",
+            "C",
+            "X"
+          ],
+          "service_completed_minute": 7,
+          "meets_arrival_deadline": false,
+          "meets_service_deadline": true,
+          "service_route_index": 2
+        },
+        "exhaustive_min": 14
+      },
+      "C_X_excluded": {
+        "search": {
+          "reachable": true,
+          "minimum_minutes": 15,
+          "route": [
+            "G",
+            "P",
+            "C",
+            "Q",
+            "X"
+          ],
+          "service_completed_minute": 7,
+          "meets_arrival_deadline": false,
+          "meets_service_deadline": true,
+          "service_route_index": 2
+        },
+        "exhaustive_min": 15
+      }
+    },
+    "conclusion": "Even optimistic completion14 exceeds12, so model infeasible whichever unknown passability resolves; no claim to confirm edge availability or all physical conditions."
+  },
+  "checks": "PASS",
+  "case_count": 5
+}

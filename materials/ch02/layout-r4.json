@@ -1,0 +1,452 @@
+{
+  "checks": "PASS",
+  "source_sha256": "e09aa94519f298a7fc7979f7c494c525f2146e1bbfcc56a913ba41d0311ca8b0",
+  "docx_sha256": "1951b77359e96aaf8aa3dd82211c4fde1aa03b1ab1941fe78f41bab9d2ff1644",
+  "pdf_sha256": "b15717242ad58d9280193cdc05bd5104d9014ea25c3157a74bfe5a6fcf73281d",
+  "pages": 78,
+  "tables_exactly_match_source": 13,
+  "figures": 8,
+  "reference_fields": 27,
+  "toc_pages": {
+    "2.1 抽象：选择信息、建立表示、检查遗漏": 4,
+    "2.2 分解：组织子问题与依赖关系": 15,
+    "2.3 模式识别：归纳规则、保留例外": 26,
+    "2.4 算法设计：搜索、排序与决策过程": 37,
+    "2.5 评估、优化与自动化：建立反馈闭环": 49,
+    "章末综合训练": 61,
+    "本章回顾": 64,
+    "关键术语": 64,
+    "参考解与讨论": 65,
+    "参考文献": 77
+  },
+  "toc_cache_matches_actual_pages": true,
+  "all_fonts_embedded": [
+    "/BAAAAA+NotoSansCJKsc-Regular",
+    "/CAAAAA+NotoSansCJKsc-Bold",
+    "/DAAAAA+NotoSerifCJKsc-Regular",
+    "/EAAAAA+NotoSansCJKsc-Bold",
+    "/FAAAAA+NotoSerifCJKsc-Regular",
+    "/GAAAAA+NotoSansCJKsc-Bold",
+    "/HAAAAA+NotoSerifCJKsc-Bold",
+    "/IAAAAA+NotoSerifCJKsc-Regular",
+    "/JAAAAA+NotoSans-Regular",
+    "/KAAAAA+NotoSerifCJKsc-Regular",
+    "/LAAAAA+NotoSerifCJKsc-Regular",
+    "/MAAAAA+NotoSerifCJKsc-Bold",
+    "/NAAAAA+NotoSerifCJKsc-Regular",
+    "/OAAAAA+NotoSerifCJKsc-Regular",
+    "/PAAAAA+NotoSansMonoCJKsc-Regular",
+    "/QAAAAA+NotoSansCJKsc-Bold",
+    "/RAAAAA+NotoSerifCJKsc-Regular"
+  ],
+  "embedded_symbol_or_math_fonts": {
+    "JAAAAA+NotoSans-Regular": "₁₂"
+  },
+  "protected_files_unchanged": 199,
+  "foreign_changes_preserved": {
+    "skills/textbook-authoring/SKILL.md": {
+      "initial_sha256": "f89af4451378600baafef87a6cc8dd5806bfcfe29ac2fa5be7a579109b838579",
+      "current_sha256": "d8d4a59e5596a3d7246ee497eafa399ef1a69ad9aa58efc74fca9c9784906292"
+    }
+  },
+  "template_preserve_parts_identical": [
+    "word/styles.xml",
+    "word/fontTable.xml",
+    "word/theme/theme1.xml",
+    "word/settings.xml",
+    "word/footer1.xml"
+  ],
+  "page_extents": [
+    {
+      "page": 1,
+      "body_top": 84.5,
+      "body_bottom": 747.0
+    },
+    {
+      "page": 2,
+      "body_top": 79.8,
+      "body_bottom": 515.2
+    },
+    {
+      "page": 3,
+      "body_top": 83.0,
+      "body_bottom": 437.5
+    },
+    {
+      "page": 4,
+      "body_top": 95.0,
+      "body_bottom": 768.9
+    },
+    {
+      "page": 5,
+      "body_top": 79.8,
+      "body_bottom": 706.8
+    },
+    {
+      "page": 6,
+      "body_top": 79.8,
+      "body_bottom": 584.5
+    },
+    {
+      "page": 7,
+      "body_top": 306.8,
+      "body_bottom": 756.8
+    },
+    {
+      "page": 8,
+      "body_top": 79.8,
+      "body_bottom": 739.7
+    },
+    {
+      "page": 9,
+      "body_top": 79.8,
+      "body_bottom": 420.3
+    },
+    {
+      "page": 10,
+      "body_top": 382.6,
+      "body_bottom": 710.3
+    },
+    {
+      "page": 11,
+      "body_top": 79.8,
+      "body_bottom": 706.8
+    },
+    {
+      "page": 12,
+      "body_top": 79.8,
+      "body_bottom": 739.7
+    },
+    {
+      "page": 13,
+      "body_top": 79.8,
+      "body_bottom": 738.9
+    },
+    {
+      "page": 14,
+      "body_top": 79.8,
+      "body_bottom": 739.7
+    },
+    {
+      "page": 15,
+      "body_top": 79.8,
+      "body_bottom": 768.9
+    },
+    {
+      "page": 16,
+      "body_top": 79.8,
+      "body_bottom": 748.8
+    },
+    {
+      "page": 17,
+      "body_top": 79.8,
+      "body_bottom": 706.8
+    },
+    {
+      "page": 18,
+      "body_top": 79.8,
+      "body_bottom": 706.8
+    },
+    {
+      "page": 19,
+      "body_top": 79.8,
+      "body_bottom": 711.3
+    },
+    {
+      "page": 20,
+      "body_top": 79.8,
+      "body_bottom": 584.5
+    },
+    {
+      "page": 21,
+      "body_top": 78.7,
+      "body_bottom": 765.8
+    },
+    {
+      "page": 22,
+      "body_top": 79.8,
+      "body_bottom": 650.2
+    },
+    {
+      "page": 23,
+      "body_top": 81.5,
+      "body_bottom": 727.7
+    },
+    {
+      "page": 24,
+      "body_top": 79.8,
+      "body_bottom": 764.2
+    },
+    {
+      "page": 25,
+      "body_top": 83.2,
+      "body_bottom": 686.5
+    },
+    {
+      "page": 26,
+      "body_top": 79.8,
+      "body_bottom": 768.9
+    },
+    {
+      "page": 27,
+      "body_top": 79.8,
+      "body_bottom": 748.8
+    },
+    {
+      "page": 28,
+      "body_top": 79.8,
+      "body_bottom": 739.7
+    },
+    {
+      "page": 29,
+      "body_top": 79.8,
+      "body_bottom": 486.0
+    },
+    {
+      "page": 30,
+      "body_top": 353.3,
+      "body_bottom": 704.8
+    },
+    {
+      "page": 31,
+      "body_top": 79.8,
+      "body_bottom": 748.1
+    },
+    {
+      "page": 32,
+      "body_top": 79.8,
+      "body_bottom": 706.8
+    },
+    {
+      "page": 33,
+      "body_top": 79.8,
+      "body_bottom": 739.7
+    },
+    {
+      "page": 34,
+      "body_top": 79.8,
+      "body_bottom": 650.2
+    },
+    {
+      "page": 35,
+      "body_top": 81.5,
+      "body_bottom": 739.5
+    },
+    {
+      "page": 36,
+      "body_top": 79.8,
+      "body_bottom": 650.2
+    },
+    {
+      "page": 37,
+      "body_top": 83.0,
+      "body_bottom": 763.5
+    },
+    {
+      "page": 38,
+      "body_top": 81.5,
+      "body_bottom": 760.5
+    },
+    {
+      "page": 39,
+      "body_top": 79.8,
+      "body_bottom": 739.7
+    },
+    {
+      "page": 40,
+      "body_top": 79.8,
+      "body_bottom": 715.9
+    },
+    {
+      "page": 41,
+      "body_top": 81.5,
+      "body_bottom": 729.4
+    },
+    {
+      "page": 42,
+      "body_top": 79.8,
+      "body_bottom": 743.2
+    },
+    {
+      "page": 43,
+      "body_top": 79.8,
+      "body_bottom": 748.8
+    },
+    {
+      "page": 44,
+      "body_top": 79.8,
+      "body_bottom": 750.4
+    },
+    {
+      "page": 45,
+      "body_top": 81.5,
+      "body_bottom": 718.6
+    },
+    {
+      "page": 46,
+      "body_top": 79.8,
+      "body_bottom": 739.7
+    },
+    {
+      "page": 47,
+      "body_top": 79.8,
+      "body_bottom": 674.0
+    },
+    {
+      "page": 48,
+      "body_top": 78.7,
+      "body_bottom": 711.7
+    },
+    {
+      "page": 49,
+      "body_top": 79.8,
+      "body_bottom": 768.9
+    },
+    {
+      "page": 50,
+      "body_top": 81.5,
+      "body_bottom": 727.7
+    },
+    {
+      "page": 51,
+      "body_top": 79.8,
+      "body_bottom": 739.7
+    },
+    {
+      "page": 52,
+      "body_top": 79.8,
+      "body_bottom": 674.0
+    },
+    {
+      "page": 53,
+      "body_top": 436.2,
+      "body_bottom": 754.1
+    },
+    {
+      "page": 54,
+      "body_top": 79.8,
+      "body_bottom": 739.7
+    },
+    {
+      "page": 55,
+      "body_top": 79.8,
+      "body_bottom": 706.8
+    },
+    {
+      "page": 56,
+      "body_top": 79.8,
+      "body_bottom": 748.8
+    },
+    {
+      "page": 57,
+      "body_top": 421.6,
+      "body_bottom": 763.2
+    },
+    {
+      "page": 58,
+      "body_top": 79.8,
+      "body_bottom": 706.8
+    },
+    {
+      "page": 59,
+      "body_top": 79.8,
+      "body_bottom": 704.8
+    },
+    {
+      "page": 60,
+      "body_top": 79.8,
+      "body_bottom": 674.0
+    },
+    {
+      "page": 61,
+      "body_top": 83.0,
+      "body_bottom": 764.0
+    },
+    {
+      "page": 62,
+      "body_top": 79.8,
+      "body_bottom": 767.3
+    },
+    {
+      "page": 63,
+      "body_top": 79.8,
+      "body_bottom": 715.9
+    },
+    {
+      "page": 64,
+      "body_top": 79.8,
+      "body_bottom": 741.6
+    },
+    {
+      "page": 65,
+      "body_top": 79.8,
+      "body_bottom": 745.2
+    },
+    {
+      "page": 66,
+      "body_top": 79.8,
+      "body_bottom": 748.8
+    },
+    {
+      "page": 67,
+      "body_top": 79.8,
+      "body_bottom": 758.1
+    },
+    {
+      "page": 68,
+      "body_top": 79.8,
+      "body_bottom": 748.8
+    },
+    {
+      "page": 69,
+      "body_top": 79.8,
+      "body_bottom": 712.1
+    },
+    {
+      "page": 70,
+      "body_top": 79.8,
+      "body_bottom": 748.8
+    },
+    {
+      "page": 71,
+      "body_top": 79.8,
+      "body_bottom": 744.7
+    },
+    {
+      "page": 72,
+      "body_top": 83.2,
+      "body_bottom": 752.2
+    },
+    {
+      "page": 73,
+      "body_top": 79.8,
+      "body_bottom": 683.1
+    },
+    {
+      "page": 74,
+      "body_top": 79.8,
+      "body_bottom": 715.9
+    },
+    {
+      "page": 75,
+      "body_top": 79.8,
+      "body_bottom": 748.8
+    },
+    {
+      "page": 76,
+      "body_top": 79.8,
+      "body_bottom": 748.8
+    },
+    {
+      "page": 77,
+      "body_top": 79.8,
+      "body_bottom": 768.7
+    },
+    {
+      "page": 78,
+      "body_top": 78.7,
+      "body_bottom": 548.2
+    }
+  ],
+  "boundary": "Executable content/field/layout checks; does not substitute actual page viewing, classroom trial, Word native execution or publisher acceptance."
+}

@@ -1,0 +1,9 @@
+{
+  "old_sha256": "fa7c59dbee87a1649f6ba7a3e859fca5ae468e7bb22ffbcfab8e76626cecd002",
+  "new_sha256": "9333b146ef618d60add19a21c8c4aac04d117feeb33405f8e3684b9d4b26a300",
+  "diff": "materials/ch02/snapshots/r2-r3.diff",
+  "change": "图2-6阅读指引“只看两根平均值柱”改为“只看平均值”，匹配实际表格/覆盖框；比较方法、数值、分母、公式、任务与答案未变。",
+  "classification": "PROVEN_NON_SEMANTIC_EDITORIAL",
+  "teaching_review_applies_to_old_bytes": true,
+  "new_bytes_not_claimed_reviewed_by_teaching_r2": true
+}

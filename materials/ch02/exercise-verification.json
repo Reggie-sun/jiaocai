@@ -1,0 +1,2465 @@
+{
+  "verification": "PASS",
+  "scope": "Independent numeric and deterministic algorithm derivations for Chapter 2 exercises E01-E06 and the separate Figure 2-5 route graph.",
+  "generated_at_utc": "2026-10-11T15:05:17+00:00",
+  "command": "python3 materials/ch02/verify_exercises.py --input materials/ch02/exercise-inputs.json --output materials/ch02/exercise-verification.json",
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "implementation": "CPython",
+    "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.39",
+    "dependencies": "Python standard library only"
+  },
+  "inputs": {
+    "path": "materials/ch02/exercise-inputs.json",
+    "sha256": "f1807d5d386fae04f9e6fa5a1cc9b5c1b7cb05901edaa94f9706401e3f02eee9"
+  },
+  "script": {
+    "path": "materials/ch02/verify_exercises.py",
+    "sha256": "e4fcf1b4a2945c97643d4ac018084f2582427a2e4fa6849666968e9dc7fb10bf"
+  },
+  "check_count": 46,
+  "checks": [
+    {
+      "name": "E06 no_stairs state-search agrees with exhaustive augmented routes",
+      "passed": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "name": "E06 stairs_allowed state-search agrees with exhaustive augmented routes",
+      "passed": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "name": "E01 confirmed step-free path and 09:57 arrival",
+      "passed": true,
+      "actual": [
+        {
+          "route": [
+            "H",
+            "K",
+            "L"
+          ],
+          "minutes": 7,
+          "arrival_minute_of_day": 604
+        }
+      ],
+      "expected": [
+        {
+          "route": [
+            "H",
+            "K",
+            "L"
+          ],
+          "minutes": 7,
+          "arrival_minute_of_day": 604
+        }
+      ]
+    },
+    {
+      "name": "E01 cancelling profile does not defeat J-L completion cutoff",
+      "passed": true,
+      "actual": [
+        {
+          "route": [
+            "H",
+            "K",
+            "L"
+          ],
+          "minutes": 7,
+          "arrival_minute_of_day": 604
+        }
+      ],
+      "expected": [
+        {
+          "route": [
+            "H",
+            "K",
+            "L"
+          ],
+          "minutes": 7,
+          "arrival_minute_of_day": 604
+        }
+      ]
+    },
+    {
+      "name": "E01 unknown K-L leaves no fully confirmed step-free route",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "E01 direction is not reversed",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "E01 coarse merge exposes a 4-minute but profile-invalid projection",
+      "passed": true,
+      "actual": [
+        [
+          "H",
+          "P",
+          2,
+          [
+            "H",
+            "J"
+          ],
+          false
+        ],
+        [
+          "P",
+          "L",
+          2,
+          [
+            "J",
+            "L"
+          ],
+          false
+        ]
+      ],
+      "expected": [
+        [
+          "H",
+          "P",
+          2,
+          [
+            "H",
+            "J"
+          ],
+          false
+        ],
+        [
+          "P",
+          "L",
+          2,
+          [
+            "J",
+            "L"
+          ],
+          false
+        ]
+      ]
+    },
+    {
+      "name": "E02 initial finish and critical path",
+      "passed": true,
+      "actual": [
+        15,
+        [
+          [
+            "A",
+            "B",
+            "D",
+            "F",
+            "G"
+          ]
+        ]
+      ],
+      "expected": [
+        15,
+        [
+          [
+            "A",
+            "B",
+            "D",
+            "F",
+            "G"
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "E02 initial earliest start/finish values",
+      "passed": true,
+      "actual": {
+        "A": [
+          0,
+          2
+        ],
+        "B": [
+          2,
+          6
+        ],
+        "C": [
+          2,
+          5
+        ],
+        "D": [
+          6,
+          11
+        ],
+        "E": [
+          6,
+          8
+        ],
+        "F": [
+          11,
+          14
+        ],
+        "G": [
+          14,
+          15
+        ]
+      },
+      "expected": {
+        "A": [
+          0,
+          2
+        ],
+        "B": [
+          2,
+          6
+        ],
+        "C": [
+          2,
+          5
+        ],
+        "D": [
+          6,
+          11
+        ],
+        "E": [
+          6,
+          8
+        ],
+        "F": [
+          11,
+          14
+        ],
+        "G": [
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "name": "E02 D-shortened finish and both critical paths",
+      "passed": true,
+      "actual": [
+        12,
+        [
+          [
+            "A",
+            "B",
+            "D",
+            "F",
+            "G"
+          ],
+          [
+            "A",
+            "B",
+            "E",
+            "F",
+            "G"
+          ]
+        ]
+      ],
+      "expected": [
+        12,
+        [
+          [
+            "A",
+            "B",
+            "D",
+            "F",
+            "G"
+          ],
+          [
+            "A",
+            "B",
+            "E",
+            "F",
+            "G"
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "E02 supplied map versions conflict",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "name": "E02 proposed topological sequence ['A', 'B', 'C', 'D', 'E', 'F', 'G']",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "E02 proposed topological sequence ['A', 'C', 'B', 'E', 'D', 'F', 'G']",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "E03 development RA confusion and exact metrics",
+      "passed": true,
+      "actual": [
+        4,
+        1,
+        0,
+        3,
+        {
+          "numerator": 7,
+          "denominator": 8,
+          "decimal": 0.875
+        },
+        {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        },
+        {
+          "numerator": 4,
+          "denominator": 5,
+          "decimal": 0.8
+        }
+      ],
+      "expected": [
+        4,
+        1,
+        0,
+        3,
+        {
+          "numerator": 7,
+          "denominator": 8,
+          "decimal": 0.875
+        },
+        {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        },
+        {
+          "numerator": 4,
+          "denominator": 5,
+          "decimal": 0.8
+        }
+      ]
+    },
+    {
+      "name": "E03 development RB confusion and exact metrics",
+      "passed": true,
+      "actual": [
+        5,
+        0,
+        0,
+        3,
+        {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        },
+        {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        },
+        {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      ],
+      "expected": [
+        5,
+        0,
+        0,
+        3,
+        {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        },
+        {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        },
+        {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      ]
+    },
+    {
+      "name": "E03 test RA confusion and exact metrics",
+      "passed": true,
+      "actual": [
+        1,
+        1,
+        0,
+        2,
+        {
+          "numerator": 3,
+          "denominator": 4,
+          "decimal": 0.75
+        },
+        {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        },
+        {
+          "numerator": 1,
+          "denominator": 2,
+          "decimal": 0.5
+        }
+      ],
+      "expected": [
+        1,
+        1,
+        0,
+        2,
+        {
+          "numerator": 3,
+          "denominator": 4,
+          "decimal": 0.75
+        },
+        {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        },
+        {
+          "numerator": 1,
+          "denominator": 2,
+          "decimal": 0.5
+        }
+      ]
+    },
+    {
+      "name": "E03 test RB confusion and exact metrics",
+      "passed": true,
+      "actual": [
+        1,
+        1,
+        1,
+        1,
+        {
+          "numerator": 1,
+          "denominator": 2,
+          "decimal": 0.5
+        },
+        {
+          "numerator": 1,
+          "denominator": 2,
+          "decimal": 0.5
+        },
+        {
+          "numerator": 1,
+          "denominator": 2,
+          "decimal": 0.5
+        }
+      ],
+      "expected": [
+        1,
+        1,
+        1,
+        1,
+        {
+          "numerator": 1,
+          "denominator": 2,
+          "decimal": 0.5
+        },
+        {
+          "numerator": 1,
+          "denominator": 2,
+          "decimal": 0.5
+        },
+        {
+          "numerator": 1,
+          "denominator": 2,
+          "decimal": 0.5
+        }
+      ]
+    },
+    {
+      "name": "E03 fixed independent split sizes",
+      "passed": true,
+      "actual": {
+        "development": 8,
+        "test": 4
+      },
+      "expected": {
+        "development": 8,
+        "test": 4
+      }
+    },
+    {
+      "name": "E03 RB test false positive is d11",
+      "passed": true,
+      "actual": [
+        "d11"
+      ],
+      "expected": [
+        "d11"
+      ]
+    },
+    {
+      "name": "E04 BFS deterministic order and path",
+      "passed": true,
+      "actual": [
+        [
+          "S",
+          "A",
+          "B",
+          "C",
+          "T"
+        ],
+        [
+          "S",
+          "A",
+          "T"
+        ],
+        2
+      ],
+      "expected": [
+        [
+          "S",
+          "A",
+          "B",
+          "C",
+          "T"
+        ],
+        [
+          "S",
+          "A",
+          "T"
+        ],
+        2
+      ]
+    },
+    {
+      "name": "E04 local greedy path and cumulative cost",
+      "passed": true,
+      "actual": [
+        [
+          "S",
+          "A",
+          "C",
+          "T"
+        ],
+        11
+      ],
+      "expected": [
+        [
+          "S",
+          "A",
+          "C",
+          "T"
+        ],
+        11
+      ]
+    },
+    {
+      "name": "E04 Dijkstra path, distance and settle order",
+      "passed": true,
+      "actual": [
+        [
+          "S",
+          "A",
+          "B",
+          "T"
+        ],
+        5,
+        [
+          "S",
+          "A",
+          "C",
+          "B",
+          "T"
+        ]
+      ],
+      "expected": [
+        [
+          "S",
+          "A",
+          "B",
+          "T"
+        ],
+        5,
+        [
+          "S",
+          "A",
+          "C",
+          "B",
+          "T"
+        ]
+      ]
+    },
+    {
+      "name": "E04 Dijkstra agrees with exhaustive simple-route minimum",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "E04 changed B-T edge violates precondition but this instance remains correct",
+      "passed": true,
+      "actual": [
+        [
+          "S",
+          "A",
+          "B",
+          "T"
+        ],
+        0,
+        0
+      ],
+      "expected": [
+        [
+          "S",
+          "A",
+          "B",
+          "T"
+        ],
+        0,
+        0
+      ]
+    },
+    {
+      "name": "E04 negative-edge counterexample settles a wrong target distance",
+      "passed": true,
+      "actual": [
+        2,
+        1
+      ],
+      "expected": [
+        2,
+        1
+      ]
+    },
+    {
+      "name": "E04 stable multi-pass and composite sorts agree",
+      "passed": true,
+      "actual": [
+        [
+          "r3",
+          "r4",
+          "r2",
+          "r1"
+        ],
+        [
+          "r4",
+          "r2",
+          "r3",
+          "r1"
+        ],
+        [
+          "r4",
+          "r2",
+          "r3",
+          "r1"
+        ]
+      ],
+      "expected": [
+        [
+          "r3",
+          "r4",
+          "r2",
+          "r1"
+        ],
+        [
+          "r4",
+          "r2",
+          "r3",
+          "r1"
+        ],
+        [
+          "r4",
+          "r2",
+          "r3",
+          "r1"
+        ]
+      ]
+    },
+    {
+      "name": "Figure 2-5 BFS minimizes segments but not time",
+      "passed": true,
+      "actual": [
+        [
+          "P",
+          "A",
+          "D"
+        ],
+        2,
+        13
+      ],
+      "expected": [
+        [
+          "P",
+          "A",
+          "D"
+        ],
+        2,
+        13
+      ]
+    },
+    {
+      "name": "Figure 2-5 local greedy and shortest-time Dijkstra results",
+      "passed": true,
+      "actual": [
+        [
+          "P",
+          "A",
+          "C",
+          "D"
+        ],
+        10,
+        [
+          "P",
+          "B",
+          "C",
+          "D"
+        ],
+        7
+      ],
+      "expected": [
+        [
+          "P",
+          "A",
+          "C",
+          "D"
+        ],
+        10,
+        [
+          "P",
+          "B",
+          "C",
+          "D"
+        ],
+        7
+      ]
+    },
+    {
+      "name": "Figure 2-5 Dijkstra agrees with exhaustive path minimum",
+      "passed": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "name": "E05 overall success counts and coverage",
+      "passed": true,
+      "actual": {
+        "baseline": [
+          7,
+          {
+            "numerator": 7,
+            "denominator": 8,
+            "decimal": 0.875
+          }
+        ],
+        "candidate": [
+          6,
+          {
+            "numerator": 3,
+            "denominator": 4,
+            "decimal": 0.75
+          }
+        ]
+      },
+      "expected": {
+        "baseline": [
+          7,
+          {
+            "numerator": 7,
+            "denominator": 8,
+            "decimal": 0.875
+          }
+        ],
+        "candidate": [
+          6,
+          {
+            "numerator": 3,
+            "denominator": 4,
+            "decimal": 0.75
+          }
+        ]
+      }
+    },
+    {
+      "name": "E05 successful means use different denominators",
+      "passed": true,
+      "actual": {
+        "baseline": {
+          "numerator": 11,
+          "denominator": 1,
+          "decimal": 11.0
+        },
+        "candidate": {
+          "numerator": 49,
+          "denominator": 6,
+          "decimal": 8.166666666666666
+        }
+      },
+      "expected": {
+        "baseline": {
+          "numerator": 11,
+          "denominator": 1,
+          "decimal": 11.0
+        },
+        "candidate": {
+          "numerator": 49,
+          "denominator": 6,
+          "decimal": 8.166666666666666
+        }
+      }
+    },
+    {
+      "name": "E05 per-group coverage and means",
+      "passed": true,
+      "actual": {
+        "baseline": {
+          "N": [
+            4,
+            {
+              "numerator": 1,
+              "denominator": 1,
+              "decimal": 1.0
+            },
+            {
+              "numerator": 19,
+              "denominator": 2,
+              "decimal": 9.5
+            }
+          ],
+          "A": [
+            3,
+            {
+              "numerator": 3,
+              "denominator": 4,
+              "decimal": 0.75
+            },
+            {
+              "numerator": 13,
+              "denominator": 1,
+              "decimal": 13.0
+            }
+          ]
+        },
+        "candidate": {
+          "N": [
+            4,
+            {
+              "numerator": 1,
+              "denominator": 1,
+              "decimal": 1.0
+            },
+            {
+              "numerator": 15,
+              "denominator": 2,
+              "decimal": 7.5
+            }
+          ],
+          "A": [
+            2,
+            {
+              "numerator": 1,
+              "denominator": 2,
+              "decimal": 0.5
+            },
+            {
+              "numerator": 19,
+              "denominator": 2,
+              "decimal": 9.5
+            }
+          ]
+        }
+      },
+      "expected": {
+        "baseline": {
+          "N": [
+            4,
+            {
+              "numerator": 1,
+              "denominator": 1,
+              "decimal": 1.0
+            },
+            {
+              "numerator": 19,
+              "denominator": 2,
+              "decimal": 9.5
+            }
+          ],
+          "A": [
+            3,
+            {
+              "numerator": 3,
+              "denominator": 4,
+              "decimal": 0.75
+            },
+            {
+              "numerator": 13,
+              "denominator": 1,
+              "decimal": 13.0
+            }
+          ]
+        },
+        "candidate": {
+          "N": [
+            4,
+            {
+              "numerator": 1,
+              "denominator": 1,
+              "decimal": 1.0
+            },
+            {
+              "numerator": 15,
+              "denominator": 2,
+              "decimal": 7.5
+            }
+          ],
+          "A": [
+            2,
+            {
+              "numerator": 1,
+              "denominator": 2,
+              "decimal": 0.5
+            },
+            {
+              "numerator": 19,
+              "denominator": 2,
+              "decimal": 9.5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "E05 paired common-success mean difference",
+      "passed": true,
+      "actual": {
+        "numerator": 7,
+        "denominator": 3,
+        "decimal": 2.3333333333333335
+      },
+      "expected": {
+        "numerator": 7,
+        "denominator": 3,
+        "decimal": 2.3333333333333335
+      }
+    },
+    {
+      "name": "E05 failure-penalty auxiliary means",
+      "passed": true,
+      "actual": {
+        "baseline": {
+          "numerator": 93,
+          "denominator": 8,
+          "decimal": 11.625
+        },
+        "candidate": {
+          "numerator": 81,
+          "denominator": 8,
+          "decimal": 10.125
+        }
+      },
+      "expected": {
+        "baseline": {
+          "numerator": 93,
+          "denominator": 8,
+          "decimal": 11.625
+        },
+        "candidate": {
+          "numerator": 81,
+          "denominator": 8,
+          "decimal": 10.125
+        }
+      }
+    },
+    {
+      "name": "E05 hard gates retain baseline and reject candidate",
+      "passed": true,
+      "actual": {
+        "baseline": true,
+        "candidate": false
+      },
+      "expected": {
+        "baseline": true,
+        "candidate": false
+      }
+    },
+    {
+      "name": "E05 preprocessing break-even is strictly more than four queries",
+      "passed": true,
+      "actual": [
+        {
+          "numerator": 4,
+          "denominator": 1,
+          "decimal": 4.0
+        },
+        160,
+        160,
+        true
+      ],
+      "expected": [
+        {
+          "numerator": 4,
+          "denominator": 1,
+          "decimal": 4.0
+        },
+        160,
+        160,
+        true
+      ]
+    },
+    {
+      "name": "E05 reprocessing on every map change removes the advantage",
+      "passed": true,
+      "actual": [
+        40,
+        130,
+        false
+      ],
+      "expected": [
+        40,
+        130,
+        false
+      ]
+    },
+    {
+      "name": "E05 ambiguous and unqueryable submit outcomes stay unknown",
+      "passed": true,
+      "actual": [
+        "remain UNKNOWN and pause; absence alone does not rule out a pending effect",
+        "remain UNKNOWN and pause",
+        "remain UNKNOWN and pause; preserve the original operation ID"
+      ],
+      "expected": [
+        "remain UNKNOWN and pause; absence alone does not rule out a pending effect",
+        "remain UNKNOWN and pause",
+        "remain UNKNOWN and pause; preserve the original operation ID"
+      ]
+    },
+    {
+      "name": "E06 no-stairs augmented state reaches feasible 12-minute route",
+      "passed": true,
+      "actual": [
+        12,
+        [
+          "G",
+          "P",
+          "C",
+          "D",
+          "X"
+        ],
+        7,
+        true
+      ],
+      "expected": [
+        12,
+        [
+          "G",
+          "P",
+          "C",
+          "D",
+          "X"
+        ],
+        7,
+        true
+      ]
+    },
+    {
+      "name": "E06 stairs allowed has same optimum and validates alternate optimal route",
+      "passed": true,
+      "actual": [
+        12,
+        [
+          [
+            "G",
+            "P",
+            "C",
+            "D",
+            "X"
+          ],
+          [
+            "G",
+            "P",
+            "Q",
+            "C",
+            "D",
+            "X"
+          ]
+        ]
+      ],
+      "expected": [
+        12,
+        [
+          [
+            "G",
+            "P",
+            "C",
+            "D",
+            "X"
+          ],
+          [
+            "G",
+            "P",
+            "Q",
+            "C",
+            "D",
+            "X"
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "E06 removing service changes no-stairs optimum to 10 minutes",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "name": "E06 BFS route is three road segments but 14 minutes after service",
+      "passed": true,
+      "actual": [
+        [
+          "G",
+          "P",
+          "C",
+          "X"
+        ],
+        3,
+        14,
+        false
+      ],
+      "expected": [
+        [
+          "G",
+          "P",
+          "C",
+          "X"
+        ],
+        3,
+        14,
+        false
+      ]
+    },
+    {
+      "name": "E06 closing C-D leaves confirmed shortest path 14 and misses deadline",
+      "passed": true,
+      "actual": [
+        14,
+        false
+      ],
+      "expected": [
+        14,
+        false
+      ]
+    },
+    {
+      "name": "E06 unknown C-X is not used and is not interpreted as physical impossibility",
+      "passed": true,
+      "actual": [
+        true,
+        15,
+        "A route using C-X is unconfirmed; exclusion yields only a confirmed-subgraph result, not proof that no physical route exists."
+      ],
+      "expected": [
+        true,
+        15,
+        "A route using C-X is unconfirmed; exclusion yields only a confirmed-subgraph result, not proof that no physical route exists."
+      ]
+    },
+    {
+      "name": "E06 service deadline boundary is inclusive at minute 7",
+      "passed": true,
+      "actual": [
+        false,
+        7,
+        true
+      ],
+      "expected": [
+        false,
+        7,
+        true
+      ]
+    },
+    {
+      "name": "E06 arrival deadline boundary is inclusive at minute 12",
+      "passed": true,
+      "actual": [
+        12,
+        false,
+        true
+      ],
+      "expected": [
+        12,
+        false,
+        true
+      ]
+    }
+  ],
+  "computed_results": {
+    "E01": {
+      "confirmed_step_free_routes": [
+        {
+          "route": [
+            "H",
+            "K",
+            "L"
+          ],
+          "minutes": 7,
+          "arrival_minute_of_day": 604
+        }
+      ],
+      "profile_cancelled_routes_still_obeying_edge_time_conditions": [
+        {
+          "route": [
+            "H",
+            "K",
+            "L"
+          ],
+          "minutes": 7,
+          "arrival_minute_of_day": 604
+        }
+      ],
+      "unknown_K_to_L_excluded_from_confirmed_routes": [],
+      "coarse_pairwise_minimum_edges": [
+        {
+          "from": "H",
+          "to": "P",
+          "minutes": 2,
+          "selected_origin": [
+            "H",
+            "J"
+          ],
+          "step_free": false
+        },
+        {
+          "from": "P",
+          "to": "L",
+          "minutes": 2,
+          "selected_origin": [
+            "J",
+            "L"
+          ],
+          "step_free": false
+        },
+        {
+          "from": "L",
+          "to": "H",
+          "minutes": 5,
+          "selected_origin": [
+            "L",
+            "H"
+          ],
+          "step_free": true
+        }
+      ],
+      "directed_return_edge_does_not_create_H_to_L": true
+    },
+    "E02": {
+      "initial": {
+        "topological_order": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        "schedule": {
+          "A": {
+            "start": 0,
+            "finish": 2
+          },
+          "B": {
+            "start": 2,
+            "finish": 6
+          },
+          "C": {
+            "start": 2,
+            "finish": 5
+          },
+          "D": {
+            "start": 6,
+            "finish": 11
+          },
+          "E": {
+            "start": 6,
+            "finish": 8
+          },
+          "F": {
+            "start": 11,
+            "finish": 14
+          },
+          "G": {
+            "start": 14,
+            "finish": 15
+          }
+        },
+        "project_minutes": 15,
+        "critical_paths": [
+          {
+            "path": [
+              "A",
+              "B",
+              "D",
+              "F",
+              "G"
+            ],
+            "minutes": 15
+          }
+        ],
+        "all_source_to_sink_paths": [
+          {
+            "path": [
+              "A",
+              "B",
+              "D",
+              "F",
+              "G"
+            ],
+            "minutes": 15
+          },
+          {
+            "path": [
+              "A",
+              "B",
+              "E",
+              "F",
+              "G"
+            ],
+            "minutes": 12
+          },
+          {
+            "path": [
+              "A",
+              "C",
+              "D",
+              "F",
+              "G"
+            ],
+            "minutes": 14
+          }
+        ]
+      },
+      "D_duration_changed": {
+        "topological_order": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        "schedule": {
+          "A": {
+            "start": 0,
+            "finish": 2
+          },
+          "B": {
+            "start": 2,
+            "finish": 6
+          },
+          "C": {
+            "start": 2,
+            "finish": 5
+          },
+          "D": {
+            "start": 6,
+            "finish": 8
+          },
+          "E": {
+            "start": 6,
+            "finish": 8
+          },
+          "F": {
+            "start": 8,
+            "finish": 11
+          },
+          "G": {
+            "start": 11,
+            "finish": 12
+          }
+        },
+        "project_minutes": 12,
+        "critical_paths": [
+          {
+            "path": [
+              "A",
+              "B",
+              "D",
+              "F",
+              "G"
+            ],
+            "minutes": 12
+          },
+          {
+            "path": [
+              "A",
+              "B",
+              "E",
+              "F",
+              "G"
+            ],
+            "minutes": 12
+          }
+        ],
+        "all_source_to_sink_paths": [
+          {
+            "path": [
+              "A",
+              "B",
+              "D",
+              "F",
+              "G"
+            ],
+            "minutes": 12
+          },
+          {
+            "path": [
+              "A",
+              "B",
+              "E",
+              "F",
+              "G"
+            ],
+            "minutes": 12
+          },
+          {
+            "path": [
+              "A",
+              "C",
+              "D",
+              "F",
+              "G"
+            ],
+            "minutes": 11
+          }
+        ]
+      },
+      "actual_map_versions_match": false,
+      "interface_compatibility_decision": "cannot combine as one same-version snapshot without a verified compatibility mapping"
+    },
+    "E03": {
+      "confusion_and_metrics": {
+        "development": {
+          "RA": {
+            "TP": 4,
+            "FN": 1,
+            "FP": 0,
+            "TN": 3,
+            "accuracy": {
+              "numerator": 7,
+              "denominator": 8,
+              "decimal": 0.875
+            },
+            "precision": {
+              "numerator": 1,
+              "denominator": 1,
+              "decimal": 1.0
+            },
+            "recall": {
+              "numerator": 4,
+              "denominator": 5,
+              "decimal": 0.8
+            }
+          },
+          "RB": {
+            "TP": 5,
+            "FN": 0,
+            "FP": 0,
+            "TN": 3,
+            "accuracy": {
+              "numerator": 1,
+              "denominator": 1,
+              "decimal": 1.0
+            },
+            "precision": {
+              "numerator": 1,
+              "denominator": 1,
+              "decimal": 1.0
+            },
+            "recall": {
+              "numerator": 1,
+              "denominator": 1,
+              "decimal": 1.0
+            }
+          }
+        },
+        "test": {
+          "RA": {
+            "TP": 1,
+            "FN": 1,
+            "FP": 0,
+            "TN": 2,
+            "accuracy": {
+              "numerator": 3,
+              "denominator": 4,
+              "decimal": 0.75
+            },
+            "precision": {
+              "numerator": 1,
+              "denominator": 1,
+              "decimal": 1.0
+            },
+            "recall": {
+              "numerator": 1,
+              "denominator": 2,
+              "decimal": 0.5
+            }
+          },
+          "RB": {
+            "TP": 1,
+            "FN": 1,
+            "FP": 1,
+            "TN": 1,
+            "accuracy": {
+              "numerator": 1,
+              "denominator": 2,
+              "decimal": 0.5
+            },
+            "precision": {
+              "numerator": 1,
+              "denominator": 2,
+              "decimal": 0.5
+            },
+            "recall": {
+              "numerator": 1,
+              "denominator": 2,
+              "decimal": 0.5
+            }
+          }
+        }
+      },
+      "predictions": {
+        "development_RA": {
+          "d1": 1,
+          "d2": 1,
+          "d3": 1,
+          "d4": 0,
+          "d5": 0,
+          "d6": 1,
+          "d7": 0,
+          "d8": 0
+        },
+        "development_RB": {
+          "d1": 1,
+          "d2": 1,
+          "d3": 1,
+          "d4": 0,
+          "d5": 0,
+          "d6": 1,
+          "d7": 1,
+          "d8": 0
+        },
+        "test_RA": {
+          "d9": 1,
+          "d10": 0,
+          "d11": 0,
+          "d12": 0
+        },
+        "test_RB": {
+          "d9": 1,
+          "d10": 0,
+          "d11": 1,
+          "d12": 0
+        }
+      },
+      "fixed_split_record_counts": {
+        "development": 8,
+        "test": 4
+      }
+    },
+    "E04": {
+      "exercise_graph": {
+        "all_simple_routes": [
+          {
+            "route": [
+              "S",
+              "A",
+              "B",
+              "T"
+            ],
+            "cost": 5
+          },
+          {
+            "route": [
+              "S",
+              "A",
+              "C",
+              "T"
+            ],
+            "cost": 11
+          },
+          {
+            "route": [
+              "S",
+              "A",
+              "T"
+            ],
+            "cost": 10
+          },
+          {
+            "route": [
+              "S",
+              "B",
+              "T"
+            ],
+            "cost": 6
+          }
+        ],
+        "bfs": {
+          "order": [
+            "S",
+            "A",
+            "B",
+            "C",
+            "T"
+          ],
+          "route": [
+            "S",
+            "A",
+            "T"
+          ],
+          "edge_count": 2
+        },
+        "local_greedy": {
+          "route": [
+            "S",
+            "A",
+            "C",
+            "T"
+          ],
+          "cost": 11
+        },
+        "dijkstra": {
+          "distances": {
+            "S": 0,
+            "A": 1,
+            "B": 3,
+            "C": 2,
+            "T": 5
+          },
+          "settled_order": [
+            "S",
+            "A",
+            "C",
+            "B",
+            "T"
+          ],
+          "route": [
+            "S",
+            "A",
+            "B",
+            "T"
+          ],
+          "trace": [
+            {
+              "settled": "S",
+              "distance": 0,
+              "updates": [
+                {
+                  "node": "A",
+                  "old": null,
+                  "new": 1
+                },
+                {
+                  "node": "B",
+                  "old": null,
+                  "new": 4
+                }
+              ]
+            },
+            {
+              "settled": "A",
+              "distance": 1,
+              "updates": [
+                {
+                  "node": "B",
+                  "old": 4,
+                  "new": 3
+                },
+                {
+                  "node": "C",
+                  "old": null,
+                  "new": 2
+                },
+                {
+                  "node": "T",
+                  "old": null,
+                  "new": 10
+                }
+              ]
+            },
+            {
+              "settled": "C",
+              "distance": 2,
+              "updates": []
+            },
+            {
+              "settled": "B",
+              "distance": 3,
+              "updates": [
+                {
+                  "node": "T",
+                  "old": 10,
+                  "new": 5
+                }
+              ]
+            },
+            {
+              "settled": "T",
+              "distance": 5,
+              "updates": []
+            }
+          ]
+        },
+        "negative_B_to_T_variant": {
+          "dijkstra": {
+            "distances": {
+              "S": 0,
+              "A": 1,
+              "B": 3,
+              "C": 2,
+              "T": 0
+            },
+            "settled_order": [
+              "S",
+              "A",
+              "C",
+              "B",
+              "T"
+            ],
+            "route": [
+              "S",
+              "A",
+              "B",
+              "T"
+            ],
+            "trace": [
+              {
+                "settled": "S",
+                "distance": 0,
+                "updates": [
+                  {
+                    "node": "A",
+                    "old": null,
+                    "new": 1
+                  },
+                  {
+                    "node": "B",
+                    "old": null,
+                    "new": 4
+                  }
+                ]
+              },
+              {
+                "settled": "A",
+                "distance": 1,
+                "updates": [
+                  {
+                    "node": "B",
+                    "old": 4,
+                    "new": 3
+                  },
+                  {
+                    "node": "C",
+                    "old": null,
+                    "new": 2
+                  },
+                  {
+                    "node": "T",
+                    "old": null,
+                    "new": 10
+                  }
+                ]
+              },
+              {
+                "settled": "C",
+                "distance": 2,
+                "updates": []
+              },
+              {
+                "settled": "B",
+                "distance": 3,
+                "updates": [
+                  {
+                    "node": "T",
+                    "old": 10,
+                    "new": 0
+                  }
+                ]
+              },
+              {
+                "settled": "T",
+                "distance": 0,
+                "updates": []
+              }
+            ]
+          },
+          "all_simple_routes": [
+            {
+              "route": [
+                "S",
+                "A",
+                "B",
+                "T"
+              ],
+              "cost": 0
+            },
+            {
+              "route": [
+                "S",
+                "A",
+                "C",
+                "T"
+              ],
+              "cost": 11
+            },
+            {
+              "route": [
+                "S",
+                "A",
+                "T"
+              ],
+              "cost": 10
+            },
+            {
+              "route": [
+                "S",
+                "B",
+                "T"
+              ],
+              "cost": 1
+            }
+          ],
+          "true_minimum": 0
+        },
+        "counterexample": {
+          "dijkstra": {
+            "distances": {
+              "S": 0,
+              "A": 2,
+              "B": 5
+            },
+            "settled_order": [
+              "S",
+              "A"
+            ],
+            "route": [
+              "S",
+              "A"
+            ],
+            "trace": [
+              {
+                "settled": "S",
+                "distance": 0,
+                "updates": [
+                  {
+                    "node": "A",
+                    "old": null,
+                    "new": 2
+                  },
+                  {
+                    "node": "B",
+                    "old": null,
+                    "new": 5
+                  }
+                ]
+              },
+              {
+                "settled": "A",
+                "distance": 2,
+                "updates": []
+              }
+            ]
+          },
+          "all_simple_routes": [
+            {
+              "route": [
+                "S",
+                "A"
+              ],
+              "cost": 2
+            },
+            {
+              "route": [
+                "S",
+                "B",
+                "A"
+              ],
+              "cost": 1
+            }
+          ],
+          "true_minimum": 1
+        }
+      },
+      "stable_sort": {
+        "input": [
+          "r1",
+          "r2",
+          "r3",
+          "r4"
+        ],
+        "first_submitted_stable": [
+          "r3",
+          "r4",
+          "r2",
+          "r1"
+        ],
+        "then_priority_stable": [
+          "r4",
+          "r2",
+          "r3",
+          "r1"
+        ],
+        "composite_key_priority_submitted": [
+          "r4",
+          "r2",
+          "r3",
+          "r1"
+        ]
+      },
+      "worked_figure_graph": {
+        "all_simple_routes": [
+          {
+            "route": [
+              "P",
+              "A",
+              "C",
+              "D"
+            ],
+            "cost": 10
+          },
+          {
+            "route": [
+              "P",
+              "A",
+              "D"
+            ],
+            "cost": 13
+          },
+          {
+            "route": [
+              "P",
+              "B",
+              "C",
+              "D"
+            ],
+            "cost": 7
+          },
+          {
+            "route": [
+              "P",
+              "B",
+              "E",
+              "D"
+            ],
+            "cost": 11
+          }
+        ],
+        "bfs": {
+          "order": [
+            "P",
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "route": [
+            "P",
+            "A",
+            "D"
+          ],
+          "edge_count": 2,
+          "route_minutes": 13
+        },
+        "local_greedy": {
+          "route": [
+            "P",
+            "A",
+            "C",
+            "D"
+          ],
+          "cost": 10
+        },
+        "dijkstra": {
+          "distances": {
+            "P": 0,
+            "A": 2,
+            "B": 3,
+            "C": 5,
+            "D": 7,
+            "E": 8
+          },
+          "settled_order": [
+            "P",
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "route": [
+            "P",
+            "B",
+            "C",
+            "D"
+          ],
+          "trace": [
+            {
+              "settled": "P",
+              "distance": 0,
+              "updates": [
+                {
+                  "node": "A",
+                  "old": null,
+                  "new": 2
+                },
+                {
+                  "node": "B",
+                  "old": null,
+                  "new": 3
+                }
+              ]
+            },
+            {
+              "settled": "A",
+              "distance": 2,
+              "updates": [
+                {
+                  "node": "C",
+                  "old": null,
+                  "new": 8
+                },
+                {
+                  "node": "D",
+                  "old": null,
+                  "new": 13
+                }
+              ]
+            },
+            {
+              "settled": "B",
+              "distance": 3,
+              "updates": [
+                {
+                  "node": "C",
+                  "old": 8,
+                  "new": 5
+                },
+                {
+                  "node": "E",
+                  "old": null,
+                  "new": 8
+                }
+              ]
+            },
+            {
+              "settled": "C",
+              "distance": 5,
+              "updates": [
+                {
+                  "node": "D",
+                  "old": 13,
+                  "new": 7
+                }
+              ]
+            },
+            {
+              "settled": "D",
+              "distance": 7,
+              "updates": []
+            }
+          ]
+        }
+      }
+    },
+    "E05": {
+      "method_metrics": {
+        "baseline": {
+          "overall": {
+            "successes": 7,
+            "requests": 8,
+            "coverage": {
+              "numerator": 7,
+              "denominator": 8,
+              "decimal": 0.875
+            },
+            "successful_minutes_sum": 77,
+            "successful_mean_minutes": {
+              "numerator": 11,
+              "denominator": 1,
+              "decimal": 11.0
+            },
+            "failure_penalty_mean_minutes": {
+              "numerator": 93,
+              "denominator": 8,
+              "decimal": 11.625
+            },
+            "all_successes_at_or_under_15": true,
+            "group_A_gate_pass": true
+          },
+          "groups": {
+            "A": {
+              "successes": 3,
+              "requests": 4,
+              "coverage": {
+                "numerator": 3,
+                "denominator": 4,
+                "decimal": 0.75
+              },
+              "successful_minutes_sum": 39,
+              "successful_mean_minutes": {
+                "numerator": 13,
+                "denominator": 1,
+                "decimal": 13.0
+              }
+            },
+            "N": {
+              "successes": 4,
+              "requests": 4,
+              "coverage": {
+                "numerator": 1,
+                "denominator": 1,
+                "decimal": 1.0
+              },
+              "successful_minutes_sum": 38,
+              "successful_mean_minutes": {
+                "numerator": 19,
+                "denominator": 2,
+                "decimal": 9.5
+              }
+            }
+          }
+        },
+        "candidate": {
+          "overall": {
+            "successes": 6,
+            "requests": 8,
+            "coverage": {
+              "numerator": 3,
+              "denominator": 4,
+              "decimal": 0.75
+            },
+            "successful_minutes_sum": 49,
+            "successful_mean_minutes": {
+              "numerator": 49,
+              "denominator": 6,
+              "decimal": 8.166666666666666
+            },
+            "failure_penalty_mean_minutes": {
+              "numerator": 81,
+              "denominator": 8,
+              "decimal": 10.125
+            },
+            "all_successes_at_or_under_15": true,
+            "group_A_gate_pass": false
+          },
+          "groups": {
+            "A": {
+              "successes": 2,
+              "requests": 4,
+              "coverage": {
+                "numerator": 1,
+                "denominator": 2,
+                "decimal": 0.5
+              },
+              "successful_minutes_sum": 19,
+              "successful_mean_minutes": {
+                "numerator": 19,
+                "denominator": 2,
+                "decimal": 9.5
+              }
+            },
+            "N": {
+              "successes": 4,
+              "requests": 4,
+              "coverage": {
+                "numerator": 1,
+                "denominator": 1,
+                "decimal": 1.0
+              },
+              "successful_minutes_sum": 30,
+              "successful_mean_minutes": {
+                "numerator": 15,
+                "denominator": 2,
+                "decimal": 7.5
+              }
+            }
+          }
+        }
+      },
+      "common_successes": [
+        "U1",
+        "U2",
+        "U3",
+        "U4",
+        "U5",
+        "U8"
+      ],
+      "paired_baseline_minus_candidate_minutes": {
+        "numerator": 7,
+        "denominator": 3,
+        "decimal": 2.3333333333333335
+      },
+      "paired_totals_minutes": {
+        "baseline": 63,
+        "candidate": 49,
+        "n": 6
+      },
+      "adoption_gates": {
+        "baseline": true,
+        "candidate": false
+      },
+      "query_costs": {
+        "strict_faster_when_query_count_gt": {
+          "numerator": 4,
+          "denominator": 1,
+          "decimal": 4.0
+        },
+        "sample_query_counts": {
+          "1": {
+            "baseline_ms": 40,
+            "candidate_ms": 130,
+            "candidate_strictly_faster": false
+          },
+          "4": {
+            "baseline_ms": 160,
+            "candidate_ms": 160,
+            "candidate_strictly_faster": false
+          },
+          "5": {
+            "baseline_ms": 200,
+            "candidate_ms": 170,
+            "candidate_strictly_faster": true
+          }
+        },
+        "when_map_changes_each_query": {
+          "baseline_per_query_ms": 40,
+          "candidate_per_query_ms": 130,
+          "candidate_strictly_faster_for_positive_query_count": false
+        }
+      },
+      "unknown_outcome_handling": {
+        "confirmed_received": "record success by original operation ID; do not resend",
+        "confirmed_not_applied_and_quiescent": "controlled retry is only eligible under a retry/idempotency contract, same identity, current version and bounded policy",
+        "not_found_but_in_flight_not_excluded": "remain UNKNOWN and pause; absence alone does not rule out a pending effect",
+        "still_unknown": "remain UNKNOWN and pause",
+        "no_query_capability": "remain UNKNOWN and pause; preserve the original operation ID"
+      }
+    },
+    "E06": {
+      "deadline_contract": {
+        "service_complete_by": 8,
+        "arrive_by": 12,
+        "map_version": "M1",
+        "rule_version": "C1"
+      },
+      "shortest_time_with_service": {
+        "no_stairs": {
+          "reachable": true,
+          "minimum_minutes": 12,
+          "route": [
+            "G",
+            "P",
+            "C",
+            "D",
+            "X"
+          ],
+          "service_completed_minute": 7,
+          "meets_arrival_deadline": true,
+          "meets_service_deadline": true,
+          "service_route_index": 2
+        },
+        "stairs_allowed": {
+          "reachable": true,
+          "minimum_minutes": 12,
+          "route": [
+            "G",
+            "P",
+            "C",
+            "D",
+            "X"
+          ],
+          "service_completed_minute": 7,
+          "meets_arrival_deadline": true,
+          "meets_service_deadline": true,
+          "service_route_index": 2
+        }
+      },
+      "all_exhaustively_verified_optimal_routes": {
+        "no_stairs": [
+          {
+            "route": [
+              "G",
+              "P",
+              "C",
+              "D",
+              "X"
+            ],
+            "minutes": 12,
+            "service_completed_minute": 7
+          }
+        ],
+        "stairs_allowed": [
+          {
+            "route": [
+              "G",
+              "P",
+              "C",
+              "D",
+              "X"
+            ],
+            "minutes": 12,
+            "service_completed_minute": 7
+          },
+          {
+            "route": [
+              "G",
+              "P",
+              "Q",
+              "C",
+              "D",
+              "X"
+            ],
+            "minutes": 12,
+            "service_completed_minute": 7
+          }
+        ]
+      },
+      "shortest_time_without_service": {
+        "no_stairs": {
+          "reachable": true,
+          "minimum_minutes": 10,
+          "route": [
+            "G",
+            "Q",
+            "X"
+          ],
+          "service_completed_minute": null,
+          "meets_arrival_deadline": true,
+          "meets_service_deadline": true,
+          "service_route_index": null
+        },
+        "stairs_allowed": {
+          "reachable": true,
+          "minimum_minutes": 9,
+          "route": [
+            "G",
+            "P",
+            "Q",
+            "X"
+          ],
+          "service_completed_minute": null,
+          "meets_arrival_deadline": true,
+          "meets_service_deadline": true,
+          "service_route_index": null
+        }
+      },
+      "bfs_minimum_road_segments_no_stairs": {
+        "route": [
+          "G",
+          "P",
+          "C",
+          "X"
+        ],
+        "road_segments": 3,
+        "walk_and_service_minutes": 14,
+        "service_completed_minute": 7,
+        "meets_arrival_deadline": false
+      },
+      "close_C_D": {
+        "shortest_confirmed_route": {
+          "reachable": true,
+          "minimum_minutes": 14,
+          "route": [
+            "G",
+            "P",
+            "C",
+            "X"
+          ],
+          "service_completed_minute": 7,
+          "meets_arrival_deadline": false,
+          "meets_service_deadline": true,
+          "service_route_index": 2
+        },
+        "minimum_confirmed_route_minutes_exhaustive": 14,
+        "has_route_meeting_arrival_deadline": false
+      },
+      "close_C_D_and_C_X_unknown": {
+        "unknown_edge": "C-X",
+        "unknown_edge_excluded_from_confirmed_subgraph": true,
+        "shortest_confirmed_subgraph_result": {
+          "reachable": true,
+          "minimum_minutes": 15,
+          "route": [
+            "G",
+            "P",
+            "C",
+            "Q",
+            "X"
+          ],
+          "service_completed_minute": 7,
+          "meets_arrival_deadline": false,
+          "meets_service_deadline": true,
+          "service_route_index": 2
+        },
+        "interpretation": "A route using C-X is unconfirmed; exclusion yields only a confirmed-subgraph result, not proof that no physical route exists."
+      },
+      "deadline_variants": {
+        "service_by_6": {
+          "reachable": false,
+          "minimum_minutes": null,
+          "route": null,
+          "service_completed_minute": null
+        },
+        "service_by_7": {
+          "reachable": true,
+          "minimum_minutes": 12,
+          "route": [
+            "G",
+            "P",
+            "C",
+            "D",
+            "X"
+          ],
+          "service_completed_minute": 7,
+          "meets_arrival_deadline": true,
+          "meets_service_deadline": true,
+          "service_route_index": 2
+        },
+        "arrive_by_11": {
+          "reachable": true,
+          "minimum_minutes": 12,
+          "route": [
+            "G",
+            "P",
+            "C",
+            "D",
+            "X"
+          ],
+          "service_completed_minute": 7,
+          "meets_arrival_deadline": false,
+          "meets_service_deadline": true,
+          "service_route_index": 2
+        },
+        "arrive_by_12": {
+          "reachable": true,
+          "minimum_minutes": 12,
+          "route": [
+            "G",
+            "P",
+            "C",
+            "D",
+            "X"
+          ],
+          "service_completed_minute": 7,
+          "meets_arrival_deadline": true,
+          "meets_service_deadline": true,
+          "service_route_index": 2
+        }
+      }
+    }
+  }
+}

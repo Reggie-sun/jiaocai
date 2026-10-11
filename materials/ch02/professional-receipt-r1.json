@@ -1,0 +1,183 @@
+{
+  "artifacts": [
+    {
+      "media_type": "application/json",
+      "path": "execution-view.json",
+      "producer": "supervisor",
+      "redaction_count": 0,
+      "redaction_version": 1,
+      "representation": "filtered",
+      "sha256": "d8775870128d87681034514faf4405ea6b9a84e4d669a781c787b740153e25ea",
+      "size": 3375
+    },
+    {
+      "media_type": "application/x-ndjson",
+      "path": "stdout.jsonl",
+      "producer": "supervisor",
+      "redaction_count": 0,
+      "redaction_version": 1,
+      "representation": "filtered",
+      "sha256": "ec91e42a3929422ec1f2a305c02b6359cc12195fdb293707be071fe96fe43ca3",
+      "size": 5075039
+    },
+    {
+      "media_type": "text/plain",
+      "path": "stderr.txt",
+      "producer": "supervisor",
+      "redaction_count": 0,
+      "redaction_version": 1,
+      "representation": "filtered",
+      "sha256": "a135ab480d071b53b3d46164252c46b2e08e7b0f107f4d4e5120fda3feef150e",
+      "size": 73
+    }
+  ],
+  "attempt_id": "76a1899e-8d7b-4b11-b886-172febe445c6",
+  "budgets": {
+    "context_bytes": 8388608,
+    "generation_tokens": 32000,
+    "idle_seconds": 1800,
+    "output_bytes": 16777216,
+    "request_limit": 64,
+    "wall_seconds": 3600
+  },
+  "classification": "SOURCE_CHANGED",
+  "containment": {
+    "checks": {
+      "apparmor": true,
+      "capabilities_dropped": true,
+      "clean_environment": true,
+      "docker_socket_denied": true,
+      "external_network_denied": true,
+      "host_home_denied": true,
+      "host_ipc_denied": true,
+      "host_proc_denied": true,
+      "host_secret_denied": true,
+      "no_broker_in_test_domain": true,
+      "no_new_privileges": true,
+      "non_root": true,
+      "private_processes": true,
+      "root_write_denied": true,
+      "scratch_writable": true,
+      "sealed_read": true,
+      "seccomp": true,
+      "source_chmod_denied": true,
+      "source_write_denied": true,
+      "symlink_escape_denied": true
+    },
+    "image": "sha256:08efb085f717fe5792d7380a069c3f770422fa09770d904e6e2436e3706e0c85",
+    "live_identity": "NOT_EVALUATED",
+    "native_denials": [
+      "Read",
+      "Read",
+      "Bash",
+      "Task",
+      "mcp__evil__run"
+    ],
+    "native_tools": "VERIFIED",
+    "os_boundary_verified": true,
+    "primitive": "docker",
+    "project_access": true,
+    "proof": "synthetic_adversarial_execution",
+    "qualified": true,
+    "runtime_sha256": "722210f05ba494d8f6df69423c4d4f2960900f7a007d0532851c7a36e375cab7"
+  },
+  "contract_seal": "1a77e985ed1ed7e5b043d50e37aa0e52315bdd5e1e8c6717294865a7042d29ba",
+  "evidence_kind": "live",
+  "fallback": "forbidden",
+  "finalized_at": "2026-10-11T14:31:43.363864+00:00",
+  "internal_retry_count": "unknown",
+  "invocation_id": "057f8912-8f8b-459b-94fc-e4c7fad06f36",
+  "kind": "project-invocation",
+  "observations": [
+    {
+      "actual_cost": null,
+      "attempt_id": "cd184f3c-2b6b-4af5-a384-39576b9ad5a0",
+      "budget_phase": "EXPLORE",
+      "classification": "IDENTITY_VERIFIED",
+      "client_request_sha256": "2d8a56d2a0d9f53b6bff5462e3ab4b8986d3908d8844b23094bd4373bca831fb",
+      "duration_seconds": 11.084281206014566,
+      "effort": "max",
+      "generation_token_limit": 32000,
+      "http_status": 200,
+      "message_id": "msg_HKXpfDjQwrLdPD0uRF40cEM6",
+      "proof": "authenticated_endpoint_declaration",
+      "request_max_tokens": 32000,
+      "request_model": "k3",
+      "request_number": 1,
+      "request_sha256": "9f0ca004ae923735e8a2780e4e46ae7dccab16dcc35aa8a3168008a85617c198",
+      "response_model": "k3",
+      "response_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "thinking": {
+        "type": "adaptive"
+      },
+      "upstream_bytes_received": 42825,
+      "upstream_host": "api.kimi.ai",
+      "upstream_request_id": "msg_HKXpfDjQwrLdPD0uRF40cEM6",
+      "usage": {
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 2560,
+        "input_tokens": 6521,
+        "output_tokens": 476
+      },
+      "wire_started": true
+    },
+    {
+      "actual_cost": null,
+      "attempt_id": "bfcacf53-dbc6-4e67-a880-a2006faa12a9",
+      "budget_phase": "EXPLORE",
+      "classification": "IDENTITY_VERIFIED",
+      "client_request_sha256": "2c5156247207f77ada464f1f458e08cb7554a64e15e8a0ada5bc70a913bff9a7",
+      "duration_seconds": 689.9831298910431,
+      "effort": "max",
+      "generation_token_limit": 32000,
+      "http_status": 200,
+      "message_id": "msg_8ibUmmJ59b3fId3OWEHkogMk",
+      "proof": "authenticated_endpoint_declaration",
+      "request_max_tokens": 32000,
+      "request_model": "k3",
+      "request_number": 2,
+      "request_sha256": "952d21232856c662ade231824f03961b7f47f50355e65701215987890860dab2",
+      "response_model": "k3",
+      "response_output_sha256": "e51f4d9e3655b231604cf5b1558fb076037c254caf62d0c8700e15862f0120c5",
+      "thinking": {
+        "type": "adaptive"
+      },
+      "upstream_bytes_received": 3336094,
+      "upstream_host": "api.kimi.ai",
+      "upstream_request_id": "msg_8ibUmmJ59b3fId3OWEHkogMk",
+      "usage": {
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 8960,
+        "input_tokens": 45792,
+        "output_tokens": 27137
+      },
+      "wire_started": true
+    }
+  ],
+  "observed_reads": [],
+  "orchestration_retries": 0,
+  "parent_acceptance": "NOT_EVALUATED",
+  "parent_session_id": "codex-jiaocai-ch02-20261011",
+  "process": {
+    "descendants_terminated": false,
+    "duration_seconds": 702.4036757280119,
+    "exit_code": 0,
+    "reason": "exited",
+    "stderr_observed_bytes": 73,
+    "stdout_observed_bytes": 5075039,
+    "truncated": false
+  },
+  "report_format": "claude-json-schema-v1",
+  "route_qualification": {
+    "invocation_id": "4f2d5dc8-4234-4665-b382-e82f1ad6cc00",
+    "sha256": "5f3c17dcefcff35f54db521fa4c5435d8f9fb0b1da9ca4e108106a66cb767555"
+  },
+  "router": {
+    "source_sha256": "35618260d4f5b75cb19c929ee1511f2dfd5f63578b2b3bb0524957f034b6c705",
+    "version": "0.1.0"
+  },
+  "schema_version": 1,
+  "started_at": "2026-10-11T14:19:59.084730+00:00",
+  "task_id": "ch02-professional-review-r1",
+  "wire_requests": 2
+}

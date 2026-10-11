@@ -1,0 +1,48 @@
+{
+  "decision": "KIMI_REVIEW_NOT_REQUIRED",
+  "scope": "Task-local offline Chapter2 assembly, figure rendering, Word adapter and executable verification implementation; independent textbook content review is a separate required purpose, retained.",
+  "checked_at": "2026-10-11T14:51:12.187703+00:00",
+  "branch": "chapter-02-delivery",
+  "base_checkpoint": "46947181c46d3926298420a0a52a040aa57f7bd9",
+  "source_snapshot": {
+    "materials/ch02/prepare.py": "cdadbc8b68707fb548fe662598c1657a28550c732c40dc938afe6c1a437a19db",
+    "materials/ch02/build_docx.py": "a628c8262f95d5c7f995386243731d9b8f64d547fac3f1c81fa1fe9e4ea91bec",
+    "materials/ch02/verify_layout.py": "dfc8d2861a84158f28a1ec34395d9d1cfcbce0b0cff1fa2ec15e092dce83661f",
+    "materials/ch02/verify_exercises.py": "e4fcf1b4a2945c97643d4ac018084f2582427a2e4fa6849666968e9dc7fb10bf",
+    "materials/ch02/render_figures.py": "8f0d08973ac4823e5d3e645fb2ae3f77f488ed2154985500b0cca7f4918f99d2",
+    "specs/ch02.spec.md": "9c74ca49de4a7134e1361fd32ac69e53cda84b74c359236207dae9b1dad21db6",
+    "plans/ch02.plan.md": "d26d055646b7553afa0e102ac80fc3480c23024b04075c91d665b10136a7c4e6",
+    "manuscripts/ch02/ch02.md": "9333b146ef618d60add19a21c8c4aac04d117feeb33405f8e3684b9d4b26a300",
+    "templates/textbook-style-v1.0.dotx": "eef8ce505c3d9afb3493e61af1f38ee26bca6ff9a0aa12f7ad3e2a8cacad6473",
+    "scripts/harness.py": "3d226917d2aa30da1de9e48d6c7ee941cc3f84a9da9529212ae8e3360fbfb1af"
+  },
+  "verification": [
+    "materials/ch02/harness-tests.txt: 51 existing tests PASS",
+    "materials/ch02/harness-validation.json: valid original policy/engine",
+    "materials/ch02/layout-r3.json: source/table/fields/fonts/template/PDF checks PASS",
+    "materials/ch02/exercise-verification.json: 46 deterministic checks PASS"
+  ],
+  "triggers": {
+    "explicit_Kimi_implementation_review": false,
+    "critical_authority_or_durable_state_consequence": false,
+    "major_consequence_and_remaining_gap_and_Kimi_value": false
+  },
+  "rationale": "用户要求独立内容审校、练习核验与页面检查，未指定本实现snapshot的额外Kimi工程review。新脚本只生成owned本地文件，无凭据注入、生产平台调用或跨项目写入；失误可由稿件和模板重新生成。原Harness引擎、policy、模板未变；本章数据/版式/页面验证覆盖实际输出边界。尚无导致重大后果且原验证后仍有实质缺口的具体failure path，不能由文件数或artifact存在单独触发额外review。",
+  "parent_final_diff_review": "当前适配器保留模板样式与域，核对图表完整；目录识别、表11内边距修正局限本章，未升级共用owner。",
+  "limits": "不替代必须完成的独立专业/教学内容审校；不证明Word原生、实体打印或课堂效果。",
+  "accepted_ref_recovery_amendment": {
+    "specs/ch02.spec.md": "c371d7690226ba05974a3ab01ee440f869fc2aab47b567d96d591bd4710143f5",
+    "plans/ch02.plan.md": "46ae5db7291914bea2d79afe374b8356a7c5656584719af6e23036f30508b363"
+  },
+  "amendment_effect": "Only independent content review dispatch after exhausted Kimi budget; offline implementation bytes and failure consequence/gap unchanged. Original Risk Gate remains applicable, not claimed against silently replaced old reference hashes.",
+  "final_text_checkpoint": {
+    "manuscript_sha256": "e09aa94519f298a7fc7979f7c494c525f2146e1bbfcc56a913ba41d0311ca8b0",
+    "implementation_bytes_unchanged_since_gate": true,
+    "layout_evidence": "materials/ch02/layout-r4.json",
+    "content_reviews": [
+      "materials/ch02/professional-adjudication.md",
+      "materials/ch02/teaching-review-r3.md"
+    ],
+    "effect": "Only E02/E06 prose changed after original gate; independent targeted reviews and five numeric cases cover corrections. Same bounded offline implementation risk judgment applies."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "manuscript_sha256": "9333b146ef618d60add19a21c8c4aac04d117feeb33405f8e3684b9d4b26a300",
+  "body_first_citation_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "reference_numbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "double_direction_match": true,
+  "figures": 8,
+  "tables": 13,
+  "answer_ID_headings": 6,
+  "explicit_ID_body_locators": [
+    "E02",
+    "E03",
+    "E04"
+  ],
+  "other_body_locators": "E01/E05/E06按当前任务指向章末参考解与讨论，解答以相同ID对应；不是六个正文REF。",
+  "baseline": "textbook-style-v1.0 / GB/T 7714-2025 inherited project convention",
+  "limits": "检查引用编号、题注和答案ID；原文主张由sources.json及Parent实际原文核验支撑，不宣称逐条核验完整标准。",
+  "checks": "PASS"
+}

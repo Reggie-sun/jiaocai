@@ -1,0 +1,51 @@
+{
+  "backend": "kimi",
+  "runtime": {
+    "executable": "/home/reggie/.local/share/agent-subagent-router/runtimes/claude-2.1.277/node_modules/@anthropic-ai/claude-code-linux-x64/claude",
+    "version": "2.1.277",
+    "sha256": "722210f05ba494d8f6df69423c4d4f2960900f7a007d0532851c7a36e375cab7"
+  },
+  "containment": {
+    "primitive": "docker",
+    "image": "sha256:08efb085f717fe5792d7380a069c3f770422fa09770d904e6e2436e3706e0c85",
+    "checks": {
+      "non_root": true,
+      "capabilities_dropped": true,
+      "no_new_privileges": true,
+      "seccomp": true,
+      "apparmor": true,
+      "sealed_read": true,
+      "source_write_denied": true,
+      "source_chmod_denied": true,
+      "root_write_denied": true,
+      "host_secret_denied": true,
+      "symlink_escape_denied": true,
+      "host_proc_denied": true,
+      "host_home_denied": true,
+      "docker_socket_denied": true,
+      "external_network_denied": true,
+      "host_ipc_denied": true,
+      "no_broker_in_test_domain": true,
+      "clean_environment": true,
+      "private_processes": true,
+      "scratch_writable": true
+    },
+    "os_boundary_verified": true,
+    "native_tools": "VERIFIED",
+    "qualified": true,
+    "project_access": true,
+    "runtime_sha256": "722210f05ba494d8f6df69423c4d4f2960900f7a007d0532851c7a36e375cab7",
+    "native_denials": [
+      "Read",
+      "Read",
+      "Bash",
+      "Task",
+      "mcp__evil__run"
+    ],
+    "proof": "synthetic_adversarial_execution",
+    "live_identity": "NOT_EVALUATED"
+  },
+  "project_routes": "CONTAINMENT_QUALIFIED",
+  "writer": "REQUIRES_READONLY_QUALIFICATION_AND_PARENT_TEST",
+  "second_backend": "REQUIRES_INDEPENDENT_QUALIFICATION"
+}

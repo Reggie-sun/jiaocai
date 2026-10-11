@@ -1,0 +1,33 @@
+{
+  "template": "templates/textbook-style-v1.0.dotx",
+  "template_sha256": "eef8ce505c3d9afb3493e61af1f38ee26bca6ff9a0aa12f7ad3e2a8cacad6473",
+  "manuscript_sha256": "e09aa94519f298a7fc7979f7c494c525f2146e1bbfcc56a913ba41d0311ca8b0",
+  "docx_sha256": "1951b77359e96aaf8aa3dd82211c4fde1aa03b1ab1941fe78f41bab9d2ff1644",
+  "style": "textbook-style-v1.0",
+  "toc_cached_pages": {
+    "2.1 抽象：选择信息、建立表示、检查遗漏": 4,
+    "2.2 分解：组织子问题与依赖关系": 15,
+    "2.3 模式识别：归纳规则、保留例外": 26,
+    "2.4 算法设计：搜索、排序与决策过程": 37,
+    "2.5 评估、优化与自动化：建立反馈闭环": 49,
+    "章末综合训练": 61,
+    "本章回顾": 64,
+    "关键术语": 64,
+    "参考解与讨论": 65,
+    "参考文献": 77
+  },
+  "toc_headings": [
+    "2.1 抽象：选择信息、建立表示、检查遗漏",
+    "2.2 分解：组织子问题与依赖关系",
+    "2.3 模式识别：归纳规则、保留例外",
+    "2.4 算法设计：搜索、排序与决策过程",
+    "2.5 评估、优化与自动化：建立反馈闭环",
+    "章末综合训练",
+    "本章回顾",
+    "关键术语",
+    "参考解与讨论",
+    "参考文献"
+  ],
+  "method": "Reused template styles and geometry; task-local chapter counter/numbering starts at2, header cache and six answer bookmarks; native SEQ/REF/TOC/PAGEREF/PAGE preserved. No final DOCX LibreOffice roundtrip.",
+  "word_native_execution": "NOT_EVALUATED"
+}

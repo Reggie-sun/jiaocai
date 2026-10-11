@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-10-11T15:14:08.604277+00:00",
+  "initial_protected_files": 200,
+  "unchanged_initial_bytes": 199,
+  "recognized_foreign_current_bytes_preserved": {
+    "skills/textbook-authoring/SKILL.md": {
+      "initial_sha256": "f89af4451378600baafef87a6cc8dd5806bfcfe29ac2fa5be7a579109b838579",
+      "current_sha256": "d8d4a59e5596a3d7246ee497eafa399ef1a69ad9aa58efc74fca9c9784906292"
+    }
+  },
+  "template_and_harness_engine_original": true,
+  "old_chapter_source_figures_outputs_original": true,
+  "owned_artifact_count_so_far": 92,
+  "foreign_commit": "4694718",
+  "not_staged_or_committed_by_ch02_parent": "Foreign teaching-figure Skill, pilot and progress changes.",
+  "checks": "PASS",
+  "foreign_in_progress_preserved": [
+    "assets/figures/ch01-figures/",
+    "manuscripts/ch01-figures/",
+    "materials/ch01-figures/",
+    "output/ch01/第一章-计算思维-教学图新版.docx",
+    "output/ch01/第一章-计算思维-教学图新版.pdf",
+    "plans/ch01-figures.plan.md",
+    "specs/ch01-figures.spec.md",
+    "tests/__pycache__/"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "invocation_id": "d4c3ca00-dc58-4976-abd8-72b0ce83f097",
+  "outcome": "INCOMPLETE_RECEIPT",
+  "exec_exit_code": 143,
+  "canonical_receipt_available": false,
+  "provider_third_request": "OUTCOME_UNKNOWN",
+  "actual_cost": null,
+  "adopt_partial_output": false,
+  "active_runtime_process_found": false,
+  "active_router_container_found": false,
+  "checked_at": "2026-10-11T14:46:09.550822+00:00",
+  "original_seal": "d96c7bb0169dc7a7c531793c56c1b8a4169f0acefbe5eb0ecbf40100a858ecc3",
+  "source_sha256": "fa7c59dbee87a1649f6ba7a3e859fca5ae468e7bb22ffbcfab8e76626cecd002",
+  "recovery": "保留pending和observations原证据，不重跑旧seal、不修改UNKNOWN；以新快照进行一次独立有界R3，历史已消耗两轮，本次为原三轮上限内最后一轮。仅一次可计数运行故障，未触发两次故障fallback。"
+}

@@ -1,0 +1,11 @@
+{
+  "foreign_changes": {
+    "skills/textbook-authoring/SKILL.md": {
+      "initial_sha256": "f89af4451378600baafef87a6cc8dd5806bfcfe29ac2fa5be7a579109b838579",
+      "current_sha256": "d8d4a59e5596a3d7246ee497eafa399ef1a69ad9aa58efc74fca9c9784906292"
+    }
+  },
+  "ownership": "Foreign teaching-figure Skill work; preserved without edits/staging/commit by Chapter2 parent.",
+  "review_effect": "R1 SOURCE_CHANGED, report inadmissible, not a runtime-failure fallback event. New current Skill read including Teaching Figure Routes; SVG route remains compatible.",
+  "required_preservation": "All other initial protected bytes unchanged; foreign current bytes must also remain unchanged."
+}

@@ -1,0 +1,164 @@
+{
+  "manuscript_sha256": "e09aa94519f298a7fc7979f7c494c525f2146e1bbfcc56a913ba41d0311ca8b0",
+  "fragments": {
+    "opening.md": "35fc2e9403a29b8ba60a26d6e9c9b7f6930494d24c6f64ff5afc0f754de68f76",
+    "s2-1.md": "f17b2ae0f809b0257525a0e13c8d4f59a83adfbbc24a7fcee280e3c7e4b8b86e",
+    "s2-2.md": "cfc17ca841e065759b576df2b3629dbab51d0b59978ef161ce8e44197888a705",
+    "s2-3.md": "c6fb1ec7ae3fe4f5f6545f12aa0191631a4615ec43d321cb7f261daf64b5a4e5",
+    "s2-4.md": "adf829da7b91ee7836e0a0fc8b89bf14ca8f5c57c93c9bcb44520cfc0cde65ae",
+    "s2-5.md": "906144360b86e2b495371d6c52bd238137a9de02ee7f8bf862422a2c60953d83",
+    "capstone.md": "532c25ad25078991f5645ec286535bf20b7fc6b905c2630a4348ee70aefaba7c",
+    "answers-e01.md": "2fe73cd5c0166737736819ad7d0e3546d2b326e1ebae21e7119917f33d670644",
+    "answers-e02.md": "894ef3d4aa66014daa8c803a2fe8ebba1f95feafc384587a794f5d3c15e0b32c",
+    "answers-e03.md": "e4149de2a4539e123ea0e85185da2e703e530679643f26f34762fa209d03c427",
+    "answers-e04.md": "aed1d403a5857e7f040656e259bb5132118ac54ee82fac75b7a7ba42383f27fb",
+    "answers-e05.md": "320de73fbce79af0465b4efd8ef52c33ada3ea9b96489be7bb9c4bb6c7d8f111",
+    "answers-e06.md": "f5f18e5e734ea77c13c9fb59f4e1e5403354efdfde62c4473d3c64fbc29be1ea"
+  },
+  "han_count_without_code_or_link_targets": 35238,
+  "count_boundary": "章首、五节、综合训练、回顾、术语、六份题解、文献；移除代码块和链接目标。",
+  "citation_order": {
+    "S01": 1,
+    "S02": 2,
+    "S04": 3,
+    "S03": 4,
+    "S06": 5,
+    "S05": 6,
+    "S07": 7,
+    "S08": 8,
+    "S09": 9,
+    "S10": 10
+  },
+  "tables": [
+    {
+      "id": "表2-1",
+      "caption": "E01有向道路与通行条件",
+      "columns": [
+        "起点→终点",
+        "时间／分钟",
+        "无台阶通行",
+        "时间条件"
+      ]
+    },
+    {
+      "id": "表2-2",
+      "caption": "流程阶段与模块边界的不同观察角度",
+      "columns": [
+        "观察对象",
+        "预约流程阶段",
+        "资格策略模块",
+        "资源日历模块",
+        "预约记录模块"
+      ]
+    },
+    {
+      "id": "表2-3",
+      "caption": "E02交付环节与依赖",
+      "columns": [
+        "环节",
+        "工作内容",
+        "用时（分钟）",
+        "前置环节"
+      ]
+    },
+    {
+      "id": "表2-4",
+      "caption": "模式的不同表示及其边界",
+      "columns": [
+        "表示方式",
+        "保留的结构",
+        "适合提出的问题",
+        "常见风险"
+      ]
+    },
+    {
+      "id": "表2-5",
+      "caption": "E03模拟观察记录",
+      "columns": [
+        "记录",
+        "x（人）",
+        "event",
+        "y"
+      ]
+    },
+    {
+      "id": "表2-6",
+      "caption": "六节点示例的有向道路",
+      "columns": [
+        "起点",
+        "可直接到达的地点与时间（分钟）"
+      ]
+    },
+    {
+      "id": "表2-7",
+      "caption": "六节点示例的Dijkstra推演",
+      "columns": [
+        "确定的状态",
+        "本轮可改进的距离",
+        "本轮之后尚未确定的关键距离"
+      ]
+    },
+    {
+      "id": "表2-8",
+      "caption": "E04有向道路",
+      "columns": [
+        "起点",
+        "可到达地点与时间"
+      ]
+    },
+    {
+      "id": "表2-9",
+      "caption": "E05固定请求上的路线结果",
+      "columns": [
+        "请求",
+        "组别",
+        "基线路线分钟",
+        "候选路线分钟"
+      ]
+    },
+    {
+      "id": "表2-10",
+      "caption": "E06模拟参访地图的道路",
+      "columns": [
+        "两端",
+        "步行时间／分钟",
+        "通行条件"
+      ]
+    },
+    {
+      "id": "表2-11",
+      "caption": "E02各环节的最早开始与完成",
+      "columns": [
+        "环节",
+        "开始（分钟）",
+        "完成（分钟）"
+      ]
+    },
+    {
+      "id": "表2-12",
+      "caption": "E03规则在开发集与测试集上的指标",
+      "columns": [
+        "数据范围",
+        "规则",
+        "TP",
+        "FN",
+        "FP",
+        "TN",
+        "准确率",
+        "精确率",
+        "召回率"
+      ]
+    },
+    {
+      "id": "表2-13",
+      "caption": "E04的Dijkstra逐轮距离记录",
+      "columns": [
+        "确定状态",
+        "更新",
+        "暂定距离（A，B，C，T）"
+      ]
+    }
+  ],
+  "figure_caption_count": 8,
+  "exercise_count": 6
+}

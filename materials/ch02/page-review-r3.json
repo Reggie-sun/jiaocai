@@ -1,0 +1,411 @@
+{
+  "pdf_sha256": "fe55fb40b39df2a7607a879cd7330f646c26de1272f17dee4f5e238a4101cbb2",
+  "docx_sha256": "907ffdfd31b38378846212337c6942727dc0e0a7c0467ccd5dd3e009b884d913",
+  "manuscript_sha256": "9333b146ef618d60add19a21c8c4aac04d117feeb33405f8e3684b9d4b26a300",
+  "render_dir": "/tmp/jiaocai-ch02-render-r3",
+  "pages": [
+    {
+      "page": 1,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-1.png",
+      "sha256": "fcf990a200d61bb031493316256804c4f08a8c5e1df332101260c236e8e4330e"
+    },
+    {
+      "page": 2,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-2.png",
+      "sha256": "2b1ff0d3922052cea42e33525ea90089d94299ca67510d9d25fb08d67b63b4c0"
+    },
+    {
+      "page": 3,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-3.png",
+      "sha256": "674f7e58c829143f4f270bbf7259add4a5d568578b3592e79fbd728cb4e58a71"
+    },
+    {
+      "page": 4,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-4.png",
+      "sha256": "f18056c9525eecbf174a569d9cd6cd29a083330cf01148d0c04079e99f80532b"
+    },
+    {
+      "page": 5,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-5.png",
+      "sha256": "efa69c11086c4209aafc90018a35f5be2d2ad7de1e04c8dc6e361659fc598a92"
+    },
+    {
+      "page": 6,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-6.png",
+      "sha256": "bf02d009ae274ed74ee8e7b813f631b25360ef7cfe3573303e7408d5cd7e2212"
+    },
+    {
+      "page": 7,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-7.png",
+      "sha256": "28ac8a50655ab6a5eda353d426722446647e8847560d3f047e0cc0044d1d465b"
+    },
+    {
+      "page": 8,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-8.png",
+      "sha256": "4d0013daa89f68c1ab185f803d862a689ffc8bebc996c2f1b9b1d084cf989a3e"
+    },
+    {
+      "page": 9,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-9.png",
+      "sha256": "2ebb39bf4d21f20bb87b3fd25b33757eef1d262c199d3811bc0b051386c94fa5"
+    },
+    {
+      "page": 10,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-10.png",
+      "sha256": "30543236d6a44db515cee5030f79c8dbda9250766c99a0b1c14fd31d42644062"
+    },
+    {
+      "page": 11,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-11.png",
+      "sha256": "3f9bfb4e78cbf2caaf410114c77f581b4995fc662dab941f1a7e2143ee144346"
+    },
+    {
+      "page": 12,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-12.png",
+      "sha256": "8c56a4f98946a36303e68349fd230467aacf2cfce9f5d058481cea605c05a937"
+    },
+    {
+      "page": 13,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-13.png",
+      "sha256": "baad7de24cc80ad598a34fd6c7651c09b6b6393b6ea656b1a1d2236b9022e62d"
+    },
+    {
+      "page": 14,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-14.png",
+      "sha256": "825c10b4a821f7a5a3bf4c0abe070cef4e83fe6fbf3a93864f1ee1dd1578b458"
+    },
+    {
+      "page": 15,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-15.png",
+      "sha256": "e25a31a6783d5f2d7156eb15b601807ea9502902c10164605ba37c8fa7b640e5"
+    },
+    {
+      "page": 16,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-16.png",
+      "sha256": "7cea3cfbf27b5dc990e3cfb3484a8a0e6c01eb1a62283cc9c6f4c984f578c743"
+    },
+    {
+      "page": 17,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-17.png",
+      "sha256": "6c35f1300d77703036221e251f4679b58271ca7e9f3f7e58fa91ae7bdcdbdcc3"
+    },
+    {
+      "page": 18,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-18.png",
+      "sha256": "3e044e43d3c8c771bfff26c0afc4601741c683a0404e52acbb5cf00980a0748d"
+    },
+    {
+      "page": 19,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-19.png",
+      "sha256": "44e94fef6288a8a1d599abb493c5ed50a84c64a229c5959a00fd3828ef3ffd67"
+    },
+    {
+      "page": 20,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-20.png",
+      "sha256": "51a4f5d2a5b538935a52a74436fcd5b2c5db02124803d1c0273645ee48c9cc73"
+    },
+    {
+      "page": 21,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-21.png",
+      "sha256": "59739f642f4eb59971217b5318402c49b85913f62e9e511dd66ced606db72efe"
+    },
+    {
+      "page": 22,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-22.png",
+      "sha256": "f05f1ffa70b5bb625c6790e9184b2b8f075edc91fbfb85a810bee35104d17cd4"
+    },
+    {
+      "page": 23,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-23.png",
+      "sha256": "8f9ca245a22a9e5784e43ae6845fb3f4f5338018a6bd265dbfc275b53b6a1f0d"
+    },
+    {
+      "page": 24,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-24.png",
+      "sha256": "8c3bd0ac4af472accd01fb8b6a0b1e14324d3218c4d3601e3eb0a539892bc688"
+    },
+    {
+      "page": 25,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-25.png",
+      "sha256": "e15ce7e4261669fd9dfb20044d6e6cc474fdc054ab593a6c0fb98cd7a7add9df"
+    },
+    {
+      "page": 26,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-26.png",
+      "sha256": "3bc2e06955e94bfa456a604cbc2f30b6a6edaffa0882945882835ee50b9d004e"
+    },
+    {
+      "page": 27,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-27.png",
+      "sha256": "cd4cf818b8fa7491f2f36191d2be751b93e905407fd3770ca40cdfae65c52869"
+    },
+    {
+      "page": 28,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-28.png",
+      "sha256": "ee9bfed39ffd4185093670864b8ed1a6d1e13fe4f5f350f41882d0e5c7c889f7"
+    },
+    {
+      "page": 29,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-29.png",
+      "sha256": "0c5fb235ef148839ef6c110a33b5041994ecf3ccb3a7c964a555020406f39bfb"
+    },
+    {
+      "page": 30,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-30.png",
+      "sha256": "ac6b697dcfc73789211322de00f4a46a57277ebbf43406c402474393481b197e"
+    },
+    {
+      "page": 31,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-31.png",
+      "sha256": "bb06054891a4e718b830cf277fc3331238dfe0a91b19ad828bb785ab0c8f5ae6"
+    },
+    {
+      "page": 32,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-32.png",
+      "sha256": "900e8cc026770f5bc3232db01d46921016e6c836205a3549daf8b5cca831e1b5"
+    },
+    {
+      "page": 33,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-33.png",
+      "sha256": "ba6112b2c4ddb4a637e1133dd21efcf980e202b154c8c75333f7e62f42d6ce0e"
+    },
+    {
+      "page": 34,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-34.png",
+      "sha256": "cf2266419eab1d371ed763bb01dc7ecf534ca177e3f3c957b4cf63b8e6c36a37"
+    },
+    {
+      "page": 35,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-35.png",
+      "sha256": "10520234c0a4a5db2aacaad8003e807720636fbd9f7e63869b8d2cbf1c72dafd"
+    },
+    {
+      "page": 36,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-36.png",
+      "sha256": "7c7d80c624fd7ae5aad93535c3ae3f7f10572bc6e77144892a51764dab5a68f7"
+    },
+    {
+      "page": 37,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-37.png",
+      "sha256": "838623bb2ccfd2332f22c12ffdb1c5b614cdf92a64d4d20635070a3568d1072a"
+    },
+    {
+      "page": 38,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-38.png",
+      "sha256": "8fc1180131e52ac40b8b75fd2b6d82116eac4c1b1e5868400ba18a22cff8c53f"
+    },
+    {
+      "page": 39,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-39.png",
+      "sha256": "6784b467138287c755f6c28f193600c41572daa0bef641759500d727b409ff0e"
+    },
+    {
+      "page": 40,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-40.png",
+      "sha256": "554761c8b2fb19007b3e20dceb1c1a0df27d4ad940e25fe08e097310ffcc41b9"
+    },
+    {
+      "page": 41,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-41.png",
+      "sha256": "3974ea0902b315154b8344ec467954fd1c35bf039c1e33cedf6ce4b2a201605e"
+    },
+    {
+      "page": 42,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-42.png",
+      "sha256": "eb1f30a8af4f965f2f1e1b6853dad50c171142c718ff8cbf5587b66c2b6e41cc"
+    },
+    {
+      "page": 43,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-43.png",
+      "sha256": "0b9083ab8ac56ef0b9ab1db4b77f1f912c5ec8cb02239a4f8d57d6b0b089a046"
+    },
+    {
+      "page": 44,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-44.png",
+      "sha256": "f14275065c7e94e2699b6a8ecce4ee12a34dbd7433f1eec82840424795860db9"
+    },
+    {
+      "page": 45,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-45.png",
+      "sha256": "bbf70c6c92548866419a0dc92d3920cdf5b29e116c62e56e8a546b6d23a1e464"
+    },
+    {
+      "page": 46,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-46.png",
+      "sha256": "39690502dbc47a5d6f1245a80909711f66356d637dd4fa687df7ec60a30f4d70"
+    },
+    {
+      "page": 47,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-47.png",
+      "sha256": "93c2d82718c63cbb46f4efc814b1015f62be5b32e00a4482f81a1b022c5f465f"
+    },
+    {
+      "page": 48,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-48.png",
+      "sha256": "39062b7efba7bf0fc137e0fde2149643a9d604fb03bfa6d23be3ca177620eb06"
+    },
+    {
+      "page": 49,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-49.png",
+      "sha256": "e09dd6d10436e9f86ddbf9820d80178474a64c73ab0e56c5ecd7985751f396f6"
+    },
+    {
+      "page": 50,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-50.png",
+      "sha256": "0b3e27e3aa554e6ec7f6e2ea84ecf7e20d6ebb0f8dbbbc88f34cd843a9300a77"
+    },
+    {
+      "page": 51,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-51.png",
+      "sha256": "056b5a51b5bb1317297d42f7cf090bb28050344251f985506d16f3198e535bae"
+    },
+    {
+      "page": 52,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-52.png",
+      "sha256": "01f2e74a7008dec67371b6e962b9a3db99915612827a7992d83927776e46de89"
+    },
+    {
+      "page": 53,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-53.png",
+      "sha256": "75a7a111469f48876a0cc2c97db974cf98b33050f4638a541647258f657939c3"
+    },
+    {
+      "page": 54,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-54.png",
+      "sha256": "1364ad2644c72dbb6c2e53696cae0841ead428c1348173796874abe89c808e7d"
+    },
+    {
+      "page": 55,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-55.png",
+      "sha256": "cd5ddd1187511a798a60e6dc19d98800274eff0c92d982da04d09a58fa158d57"
+    },
+    {
+      "page": 56,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-56.png",
+      "sha256": "4f72c520d631d73a8821ff405fcfddb40b1d0a3880b8b84b63bd51331b031fc3"
+    },
+    {
+      "page": 57,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-57.png",
+      "sha256": "641f28e6b95a35d8ba41e3981b043fe5f472d4c4f316e9ef0f83ee5d35f0d136"
+    },
+    {
+      "page": 58,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-58.png",
+      "sha256": "7ea0a733c7aca419e8a13e23fb409ffdf0827e3537c1c88d0071bb60a01e9f08"
+    },
+    {
+      "page": 59,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-59.png",
+      "sha256": "fc41b1d93bd215f076db375c6f59b35bbe72704ab0b1beefb159dcbfc707e1fd"
+    },
+    {
+      "page": 60,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-60.png",
+      "sha256": "b25da70878cb9e770f281a3ddf7a351160b6d9639f6bd435815ab7101ad973c6"
+    },
+    {
+      "page": 61,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-61.png",
+      "sha256": "01be70c53a8e791d1303a2cf0a52ee5bbc6ef6904f8aced9a7940576e8d031a6"
+    },
+    {
+      "page": 62,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-62.png",
+      "sha256": "066099dae7693b3bd247032a8428c3f5197048550b1040f53f6e9ae2d3a198f5"
+    },
+    {
+      "page": 63,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-63.png",
+      "sha256": "b836b47a861d0daa8a04eed564669a2e971df2d7c4dc7337078fee6865f5799f"
+    },
+    {
+      "page": 64,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-64.png",
+      "sha256": "c3588d058581aabe3a750d05f913a97fcdc86cf1e258d3b12bfeb5d8715259fc"
+    },
+    {
+      "page": 65,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-65.png",
+      "sha256": "19254682d4e1f6abd1f85776f9cdcc498fe5f80a2b7253b43cbb7cf9d835f3ab"
+    },
+    {
+      "page": 66,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-66.png",
+      "sha256": "e56d8017600c4785df4a09987faeb5d660b84548102283be96bf1fa825383ce5"
+    },
+    {
+      "page": 67,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-67.png",
+      "sha256": "41519ba073fb83eaddecd80c18ced988ed3002a768b2c5700f92799f9067d292"
+    },
+    {
+      "page": 68,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-68.png",
+      "sha256": "e2f62c074b2130b349606034d2e96c26f954ba960e2a449300366be52a214166"
+    },
+    {
+      "page": 69,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-69.png",
+      "sha256": "bcc0d1efd24af8f5600e43b8bda9a7177f465c9102fe1f433a5722a3012ff6b3"
+    },
+    {
+      "page": 70,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-70.png",
+      "sha256": "22a3f65cbb7a2c681f7ff5d482adc420867707b58339ef99484af12c61d2f69c"
+    },
+    {
+      "page": 71,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-71.png",
+      "sha256": "04ee56803e9eb7be29a9d4cd92c4f80539b66ad1144d8c266e5c8325b62cb833"
+    },
+    {
+      "page": 72,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-72.png",
+      "sha256": "1e5850a336ab23ddfb4365b13980ac2207eac93567d404aac09248016a663f7b"
+    },
+    {
+      "page": 73,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-73.png",
+      "sha256": "80954204ec3b74f442ca6819d0264803d66cfb24cb424006e7301a1fc0c12ef1"
+    },
+    {
+      "page": 74,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-74.png",
+      "sha256": "02c6369a5ac8e10672c549f45ccaddc1ab243e492a385151fe23d30da636d1d0"
+    },
+    {
+      "page": 75,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-75.png",
+      "sha256": "01aaed87e965c986f84266d18287278791bbad3511e36812ee09c2283138ad9b"
+    },
+    {
+      "page": 76,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-76.png",
+      "sha256": "a88626eac36801642128a0812fae76696e249d0d005fabf4b7ba03054ad2e2b7"
+    },
+    {
+      "page": 77,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-77.png",
+      "sha256": "5e1757b1bcd650d64e0fd20130dafab8e6943efb4ef04ab17e4bb0aaea5f2249"
+    },
+    {
+      "page": 78,
+      "path": "/tmp/jiaocai-ch02-render-r3/page-78.png",
+      "sha256": "77111c11b4b08b603f8cf02ae756e651f3377ceb2e71f906f02bbdf4a9d2f555"
+    }
+  ],
+  "retained_pages_archive": {
+    "path": "materials/ch02/snapshots/final-pages.zip",
+    "sha256": "dc098aa8f44d1090c6db530cd772cef322d6d51b55da6de7b5d47d789830fa92",
+    "count": 78,
+    "entries": "page-1.png through page-78.png",
+    "contents_verified_byte_for_byte": true
+  },
+  "delivery_pdf": "output/ch02/第二章-计算思维的核心方法与AI辅助.pdf",
+  "actual_review_evidence": [
+    "materials/ch02/page-review-r2.md",
+    "materials/ch02/page-review-r3.md"
+  ],
+  "boundary": "64 unchanged PNGs inherit actual R2 observations, 14 changed pages individually re-viewed in R3; no Word native/printing/classroom claim."
+}

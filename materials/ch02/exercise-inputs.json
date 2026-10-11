@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "provenance": "Explicit teaching-example inputs transcribed from manuscripts/ch02 and materials/ch02/authoring-brief.md for independent derivation. All exercise data are fictional and no external action is performed.",
+  "e01": {
+    "start": "H",
+    "goal": "L",
+    "start_minute_of_day": 597,
+    "arrival_deadline_minute_of_day": 605,
+    "service_profile": "step_free",
+    "edges": [
+      {"from": "H", "to": "J", "minutes": 2, "step_free": false, "completion_deadline_minute_of_day": null, "status": "confirmed"},
+      {"from": "J", "to": "L", "minutes": 2, "step_free": false, "completion_deadline_minute_of_day": 600, "status": "confirmed"},
+      {"from": "H", "to": "K", "minutes": 3, "step_free": true, "completion_deadline_minute_of_day": null, "status": "confirmed"},
+      {"from": "K", "to": "L", "minutes": 4, "step_free": true, "completion_deadline_minute_of_day": null, "status": "confirmed"},
+      {"from": "L", "to": "H", "minutes": 5, "step_free": true, "completion_deadline_minute_of_day": null, "status": "confirmed"}
+    ],
+    "variants": {"cancel_profile_requirement": true, "unknown_edge": ["K", "L"]},
+    "coarse_merge": {"merged_nodes": ["J", "K"], "merged_name": "P", "retain_minimum_pairwise_duration": true}
+  },
+  "e02": {
+    "activities": [
+      {"id": "A", "minutes": 2, "predecessors": []},
+      {"id": "B", "minutes": 4, "predecessors": ["A"]},
+      {"id": "C", "minutes": 3, "predecessors": ["A"]},
+      {"id": "D", "minutes": 5, "predecessors": ["B", "C"]},
+      {"id": "E", "minutes": 2, "predecessors": ["B"]},
+      {"id": "F", "minutes": 3, "predecessors": ["D", "E"]},
+      {"id": "G", "minutes": 1, "predecessors": ["F"]}
+    ],
+    "changed_duration": {"activity": "D", "minutes": 2},
+    "interface_versions": {"B_map_version": "R7", "C_map_version": "R8", "B_profile": "P1", "C_profile": "P1"}
+  },
+  "e03": {
+    "development_ids": ["d1", "d2", "d3", "d4", "d5", "d6", "d7", "d8"],
+    "test_ids": ["d9", "d10", "d11", "d12"],
+    "rows": [
+      {"id": "d1", "x": 80, "event": 0, "y": 1}, {"id": "d2", "x": 70, "event": 0, "y": 1},
+      {"id": "d3", "x": 55, "event": 0, "y": 1}, {"id": "d4", "x": 45, "event": 0, "y": 0},
+      {"id": "d5", "x": 30, "event": 0, "y": 0}, {"id": "d6", "x": 60, "event": 1, "y": 1},
+      {"id": "d7", "x": 40, "event": 1, "y": 1}, {"id": "d8", "x": 20, "event": 1, "y": 0},
+      {"id": "d9", "x": 65, "event": 0, "y": 1}, {"id": "d10", "x": 48, "event": 0, "y": 1},
+      {"id": "d11", "x": 38, "event": 1, "y": 0}, {"id": "d12", "x": 25, "event": 0, "y": 0}
+    ],
+    "rules": {
+      "RA": {"x_gte": 50},
+      "RB": {"x_gte": 50, "or_event_equals": 1, "and_x_gte": 35}
+    }
+  },
+  "e04": {
+    "graph": {"start": "S", "goal": "T", "directed": true, "edges": [["S", "A", 1], ["S", "B", 4], ["A", "B", 2], ["A", "C", 1], ["A", "T", 9], ["B", "T", 2], ["C", "T", 9]]},
+    "negative_variant": {"replace_edge": ["B", "T", -3]},
+    "negative_counterexample": {"start": "S", "goal": "A", "edges": [["S", "A", 2], ["S", "B", 5], ["B", "A", -4]]},
+    "records": [
+      {"id": "r1", "priority": 2, "submitted": "09:03"}, {"id": "r2", "priority": 1, "submitted": "09:02"},
+      {"id": "r3", "priority": 2, "submitted": "09:01"}, {"id": "r4", "priority": 1, "submitted": "09:01"}
+    ],
+    "worked_graph": {"start": "P", "goal": "D", "edges": [["P", "A", 2], ["P", "B", 3], ["A", "C", 6], ["A", "D", 11], ["B", "C", 2], ["B", "E", 5], ["C", "D", 2], ["E", "D", 3]]}
+  },
+  "e05": {
+    "rows": [
+      {"id": "U1", "group": "N", "baseline": 8, "candidate": 6}, {"id": "U2", "group": "N", "baseline": 10, "candidate": 8},
+      {"id": "U3", "group": "N", "baseline": 9, "candidate": 7}, {"id": "U4", "group": "N", "baseline": 11, "candidate": 9},
+      {"id": "U5", "group": "A", "baseline": 12, "candidate": 9}, {"id": "U6", "group": "A", "baseline": 14, "candidate": null},
+      {"id": "U7", "group": "A", "baseline": null, "candidate": null}, {"id": "U8", "group": "A", "baseline": 13, "candidate": 10}
+    ],
+    "acceptance": {"group": "A", "min_successes": 3, "denominator": 4, "max_success_minutes": 15, "failure_penalty_minutes": 16},
+    "query_cost_ms": {"baseline_per_query": 40, "candidate_preprocess": 120, "candidate_per_query": 10, "preprocess_each_query_if_map_changes": true},
+    "post_submit_confirmation_states": ["confirmed_received", "confirmed_not_applied_and_quiescent", "not_found_but_in_flight_not_excluded", "still_unknown", "no_query_capability"]
+  },
+  "worked_figure_graph": {
+    "reference": "Figure 2-5 teaching example, independent from E04 data",
+    "start": "P",
+    "goal": "D",
+    "edges": [["P", "A", 2], ["P", "B", 3], ["A", "C", 6], ["A", "D", 11], ["B", "C", 2], ["B", "E", 5], ["C", "D", 2], ["E", "D", 3]]
+  },
+  "e06": {
+    "start": "G",
+    "goal": "X",
+    "service_node": "C",
+    "service_minutes": 2,
+    "service_deadline": 8,
+    "arrival_deadline": 12,
+    "nodes": ["G", "P", "Q", "C", "D", "X"],
+    "undirected_edges": [
+      {"a": "G", "b": "P", "minutes": 2, "stairs": false}, {"a": "G", "b": "Q", "minutes": 4, "stairs": false},
+      {"a": "P", "b": "Q", "minutes": 1, "stairs": true}, {"a": "P", "b": "C", "minutes": 3, "stairs": false},
+      {"a": "Q", "b": "C", "minutes": 2, "stairs": false}, {"a": "P", "b": "D", "minutes": 5, "stairs": false},
+      {"a": "C", "b": "D", "minutes": 2, "stairs": false}, {"a": "Q", "b": "X", "minutes": 6, "stairs": false},
+      {"a": "D", "b": "X", "minutes": 3, "stairs": false}, {"a": "C", "b": "X", "minutes": 7, "stairs": false}
+    ],
+    "map_version": "M1",
+    "rule_version": "C1",
+    "variants": {"remove_service": true, "close_edge": ["C", "D"], "unknown_edge_after_close": ["C", "X"]}
+  }
+}

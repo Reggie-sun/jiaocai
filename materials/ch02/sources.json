@@ -1,0 +1,175 @@
+{
+  "citation_style": "沿用全书顺序编码体例；章内首次使用顺序编号",
+  "provenance": "原始来源支持核对与书目信息核对；原创教学图、数据、推导不冒充来源研究数据。",
+  "sources": [
+    {
+      "id": "S01",
+      "author": "Wing J M",
+      "year": "2010",
+      "title": "Computational Thinking: What and Why?",
+      "url": "https://www.cs.cmu.edu/~CompThink/resources/TheLinkWing.pdf",
+      "locators": [
+        "PDF p.1，abstraction/processes"
+      ],
+      "verified_claim": "抽象选择与任务相关的表示；计算思维可组织供人或机器执行的过程。",
+      "limits": "本章任务相关等价、服务状态与反例为作者推导。",
+      "reference": "Wing J M. Computational Thinking: What and Why?[EB/OL]. (2010-11-17)[2026-10-11]. https://www.cs.cmu.edu/~CompThink/resources/TheLinkWing.pdf.",
+      "access_date": "2026-10-11",
+      "status": "original_support_checked",
+      "verification_actor": "Codex Parent，实际浏览原始论文/官方文档及所用段落"
+    },
+    {
+      "id": "S02",
+      "author": "Parnas D L",
+      "year": "1972",
+      "title": "On the Criteria To Be Used in Decomposing Systems into Modules",
+      "url": "https://john.cs.olemiss.edu/~hcc/csci555/notes/localcopy/Parnas_Criteria_Decomposing.pdf",
+      "locators": [
+        "原刊pp.1056–1058，The Criteria / Conclusion；机构HTML对应同名段落"
+      ],
+      "verified_claim": "模块划分可隐藏容易变化的设计决定，不应仅沿处理步骤切块。",
+      "limits": "本章预约与路线接口为原创教学模型；并非论文的系统实例。",
+      "reference": "Parnas D L. On the Criteria To Be Used in Decomposing Systems into Modules[J/OL]. Communications of the ACM, 1972, 15(12): 1053-1058[2026-10-11]. https://doi.org/10.1145/361598.361623.",
+      "access_date": "2026-10-11",
+      "status": "original_support_checked",
+      "verification_actor": "Codex Parent，实际浏览原始论文/官方文档及所用段落",
+      "support_urls": [
+        "https://www.cs.lafayette.edu/~gexia/cs301/resources/parnas.html"
+      ]
+    },
+    {
+      "id": "S03",
+      "author": "scikit-learn developers",
+      "year": "",
+      "title": "Common pitfalls and recommended practices",
+      "url": "https://scikit-learn.org/stable/common_pitfalls.html",
+      "locators": [
+        "§12.1 Inconsistent preprocessing；§12.2 Data leakage"
+      ],
+      "verified_claim": "训练与预测须一致地变换；fit与规则学习应排除测试信息。",
+      "limits": "仅借用方法约束，未声称本章手工规则使用或验证某一库版本。",
+      "reference": "scikit-learn developers. Common pitfalls and recommended practices[EB/OL]. [2026-10-11]. https://scikit-learn.org/stable/common_pitfalls.html.",
+      "access_date": "2026-10-11",
+      "status": "original_support_checked",
+      "verification_actor": "Codex Parent，实际浏览原始论文/官方文档及所用段落"
+    },
+    {
+      "id": "S04",
+      "author": "scikit-learn developers",
+      "year": "",
+      "title": "Cross-validation: evaluating estimator performance",
+      "url": "https://scikit-learn.org/stable/modules/cross_validation.html",
+      "locators": [
+        "§3.1开头测试集调参；§3.1.2.4 grouped data；§3.1.2.6 time series"
+      ],
+      "verified_claim": "依赖样本须按对象或时间等真实结构划分，不能随意随机行拆分；反复利用测试结果会影响独立性。",
+      "limits": "E03是小型独立模拟记录；并非真实时间序列模型效果证据。",
+      "reference": "scikit-learn developers. Cross-validation: evaluating estimator performance[EB/OL]. [2026-10-11]. https://scikit-learn.org/stable/modules/cross_validation.html.",
+      "access_date": "2026-10-11",
+      "status": "original_support_checked",
+      "verification_actor": "Codex Parent，实际浏览原始论文/官方文档及所用段落"
+    },
+    {
+      "id": "S05",
+      "author": "Dijkstra E W",
+      "year": "1959",
+      "title": "A note on two problems in connexion with graphs",
+      "url": "https://jmvidal.cse.sc.edu/library/dijkstra59a.pdf",
+      "locators": [
+        "原刊pp.270–271，Problem 2及Remarks；Springer原刊metadata"
+      ],
+      "verified_claim": "按累计距离逐次确定节点，通过前驱分组与更新构造最短路线。",
+      "limits": "非负假设与现代复杂度另由S06核对；原创图、证明叙述与旧条目伪代码均非原文代码复制。",
+      "reference": "Dijkstra E W. A note on two problems in connexion with graphs[J/OL]. Numerische Mathematik, 1959, 1: 269-271[2026-10-11]. https://doi.org/10.1007/BF01386390.",
+      "access_date": "2026-10-11",
+      "status": "original_support_checked",
+      "verification_actor": "Codex Parent，实际浏览原始论文/官方文档及所用段落",
+      "metadata_url": "https://link.springer.com/article/10.1007/BF01386390"
+    },
+    {
+      "id": "S06",
+      "author": "MIT OpenCourseWare",
+      "year": "2011",
+      "title": "6.006 Introduction to Algorithms: Lecture 13 and Lecture 16",
+      "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/pages/lecture-notes/",
+      "locators": [
+        "Lecture13 PDF pp.5–6：BFS与fewest edges、O(V+E)；Lecture16 pp.4–6：非负边权、relaxation、Dijkstra与数组/堆复杂度"
+      ],
+      "verified_claim": "BFS保证最少边数；Dijkstra的确定规则在非负边权下适用；表示和队列决定复杂度。",
+      "limits": "正文自编模型和反例；未复制课程图、伪代码或证明原文。",
+      "reference": "MIT OpenCourseWare. 6.006 Introduction to Algorithms: Lecture Notes[EB/OL]. 2011[2026-10-11]. https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/pages/lecture-notes/.",
+      "access_date": "2026-10-11",
+      "status": "original_support_checked",
+      "verification_actor": "Codex Parent，实际浏览原始论文/官方文档及所用段落",
+      "support_urls": [
+        "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/1208e162775f6f5cedfbb9f2b694ede0_MIT6_006F11_lec13.pdf",
+        "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/6277a1f06100c26a7ff21031af6757b5_MIT6_006F11_lec16.pdf"
+      ]
+    },
+    {
+      "id": "S07",
+      "author": "Python Software Foundation",
+      "year": "",
+      "title": "Sorting Techniques",
+      "url": "https://docs.python.org/3/howto/sorting.html",
+      "locators": [
+        "Sort Stability and Complex Sorts"
+      ],
+      "verified_claim": "稳定排序保持等键记录相对次序；先次要再主要关键字的稳定多轮排序可实现复合顺序。",
+      "limits": "只陈述Python文档保证和一般排序性质，不宣称所有排序算法稳定。",
+      "reference": "Python Software Foundation. Sorting Techniques[EB/OL]. [2026-10-11]. https://docs.python.org/3/howto/sorting.html.",
+      "access_date": "2026-10-11",
+      "status": "original_support_checked",
+      "verification_actor": "Codex Parent，实际浏览原始论文/官方文档及所用段落"
+    },
+    {
+      "id": "S08",
+      "author": "Tabassi E",
+      "year": "2023",
+      "title": "Artificial Intelligence Risk Management Framework (AI RMF 1.0): NIST AI 100-1",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "locators": [
+        "printed pp.28–29 / PDF pp.33–34，MEASURE2.1–2.5；NIST官方出版页面metadata"
+      ],
+      "verified_claim": "评价应记录测试方法、指标、场景条件与推广边界。",
+      "limits": "具体门槛、失败惩罚值、群体分组均为作者教学设计，非NIST强制阈值或安全认证。",
+      "reference": "Tabassi E. Artificial Intelligence Risk Management Framework (AI RMF 1.0): NIST AI 100-1[R/OL]. 2023-01[2026-10-11]. https://doi.org/10.6028/NIST.AI.100-1.",
+      "access_date": "2026-10-11",
+      "status": "original_support_checked",
+      "verification_actor": "Codex Parent，实际浏览原始论文/官方文档及所用段落",
+      "metadata_url": "https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10"
+    },
+    {
+      "id": "S09",
+      "author": "Fielding R; Nottingham M; Reschke J",
+      "year": "2022",
+      "title": "HTTP Semantics: RFC 9110",
+      "url": "https://www.rfc-editor.org/rfc/rfc9110.html#section-9.2.2",
+      "locators": [
+        "§9.2.2 Idempotent Methods；Authors' Addresses"
+      ],
+      "verified_claim": "幂等针对请求预期效果；非幂等请求不能在结果不明时随意自动重发。",
+      "limits": "本章业务幂等键、确认状态与恢复示例为教学设计，不能由HTTP方法名推定端到端恰好一次。",
+      "reference": "Fielding R, Nottingham M, Reschke J. HTTP Semantics: RFC 9110[S/OL]. 2022-06[2026-10-11]. https://www.rfc-editor.org/rfc/rfc9110.html#section-9.2.2.",
+      "access_date": "2026-10-11",
+      "status": "original_support_checked",
+      "verification_actor": "Codex Parent，实际浏览原始论文/官方文档及所用段落"
+    },
+    {
+      "id": "S10",
+      "author": "Amershi S; Weld D; Vorvoreanu M; et al.",
+      "year": "2019",
+      "title": "Guidelines for Human-AI Interaction",
+      "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2019/01/Guidelines-for-Human-AI-Interaction-camera-ready.pdf",
+      "locators": [
+        "main paper p.3 Table1，G9 correction，G10 uncertainty，G14 cautious adaptation，G17 global controls"
+      ],
+      "verified_claim": "交互可支持纠正、限制不确定行为、谨慎更新与全局控制。",
+      "limits": "本章有限反馈流程为教学设计；论文不是当前LLM能力或具体应用效果证明。",
+      "reference": "Amershi S, Weld D, Vorvoreanu M, et al. Guidelines for Human-AI Interaction[C/OL]//Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. New York: ACM, 2019: 1-13[2026-10-11]. https://doi.org/10.1145/3290605.3300233.",
+      "access_date": "2026-10-11",
+      "status": "original_support_checked",
+      "verification_actor": "Codex Parent，实际浏览原始论文/官方文档及所用段落"
+    }
+  ]
+}

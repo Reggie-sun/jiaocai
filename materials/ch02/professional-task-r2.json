@@ -1,0 +1,67 @@
+{
+  "parent_session_id": "codex-jiaocai-ch02-20261011",
+  "task_id": "ch02-professional-review-r2",
+  "cwd": "/home/reggie/vscode_folder/jiaocai",
+  "explicit_root": "/home/reggie/vscode_folder/jiaocai",
+  "role": "reviewer",
+  "goal": "Role independent professional textbook content reviewer. Scope whole Chapter2 five sections, all E01-E06 and separated answers, sources. Read all required files in full; batch reads efficiently. Assess technical correctness and meaningful knowledge gain for CS junior/senior students: abstraction equivalence and service state, module ownership and composability, temporal/group leakage and metrics, BFS/Dijkstra conditions/proof/complexity/pseudocode, negative-edge counterexample, stable sorting, paired comparisons/coverage, caching and UNKNOWN retry semantics; check every exercise and capstone material is sufficient and answers do not assume missing constraints. Review exact text and data rather than assuming correctness from author. Figure visual/page QA is outside scope. Source ledger provides Parent original-source locator evidence, not proof you independently reread external URLs. Return stable IDs P01..., blocking_candidate/non_blocking, exact manuscript lines and short evidence, violated content contract, learner impact, minimum correction and verification. Allow no findings; no scoring/voting. Boundaries read-only no Bash/network/writes/nested agents/credentials/commit/push/Harness changes, do not accept project. Canonical five-field report only, uncertainties include actual full coverage and external/human/classroom limitations. Parent adjudicates all findings. This is a fresh complete content review of the current snapshot; previous invocation was revoked SOURCE_CHANGED and has no admissible findings. Do not seek or rely on its partial output.",
+  "read_paths": [
+    "manuscripts/ch02/ch02.md",
+    "specs/ch02.spec.md",
+    "specs/authoring-quality.spec.md",
+    "skills/textbook-authoring/SKILL.md",
+    "materials/ch02/sources.json",
+    "materials/ch02/exercise-inputs.json",
+    "plans/ch02.plan.md"
+  ],
+  "write_paths": [],
+  "permissions": [
+    "read"
+  ],
+  "selected_refs": [
+    {
+      "path": "specs/ch02.spec.md",
+      "sha256": "9c74ca49de4a7134e1361fd32ac69e53cda84b74c359236207dae9b1dad21db6",
+      "accepted": true
+    },
+    {
+      "path": "specs/authoring-quality.spec.md",
+      "sha256": "3313588fc3551633f3182cdce9e5e597ff8db6c1587c91c5da33f1041cdc002e",
+      "accepted": true
+    },
+    {
+      "path": "plans/ch02.plan.md",
+      "sha256": "d26d055646b7553afa0e102ac80fc3480c23024b04075c91d665b10136a7c4e6",
+      "accepted": true
+    }
+  ],
+  "active_documents": "accepted_refs",
+  "harness_refs": [],
+  "constitution_refs": [
+    "AGENTS.md"
+  ],
+  "skills": [],
+  "skill_roots": [],
+  "expected_evidence": [
+    "manuscripts/ch02/ch02.md",
+    "specs/ch02.spec.md",
+    "specs/authoring-quality.spec.md",
+    "skills/textbook-authoring/SKILL.md",
+    "materials/ch02/sources.json",
+    "materials/ch02/exercise-inputs.json",
+    "plans/ch02.plan.md"
+  ],
+  "backend": "kimi",
+  "profile": "deep",
+  "budgets": {
+    "wall_seconds": 3600,
+    "idle_seconds": 1800,
+    "request_limit": 64,
+    "generation_tokens": 32000,
+    "output_bytes": 16777216,
+    "context_bytes": 8388608
+  },
+  "instruction_precedence": [
+    "AGENTS.md"
+  ]
+}

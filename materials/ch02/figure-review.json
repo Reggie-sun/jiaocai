@@ -1,0 +1,57 @@
+{
+  "reviewer": "Codex Parent actual image review plus independent maker image/grayscale observations",
+  "scope": "all8 final color PNGs; Parent re-view of finalfig5/7/8; maker viewed grayscale copies.",
+  "figures": [
+    {
+      "id": "图2-1",
+      "png_sha256": "4746bf29f24b2ba229f7a5f0be20af8ed5a2055317e6496b8ef0c4bde762866b",
+      "svg_sha256": "e614afbffce549099d17a80cc3e342d37b45a8dac6a3164ee494d705c4864d61"
+    },
+    {
+      "id": "图2-2",
+      "png_sha256": "bc691c4eb18ffa0aca39991c678499bc04b725762d32692e9d8ec884b925bc47",
+      "svg_sha256": "f28f2573e27ea6edf56cf931e88edc464c1e312d5c180a76ae12fa0dd7f00586"
+    },
+    {
+      "id": "图2-3",
+      "png_sha256": "4977725891cd08f71882d22e420f26d5ba0fe6d3d84bdb7535a261913c36f237",
+      "svg_sha256": "c10a02f1f435f87305ac2dec1cd36f2dc363c607bb8c1958cf57e2b57adfca4a"
+    },
+    {
+      "id": "图2-4",
+      "png_sha256": "5b474cf4ca67f747ba2c8c741ed518504bd9febd2aa9747f24250830648b3afe",
+      "svg_sha256": "b88405747e7ff4e34d757986befec872a60c0488dcafe654fd0d4f97626d0556"
+    },
+    {
+      "id": "图2-5",
+      "png_sha256": "b2fdfe43749cc982d1409837994e2e0728af8373d86a563f3a7c652b7524ccf9",
+      "svg_sha256": "c5bbcaa3d6dd30c61f17a3bca18a7edb56582ea995040200dcdabc5438fce0ce"
+    },
+    {
+      "id": "图2-6",
+      "png_sha256": "949fb339808ccffb946bf0f4ad7df40d1e0ab316c18af27159932106da322a60",
+      "svg_sha256": "fad4dbf41bbc11e2ab936b0287ecfd358b44a63832c341fdb3e1703fc3004f57"
+    },
+    {
+      "id": "图2-7",
+      "png_sha256": "46914b15773d0313140b7cc5e36425078e5d2caef1fda4de0e597eed3d93d9b7",
+      "svg_sha256": "ffd8442e127a6bdd51382d0a85bf0586df7f283820422d851d7548fc9a296e5c"
+    },
+    {
+      "id": "图2-8",
+      "png_sha256": "81e13e510b60f8faf8145c47a10f4e7d421da64082f6f308deea4ffcd17ce2f9",
+      "svg_sha256": "b5d63b8331ee1671f4fd1291fa391926c1c4bed1096b72aabbfbc5756ca43043"
+    }
+  ],
+  "confirmed_corrections": [
+    "fig1 explicitN-M outerroute4min",
+    "fig2 service-layer transition onlyC and5minaggregate onlytoP",
+    "fig4 rule-scope conceptualplot and outsideverify",
+    "fig5 distances and independent incomingarrows",
+    "fig6 five workedrequests, no inventedgroups",
+    "fig7 confirmed/rejected/UNKNOWN separated and boundedrecovery",
+    "fig8 tenedges andPQstairs, QC2label clear"
+  ],
+  "remaining": "Actual155mm Word/PDFembedded pages require separate inspection.",
+  "VB01": "Parent实际查看最终图2-7彩色PNG；三行文字与四边分离，箭头逻辑保持。maker另看灰度。最终页面仍须实查。"
+}

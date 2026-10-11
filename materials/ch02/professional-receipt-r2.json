@@ -1,0 +1,8 @@
+{
+  "canonical_receipt_available": false,
+  "query_exit_code": 2,
+  "query_classification": "INCOMPLETE_RECEIPT",
+  "invocation_id": "d4c3ca00-dc58-4976-abd8-72b0ce83f097",
+  "representation": "Parent保存receipt查询结果；不是canonical invocation receipt。",
+  "unknown_observation_preserved": "professional-r2-observations.json"
+}

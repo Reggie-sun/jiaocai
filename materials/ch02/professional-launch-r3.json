@@ -1,0 +1,7 @@
+{
+  "pid": 946131,
+  "launched_at": "2026-10-11T14:46:29.173998+00:00",
+  "seal": "72afee09f923359573b957580a7070e5b2f6fb5b9950a00c370cf75761154e49",
+  "budget_round": 3,
+  "transport": "detached local supervisor to preserve execution across parent tool-session lifecycle; no request retry"
+}

@@ -1,0 +1,199 @@
+{
+  "method": "Parent recomputes combinations and unchanged independent schedule() on current final text; confirms original T01–T03 edits remain. P01/P02 separately verified in professional-correction-verification.json.",
+  "manuscript_sha256": "e09aa94519f298a7fc7979f7c494c525f2146e1bbfcc56a913ba41d0311ca8b0",
+  "T01": {
+    "n": 3,
+    "binary_components": 4,
+    "enumerated_combinations": 48,
+    "general_bound": "16n"
+  },
+  "T02": {
+    "initial_inputs": [
+      {
+        "id": "W",
+        "minutes": 1,
+        "predecessors": []
+      },
+      {
+        "id": "Y",
+        "minutes": 2,
+        "predecessors": [
+          "W"
+        ]
+      },
+      {
+        "id": "Z",
+        "minutes": 4,
+        "predecessors": [
+          "W"
+        ]
+      },
+      {
+        "id": "V",
+        "minutes": 1,
+        "predecessors": [
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "initial_result": {
+      "topological_order": [
+        "W",
+        "Y",
+        "Z",
+        "V"
+      ],
+      "schedule": {
+        "W": {
+          "start": 0,
+          "finish": 1
+        },
+        "Y": {
+          "start": 1,
+          "finish": 3
+        },
+        "Z": {
+          "start": 1,
+          "finish": 5
+        },
+        "V": {
+          "start": 5,
+          "finish": 6
+        }
+      },
+      "project_minutes": 6,
+      "critical_paths": [
+        {
+          "path": [
+            "W",
+            "Z",
+            "V"
+          ],
+          "minutes": 6
+        }
+      ],
+      "all_source_to_sink_paths": [
+        {
+          "path": [
+            "W",
+            "Y",
+            "V"
+          ],
+          "minutes": 4
+        },
+        {
+          "path": [
+            "W",
+            "Z",
+            "V"
+          ],
+          "minutes": 6
+        }
+      ]
+    },
+    "equal_branches_inputs": [
+      {
+        "id": "W",
+        "minutes": 1,
+        "predecessors": []
+      },
+      {
+        "id": "Y",
+        "minutes": 4,
+        "predecessors": [
+          "W"
+        ]
+      },
+      {
+        "id": "Z",
+        "minutes": 4,
+        "predecessors": [
+          "W"
+        ]
+      },
+      {
+        "id": "V",
+        "minutes": 1,
+        "predecessors": [
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "equal_branches_result": {
+      "topological_order": [
+        "W",
+        "Y",
+        "Z",
+        "V"
+      ],
+      "schedule": {
+        "W": {
+          "start": 0,
+          "finish": 1
+        },
+        "Y": {
+          "start": 1,
+          "finish": 5
+        },
+        "Z": {
+          "start": 1,
+          "finish": 5
+        },
+        "V": {
+          "start": 5,
+          "finish": 6
+        }
+      },
+      "project_minutes": 6,
+      "critical_paths": [
+        {
+          "path": [
+            "W",
+            "Y",
+            "V"
+          ],
+          "minutes": 6
+        },
+        {
+          "path": [
+            "W",
+            "Z",
+            "V"
+          ],
+          "minutes": 6
+        }
+      ],
+      "all_source_to_sink_paths": [
+        {
+          "path": [
+            "W",
+            "Y",
+            "V"
+          ],
+          "minutes": 6
+        },
+        {
+          "path": [
+            "W",
+            "Z",
+            "V"
+          ],
+          "minutes": 6
+        }
+      ]
+    }
+  },
+  "T03": {
+    "d7": {
+      "RB_prediction": 1,
+      "actual_y": 1
+    },
+    "d11": {
+      "RB_prediction": 1,
+      "actual_y": 0
+    }
+  },
+  "checks": "PASS"
+}
