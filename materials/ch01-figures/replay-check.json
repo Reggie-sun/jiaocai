@@ -1,0 +1,66 @@
+{
+  "generator_sha256": "c17f7abe40701723af8d0e8efdb132a1eef0e9aad1fe2c5a39839dd63b9b84ba",
+  "figures": [
+    {
+      "figure": 1,
+      "original_sha256": "4bcdf89258a4f4178cf5d6c7a31733457fe7f3aef797ff3695dd62c8a125f977",
+      "replayed_sha256": "4bcdf89258a4f4178cf5d6c7a31733457fe7f3aef797ff3695dd62c8a125f977",
+      "same_pixels": true,
+      "same_bytes": true
+    },
+    {
+      "figure": 2,
+      "original_sha256": "0a3f64f72194eb11e7c489baee4eaf01452badd5ba0b7e11691bd3930c0988ad",
+      "replayed_sha256": "0a3f64f72194eb11e7c489baee4eaf01452badd5ba0b7e11691bd3930c0988ad",
+      "same_pixels": true,
+      "same_bytes": true
+    },
+    {
+      "figure": 3,
+      "original_sha256": "c4830aa3269ea58320df060b32e36f6355d481342f50310fb54b623ff0de9b96",
+      "replayed_sha256": "c4830aa3269ea58320df060b32e36f6355d481342f50310fb54b623ff0de9b96",
+      "same_pixels": true,
+      "same_bytes": true
+    },
+    {
+      "figure": 4,
+      "original_sha256": "88d98a07c2e394654e9cf4ec200cdf478c7b9fd859a06c6fe0d5637263e52da9",
+      "replayed_sha256": "88d98a07c2e394654e9cf4ec200cdf478c7b9fd859a06c6fe0d5637263e52da9",
+      "same_pixels": true,
+      "same_bytes": true
+    },
+    {
+      "figure": 5,
+      "original_sha256": "e0a8b0f5aadd80ace900a611c384aef29b3a5c545c7192dedf9bcae32c5e4757",
+      "replayed_sha256": "e0a8b0f5aadd80ace900a611c384aef29b3a5c545c7192dedf9bcae32c5e4757",
+      "same_pixels": true,
+      "same_bytes": true
+    },
+    {
+      "figure": 6,
+      "original_sha256": "7b7e03fa8037ff6fc915b9eb4022305f3d30cea4514e801bc782929a7dfb87c8",
+      "replayed_sha256": "7b7e03fa8037ff6fc915b9eb4022305f3d30cea4514e801bc782929a7dfb87c8",
+      "same_pixels": true,
+      "same_bytes": true
+    },
+    {
+      "figure": 7,
+      "original_sha256": "ab989b6ce497f85754561f0813658d813b6a546a45c3cd1758e4a175f8bfd39b",
+      "replayed_sha256": "ab989b6ce497f85754561f0813658d813b6a546a45c3cd1758e4a175f8bfd39b",
+      "same_pixels": true,
+      "same_bytes": true
+    },
+    {
+      "figure": 8,
+      "original_sha256": "bd38616c9041127bbc4b654b83de846742a7b3e66871666d15f83045a8236da8",
+      "replayed_sha256": "bd38616c9041127bbc4b654b83de846742a7b3e66871666d15f83045a8236da8",
+      "same_pixels": true,
+      "same_bytes": true
+    }
+  ],
+  "all_same_pixels": true,
+  "all_same_png_bytes": true,
+  "original_files_unchanged": 279,
+  "export_size": "page for relation1/5/7/8; diagram for corrected3 and verified2; physical Matplotlib sizing for4/6",
+  "boundary": "Fresh local replay to temporary output; original chapter/pilots untouched. SVG/PDF timestamps may differ; PNG reproducibility checked independently."
+}

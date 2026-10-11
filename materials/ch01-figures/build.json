@@ -1,0 +1,41 @@
+{
+  "base_docx": "output/ch01/第一章-计算思维.docx",
+  "base_sha256": "fcf0d2a20c601b51a3830168377681c8812808911a086080e92b42924a893654",
+  "docx_sha256": "f9a6e6052064b07685fe7b4aff1830dd07b49ebc238c621ab98e394fae5d5752",
+  "style": "textbook-style-v1.0",
+  "changed_parts": [
+    "word/document.xml",
+    "word/media/image1.png",
+    "word/media/image2.png",
+    "word/media/image3.png",
+    "word/media/image4.png",
+    "word/media/image5.png",
+    "word/media/image6.png",
+    "word/media/image7.png",
+    "word/media/image8.png"
+  ],
+  "toc_cached_pages": {
+    "1.1 计算思维的定义与内涵：超越编程": 4,
+    "1.2 计算思维的思想来源与演进": 18,
+    "1.3 计算思维的普适性与迁移条件": 32,
+    "1.4 与数学、实证、批判、设计和系统思维的互补": 47,
+    "章末综合训练": 61,
+    "本章回顾": 65,
+    "关键术语": 66,
+    "练习参考解与讨论": 66,
+    "参考文献": 81
+  },
+  "toc_headings": [
+    "1.1 计算思维的定义与内涵：超越编程",
+    "1.2 计算思维的思想来源与演进",
+    "1.3 计算思维的普适性与迁移条件",
+    "1.4 与数学、实证、批判、设计和系统思维的互补",
+    "章末综合训练",
+    "本章回顾",
+    "关键术语",
+    "练习参考解与讨论",
+    "参考文献"
+  ],
+  "method": "Reuse delivered template-based DOCX; replace eight PNG media/extent/alt descriptions and current PAGEREF cache only. Native styles, numbering, captions, refs and all other text/parts preserved.",
+  "word_native_execution": "NOT_EVALUATED"
+}

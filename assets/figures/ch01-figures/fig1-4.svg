@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="439.370079pt" height="362.834646pt" viewBox="0 0 439.370079 362.834646" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-11T23:00:01.283151</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>scientific-visualization figure_export.py; Matplotlib 3.10.7</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 362.834646 
+L 439.370079 362.834646 
+L 439.370079 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 35.149606 264.869291 
+L 421.795276 264.869291 
+L 421.795276 39.911811 
+L 35.149606 39.911811 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 67.758277 264.869291 
+L 67.758277 39.911811 
+" clip-path="url(#p59bcb2ae37)" style="fill: none; stroke: #dddddd; stroke-width: 0.5; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="macbfe39923" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#macbfe39923" x="67.758277" y="264.869291" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 10.5px; font-family: 'Noto Sans CJK SC'; text-anchor: middle" x="67.758277" y="280.226635" transform="rotate(-0 67.758277 280.226635)">1940</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 160.925908 264.869291 
+L 160.925908 39.911811 
+" clip-path="url(#p59bcb2ae37)" style="fill: none; stroke: #dddddd; stroke-width: 0.5; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#macbfe39923" x="160.925908" y="264.869291" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 10.5px; font-family: 'Noto Sans CJK SC'; text-anchor: middle" x="160.925908" y="280.226635" transform="rotate(-0 160.925908 280.226635)">1960</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 254.09354 264.869291 
+L 254.09354 39.911811 
+" clip-path="url(#p59bcb2ae37)" style="fill: none; stroke: #dddddd; stroke-width: 0.5; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#macbfe39923" x="254.09354" y="264.869291" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 10.5px; font-family: 'Noto Sans CJK SC'; text-anchor: middle" x="254.09354" y="280.226635" transform="rotate(-0 254.09354 280.226635)">1980</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 347.261171 264.869291 
+L 347.261171 39.911811 
+" clip-path="url(#p59bcb2ae37)" style="fill: none; stroke: #dddddd; stroke-width: 0.5; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#macbfe39923" x="347.261171" y="264.869291" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 10.5px; font-family: 'Noto Sans CJK SC'; text-anchor: middle" x="347.261171" y="280.226635" transform="rotate(-0 347.261171 280.226635)">2000</text>
+     </g>
+    </g>
+    <g id="text_5">
+     <text style="font-size: 11px; font-family: 'Noto Sans CJK SC'; text-anchor: middle" x="228.472441" y="295.387104" transform="rotate(-0 228.472441 295.387104)">出版年份</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2"/>
+   <g id="line2d_9">
+    <defs>
+     <path id="mf6bd436e61" d="M 0 3.5 
+C 0.928211 3.5 1.81853 3.131218 2.474874 2.474874 
+C 3.131218 1.81853 3.5 0.928211 3.5 0 
+C 3.5 -0.928211 3.131218 -1.81853 2.474874 -2.474874 
+C 1.81853 -3.131218 0.928211 -3.5 0 -3.5 
+C -0.928211 -3.5 -1.81853 -3.131218 -2.474874 -2.474874 
+C -3.131218 -1.81853 -3.5 -0.928211 -3.5 0 
+C -3.5 0.928211 -3.131218 1.81853 -2.474874 2.474874 
+C -1.81853 3.131218 -0.928211 3.5 0 3.5 
+z
+" style="stroke: #222222"/>
+    </defs>
+    <g clip-path="url(#p59bcb2ae37)">
+     <use xlink:href="#mf6bd436e61" x="53.783133" y="75.146115" style="fill: #1f4e79; stroke: #222222"/>
+    </g>
+   </g>
+   <g id="line2d_10">
+    <g clip-path="url(#p59bcb2ae37)">
+     <use xlink:href="#mf6bd436e61" x="212.168105" y="129.352737" style="fill: #1f4e79; stroke: #222222"/>
+    </g>
+   </g>
+   <g id="line2d_11">
+    <g clip-path="url(#p59bcb2ae37)">
+     <use xlink:href="#mf6bd436e61" x="375.21146" y="183.559359" style="fill: #1f4e79; stroke: #222222"/>
+    </g>
+   </g>
+   <g id="line2d_12">
+    <g clip-path="url(#p59bcb2ae37)">
+     <use xlink:href="#mf6bd436e61" x="393.844986" y="237.76598" style="fill: #1f4e79; stroke: #222222"/>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 35.149606 264.869291 
+L 421.795276 264.869291 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Noto Sans CJK SC'; text-anchor: middle" x="53.783133" y="61.243037" transform="rotate(-0 53.783133 61.243037)">1937</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 11.5px; font-family: 'Noto Sans CJK SC'; text-anchor: start" x="77.07504" y="75.010398" transform="rotate(-0 77.07504 75.010398)">Turing  [5]</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 10.5px; font-family: 'Noto Sans CJK SC'; text-anchor: start" x="77.07504" y="91.131798" transform="rotate(-0 77.07504 91.131798)">规则、配置与计算边界</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Noto Sans CJK SC'; text-anchor: middle" x="212.168105" y="115.449659" transform="rotate(-0 212.168105 115.449659)">1971</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 11.5px; font-family: 'Noto Sans CJK SC'; text-anchor: start" x="235.460013" y="129.359871" transform="rotate(-0 235.460013 129.359871)">Papert / Solomon  [6]</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 10.5px; font-family: 'Noto Sans CJK SC'; text-anchor: start" x="235.460013" y="145.33842" transform="rotate(-0 235.460013 145.33842)">学习者表达、运行与修改程序</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Noto Sans CJK SC'; text-anchor: middle" x="375.21146" y="169.656281" transform="rotate(-0 375.21146 169.656281)">2006</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 11.5px; font-family: 'Noto Sans CJK SC'; text-anchor: start" x="58.441514" y="183.423641" transform="rotate(-0 58.441514 183.423641)">Wing  [1]</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 10.5px; font-family: 'Noto Sans CJK SC'; text-anchor: start" x="58.441514" y="199.545042" transform="rotate(-0 58.441514 199.545042)">面向更广泛人群的能力倡议</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Noto Sans CJK SC'; text-anchor: middle" x="393.844986" y="223.862902" transform="rotate(-0 393.844986 223.862902)">2010</text>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 11.5px; font-family: 'Noto Sans CJK SC'; text-anchor: start" x="58.441514" y="237.652724" transform="rotate(-0 58.441514 237.652724)">Cuny / Snyder / Wing  [2]</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 10.5px; font-family: 'Noto Sans CJK SC'; text-anchor: start" x="58.441514" y="253.751663" transform="rotate(-0 58.441514 253.751663)">问题与解法的共同定义表述</text>
+   </g>
+  </g>
+  <g id="text_18">
+   <text style="font-weight: 700; font-size: 12px; font-family: 'Noto Sans CJK SC'; text-anchor: start" x="35.149606" y="24.064636" transform="rotate(-0 35.149606 24.064636)">不同文献回答不同的问题</text>
+  </g>
+  <g id="text_19">
+   <text style="font-size: 10.5px; font-family: 'Noto Sans CJK SC'" transform="translate(35.149606 322.862339)">点的位置按出版年份；行的位置只用于分隔文献</text>
+   <text style="font-size: 10.5px; font-family: 'Noto Sans CJK SC'" transform="translate(35.149606 335.296308)">图灵论文1936年收稿、宣读，1937年出版</text>
+   <text style="font-size: 10.5px; font-family: 'Noto Sans CJK SC'" transform="translate(35.149606 347.730277)">并置用于主题比较，不表示直接影响或因果传承</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p59bcb2ae37">
+   <rect x="35.149606" y="39.911811" width="386.645669" height="224.95748"/>
+  </clipPath>
+ </defs>
+</svg>

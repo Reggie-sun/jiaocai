@@ -1,0 +1,20 @@
+{
+  "original_source_sha256": "9a741d30cc9e6bf04e2bbf0d6c2ab5597a753f03ce190c1fda95cdd2e4c664ec",
+  "edition_source_sha256": "d2c621df5bc39cc41088aefe5d34bbb240effc4ee834c152687be1edc1b2d902",
+  "only_changes": "Eight image target paths from ch01-rewrite to ch01-figures; all other source bytes identical",
+  "exact_original_context_sections": 8,
+  "source_inputs": {
+    "manuscripts/ch01-rewrite/ch01.md": "9a741d30cc9e6bf04e2bbf0d6c2ab5597a753f03ce190c1fda95cdd2e4c664ec",
+    "manuscripts/ch01-figures/ch01.md": "d2c621df5bc39cc41088aefe5d34bbb240effc4ee834c152687be1edc1b2d902",
+    "specs/ch01-figures.spec.md": "9c55ef069bb7f7b0f173d2f24c812b6b9d1bb96f5ba2d7a8d0d7228e230576ae",
+    "plans/ch01-figures.plan.md": "3f7cf6c1f9bd030cf380c0d01e86a18a8e83b260797570184d3722b3fa36ee4b",
+    "materials/ch01-figures/figure-context.md": "302bd442186a03e6a3994d15cb7947a4dca8a3c8dd3e028d06763f69ee7abc52",
+    "materials/ch01-figures/data.json": "461cf304d747d3ed7592388bc1a4e20765d9fbb5061c81abee4d0d3055d8f1b4"
+  },
+  "independent_content_basis": [
+    "materials/ch01-rewrite/professional-worker-report-r3.json",
+    "materials/ch01-rewrite/professional-adjudication-r3.md",
+    "materials/ch01-rewrite/teaching-review-r3.md"
+  ],
+  "boundary": "Previous full-chapter content review reused only for exactly preserved prose/data/reference text; new images and pagination require current visual review."
+}

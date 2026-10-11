@@ -1,0 +1,39 @@
+{
+  "reviewer": "/root/ch01_figure_product_qa",
+  "named_profile": "reviewer_high",
+  "review_kind": "independent",
+  "date": "2026-10-11",
+  "findings": [],
+  "actually_viewed": "All8 color and all8 grayscale PNGs individually with view_image original; fig3 current color/grayscale re-viewed after label correction. Independent overlap arithmetic60/0/35 checked.",
+  "viewed_images_sha256": {
+    "assets/figures/ch01-figures/fig1-1.png": "4bcdf89258a4f4178cf5d6c7a31733457fe7f3aef797ff3695dd62c8a125f977",
+    "assets/figures/ch01-figures/fig1-1-grayscale.png": "31dd727c238a469aa49545fd07ca3d858737189b29b08d40e5daa4cd7d9d5776",
+    "assets/figures/ch01-figures/fig1-2.png": "0a3f64f72194eb11e7c489baee4eaf01452badd5ba0b7e11691bd3930c0988ad",
+    "assets/figures/ch01-figures/fig1-2-grayscale.png": "8d152e822184e72a999e80c504b8c4c96b8f8980252e08303758048c06fd8aa3",
+    "assets/figures/ch01-figures/fig1-3.png": "c4830aa3269ea58320df060b32e36f6355d481342f50310fb54b623ff0de9b96",
+    "assets/figures/ch01-figures/fig1-3-grayscale.png": "8cceddfeb894e4dc3a747689c9dbc5bf87f2c39fa05a2d3366d7693f53f44750",
+    "assets/figures/ch01-figures/fig1-4.png": "88d98a07c2e394654e9cf4ec200cdf478c7b9fd859a06c6fe0d5637263e52da9",
+    "assets/figures/ch01-figures/fig1-4-grayscale.png": "1d571dd2b4720ce88b3bdd24eb35e62bb977620bebb3a2ffabd2e7e9073e09c8",
+    "assets/figures/ch01-figures/fig1-5.png": "e0a8b0f5aadd80ace900a611c384aef29b3a5c545c7192dedf9bcae32c5e4757",
+    "assets/figures/ch01-figures/fig1-5-grayscale.png": "85cc0d8e01af2964b64951dcc449192b16ab70b60c077799c12b70d0b7eae12f",
+    "assets/figures/ch01-figures/fig1-6.png": "7b7e03fa8037ff6fc915b9eb4022305f3d30cea4514e801bc782929a7dfb87c8",
+    "assets/figures/ch01-figures/fig1-6-grayscale.png": "23b19396184c84260205eac306f9c4012f3516e2c0d3cdb905729260b090d4b9",
+    "assets/figures/ch01-figures/fig1-7.png": "ab989b6ce497f85754561f0813658d813b6a546a45c3cd1758e4a175f8bfd39b",
+    "assets/figures/ch01-figures/fig1-7-grayscale.png": "5fafab1434fde1c9a2b8f80a6baf2717524b5425ffa82e7e211ffa721f619dff",
+    "assets/figures/ch01-figures/fig1-8.png": "bd38616c9041127bbc4b654b83de846742a7b3e66871666d15f83045a8236da8",
+    "assets/figures/ch01-figures/fig1-8-grayscale.png": "126f700fc054864be4aa7f30217ad75a9598e975ffff75a0cbcce9b3391fa70d"
+  },
+  "inputs_sha256": {
+    "AGENTS.md": "6fcba92e3cd33bfba53f0781f443a1ced12683cca581bf88f03cb02f99b1501c",
+    "skills/textbook-authoring/SKILL.md": "d8d4a59e5596a3d7246ee497eafa399ef1a69ad9aa58efc74fca9c9784906292",
+    "specs/ch01-figures.spec.md": "9c55ef069bb7f7b0f173d2f24c812b6b9d1bb96f5ba2d7a8d0d7228e230576ae",
+    "materials/ch01-figures/figure-context.md": "302bd442186a03e6a3994d15cb7947a4dca8a3c8dd3e028d06763f69ee7abc52",
+    "materials/ch01-figures/data.json": "461cf304d747d3ed7592388bc1a4e20765d9fbb5061c81abee4d0d3055d8f1b4",
+    "materials/ch01-figures/timeline-data.json": "1333ac9e0e1f2984dd55c7d82776dedc9113965488e02e3385d31f03110da959"
+  },
+  "previous_fig3_sha256": {
+    "color": "55d9d41b312dccd781c7cfe727cb9c1c1f5c197494ded33a969ce29c4bade401",
+    "grayscale": "54e033880aa8f3d739b0af20c5f1f78bb6e0e650a7443bce5837fb6d7e2b07a9"
+  },
+  "boundary": "Only standalone graphic product/semantic/readability QA. Actual chapter placement assessed in separate later page task; no classroom, paper print, Word native or publisher acceptance."
+}

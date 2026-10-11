@@ -1,0 +1,26 @@
+[
+  {
+    "year": 1937,
+    "authors": "Turing",
+    "topic": "规则、配置与计算边界",
+    "reference": "[5]"
+  },
+  {
+    "year": 1971,
+    "authors": "Papert / Solomon",
+    "topic": "学习者表达、运行与修改程序",
+    "reference": "[6]"
+  },
+  {
+    "year": 2006,
+    "authors": "Wing",
+    "topic": "面向更广泛人群的能力倡议",
+    "reference": "[1]"
+  },
+  {
+    "year": 2010,
+    "authors": "Cuny / Snyder / Wing",
+    "topic": "问题与解法的共同定义表述",
+    "reference": "[2]"
+  }
+]

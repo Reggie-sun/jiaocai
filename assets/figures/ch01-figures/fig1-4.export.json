@@ -1,0 +1,55 @@
+{
+  "notice": "Export completed with explicit settings. This report does not establish visual, accessibility, scientific-integrity, or journal-submission compliance.",
+  "outputs": [
+    {
+      "format": "png",
+      "kind": "raster",
+      "path": "/home/reggie/vscode_folder/jiaocai/assets/figures/ch01-figures/fig1-4.png",
+      "size_bytes": 280119
+    },
+    {
+      "format": "svg",
+      "kind": "vector-container",
+      "path": "/home/reggie/vscode_folder/jiaocai/assets/figures/ch01-figures/fig1-4.svg",
+      "size_bytes": 9257
+    },
+    {
+      "format": "pdf",
+      "kind": "vector-container",
+      "path": "/home/reggie/vscode_folder/jiaocai/assets/figures/ch01-figures/fig1-4.pdf",
+      "size_bytes": 39598
+    }
+  ],
+  "provenance": {
+    "raw_data": "materials/ch01-figures/timeline-data.json",
+    "source": "Existing chapter references [5], [6], [1], [2]",
+    "transformations": [
+      "Common year axis; vertical rows carry no quantitative meaning"
+    ],
+    "uncertainty": "Historical publication years, not measured effect or causal relation"
+  },
+  "schema_version": "1.0",
+  "settings": {
+    "bbox_inches": null,
+    "dpi": 400.0,
+    "facecolor": "white",
+    "figure_size_inches": [
+      6.10236220472441,
+      5.039370078740157
+    ],
+    "font_mode": "truetype",
+    "formats": [
+      "png",
+      "svg",
+      "pdf"
+    ],
+    "pad_inches": 0.1,
+    "tiff_rgb": false,
+    "transparent": false
+  },
+  "versions": {
+    "matplotlib": "3.10.7",
+    "pillow": "11.3.0"
+  },
+  "warnings": []
+}

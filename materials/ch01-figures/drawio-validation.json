@@ -1,0 +1,38 @@
+{
+  "assets/figures/ch01-figures/fig1-1.drawio": {
+    "sha256": "1f8cde573c76342176a4ff589d97a16b603cb8a1c36de046fb9bf82c25ce9311",
+    "errors": 0,
+    "warnings": 0,
+    "findings": []
+  },
+  "assets/figures/ch01-figures/fig1-2.drawio": {
+    "sha256": "54488b9a6d99c54b0c1d8dfae5a4dce3ef2da6c00e3f95cf2e41221582035bfe",
+    "errors": 0,
+    "warnings": 0,
+    "findings": []
+  },
+  "assets/figures/ch01-figures/fig1-3.drawio": {
+    "sha256": "a198fe13b1b679d1f81b9acd08921f1b7ec334510913258ac293af7532ba5b17",
+    "errors": 0,
+    "warnings": 0,
+    "findings": []
+  },
+  "assets/figures/ch01-figures/fig1-5.drawio": {
+    "sha256": "b99b0d7f8152d73beccab3c2af4ae9d73dad211d2fe94e42823add52aabc5689",
+    "errors": 0,
+    "warnings": 0,
+    "findings": []
+  },
+  "assets/figures/ch01-figures/fig1-7.drawio": {
+    "sha256": "b347f1288ad48d14b3ad32c6a3c03f7c400f2b78840b893e3cb72090184b0fbf",
+    "errors": 0,
+    "warnings": 0,
+    "findings": []
+  },
+  "assets/figures/ch01-figures/fig1-8.drawio": {
+    "sha256": "2eb1486cbb760472e013cacb0678c42945e66215bd1f1f89bbfe689be0d35e14",
+    "errors": 0,
+    "warnings": 0,
+    "findings": []
+  }
+}

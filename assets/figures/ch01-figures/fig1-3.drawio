@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="drawio" version="32.4.1" type="device">
+  <diagram id="ch01-fig1-3" name="Page-1">
+    <mxGraphModel dx="900" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="660" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="检查证据" style="fontFamily=Noto Sans CJK SC;fontSize=26;fontColor=#222222;fontStyle=1;text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontColor=#1F4E79;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="22" width="270" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="失效来源" style="fontFamily=Noto Sans CJK SC;fontSize=26;fontColor=#222222;fontStyle=1;text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontColor=#1F4E79;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="315" y="22" width="270" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="回到哪里修改" style="fontFamily=Noto Sans CJK SC;fontSize=26;fontColor=#222222;fontStyle=1;text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontColor=#1F4E79;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="22" width="265" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="所选安排&#xa;重复占用" style="fontFamily=Noto Sans CJK SC;fontSize=25;fontColor=#222222;fontStyle=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="38" y="108" width="248" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="本次选择&#xa;或程序状态" style="fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;rounded=0;whiteSpace=wrap;html=1;fillColor=#E8EFF5;strokeColor=#1F4E79;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="326" y="108" width="248" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="换位 / 回退" style="fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;fontStyle=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="615" y="108" width="248" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="" style="edgeStyle=none;html=1;rounded=0;strokeColor=#1F4E79;strokeWidth=2;endArrow=classic;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="288" y="160" as="sourcePoint" />
+            <mxPoint x="317" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9" value="" style="edgeStyle=none;html=1;rounded=0;strokeColor=#1F4E79;strokeWidth=2;endArrow=classic;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="576" y="160" as="sourcePoint" />
+            <mxPoint x="605" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" value="真实冲突&#xa;没有被表示" style="fontFamily=Noto Sans CJK SC;fontSize=25;fontColor=#222222;fontStyle=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="38" y="264" width="248" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="模型关系&#xa;或占用规则不足" style="fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;rounded=0;whiteSpace=wrap;html=1;fillColor=#E8EFF5;strokeColor=#1F4E79;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="326" y="264" width="248" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="补全表示 / 规则" style="fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;fontStyle=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="615" y="264" width="248" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="" style="edgeStyle=none;html=1;rounded=0;strokeColor=#1F4E79;strokeWidth=2;endArrow=classic;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="288" y="316" as="sourcePoint" />
+            <mxPoint x="317" y="316" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="" style="edgeStyle=none;html=1;rounded=0;strokeColor=#1F4E79;strokeWidth=2;endArrow=classic;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="576" y="316" as="sourcePoint" />
+            <mxPoint x="605" y="316" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="全部合法选择&#xa;已穷尽仍无解" style="fontFamily=Noto Sans CJK SC;fontSize=25;fontColor=#222222;fontStyle=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="38" y="420" width="248" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="输入条件缺失&#xa;或当前实例无解" style="fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;rounded=0;whiteSpace=wrap;html=1;fillColor=#E8EFF5;strokeColor=#1F4E79;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="326" y="420" width="248" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="核实条件 / 协商" style="fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;fontStyle=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="615" y="420" width="248" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="" style="edgeStyle=none;html=1;rounded=0;strokeColor=#1F4E79;strokeWidth=2;endArrow=classic;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="288" y="472" as="sourcePoint" />
+            <mxPoint x="317" y="472" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" value="" style="edgeStyle=none;html=1;rounded=0;strokeColor=#1F4E79;strokeWidth=2;endArrow=classic;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="576" y="472" as="sourcePoint" />
+            <mxPoint x="605" y="472" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="20" value="" style="edgeStyle=none;html=1;rounded=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="38" y="584" as="sourcePoint" />
+            <mxPoint x="863" y="584" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" value="三条独立返回路径；改动后重查受影响的候选与结论" style="fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;fontStyle=1;text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontColor=#222222;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="595" width="740" height="44" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

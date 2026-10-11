@@ -1,0 +1,174 @@
+{
+  "style": "textbook-style-v1.0",
+  "figures": [
+    {
+      "id": "图1-1",
+      "file": "assets/figures/ch01-figures/fig1-1.png",
+      "caption": "需求如何变成可检查的规则",
+      "source": "来源：本书原创教学图，依据共享设备教学示例绘制。",
+      "status": "ready",
+      "description": "口头要求对应对象和检查；硬约束、偏好及公平等待确认标准分别表示。",
+      "editable_source": "assets/figures/ch01-figures/fig1-1.drawio",
+      "editable_source_sha256": "1f8cde573c76342176a4ff589d97a16b603cb8a1c36de046fb9bf82c25ce9311",
+      "sha256": "4bcdf89258a4f4178cf5d6c7a31733457fe7f3aef797ff3695dd62c8a125f977",
+      "svg_sha256": "1d0f3807c8e7857588d18cf3caa774aea74adba3db6fb6464ae45fe71c05a062",
+      "insert_width_mm": 155,
+      "min_font_pt_at_insert": 11.717,
+      "viewbox_width": 900.0,
+      "pixel_dimensions": [
+        2441,
+        1764
+      ],
+      "ppi_at_insert": 400.01,
+      "height_mm_at_insert": 112.01
+    },
+    {
+      "id": "图1-2",
+      "file": "assets/figures/ch01-figures/fig1-2.png",
+      "caption": "局部候选与全局瓶颈",
+      "source": "来源：本书原创教学反例；T1—T3不是E01请求。",
+      "status": "ready",
+      "description": "T1、T2、T3与b、c的六条允许边完整可见；d不可达，3项请求争用2个容量1位置。",
+      "editable_source": "assets/figures/ch01-figures/fig1-2.drawio",
+      "editable_source_sha256": "54488b9a6d99c54b0c1d8dfae5a4dce3ef2da6c00e3f95cf2e41221582035bfe",
+      "sha256": "0a3f64f72194eb11e7c489baee4eaf01452badd5ba0b7e11691bd3930c0988ad",
+      "svg_sha256": "51dfe07bd2bf3a4d92482bc2e78dbb081194cd579fd87544d3c037b43779dd17",
+      "insert_width_mm": 155,
+      "min_font_pt_at_insert": 11.704,
+      "viewbox_width": 901.0,
+      "pixel_dimensions": [
+        2441,
+        1953
+      ],
+      "ppi_at_insert": 400.01,
+      "height_mm_at_insert": 124.01
+    },
+    {
+      "id": "图1-3",
+      "file": "assets/figures/ch01-figures/fig1-3.png",
+      "caption": "从检查证据返回选择、表示与条件",
+      "source": "来源：本书原创教学图；箭头表示纠错对象，不表示固定顺序。",
+      "status": "ready",
+      "description": "根据错误证据定位选择、表示或条件；三类不是执行顺序，修改后重新检查。",
+      "editable_source": "assets/figures/ch01-figures/fig1-3.drawio",
+      "editable_source_sha256": "a198fe13b1b679d1f81b9acd08921f1b7ec334510913258ac293af7532ba5b17",
+      "sha256": "c4830aa3269ea58320df060b32e36f6355d481342f50310fb54b623ff0de9b96",
+      "svg_sha256": "800b60247a171de971b91c406c4dc73cbca6b83ea821e5117ec5b43e7da032ff",
+      "insert_width_mm": 155,
+      "min_font_pt_at_insert": 12.391,
+      "viewbox_width": 851.0,
+      "pixel_dimensions": [
+        2441,
+        1773
+      ],
+      "ppi_at_insert": 400.01,
+      "height_mm_at_insert": 112.58
+    },
+    {
+      "id": "图1-4",
+      "file": "assets/figures/ch01-figures/fig1-4.png",
+      "caption": "计算与学习相关文献的时间节点及比较边界",
+      "source": "来源：本书绘制；依据Turing（1937）[5]、Papert与Solomon（1971）[6]、Wing（2006）[1]及Cuny、Snyder与Wing（2010）[2]整理。时间轴表示出版先后，节点并置表示主题可比较；材料未证明人物或文献间的直接影响关系。图灵节点另注论文1936年收稿、宣读日期。",
+      "status": "ready",
+      "description": "四个文献节点按真实出版年份定位；1936收稿、宣读单独注释，无因果或影响箭头。",
+      "editable_source": "assets/figures/ch01-figures/fig1-4.svg",
+      "editable_source_sha256": "6e93d5ad83a7ad6547d77f51048510bc4769acb7cce5be12586c807d68285ce5",
+      "sha256": "88d98a07c2e394654e9cf4ec200cdf478c7b9fd859a06c6fe0d5637263e52da9",
+      "svg_sha256": "6e93d5ad83a7ad6547d77f51048510bc4769acb7cce5be12586c807d68285ce5",
+      "insert_width_mm": 155,
+      "min_font_pt_at_insert": 10.5,
+      "viewbox_width": null,
+      "pixel_dimensions": [
+        2440,
+        2015
+      ],
+      "ppi_at_insert": 399.85,
+      "height_mm_at_insert": 128.0
+    },
+    {
+      "id": "图1-5",
+      "file": "assets/figures/ch01-figures/fig1-5.png",
+      "caption": "设备借用与社区场地分配的可迁移关系和新增条件",
+      "source": "来源：本书原创教学图，展示本节E01与E03的结构对应及容量、设施等新增检查；数据为教学示例。",
+      "status": "ready",
+      "description": "设备借用与场地分配对齐共同结构，同时单列容量、设施、身份语义的新增核查。",
+      "editable_source": "assets/figures/ch01-figures/fig1-5.drawio",
+      "editable_source_sha256": "b99b0d7f8152d73beccab3c2af4ae9d73dad211d2fe94e42823add52aabc5689",
+      "sha256": "e0a8b0f5aadd80ace900a611c384aef29b3a5c545c7192dedf9bcae32c5e4757",
+      "svg_sha256": "5c3648cd02ec7c4815bd447f72fc25ba0170f39606f67bea6bba6e0c844d9428",
+      "insert_width_mm": 155,
+      "min_font_pt_at_insert": 11.717,
+      "viewbox_width": 900.0,
+      "pixel_dimensions": [
+        2441,
+        1926
+      ],
+      "ppi_at_insert": 400.01,
+      "height_mm_at_insert": 122.3
+    },
+    {
+      "id": "图1-6",
+      "file": "assets/figures/ch01-figures/fig1-6.png",
+      "caption": "半开区间中的连续占用、端点相接与准备清理时间",
+      "source": "来源：本书原创教学图，区分活动区间的重叠、无间隙端点相接和纳入准备/清理后的实际占用；时间为教学示例。",
+      "status": "ready",
+      "description": "共同分钟尺度和半开端点区分60分钟重叠、0分钟相接、独占准备清理后的35分钟冲突。",
+      "editable_source": "assets/figures/ch01-figures/fig1-6.svg",
+      "editable_source_sha256": "233fedba1ac1a143ee4ce3026dd298be075503837d30acae3d2d7047b205e912",
+      "sha256": "7b7e03fa8037ff6fc915b9eb4022305f3d30cea4514e801bc782929a7dfb87c8",
+      "svg_sha256": "233fedba1ac1a143ee4ce3026dd298be075503837d30acae3d2d7047b205e912",
+      "insert_width_mm": 155,
+      "min_font_pt_at_insert": 10.5,
+      "viewbox_width": null,
+      "pixel_dimensions": [
+        2440,
+        2472
+      ],
+      "ppi_at_insert": 399.85,
+      "height_mm_at_insert": 157.03
+    },
+    {
+      "id": "图1-7",
+      "file": "assets/figures/ch01-figures/fig1-7.png",
+      "caption": "不同思维视角需要的证据",
+      "source": "来源：本书绘制；依据[8]、[9]、[7]、[10]及E04模拟情境整理。六种视角并列为本书教学组织，不代表所引来源共同提出一套固定分类。",
+      "status": "ready",
+      "description": "步道照明这一共同问题的六种互补证据视角；不是权重、步骤或互斥分类。",
+      "editable_source": "assets/figures/ch01-figures/fig1-7.drawio",
+      "editable_source_sha256": "b347f1288ad48d14b3ad32c6a3c03f7c400f2b78840b893e3cb72090184b0fbf",
+      "sha256": "ab989b6ce497f85754561f0813658d813b6a546a45c3cd1758e4a175f8bfd39b",
+      "svg_sha256": "f4a227d475ebddf2ddf6a520ea8f57e840140df7d57e8e85082cfc9e98b9271b",
+      "insert_width_mm": 155,
+      "min_font_pt_at_insert": 11.717,
+      "viewbox_width": 900.0,
+      "pixel_dimensions": [
+        2441,
+        2008
+      ],
+      "ppi_at_insert": 400.01,
+      "height_mm_at_insert": 127.51
+    },
+    {
+      "id": "图1-8",
+      "file": "assets/figures/ch01-figures/fig1-8.png",
+      "caption": "综合任务的模型检验与现实证据",
+      "source": "来源：本书原创教学图，依据E05任务与本章互补分析绘制。",
+      "status": "ready",
+      "description": "模型内可行性与实际服务观察分成独立证据域；冲突可反馈修订，不能互相代替验收。",
+      "editable_source": "assets/figures/ch01-figures/fig1-8.drawio",
+      "editable_source_sha256": "2eb1486cbb760472e013cacb0678c42945e66215bd1f1f89bbfe689be0d35e14",
+      "sha256": "bd38616c9041127bbc4b654b83de846742a7b3e66871666d15f83045a8236da8",
+      "svg_sha256": "529ae8c47e2db1b69e0eff9252dd39fc46eebb6e6079fada6a821927ced8e95a",
+      "insert_width_mm": 155,
+      "min_font_pt_at_insert": 11.717,
+      "viewbox_width": 900.0,
+      "pixel_dimensions": [
+        2441,
+        1940
+      ],
+      "ppi_at_insert": 400.01,
+      "height_mm_at_insert": 123.19
+    }
+  ],
+  "boundary": "Figure-specific visual/content review and whole-chapter page viewing are recorded under materials/ch01-figures; ready is not classroom or publisher acceptance."
+}

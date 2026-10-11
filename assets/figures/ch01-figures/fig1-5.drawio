@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="drawio" version="32.4.1" type="device">
+  <diagram id="ch01-fig1-5" name="Page-1">
+    <mxGraphModel dx="900" dy="710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="710" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="设备借用：E01" style="fontFamily=Noto Sans CJK SC;fontSize=26;fontColor=#222222;fontStyle=1;text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontColor=#1F4E79;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="46" y="20" width="340" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="场地活动：E03" style="fontFamily=Noto Sans CJK SC;fontSize=26;fontColor=#222222;fontStyle=1;text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontColor=#1F4E79;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="514" y="20" width="340" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="角色映射" style="fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;fontStyle=1;text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontColor=#222222;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="387" y="20" width="126" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="请求集合 R" style="fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="50" y="86" width="338" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="活动集合 Q" style="fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="512" y="86" width="338" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="" style="edgeStyle=none;html=1;rounded=0;strokeColor=#1F4E79;strokeWidth=2;endArrow=classic;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="397" y="118" as="sourcePoint" />
+            <mxPoint x="503" y="118" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8" value="位置：设备 × 时段" style="fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="50" y="174" width="338" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="位置：场地 × 时段" style="fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="512" y="174" width="338" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="" style="edgeStyle=none;html=1;rounded=0;strokeColor=#1F4E79;strokeWidth=2;endArrow=classic;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="397" y="206" as="sourcePoint" />
+            <mxPoint x="503" y="206" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="允许关系 A" style="fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="50" y="262" width="338" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="允许关系 A′" style="fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="512" y="262" width="338" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="" style="edgeStyle=none;html=1;rounded=0;strokeColor=#1F4E79;strokeWidth=2;endArrow=classic;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="397" y="294" as="sourcePoint" />
+            <mxPoint x="503" y="294" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="同一设备时段&#xa;至多一个请求" style="fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="50" y="350" width="338" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="同一场地时段&#xa;至多一项活动" style="fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="512" y="350" width="338" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="" style="edgeStyle=none;html=1;rounded=0;strokeColor=#1F4E79;strokeWidth=2;endArrow=classic;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="397" y="382" as="sourcePoint" />
+            <mxPoint x="503" y="382" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" value="新增筛选条件" style="fontFamily=Noto Sans CJK SC;fontSize=25;fontColor=#222222;fontStyle=1;text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontColor=#1F4E79;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="65" y="454" width="770" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="参加人数 ≤ 场地容量" style="fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;fontStyle=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#E8EFF5;strokeColor=#1F4E79;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="50" y="504" width="385" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="所需设施 ⊆ 可用设施" style="fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;fontStyle=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#E8EFF5;strokeColor=#1F4E79;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="465" y="504" width="385" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="" style="edgeStyle=none;html=1;rounded=0;strokeColor=#1F4E79;strokeWidth=2;endArrow=classic;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="242" y="476" as="sourcePoint" />
+            <mxPoint x="242" y="496" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" value="" style="edgeStyle=none;html=1;rounded=0;strokeColor=#1F4E79;strokeWidth=2;endArrow=classic;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="657" y="476" as="sourcePoint" />
+            <mxPoint x="657" y="496" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22" value="还须复核资源身份与冲突口径。结构对应只支持逐项检查，&#xa;不推出全部可行解等价。" style="fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#222222;fontStyle=1;text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontColor=#222222;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="68" y="603" width="764" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

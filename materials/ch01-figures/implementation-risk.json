@@ -1,0 +1,32 @@
+{
+  "decision": "KIMI_REVIEW_NOT_REQUIRED",
+  "snapshot_files": {
+    "materials/ch01-figures/build_docx.py": "ddca04b1df1f3fc5490c939dd35efa5cca2ca44ee6b1e33fcba764b5cab73a1c",
+    "materials/ch01-figures/verify_edition.py": "8b2d962a402486f2c7e779f91efbc632be1e1385296fc06644457ac9b1572364",
+    "materials/ch01-figures/rebuild_figures.py": "c17f7abe40701723af8d0e8efdb132a1eef0e9aad1fe2c5a39839dd63b9b84ba",
+    "materials/ch01-figures/render_relations.py": "739fba55dc59e2d71cee4e7ac095dcdfda30b8f9a89df0d1cd5e9754e9dc6948",
+    "materials/ch01-figures/render_timeline.py": "9a79f8cd4104125df9d52bb4cdd6cdf4752c656cf969f86fd09da4c4f5389951",
+    "materials/ch01-figures/prepare_manifest.py": "cbf5d61b6351164d0503afd1d497b54036fe3a80184181ba0fad8003bbdc9091",
+    "specs/ch01-figures.spec.md": "9c55ef069bb7f7b0f173d2f24c812b6b9d1bb96f5ba2d7a8d0d7228e230576ae",
+    "plans/ch01-figures.plan.md": "3f7cf6c1f9bd030cf380c0d01e86a18a8e83b260797570184d3722b3fa36ee4b",
+    "manuscripts/ch01-figures/ch01.md": "d2c621df5bc39cc41088aefe5d34bbb240effc4ee834c152687be1edc1b2d902",
+    "assets/figures/ch01-figures/manifest.json": "3517f5790432a3cc5e57c231d994dd64479ef571b12e97de4634c9f75f96763e",
+    "output/ch01/第一章-计算思维-教学图新版.docx": "f9a6e6052064b07685fe7b4aff1830dd07b49ebc238c621ab98e394fae5d5752",
+    "output/ch01/第一章-计算思维-教学图新版.pdf": "645f66c57796eee274f729dc1fcef633dd711eb7d1d4303b60d334c31a56b085"
+  },
+  "stable_candidate_checks": [
+    "Original51Harness tests PASS",
+    "OriginalHarness validate PASS",
+    "ch01-figures canonical chapter/draft check PASS before decision",
+    "DOCX exact-preservation/layout/font/TOC verification PASS",
+    "279protected files unchanged",
+    "8PNGs fresh replay byte-identical",
+    "Independent16graphics and82actual pages viewed, no unresolved findings"
+  ],
+  "triggers": {
+    "explicit_user_kimi_implementation_review": false,
+    "critical_credentials_authority_durable_loss": "No new credential, network provider, permission or shared state implementation. Only local reversible figure/OOXML generation; old edition preserved. Existing Harness CLI used without engine/schema changes.",
+    "serious_consequence_and_remaining_gap_and_value": "Image semantics/date/edge/interval checks plus unchanged text/tables, actual independent page inspection and source/image equivalence cover identified failure paths. No evidence of a major remaining runtime/semantic gap that requires additional Kimi adversarial implementation review."
+  },
+  "boundary": "Kimi textual semantic QA and native teaching-product/page QA are separately recorded purposes, not substitutes for this risk decision. Classroom/Word native/print/publisher remain declared limitations."
+}
