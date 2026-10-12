@@ -1,0 +1,1764 @@
+{
+  "status": "final_r4_visual_qa_pass_and_delivery_complete",
+  "document": "全国版教材大纲",
+  "render": "r4",
+  "source_docx_sha256": "cbf0e000dca5581eafd7dd55e30d181f58f8df6f939b52f0bb088d5c459c0606",
+  "render_pdf_sha256": "e3f200e85bf98319a1deb86f04949dc510adaf7027df1882ecb64e1ffb9a6f18",
+  "outline_edit_sha256": "4d87b71ec925f40674def4b6f32a144b8bc64125aed8dff14e44526476b04d47",
+  "pages": 36,
+  "fresh_actual_page_observations": 28,
+  "inherited_identical_png_pages": 8,
+  "final_delivery_ready": true,
+  "findings": [
+    "r4全部36页均有当前PNG字节绑定：28页本轮原分辨率实际观察，8页与此前已实际观察的r1 PNG SHA-256完全相同并严格继承。",
+    "r3第5.7范式表缺失两行的问题在r4已消除：p18三行均完整可见；r3评估表残字跨页问题在r4已消除：p34–35五项完整。",
+    "课程安排续页表头疑点经重新逐页打开r4精确PNG（p28、p30、p31、p33）及Parent独立裁图确认均完整显示；撤回初始疑点。",
+    "p36三条“特色亮点”之后保留较大自然留白；内容完整可读，非阻断。其余页有较宽留白但未观察到裁切或重叠。",
+    "原纲历史课时不一致按范围保留，未改动。"
+  ],
+  "scope_limits": [
+    "本检查仅覆盖渲染后的页面视觉表现，不核验全部课程内容的实质正确性。",
+    "未测试Word原生字段刷新后的分页一致性、打印效果或教师/学生课堂使用。"
+  ],
+  "current_docx_sha256_after_parent_edit_observed_readonly": "cbf0e000dca5581eafd7dd55e30d181f58f8df6f939b52f0bb088d5c459c0606",
+  "notes": [
+    "r1 PDF/PNG render corresponds to pre-repair DOCX SHA-256 recorded above; current DOCX changed after r1 render as part of Parent-authorized page-layout repair.",
+    "r1/r3 rejected candidate observations remain embedded above with their original document/render hashes; final delivery binds to frozen r4 only.",
+    "The first header concern on r4 continuation pages was withdrawn after opening each exact r4 PNG at original resolution; Parent independently crop-checked p30."
+  ],
+  "r1_render": {
+    "status": "observed_not_final",
+    "pages": 33,
+    "docx_sha256": "22c01072e9716c5bb9bcbf77675f93e35a3f69aa043c57ccffee1f3bfa32c15c",
+    "pdf_sha256": "a02616cdc9db6ebda3271694a19b2e6eaf888204de348641c24fe6ee29068f1b",
+    "fresh_actual_page_observations": 33,
+    "rows": [
+      {
+        "page": 1,
+        "file": "page-1.png",
+        "sha256": "41e1dc744bc2990d311f0e6b123b8e3f7853d93199beb2c3d3437b32fbc2d609",
+        "actually_opened": true,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observation": "本轮实际打开原分辨率PNG逐页检查；可见中文正文与页码清晰，页面边界未见裁切、重叠或文字遮挡。 页面段落/章目/资源或课程实施说明可辨，长页自然留白较多，属既有文档版式。"
+      },
+      {
+        "page": 2,
+        "file": "page-2.png",
+        "sha256": "d58c07eb0cd9d2c947252ce28c04d1c66968a804f775897ed17ff2c084579851",
+        "actually_opened": true,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observation": "本轮实际打开原分辨率PNG逐页检查；可见中文正文与页码清晰，页面边界未见裁切、重叠或文字遮挡。 页面段落/章目/资源或课程实施说明可辨，长页自然留白较多，属既有文档版式。"
+      },
+      {
+        "page": 3,
+        "file": "page-3.png",
+        "sha256": "7e8e650896e6dbc9585b780510ca47809cae1467d0bfe98846021cc97e016a0a",
+        "actually_opened": true,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observation": "本轮实际打开原分辨率PNG逐页检查；可见中文正文与页码清晰，页面边界未见裁切、重叠或文字遮挡。"
+      },
+      {
+        "page": 4,
+        "file": "page-4.png",
+        "sha256": "47296ad851691e451ae4c78228dd7a8bd414555b1059878ee0470f4765f63172",
+        "actually_opened": true,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observation": "本轮实际打开原分辨率PNG逐页检查；可见中文正文与页码清晰，页面边界未见裁切、重叠或文字遮挡。 页面段落/章目/资源或课程实施说明可辨，长页自然留白较多，属既有文档版式。"
+      },
+      {
+        "page": 5,
+        "file": "page-5.png",
+        "sha256": "8d3bb3c3e3b10bafde1dae4a679daa4775e385f80a3c688c4a89206991c74cc2",
+        "actually_opened": true,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observation": "本轮实际打开原分辨率PNG逐页检查；可见中文正文与页码清晰，页面边界未见裁切、重叠或文字遮挡。"
+      },
+      {
+        "page": 6,
+        "file": "page-6.png",
+        "sha256": "00b3010944e15183be1dcd1dcb2d972454c25f93216b75e766acb8a8238d6d21",
+        "actually_opened": true,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observation": "本轮实际打开原分辨率PNG逐页检查；可见中文正文与页码清晰，页面边界未见裁切、重叠或文字遮挡。"
+      },
+      {
+        "page": 7,
+        "file": "page-7.png",
+        "sha256": "8f2ab25b83915c95f1e39abe84bf037a4790305b5af4ab9ebdebdff770e7bd2f",
+        "actually_opened": true,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observation": "本轮实际打开原分辨率PNG逐页检查；可见中文正文与页码清晰，页面边界未见裁切、重叠或文字遮挡。"
+      },
+      {
+        "page": 8,
+        "file": "page-8.png",
+        "sha256": "cb30b0364ed825d6ab5ecaa9c548eba34043e491784b32db63ecdae6b23dbb77",
+        "actually_opened": true,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observation": "本轮实际打开原分辨率PNG逐页检查；可见中文正文与页码清晰，页面边界未见裁切、重叠或文字遮挡。"
+      },
+      {
+        "page": 9,
+        "file": "page-9.png",
+        "sha256": "e02c33cb80e030ca746d2b8f8a653bff5bba8a826e5b1d0161d1f9afd9b5964b",
+        "actually_opened": true,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observation": "本轮实际打开原分辨率PNG逐页检查；可见中文正文与页码清晰，页面边界未见裁切、重叠或文字遮挡。"
+      },
+      {
+        "page": 10,
+        "file": "page-10.png",
+        "sha256": "7ca7a278de6643a536636f1e220d522a91b5a2cb2f7670fc79fbb3b5455e9eb9",
+        "actually_opened": true,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observation": "本轮实际打开原分辨率PNG逐页检查；可见中文正文与页码清晰，页面边界未见裁切、重叠或文字遮挡。 页面段落/章目/资源或课程实施说明可辨，长页自然留白较多，属既有文档版式。"
+      },
+      {
+        "page": 11,
+        "file": "page-11.png",
+        "sha256": "09578f9dc7cfb3f2677637c648d4c268cf4251715e411a71ff18408c77d19c6a",
+        "actually_opened": true,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observation": "本轮实际打开原分辨率PNG逐页检查；可见中文正文与页码清晰，页面边界未见裁切、重叠或文字遮挡。"
+      },
+      {
+        "page": 12,
+        "file": "page-12.png",
+        "sha256": "4a27e295ce9c0bc4ac3c3c54268b2e310d1f8fab738e99d8cf804c05948f9e7e",
+        "actually_opened": true,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observation": "本轮实际打开原分辨率PNG逐页检查；可见中文正文与页码清晰，页面边界未见裁切、重叠或文字遮挡。"
+      },
+      {
+        "page": 13,
+        "file": "page-13.png",
+        "sha256": "4994bf5fd03ad6dc49f710ac05a738e55c9c1abaa2d3ff623621a68cce34df4f",
+        "actually_opened": true,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observation": "本轮实际打开原分辨率PNG逐页检查；可见中文正文与页码清晰，页面边界未见裁切、重叠或文字遮挡。"
+      },
+      {
+        "page": 14,
+        "file": "page-14.png",
+        "sha256": "cb5e06f4c5a8a612106edd3625feb41af35a1d46f37b5598f4c49e2086c11bdb",
+        "actually_opened": true,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observation": "本轮实际打开原分辨率PNG逐页检查；可见中文正文与页码清晰，页面边界未见裁切、重叠或文字遮挡。"
+      },
+      {
+        "page": 15,
+        "file": "page-15.png",
+        "sha256": "982754519f7e75b8cf89d8889bb03f654757ce59871cc28a3c5a5fcfcedf84a5",
+        "actually_opened": true,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observation": "本轮实际打开原分辨率PNG逐页检查；可见中文正文与页码清晰，页面边界未见裁切、重叠或文字遮挡。"
+      },
+      {
+        "page": 16,
+        "file": "page-16.png",
+        "sha256": "1e4530efa8cfb7d56322c0c8ee2ff40384126dd4abad7dac53a66cbe95644a24",
+        "actually_opened": true,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observation": "本轮实际打开原分辨率PNG逐页检查；可见中文正文与页码清晰，页面边界未见裁切、重叠或文字遮挡。 第5.7末的表格列头单独落在页末；表格数据从第17页开始，列头未与首条数据同行。已报告Parent，r1不作为最终交付。"
+      },
+      {
+        "page": 17,
+        "file": "page-17.png",
+        "sha256": "1f717dd5ffa4feda0a821bb8e88e83912db3277ad6878087df9696d5eb6ec168",
+        "actually_opened": true,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observation": "本轮实际打开原分辨率PNG逐页检查；可见中文正文与页码清晰，页面边界未见裁切、重叠或文字遮挡。 表格正文从上一页孤立列头后续排；各数据行边框完整。"
+      },
+      {
+        "page": 18,
+        "file": "page-18.png",
+        "sha256": "d94520371666bf2240bd38eff2e1455ec1f6d23e8ef01dde4b1cb20081ebd4c3",
+        "actually_opened": true,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observation": "本轮实际打开原分辨率PNG逐页检查；可见中文正文与页码清晰，页面边界未见裁切、重叠或文字遮挡。"
+      },
+      {
+        "page": 19,
+        "file": "page-19.png",
+        "sha256": "60e5bc2781538a1bfa546cde7d7e4b64620154b7b8df401c94d86601292b5e6b",
+        "actually_opened": true,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observation": "本轮实际打开原分辨率PNG逐页检查；可见中文正文与页码清晰，页面边界未见裁切、重叠或文字遮挡。 页面段落/章目/资源或课程实施说明可辨，长页自然留白较多，属既有文档版式。"
+      },
+      {
+        "page": 20,
+        "file": "page-20.png",
+        "sha256": "b4a83c1041b9516829bc69854043056fd80fbf8b53cbf00fc8e0618cd8fa4e59",
+        "actually_opened": true,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observation": "本轮实际打开原分辨率PNG逐页检查；可见中文正文与页码清晰，页面边界未见裁切、重叠或文字遮挡。 页面段落/章目/资源或课程实施说明可辨，长页自然留白较多，属既有文档版式。"
+      },
+      {
+        "page": 21,
+        "file": "page-21.png",
+        "sha256": "48d492bda1394d8d65b63f57f2aba498f3663787aa71a670c7ebd7cbbd47a9ea",
+        "actually_opened": true,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observation": "本轮实际打开原分辨率PNG逐页检查；可见中文正文与页码清晰，页面边界未见裁切、重叠或文字遮挡。 页面段落/章目/资源或课程实施说明可辨，长页自然留白较多，属既有文档版式。"
+      },
+      {
+        "page": 22,
+        "file": "page-22.png",
+        "sha256": "9d46a673dcdb2537f4f02c44918cd03b0058aeb90b159e63a515311c73668421",
+        "actually_opened": true,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observation": "本轮实际打开原分辨率PNG逐页检查；可见中文正文与页码清晰，页面边界未见裁切、重叠或文字遮挡。 页面段落/章目/资源或课程实施说明可辨，长页自然留白较多，属既有文档版式。"
+      },
+      {
+        "page": 23,
+        "file": "page-23.png",
+        "sha256": "f3b8927f78f408e61f350f02e1d2d7b2d9550f61185fc111d65294336a64c6fb",
+        "actually_opened": true,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observation": "本轮实际打开原分辨率PNG逐页检查；可见中文正文与页码清晰，页面边界未见裁切、重叠或文字遮挡。 页面段落/章目/资源或课程实施说明可辨，长页自然留白较多，属既有文档版式。"
+      },
+      {
+        "page": 24,
+        "file": "page-24.png",
+        "sha256": "ae846c93e4091b4207ce654d649df5f9411e116c6ccc30b2b76685a78a9355d6",
+        "actually_opened": true,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observation": "本轮实际打开原分辨率PNG逐页检查；可见中文正文与页码清晰，页面边界未见裁切、重叠或文字遮挡。 页面段落/章目/资源或课程实施说明可辨，长页自然留白较多，属既有文档版式。"
+      },
+      {
+        "page": 25,
+        "file": "page-25.png",
+        "sha256": "47e171c0c7e5663dc148285ecae88439d300a24e6ff4ae8efda5e857145525a4",
+        "actually_opened": true,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observation": "本轮实际打开原分辨率PNG逐页检查；可见中文正文与页码清晰，页面边界未见裁切、重叠或文字遮挡。 页面段落/章目/资源或课程实施说明可辨，长页自然留白较多，属既有文档版式。 附件课时表跨页延续，页面内单元格文字可读，未见内容裁切；续页未重复列头，行内容有跨页续排。"
+      },
+      {
+        "page": 26,
+        "file": "page-26.png",
+        "sha256": "1c8fbaf21fb19b4e5a9b760b4ffb41d183238f93b4bb85dceadd5fd0aff01a1a",
+        "actually_opened": true,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observation": "本轮实际打开原分辨率PNG逐页检查；可见中文正文与页码清晰，页面边界未见裁切、重叠或文字遮挡。 附件课时表跨页延续，页面内单元格文字可读，未见内容裁切；续页未重复列头，行内容有跨页续排。"
+      },
+      {
+        "page": 27,
+        "file": "page-27.png",
+        "sha256": "7acbd408c3849e5e3377576cc165bd29f9e508600958b456c28779460fbdf0d8",
+        "actually_opened": true,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observation": "本轮实际打开原分辨率PNG逐页检查；可见中文正文与页码清晰，页面边界未见裁切、重叠或文字遮挡。 附件课时表跨页延续，页面内单元格文字可读，未见内容裁切；续页未重复列头，行内容有跨页续排。"
+      },
+      {
+        "page": 28,
+        "file": "page-28.png",
+        "sha256": "6bccdc9310cabccb3845046bc8a8fa6639473ab0f6064598283bd89468b6cd4e",
+        "actually_opened": true,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observation": "本轮实际打开原分辨率PNG逐页检查；可见中文正文与页码清晰，页面边界未见裁切、重叠或文字遮挡。 附件课时表跨页延续，页面内单元格文字可读，未见内容裁切；续页未重复列头，行内容有跨页续排。"
+      },
+      {
+        "page": 29,
+        "file": "page-29.png",
+        "sha256": "5b94ea49f25335d0394780ab78ba118722712ded5b0def47bcc77ef61ac60b2b",
+        "actually_opened": true,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observation": "本轮实际打开原分辨率PNG逐页检查；可见中文正文与页码清晰，页面边界未见裁切、重叠或文字遮挡。 附件课时表跨页延续，页面内单元格文字可读，未见内容裁切；续页未重复列头，行内容有跨页续排。"
+      },
+      {
+        "page": 30,
+        "file": "page-30.png",
+        "sha256": "255f2ecc6c1223c1686fc563111b871b9da88a9e2111aa385b46b9e27dc29f64",
+        "actually_opened": true,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observation": "本轮实际打开原分辨率PNG逐页检查；可见中文正文与页码清晰，页面边界未见裁切、重叠或文字遮挡。 附件课时表跨页延续，页面内单元格文字可读，未见内容裁切；续页未重复列头，行内容有跨页续排。"
+      },
+      {
+        "page": 31,
+        "file": "page-31.png",
+        "sha256": "792009bc7b98bc1cd9417e0b05587cb4a3cf19e785dc1236333d2b32b30e94f3",
+        "actually_opened": true,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observation": "本轮实际打开原分辨率PNG逐页检查；可见中文正文与页码清晰，页面边界未见裁切、重叠或文字遮挡。 页面段落/章目/资源或课程实施说明可辨，长页自然留白较多，属既有文档版式。 附件课时表跨页延续，页面内单元格文字可读，未见内容裁切；续页未重复列头，行内容有跨页续排。 “3.评估改革”表的列头位于页末，数据行自第32页起；已报告Parent，未调整源文档。"
+      },
+      {
+        "page": 32,
+        "file": "page-32.png",
+        "sha256": "9887dcad0f4965bf4baf46008162ce0d8e7510803745c9c12de01cc7774c23ea",
+        "actually_opened": true,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observation": "本轮实际打开原分辨率PNG逐页检查；可见中文正文与页码清晰，页面边界未见裁切、重叠或文字遮挡。 页面段落/章目/资源或课程实施说明可辨，长页自然留白较多，属既有文档版式。 评估表数据行自本页续排，单元格内文字完整可见；百分比列较窄，数字与百分号分行但可读。"
+      },
+      {
+        "page": 33,
+        "file": "page-33.png",
+        "sha256": "bad4832dad766eafa9066b40ef42422b02b8b83af8a3018372a25efb441cb46c",
+        "actually_opened": true,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observation": "本轮实际打开原分辨率PNG逐页检查；可见中文正文与页码清晰，页面边界未见裁切、重叠或文字遮挡。 页面段落/章目/资源或课程实施说明可辨，长页自然留白较多，属既有文档版式。 结尾要点完整，页面下半部留白较大，属原版布局。"
+      }
+    ],
+    "findings": [
+      "r1第16页范式表头与数据行分离；该候选未交付，之后经版式修复。",
+      "r1第31页评估表头与后续数据行分离；该候选未交付，之后经版式修复。",
+      "r1课程附表分页与留白情况已保留为历史观察。"
+    ]
+  },
+  "r3_candidate": {
+    "docx_sha256": "385eb0d266100b553ca4c02da0abc0a52534b392080a0bf233f10554831fb6e1",
+    "pdf_sha256": "b5d60967e76ecf1f5969978b6b5bc5a95cf85c97a3bc8ae697e1dc5df11d25ab",
+    "pages": 34,
+    "actual_page_observations_this_render": 13,
+    "identical_pages_inherited_from_r1": 21,
+    "rows": [
+      {
+        "page": 1,
+        "file": "page-1.png",
+        "sha256": "41e1dc744bc2990d311f0e6b123b8e3f7853d93199beb2c3d3437b32fbc2d609",
+        "actually_opened": false,
+        "inherited_identical_png": true,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": {
+          "render": "r1",
+          "record": "materials/revision-implementation-20261012/outline-page-review.json",
+          "png_sha256": "41e1dc744bc2990d311f0e6b123b8e3f7853d93199beb2c3d3437b32fbc2d609"
+        },
+        "observation": "最终r3 PNG与r1原图SHA-256完全相同，继承r1实际观察。"
+      },
+      {
+        "page": 2,
+        "file": "page-2.png",
+        "sha256": "d58c07eb0cd9d2c947252ce28c04d1c66968a804f775897ed17ff2c084579851",
+        "actually_opened": false,
+        "inherited_identical_png": true,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": {
+          "render": "r1",
+          "record": "materials/revision-implementation-20261012/outline-page-review.json",
+          "png_sha256": "d58c07eb0cd9d2c947252ce28c04d1c66968a804f775897ed17ff2c084579851"
+        },
+        "observation": "最终r3 PNG与r1原图SHA-256完全相同，继承r1实际观察。"
+      },
+      {
+        "page": 3,
+        "file": "page-3.png",
+        "sha256": "7e8e650896e6dbc9585b780510ca47809cae1467d0bfe98846021cc97e016a0a",
+        "actually_opened": false,
+        "inherited_identical_png": true,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": {
+          "render": "r1",
+          "record": "materials/revision-implementation-20261012/outline-page-review.json",
+          "png_sha256": "7e8e650896e6dbc9585b780510ca47809cae1467d0bfe98846021cc97e016a0a"
+        },
+        "observation": "最终r3 PNG与r1原图SHA-256完全相同，继承r1实际观察。"
+      },
+      {
+        "page": 4,
+        "file": "page-4.png",
+        "sha256": "47296ad851691e451ae4c78228dd7a8bd414555b1059878ee0470f4765f63172",
+        "actually_opened": false,
+        "inherited_identical_png": true,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": {
+          "render": "r1",
+          "record": "materials/revision-implementation-20261012/outline-page-review.json",
+          "png_sha256": "47296ad851691e451ae4c78228dd7a8bd414555b1059878ee0470f4765f63172"
+        },
+        "observation": "最终r3 PNG与r1原图SHA-256完全相同，继承r1实际观察。"
+      },
+      {
+        "page": 5,
+        "file": "page-5.png",
+        "sha256": "8d3bb3c3e3b10bafde1dae4a679daa4775e385f80a3c688c4a89206991c74cc2",
+        "actually_opened": false,
+        "inherited_identical_png": true,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": {
+          "render": "r1",
+          "record": "materials/revision-implementation-20261012/outline-page-review.json",
+          "png_sha256": "8d3bb3c3e3b10bafde1dae4a679daa4775e385f80a3c688c4a89206991c74cc2"
+        },
+        "observation": "最终r3 PNG与r1原图SHA-256完全相同，继承r1实际观察。"
+      },
+      {
+        "page": 6,
+        "file": "page-6.png",
+        "sha256": "00b3010944e15183be1dcd1dcb2d972454c25f93216b75e766acb8a8238d6d21",
+        "actually_opened": false,
+        "inherited_identical_png": true,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": {
+          "render": "r1",
+          "record": "materials/revision-implementation-20261012/outline-page-review.json",
+          "png_sha256": "00b3010944e15183be1dcd1dcb2d972454c25f93216b75e766acb8a8238d6d21"
+        },
+        "observation": "最终r3 PNG与r1原图SHA-256完全相同，继承r1实际观察。"
+      },
+      {
+        "page": 7,
+        "file": "page-7.png",
+        "sha256": "8f2ab25b83915c95f1e39abe84bf037a4790305b5af4ab9ebdebdff770e7bd2f",
+        "actually_opened": false,
+        "inherited_identical_png": true,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": {
+          "render": "r1",
+          "record": "materials/revision-implementation-20261012/outline-page-review.json",
+          "png_sha256": "8f2ab25b83915c95f1e39abe84bf037a4790305b5af4ab9ebdebdff770e7bd2f"
+        },
+        "observation": "最终r3 PNG与r1原图SHA-256完全相同，继承r1实际观察。"
+      },
+      {
+        "page": 8,
+        "file": "page-8.png",
+        "sha256": "cb30b0364ed825d6ab5ecaa9c548eba34043e491784b32db63ecdae6b23dbb77",
+        "actually_opened": false,
+        "inherited_identical_png": true,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": {
+          "render": "r1",
+          "record": "materials/revision-implementation-20261012/outline-page-review.json",
+          "png_sha256": "cb30b0364ed825d6ab5ecaa9c548eba34043e491784b32db63ecdae6b23dbb77"
+        },
+        "observation": "最终r3 PNG与r1原图SHA-256完全相同，继承r1实际观察。"
+      },
+      {
+        "page": 9,
+        "file": "page-9.png",
+        "sha256": "e02c33cb80e030ca746d2b8f8a653bff5bba8a826e5b1d0161d1f9afd9b5964b",
+        "actually_opened": false,
+        "inherited_identical_png": true,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": {
+          "render": "r1",
+          "record": "materials/revision-implementation-20261012/outline-page-review.json",
+          "png_sha256": "e02c33cb80e030ca746d2b8f8a653bff5bba8a826e5b1d0161d1f9afd9b5964b"
+        },
+        "observation": "最终r3 PNG与r1原图SHA-256完全相同，继承r1实际观察。"
+      },
+      {
+        "page": 10,
+        "file": "page-10.png",
+        "sha256": "7ca7a278de6643a536636f1e220d522a91b5a2cb2f7670fc79fbb3b5455e9eb9",
+        "actually_opened": false,
+        "inherited_identical_png": true,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": {
+          "render": "r1",
+          "record": "materials/revision-implementation-20261012/outline-page-review.json",
+          "png_sha256": "7ca7a278de6643a536636f1e220d522a91b5a2cb2f7670fc79fbb3b5455e9eb9"
+        },
+        "observation": "最终r3 PNG与r1原图SHA-256完全相同，继承r1实际观察。"
+      },
+      {
+        "page": 11,
+        "file": "page-11.png",
+        "sha256": "09578f9dc7cfb3f2677637c648d4c268cf4251715e411a71ff18408c77d19c6a",
+        "actually_opened": false,
+        "inherited_identical_png": true,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": {
+          "render": "r1",
+          "record": "materials/revision-implementation-20261012/outline-page-review.json",
+          "png_sha256": "09578f9dc7cfb3f2677637c648d4c268cf4251715e411a71ff18408c77d19c6a"
+        },
+        "observation": "最终r3 PNG与r1原图SHA-256完全相同，继承r1实际观察。"
+      },
+      {
+        "page": 12,
+        "file": "page-12.png",
+        "sha256": "4a27e295ce9c0bc4ac3c3c54268b2e310d1f8fab738e99d8cf804c05948f9e7e",
+        "actually_opened": false,
+        "inherited_identical_png": true,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": {
+          "render": "r1",
+          "record": "materials/revision-implementation-20261012/outline-page-review.json",
+          "png_sha256": "4a27e295ce9c0bc4ac3c3c54268b2e310d1f8fab738e99d8cf804c05948f9e7e"
+        },
+        "observation": "最终r3 PNG与r1原图SHA-256完全相同，继承r1实际观察。"
+      },
+      {
+        "page": 13,
+        "file": "page-13.png",
+        "sha256": "4994bf5fd03ad6dc49f710ac05a738e55c9c1abaa2d3ff623621a68cce34df4f",
+        "actually_opened": false,
+        "inherited_identical_png": true,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": {
+          "render": "r1",
+          "record": "materials/revision-implementation-20261012/outline-page-review.json",
+          "png_sha256": "4994bf5fd03ad6dc49f710ac05a738e55c9c1abaa2d3ff623621a68cce34df4f"
+        },
+        "observation": "最终r3 PNG与r1原图SHA-256完全相同，继承r1实际观察。"
+      },
+      {
+        "page": 14,
+        "file": "page-14.png",
+        "sha256": "cb5e06f4c5a8a612106edd3625feb41af35a1d46f37b5598f4c49e2086c11bdb",
+        "actually_opened": false,
+        "inherited_identical_png": true,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": {
+          "render": "r1",
+          "record": "materials/revision-implementation-20261012/outline-page-review.json",
+          "png_sha256": "cb5e06f4c5a8a612106edd3625feb41af35a1d46f37b5598f4c49e2086c11bdb"
+        },
+        "observation": "最终r3 PNG与r1原图SHA-256完全相同，继承r1实际观察。"
+      },
+      {
+        "page": 15,
+        "file": "page-15.png",
+        "sha256": "982754519f7e75b8cf89d8889bb03f654757ce59871cc28a3c5a5fcfcedf84a5",
+        "actually_opened": false,
+        "inherited_identical_png": true,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": {
+          "render": "r1",
+          "record": "materials/revision-implementation-20261012/outline-page-review.json",
+          "png_sha256": "982754519f7e75b8cf89d8889bb03f654757ce59871cc28a3c5a5fcfcedf84a5"
+        },
+        "observation": "最终r3 PNG与r1原图SHA-256完全相同，继承r1实际观察。"
+      },
+      {
+        "page": 16,
+        "file": "page-16.png",
+        "sha256": "447941a0bac9b2b203766ba6c1b755b27d4c94261721bcd0013933d31d202ae4",
+        "actually_opened": true,
+        "inherited_identical_png": false,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "predecessor": null,
+        "observation": "实际原图；第5.7范式表显示表头和“强化学习”一行。迁移学习、联邦学习两行未见；对应正文DOCX有文本，但不在r3 PDF中。"
+      },
+      {
+        "page": 17,
+        "file": "page-17.png",
+        "sha256": "e52ce7e7b3eb46853249726ac3bf9b7691cfad2376bcc65156c39df8eb28a285",
+        "actually_opened": true,
+        "inherited_identical_png": false,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "predecessor": null,
+        "observation": "实际原图；页面从“实践环节3”开始，未见5.7表格后续数据行；章目正文可读，无孤标题或裁切。"
+      },
+      {
+        "page": 18,
+        "file": "page-18.png",
+        "sha256": "20f36ded57410706ef8b4b3fc547b8163177ae1dd76e4c64eb8417fc49e004fd",
+        "actually_opened": true,
+        "inherited_identical_png": false,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "predecessor": null,
+        "observation": "实际原图；项目里程碑和第三部分、后续章目清晰；无裁切、遮挡或重叠。"
+      },
+      {
+        "page": 19,
+        "file": "page-19.png",
+        "sha256": "fc73b8f28d849732fc97c67bc20fbb429e719ac477329746d702bbe0df1b79bd",
+        "actually_opened": true,
+        "inherited_identical_png": false,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "predecessor": null,
+        "observation": "实际原图；第7章末尾和第8章目录清晰；宽留白属原文档风格。"
+      },
+      {
+        "page": 20,
+        "file": "page-20.png",
+        "sha256": "b4a83c1041b9516829bc69854043056fd80fbf8b53cbf00fc8e0618cd8fa4e59",
+        "actually_opened": false,
+        "inherited_identical_png": true,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": {
+          "render": "r1",
+          "record": "materials/revision-implementation-20261012/outline-page-review.json",
+          "png_sha256": "b4a83c1041b9516829bc69854043056fd80fbf8b53cbf00fc8e0618cd8fa4e59"
+        },
+        "observation": "最终r3 PNG与r1原图SHA-256完全相同，继承r1实际观察。"
+      },
+      {
+        "page": 21,
+        "file": "page-21.png",
+        "sha256": "48d492bda1394d8d65b63f57f2aba498f3663787aa71a670c7ebd7cbbd47a9ea",
+        "actually_opened": false,
+        "inherited_identical_png": true,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": {
+          "render": "r1",
+          "record": "materials/revision-implementation-20261012/outline-page-review.json",
+          "png_sha256": "48d492bda1394d8d65b63f57f2aba498f3663787aa71a670c7ebd7cbbd47a9ea"
+        },
+        "observation": "最终r3 PNG与r1原图SHA-256完全相同，继承r1实际观察。"
+      },
+      {
+        "page": 22,
+        "file": "page-22.png",
+        "sha256": "9d46a673dcdb2537f4f02c44918cd03b0058aeb90b159e63a515311c73668421",
+        "actually_opened": false,
+        "inherited_identical_png": true,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": {
+          "render": "r1",
+          "record": "materials/revision-implementation-20261012/outline-page-review.json",
+          "png_sha256": "9d46a673dcdb2537f4f02c44918cd03b0058aeb90b159e63a515311c73668421"
+        },
+        "observation": "最终r3 PNG与r1原图SHA-256完全相同，继承r1实际观察。"
+      },
+      {
+        "page": 23,
+        "file": "page-23.png",
+        "sha256": "f3b8927f78f408e61f350f02e1d2d7b2d9550f61185fc111d65294336a64c6fb",
+        "actually_opened": false,
+        "inherited_identical_png": true,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": {
+          "render": "r1",
+          "record": "materials/revision-implementation-20261012/outline-page-review.json",
+          "png_sha256": "f3b8927f78f408e61f350f02e1d2d7b2d9550f61185fc111d65294336a64c6fb"
+        },
+        "observation": "最终r3 PNG与r1原图SHA-256完全相同，继承r1实际观察。"
+      },
+      {
+        "page": 24,
+        "file": "page-24.png",
+        "sha256": "ae846c93e4091b4207ce654d649df5f9411e116c6ccc30b2b76685a78a9355d6",
+        "actually_opened": false,
+        "inherited_identical_png": true,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": {
+          "render": "r1",
+          "record": "materials/revision-implementation-20261012/outline-page-review.json",
+          "png_sha256": "ae846c93e4091b4207ce654d649df5f9411e116c6ccc30b2b76685a78a9355d6"
+        },
+        "observation": "最终r3 PNG与r1原图SHA-256完全相同，继承r1实际观察。"
+      },
+      {
+        "page": 25,
+        "file": "page-25.png",
+        "sha256": "47e171c0c7e5663dc148285ecae88439d300a24e6ff4ae8efda5e857145525a4",
+        "actually_opened": false,
+        "inherited_identical_png": true,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": {
+          "render": "r1",
+          "record": "materials/revision-implementation-20261012/outline-page-review.json",
+          "png_sha256": "47e171c0c7e5663dc148285ecae88439d300a24e6ff4ae8efda5e857145525a4"
+        },
+        "observation": "最终r3 PNG与r1原图SHA-256完全相同，继承r1实际观察。"
+      },
+      {
+        "page": 26,
+        "file": "page-26.png",
+        "sha256": "c18e86e195cc84c1c200e2106ef47b6dad6807ec13c7302d18663f14aeb665d9",
+        "actually_opened": true,
+        "inherited_identical_png": false,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "predecessor": null,
+        "observation": "实际原图；课时表列头重复；首续行和后续行边框完整，文字可读。"
+      },
+      {
+        "page": 27,
+        "file": "page-27.png",
+        "sha256": "f4ef354e1d4cff9c5dd451734d57473bce32a998d93877b2d87f60f70c4be1d7",
+        "actually_opened": true,
+        "inherited_identical_png": false,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "predecessor": null,
+        "observation": "实际原图；课时表跨页续行，内容完整可读；该续页未重复列头。"
+      },
+      {
+        "page": 28,
+        "file": "page-28.png",
+        "sha256": "39f5a0b059900121fe716a07a1b8feb877cfc52d3b39c12c88703cfee4499279",
+        "actually_opened": true,
+        "inherited_identical_png": false,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "predecessor": null,
+        "observation": "实际原图；课时表重复列头，行边界完整，内容可读。"
+      },
+      {
+        "page": 29,
+        "file": "page-29.png",
+        "sha256": "ac16ca4294665871dcbeea59e80d5fee80c05ac1c910fed1bf2c32a57707cf1c",
+        "actually_opened": true,
+        "inherited_identical_png": false,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "predecessor": null,
+        "observation": "实际原图；课时表续行可读；行内容跨页继续，无裁切。"
+      },
+      {
+        "page": 30,
+        "file": "page-30.png",
+        "sha256": "64cfcfc68fb92963a7237d91d1f5cec44fbb9a81b2b61133503e8a4e9458ffa5",
+        "actually_opened": true,
+        "inherited_identical_png": false,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "predecessor": null,
+        "observation": "实际原图；课时表跨页续行可读；模块分隔清楚。"
+      },
+      {
+        "page": 31,
+        "file": "page-31.png",
+        "sha256": "06728af507957b884a33188ed616c412d6f4462020c119a7a012b33efb5b78aa",
+        "actually_opened": true,
+        "inherited_identical_png": false,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "predecessor": null,
+        "observation": "实际原图；课时表重复列头，后续模块内容清晰，表格边界完整。"
+      },
+      {
+        "page": 32,
+        "file": "page-32.png",
+        "sha256": "91f060daf2a280efebe96905eff2696e05bb54a38dfd241318e9ab6eff21dd4a",
+        "actually_opened": true,
+        "inherited_identical_png": false,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "predecessor": null,
+        "observation": "实际原图；评估表列头与首数据行同页，表格清楚；内容未裁切。"
+      },
+      {
+        "page": 33,
+        "file": "page-33.png",
+        "sha256": "d354dc71c902e1a6684276165ce8b2a80fb3907d54d904bf7fb85a26fd643fee",
+        "actually_opened": true,
+        "inherited_identical_png": false,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "predecessor": null,
+        "observation": "实际原图；评估表重复列头，但上一页最后一行“终身学习IDP+挑战总结”在词中间跨页，本页表头后仅余“结”和百分号形成残行；其余资源/实施说明清晰。"
+      },
+      {
+        "page": 34,
+        "file": "page-34.png",
+        "sha256": "698d18af456a1a624f1a953f6bfa1344a2aba3ec67fb777867f9631abd012f95",
+        "actually_opened": true,
+        "inherited_identical_png": false,
+        "observer": "/root/revise_ch07_09",
+        "detail": "original",
+        "predecessor": null,
+        "observation": "实际原图；技术支持和特色亮点完整可读，页面留白较宽。"
+      }
+    ],
+    "status": "rejected_candidate_superseded_by_r4",
+    "blocking_findings": [
+      "r3 PDF/PNG只显示第5.7范式表的强化学习行；DOCX XML有迁移学习和联邦学习内容，但PDF中未呈现。第17页已进入实践环节，疑为导出版式丢失，须修复后重渲染。",
+      "评估表最后一行在“终身学习IDP+挑战总结”中间跨页：r3第33页重复表头后仅余单字“结”和百分号，形成残行。"
+    ],
+    "superseded_by": {
+      "render": "r4",
+      "docx_sha256": "cbf0e000dca5581eafd7dd55e30d181f58f8df6f939b52f0bb088d5c459c0606",
+      "pdf_sha256": "e3f200e85bf98319a1deb86f04949dc510adaf7027df1882ecb64e1ffb9a6f18",
+      "resolution": "r4 rendered all three 5.7 rows and complete evaluation rows; no split residual text."
+    }
+  },
+  "blocking_findings": [],
+  "r3_rows": [
+    {
+      "page": 1,
+      "file": "page-1.png",
+      "sha256": "41e1dc744bc2990d311f0e6b123b8e3f7853d93199beb2c3d3437b32fbc2d609",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": {
+        "render": "r1",
+        "record": "materials/revision-implementation-20261012/outline-page-review.json",
+        "png_sha256": "41e1dc744bc2990d311f0e6b123b8e3f7853d93199beb2c3d3437b32fbc2d609"
+      },
+      "observation": "最终r3 PNG与r1原图SHA-256完全相同，继承r1实际观察。"
+    },
+    {
+      "page": 2,
+      "file": "page-2.png",
+      "sha256": "d58c07eb0cd9d2c947252ce28c04d1c66968a804f775897ed17ff2c084579851",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": {
+        "render": "r1",
+        "record": "materials/revision-implementation-20261012/outline-page-review.json",
+        "png_sha256": "d58c07eb0cd9d2c947252ce28c04d1c66968a804f775897ed17ff2c084579851"
+      },
+      "observation": "最终r3 PNG与r1原图SHA-256完全相同，继承r1实际观察。"
+    },
+    {
+      "page": 3,
+      "file": "page-3.png",
+      "sha256": "7e8e650896e6dbc9585b780510ca47809cae1467d0bfe98846021cc97e016a0a",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": {
+        "render": "r1",
+        "record": "materials/revision-implementation-20261012/outline-page-review.json",
+        "png_sha256": "7e8e650896e6dbc9585b780510ca47809cae1467d0bfe98846021cc97e016a0a"
+      },
+      "observation": "最终r3 PNG与r1原图SHA-256完全相同，继承r1实际观察。"
+    },
+    {
+      "page": 4,
+      "file": "page-4.png",
+      "sha256": "47296ad851691e451ae4c78228dd7a8bd414555b1059878ee0470f4765f63172",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": {
+        "render": "r1",
+        "record": "materials/revision-implementation-20261012/outline-page-review.json",
+        "png_sha256": "47296ad851691e451ae4c78228dd7a8bd414555b1059878ee0470f4765f63172"
+      },
+      "observation": "最终r3 PNG与r1原图SHA-256完全相同，继承r1实际观察。"
+    },
+    {
+      "page": 5,
+      "file": "page-5.png",
+      "sha256": "8d3bb3c3e3b10bafde1dae4a679daa4775e385f80a3c688c4a89206991c74cc2",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": {
+        "render": "r1",
+        "record": "materials/revision-implementation-20261012/outline-page-review.json",
+        "png_sha256": "8d3bb3c3e3b10bafde1dae4a679daa4775e385f80a3c688c4a89206991c74cc2"
+      },
+      "observation": "最终r3 PNG与r1原图SHA-256完全相同，继承r1实际观察。"
+    },
+    {
+      "page": 6,
+      "file": "page-6.png",
+      "sha256": "00b3010944e15183be1dcd1dcb2d972454c25f93216b75e766acb8a8238d6d21",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": {
+        "render": "r1",
+        "record": "materials/revision-implementation-20261012/outline-page-review.json",
+        "png_sha256": "00b3010944e15183be1dcd1dcb2d972454c25f93216b75e766acb8a8238d6d21"
+      },
+      "observation": "最终r3 PNG与r1原图SHA-256完全相同，继承r1实际观察。"
+    },
+    {
+      "page": 7,
+      "file": "page-7.png",
+      "sha256": "8f2ab25b83915c95f1e39abe84bf037a4790305b5af4ab9ebdebdff770e7bd2f",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": {
+        "render": "r1",
+        "record": "materials/revision-implementation-20261012/outline-page-review.json",
+        "png_sha256": "8f2ab25b83915c95f1e39abe84bf037a4790305b5af4ab9ebdebdff770e7bd2f"
+      },
+      "observation": "最终r3 PNG与r1原图SHA-256完全相同，继承r1实际观察。"
+    },
+    {
+      "page": 8,
+      "file": "page-8.png",
+      "sha256": "cb30b0364ed825d6ab5ecaa9c548eba34043e491784b32db63ecdae6b23dbb77",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": {
+        "render": "r1",
+        "record": "materials/revision-implementation-20261012/outline-page-review.json",
+        "png_sha256": "cb30b0364ed825d6ab5ecaa9c548eba34043e491784b32db63ecdae6b23dbb77"
+      },
+      "observation": "最终r3 PNG与r1原图SHA-256完全相同，继承r1实际观察。"
+    },
+    {
+      "page": 9,
+      "file": "page-9.png",
+      "sha256": "e02c33cb80e030ca746d2b8f8a653bff5bba8a826e5b1d0161d1f9afd9b5964b",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": {
+        "render": "r1",
+        "record": "materials/revision-implementation-20261012/outline-page-review.json",
+        "png_sha256": "e02c33cb80e030ca746d2b8f8a653bff5bba8a826e5b1d0161d1f9afd9b5964b"
+      },
+      "observation": "最终r3 PNG与r1原图SHA-256完全相同，继承r1实际观察。"
+    },
+    {
+      "page": 10,
+      "file": "page-10.png",
+      "sha256": "7ca7a278de6643a536636f1e220d522a91b5a2cb2f7670fc79fbb3b5455e9eb9",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": {
+        "render": "r1",
+        "record": "materials/revision-implementation-20261012/outline-page-review.json",
+        "png_sha256": "7ca7a278de6643a536636f1e220d522a91b5a2cb2f7670fc79fbb3b5455e9eb9"
+      },
+      "observation": "最终r3 PNG与r1原图SHA-256完全相同，继承r1实际观察。"
+    },
+    {
+      "page": 11,
+      "file": "page-11.png",
+      "sha256": "09578f9dc7cfb3f2677637c648d4c268cf4251715e411a71ff18408c77d19c6a",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": {
+        "render": "r1",
+        "record": "materials/revision-implementation-20261012/outline-page-review.json",
+        "png_sha256": "09578f9dc7cfb3f2677637c648d4c268cf4251715e411a71ff18408c77d19c6a"
+      },
+      "observation": "最终r3 PNG与r1原图SHA-256完全相同，继承r1实际观察。"
+    },
+    {
+      "page": 12,
+      "file": "page-12.png",
+      "sha256": "4a27e295ce9c0bc4ac3c3c54268b2e310d1f8fab738e99d8cf804c05948f9e7e",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": {
+        "render": "r1",
+        "record": "materials/revision-implementation-20261012/outline-page-review.json",
+        "png_sha256": "4a27e295ce9c0bc4ac3c3c54268b2e310d1f8fab738e99d8cf804c05948f9e7e"
+      },
+      "observation": "最终r3 PNG与r1原图SHA-256完全相同，继承r1实际观察。"
+    },
+    {
+      "page": 13,
+      "file": "page-13.png",
+      "sha256": "4994bf5fd03ad6dc49f710ac05a738e55c9c1abaa2d3ff623621a68cce34df4f",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": {
+        "render": "r1",
+        "record": "materials/revision-implementation-20261012/outline-page-review.json",
+        "png_sha256": "4994bf5fd03ad6dc49f710ac05a738e55c9c1abaa2d3ff623621a68cce34df4f"
+      },
+      "observation": "最终r3 PNG与r1原图SHA-256完全相同，继承r1实际观察。"
+    },
+    {
+      "page": 14,
+      "file": "page-14.png",
+      "sha256": "cb5e06f4c5a8a612106edd3625feb41af35a1d46f37b5598f4c49e2086c11bdb",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": {
+        "render": "r1",
+        "record": "materials/revision-implementation-20261012/outline-page-review.json",
+        "png_sha256": "cb5e06f4c5a8a612106edd3625feb41af35a1d46f37b5598f4c49e2086c11bdb"
+      },
+      "observation": "最终r3 PNG与r1原图SHA-256完全相同，继承r1实际观察。"
+    },
+    {
+      "page": 15,
+      "file": "page-15.png",
+      "sha256": "982754519f7e75b8cf89d8889bb03f654757ce59871cc28a3c5a5fcfcedf84a5",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": {
+        "render": "r1",
+        "record": "materials/revision-implementation-20261012/outline-page-review.json",
+        "png_sha256": "982754519f7e75b8cf89d8889bb03f654757ce59871cc28a3c5a5fcfcedf84a5"
+      },
+      "observation": "最终r3 PNG与r1原图SHA-256完全相同，继承r1实际观察。"
+    },
+    {
+      "page": 16,
+      "file": "page-16.png",
+      "sha256": "447941a0bac9b2b203766ba6c1b755b27d4c94261721bcd0013933d31d202ae4",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "detail": "original",
+      "predecessor": null,
+      "observation": "实际原图；第5.7范式表显示表头和“强化学习”一行。迁移学习、联邦学习两行未见；对应正文DOCX有文本，但不在r3 PDF中。"
+    },
+    {
+      "page": 17,
+      "file": "page-17.png",
+      "sha256": "e52ce7e7b3eb46853249726ac3bf9b7691cfad2376bcc65156c39df8eb28a285",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "detail": "original",
+      "predecessor": null,
+      "observation": "实际原图；页面从“实践环节3”开始，未见5.7表格后续数据行；章目正文可读，无孤标题或裁切。"
+    },
+    {
+      "page": 18,
+      "file": "page-18.png",
+      "sha256": "20f36ded57410706ef8b4b3fc547b8163177ae1dd76e4c64eb8417fc49e004fd",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "detail": "original",
+      "predecessor": null,
+      "observation": "实际原图；项目里程碑和第三部分、后续章目清晰；无裁切、遮挡或重叠。"
+    },
+    {
+      "page": 19,
+      "file": "page-19.png",
+      "sha256": "fc73b8f28d849732fc97c67bc20fbb429e719ac477329746d702bbe0df1b79bd",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "detail": "original",
+      "predecessor": null,
+      "observation": "实际原图；第7章末尾和第8章目录清晰；宽留白属原文档风格。"
+    },
+    {
+      "page": 20,
+      "file": "page-20.png",
+      "sha256": "b4a83c1041b9516829bc69854043056fd80fbf8b53cbf00fc8e0618cd8fa4e59",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": {
+        "render": "r1",
+        "record": "materials/revision-implementation-20261012/outline-page-review.json",
+        "png_sha256": "b4a83c1041b9516829bc69854043056fd80fbf8b53cbf00fc8e0618cd8fa4e59"
+      },
+      "observation": "最终r3 PNG与r1原图SHA-256完全相同，继承r1实际观察。"
+    },
+    {
+      "page": 21,
+      "file": "page-21.png",
+      "sha256": "48d492bda1394d8d65b63f57f2aba498f3663787aa71a670c7ebd7cbbd47a9ea",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": {
+        "render": "r1",
+        "record": "materials/revision-implementation-20261012/outline-page-review.json",
+        "png_sha256": "48d492bda1394d8d65b63f57f2aba498f3663787aa71a670c7ebd7cbbd47a9ea"
+      },
+      "observation": "最终r3 PNG与r1原图SHA-256完全相同，继承r1实际观察。"
+    },
+    {
+      "page": 22,
+      "file": "page-22.png",
+      "sha256": "9d46a673dcdb2537f4f02c44918cd03b0058aeb90b159e63a515311c73668421",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": {
+        "render": "r1",
+        "record": "materials/revision-implementation-20261012/outline-page-review.json",
+        "png_sha256": "9d46a673dcdb2537f4f02c44918cd03b0058aeb90b159e63a515311c73668421"
+      },
+      "observation": "最终r3 PNG与r1原图SHA-256完全相同，继承r1实际观察。"
+    },
+    {
+      "page": 23,
+      "file": "page-23.png",
+      "sha256": "f3b8927f78f408e61f350f02e1d2d7b2d9550f61185fc111d65294336a64c6fb",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": {
+        "render": "r1",
+        "record": "materials/revision-implementation-20261012/outline-page-review.json",
+        "png_sha256": "f3b8927f78f408e61f350f02e1d2d7b2d9550f61185fc111d65294336a64c6fb"
+      },
+      "observation": "最终r3 PNG与r1原图SHA-256完全相同，继承r1实际观察。"
+    },
+    {
+      "page": 24,
+      "file": "page-24.png",
+      "sha256": "ae846c93e4091b4207ce654d649df5f9411e116c6ccc30b2b76685a78a9355d6",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": {
+        "render": "r1",
+        "record": "materials/revision-implementation-20261012/outline-page-review.json",
+        "png_sha256": "ae846c93e4091b4207ce654d649df5f9411e116c6ccc30b2b76685a78a9355d6"
+      },
+      "observation": "最终r3 PNG与r1原图SHA-256完全相同，继承r1实际观察。"
+    },
+    {
+      "page": 25,
+      "file": "page-25.png",
+      "sha256": "47e171c0c7e5663dc148285ecae88439d300a24e6ff4ae8efda5e857145525a4",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": {
+        "render": "r1",
+        "record": "materials/revision-implementation-20261012/outline-page-review.json",
+        "png_sha256": "47e171c0c7e5663dc148285ecae88439d300a24e6ff4ae8efda5e857145525a4"
+      },
+      "observation": "最终r3 PNG与r1原图SHA-256完全相同，继承r1实际观察。"
+    },
+    {
+      "page": 26,
+      "file": "page-26.png",
+      "sha256": "c18e86e195cc84c1c200e2106ef47b6dad6807ec13c7302d18663f14aeb665d9",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "detail": "original",
+      "predecessor": null,
+      "observation": "实际原图；课时表列头重复；首续行和后续行边框完整，文字可读。"
+    },
+    {
+      "page": 27,
+      "file": "page-27.png",
+      "sha256": "f4ef354e1d4cff9c5dd451734d57473bce32a998d93877b2d87f60f70c4be1d7",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "detail": "original",
+      "predecessor": null,
+      "observation": "实际原图；课时表跨页续行，内容完整可读；该续页未重复列头。"
+    },
+    {
+      "page": 28,
+      "file": "page-28.png",
+      "sha256": "39f5a0b059900121fe716a07a1b8feb877cfc52d3b39c12c88703cfee4499279",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "detail": "original",
+      "predecessor": null,
+      "observation": "实际原图；课时表重复列头，行边界完整，内容可读。"
+    },
+    {
+      "page": 29,
+      "file": "page-29.png",
+      "sha256": "ac16ca4294665871dcbeea59e80d5fee80c05ac1c910fed1bf2c32a57707cf1c",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "detail": "original",
+      "predecessor": null,
+      "observation": "实际原图；课时表续行可读；行内容跨页继续，无裁切。"
+    },
+    {
+      "page": 30,
+      "file": "page-30.png",
+      "sha256": "64cfcfc68fb92963a7237d91d1f5cec44fbb9a81b2b61133503e8a4e9458ffa5",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "detail": "original",
+      "predecessor": null,
+      "observation": "实际原图；课时表跨页续行可读；模块分隔清楚。"
+    },
+    {
+      "page": 31,
+      "file": "page-31.png",
+      "sha256": "06728af507957b884a33188ed616c412d6f4462020c119a7a012b33efb5b78aa",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "detail": "original",
+      "predecessor": null,
+      "observation": "实际原图；课时表重复列头，后续模块内容清晰，表格边界完整。"
+    },
+    {
+      "page": 32,
+      "file": "page-32.png",
+      "sha256": "91f060daf2a280efebe96905eff2696e05bb54a38dfd241318e9ab6eff21dd4a",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "detail": "original",
+      "predecessor": null,
+      "observation": "实际原图；评估表列头与首数据行同页，表格清楚；内容未裁切。"
+    },
+    {
+      "page": 33,
+      "file": "page-33.png",
+      "sha256": "d354dc71c902e1a6684276165ce8b2a80fb3907d54d904bf7fb85a26fd643fee",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "detail": "original",
+      "predecessor": null,
+      "observation": "实际原图；评估表重复列头，但上一页最后一行“终身学习IDP+挑战总结”在词中间跨页，本页表头后仅余“结”和百分号形成残行；其余资源/实施说明清晰。"
+    },
+    {
+      "page": 34,
+      "file": "page-34.png",
+      "sha256": "698d18af456a1a624f1a953f6bfa1344a2aba3ec67fb777867f9631abd012f95",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "detail": "original",
+      "predecessor": null,
+      "observation": "实际原图；技术支持和特色亮点完整可读，页面留白较宽。"
+    }
+  ],
+  "r4_final": {
+    "status": "visual_qa_pass",
+    "docx_sha256": "cbf0e000dca5581eafd7dd55e30d181f58f8df6f939b52f0bb088d5c459c0606",
+    "pdf_sha256": "e3f200e85bf98319a1deb86f04949dc510adaf7027df1882ecb64e1ffb9a6f18",
+    "pages": 36,
+    "distinct_final_pages_actually_opened_original": 28,
+    "inherited_identical_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      15,
+      16
+    ],
+    "rows": [
+      {
+        "page": 1,
+        "file": "page-1.png",
+        "sha256": "41e1dc744bc2990d311f0e6b123b8e3f7853d93199beb2c3d3437b32fbc2d609",
+        "actually_opened": false,
+        "detail": null,
+        "inherited_identical_png": true,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": {
+          "render": "r1",
+          "page": 1,
+          "record": "materials/revision-implementation-20261012/outline-page-review.json#r1_render",
+          "png_sha256": "41e1dc744bc2990d311f0e6b123b8e3f7853d93199beb2c3d3437b32fbc2d609",
+          "predecessor_actually_opened_original": true
+        },
+        "observation": "最终r4 PNG与r1第1页SHA-256完全相同；继承此前原分辨率实际观察。"
+      },
+      {
+        "page": 2,
+        "file": "page-2.png",
+        "sha256": "d58c07eb0cd9d2c947252ce28c04d1c66968a804f775897ed17ff2c084579851",
+        "actually_opened": false,
+        "detail": null,
+        "inherited_identical_png": true,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": {
+          "render": "r1",
+          "page": 2,
+          "record": "materials/revision-implementation-20261012/outline-page-review.json#r1_render",
+          "png_sha256": "d58c07eb0cd9d2c947252ce28c04d1c66968a804f775897ed17ff2c084579851",
+          "predecessor_actually_opened_original": true
+        },
+        "observation": "最终r4 PNG与r1第2页SHA-256完全相同；继承此前原分辨率实际观察。"
+      },
+      {
+        "page": 3,
+        "file": "page-3.png",
+        "sha256": "7e8e650896e6dbc9585b780510ca47809cae1467d0bfe98846021cc97e016a0a",
+        "actually_opened": false,
+        "detail": null,
+        "inherited_identical_png": true,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": {
+          "render": "r1",
+          "page": 3,
+          "record": "materials/revision-implementation-20261012/outline-page-review.json#r1_render",
+          "png_sha256": "7e8e650896e6dbc9585b780510ca47809cae1467d0bfe98846021cc97e016a0a",
+          "predecessor_actually_opened_original": true
+        },
+        "observation": "最终r4 PNG与r1第3页SHA-256完全相同；继承此前原分辨率实际观察。"
+      },
+      {
+        "page": 4,
+        "file": "page-4.png",
+        "sha256": "47296ad851691e451ae4c78228dd7a8bd414555b1059878ee0470f4765f63172",
+        "actually_opened": false,
+        "detail": null,
+        "inherited_identical_png": true,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": {
+          "render": "r1",
+          "page": 4,
+          "record": "materials/revision-implementation-20261012/outline-page-review.json#r1_render",
+          "png_sha256": "47296ad851691e451ae4c78228dd7a8bd414555b1059878ee0470f4765f63172",
+          "predecessor_actually_opened_original": true
+        },
+        "observation": "最终r4 PNG与r1第4页SHA-256完全相同；继承此前原分辨率实际观察。"
+      },
+      {
+        "page": 5,
+        "file": "page-5.png",
+        "sha256": "8d3bb3c3e3b10bafde1dae4a679daa4775e385f80a3c688c4a89206991c74cc2",
+        "actually_opened": false,
+        "detail": null,
+        "inherited_identical_png": true,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": {
+          "render": "r1",
+          "page": 5,
+          "record": "materials/revision-implementation-20261012/outline-page-review.json#r1_render",
+          "png_sha256": "8d3bb3c3e3b10bafde1dae4a679daa4775e385f80a3c688c4a89206991c74cc2",
+          "predecessor_actually_opened_original": true
+        },
+        "observation": "最终r4 PNG与r1第5页SHA-256完全相同；继承此前原分辨率实际观察。"
+      },
+      {
+        "page": 6,
+        "file": "page-6.png",
+        "sha256": "00b3010944e15183be1dcd1dcb2d972454c25f93216b75e766acb8a8238d6d21",
+        "actually_opened": false,
+        "detail": null,
+        "inherited_identical_png": true,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": {
+          "render": "r1",
+          "page": 6,
+          "record": "materials/revision-implementation-20261012/outline-page-review.json#r1_render",
+          "png_sha256": "00b3010944e15183be1dcd1dcb2d972454c25f93216b75e766acb8a8238d6d21",
+          "predecessor_actually_opened_original": true
+        },
+        "observation": "最终r4 PNG与r1第6页SHA-256完全相同；继承此前原分辨率实际观察。"
+      },
+      {
+        "page": 7,
+        "file": "page-7.png",
+        "sha256": "e29403c2cd17b612b96cde9adfcf614d570b60bc053e7cf44883e4387c906f5f",
+        "actually_opened": true,
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": null,
+        "observation": "原图文字清晰；页面段落完整，未见裁切、遮挡或重叠。"
+      },
+      {
+        "page": 8,
+        "file": "page-8.png",
+        "sha256": "1e81e66640ab8674ce33ed425db92cd87c09e3e79782e27e00e24029ac4a7fc8",
+        "actually_opened": true,
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": null,
+        "observation": "算法对照表三条数据行完整可见，中文与表格边界清楚。"
+      },
+      {
+        "page": 9,
+        "file": "page-9.png",
+        "sha256": "b32df1f6cc5b5bccd65796f6cac5ba77c76b54d11c664de3c89a3aaa3ec665a7",
+        "actually_opened": true,
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": null,
+        "observation": "正文与章节层级可辨，页面内容完整。"
+      },
+      {
+        "page": 10,
+        "file": "page-10.png",
+        "sha256": "1a3cf54a1ec509a4b6c58b5f9326f8a3736ba8dffc8c94e2a44975d3362c935e",
+        "actually_opened": true,
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": null,
+        "observation": "第3.1节内容清晰；标题与正文衔接正常。"
+      },
+      {
+        "page": 11,
+        "file": "page-11.png",
+        "sha256": "dc3cca5935d1a8a02d230a79f4ba09193632b5de2cffb6fddf00151c44b67289",
+        "actually_opened": true,
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": null,
+        "observation": "能力表前三条数据行及列内容可读，未见裁切。"
+      },
+      {
+        "page": 12,
+        "file": "page-12.png",
+        "sha256": "9397d8bfd20d9353a4b14a27df4ce7bcd5884c66f002be2abbf909ae0d369e57",
+        "actually_opened": true,
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": null,
+        "observation": "能力表重复表头及第四条“生成式AI驾驭”完整可读，后续3.3标题与正文相连。"
+      },
+      {
+        "page": 13,
+        "file": "page-13.png",
+        "sha256": "fed1f0a7a9fc67bb0c0c6359c56fc94b1b8a73422eb8fc2ecaf7b849a65730bb",
+        "actually_opened": true,
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": null,
+        "observation": "正文清晰，未见遮挡、裁切或异常重叠。"
+      },
+      {
+        "page": 14,
+        "file": "page-14.png",
+        "sha256": "97fd6442b4bdbd121048f6fd6e91a1d98437e4b41f305aa2af9163af519c3b79",
+        "actually_opened": true,
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": null,
+        "observation": "正文清晰，未见遮挡、裁切或异常重叠。"
+      },
+      {
+        "page": 15,
+        "file": "page-15.png",
+        "sha256": "cb5e06f4c5a8a612106edd3625feb41af35a1d46f37b5598f4c49e2086c11bdb",
+        "actually_opened": false,
+        "detail": null,
+        "inherited_identical_png": true,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": {
+          "render": "r1",
+          "page": 14,
+          "record": "materials/revision-implementation-20261012/outline-page-review.json#r1_render",
+          "png_sha256": "cb5e06f4c5a8a612106edd3625feb41af35a1d46f37b5598f4c49e2086c11bdb",
+          "predecessor_actually_opened_original": true
+        },
+        "observation": "最终r4 PNG与r1第14页SHA-256完全相同；继承此前原分辨率实际观察。"
+      },
+      {
+        "page": 16,
+        "file": "page-16.png",
+        "sha256": "982754519f7e75b8cf89d8889bb03f654757ce59871cc28a3c5a5fcfcedf84a5",
+        "actually_opened": false,
+        "detail": null,
+        "inherited_identical_png": true,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": {
+          "render": "r1",
+          "page": 15,
+          "record": "materials/revision-implementation-20261012/outline-page-review.json#r1_render",
+          "png_sha256": "982754519f7e75b8cf89d8889bb03f654757ce59871cc28a3c5a5fcfcedf84a5",
+          "predecessor_actually_opened_original": true
+        },
+        "observation": "最终r4 PNG与r1第15页SHA-256完全相同；继承此前原分辨率实际观察。"
+      },
+      {
+        "page": 17,
+        "file": "page-17.png",
+        "sha256": "8340185be1701292f2a9b34eaf28b691d5ae449eb84634c47b18d3ed63f77582",
+        "actually_opened": true,
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": null,
+        "observation": "页面内容与章节层级清楚，未见裁切或标题孤立。"
+      },
+      {
+        "page": 18,
+        "file": "page-18.png",
+        "sha256": "62b7b0abb553de494404ee3dc1fa79547070f80fd210060681974afad8dc91d8",
+        "actually_opened": true,
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": null,
+        "observation": "5.7范式表表头与强化学习、迁移学习、联邦学习三行完整；表后实践内容可读。"
+      },
+      {
+        "page": 19,
+        "file": "page-19.png",
+        "sha256": "c2dcf7e5e8684bab01e5504c1b2f309e6bba84c5b5dd776ab6d56310924d0373",
+        "actually_opened": true,
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": null,
+        "observation": "项目要求内容完整清楚，段落未被页面边界截断。"
+      },
+      {
+        "page": 20,
+        "file": "page-20.png",
+        "sha256": "2726dc54984d8dce2a7a515d85209abe9b8d837f402dafabdb511cddf6647c8d",
+        "actually_opened": true,
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": null,
+        "observation": "章节大纲与主题层级清晰，未见表格或正文截断。"
+      },
+      {
+        "page": 21,
+        "file": "page-21.png",
+        "sha256": "08cf4a7ede95f40ba16fb0e042d899508d5e21fec2fbe2787cd24e8aea4faab5",
+        "actually_opened": true,
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": null,
+        "observation": "后续章节条目与资源说明可读，页面结构完整。"
+      },
+      {
+        "page": 22,
+        "file": "page-22.png",
+        "sha256": "616fe394b68ec3f35836a9843a7dec243018a42a43ab0e805221ad913e9988e2",
+        "actually_opened": true,
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": null,
+        "observation": "章节及课程资源文字清楚，未见裁切或重叠。"
+      },
+      {
+        "page": 23,
+        "file": "page-23.png",
+        "sha256": "8336fcf27e1a4bc382034cabbbddc6e9ea34eddd3d5c4957125ad658cad9f878",
+        "actually_opened": true,
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": null,
+        "observation": "评估与优化说明可读，段落没有异常断页。"
+      },
+      {
+        "page": 24,
+        "file": "page-24.png",
+        "sha256": "db2e19d4f74f8e5b537a39123035cb1084b9da135d1a39a283ef41063dd7d38d",
+        "actually_opened": true,
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": null,
+        "observation": "评估改革相关说明清晰，层级与项目符号可辨。"
+      },
+      {
+        "page": 25,
+        "file": "page-25.png",
+        "sha256": "98e4efce84d93bdeeb8e03b02f1c46762b8dacf41c2f07eba2643837827a3fcb",
+        "actually_opened": true,
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": null,
+        "observation": "优化要点及总结内容完整可读。"
+      },
+      {
+        "page": 26,
+        "file": "page-26.png",
+        "sha256": "94d0242ac4a48ad18565ea44321a2b94f45e6279d6db69ab88e3bd481e0eb73e",
+        "actually_opened": true,
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": null,
+        "observation": "课程安排表起始页，表头和第一部分标识可见；页内留白较大但未造成内容丢失。"
+      },
+      {
+        "page": 27,
+        "file": "page-27.png",
+        "sha256": "a18f1babe0089c9139d3c12def12329ced8a035786142ec683d9b6160bc13ad4",
+        "actually_opened": true,
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": null,
+        "observation": "重复列头及课程表首段条目可读，行边界完整。"
+      },
+      {
+        "page": 28,
+        "file": "page-28.png",
+        "sha256": "ab3cb7411e74c076da652fd2e9dc9debfe3630a7df4e4a03fc607f825de75321",
+        "actually_opened": true,
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": null,
+        "observation": "原图顶部五列头清晰；第3、4讲各行与单元格完整可读。"
+      },
+      {
+        "page": 29,
+        "file": "page-29.png",
+        "sha256": "2d8ba2410aeb9e0a368134e8fea89b477e8604c80338be453fda7d8af5ef4ca5",
+        "actually_opened": true,
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": null,
+        "observation": "列头与第5、6讲等课程条目完整可读，表格线无裁切。"
+      },
+      {
+        "page": 30,
+        "file": "page-30.png",
+        "sha256": "1c15bb3f0dff36ac97bcf775c51421763a2de9e012e2badccd6fb07875b4404e",
+        "actually_opened": true,
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": null,
+        "observation": "原图顶部五列头清晰；第7、8讲条目完整，未见缺行或裁切。"
+      },
+      {
+        "page": 31,
+        "file": "page-31.png",
+        "sha256": "560e4b00cab0998d7fc2a04ef41918a3e0ea986dd392fc43e0a4a1dbd3589e96",
+        "actually_opened": true,
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": null,
+        "observation": "原图顶部五列头清晰；第9–12讲内容与表格边界完整。"
+      },
+      {
+        "page": 32,
+        "file": "page-32.png",
+        "sha256": "4b2185a478e7d89619106f8bc4eb9448408871a479a2de43dcafc4447515e5de",
+        "actually_opened": true,
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": null,
+        "observation": "列头、第三部分标识及第13、14讲完整可读。"
+      },
+      {
+        "page": 33,
+        "file": "page-33.png",
+        "sha256": "35192aabaa0811f462c41ed0cb9fdf6e18dfa5a52b8ba8e6c576cafc2c0c02d5",
+        "actually_opened": true,
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": null,
+        "observation": "原图顶部五列头清晰；第15、16讲完整，表后“关键设计说明”衔接可读。"
+      },
+      {
+        "page": 34,
+        "file": "page-34.png",
+        "sha256": "717200ec20dc1e7e01c7c2f8b67089906f8d8dd1268ad647b38367e0ab482514",
+        "actually_opened": true,
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": null,
+        "observation": "评估改革标题、重复表头及表格前四项完整可读；“终身学习IDP+挑战总结”换行但单元格完整。"
+      },
+      {
+        "page": 35,
+        "file": "page-35.png",
+        "sha256": "d33a663297f7b2c0366bb83c46ec83f5b924ccc33d6f81ec7c421b8846beb75f",
+        "actually_opened": true,
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": null,
+        "observation": "评估表重复表头和第五项完整；后续资源支持与实施说明清晰。"
+      },
+      {
+        "page": 36,
+        "file": "page-36.png",
+        "sha256": "4cc90f50130c4b6bb9cab263348c1bd591823ff5095c6f473c5fc9911b22ca56",
+        "actually_opened": true,
+        "detail": "original",
+        "inherited_identical_png": false,
+        "observer": "/root/revise_ch07_09",
+        "predecessor": null,
+        "observation": "“特色亮点”三项内容完整清晰；页下半部留白较大，属非阻断版式备注。"
+      }
+    ],
+    "archive": {
+      "path": "materials/revision-implementation-20261012/outline-final-pages.zip",
+      "members": 36,
+      "crc_check": "PASS",
+      "all_member_sha256_match_source_png": true,
+      "sha256": "6dc7933d5dbb5a3f592a796e3949044cc09a51c0caa60bd80d87bb483fca73fb"
+    },
+    "delivered_pdf": {
+      "path": "output/outline-feedback/教材大纲-全国版.pdf",
+      "sha256": "e3f200e85bf98319a1deb86f04949dc510adaf7027df1882ecb64e1ffb9a6f18",
+      "matches_frozen_candidate": true
+    },
+    "resolutions": [
+      "r1范式表头/首数据行分离及r3范式表两行不可见缺陷均由最终r4页检消除。",
+      "r1评估表头分离及r3评估表残字跨页缺陷均由最终r4页检消除。",
+      "课程安排五列表头在p28、p30、p31、p33重新原图核验可见；Parent另对p30 crop复核。"
+    ],
+    "non_blocking_notes": [
+      "p36末页仅有三条特色亮点，页面下半部大面积留白；文字完整可读。",
+      "保留原纲较宽留白及原有课时历史差异。"
+    ]
+  },
+  "qa_budget": {
+    "maximum_cumulative_actual_page_views": 180,
+    "ch08_actual_views": 70,
+    "outline_r1_actual_views": 33,
+    "outline_r3_actual_views": 13,
+    "outline_r4_distinct_actual_pages": 28,
+    "outline_r4_reopened_confirmation_views": 4,
+    "cumulative_actual_page_views": 148,
+    "within_budget": true
+  }
+}

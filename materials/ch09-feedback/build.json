@@ -1,0 +1,34 @@
+{
+  "template": "templates/textbook-style-v1.0.dotx",
+  "template_sha256": "eef8ce505c3d9afb3493e61af1f38ee26bca6ff9a0aa12f7ad3e2a8cacad6473",
+  "manuscript": "manuscripts/ch09-feedback-layout/ch09.md",
+  "manuscript_sha256": "b740f1eb0ce19bbbf9c3972b9c093c3edb03609853511b259462d93ccab44b41",
+  "docx_sha256": "671f7ba573fde301533459cb2ef63007e7593de20e247b143716b9647319ca99",
+  "style": "textbook-style-v1.0",
+  "toc_cached_pages": {
+    "9.1 共同目标与可理解的技术表达": 4,
+    "9.2 分工、依赖与资源协调": 12,
+    "9.3 聆听、反馈与冲突处理": 22,
+    "9.4 团队决策：证据、责任与调整": 32,
+    "9.5 技术领导力：支持他人与共同复盘": 42,
+    "章末综合训练": 51,
+    "本章回顾": 53,
+    "关键术语": 54,
+    "参考解与讨论": 55,
+    "参考文献": 66
+  },
+  "toc_headings": [
+    "9.1 共同目标与可理解的技术表达",
+    "9.2 分工、依赖与资源协调",
+    "9.3 聆听、反馈与冲突处理",
+    "9.4 团队决策：证据、责任与调整",
+    "9.5 技术领导力：支持他人与共同复盘",
+    "章末综合训练",
+    "本章回顾",
+    "关键术语",
+    "参考解与讨论",
+    "参考文献"
+  ],
+  "method": "Reused template styles and geometry; task-local chapter counter/numbering starts at the selected chapter, current header and answer bookmarks; native SEQ/REF/TOC/PAGEREF/PAGE preserved. No final DOCX LibreOffice roundtrip.",
+  "word_native_execution": "NOT_EVALUATED"
+}

@@ -1,0 +1,9 @@
+[
+  {
+    "chapter": 4,
+    "pages_dir": "materials/ch04-feedback/pages-r1",
+    "verification": "materials/ch04-feedback/layout-verification.json",
+    "status": "PASS",
+    "pages": 74
+  }
+]

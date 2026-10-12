@@ -1,0 +1,534 @@
+{
+  "checks": "PASS",
+  "chapter": 4,
+  "han_characters_approx": 35168,
+  "pages": 74,
+  "tables": 9,
+  "figures": 6,
+  "references": 4,
+  "native_reference_fields": 26,
+  "source_sha256": "295271f53a96f9df77a17cb631c16aa596af938a87bce441f71002c0f545d8dd",
+  "docx_sha256": "a295e631da6e64508aeb8aef1478df345953b8127f1a06ed3347052ea3ffab0b",
+  "pdf_sha256": "d3bace9d1b9d8e91be6a85579746478e5c31d43513c18a85d60d69457eaeb2e4",
+  "toc_pages": {
+    "4.1 批判性思维核心：质疑、分析、评估、推理、解释、自我修正": 4,
+    "4.2 识别信息陷阱：偏见、谬误、伪相关性、数据操纵": 15,
+    "4.3 有效论证：构建与拆解": 30,
+    "4.4 计算思维赋能批判性思维": 45,
+    "章末综合训练": 57,
+    "本章回顾": 63,
+    "关键术语": 63,
+    "参考解与讨论": 64,
+    "参考文献": 73
+  },
+  "toc_cache_matches_actual_pages": true,
+  "figure_pages": {
+    "图4-1": 9,
+    "图4-2": 22,
+    "图4-3": 24,
+    "图4-4": 27,
+    "图4-5": 34,
+    "图4-6": 49
+  },
+  "embedded_fonts": [
+    "/BAAAAA+NotoSansCJKsc-Regular",
+    "/CAAAAA+NotoSansCJKsc-Bold",
+    "/DAAAAA+NotoSerifCJKsc-Regular",
+    "/EAAAAA+NotoSerifCJKsc-Regular",
+    "/FAAAAA+NotoSansCJKsc-Bold",
+    "/GAAAAA+NotoSansCJKsc-Bold",
+    "/HAAAAA+NotoSerifCJKsc-Bold",
+    "/IAAAAA+NotoSerifCJKsc-Regular",
+    "/JAAAAA+NotoSerifCJKsc-Regular",
+    "/KAAAAA+NotoSerifCJKsc-Regular",
+    "/LAAAAA+NotoSerifCJKsc-Bold",
+    "/MAAAAA+NotoSerifCJKsc-Regular",
+    "/NAAAAA+NotoSerifCJKsc-Regular",
+    "/OAAAAA+NotoSansCJKsc-Bold",
+    "/PAAAAA+NotoSerifCJKsc-Regular",
+    "/QAAAAA+NotoSerifCJKsc-Bold",
+    "/RAAAAA+NotoSansMonoCJKsc-Regular",
+    "/SAAAAA+NotoSerifCJKsc-Regular"
+  ],
+  "page_extents": [
+    {
+      "page": 1,
+      "body_top": 84.5,
+      "body_bottom": 714.2,
+      "images": 0
+    },
+    {
+      "page": 2,
+      "body_top": 79.8,
+      "body_bottom": 679.5,
+      "images": 0
+    },
+    {
+      "page": 3,
+      "body_top": 83.0,
+      "body_bottom": 404.7,
+      "images": 0
+    },
+    {
+      "page": 4,
+      "body_top": 95.0,
+      "body_bottom": 681.6,
+      "images": 0
+    },
+    {
+      "page": 5,
+      "body_top": 79.8,
+      "body_bottom": 715.9,
+      "images": 0
+    },
+    {
+      "page": 6,
+      "body_top": 79.8,
+      "body_bottom": 706.8,
+      "images": 0
+    },
+    {
+      "page": 7,
+      "body_top": 79.8,
+      "body_bottom": 748.9,
+      "images": 0
+    },
+    {
+      "page": 8,
+      "body_top": 79.8,
+      "body_bottom": 575.4,
+      "images": 0
+    },
+    {
+      "page": 9,
+      "body_top": 387.4,
+      "body_bottom": 715.9,
+      "images": 1
+    },
+    {
+      "page": 10,
+      "body_top": 79.8,
+      "body_bottom": 715.9,
+      "images": 0
+    },
+    {
+      "page": 11,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 12,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 13,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 14,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 15,
+      "body_top": 79.8,
+      "body_bottom": 759.8,
+      "images": 0
+    },
+    {
+      "page": 16,
+      "body_top": 79.8,
+      "body_bottom": 715.9,
+      "images": 0
+    },
+    {
+      "page": 17,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 18,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 19,
+      "body_top": 79.8,
+      "body_bottom": 706.8,
+      "images": 0
+    },
+    {
+      "page": 20,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 21,
+      "body_top": 79.8,
+      "body_bottom": 769.0,
+      "images": 0
+    },
+    {
+      "page": 22,
+      "body_top": 79.8,
+      "body_bottom": 729.7,
+      "images": 1
+    },
+    {
+      "page": 23,
+      "body_top": 81.5,
+      "body_bottom": 747.9,
+      "images": 0
+    },
+    {
+      "page": 24,
+      "body_top": 79.8,
+      "body_bottom": 756.6,
+      "images": 1
+    },
+    {
+      "page": 25,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 26,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 27,
+      "body_top": 333.7,
+      "body_bottom": 695.1,
+      "images": 1
+    },
+    {
+      "page": 28,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 29,
+      "body_top": 79.8,
+      "body_bottom": 706.8,
+      "images": 0
+    },
+    {
+      "page": 30,
+      "body_top": 79.8,
+      "body_bottom": 759.8,
+      "images": 0
+    },
+    {
+      "page": 31,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 32,
+      "body_top": 79.8,
+      "body_bottom": 674.0,
+      "images": 0
+    },
+    {
+      "page": 33,
+      "body_top": 78.7,
+      "body_bottom": 641.2,
+      "images": 0
+    },
+    {
+      "page": 34,
+      "body_top": 346.0,
+      "body_bottom": 740.2,
+      "images": 1
+    },
+    {
+      "page": 35,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 36,
+      "body_top": 81.5,
+      "body_bottom": 727.7,
+      "images": 0
+    },
+    {
+      "page": 37,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 38,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 39,
+      "body_top": 79.8,
+      "body_bottom": 706.8,
+      "images": 0
+    },
+    {
+      "page": 40,
+      "body_top": 79.8,
+      "body_bottom": 706.8,
+      "images": 0
+    },
+    {
+      "page": 41,
+      "body_top": 79.8,
+      "body_bottom": 715.9,
+      "images": 0
+    },
+    {
+      "page": 42,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 43,
+      "body_top": 81.5,
+      "body_bottom": 718.6,
+      "images": 0
+    },
+    {
+      "page": 44,
+      "body_top": 79.8,
+      "body_bottom": 674.0,
+      "images": 0
+    },
+    {
+      "page": 45,
+      "body_top": 83.0,
+      "body_bottom": 756.9,
+      "images": 0
+    },
+    {
+      "page": 46,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 47,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 48,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 49,
+      "body_top": 79.8,
+      "body_bottom": 656.7,
+      "images": 1
+    },
+    {
+      "page": 50,
+      "body_top": 81.5,
+      "body_bottom": 760.5,
+      "images": 0
+    },
+    {
+      "page": 51,
+      "body_top": 79.8,
+      "body_bottom": 683.1,
+      "images": 0
+    },
+    {
+      "page": 52,
+      "body_top": 81.5,
+      "body_bottom": 760.5,
+      "images": 0
+    },
+    {
+      "page": 53,
+      "body_top": 81.5,
+      "body_bottom": 762.9,
+      "images": 0
+    },
+    {
+      "page": 54,
+      "body_top": 79.8,
+      "body_bottom": 551.7,
+      "images": 0
+    },
+    {
+      "page": 55,
+      "body_top": 81.5,
+      "body_bottom": 683.8,
+      "images": 0
+    },
+    {
+      "page": 56,
+      "body_top": 81.5,
+      "body_bottom": 727.7,
+      "images": 0
+    },
+    {
+      "page": 57,
+      "body_top": 79.8,
+      "body_bottom": 727.0,
+      "images": 0
+    },
+    {
+      "page": 58,
+      "body_top": 79.8,
+      "body_bottom": 759.9,
+      "images": 0
+    },
+    {
+      "page": 59,
+      "body_top": 79.8,
+      "body_bottom": 727.1,
+      "images": 0
+    },
+    {
+      "page": 60,
+      "body_top": 79.8,
+      "body_bottom": 759.9,
+      "images": 0
+    },
+    {
+      "page": 61,
+      "body_top": 79.8,
+      "body_bottom": 763.4,
+      "images": 0
+    },
+    {
+      "page": 62,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 63,
+      "body_top": 79.8,
+      "body_bottom": 741.6,
+      "images": 0
+    },
+    {
+      "page": 64,
+      "body_top": 79.8,
+      "body_bottom": 730.1,
+      "images": 0
+    },
+    {
+      "page": 65,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 66,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 67,
+      "body_top": 79.8,
+      "body_bottom": 674.0,
+      "images": 0
+    },
+    {
+      "page": 68,
+      "body_top": 79.8,
+      "body_bottom": 706.8,
+      "images": 0
+    },
+    {
+      "page": 69,
+      "body_top": 79.8,
+      "body_bottom": 768.4,
+      "images": 0
+    },
+    {
+      "page": 70,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 71,
+      "body_top": 79.8,
+      "body_bottom": 706.8,
+      "images": 0
+    },
+    {
+      "page": 72,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 73,
+      "body_top": 79.8,
+      "body_bottom": 749.7,
+      "images": 0
+    },
+    {
+      "page": 74,
+      "body_top": 78.7,
+      "body_bottom": 204.0,
+      "images": 0
+    }
+  ],
+  "limits": "Correspondence and executable layout checks only; actual page observation and content review recorded separately. Word native refresh, printing, teacher/student acceptance untested.",
+  "preserve_only_parts_byte_identical": [
+    "_rels/.rels",
+    "docProps/app.xml",
+    "word/styles.xml",
+    "word/stylesWithEffects.xml",
+    "word/settings.xml",
+    "word/webSettings.xml",
+    "word/fontTable.xml",
+    "word/theme/theme1.xml",
+    "customXml/item1.xml",
+    "customXml/_rels/item1.xml.rels",
+    "customXml/itemProps1.xml",
+    "word/footer1.xml",
+    "docProps/thumbnail.jpeg"
+  ],
+  "answer_bookmarks": [
+    "E01",
+    "E02",
+    "E03",
+    "E04",
+    "E05",
+    "E06",
+    "E07",
+    "E08",
+    "E09",
+    "E10"
+  ],
+  "reference_first_use_order": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "table_header_repeat_and_rows_keep_together": true
+}

@@ -1,0 +1,51 @@
+{
+  "parent_session_id": "codex-jiaocai-revision-feedback-20261012",
+  "task_id": "feedback-ch08-source-boundaries",
+  "cwd": "/home/reggie/vscode_folder/jiaocai",
+  "explicit_root": "/home/reggie/vscode_folder/jiaocai",
+  "role": "explorer",
+  "goal": "Role explorer, Authority read-only. Fully read exactly four required files. Independently check supplied Chapter8 candidate excerpts against three fetched official static HTML projections: Notion offline limitations, SiYuan local-versus-sync cost, MIT OCW no-enrollment/no-certificate. Identify concrete unsupported or misleading conditions and contradictions with quotations/line locations. Other brands and national access were not tested; do not invent their facts. This is bounded claim-source verification, not whole-chapter professional review or acceptance. Maximum 6 findings, stable IDs, severity blocking_candidate/non_blocking, minimal correction. Canonical five-field report only. No writes/network/Bash/credentials/nested agents/commits/push or retries. Stop and report higher rule conflicts; Parent decides.",
+  "read_paths": [
+    "materials/revision-implementation-20261012/source-claims.txt",
+    "materials/revision-implementation-20261012/notion-offline-primary.txt",
+    "materials/revision-implementation-20261012/siyuan-pricing-primary.txt",
+    "materials/revision-implementation-20261012/mit-ocw-primary.txt"
+  ],
+  "write_paths": [],
+  "permissions": [
+    "read"
+  ],
+  "selected_refs": [
+    {
+      "path": "specs/revision-feedback.spec.md",
+      "sha256": "ea15a34002a97d7675640cc84665614516ec6fcc6c9ccff8e5655e3665992f2f",
+      "accepted": true
+    }
+  ],
+  "active_documents": "accepted_refs",
+  "harness_refs": [],
+  "constitution_refs": [
+    "AGENTS.md"
+  ],
+  "skills": [],
+  "skill_roots": [],
+  "expected_evidence": [
+    "materials/revision-implementation-20261012/source-claims.txt",
+    "materials/revision-implementation-20261012/notion-offline-primary.txt",
+    "materials/revision-implementation-20261012/siyuan-pricing-primary.txt",
+    "materials/revision-implementation-20261012/mit-ocw-primary.txt"
+  ],
+  "backend": "kimi",
+  "profile": "deep",
+  "budgets": {
+    "wall_seconds": 3600,
+    "idle_seconds": 1800,
+    "request_limit": 64,
+    "generation_tokens": 32000,
+    "output_bytes": 16777216,
+    "context_bytes": 8388608
+  },
+  "instruction_precedence": [
+    "AGENTS.md"
+  ]
+}

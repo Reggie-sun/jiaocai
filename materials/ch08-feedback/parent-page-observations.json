@@ -1,0 +1,38 @@
+[
+  {
+    "page": 3,
+    "sha256": "e2ecc37c96ef9420e5d277eb4ca45bc92de570d9d22c8d65cda51f740b2a12f2",
+    "actual_view": true,
+    "detail": "original",
+    "observer": "/root",
+    "finding": null,
+    "observation": "实际原图逐页检查；目录和文字可读，表8-1完整，未见裁切遮挡、孤标题或表格断裂。"
+  },
+  {
+    "page": 4,
+    "sha256": "23f86db644c86af81f5f47725216e6fdb45ef5a881e6f8b2e1b6dc183bd5d660",
+    "actual_view": true,
+    "detail": "original",
+    "observer": "/root",
+    "finding": null,
+    "observation": "实际原图逐页检查；目录和文字可读，表8-1完整，未见裁切遮挡、孤标题或表格断裂。"
+  },
+  {
+    "page": 5,
+    "sha256": "53992f2b6f19e5a327949e02145e6380bd4eddc9d10d4e1adc474744fb23058a",
+    "actual_view": true,
+    "detail": "original",
+    "observer": "/root",
+    "finding": null,
+    "observation": "实际原图逐页检查；目录和文字可读，表8-1完整，未见裁切遮挡、孤标题或表格断裂。"
+  },
+  {
+    "page": 6,
+    "sha256": "eff3f514663b13d9500c4ae83be5358356374b8eac0be01710e389284a9fdad7",
+    "actual_view": true,
+    "detail": "original",
+    "observer": "/root",
+    "finding": null,
+    "observation": "实际原图逐页检查；目录和文字可读，表8-1完整，未见裁切遮挡、孤标题或表格断裂。"
+  }
+]

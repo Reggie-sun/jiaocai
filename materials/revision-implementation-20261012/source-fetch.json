@@ -1,0 +1,20 @@
+[
+  {
+    "name": "notion-offline",
+    "url": "https://www.notion.com/help/use-pages-offline",
+    "bytes": 614642,
+    "text_sha256": "8a4caf6ef29ec9438e52f7474dfdc845eb9caa8f62f839491920b8e7ebd8d39f"
+  },
+  {
+    "name": "siyuan-pricing",
+    "url": "https://b3log.org/siyuan/pricing.html",
+    "bytes": 20750,
+    "text_sha256": "e8aa418a53ef5771fc8d5c209d1d2a0c923d4a0741456e0731538e50f46ab5cb"
+  },
+  {
+    "name": "mit-ocw",
+    "url": "https://ocw.mit.edu/about/",
+    "bytes": 92221,
+    "text_sha256": "66feeb59617a34051fbee825ace5d40b4b88e11d16b4a769788431222f9409bf"
+  }
+]

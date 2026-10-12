@@ -1,0 +1,42 @@
+{
+  "chapter": 9,
+  "proposal_status": "Supplementary chapter proposal; the original outline does not list Chapter 9 and this manuscript does not present it as approved.",
+  "baseline": {
+    "path": "manuscripts/ch09-layout/ch09.md",
+    "sha256": "4f337cb05dd596658ad1b83b4f3fe1caea5aef2efd18a32f739c1bd81299aced"
+  },
+  "deliverable": {
+    "path": "manuscripts/ch09-feedback/ch09.md",
+    "sha256": "7c6a1fbf903a1154597111624084deaa3db83a1f9eb2c1c23f5113d21ebc523c",
+    "bytes": 107576,
+    "han_count": 31165,
+    "han_count_method": "Count Unicode characters U+3400 through U+9FFF over the complete Markdown file, including headings, tables, references, and links."
+  },
+  "checks": {
+    "second_level_sections": 5,
+    "opening_case_headings": 5,
+    "references": 4,
+    "uncited_references": [],
+    "citations_without_reference": [],
+    "image_links": 5,
+    "missing_images": [],
+    "school_specific_markers": [],
+    "trailing_whitespace_lines": [],
+    "evidence_recalculations": {
+      "exercise_E01_longest_path_one_days": 8,
+      "exercise_E01_longest_path_two_days": 8,
+      "exercise_E03_static_score": 19,
+      "exercise_E03_interactive_score": 14,
+      "exercise_E03_embedded_score": 12,
+      "exercise_E03_sensitivity_static_score": 13,
+      "exercise_E03_sensitivity_interactive_score": 17,
+      "exercise_E03_sensitivity_embedded_score": 12
+    }
+  },
+  "case_identity": "The five first-subsection cases are marked as teaching simulations; the chapter-end exhibition remains an integrated practice task.",
+  "remaining_parent_scope": [
+    "Independent professional and teaching review",
+    "Word/PDF generation and final page review",
+    "Current Harness check/review/accept and progress-record update"
+  ]
+}

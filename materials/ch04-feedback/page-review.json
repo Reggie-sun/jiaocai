@@ -1,0 +1,978 @@
+{
+  "chapter": 4,
+  "source_sha256": "295271f53a96f9df77a17cb631c16aa596af938a87bce441f71002c0f545d8dd",
+  "docx_sha256": "a295e631da6e64508aeb8aef1478df345953b8127f1a06ed3347052ea3ffab0b",
+  "pdf_sha256": "d3bace9d1b9d8e91be6a85579746478e5c31d43513c18a85d60d69457eaeb2e4",
+  "pages": 74,
+  "archive": "materials/ch04-feedback/final-pages.zip",
+  "archive_sha256": "8f28c6640b03050aef326925f51a8fe1796b4aadcbcccdbc9ecfe187de3c7f16",
+  "png_manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+  "fresh_actual_page_observations": 74,
+  "inherited_identical_png_pages": 0,
+  "unviewed_final_page_bytes": [],
+  "rows": [
+    {
+      "page": 1,
+      "sha256": "41dfaef60ffb3e77d82e6f078376fd9dbedcae0f9e19c18647cdb125ee26e6cc",
+      "archive_member": "page-1.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 2,
+      "sha256": "b8ddf409fa93781be5714fab5102b45ca3c7d69f2ef916703b468041ffdd26c1",
+      "archive_member": "page-2.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 3,
+      "sha256": "3c93c89e536ac79439b2781e94e5cbc75843fb90e281d7f74f1ab0e5237f97d6",
+      "archive_member": "page-3.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 4,
+      "sha256": "c9f9e15b16e7f571e579d04615b802f6b7dcd6be81603bb8594e5310e774e699",
+      "archive_member": "page-4.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 5,
+      "sha256": "d8cf0ff60cada31d7b3f58700244b862e0d9e3430823f465c6b1d0dd7a9d7f59",
+      "archive_member": "page-5.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 6,
+      "sha256": "917cf1f5871b76b63f923b340fb607ee161bc7ee224e150d89da557fa8220590",
+      "archive_member": "page-6.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 7,
+      "sha256": "2959d8c24aafcbd49ddee12a64580238eb70f377a8ef98ef6e5525daae21cc5a",
+      "archive_member": "page-7.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 8,
+      "sha256": "e88816167115d9bc9143921821bbc258e01965bd9e83d41096f52c6cf00616c8",
+      "archive_member": "page-8.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 9,
+      "sha256": "927cbac93d0df2191eeac8a8b3dda0c6efdaf75b8e3da34c56e9f079e57ae68d",
+      "archive_member": "page-9.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 10,
+      "sha256": "752afb81318adad116b9cdf4400980db18690417db9092f0b710ecaf645b9087",
+      "archive_member": "page-10.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 11,
+      "sha256": "becd657c58344e358d2527de1f97a841db4a23c904479fb21280722fddcfc87d",
+      "archive_member": "page-11.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 12,
+      "sha256": "c343f66f9dec140bcce1eecf74632af3ea12fbafd84572a276ff2c7174c52d03",
+      "archive_member": "page-12.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 13,
+      "sha256": "ebbf2d672ecc05fabb2a6097cf8917341b38c41c1ed772637e16b85319c58920",
+      "archive_member": "page-13.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 14,
+      "sha256": "1eb3f476e74228a928be370007873837e112ffb24cf1eef93cda44868f949d86",
+      "archive_member": "page-14.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 15,
+      "sha256": "4babfe83fd9e68cf66b98ff437ed7d40f756632655a1263013f32233302cd5d3",
+      "archive_member": "page-15.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 16,
+      "sha256": "4a93ac1ead7aeecf3934148576fb06cd4847fa63a38aefb6e6b740900633c121",
+      "archive_member": "page-16.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 17,
+      "sha256": "d1a9c41fd67c1c55067fb5816794e7d3303ac97bd33c62e26fae860f650b43f1",
+      "archive_member": "page-17.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 18,
+      "sha256": "355b728648029ebb39563d59e8f295cffd97f2fa4a0da00fa8e52c57a18c9cfe",
+      "archive_member": "page-18.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 19,
+      "sha256": "afe938dfc7432fbade491fbbf18dfcfe1a45024f2812494433ebcdc7863d8c1a",
+      "archive_member": "page-19.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 20,
+      "sha256": "c15f29024e3a23ce91f58cc492837bdb43bfb2c2d679c373069f619d746d3704",
+      "archive_member": "page-20.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 21,
+      "sha256": "b1aa458eeb7585eb1fb2f8fb78eac2b8c7676f42798fd328cb129c81a24691e9",
+      "archive_member": "page-21.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 22,
+      "sha256": "25dc0a9c2b97584d35aaa1a42cb8bdd5c4d49d8274dac72a97040fece4539664",
+      "archive_member": "page-22.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 23,
+      "sha256": "fa0cde7b9bffc37bd7d1fc58dc4ab73d324ffd6fc1cbd206570efc425d7b7812",
+      "archive_member": "page-23.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 24,
+      "sha256": "4f3be0ab979cae1090c592cdc386fee4c970489783e2cd0f9085e708090aebe4",
+      "archive_member": "page-24.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 25,
+      "sha256": "c0cee96d30610cffd63031b8623247cd30719cffb7d8e7a4dafc4e3c437496b9",
+      "archive_member": "page-25.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 26,
+      "sha256": "82227f3490215cba045d1727d7ea7da18558100c08a647c1180c572560cc5975",
+      "archive_member": "page-26.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 27,
+      "sha256": "e34c24153834642daa6cbe71633222eb8ed3a400ada8005079cdef247760a5df",
+      "archive_member": "page-27.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 28,
+      "sha256": "b87cfc25a67ba4f6e06e770c9b218378c9b0e372d602a34580ab5a52ce87287a",
+      "archive_member": "page-28.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 29,
+      "sha256": "b010cc9f648fee972aa8b4b040fcb0e673a218c9a02a6d502fc47f9ea7a30a90",
+      "archive_member": "page-29.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 30,
+      "sha256": "645c7143a4edbe9c376b92b80f499c029a35ffef1fb28460764167e1ce2f1836",
+      "archive_member": "page-30.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 31,
+      "sha256": "ed6fd97c621c89155420799f5ec7e58196719f9c4f77f9f43a83efed6400ce4f",
+      "archive_member": "page-31.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 32,
+      "sha256": "8cd9f4fbaa73dce5f486e9b09cab5accd822f654c8dfe1c20b9fb4be8b0b4735",
+      "archive_member": "page-32.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 33,
+      "sha256": "6eb01e2de344cde4106894a1b2528a1e66066a848fb1d98ed0c436b6432d8252",
+      "archive_member": "page-33.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 34,
+      "sha256": "61d2a7ad50196c92f3f6b815eae626e5f71382ebb2e39964bd35cd2121999d06",
+      "archive_member": "page-34.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 35,
+      "sha256": "b36764f970ae2b373298810fbc3ee21bb92805e75b240b5ec42193c50a5e165e",
+      "archive_member": "page-35.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 36,
+      "sha256": "472d50b66f5655cc8bfdfd2b8bfdc3d03f262f44d9f20fcf009cdac1d2288791",
+      "archive_member": "page-36.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 37,
+      "sha256": "cb0d5c57f19a4029d76e29f4343b4e7fdce2932c21f997ae772b136d6103c3db",
+      "archive_member": "page-37.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 38,
+      "sha256": "4e7039259953e542fcb645e7d87e02ea19b15e7bd22269d3c0c871fed8d05541",
+      "archive_member": "page-38.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 39,
+      "sha256": "19116715c1ae1c15fdbd8aec70408c7e5c10270ead1135d26e76302135312963",
+      "archive_member": "page-39.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 40,
+      "sha256": "52aa3d73ca0b4a244a5b5695794cdfd785831465ee9bba39808675d718bfb57b",
+      "archive_member": "page-40.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 41,
+      "sha256": "ff20e7e637c1e7a4f787c182021d6cfc876469ba29917e6835536b01f42114cb",
+      "archive_member": "page-41.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 42,
+      "sha256": "566e31f09570c9c4734f347d99e982f547d28e4a3ec7d3b28e4b31bc82f17534",
+      "archive_member": "page-42.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 43,
+      "sha256": "cd64045d29d52b09a4274766b94318e0b6a56b3ebb9e6bb3e61c44f83bd44bef",
+      "archive_member": "page-43.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 44,
+      "sha256": "fff3a876ee22247bc5aefce4df9d6ec19adb1cd6ee16c70fa5ba8111b11fe5fe",
+      "archive_member": "page-44.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 45,
+      "sha256": "5b26062ed0232578bbf51bdac08c66aa6f1ed04478057e4e04dd7607350fa9de",
+      "archive_member": "page-45.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 46,
+      "sha256": "3de84b5c09c54c8b47ad5da48f3e0d9aed571150a5c7a1e10fb5138efa95b6f8",
+      "archive_member": "page-46.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 47,
+      "sha256": "67fc98ecdc50a0c026d4fe623a570f42c5905d87049b23471bfc90a79d788427",
+      "archive_member": "page-47.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 48,
+      "sha256": "58e788f0c45bac7d537b16c5ae937cc6d79bac58935a52ca17f800ff0695d596",
+      "archive_member": "page-48.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 49,
+      "sha256": "a53f2991c755adfc761475fbb8b2a57bbbd02179f744477837f3593468a5469a",
+      "archive_member": "page-49.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 50,
+      "sha256": "7a1ee481d066be5f8a3510ea78eefb81b27d05ceb2dd6a0a446bf83fa8deaedd",
+      "archive_member": "page-50.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 51,
+      "sha256": "8ffb57c72b434cf44525bba06e26f81bd9eb72cd828af2dba4793638b0080ed4",
+      "archive_member": "page-51.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 52,
+      "sha256": "e2ee479d571fd2d6ad887fea60a46cfd3fa18bc4f0bf1481b6ed7243449c01ac",
+      "archive_member": "page-52.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 53,
+      "sha256": "e975c6b22ea12f0c91d5195e4105ea03e1f48c9cb172051e24ae2e8b594f9012",
+      "archive_member": "page-53.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 54,
+      "sha256": "b0d371e1d4932436b50db44746770a1af593f3757c48d867b933bd1b2f78f8da",
+      "archive_member": "page-54.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 55,
+      "sha256": "756fd8fe2a88eaffabc7084e4e8c277fc603bdb6aa9c6ae5c2716bddd18c7d79",
+      "archive_member": "page-55.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 56,
+      "sha256": "22e363a78d0bf4aa3624850e3a64e55c078e28bd97dd07468d85bdeee3da51f8",
+      "archive_member": "page-56.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 57,
+      "sha256": "ee452cb90a687be04697e54657a595a058e0a1851bdcd17d342addf624879d6c",
+      "archive_member": "page-57.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 58,
+      "sha256": "d3711cb944aa67c198fcca6c3db8550e5850fd3b343cc681d03e859dbfccfdb3",
+      "archive_member": "page-58.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 59,
+      "sha256": "a02a0389acecf4c5497f9360e740cc32a398bb655a75ab10ee10f5e436042fc0",
+      "archive_member": "page-59.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 60,
+      "sha256": "74b9f652fd0e4019baa83c0b32143c7b18210c9822a8ff1c3fa8cfdcccf38afb",
+      "archive_member": "page-60.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 61,
+      "sha256": "c84b8d1a838b3aa76bc538865dbae31377b3894d3c6ef2abed620ecede19e327",
+      "archive_member": "page-61.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 62,
+      "sha256": "d16470c12ec83feab7b1c159e7813dd14194d1fec00943d60f173435b06d2757",
+      "archive_member": "page-62.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 63,
+      "sha256": "cde85e9be4e982f230b4c2a1fd9beded75a85062fc5f1b9a5fd7b33916983006",
+      "archive_member": "page-63.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 64,
+      "sha256": "4dca6fdb3286350c09b78a647c3a989e2308b628adcf182abcf0cc35da3590a7",
+      "archive_member": "page-64.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 65,
+      "sha256": "b76052b962a52be30533c0581fe053a5845f1f14577e7d34fcd4c28ef2170d17",
+      "archive_member": "page-65.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 66,
+      "sha256": "6bb77ad762d74e9da337fa1b351ca9014a0f7a57493e8bfcecc366eb7439f373",
+      "archive_member": "page-66.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 67,
+      "sha256": "5c6f281bebcecdc41588e012dfc2e1449c5ef46702e1ad2414f05492e0551136",
+      "archive_member": "page-67.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 68,
+      "sha256": "b27c27a6d35a433c03ffcf9fafca7d26188051b9a9105d2914911c6b88998075",
+      "archive_member": "page-68.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 69,
+      "sha256": "30261380e439f637d822e95a1b481a7ace5375ba56ea5183f292a9a069a612bc",
+      "archive_member": "page-69.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 70,
+      "sha256": "58915cebc5c8971be481b8287c3f261ffc4dd9cb3543cfbfae7e04de5bc5a301",
+      "archive_member": "page-70.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 71,
+      "sha256": "f0a0eabc469c065ea93ecc33e31e226390d46cea733f688a75f04bab221a5667",
+      "archive_member": "page-71.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 72,
+      "sha256": "f9125c0e8cfb072d9a85b65b4ef23b415c91fe39cca838c7f8073517070916aa",
+      "archive_member": "page-72.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 73,
+      "sha256": "f8f9e3edc316535ef930695a43cc2cc81c8f226d3998ecf3b5ff9e3227298505",
+      "archive_member": "page-73.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 74,
+      "sha256": "108c7202c6cad719e50181a551d77c5caf3e80c685a9fa1956a946509fbc67aa",
+      "archive_member": "page-74.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_teaching",
+        "manifest_sha256": "4a0d49effc84fc7ea5be498b4ce35e1a2cdfc01796d75db346437bb3f8f92c4b",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    }
+  ],
+  "limits": "Actual rendered-image observations reported by named reader, sealed by Parent. Word-native refresh, physical print and teacher/student acceptance untested."
+}

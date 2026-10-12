@@ -1,0 +1,14 @@
+{
+  "baseline": "manuscripts/ch01-03-review/ch01.md",
+  "baseline_sha256": "8c0e23d6115f02de3133712c7d1114cd0c22a4e9810d88a7f30e921b33534636",
+  "changes": [],
+  "source_scan_terms": [
+    "西南财经",
+    "西南财大",
+    "西财",
+    "本校",
+    "学校名称"
+  ],
+  "result": "无学校专属定位；一般导入、目标及路线保留",
+  "no_change_body_inherited": true
+}

@@ -2,6 +2,8 @@
 
 ## Goal and Current Authorization
 
+2026-10-12，用户随后明确“实现”，当前进入M1—M5实施。M0与下段AB自然停止点作为前一轮历史保留；按互斥章路径分配writer，Parent负责第1/3/8/10章、共享交付、裁决和最终验收。无需再次请求执行确认。
+
 按[修订Spec](../specs/revision-feedback.spec.md)落实截图反馈。当前用户选择 `AB`，因此本轮只完成反馈清单、项目要求和相关Spec/Plan更新及其文档验证；M1—M5正文工作未启动，列作后续执行路线，不借本计划扩展当前授权。
 
 Native Codex保留lifecycle与最终裁定。使用 `textbook-authoring` 维护教学契约，`superpowers:writing-plans`提供计划自审，`external-subagent`承担一次受管只读源mapping；不升级完整workflow、不创建worktree、不叠加Spec/Plan reviewer。

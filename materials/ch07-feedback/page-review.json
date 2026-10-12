@@ -1,0 +1,663 @@
+{
+  "chapter": 7,
+  "source_sha256": "6bfc2b4cb8a5e13cffdb235982803ac3056197c728d9c6460312dfa50c2d2721",
+  "docx_sha256": "30d6343036ee210f0e8718d95e39ab18ecbdfe024edd72012c8a10eac609d48c",
+  "pdf_sha256": "96a64e552f77d7e7e8d547bb4e0cc6b724f875ff145b605cbf70b7a34c849aa6",
+  "pages": 64,
+  "archive": "materials/ch07-feedback/final-pages.zip",
+  "archive_sha256": "f9731b47bef5f5ca3dded13b7e5569fdb1a7ddaa66cb8e9947ac4936c75ba5d7",
+  "fresh_actual_page_observations": 64,
+  "inherited_identical_png_pages": 0,
+  "unviewed_final_page_bytes": [],
+  "rows": [
+    {
+      "page": 1,
+      "file": "page-1.png",
+      "sha256": "0cb851f209033338642348ea9fc2d3e2e0e51c7c35955628c82b857185aa75e2",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 2,
+      "file": "page-2.png",
+      "sha256": "5e5549869e58f4f88de053e26d45a4aa325f67075bef61021ad27acf18eba74a",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 3,
+      "file": "page-3.png",
+      "sha256": "60d5467811be0d0208c342fd3268ed36c097afaad944310bed88704a88a3fa4d",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 4,
+      "file": "page-4.png",
+      "sha256": "cbd993962a02d313b887fed390497cbf76f4f7bec34450fc83c4aff0559ed4ef",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 5,
+      "file": "page-5.png",
+      "sha256": "d6293001ab23ed0256a3268f2a209910600bc436437c216f752933c492c1fef9",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 6,
+      "file": "page-6.png",
+      "sha256": "1db8f10fa42a65f98db3985e20aec7569940f3e4f9f11b7de6d2bc18dd385776",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 7,
+      "file": "page-7.png",
+      "sha256": "79bd68fc56a4b10dd01f9a7272ef76ccb72b6c495c9b24db726a21a53774ddcd",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 8,
+      "file": "page-8.png",
+      "sha256": "113573c6eb7f03c1c7684ddc09f658ead3ba3dceeaad2f019135a47918943cbf",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 9,
+      "file": "page-9.png",
+      "sha256": "77489baf9824b0b5e358c72dfba9817708cb1c661defdc1a70eef5317024c54b",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 10,
+      "file": "page-10.png",
+      "sha256": "43aa9ea586f5379a6f2a5947f7f9ae9b187db9443ae45a2636c5e9ec655107e5",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 11,
+      "file": "page-11.png",
+      "sha256": "e4097ae5b3e7de4520b1cf9ac5b21ea3d581514cdc0143808131c3811a69303d",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 12,
+      "file": "page-12.png",
+      "sha256": "b35be125d4fdf1abc0bce261089b80e8992707d10e6e6b2220cc82a1d4d938af",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 13,
+      "file": "page-13.png",
+      "sha256": "190297a26844d72f93415daa25460b3d2a3fd68969862c8c5dc894690eb92ee3",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 14,
+      "file": "page-14.png",
+      "sha256": "3c76718716c20c2a2235be5ef00410f7b5eea1c22b2f8a949d13956d2fe1ad77",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 15,
+      "file": "page-15.png",
+      "sha256": "b8c3e358feea8fb267777f13018f16442ab60803852eb4db086185dd70b4d665",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 16,
+      "file": "page-16.png",
+      "sha256": "20bcf7de13acb1e2e1ab824dbbbeeba8b14f4c4ffe01c2a3fc3d7c255132a2bb",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 17,
+      "file": "page-17.png",
+      "sha256": "353fed422565e39771ee5219b13485abf20954036ab25a37968338cf3a4ad909",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 18,
+      "file": "page-18.png",
+      "sha256": "9cbd87437a3e6a88677f2a77d8c0007b4292f1586afb02dcfbb2a3d13dd9abeb",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 19,
+      "file": "page-19.png",
+      "sha256": "eb684c19ceee371430499be25f5d6cd9d3344fd446a28916d7b11f7189fa89ee",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 20,
+      "file": "page-20.png",
+      "sha256": "c180ba1f0fd75e6536270872bf1dcf1e9073106964bb82ac1b6f22a1636a7433",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 21,
+      "file": "page-21.png",
+      "sha256": "bb462e75134d4b9db0abffa71195a0f8e79b63785ef3e5f4bd86773d37d13318",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 22,
+      "file": "page-22.png",
+      "sha256": "841f4e4e44db8a420f2e4922e4f64a8aa849d7cfa7aac3f546cdc62620e2d699",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 23,
+      "file": "page-23.png",
+      "sha256": "440fb5ce174268a644aa8cf3ef5d4e12afa687ee1b17c5b08d400545f510867f",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 24,
+      "file": "page-24.png",
+      "sha256": "05747cb27331d14ae2e3f90b47e0486ca84e0cc851674d19b8055be9df248061",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 25,
+      "file": "page-25.png",
+      "sha256": "10a40413f1481cd86118a93eeedb9ff5159e848f944d61fb0377256961d09fb2",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 26,
+      "file": "page-26.png",
+      "sha256": "4b81466aeb37e902fd9032e63154a6f7ac93bd58f529d784885b86943707de9e",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 27,
+      "file": "page-27.png",
+      "sha256": "05cc278df49e812c47264ee55149126f4fc5cd1d55c467ecab206fab23205e32",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 28,
+      "file": "page-28.png",
+      "sha256": "4f334e2235b33363ed70442bf840e1c60f7f694c45b8f776901d5f7db2d41b72",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 29,
+      "file": "page-29.png",
+      "sha256": "071c6199f0467c2564d6c20add5ad9320543287977eeb831e8ddde54f5d9c1dc",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 30,
+      "file": "page-30.png",
+      "sha256": "8fa78a7d8f9ea352ca07c6e60ae8d626501d265eca265108c673ce1bf7673888",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 31,
+      "file": "page-31.png",
+      "sha256": "600abf3eb7404c88120994b254139eb52265c092e854f49a443c944201f54546",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 32,
+      "file": "page-32.png",
+      "sha256": "86adde3c7f4246191cd1d731c2f105f569e801b5f810998dc9db85514bed2f5c",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 33,
+      "file": "page-33.png",
+      "sha256": "1c4a60028334192f3ee057df516af9f5e0c33cd43bb7fbd2ffe3307079b49c54",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 34,
+      "file": "page-34.png",
+      "sha256": "64aa6cfc8fe3d3cf6093de2ec3f59dbebbdf08bcced38e9a14d42afc377d1196",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 35,
+      "file": "page-35.png",
+      "sha256": "2d17bda09aa2b11fadd7db7608b549d0989ba728e17aa042eded6eecf5611014",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 36,
+      "file": "page-36.png",
+      "sha256": "edae1e877abbba19b4d996e2c45130b70f760deb293a2ebb7e9f5c69f47ca899",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 37,
+      "file": "page-37.png",
+      "sha256": "3bca233d17e7763c596b2c5cfaa0bfc36373becfc5abaa064f4bb42eeb7977b0",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 38,
+      "file": "page-38.png",
+      "sha256": "0578925d9298532d5952ed610653a4251b219c0809223dac7e6a28e66a2d0517",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 39,
+      "file": "page-39.png",
+      "sha256": "9addb876c8e471c5bc6a60c7e091473f7ad5b92f66b3e9e91cd8e9e2913b23ed",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 40,
+      "file": "page-40.png",
+      "sha256": "498f41d6b878d9d311a2dc42c8b7498a888b0f24f53c18fa85d0e4d86fbc950d",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 41,
+      "file": "page-41.png",
+      "sha256": "69b0da1923e9d8d53ed0f63277008a077eec473763cba48e16bd7eb248ba8f98",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 42,
+      "file": "page-42.png",
+      "sha256": "8b47ed923c9c98e3e1f9689ca25578e224b8ad81bc19017b9f16b2b44d66ed17",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 43,
+      "file": "page-43.png",
+      "sha256": "b6ed525825048c15dd600054fc4f1cb6d1b5b739cae230c2936db5b74e5690cf",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 44,
+      "file": "page-44.png",
+      "sha256": "d2d33cbdf078a8e3e600de9355eaaf1267a3ff8af912147f0a4ff0903a0365aa",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 45,
+      "file": "page-45.png",
+      "sha256": "a2822a970397a0a3394e7af62d80272ff6af8ea61136f7c4600c350b5430ae82",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 46,
+      "file": "page-46.png",
+      "sha256": "34a9f76758a23cade700972d2ef95eb7bc462557538ad6b92f6619f614678645",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 47,
+      "file": "page-47.png",
+      "sha256": "eef66e70115cc7e43cb287cc5aa353e02da93a88852db61120bf457a7356b18c",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 48,
+      "file": "page-48.png",
+      "sha256": "9f26f1299b4decad17c6a8d1c6eb7b7f93e0eb7d9c0ae7665687f0a7110aba96",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 49,
+      "file": "page-49.png",
+      "sha256": "3734044f6447b45abb7308b4e60fb1505481fb85c7f5dfcaefb9fac0dd654f11",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 50,
+      "file": "page-50.png",
+      "sha256": "4b745af116a6b45ef7210fe7d06d69fb81994147e9c7af3e39ba1905bea20316",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 51,
+      "file": "page-51.png",
+      "sha256": "978e1547e5d298fab46b358dd9851a09951ec9895de5f8f7b94c251d9f3d419e",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 52,
+      "file": "page-52.png",
+      "sha256": "7c4dce1204e524466a9ca75362d80d19855b98427a8cc69270dd83578923ab48",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 53,
+      "file": "page-53.png",
+      "sha256": "0f14d57c2a523305cef8ca7c6c364693b386a0e320703a64ccc4c7299b9fc068",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 54,
+      "file": "page-54.png",
+      "sha256": "77431b825f6e57f4241b4397f91045cbf50e30e3ba85ce4b1314902079c12944",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 55,
+      "file": "page-55.png",
+      "sha256": "3ae1c9bd929af1d080238dc1de9274e58ef95261decb7ab84a702f761377b5b2",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 56,
+      "file": "page-56.png",
+      "sha256": "969ce3ada55f6e59ddadcbc030726d864fb84d85bfd2c6b14209e8a9d584382a",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 57,
+      "file": "page-57.png",
+      "sha256": "afb2eaf3fbd9a99d1ad506e45c3fb9758396dd8ec7a5699cfc91ea2fa51674d8",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 58,
+      "file": "page-58.png",
+      "sha256": "3dfdceebe1de57e811e64d7f7417e0ec9f527af6a78da3a38f6b547cb754528f",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 59,
+      "file": "page-59.png",
+      "sha256": "9c5f5801d9268b8d7688945b7f7933efeb8be9910a9e74053b0e16edecac6eba",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 60,
+      "file": "page-60.png",
+      "sha256": "3c83cd3f8d1dc1a7ddb51b86d25620714706c1a867b20f4f22816d0cc2f1d18a",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 61,
+      "file": "page-61.png",
+      "sha256": "b6e8b6b0293d388d4a1305d28ddc17f59a1bdea38c7403f94358d1e4cb382e61",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 62,
+      "file": "page-62.png",
+      "sha256": "ffde10293e54925ab171af26285f3bb2168bda22d1ed9ab5880e82267f448421",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 63,
+      "file": "page-63.png",
+      "sha256": "c63e018c2694aa4beb7e80e9d1d3687ed7992d356b9adb7db6373a6c36cfe411",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened and reviewed. Text and page number are legible; no clipping, overlap, broken table row, or orphan heading was observed. Figure/table details and captions are readable where present."
+    },
+    {
+      "page": 64,
+      "file": "page-64.png",
+      "sha256": "0e080d48461d162d48aa6928945a694c44951d347affd3d053a4f69f216131ee",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "Full-size PNG was actually opened. Final reference [14] is complete and readable; it occupies the last page with a large blank area below. Parent accepted this as non-blocking natural overflow for later whole-book layout review; no clipping or orphan heading."
+    }
+  ],
+  "observations": "Every final r2 PNG was individually opened with view_image at original resolution and reviewed.",
+  "accepted_nonblocking_findings": [
+    {
+      "page": 64,
+      "finding": "The final complete reference occupies a mostly blank last page.",
+      "disposition": "Parent accepted as natural overflow; consider only during future whole-book layout harmonization."
+    }
+  ],
+  "limits": "This review covers rendered PNG appearance only. Word-native field refresh, physical printing, and student/teacher acceptance were not tested."
+}

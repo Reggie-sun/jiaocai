@@ -1,0 +1,627 @@
+{
+  "checks": "PASS",
+  "chapter": 2,
+  "han_characters_approx": 39225,
+  "pages": 86,
+  "tables": 15,
+  "figures": 8,
+  "references": 28,
+  "native_reference_fields": 26,
+  "source_sha256": "74b8f08349387aaf32f13623e27275dea74af5f92790a5334ead3d1dcc5a9a87",
+  "docx_sha256": "eb51857594b815f287f082fd5cebb25af5e34f8c61e78758b21382c0fce7d228",
+  "pdf_sha256": "b31590eb510b6ebd858f421c5cf19200b0081b93ba24ee9bdbfd24c2ed44721e",
+  "toc_pages": {
+    "2.1 抽象 (Abstraction)：数据本质的智能萃取": 4,
+    "2.2 分解 (Decomposition)：复杂问题的AI分层破解": 15,
+    "2.3 模式识别 (Pattern Recognition)：深度学习的隐规律挖掘": 28,
+    "2.4 算法设计 (Algorithm Design)：从人工逻辑到数据驱动优化": 42,
+    "2.5 评估与优化 (Evaluation & Optimization)：AI赋能的闭环进化系统": 55,
+    "章末综合训练": 68,
+    "本章回顾": 71,
+    "关键术语": 72,
+    "参考解与讨论": 73,
+    "参考文献": 83
+  },
+  "toc_cache_matches_actual_pages": true,
+  "figure_pages": {
+    "图2-1": 7,
+    "图2-2": 12,
+    "图2-3": 19,
+    "图2-4": 37,
+    "图2-5": 39,
+    "图2-6": 48,
+    "图2-7": 58,
+    "图2-8": 69
+  },
+  "embedded_fonts": [
+    "/BAAAAA+NotoSansCJKsc-Regular",
+    "/CAAAAA+NotoSansCJKsc-Bold",
+    "/DAAAAA+NotoSerifCJKsc-Regular",
+    "/EAAAAA+NotoSerifCJKsc-Regular",
+    "/FAAAAA+NotoSerifCJKsc-Bold",
+    "/GAAAAA+NotoSansCJKsc-Bold",
+    "/HAAAAA+NotoSansCJKsc-Bold",
+    "/IAAAAA+NotoSerifCJKsc-Regular",
+    "/JAAAAA+NotoSerifCJKsc-Regular",
+    "/KAAAAA+NotoSerifCJKsc-Regular",
+    "/LAAAAA+NotoSerifCJKsc-Bold",
+    "/MAAAAA+NotoSans-Regular",
+    "/NAAAAA+NotoSerifCJKsc-Regular",
+    "/OAAAAA+NotoSerifCJKsc-Regular",
+    "/PAAAAA+NotoSerifCJKsc-Regular",
+    "/QAAAAA+NotoSansCJKsc-Bold"
+  ],
+  "page_extents": [
+    {
+      "page": 1,
+      "body_top": 84.5,
+      "body_bottom": 750.6,
+      "images": 0
+    },
+    {
+      "page": 2,
+      "body_top": 79.8,
+      "body_bottom": 715.9,
+      "images": 0
+    },
+    {
+      "page": 3,
+      "body_top": 83.0,
+      "body_bottom": 437.5,
+      "images": 0
+    },
+    {
+      "page": 4,
+      "body_top": 95.0,
+      "body_bottom": 768.9,
+      "images": 0
+    },
+    {
+      "page": 5,
+      "body_top": 79.8,
+      "body_bottom": 706.8,
+      "images": 0
+    },
+    {
+      "page": 6,
+      "body_top": 79.8,
+      "body_bottom": 769.2,
+      "images": 0
+    },
+    {
+      "page": 7,
+      "body_top": 79.8,
+      "body_bottom": 670.0,
+      "images": 1
+    },
+    {
+      "page": 8,
+      "body_top": 81.5,
+      "body_bottom": 760.5,
+      "images": 0
+    },
+    {
+      "page": 9,
+      "body_top": 79.8,
+      "body_bottom": 706.8,
+      "images": 0
+    },
+    {
+      "page": 10,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 11,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 12,
+      "body_top": 79.8,
+      "body_bottom": 736.3,
+      "images": 1
+    },
+    {
+      "page": 13,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 14,
+      "body_top": 78.7,
+      "body_bottom": 711.7,
+      "images": 0
+    },
+    {
+      "page": 15,
+      "body_top": 79.8,
+      "body_bottom": 768.9,
+      "images": 0
+    },
+    {
+      "page": 16,
+      "body_top": 79.8,
+      "body_bottom": 706.8,
+      "images": 0
+    },
+    {
+      "page": 17,
+      "body_top": 79.8,
+      "body_bottom": 745.7,
+      "images": 0
+    },
+    {
+      "page": 18,
+      "body_top": 79.8,
+      "body_bottom": 650.2,
+      "images": 0
+    },
+    {
+      "page": 19,
+      "body_top": 372.7,
+      "body_bottom": 757.0,
+      "images": 1
+    },
+    {
+      "page": 20,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 21,
+      "body_top": 81.5,
+      "body_bottom": 727.7,
+      "images": 0
+    },
+    {
+      "page": 22,
+      "body_top": 79.8,
+      "body_bottom": 715.9,
+      "images": 0
+    },
+    {
+      "page": 23,
+      "body_top": 79.8,
+      "body_bottom": 706.8,
+      "images": 0
+    },
+    {
+      "page": 24,
+      "body_top": 79.8,
+      "body_bottom": 715.9,
+      "images": 0
+    },
+    {
+      "page": 25,
+      "body_top": 79.8,
+      "body_bottom": 617.4,
+      "images": 0
+    },
+    {
+      "page": 26,
+      "body_top": 81.5,
+      "body_bottom": 753.7,
+      "images": 0
+    },
+    {
+      "page": 27,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 28,
+      "body_top": 79.8,
+      "body_bottom": 747.3,
+      "images": 0
+    },
+    {
+      "page": 29,
+      "body_top": 79.8,
+      "body_bottom": 754.8,
+      "images": 0
+    },
+    {
+      "page": 30,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 31,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 32,
+      "body_top": 79.8,
+      "body_bottom": 755.6,
+      "images": 0
+    },
+    {
+      "page": 33,
+      "body_top": 83.2,
+      "body_bottom": 760.8,
+      "images": 0
+    },
+    {
+      "page": 34,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 35,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 36,
+      "body_top": 79.8,
+      "body_bottom": 551.7,
+      "images": 0
+    },
+    {
+      "page": 37,
+      "body_top": 431.3,
+      "body_bottom": 717.1,
+      "images": 1
+    },
+    {
+      "page": 38,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 39,
+      "body_top": 79.8,
+      "body_bottom": 714.7,
+      "images": 1
+    },
+    {
+      "page": 40,
+      "body_top": 79.8,
+      "body_bottom": 753.3,
+      "images": 0
+    },
+    {
+      "page": 41,
+      "body_top": 79.8,
+      "body_bottom": 715.9,
+      "images": 0
+    },
+    {
+      "page": 42,
+      "body_top": 81.5,
+      "body_bottom": 768.2,
+      "images": 0
+    },
+    {
+      "page": 43,
+      "body_top": 81.5,
+      "body_bottom": 727.7,
+      "images": 0
+    },
+    {
+      "page": 44,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 45,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 46,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 47,
+      "body_top": 79.8,
+      "body_bottom": 453.1,
+      "images": 0
+    },
+    {
+      "page": 48,
+      "body_top": 363.0,
+      "body_bottom": 714.5,
+      "images": 1
+    },
+    {
+      "page": 49,
+      "body_top": 79.8,
+      "body_bottom": 683.1,
+      "images": 0
+    },
+    {
+      "page": 50,
+      "body_top": 81.5,
+      "body_bottom": 760.5,
+      "images": 0
+    },
+    {
+      "page": 51,
+      "body_top": 79.8,
+      "body_bottom": 715.9,
+      "images": 0
+    },
+    {
+      "page": 52,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 53,
+      "body_top": 81.5,
+      "body_bottom": 753.7,
+      "images": 0
+    },
+    {
+      "page": 54,
+      "body_top": 79.8,
+      "body_bottom": 683.1,
+      "images": 0
+    },
+    {
+      "page": 55,
+      "body_top": 81.5,
+      "body_bottom": 759.1,
+      "images": 0
+    },
+    {
+      "page": 56,
+      "body_top": 76.1,
+      "body_bottom": 584.5,
+      "images": 0
+    },
+    {
+      "page": 57,
+      "body_top": 78.7,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 58,
+      "body_top": 79.8,
+      "body_bottom": 759.6,
+      "images": 1
+    },
+    {
+      "page": 59,
+      "body_top": 79.8,
+      "body_bottom": 715.9,
+      "images": 0
+    },
+    {
+      "page": 60,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 61,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 62,
+      "body_top": 79.8,
+      "body_bottom": 726.3,
+      "images": 0
+    },
+    {
+      "page": 63,
+      "body_top": 79.8,
+      "body_bottom": 706.8,
+      "images": 0
+    },
+    {
+      "page": 64,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 65,
+      "body_top": 81.5,
+      "body_bottom": 727.7,
+      "images": 0
+    },
+    {
+      "page": 66,
+      "body_top": 79.8,
+      "body_bottom": 761.4,
+      "images": 0
+    },
+    {
+      "page": 67,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 68,
+      "body_top": 79.8,
+      "body_bottom": 756.8,
+      "images": 0
+    },
+    {
+      "page": 69,
+      "body_top": 83.2,
+      "body_bottom": 744.1,
+      "images": 1
+    },
+    {
+      "page": 70,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 71,
+      "body_top": 79.8,
+      "body_bottom": 745.2,
+      "images": 0
+    },
+    {
+      "page": 72,
+      "body_top": 79.8,
+      "body_bottom": 712.3,
+      "images": 0
+    },
+    {
+      "page": 73,
+      "body_top": 79.8,
+      "body_bottom": 712.3,
+      "images": 0
+    },
+    {
+      "page": 74,
+      "body_top": 79.8,
+      "body_bottom": 683.1,
+      "images": 0
+    },
+    {
+      "page": 75,
+      "body_top": 79.8,
+      "body_bottom": 715.9,
+      "images": 0
+    },
+    {
+      "page": 76,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 77,
+      "body_top": 79.8,
+      "body_bottom": 712.4,
+      "images": 0
+    },
+    {
+      "page": 78,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 79,
+      "body_top": 79.8,
+      "body_bottom": 647.7,
+      "images": 0
+    },
+    {
+      "page": 80,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 81,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 82,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 83,
+      "body_top": 79.8,
+      "body_bottom": 719.2,
+      "images": 0
+    },
+    {
+      "page": 84,
+      "body_top": 78.7,
+      "body_bottom": 708.9,
+      "images": 0
+    },
+    {
+      "page": 85,
+      "body_top": 78.7,
+      "body_bottom": 754.8,
+      "images": 0
+    },
+    {
+      "page": 86,
+      "body_top": 78.7,
+      "body_bottom": 456.4,
+      "images": 0
+    }
+  ],
+  "limits": "Correspondence and executable layout checks only; actual page observation and content review recorded separately. Word native refresh, printing, teacher/student acceptance untested.",
+  "preserve_only_parts_byte_identical": [
+    "_rels/.rels",
+    "docProps/app.xml",
+    "word/styles.xml",
+    "word/stylesWithEffects.xml",
+    "word/settings.xml",
+    "word/webSettings.xml",
+    "word/fontTable.xml",
+    "word/theme/theme1.xml",
+    "customXml/item1.xml",
+    "customXml/_rels/item1.xml.rels",
+    "customXml/itemProps1.xml",
+    "word/footer1.xml",
+    "docProps/thumbnail.jpeg"
+  ],
+  "answer_bookmarks": [
+    "E01",
+    "E02",
+    "E03",
+    "E04",
+    "E05",
+    "E06"
+  ],
+  "reference_first_use_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+  ],
+  "table_header_repeat_and_rows_keep_together": true
+}

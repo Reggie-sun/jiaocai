@@ -1,0 +1,40 @@
+{
+  "template": "templates/textbook-style-v1.0.dotx",
+  "template_sha256": "eef8ce505c3d9afb3493e61af1f38ee26bca6ff9a0aa12f7ad3e2a8cacad6473",
+  "manuscript_sha256": "74b8f08349387aaf32f13623e27275dea74af5f92790a5334ead3d1dcc5a9a87",
+  "docx_sha256": "eb51857594b815f287f082fd5cebb25af5e34f8c61e78758b21382c0fce7d228",
+  "style": "textbook-style-v1.0",
+  "toc_cached_pages": {
+    "2.1 抽象 (Abstraction)：数据本质的智能萃取": 4,
+    "2.2 分解 (Decomposition)：复杂问题的AI分层破解": 15,
+    "2.3 模式识别 (Pattern Recognition)：深度学习的隐规律挖掘": 28,
+    "2.4 算法设计 (Algorithm Design)：从人工逻辑到数据驱动优化": 42,
+    "2.5 评估与优化 (Evaluation & Optimization)：AI赋能的闭环进化系统": 55,
+    "章末综合训练": 68,
+    "本章回顾": 71,
+    "关键术语": 72,
+    "参考解与讨论": 73,
+    "参考文献": 83
+  },
+  "toc_headings": [
+    "2.1 抽象 (Abstraction)：数据本质的智能萃取",
+    "2.2 分解 (Decomposition)：复杂问题的AI分层破解",
+    "2.3 模式识别 (Pattern Recognition)：深度学习的隐规律挖掘",
+    "2.4 算法设计 (Algorithm Design)：从人工逻辑到数据驱动优化",
+    "2.5 评估与优化 (Evaluation & Optimization)：AI赋能的闭环进化系统",
+    "章末综合训练",
+    "本章回顾",
+    "关键术语",
+    "参考解与讨论",
+    "参考文献"
+  ],
+  "method": "Reused template styles and geometry; task-local chapter counter/numbering starts at2, header cache and six answer bookmarks; native SEQ/REF/TOC/PAGEREF/PAGE preserved. No final DOCX LibreOffice roundtrip.",
+  "word_native_execution": "NOT_EVALUATED",
+  "manuscript": "manuscripts/ch02-feedback-layout/ch02.md",
+  "unnumbered_lead_ins_keep_with_next": [
+    "基础",
+    "导语",
+    "应用",
+    "拓展"
+  ]
+}

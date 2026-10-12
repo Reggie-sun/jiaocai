@@ -1,0 +1,32 @@
+{
+  "invocation_id": "9ceaacc7-d090-43ae-bb4f-77b6bd9ad778",
+  "receipt_sha256": "dfcb73aed7dac3c1a74e3d29fc0410cbd058605ea0697e6ff45da037a04cbe3a",
+  "artifact_hashes_verified": {
+    "execution-view.json": {
+      "sha256": "86e963ce4a92e55c87dd9d1b3428a85ff72818c856cfa61185e1e879117ea4cf",
+      "bytes": 3163
+    },
+    "stdout.jsonl": {
+      "sha256": "deec649df137c74c0f9d7b4a32bef88f804aaac5fbcafbc00e72ba663240f6a6",
+      "bytes": 1751686
+    },
+    "stderr.txt": {
+      "sha256": "a135ab480d071b53b3d46164252c46b2e08e7b0f107f4d4e5120fda3feef150e",
+      "bytes": 73
+    },
+    "worker-report.json": {
+      "sha256": "13a1a1f35e06939547bda41db93be9bd0a7333d51e6739d0f98c07a20249743d",
+      "bytes": 8113
+    }
+  },
+  "actual_required_reads_verified": {
+    "/home/reggie/vscode_folder/jiaocai/materials/revision-implementation-20261012/notion-offline-primary.txt": "8a4caf6ef29ec9438e52f7474dfdc845eb9caa8f62f839491920b8e7ebd8d39f",
+    "/home/reggie/vscode_folder/jiaocai/materials/revision-implementation-20261012/siyuan-pricing-primary.txt": "e8aa418a53ef5771fc8d5c209d1d2a0c923d4a0741456e0731538e50f46ab5cb",
+    "/home/reggie/vscode_folder/jiaocai/materials/revision-implementation-20261012/mit-ocw-primary.txt": "66feeb59617a34051fbee825ace5d40b4b88e11d16b4a769788431222f9409bf",
+    "/home/reggie/vscode_folder/jiaocai/materials/revision-implementation-20261012/source-claims.txt": "604aa1cbfab7f646d02f352c53b0637ca9d023b2a78048335b96c87291f5542a"
+  },
+  "wire_requests": 2,
+  "identity": "authenticated endpoint declaration; provider-internal chain not observable",
+  "parent_decision": "accepted bounded evidence only; CH8V-03 clarified in current chapter; optional paid Notion auto-download detail omitted without contradicting general preparation advice",
+  "scope_limits": "Three official static projections only; not whole chapter or product login/nationwide connectivity/learner acceptance."
+}

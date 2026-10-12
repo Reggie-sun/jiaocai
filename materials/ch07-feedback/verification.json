@@ -1,0 +1,42 @@
+{
+  "chapter": 7,
+  "baseline": {
+    "path": "manuscripts/ch07-layout/ch07.md",
+    "sha256": "d879b469d757c58f4714ae2350a741fa183113d5b38a4b68b2361cc58a0d7fe8"
+  },
+  "deliverable": {
+    "path": "manuscripts/ch07-feedback/ch07.md",
+    "sha256": "f2f3899a220810a6276b419d48e35a8f78c639e3cc30f6b7f1fbe3cf9b361842",
+    "bytes": 107966,
+    "han_count": 30824,
+    "han_count_method": "Count Unicode characters U+3400 through U+9FFF over the complete Markdown file, including headings, tables, references, and links."
+  },
+  "checks": {
+    "second_level_sections": 5,
+    "opening_case_headings": 5,
+    "references": 14,
+    "uncited_references": [],
+    "citations_without_reference": [],
+    "image_links": 6,
+    "missing_images": [],
+    "school_specific_markers": [],
+    "trailing_whitespace_lines": [],
+    "evidence_recalculations": {
+      "section_7_4_start_average": 5.2,
+      "section_7_4_end_average": 6.0,
+      "section_7_4_mean_change": 0.8,
+      "exercise_E07_historical_mean_days": 2.5,
+      "exercise_E07_historical_median_days": 2.5
+    }
+  },
+  "source_check": {
+    "verified_on": "2026-10-12",
+    "official_primary_source": "https://news.stanford.edu/stories/2005/06/youve-got-find-love-jobs-says",
+    "scope": "The official prepared speech supports the events attributed to Jobs in the speech; it is not independent confirmation of Apple board deliberations or a complete corporate history."
+  },
+  "remaining_parent_scope": [
+    "Independent professional and teaching review",
+    "Word/PDF generation and final page review",
+    "Current Harness check/review/accept and progress-record update"
+  ]
+}

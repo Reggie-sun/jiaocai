@@ -1,0 +1,230 @@
+{
+  "artifacts": [
+    {
+      "media_type": "application/json",
+      "path": "execution-view.json",
+      "producer": "supervisor",
+      "redaction_count": 0,
+      "redaction_version": 1,
+      "representation": "filtered",
+      "sha256": "86e963ce4a92e55c87dd9d1b3428a85ff72818c856cfa61185e1e879117ea4cf",
+      "size": 3163
+    },
+    {
+      "media_type": "application/x-ndjson",
+      "path": "stdout.jsonl",
+      "producer": "supervisor",
+      "redaction_count": 0,
+      "redaction_version": 1,
+      "representation": "filtered",
+      "sha256": "deec649df137c74c0f9d7b4a32bef88f804aaac5fbcafbc00e72ba663240f6a6",
+      "size": 1751686
+    },
+    {
+      "media_type": "text/plain",
+      "path": "stderr.txt",
+      "producer": "supervisor",
+      "redaction_count": 0,
+      "redaction_version": 1,
+      "representation": "filtered",
+      "sha256": "a135ab480d071b53b3d46164252c46b2e08e7b0f107f4d4e5120fda3feef150e",
+      "size": 73
+    },
+    {
+      "media_type": "application/json",
+      "path": "worker-report.json",
+      "producer": "worker",
+      "redaction_count": 0,
+      "redaction_version": 1,
+      "representation": "filtered",
+      "sha256": "13a1a1f35e06939547bda41db93be9bd0a7333d51e6739d0f98c07a20249743d",
+      "size": 8113
+    }
+  ],
+  "attempt_id": "274e6ee6-2bb7-406d-bb3b-98fefc086c68",
+  "budgets": {
+    "context_bytes": 8388608,
+    "generation_tokens": 32000,
+    "idle_seconds": 1800,
+    "output_bytes": 16777216,
+    "request_limit": 64,
+    "wall_seconds": 3600
+  },
+  "classification": "PARSED",
+  "containment": {
+    "checks": {
+      "apparmor": true,
+      "capabilities_dropped": true,
+      "clean_environment": true,
+      "docker_socket_denied": true,
+      "external_network_denied": true,
+      "host_home_denied": true,
+      "host_ipc_denied": true,
+      "host_proc_denied": true,
+      "host_secret_denied": true,
+      "no_broker_in_test_domain": true,
+      "no_new_privileges": true,
+      "non_root": true,
+      "private_processes": true,
+      "root_write_denied": true,
+      "scratch_writable": true,
+      "sealed_read": true,
+      "seccomp": true,
+      "source_chmod_denied": true,
+      "source_write_denied": true,
+      "symlink_escape_denied": true
+    },
+    "image": "sha256:08efb085f717fe5792d7380a069c3f770422fa09770d904e6e2436e3706e0c85",
+    "live_identity": "NOT_EVALUATED",
+    "native_denials": [
+      "Read",
+      "Read",
+      "Bash",
+      "Task",
+      "mcp__evil__run"
+    ],
+    "native_tools": "VERIFIED",
+    "os_boundary_verified": true,
+    "primitive": "docker",
+    "project_access": true,
+    "proof": "synthetic_adversarial_execution",
+    "qualified": true,
+    "runtime_sha256": "722210f05ba494d8f6df69423c4d4f2960900f7a007d0532851c7a36e375cab7"
+  },
+  "contract_seal": "f1ab5c5c3ea63aa71a38a60f349409c95f05b4b303c439f0f3b6777fe608722a",
+  "evidence_kind": "live",
+  "fallback": "forbidden",
+  "finalized_at": "2026-10-12T10:19:38.404212+00:00",
+  "internal_retry_count": "unknown",
+  "invocation_id": "9ceaacc7-d090-43ae-bb4f-77b6bd9ad778",
+  "kind": "project-invocation",
+  "observations": [
+    {
+      "actual_cost": null,
+      "attempt_id": "27b46ef7-ad2b-4d95-a03f-bdfa97b0c614",
+      "budget_phase": "EXPLORE",
+      "classification": "IDENTITY_VERIFIED",
+      "client_request_sha256": "7fd994c19139459008d94468717a4c6f260d8092e4a496158740559dc9fc5126",
+      "duration_seconds": 21.952397722983733,
+      "effort": "max",
+      "generation_token_limit": 32000,
+      "http_status": 200,
+      "message_id": "msg_PwG8lyt5HzoLKZWSCjbnvQB1",
+      "proof": "authenticated_endpoint_declaration",
+      "request_max_tokens": 32000,
+      "request_model": "k3",
+      "request_number": 1,
+      "request_sha256": "2e2a7f461cfa68f3df78c87a183e70952fd8c1f36d6ff4f6ad77878d4b21a028",
+      "response_model": "k3",
+      "response_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "thinking": {
+        "type": "adaptive"
+      },
+      "upstream_bytes_received": 62459,
+      "upstream_host": "api.kimi.ai",
+      "upstream_request_id": "msg_PwG8lyt5HzoLKZWSCjbnvQB1",
+      "usage": {
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 2560,
+        "input_tokens": 6662,
+        "output_tokens": 561
+      },
+      "wire_started": true
+    },
+    {
+      "actual_cost": null,
+      "attempt_id": "789f9d92-8198-45b4-9ecc-f3c47c040054",
+      "budget_phase": "EXPLORE",
+      "classification": "IDENTITY_VERIFIED",
+      "client_request_sha256": "2a7844bcc4fc222d3b60478c126d4ab88d575b7492ffdc968c2b13e3c5760000",
+      "duration_seconds": 251.2018498450052,
+      "effort": "max",
+      "generation_token_limit": 32000,
+      "http_status": 200,
+      "message_id": "msg_o57FdKYAijVN2slBG1WiWAY2",
+      "proof": "authenticated_endpoint_declaration",
+      "request_max_tokens": 32000,
+      "request_model": "k3",
+      "request_number": 2,
+      "request_sha256": "403643744b6cb874f2dc07c70fb52b1a17dbb335880f650aa687df7cc6f27c39",
+      "response_model": "k3",
+      "response_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "thinking": {
+        "type": "adaptive"
+      },
+      "upstream_bytes_received": 1298433,
+      "upstream_host": "api.kimi.ai",
+      "upstream_request_id": "msg_o57FdKYAijVN2slBG1WiWAY2",
+      "usage": {
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 8960,
+        "input_tokens": 9565,
+        "output_tokens": 10337
+      },
+      "wire_started": true
+    }
+  ],
+  "observed_reads": [
+    {
+      "end_line": 87,
+      "native_tool_use_id": "tool_Dh7eLw4yX7znpKLEnOsi7OX9",
+      "path": "/home/reggie/vscode_folder/jiaocai/materials/revision-implementation-20261012/siyuan-pricing-primary.txt",
+      "sha256": "e8aa418a53ef5771fc8d5c209d1d2a0c923d4a0741456e0731538e50f46ab5cb",
+      "start_line": 1,
+      "status": "complete",
+      "truncated": false
+    },
+    {
+      "end_line": 42,
+      "native_tool_use_id": "tool_xPIiR7J6caQdSrNVUFwwMRim",
+      "path": "/home/reggie/vscode_folder/jiaocai/materials/revision-implementation-20261012/source-claims.txt",
+      "sha256": "604aa1cbfab7f646d02f352c53b0637ca9d023b2a78048335b96c87291f5542a",
+      "start_line": 1,
+      "status": "complete",
+      "truncated": false
+    },
+    {
+      "end_line": 252,
+      "native_tool_use_id": "tool_d7XO252eiArwleD9peFOAuZa",
+      "path": "/home/reggie/vscode_folder/jiaocai/materials/revision-implementation-20261012/notion-offline-primary.txt",
+      "sha256": "8a4caf6ef29ec9438e52f7474dfdc845eb9caa8f62f839491920b8e7ebd8d39f",
+      "start_line": 1,
+      "status": "complete",
+      "truncated": false
+    },
+    {
+      "end_line": 354,
+      "native_tool_use_id": "tool_OqnEKa4K5PaU97TZ0K75udEC",
+      "path": "/home/reggie/vscode_folder/jiaocai/materials/revision-implementation-20261012/mit-ocw-primary.txt",
+      "sha256": "66feeb59617a34051fbee825ace5d40b4b88e11d16b4a769788431222f9409bf",
+      "start_line": 1,
+      "status": "complete",
+      "truncated": false
+    }
+  ],
+  "orchestration_retries": 0,
+  "parent_acceptance": "NOT_EVALUATED",
+  "parent_session_id": "codex-jiaocai-revision-feedback-20261012",
+  "process": {
+    "descendants_terminated": false,
+    "duration_seconds": 274.4973156329943,
+    "exit_code": 0,
+    "reason": "exited",
+    "stderr_observed_bytes": 73,
+    "stdout_observed_bytes": 1751686,
+    "truncated": false
+  },
+  "report_format": "claude-json-schema-v1",
+  "route_qualification": {
+    "invocation_id": "4f2d5dc8-4234-4665-b382-e82f1ad6cc00",
+    "sha256": "5f3c17dcefcff35f54db521fa4c5435d8f9fb0b1da9ca4e108106a66cb767555"
+  },
+  "router": {
+    "source_sha256": "35618260d4f5b75cb19c929ee1511f2dfd5f63578b2b3bb0524957f034b6c705",
+    "version": "0.1.0"
+  },
+  "schema_version": 1,
+  "started_at": "2026-10-12T10:15:01.623546+00:00",
+  "task_id": "feedback-ch08-source-boundaries",
+  "wire_requests": 2
+}

@@ -1,0 +1,34 @@
+{
+  "template": "templates/textbook-style-v1.0.dotx",
+  "template_sha256": "eef8ce505c3d9afb3493e61af1f38ee26bca6ff9a0aa12f7ad3e2a8cacad6473",
+  "manuscript": "manuscripts/ch07-feedback-layout/ch07.md",
+  "manuscript_sha256": "6bfc2b4cb8a5e13cffdb235982803ac3056197c728d9c6460312dfa50c2d2721",
+  "docx_sha256": "30d6343036ee210f0e8718d95e39ab18ecbdfe024edd72012c8a10eac609d48c",
+  "style": "textbook-style-v1.0",
+  "toc_cached_pages": {
+    "7.1 固定型思维 vs 成长型思维：核心差异与神经科学基础。": 4,
+    "7.2 如何培养成长型思维：看待挑战、努力、批评、他人成功的方式转变。": 13,
+    "7.3 在技术学习和项目挫折中应用成长型思维。案例：知名技术领袖的失败与再起。": 23,
+    "7.4 “幸福公式”解析": 32,
+    "7.5 认知偏差与思维调整": 42,
+    "章末综合训练": 51,
+    "本章回顾": 53,
+    "关键术语": 55,
+    "参考解与讨论": 56,
+    "参考文献": 62
+  },
+  "toc_headings": [
+    "7.1 固定型思维 vs 成长型思维：核心差异与神经科学基础。",
+    "7.2 如何培养成长型思维：看待挑战、努力、批评、他人成功的方式转变。",
+    "7.3 在技术学习和项目挫折中应用成长型思维。案例：知名技术领袖的失败与再起。",
+    "7.4 “幸福公式”解析",
+    "7.5 认知偏差与思维调整",
+    "章末综合训练",
+    "本章回顾",
+    "关键术语",
+    "参考解与讨论",
+    "参考文献"
+  ],
+  "method": "Reused template styles and geometry; task-local chapter counter/numbering starts at the selected chapter, current header and answer bookmarks; native SEQ/REF/TOC/PAGEREF/PAGE preserved. No final DOCX LibreOffice roundtrip.",
+  "word_native_execution": "NOT_EVALUATED"
+}

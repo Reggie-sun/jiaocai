@@ -1,0 +1,251 @@
+URL: https://www.notion.com/help/use-pages-offline
+Date: 2026-10-12
+HTML sha256: 19d05a44963ee5e74d9ca90bf5e03ecdb2bbd5f628875c77c55edff5699bed39
+Scope: static HTML textual projection; login and national access not tested.
+
+Use Notion pages offline | Notion Help – Notion Help Center
+Product
+Features
+See all features
+→
+Capture
+Bring everything into one system of record.
+Find
+Get answers, instantly—with citations.
+Automate
+Keep work moving 24/7 with agents.
+.
+See what’s new
+→
+Download the
+Notion App
+→
+Resources
+Notion for
+Enterprise
+Small businesses
+Startups
+Developers
+Discover
+What's New
+Customer stories
+Webinars
+Templates
+Consultants
+Learn
+Academy
+Product tours
+Help Center
+Pricing
+Request a demo
+Log in
+Get Notion free
+Search help center
+Help Center
+Get started
+Notion basics
+Sidebar navigation
+Workspace basics
+Workspace settings
+Settings & preferences
+Create & format pages
+Pages & blocks
+Build databases
+Databases
+Database views
+Share & collaborate
+Sharing & permissions
+Notion Sites
+Automation & connections
+Import & export your data
+Connections
+Automations
+Work with Notion AI
+Notion AI
+Notion AI Connectors
+Agents in Notion
+Custom Agents
+External Agents
+Admin & security
+Administer your workspace
+Privacy & security
+Notion AI security
+Calendar & Apps
+Notion on desktop, web, & mobile
+Notion Calendar
+Get started on marketplace
+Marketplace & templates
+Manage your plan
+Notion credits
+Plans & billing
+Fix a problem
+Troubleshoot
+Developer Platform
+Explore developer tools
+Get certified
+Notion Academy
+Support
+Chat with us
+Join our community
+Find a consultant
+Help Center
+Pages & blocks
+← Pages & blocks
+Use pages offline
+In this help doc
+Capture your good ideas in Notion whenever — even when you’re in offline mode.
+Jump to FAQs
+Who can use pages offline?
+All workspace members on all plans can use pages offline. To do so, you’ll need to be using Notion’s desktop or mobile apps. This feature isn’t available on web browsers.
+If you’re on a paid plan, Notion automatically downloads your
+recently visited and favorited pages
+for offline use as well.
+Download pages for offline use
+Note:
+Currently, pages can be downloaded individually for offline use and, if you’re on a paid plan, your recently visited and favorited pages will automatically download for offline use as well.
+We’re continuing to expand offline capabilities — check back here or check our socials for the latest.
+To use Notion pages offline in Notion, you’ll need to download individual pages for offline use. To do this:
+Open the page you want to make available offline.
+Select
+•••
+at the top of the page.
+Toggle on
+Available offline
+.
+A progress bar will indicate that the page is downloading to your device, and when the progress bar is complete, your page will be ready to use offline!
+If you're on the Plus, Business, or Enterprise Plan, Notion automatically makes your
+recently visited and favorited pages
+available offline as well. To check which specific pages have been automatically downloaded, go to
+Settings
+→
+Offline
+.
+Note:
+Subpages of any downloaded pages won’t automatically download for offline use. Make sure to download any important subpages individually!
+Downloading databases for offline use
+When you download a database or a page containing a database,
+the first 50 rows of the first view
+of the database will also be downloaded for offline use. We’re continuing to make databases work even better offline.
+For the best offline experience with databases:
+Make sure the first view of your database is the one you use most often, or the one you want to use offline.
+Download any additional important rows after the first 50.
+What you can do while offline
+While offline, you can:
+Create new pages.
+View and edit downloaded pages and use all of the essential block types, with the exception of some advanced blocks that require an internet connection to work properly, such as:
+Embeds from other apps
+AI blocks
+Forms
+Buttons
+To check which block types are available to you while you’re offline, open the slash menu in your page. Certain block options will appear as unavailable until you’re back online.
+You won’t be able to share a page or edit permissions for a page while offline.
+Keeping your page up to date
+Regardless of how a page was made available offline (downloaded by you or downloaded by Notion), it will be automatically updated in the background. For example, if you marked a page as available offline on your phone, then update that page on desktop, your phone will automatically download the latest version for the next time you go offline.
+For the best experience with creating or editing pages while offline, we recommend that you connect to WiFi whenever you can to sync your changes.
+While Notion attempts to automatically resolve conflicts (edits made by several people at once) for text-based edits, note that there are still risks associated with conflicts related to non-text edits. For example, if two people update a select property in a database while they’re offline, only one update can ultimately be saved.
+Manage downloaded pages
+Manage all the pages you’ve made available offline by going to
+Settings
+→
+Offline
+. From here, you can:
+Quickly navigate to any of your downloaded pages.
+Search for pages that have been marked available offline.
+Stop making certain pages available offline.
+If you’re on a paid plan, you can view which pages have been downloaded for offline use by you or automatically by Notion, and turn off automatic offline download of your recently visited and favorited pages by toggling off
+Automatic downloads
+.
+Turn automatic downloading off
+If you don't want your recently visited and favorited pages to automatically download for offline use:
+Go to
+Settings
+→
+Offline
+.
+Toggle off
+Automatic downloads
+.
+Find the best ways to use pages offline
+here →
+FAQs
+Are my downloaded pages synced across devices?
+Pages you download individually for offline use will only be available at the device level. For example, if you download pages for offline use on your mobile phone, they won’t be automatically available on your laptop.
+I don’t want to have to download my pages manually. Is there any other way?
+This is just the first step, and we are actively working to make using Notion offline even smoother.
+For now, if you often need Notion on the go, check out the Plus, Business, or Enterprise Plan. If you’re on any of these plans, your recents and favorites get downloaded automatically so they’re always ready to use offline. See what else is included in each plan
+here →
+Contents
+Who can use pages offline?
+Download pages for offline use
+Downloading databases for offline use
+What you can do while offline
+Keeping your page up to date
+Manage downloaded pages
+Turn automatic downloading off
+Give Feedback
+Was this resource helpful?
+👍
+👎
+Up next
+Intro to databases
+Databases in Notion are collections of pages. Here, we'll introduce you to the general structure of a database, walk you through the different menus and options, and deep dive into how to open and edit pages within a database.
+Read more
+→
+We shape our tools,
+and thereafter our tools shape us.
+Marshall McLuhan
+Product
+Features
+What's New
+Notion AI
+Pricing
+Request a demo
+Download
+Explore more
+→
+Resources
+Customer stories
+Connections
+Marketplace
+Help Center
+Academy
+Community
+Company
+About us
+Careers
+Security
+Status
+Terms & privacy
+Your privacy rights
+Notion for
+Enterprise
+Small businesses
+Startups
+Developers
+Explore more
+→
+English (US)
+English (US)
+Bahasa Indonesia
+Dansk
+Deutsch
+English (UK)
+Español (España)
+Español (Latinoamérica)
+Français (France)
+Italiano
+Nederlands
+Norsk
+Português (Brasil)
+Suomi
+Svenska
+Tiếng Việt
+עברית
+العربية
+ภาษาไทย
+한국어
+日本語
+简体中文
+繁體中文
+Cookie settings
+© 2026 Notion Labs, Inc.

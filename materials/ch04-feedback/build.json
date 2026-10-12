@@ -1,0 +1,32 @@
+{
+  "template": "templates/textbook-style-v1.0.dotx",
+  "template_sha256": "eef8ce505c3d9afb3493e61af1f38ee26bca6ff9a0aa12f7ad3e2a8cacad6473",
+  "manuscript": "manuscripts/ch04-feedback-layout/ch04.md",
+  "manuscript_sha256": "295271f53a96f9df77a17cb631c16aa596af938a87bce441f71002c0f545d8dd",
+  "docx_sha256": "a295e631da6e64508aeb8aef1478df345953b8127f1a06ed3347052ea3ffab0b",
+  "style": "textbook-style-v1.0",
+  "toc_cached_pages": {
+    "4.1 批判性思维核心：质疑、分析、评估、推理、解释、自我修正": 4,
+    "4.2 识别信息陷阱：偏见、谬误、伪相关性、数据操纵": 15,
+    "4.3 有效论证：构建与拆解": 30,
+    "4.4 计算思维赋能批判性思维": 45,
+    "章末综合训练": 57,
+    "本章回顾": 63,
+    "关键术语": 63,
+    "参考解与讨论": 64,
+    "参考文献": 73
+  },
+  "toc_headings": [
+    "4.1 批判性思维核心：质疑、分析、评估、推理、解释、自我修正",
+    "4.2 识别信息陷阱：偏见、谬误、伪相关性、数据操纵",
+    "4.3 有效论证：构建与拆解",
+    "4.4 计算思维赋能批判性思维",
+    "章末综合训练",
+    "本章回顾",
+    "关键术语",
+    "参考解与讨论",
+    "参考文献"
+  ],
+  "method": "Reused template styles and geometry; task-local chapter counter/numbering starts at the selected chapter, current header and answer bookmarks; native SEQ/REF/TOC/PAGEREF/PAGE preserved. No final DOCX LibreOffice roundtrip.",
+  "word_native_execution": "NOT_EVALUATED"
+}

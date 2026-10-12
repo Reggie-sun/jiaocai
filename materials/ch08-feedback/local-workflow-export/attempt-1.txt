@@ -1,0 +1,5 @@
+演练：2026-10-12由Codex按题面填入；不是学生延迟提取结果。
+A1,86 -> VALID
+A2,空 -> HOLD_MISSING
+A3,105 -> HOLD_RANGE
+A4,0 -> VALID

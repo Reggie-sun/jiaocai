@@ -1,0 +1,32 @@
+{
+  "new_accepted_runs": 10,
+  "historical_effectively_stale_runs": 18,
+  "old_history_preserved": true,
+  "policy_and_engine_unchanged": true,
+  "new_run_stale_reasons": [],
+  "harness_validate": {
+    "valid": true,
+    "policy_sha256": "a0e6a5968ef1f1c718eb423930e9f965ce3378d940a17fe44d9cb483509e90ab",
+    "engine_sha256": "3d226917d2aa30da1de9e48d6c7ee941cc3f84a9da9529212ae8e3360fbfb1af",
+    "runs": 28
+  },
+  "verification_json_stable_before_after_final_audit": true,
+  "final_progress_sha256": "89d0dd349da994ee6710c12d50bc765b3e02aeefa796fe60c0a1209ccfb8a905",
+  "git_diff_check": {
+    "owned_code_documents_and_all_other_artifacts": "PASS",
+    "exact_preserved_source_snapshot_exceptions": [
+      "materials/revision-implementation-20261012/mit-ocw-primary.txt",
+      "materials/revision-implementation-20261012/source-claims.txt"
+    ],
+    "expected_raw_findings": [
+      "materials/revision-implementation-20261012/mit-ocw-primary.txt:348: trailing whitespace.",
+      "+Please be advised that external sites may have terms and conditions, ",
+      "materials/revision-implementation-20261012/mit-ocw-primary.txt:349: trailing whitespace.",
+      "+        including license rights, that differ from ours. MIT OCW is not responsible ",
+      "materials/revision-implementation-20261012/mit-ocw-primary.txt:350: trailing whitespace.",
+      "+        for any content on third party sites, nor does a link suggest an endorsement ",
+      "materials/revision-implementation-20261012/source-claims.txt:41: new blank line at EOF."
+    ],
+    "reason": "Raw MIT page and sealed task claims preserve the exact bytes read by managed reviewer. Three source trailing spaces and one final blank line were retained; every exception SHA verified against canonical actual-read receipt. No global whitespace gate changed."
+  }
+}

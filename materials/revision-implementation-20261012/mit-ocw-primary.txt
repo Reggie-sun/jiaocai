@@ -1,0 +1,353 @@
+URL: https://ocw.mit.edu/about/
+Date: 2026-10-12
+HTML sha256: 4b7c29cc191dac3c2ecd0c54e29049e85587f854a8a59905ec67c39176b8eb11
+Scope: static HTML textual projection; login and national access not tested.
+
+About Us | MIT OpenCourseWare | Free Online Course Materials
+menu
+search
+Give Now
+About OCW
+Help & Faqs
+Contact Us
+search
+GIVE NOW
+about ocw
+help & faqs
+contact us
+OCW@25
+expand_more
+OCW@25
+President's Message
+OCW Milestones
+Our Team
+OCW@25
+Since 2001, MIT OpenCourseWare (OCW) has created new opportunities for learners and educators around the world.
+              We’re sharing Open Educational Resources (OER) from MIT and helping to lead and sustain a global revolution in free access to knowledge.
+2500+ MIT courses
+500 million+ learners and educators
+For both academic and independent use
+Beyond website: YouTube channel & mirror drives
+MIT faculty insights on teaching
+Collaborations program with educators
+Now in our 25th year, this vital mission has never been more important. MIT OpenCourseWare will continue to
+              share the latest teaching and insights from MIT faculty, and collaborate across the dynamic open knowledge
+              ecosystem to build a world of more vibrant, equitable and inclusive education for all.
+MIT OpenCourseWare
+is a free and open collection of material from thousands of MIT courses,
+              covering the entire MIT curriculum.
+Knowledge is your reward.
+Use OCW to guide your own lifelong learning, or to teach others. MIT
+              does not offer credit or certification to users of OCW.
+No enrollment and always available.
+Freely browse and use OCW materials at your own pace.
+              There's no start or end dates, nor any requirement to create an account.
+Made for sharing.
+Download files for later. Send to friends and colleagues. Freely modify,
+              remix, and reuse - just remember to cite MIT OpenCourseWare as the source.
+“
+The most important lesson OCW has taught me is that I can learn anything I want to, and anyone can.
+                  The brevity, the content, and the teaching methods of these MIT professors…make it wonderfully fun
+                  and that good communication and passion goes a long way.
+Sangat
+High School Student, Canada
+“
+Sharing MIT educational materials with the rest of the world was not just path-breaking, it was
+                  path-making for other institutions to follow.
+James Glapa-Grossklag
+Dean at College of the Canyons
+“
+I really love the OCW mission of sharing everything that we have from an educational standpoint so
+                  that more people can use those materials how they want, and students can directly browse through
+                  class material or learn things that pique their interests.
+Erik Demaine
+MIT Professor
+Explore Our Impact
+Discover how MIT OpenCourseWare is transforming education and expanding access to knowledge for
+                  learners and educators across the globe. Read our latest impact report to see the difference we're
+                  making.
+Read the 2024–25 Impact Report
+We’re growing this open education legacy with
+MIT Learn
+, the
+              singular hub for all lifelong learning at MIT, which unifies MIT OpenCourseWare, MITx, and many other
+              learning opportunities with AI-enabled guidance and personalizations.
+Our Vision for the Future
+Knowledge is a Public Good
+The principle that knowledge should be available to everyone, free from barriers, sparked MIT
+            OpenCourseWare’s creation in 2001. Realizing this ideal is critical to enabling people to address global
+            educational and societal challenges.
+Trustworthy Content in a Rapidly Changing Information Landscape
+As artificial intelligence and social media stretch the bounds of facts and truth, human insight and
+            discernment are more important than ever. You can count on MIT OpenCourseWare materials, developed by
+            world-leading educators, being reliable, rigorous, and relevant in an era of misinformation and
+            information overload.
+Lifelong Learning for Resilient Lives and Stronger Communities
+Education cannot be confined to traditional classrooms nor classic career stages. Free and open knowledge
+            enables continuous learning that carries through disruptions and fosters thriving lives through shifting life
+            circumstances.
+Scaling Global Impact Through Innovation and Collaboration
+Embracing new technologies to personalize learning, expand language accessibility, and steward MIT’s ethos
+            of openness into the future. Because we’re stronger together, OCW will keep building collaborations with
+            people and institutions around the world who share these values.
+Support Us
+MIT is committed to openly sharing course materials on OpenCourseWare, free of charge. While OCW is free
+            for anyone to access and use, it is not free to maintain and publish MIT course content.
+Support from the Institute provides about half of OCW’s budget, and the remainder is provided by the
+            generosity of donors like you, who give to OCW with a median gift of $25. Gifts directly help OCW
+            distribute, collect, digitize, and share resources from MIT faculty and courses.
+As we continue to invest in new content and better ways to reach learners through video, language
+            translations, AI personalization and collaborations, donations to OCW are more important than ever in
+            ensuring the sustainability of our work. Gifts also enable OCW to provide
+local copies of the OCW site
+to participating schools, universities, and
+            organizations in bandwidth-constrained regions.
+Above all, your gift to OCW demonstrates a commitment to knowledge as a universal public good.
+Make
+              your gift.
+President's Message
+MIT President Sally Kornbluth
+We almost take for granted the idea that an enormous amount of outstanding educational content is available
+            to anyone in the world with an internet connection. Yet the fact that this is now the norm has a great deal
+            to do with a groundbreaking project launched at MIT in 2001. OpenCourseWare changed the landscape of
+            education, and it continues to inspire students, teachers and lifelong learners around the globe to follow
+            their curiosity wherever it leads.
+Sally Kornbluth
+February 2024
+OCW Milestones
+2001-2005
+OCW is announced in
+The New York Times
+and in an
+MIT press conference
+.
+Pilot website
+of 50 courses followed by 2003 official
+website launch
+with 500 courses.
+OCW adopts a
+Creative Commons license
+.
+OpenCourseWare Consortium forms (now called
+Open Education Global
+.
+The first OCW mirror site is established in Africa.
+2011-2015
+MIT launches MITx online courses, complementing OCW’s open course materials while extending commitment to open learning.
+OCW Educator project begins, sharing the “how” as well as the “what” of MIT education.
+OCW website exceeds one billion page views and 200 million lifetime visits.
+2021-2025
+OCW celebrates its 20th anniversary and two decades of open sharing (
+video
+).
+New OCW platform with mobile device support, enhanced search and more.
+440 OCW mirror sites are installed around the world.
+Over 500 million lifetime visits to OCW website and YouTube channel.
+OCW Collaborations program supports
+HBCUs
+and
+Community Colleges
+in developing their use of OCW and other open educational materials.
+MIT Learn
+launches as a  singular destination for all of MIT’s lifelong learning opportunities, including MIT OpenCourseWare.
+2006-2010
+2007: OCW achieves its original goal to represent MIT’s complete curriculum, with more than 1,800 courses. (View
+celebration video
+and
+site on Internet Archive
+.)
+The OCW website exceeds 100 million lifetime visits.
+2,000 courses are published.
+225 OCW mirror sites are installed around the world.
+2016-2020
+OCW becomes the most-subscribed .edu channel on
+YouTube
+.
+New
+MIT Open Learning Library
+launches in 2019, offering new, self-paced learning options complementing OCW and MITx.
+Chalk Radio podcast
+launches in February 2020.
+OCW supports learners around the world as the COVID-19 pandemic disrupts education.
+2026+
+Over 6 million subscribers to the OCW YouTube channel.
+OCW To Go
+supports offline use on mobile devices for select courses.
+Through MIT Learn, enhancements like integrated language translations and AI-based personalization create new learning opportunities.
+2001-2005
+OCW is announced in
+The New York Times
+and in an
+MIT press conference
+.
+Pilot website
+of 50 courses followed by 2003 official
+website launch
+with 500 courses.
+OCW adopts a
+Creative Commons license
+.
+OpenCourseWare Consortium forms (now called
+Open Education Global
+.
+The first OCW mirror site is established in Africa.
+2006-2010
+2007: OCW achieves its original goal to represent MIT’s complete curriculum, with more than 1,800 courses. (View
+celebration video
+and
+site on Internet Archive
+.)
+The OCW website exceeds 100 million lifetime visits.
+2,000 courses are published.
+225 OCW mirror sites are installed around the world.
+2011-2015
+MIT launches MITx online courses, complementing OCW’s open course materials while extending commitment to open learning.
+OCW Educator project begins, sharing the “how” as well as the “what” of MIT education.
+OCW website exceeds one billion page views and 200 million lifetime visits.
+2016-2020
+OCW becomes the most-subscribed .edu channel on
+YouTube
+.
+New
+MIT Open Learning Library
+launches in 2019, offering new, self-paced learning options complementing OCW and MITx.
+Chalk Radio podcast
+launches in February 2020.
+OCW supports learners around the world as the COVID-19 pandemic disrupts education.
+2021-2025
+OCW celebrates its 20th anniversary and two decades of open sharing (
+video
+).
+New OCW platform with mobile device support, enhanced search and more.
+440 OCW mirror sites are installed around the world.
+Over 500 million lifetime visits to OCW website and YouTube channel.
+OCW Collaborations program supports
+HBCUs
+and
+Community Colleges
+in developing their use of OCW and other open educational materials.
+MIT Learn
+launches as a  singular destination for all of MIT’s lifelong learning opportunities, including MIT OpenCourseWare.
+2026+
+Over 6 million subscribers to the OCW YouTube channel.
+OCW To Go
+supports offline use on mobile devices for select courses.
+Through MIT Learn, enhancements like integrated language translations and AI-based personalization create new learning opportunities.
+chevron_left
+Previous
+chevron_right
+Next
+Our Team
+OCW Staff
+Jennifer Carter
+Technical Project Manager
+Peter Chipman
+Digital Publication Specialist
+Maureen Fahey
+Senior Video Editor
+Alicia Franke
+Digital Publication Specialist
+Sarah Hansen
+Assistant Director, Open Education Innovation
+Stephanie Hodges
+Data Systems Specialist
+Reese Jenkins
+Digital Publication Specialist
+Peter B. Kaufman
+Senior Program Officer for Resource Development and Strategic Initiatives
+Sharon Lin
+Digital Publication Specialist
+Cathleen Nalezyty
+Publication Manager
+Shiba Nemat-Nasser
+Digital Publication Specialist
+Curt Newton
+Director
+Yvonne Ng
+Annual Giving and Donor Relations Officer
+Duyen Nguyen
+Assistant Officer, Annual Fund and Communications
+Brett Paci
+Assistant Director, Media Production
+Aline Passos
+Intellectual Property Coordinator
+Angela Pignatiello
+Administrative Assistant
+Jason Player
+Web Production Specialist
+Shira Segal
+Senior Manager, Open Education Collaborations
+Cheryl Siegel
+Senior Publication and Social Media Manager
+Yunpeng Wang
+Digital Publication Specialist
+Geoff Wilson
+Intellectual Property Manager
+Alicia Franke
+Digital Publication Specialist
+Aline Passos
+Intellectual Property Coordinator
+Angela Pignatiello
+Administrative Assistant
+Brett Paci
+Assistant Director, Media Production
+Cathleen Nalezyty
+Publication Manager
+Cheryl Siegel
+Senior Publication and Social Media Manager
+Curt Newton
+Director
+Duyen Nguyen
+Assistant Officer, Annual Fund and Communications
+Geoff Wilson
+Intellectual Property Manager
+Jason Player
+Web Production Specialist
+Jennifer Carter
+Technical Project Manager
+Maureen Fahey
+Senior Video Editor
+Peter B. Kaufman
+Senior Program Officer for Resource Development and Strategic Initiatives
+Peter Chipman
+Digital Publication Specialist
+Reese Jenkins
+Digital Publication Specialist
+Sarah Hansen
+Assistant Director, Open Education Innovation
+Sharon Lin
+Digital Publication Specialist
+Shiba Nemat-Nasser
+Digital Publication Specialist
+Shira Segal
+Senior Manager, Open Education Collaborations
+Stephanie Hodges
+Data Systems Specialist
+Yunpeng Wang
+Digital Publication Specialist
+Yvonne Ng
+Annual Giving and Donor Relations Officer
+chevron_left
+Previous
+chevron_right
+Next
+Accessibility
+Creative Commons License
+Terms and Conditions
+MIT OpenCourseWare is an online publication of materials from over 2,500
+          MIT courses, freely sharing knowledge with learners and educators around
+          the world.
+Learn more
+Accessibility
+Creative Commons License
+Terms and Conditions
+PROUD MEMBER OF :
+© 2001–2026 Massachusetts Institute of Technology
+You are leaving MIT OpenCourseWare
+close
+Please be advised that external sites may have terms and conditions, 
+        including license rights, that differ from ours. MIT OCW is not responsible 
+        for any content on third party sites, nor does a link suggest an endorsement 
+        of those sites and/or their content.
+Stay Here
+Continue

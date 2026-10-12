@@ -1,0 +1,20 @@
+{
+  "baseline": "manuscripts/ch01-03-review/ch03.md",
+  "baseline_sha256": "8673ba4d1e0fd79afb6d64212625975d87cf10392fc66c90a9e0bfc706b5b1d5",
+  "changes": [
+    {
+      "old": "不作为本校调查或模型性能证据",
+      "new": "不作为真实学校调查或模型性能证据",
+      "reason": "取消读者所在特定学校限定；模拟/实测边界保留"
+    }
+  ],
+  "source_scan_terms": [
+    "西南财经",
+    "西南财大",
+    "西财",
+    "本校",
+    "学校名称"
+  ],
+  "result": "逐处上下文清理",
+  "no_change_body_inherited": false
+}

@@ -1,0 +1,1134 @@
+{
+  "chapter": 2,
+  "source_sha256": "74b8f08349387aaf32f13623e27275dea74af5f92790a5334ead3d1dcc5a9a87",
+  "docx_sha256": "eb51857594b815f287f082fd5cebb25af5e34f8c61e78758b21382c0fce7d228",
+  "pdf_sha256": "b31590eb510b6ebd858f421c5cf19200b0081b93ba24ee9bdbfd24c2ed44721e",
+  "pages": 86,
+  "archive": "materials/ch02-feedback/final-pages.zip",
+  "archive_sha256": "92b5cfec62673b04d71438eabb216109d396bc4805fc7fa9079c5e7097894c89",
+  "png_manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+  "fresh_actual_page_observations": 86,
+  "inherited_identical_png_pages": 0,
+  "unviewed_final_page_bytes": [],
+  "rows": [
+    {
+      "page": 1,
+      "sha256": "9b4b7c024bea6835fb317ac3ad33fd9867721bf13aa02e363ac5f5480dc59c67",
+      "archive_member": "page-1.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 2,
+      "sha256": "4b6ddaa096262fb57ddad4b93b05ea1edff5c93e9788f82380eda7f99eb6498e",
+      "archive_member": "page-2.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 3,
+      "sha256": "6f323fe1b0e9e915d323d327fb00dc077e30e7c7f190f875516bbb0704002f5f",
+      "archive_member": "page-3.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 4,
+      "sha256": "f8740a232c0efc9a5b7b1546f06e9db715a16eca12c4ed129dac2bd96a1a8a75",
+      "archive_member": "page-4.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 5,
+      "sha256": "b559e4fb350b404b58f24eb815b068a886cde939ce4b9038e7303c5be2883f39",
+      "archive_member": "page-5.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 6,
+      "sha256": "53cd76b5458efac7f8309cf12e5504624f9ce14745e67fe3c3d5207ad47f2fac",
+      "archive_member": "page-6.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 7,
+      "sha256": "8a06a6cd7398e531a58b2c2fd6bc0335feb13101f10d9da4cc52d3c2826b27cb",
+      "archive_member": "page-7.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 8,
+      "sha256": "c9593b00b271fddc909eb93c64a5f37b1e7202d9e5e3594155b1ceaca3aa47e9",
+      "archive_member": "page-8.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 9,
+      "sha256": "4e0b2b690452cdf0cb37c4fbafa0b68bfd6ada49692d8b350675a8972d2e496c",
+      "archive_member": "page-9.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 10,
+      "sha256": "88368fa3d0ec8c9a0792ec823f8a1be39cc837e679fde451cc09f8febcff0d0f",
+      "archive_member": "page-10.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 11,
+      "sha256": "a240f6141b99eb846a893bfde6d40e2205f297eafaa2bc2a92dbd559f92d1c9c",
+      "archive_member": "page-11.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 12,
+      "sha256": "a02f655e96a68a10e45e231d9d8fdc08f5db681c1addae63cd7fe3f4eba1a085",
+      "archive_member": "page-12.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 13,
+      "sha256": "65eadf52c60ee555e5f9c4fe6897080660bf63c671b8a2129ccae16efd0123c7",
+      "archive_member": "page-13.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 14,
+      "sha256": "884fc2783b5116d6480327dc09dfe0886d62ce8dfbadbbdd553e3a08571fc668",
+      "archive_member": "page-14.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 15,
+      "sha256": "0673d7611505c240eb479e29b295e4b4c8c211b4c5d136e17d95e62e0a940488",
+      "archive_member": "page-15.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 16,
+      "sha256": "a1c0382558cde1e1ba4544c54380046be872fc50568949d586748a7dbdd14681",
+      "archive_member": "page-16.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 17,
+      "sha256": "a54ce732e0606547c91b88243d18868be83509e730850f759cea116e319a55c4",
+      "archive_member": "page-17.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 18,
+      "sha256": "2198f43b6b2b2a2501b3d5a502bd5df0aa4733a4fa904a669a184e809b4f6147",
+      "archive_member": "page-18.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 19,
+      "sha256": "ae92ab621e27938770bb94539e08d8b9992ca22b81d4e576c38269d66c02bdaf",
+      "archive_member": "page-19.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 20,
+      "sha256": "88a2fe6c08543be8b1cf8d3242e5a63ef7f76951e1c4f3e799e69598e8e5bdbb",
+      "archive_member": "page-20.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 21,
+      "sha256": "fee46152074e8d232dce49fd46e196c4fc9838c5510694bd4992d17aa2cedd53",
+      "archive_member": "page-21.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 22,
+      "sha256": "c3c39bd1c6106010758393db706507b92496abc67b58b16c3c27fb455f50b7dd",
+      "archive_member": "page-22.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 23,
+      "sha256": "a5e89890be5523f9e701d61b4146c37c8fa401077a580a0ae00128767f0ffdbf",
+      "archive_member": "page-23.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 24,
+      "sha256": "6cacbc3cd039b0e12af8d92dba060b4ff72d8d90ede84cb76553207352454b65",
+      "archive_member": "page-24.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 25,
+      "sha256": "04b99acbbe193d20400a4ce2182af0b702495b6d3dd39e789fb7b9157483e26b",
+      "archive_member": "page-25.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 26,
+      "sha256": "f4b2182f12a896ad4740d63da930f8b75991e1ff4473124e1b007c942a469682",
+      "archive_member": "page-26.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 27,
+      "sha256": "3d1b51dad57541bbd240e64540b3fa6e00a4d26f11685d058499c95034b1ea47",
+      "archive_member": "page-27.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 28,
+      "sha256": "9ff90a484d6b0e9c55ce60e7c9312ff1362429eeb25272d85e6542e7ed54a55d",
+      "archive_member": "page-28.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 29,
+      "sha256": "fc7035e15389393e17b80943b12cd7110d7aede3e2a6c157acdcc1300b7078ef",
+      "archive_member": "page-29.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 30,
+      "sha256": "288b7776bad75994d6ba0cb13082672a010790adbe696f1f2bd2826cb4ae3c63",
+      "archive_member": "page-30.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 31,
+      "sha256": "9c6cbe44318d064b447153392dda78244e05f1f3737a344f6d596cde4813a242",
+      "archive_member": "page-31.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 32,
+      "sha256": "a08b2aa362d317eb63d3f460b087ddd57b05f08df0aeffdfca5b075129a10fdd",
+      "archive_member": "page-32.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 33,
+      "sha256": "0bf68c000fdf4e7bca2fe56134badfa6f75690e44ec19d971a1f555b3a49eecc",
+      "archive_member": "page-33.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 34,
+      "sha256": "707f641a25d734568f3773d2d670f6122cb14548508e6ff5ab981b8b1cc09266",
+      "archive_member": "page-34.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 35,
+      "sha256": "452707ac6f0918ae778a56bbcbad03147f3156d7e6220ec819b55c5059f22802",
+      "archive_member": "page-35.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 36,
+      "sha256": "365a36126d277a4373f7ffed0c961b0ab9aafb1e282bb0900ea6a8a1a1f33e5b",
+      "archive_member": "page-36.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 37,
+      "sha256": "8c41b6db903e5b5cb45d314f8f742f351070a1ed8c6fd5b1dc37e11eeadad302",
+      "archive_member": "page-37.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 38,
+      "sha256": "e754e73b515f0df0af65d5ecf95d92381698403e02792c4da18a9f1bc19d07c5",
+      "archive_member": "page-38.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 39,
+      "sha256": "205bfaf7c7c65855dc2a6c843ae45fc4178f9b0fee4dd08a6417931aedb1393d",
+      "archive_member": "page-39.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 40,
+      "sha256": "849b75658becd51828333f23fdfc6df24f7dc04764d605f33defcf0c435fe623",
+      "archive_member": "page-40.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 41,
+      "sha256": "b6f181e00886dd2399992d2af00408f5f0d319881094048f484ac1dfb605af55",
+      "archive_member": "page-41.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 42,
+      "sha256": "64e3a0e1f3f3b9a0477a4e5cbf89c63401fcee32fcdf34f84e0c005d4f02d5db",
+      "archive_member": "page-42.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 43,
+      "sha256": "c6c95d3dcf228423570dad6baffc5a841ef7c63f36651b4f7dd5e5eb2049416e",
+      "archive_member": "page-43.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 44,
+      "sha256": "2177f98a735d824dae49e08d1f413fc271d39a0ef92750f6a89051ecc4aed661",
+      "archive_member": "page-44.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 45,
+      "sha256": "2b8cd20b3da5b546de05e495227f6608509136e9590a552652778517f7a75f58",
+      "archive_member": "page-45.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 46,
+      "sha256": "9b1b0a05c295c1828ad924241af8a263b0560aea3fdb04ef977167f2fdbbd66c",
+      "archive_member": "page-46.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 47,
+      "sha256": "4ddd589f70695f5daeeee61bad22b2426249c14a020cc434a3fcf3cf191891f0",
+      "archive_member": "page-47.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 48,
+      "sha256": "5f369fea8204154b44245c50c2a732d8c16cccd2bf9946cdfa81091a495a306a",
+      "archive_member": "page-48.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 49,
+      "sha256": "111cc5959750d46e09dfb0d7c72985bcf3926e9514a4a8cf39ee395699353ae3",
+      "archive_member": "page-49.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 50,
+      "sha256": "26b021dcc44e0d892e989c1cac8eaa64d39ad1d8231c1ba189f850ba7a6305ee",
+      "archive_member": "page-50.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 51,
+      "sha256": "f50414c8d618dde9afad411a049f04bf8c6dbdf0fda28d9bf196b78472e66716",
+      "archive_member": "page-51.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 52,
+      "sha256": "6cda3be37b625647a509e2b06b1f740233603596649aaf72cca625b084044e11",
+      "archive_member": "page-52.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 53,
+      "sha256": "757b0f5c367397cb688310feeb4ae25f0940ef2a6d0e8ac9577649339740e1fc",
+      "archive_member": "page-53.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 54,
+      "sha256": "e3c697a971245c2b8743feb168d0913d566ade095471fa8a6869cb1b26995be8",
+      "archive_member": "page-54.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 55,
+      "sha256": "56746e83100948d318c6ce1eb43f2976bfcaf5e79de432b3e64dafb25866e380",
+      "archive_member": "page-55.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 56,
+      "sha256": "bb3ff63167370c0b8eebf087ca0eefe7a6db4645cfabd038708c1261190d3c48",
+      "archive_member": "page-56.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 57,
+      "sha256": "0ce6a8e5785f36e88175b195a855732d17d4cb86e413479d84bd566001a0b6c9",
+      "archive_member": "page-57.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 58,
+      "sha256": "681a2507b61537980ea47e265f8530608f5099840ffc4f1e3d52901e701a15d0",
+      "archive_member": "page-58.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 59,
+      "sha256": "519734d473dfcc75b458de3f4e1df4538e0549dec3214b0b7ddd54806c390719",
+      "archive_member": "page-59.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 60,
+      "sha256": "a4e33dfeed90f827417db08fd32a15cce5e26161e71a24ddb8e7726e300e70a5",
+      "archive_member": "page-60.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 61,
+      "sha256": "3fd9f70742a49ce102422391bc957d8817665a5778522483ae4cdb4538c05bb7",
+      "archive_member": "page-61.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 62,
+      "sha256": "41029bb437a6efe7d1ec3c5c7adfd6dad28f639c10058f72c4f40970b4759985",
+      "archive_member": "page-62.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 63,
+      "sha256": "6aebeb090d7a994e65f9824ee8b4f1bba876eaef9f3f4549ae2052107c74d248",
+      "archive_member": "page-63.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 64,
+      "sha256": "8b5f55a2475e99778bf18bd7d13c1ee13fa0614939a46ad8dcc1ef051f2e43e6",
+      "archive_member": "page-64.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 65,
+      "sha256": "fa6400fd5787bf313d2577b30207657dde50bce491554a121f412370768ae82c",
+      "archive_member": "page-65.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 66,
+      "sha256": "90d15342a7590aa6dd659e8652198bf8aa7307cada150cf29e73b955aa569cff",
+      "archive_member": "page-66.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 67,
+      "sha256": "a618cc801b1b1eef3a1b2607f4649a9e3aead770089f5d0c6aa70349f168dab7",
+      "archive_member": "page-67.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 68,
+      "sha256": "5bf2f71fcb3268ac8174968cf9a44e21357d81c1f9999e5e59b3a28e21cf22ac",
+      "archive_member": "page-68.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 69,
+      "sha256": "fe1c6654498be83f51075098d042bde09c2d0ab3f871aa28aa1a5ff6291250e5",
+      "archive_member": "page-69.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 70,
+      "sha256": "028ae140763036bbb1aae289dcbb5ad629fa9ab9a911eecc3178e5680ff47833",
+      "archive_member": "page-70.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 71,
+      "sha256": "79d0d654eb6986eb3acc03fa2a1c161c657a0cf7707c0f574980f7c3ebe0c396",
+      "archive_member": "page-71.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 72,
+      "sha256": "709f61d32e2f67c46a2b28e0ee94b3ba45d52ebd503333748c8443c4b8d8c8d1",
+      "archive_member": "page-72.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 73,
+      "sha256": "ed007d2bacb310412afe21b9ddc361c55772b4abe073ec61d43cb64ee4b9c4cf",
+      "archive_member": "page-73.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 74,
+      "sha256": "c33eb4a0a3162957a8834163cd5c11efbcf0476ed78bd2a41677d5b25f6b136c",
+      "archive_member": "page-74.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 75,
+      "sha256": "9c2d2143136135d4d912b7e50c93c7e028a6f21c898f67735a9a8465b28a4713",
+      "archive_member": "page-75.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 76,
+      "sha256": "5ca95572bcbb757f5a7cd059bb8125044446c8654e435978dda475cd8652dedc",
+      "archive_member": "page-76.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 77,
+      "sha256": "9081806573493773d74cd8a74f271ed71743eff2236fd5497f0948768166a817",
+      "archive_member": "page-77.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 78,
+      "sha256": "b933bb473ffac5f83fa1a650642fe3b0df8295d7f94241aa62bc69a4a5aea3f2",
+      "archive_member": "page-78.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 79,
+      "sha256": "c3ccd33ef21395134b35d2cae696d769d777b763ec3e0d618d6d8f5aef458247",
+      "archive_member": "page-79.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 80,
+      "sha256": "71f5979d404c97adb8a433a914c7079459e1e143f12ec3e60f8aaa39860ab566",
+      "archive_member": "page-80.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 81,
+      "sha256": "6c9d27591c8370564bcd30e054d5a6225987df5941e595d7a1dcfa9b08dca2c6",
+      "archive_member": "page-81.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 82,
+      "sha256": "b0d51418b0ef43965272b0b834e5185be2fb3634513e752512d763a0c6d65e8c",
+      "archive_member": "page-82.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 83,
+      "sha256": "c851046b2dc0b23a79d09590948b36036c298529fb8c72c5b94a51a998c76355",
+      "archive_member": "page-83.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 84,
+      "sha256": "2d2ca1d0f84e0c56b73c924cc5b1ec07a2b7ba2ef4fd6571a19af1b183973a70",
+      "archive_member": "page-84.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 85,
+      "sha256": "d287c21570b15f081f91d92afb873bdbfdb4839056939c7e5301c875cdae8e6f",
+      "archive_member": "page-85.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    },
+    {
+      "page": 86,
+      "sha256": "510ebf5e8045a01044a7bf345e72270e19f5ac3f44fded20d1ea18a307e22b1d",
+      "archive_member": "page-86.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "d93b909878b9edaf69c21201dfb2cd51dd4e4e3a039831213659a4fe7c772dd1",
+        "finding": null,
+        "observation": "Reader reported actual individual view_image reading of every frozen page; Parent checked reported manifest and source/output bindings."
+      }
+    }
+  ],
+  "limits": "Actual rendered-image observations reported by named reader, sealed by Parent. Word-native refresh, physical print and teacher/student acceptance untested."
+}

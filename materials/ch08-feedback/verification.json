@@ -1,0 +1,565 @@
+{
+  "checks": "PASS",
+  "chapter": 8,
+  "han_characters_approx": 35742,
+  "pages": 76,
+  "tables": 5,
+  "figures": 6,
+  "references": 26,
+  "native_reference_fields": 12,
+  "source_sha256": "1e9676405b907384f864b362be20e13e1b8a6621eaf3a95a6c15677c21e37816",
+  "docx_sha256": "bfa586270dceed65d1f42ce3a1b5c0de74e4ec6251fa2d3ad78b2e6a052fd6a7",
+  "pdf_sha256": "e4c7dbe79019ed040ea5df25a0b6462514a5e7a3b00bf283b4adac921315c5d9",
+  "toc_pages": {
+    "8.1 终身学习的必要性：技术迭代加速与职业演变。": 4,
+    "8.2 高效学习方法：主动学习、间隔重复、费曼技巧、构建知识网络。": 12,
+    "8.3 信息素养： 高效检索、筛选、评估、管理海量信息与学习资源（技术文档、论文、在线课程、社区）。": 20,
+    "8.4 学习工具与技术： 利用Anki, Notion, Obsidian, GitHub, MOOC平台等提升学习效率与知识管理。": 30,
+    "8.5 构建个人学习网络(PLN)：利用社交媒体、技术社区、行业会议进行学习与交流。": 40,
+    "8.6 制定个人学习计划(IDP)：设定目标、选择资源、跟踪进度、调整策略。（结合行业趋势与个人兴趣）": 49,
+    "章末综合训练": 62,
+    "本章回顾": 64,
+    "关键术语": 65,
+    "参考解与讨论": 66,
+    "参考文献": 74
+  },
+  "toc_cache_matches_actual_pages": false,
+  "figure_pages": {
+    "图8-1": 10,
+    "图8-2": 15,
+    "图8-3": 25,
+    "图8-4": 37,
+    "图8-5": 46,
+    "图8-6": 55
+  },
+  "embedded_fonts": [
+    "/BAAAAA+NotoSansCJKsc-Regular",
+    "/CAAAAA+NotoSansCJKsc-Bold",
+    "/DAAAAA+NotoSerifCJKsc-Regular",
+    "/EAAAAA+NotoSansCJKsc-Bold",
+    "/FAAAAA+NotoSerifCJKsc-Regular",
+    "/GAAAAA+NotoSerifCJKsc-Bold",
+    "/HAAAAA+NotoSansCJKsc-Bold",
+    "/IAAAAA+NotoSerifCJKsc-Regular",
+    "/JAAAAA+NotoSerifCJKsc-Regular",
+    "/KAAAAA+NotoSerifCJKsc-Bold",
+    "/LAAAAA+NotoSerifCJKsc-Regular",
+    "/MAAAAA+NotoSerifCJKsc-Regular",
+    "/NAAAAA+NotoSerifCJKsc-Regular",
+    "/OAAAAA+NotoSerifCJKsc-Regular",
+    "/PAAAAA+NotoSerifCJKsc-Regular",
+    "/QAAAAA+NotoSansMonoCJKsc-Regular"
+  ],
+  "page_extents": [
+    {
+      "page": 1,
+      "body_top": 84.5,
+      "body_bottom": 714.2,
+      "images": 0
+    },
+    {
+      "page": 2,
+      "body_top": 83.0,
+      "body_bottom": 404.7,
+      "images": 0
+    },
+    {
+      "page": 3,
+      "body_top": 83.0,
+      "body_bottom": 601.8,
+      "images": 0
+    },
+    {
+      "page": 4,
+      "body_top": 95.0,
+      "body_bottom": 768.9,
+      "images": 0
+    },
+    {
+      "page": 5,
+      "body_top": 79.8,
+      "body_bottom": 650.2,
+      "images": 0
+    },
+    {
+      "page": 6,
+      "body_top": 78.7,
+      "body_bottom": 704.4,
+      "images": 0
+    },
+    {
+      "page": 7,
+      "body_top": 79.8,
+      "body_bottom": 674.0,
+      "images": 0
+    },
+    {
+      "page": 8,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 9,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 10,
+      "body_top": 79.8,
+      "body_bottom": 751.7,
+      "images": 1
+    },
+    {
+      "page": 11,
+      "body_top": 79.8,
+      "body_bottom": 650.2,
+      "images": 0
+    },
+    {
+      "page": 12,
+      "body_top": 83.0,
+      "body_bottom": 768.2,
+      "images": 0
+    },
+    {
+      "page": 13,
+      "body_top": 81.5,
+      "body_bottom": 727.7,
+      "images": 0
+    },
+    {
+      "page": 14,
+      "body_top": 81.5,
+      "body_bottom": 760.5,
+      "images": 0
+    },
+    {
+      "page": 15,
+      "body_top": 79.8,
+      "body_bottom": 715.3,
+      "images": 1
+    },
+    {
+      "page": 16,
+      "body_top": 79.8,
+      "body_bottom": 706.8,
+      "images": 0
+    },
+    {
+      "page": 17,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 18,
+      "body_top": 79.8,
+      "body_bottom": 683.1,
+      "images": 0
+    },
+    {
+      "page": 19,
+      "body_top": 81.5,
+      "body_bottom": 760.5,
+      "images": 0
+    },
+    {
+      "page": 20,
+      "body_top": 83.0,
+      "body_bottom": 768.2,
+      "images": 0
+    },
+    {
+      "page": 21,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 22,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 23,
+      "body_top": 79.8,
+      "body_bottom": 518.8,
+      "images": 0
+    },
+    {
+      "page": 24,
+      "body_top": 78.7,
+      "body_bottom": 733.0,
+      "images": 0
+    },
+    {
+      "page": 25,
+      "body_top": 79.8,
+      "body_bottom": 728.7,
+      "images": 1
+    },
+    {
+      "page": 26,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 27,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 28,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 29,
+      "body_top": 81.5,
+      "body_bottom": 760.5,
+      "images": 0
+    },
+    {
+      "page": 30,
+      "body_top": 79.8,
+      "body_bottom": 747.3,
+      "images": 0
+    },
+    {
+      "page": 31,
+      "body_top": 79.8,
+      "body_bottom": 683.1,
+      "images": 0
+    },
+    {
+      "page": 32,
+      "body_top": 81.5,
+      "body_bottom": 760.5,
+      "images": 0
+    },
+    {
+      "page": 33,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 34,
+      "body_top": 79.8,
+      "body_bottom": 715.9,
+      "images": 0
+    },
+    {
+      "page": 35,
+      "body_top": 79.8,
+      "body_bottom": 706.8,
+      "images": 0
+    },
+    {
+      "page": 36,
+      "body_top": 79.8,
+      "body_bottom": 617.4,
+      "images": 0
+    },
+    {
+      "page": 37,
+      "body_top": 358.0,
+      "body_bottom": 765.3,
+      "images": 1
+    },
+    {
+      "page": 38,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 39,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 40,
+      "body_top": 79.8,
+      "body_bottom": 723.6,
+      "images": 0
+    },
+    {
+      "page": 41,
+      "body_top": 81.5,
+      "body_bottom": 760.5,
+      "images": 0
+    },
+    {
+      "page": 42,
+      "body_top": 81.5,
+      "body_bottom": 751.4,
+      "images": 0
+    },
+    {
+      "page": 43,
+      "body_top": 79.8,
+      "body_bottom": 486.0,
+      "images": 0
+    },
+    {
+      "page": 44,
+      "body_top": 78.7,
+      "body_bottom": 718.8,
+      "images": 0
+    },
+    {
+      "page": 45,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 46,
+      "body_top": 79.8,
+      "body_bottom": 710.2,
+      "images": 1
+    },
+    {
+      "page": 47,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 48,
+      "body_top": 79.8,
+      "body_bottom": 584.5,
+      "images": 0
+    },
+    {
+      "page": 49,
+      "body_top": 83.0,
+      "body_bottom": 735.3,
+      "images": 0
+    },
+    {
+      "page": 50,
+      "body_top": 79.8,
+      "body_bottom": 715.9,
+      "images": 0
+    },
+    {
+      "page": 51,
+      "body_top": 79.8,
+      "body_bottom": 739.7,
+      "images": 0
+    },
+    {
+      "page": 52,
+      "body_top": 79.8,
+      "body_bottom": 715.9,
+      "images": 0
+    },
+    {
+      "page": 53,
+      "body_top": 79.8,
+      "body_bottom": 453.1,
+      "images": 0
+    },
+    {
+      "page": 54,
+      "body_top": 78.7,
+      "body_bottom": 619.4,
+      "images": 0
+    },
+    {
+      "page": 55,
+      "body_top": 319.1,
+      "body_bottom": 748.9,
+      "images": 1
+    },
+    {
+      "page": 56,
+      "body_top": 83.2,
+      "body_bottom": 703.6,
+      "images": 0
+    },
+    {
+      "page": 57,
+      "body_top": 81.5,
+      "body_bottom": 717.8,
+      "images": 0
+    },
+    {
+      "page": 58,
+      "body_top": 78.8,
+      "body_bottom": 750.4,
+      "images": 0
+    },
+    {
+      "page": 59,
+      "body_top": 79.8,
+      "body_bottom": 715.9,
+      "images": 0
+    },
+    {
+      "page": 60,
+      "body_top": 79.8,
+      "body_bottom": 608.3,
+      "images": 0
+    },
+    {
+      "page": 61,
+      "body_top": 78.8,
+      "body_bottom": 738.9,
+      "images": 0
+    },
+    {
+      "page": 62,
+      "body_top": 79.8,
+      "body_bottom": 762.9,
+      "images": 0
+    },
+    {
+      "page": 63,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 64,
+      "body_top": 79.8,
+      "body_bottom": 712.3,
+      "images": 0
+    },
+    {
+      "page": 65,
+      "body_top": 79.8,
+      "body_bottom": 745.2,
+      "images": 0
+    },
+    {
+      "page": 66,
+      "body_top": 79.8,
+      "body_bottom": 679.5,
+      "images": 0
+    },
+    {
+      "page": 67,
+      "body_top": 81.5,
+      "body_bottom": 751.4,
+      "images": 0
+    },
+    {
+      "page": 68,
+      "body_top": 79.8,
+      "body_bottom": 706.8,
+      "images": 0
+    },
+    {
+      "page": 69,
+      "body_top": 81.5,
+      "body_bottom": 751.4,
+      "images": 0
+    },
+    {
+      "page": 70,
+      "body_top": 79.8,
+      "body_bottom": 706.8,
+      "images": 0
+    },
+    {
+      "page": 71,
+      "body_top": 79.8,
+      "body_bottom": 715.9,
+      "images": 0
+    },
+    {
+      "page": 72,
+      "body_top": 81.5,
+      "body_bottom": 760.5,
+      "images": 0
+    },
+    {
+      "page": 73,
+      "body_top": 79.8,
+      "body_bottom": 748.8,
+      "images": 0
+    },
+    {
+      "page": 74,
+      "body_top": 79.8,
+      "body_bottom": 741.7,
+      "images": 0
+    },
+    {
+      "page": 75,
+      "body_top": 78.7,
+      "body_bottom": 754.8,
+      "images": 0
+    },
+    {
+      "page": 76,
+      "body_top": 78.7,
+      "body_bottom": 433.5,
+      "images": 0
+    }
+  ],
+  "limits": "Correspondence and executable layout checks only; actual page observation and content review recorded separately. Word native refresh, printing, teacher/student acceptance untested.",
+  "preserve_only_parts_byte_identical": [
+    "_rels/.rels",
+    "docProps/app.xml",
+    "word/styles.xml",
+    "word/stylesWithEffects.xml",
+    "word/settings.xml",
+    "word/webSettings.xml",
+    "word/fontTable.xml",
+    "word/theme/theme1.xml",
+    "customXml/item1.xml",
+    "customXml/_rels/item1.xml.rels",
+    "customXml/itemProps1.xml",
+    "word/footer1.xml",
+    "docProps/thumbnail.jpeg"
+  ],
+  "answer_bookmarks": [
+    "E01",
+    "E02",
+    "E03",
+    "E04",
+    "E05",
+    "E06",
+    "E07"
+  ],
+  "reference_first_use_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26
+  ],
+  "table_header_repeat_and_rows_keep_together": true
+}

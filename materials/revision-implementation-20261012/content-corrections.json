@@ -1,0 +1,56 @@
+[
+  {
+    "chapter": 7,
+    "finding": "P789-01",
+    "old": "我用这份两行输入可以复现",
+    "new": "我用这个零字节空文件可以复现",
+    "before": "f2f3899a220810a6276b419d48e35a8f78c639e3cc30f6b7f1fbe3cf9b361842",
+    "after": "6bfc2b4cb8a5e13cffdb235982803ac3056197c728d9c6460312dfa50c2d2721",
+    "decision": "accepted; minimal correction verified by exact phrase occurrence and paragraph reread"
+  },
+  {
+    "chapter": 8,
+    "finding": "CH8V-03",
+    "old": "定价页把本地存储列为免费，官方同步或第三方同步接口属于不同付费方案",
+    "new": "定价页把本地存储列为免费；官方数据同步包含在年付订阅内，第三方S3/WebDAV同步接口需购买功能特性或年付订阅，且存储服务须自行购买或搭建",
+    "before": "1e9676405b907384f864b362be20e13e1b8a6621eaf3a95a6c15677c21e37816",
+    "after": "abc11bec85c51965a523ed231067d46417f32e63fabcf25ecefcc1da5ca816df",
+    "decision": "accepted; minimal correction verified by exact phrase occurrence and paragraph reread"
+  },
+  {
+    "chapter": 9,
+    "finding": [
+      "T789-002",
+      "T789-003"
+    ],
+    "before": "7c6a1fbf903a1154597111624084deaa3db83a1f9eb2c1c23f5113d21ebc523c",
+    "after": "b740f1eb0ce19bbbf9c3972b9c093c3edb03609853511b259462d93ccab44b41",
+    "decision": "accepted; distinguish second example and single-weight sensitivity versus multi-weight priority reset",
+    "numeric_check": {
+      "x3": [
+        21,
+        17
+      ],
+      "x7": [
+        29,
+        29
+      ],
+      "priority_reset": [
+        13,
+        17,
+        12
+      ]
+    }
+  },
+  {
+    "chapter": 4,
+    "finding": [
+      "P2456-001",
+      "T2456-002",
+      "T2456-003"
+    ],
+    "previous_author_pass_sha256": "db8dd9883a2b77e8a0600e436d37158b7bd9e9d0ff4a7e3965a8f64ea0fed410",
+    "final_sha256": "295271f53a96f9df77a17cb631c16aa596af938a87bce441f71002c0f545d8dd",
+    "decision": "accepted four training IDs and corresponding answers; completed operational definitions and observable stopping criteria without adding external facts"
+  }
+]

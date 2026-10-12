@@ -1,0 +1,18 @@
+{
+  "performed": "普通UTF-8文本/TSV/CSV写入、读取、逐byte导出副本比较；没有安装或登录品牌应用",
+  "files": {
+    "goal.txt": "fc726ca0da1af20e4b3e4942d5bec840a1dbd8c8935abe3f469a09d0208684a7",
+    "cards.tsv": "7990695291b9747baf1d4c83b096907484ea73164a0fdf2172a89b88739213b3",
+    "attempt-1.txt": "97c1121d1c321074efac4bef371c3419e6d0e4729594f7f5f8f15fad34cb002a",
+    "next.txt": "287202af2d3f758452ceec0c75f96f676a7fbd63dc8e1d357d05ecca8c304a38",
+    "sources.csv": "6118b0dbb5109959df9313e6b75b0b3c838b078b2e41407fbee2357284bbd35e"
+  },
+  "cards": 2,
+  "checks": "PASS",
+  "not_evaluated": [
+    "品牌软件导入导出与断网表现",
+    "学生延迟提取",
+    "两周学习成效",
+    "全国网络可用性"
+  ]
+}

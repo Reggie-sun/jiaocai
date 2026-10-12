@@ -1,0 +1,807 @@
+{
+  "chapter": 8,
+  "source_sha256": "abc11bec85c51965a523ed231067d46417f32e63fabcf25ecefcc1da5ca816df",
+  "docx_sha256": "d9e9a95e3af5a74df7fea2a6ef4f065fcacc074073ad24c0718671877af67814",
+  "pdf_sha256": "b1cf4cfb95005d2b5b655bd04b24bbdfad7cbc1663b743c5b684801a57641f81",
+  "layout_verification_sha256": "faebd24fd186cd590e9007dce0d8cac4d67f33b74a571d4accf942f71527e4b1",
+  "pages": 76,
+  "archive": "materials/ch08-feedback/final-pages.zip",
+  "archive_sha256": "955529378f439649577c66aa5cb5c95924e161e6ed470ac6992cde368ed2a454",
+  "fresh_actual_page_observations": 70,
+  "parent_actual_page_observations": 4,
+  "inherited_identical_png_pages": 2,
+  "unviewed_final_page_bytes": [],
+  "scope_limits": [
+    "未测试Word原生刷新后的分页一致性",
+    "未测试打印效果",
+    "未进行学生或课堂可用性测试"
+  ],
+  "findings": [
+    "第60–61页E06练习提示与数据示例自然跨页；续页内容完整。",
+    "第76页文献条目完整，末页自然留白；Parent已裁定作为非阻断备注留待全书合排统一优化。"
+  ],
+  "rows": [
+    {
+      "page": 1,
+      "file": "page-1.png",
+      "sha256": "3a39feee5df9c3742268bd27d9553276db5d0a4835eb5ae8b6b5d4c5be00ac9f",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/teaching_review",
+      "predecessor": {
+        "record": "materials/ch08/page-review.json",
+        "record_sha256": "f6785838971f571eb6dfcfdb25c370959010999e71aa96fe8a3c2a70233260b9",
+        "member": "page-1.png"
+      },
+      "observation": "Title, entry and goals complete Current rendered PNG SHA-256 is byte-identical."
+    },
+    {
+      "page": 2,
+      "file": "page-2.png",
+      "sha256": "d529dbe3726b1636c4ef5ddc687bc648f8edbcf0898a7c5b63e04f9dde56eaa4",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root/teaching_review",
+      "predecessor": {
+        "record": "materials/ch08/page-review.json",
+        "record_sha256": "f6785838971f571eb6dfcfdb25c370959010999e71aa96fe8a3c2a70233260b9",
+        "member": "page-2.png"
+      },
+      "observation": "Learning route complete; space before separate TOC page Current rendered PNG SHA-256 is byte-identical."
+    },
+    {
+      "page": 3,
+      "file": "page-3.png",
+      "sha256": "e2ecc37c96ef9420e5d277eb4ca45bc92de570d9d22c8d65cda51f740b2a12f2",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root",
+      "predecessor": {
+        "record": "materials/ch08-feedback/parent-page-observations.json",
+        "record_sha256": "da8b213926b860e9d476a801c198f2bfafbb7ed8896c8bbf0f460549bef3a225"
+      },
+      "observation": "实际原图逐页检查；目录和文字可读，表8-1完整，未见裁切遮挡、孤标题或表格断裂。 Current rendered PNG SHA-256 is byte-identical."
+    },
+    {
+      "page": 4,
+      "file": "page-4.png",
+      "sha256": "23f86db644c86af81f5f47725216e6fdb45ef5a881e6f8b2e1b6dc183bd5d660",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root",
+      "predecessor": {
+        "record": "materials/ch08-feedback/parent-page-observations.json",
+        "record_sha256": "da8b213926b860e9d476a801c198f2bfafbb7ed8896c8bbf0f460549bef3a225"
+      },
+      "observation": "实际原图逐页检查；目录和文字可读，表8-1完整，未见裁切遮挡、孤标题或表格断裂。 Current rendered PNG SHA-256 is byte-identical."
+    },
+    {
+      "page": 5,
+      "file": "page-5.png",
+      "sha256": "53992f2b6f19e5a327949e02145e6380bd4eddc9d10d4e1adc474744fb23058a",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root",
+      "predecessor": {
+        "record": "materials/ch08-feedback/parent-page-observations.json",
+        "record_sha256": "da8b213926b860e9d476a801c198f2bfafbb7ed8896c8bbf0f460549bef3a225"
+      },
+      "observation": "实际原图逐页检查；目录和文字可读，表8-1完整，未见裁切遮挡、孤标题或表格断裂。 Current rendered PNG SHA-256 is byte-identical."
+    },
+    {
+      "page": 6,
+      "file": "page-6.png",
+      "sha256": "eff3f514663b13d9500c4ae83be5358356374b8eac0be01710e389284a9fdad7",
+      "actually_opened": false,
+      "inherited_identical_png": true,
+      "observer": "/root",
+      "predecessor": {
+        "record": "materials/ch08-feedback/parent-page-observations.json",
+        "record_sha256": "da8b213926b860e9d476a801c198f2bfafbb7ed8896c8bbf0f460549bef3a225"
+      },
+      "observation": "实际原图逐页检查；目录和文字可读，表8-1完整，未见裁切遮挡、孤标题或表格断裂。 Current rendered PNG SHA-256 is byte-identical."
+    },
+    {
+      "page": 7,
+      "file": "page-7.png",
+      "sha256": "be572dc10a947001190b863f95d9e0154a8b557d489317e7c9bb2bf1995dcd65",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 8,
+      "file": "page-8.png",
+      "sha256": "ffbcb285c7cb50623020feff216dd0a61b42899f113229bcc217b302b38a840c",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 9,
+      "file": "page-9.png",
+      "sha256": "d08b23c81f1c59f9e6e609db45206870eaa956cde87a2c97b320c509d9d87c41",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 10,
+      "file": "page-10.png",
+      "sha256": "b1e22f0225fe9cd0549490a349cea54e8157be1cd7ec46b046dea2343c06a887",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 11,
+      "file": "page-11.png",
+      "sha256": "f3cf705ae0e67485d90645102cecaac90dc73987204b9f40cf95bdde7b684723",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 12,
+      "file": "page-12.png",
+      "sha256": "ddd4663bae6b128c3825a1b54f1a69d47fecbf92cbfa9afa847ee5472b0e623b",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 13,
+      "file": "page-13.png",
+      "sha256": "3d79b2cf67a498506db9210d8bdcbc95dd8bd5a4b59f648be93921957f632d71",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 14,
+      "file": "page-14.png",
+      "sha256": "8c7fcffbacf4921a580f4a2ab37d62a78d90d8b6d80a2524774d512d2a9bd7f9",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 15,
+      "file": "page-15.png",
+      "sha256": "0dd3be84e080729698bdf14287f1d5a0336687a654543f3d6cd691187f84b7ab",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 16,
+      "file": "page-16.png",
+      "sha256": "647b66d63bfa88ea9b6e0cc994b51d80803ee9e3cdf140f312d4cdd5988bc329",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 17,
+      "file": "page-17.png",
+      "sha256": "df77ee8056dc00b257cef23e042c2169968614f7e6d1f8b7d709f44a01677267",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 18,
+      "file": "page-18.png",
+      "sha256": "b2816ad0be76eee07cbed1dd7132bde268b123c497147676d00ca8a4e1ccfd60",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 19,
+      "file": "page-19.png",
+      "sha256": "dd2ceb20d09903be495f72fd393a79ad903c459c934810fb162793a5ddea6a4f",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 20,
+      "file": "page-20.png",
+      "sha256": "850e5b800f4fd3eb1d5bc621f8dcf48fecc52fadbd2ec233bb60b94e4902bd92",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 21,
+      "file": "page-21.png",
+      "sha256": "fdb366eb8cf7fbe2048dd1c14252154988cd0e80195002f7b355b2f6838d2495",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 22,
+      "file": "page-22.png",
+      "sha256": "f80963ab6726981bd150b6c915c688a5f9eb27bdb82749d4c09f065ced1ca8b4",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 23,
+      "file": "page-23.png",
+      "sha256": "4cdc2f6d11aaf2c96377b667f8967d731b3698d14c010704a2d0528bd9a9bf8a",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 24,
+      "file": "page-24.png",
+      "sha256": "65cf19ab126e2cfc57ad6b5387af5cc7e599ad3d6099fea69e560eb3ce733261",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。 对照核查表格边界、单元格内容及跨页续表；内容完整。"
+    },
+    {
+      "page": 25,
+      "file": "page-25.png",
+      "sha256": "1cdfba4bee8af059dcd128380e765ea4de874b4b48f9abb32d76ac074b76cf05",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 26,
+      "file": "page-26.png",
+      "sha256": "50637ee14f6c677dec4052f8bd2ca554b9a3f9eef648cb9fc77241848e67d773",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 27,
+      "file": "page-27.png",
+      "sha256": "2616a4823ec8b9c301abe558c84f85f4a82f26f841098590a8f6653489edf9e9",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 28,
+      "file": "page-28.png",
+      "sha256": "761768873e9d9f8f38d4f140f5e3bcf87cf6bd7a6a20cb41cf7858b73b533c53",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 29,
+      "file": "page-29.png",
+      "sha256": "50ed45a26ff25d3c1a3e8744f0dbf8cc004dc761c3ae448ca78c64a8a9802dee",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 30,
+      "file": "page-30.png",
+      "sha256": "b878c79760474639791261f71f368b68330145e8548f04fefda31a6f9a5a4aa3",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 31,
+      "file": "page-31.png",
+      "sha256": "b793bd1cf13d1ef449cdb64fb38616d44c3fe32efc4c8c2c8768e9ddc4684acc",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 32,
+      "file": "page-32.png",
+      "sha256": "7b5d8480e6110ce4ab35032911c9509e5a15da6aec9e503e97f437c73e1f614b",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 33,
+      "file": "page-33.png",
+      "sha256": "57092fc13f91f6dd698ccf8e71c718a22e9a28274aa143a4198d2b9faa6a7fd9",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 34,
+      "file": "page-34.png",
+      "sha256": "9afe65740669d1bc635d6806acf4b069d4d8721cb989b87edd0fa42f2b10c3dd",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 35,
+      "file": "page-35.png",
+      "sha256": "4e105dd34b84baba51622b32c458a7c9c159b63be1941cb005802b5b058f9428",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 36,
+      "file": "page-36.png",
+      "sha256": "133a18126a1f366d1dad0d2153c6dc34549cb54a0f1aca3a4965b72ba2fafed4",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 37,
+      "file": "page-37.png",
+      "sha256": "09389e6e7adafb08466c4cd969a3c7f868377afd76f76d73c9dc61db4191f8e6",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 38,
+      "file": "page-38.png",
+      "sha256": "f392bb1ea8df95f2843e713f6b844b7ab2028e3be19dbd2aa285366a529621ca",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 39,
+      "file": "page-39.png",
+      "sha256": "a1a50b2838404ac669d778fbd7a69648b5fac24906b8f74b8823140f061c5c62",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 40,
+      "file": "page-40.png",
+      "sha256": "42fe3c391489403b4e117e266e9b50003c4172703de1cd8b1f00846861276ead",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 41,
+      "file": "page-41.png",
+      "sha256": "70f739b73d129d6c4d1e615e7c27332e05abab64151447aa4f9c5547c466e6ac",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 42,
+      "file": "page-42.png",
+      "sha256": "601564b5fcc0ebd983af998ff9cd7bf34b2d67a01782b8c496cccb771d672de5",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 43,
+      "file": "page-43.png",
+      "sha256": "e009efca25ad91f4e9c1a6da4eba703d69300ee7405d790ceb1cab037c868fa1",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 44,
+      "file": "page-44.png",
+      "sha256": "fc389aa898d19f72c626b0bc58c6be60107315a378afa41e2b493499ffaee65d",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。 对照核查表格边界、单元格内容及跨页续表；内容完整。"
+    },
+    {
+      "page": 45,
+      "file": "page-45.png",
+      "sha256": "00e14fcac363e7a17e8159d98b8c5fc23480057aad8623e5b0538bb1b16ec1b8",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 46,
+      "file": "page-46.png",
+      "sha256": "cb9c53fff67a7275343524477bf284c7378871dfc61035e9da3d3a4fa1f5918c",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 47,
+      "file": "page-47.png",
+      "sha256": "3fa02f4d138384704465971d12ecea1b2e3d463be15483e6a2aa0cbea6a22d65",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 48,
+      "file": "page-48.png",
+      "sha256": "b7d11127bc465a49e56f44c891c962db6e74f52fcbc02999141b3a4cb6a4bc4a",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 49,
+      "file": "page-49.png",
+      "sha256": "3e25ed14e8c8894d37f0eb3fb76043418c7b46590c73d98534dd6a3d53f352f2",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 50,
+      "file": "page-50.png",
+      "sha256": "6c4667a2f3dbb05729dc7c6a918907a244858cd940233f5b27f37c1c31405a5e",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 51,
+      "file": "page-51.png",
+      "sha256": "58910a3cbd6d186e8bcf509ed3ea5a406f886ae76d13cd0117bbc3011a27263b",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 52,
+      "file": "page-52.png",
+      "sha256": "8ea477ff1f6fab7ca7aa703c556db3ff952a8d22bd94840b860ed54276ce6950",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 53,
+      "file": "page-53.png",
+      "sha256": "12e4b2ea6221c5209d6cc0d7bc1be06b24167f25bc1758bd853aeef98e5017ea",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 54,
+      "file": "page-54.png",
+      "sha256": "afd2ae22dc1402a64789e46e677ca6184f2312f4ee24c9e6c44247ac23f2557d",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。 对照核查表格边界、单元格内容及跨页续表；内容完整。"
+    },
+    {
+      "page": 55,
+      "file": "page-55.png",
+      "sha256": "1728ce7f591da57e4050d995e2b8612c94b7913034089d07b9761caa96a4fedf",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。 对照核查表格边界、单元格内容及跨页续表；内容完整。"
+    },
+    {
+      "page": 56,
+      "file": "page-56.png",
+      "sha256": "10c9607e6feb1ca01483a2d70b34162e4647971202636bcffdd4fefd8d386115",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。 对照核查表格边界、单元格内容及跨页续表；内容完整。"
+    },
+    {
+      "page": 57,
+      "file": "page-57.png",
+      "sha256": "d767b25c3d1588e58b978e48d64596c36f5284f32b6c713eba50e91694b54717",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 58,
+      "file": "page-58.png",
+      "sha256": "d6c06b3a5c921c1f57fcfd47ee76a2da1a1dcd267d3cd87cf4e6c9a95ba5a048",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 59,
+      "file": "page-59.png",
+      "sha256": "a168897968184358fd21cfc941f51469a04c0d208a4ca8bc32e4757359c799a7",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 60,
+      "file": "page-60.png",
+      "sha256": "a64a150666009928a8e176f4daef00ec2beba6769d90cdf9392c013867e9bdf5",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。 E06练习提示与数据示例自然跨页，续页内容完整。"
+    },
+    {
+      "page": 61,
+      "file": "page-61.png",
+      "sha256": "433570db07f7e8e1c302b39d4dfae87528f34a951a851a3f96a46ae42e94143c",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。 E06练习提示与数据示例自然跨页，续页内容完整。"
+    },
+    {
+      "page": 62,
+      "file": "page-62.png",
+      "sha256": "d25aa4c6825011a17fa2aebab5192db03d1443bb3e746ac26edbdb10811fdda2",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 63,
+      "file": "page-63.png",
+      "sha256": "ee8bb53754ccc1402120d4168140b3c0068f9155e93bd5bff784f69fb303e5ac",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 64,
+      "file": "page-64.png",
+      "sha256": "2b2b0e2dec24e27901d10d1037e20764374628f7643ef71b989634da7342e1c9",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 65,
+      "file": "page-65.png",
+      "sha256": "8b3ed08f26d9524a2a1f9cd9c73cf0cf68a9ffb452d2a9c0eb2f680371cb7637",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 66,
+      "file": "page-66.png",
+      "sha256": "1f95622ca1c0ae2438c26b309944f51892e63848a55673e540656decb3e4f424",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 67,
+      "file": "page-67.png",
+      "sha256": "a66b617e26eb2db744a20b6d6c1bff990701200b688f870852804167ad1747b1",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 68,
+      "file": "page-68.png",
+      "sha256": "e8f6871ed0b8f88a23bd23276ff629c59611e5b68d161cd504ce3bd5d28dde86",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 69,
+      "file": "page-69.png",
+      "sha256": "f962dfa761cf20782bc8ab62b629b7918a7906c432b1f901797f96b985edd851",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 70,
+      "file": "page-70.png",
+      "sha256": "e8a99092afb20ba172c61ae657c475c4529ee8c79f3f7a45ae674c0c66e10a0f",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 71,
+      "file": "page-71.png",
+      "sha256": "1c48fc9065f85c60e8f7c3b939b52536cc9ba4ae431fdd6340000dcf3166850c",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 72,
+      "file": "page-72.png",
+      "sha256": "2adadecc7eca5d51f347a1aec875dbc51b741c8e5661ab7528a6616428145fae",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 73,
+      "file": "page-73.png",
+      "sha256": "b77baaeb08f6f3a3c49b4adc80b5af8e022d20b96f3d82af323ea673a6f749a9",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。"
+    },
+    {
+      "page": 74,
+      "file": "page-74.png",
+      "sha256": "f02a4e45f84903983c3ff98e38f19c52cbb31595510d04854f0f9a891dc992af",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。 文献条目与编号清晰；第76页末尾自然留白，无截断。"
+    },
+    {
+      "page": 75,
+      "file": "page-75.png",
+      "sha256": "62b60d2277a11bd333c621400a6ee48e5be852fbe37c2c8f6deaeb5cd87c10fa",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。 文献条目与编号清晰；第76页末尾自然留白，无截断。"
+    },
+    {
+      "page": 76,
+      "file": "page-76.png",
+      "sha256": "a612dcd357328fabe3c30c1a8dd4023ffccf1e070db611c539b309bb1a7520aa",
+      "actually_opened": true,
+      "inherited_identical_png": false,
+      "observer": "/root/revise_ch07_09",
+      "predecessor": null,
+      "observation": "本轮实际打开原分辨率PNG逐页检查。正文、页码及可见图表/表格可读；未见裁切、遮挡、重叠、断行导致的信息缺失或孤标题。 文献条目与编号清晰；第76页末尾自然留白，无截断。"
+    }
+  ],
+  "layout_checks": "PASS",
+  "toc_cache_matches_actual_pages": true
+}

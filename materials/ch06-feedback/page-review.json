@@ -1,0 +1,952 @@
+{
+  "chapter": 6,
+  "source_sha256": "e590422011729a3bb24d45b509cc9fd72383ae1134fbec3eb21bc1fc081175aa",
+  "docx_sha256": "af399a8efff91d70fbd1d138df94c6df0946d4c57731d82fb965d3bb6ec696c7",
+  "pdf_sha256": "0b696e5a8b61b2d9fa7e38be81c4c43cd5bbeed67f13017b69547bc09faed374",
+  "pages": 72,
+  "archive": "materials/ch06-feedback/final-pages.zip",
+  "archive_sha256": "6d3066209ceab547af046d3fd22815f1e1a303b81be12b019ecd64bbdd5e17bc",
+  "png_manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+  "fresh_actual_page_observations": 72,
+  "inherited_identical_png_pages": 0,
+  "unviewed_final_page_bytes": [],
+  "rows": [
+    {
+      "page": 1,
+      "sha256": "e8247373b34589cd6fe8c49dbc99e59abdff5b660678c6941be420e426161f45",
+      "archive_member": "page-1.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 2,
+      "sha256": "3f84fa0e7c7b65ada6741b254d5df210962606b7c0964af92d884b4afb447401",
+      "archive_member": "page-2.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 3,
+      "sha256": "3adf92bc72325c50f9f7e21c5b208d37e4fc5f3bc3266612615fd85da364d8f3",
+      "archive_member": "page-3.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 4,
+      "sha256": "603b316b2e0ddb112005e93a1680d5c09b4219c2e24b991e0086458465b18f8d",
+      "archive_member": "page-4.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 5,
+      "sha256": "c8a4fb13ab01b5b24f8a85738f0773851d1a28b535cdb9edd3e3c91986451b65",
+      "archive_member": "page-5.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 6,
+      "sha256": "9c25daaddb26a20e1b58a8398ff3f755a36971c7b7e7517ee70a9033a4dd78d9",
+      "archive_member": "page-6.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 7,
+      "sha256": "1029867ffb7e58320f3eddd66e05b5be83a4d4d90c0acb589808f9112e703a27",
+      "archive_member": "page-7.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 8,
+      "sha256": "cf6d34ce7f9d1bb918450f3f1a577bf4b110889a2ceb3b02e6f292a4f9353724",
+      "archive_member": "page-8.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 9,
+      "sha256": "aa92b0ee711d4be9d01edc291b91365de834ba68aab378a4b97661196c5ca1e1",
+      "archive_member": "page-9.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 10,
+      "sha256": "eeb0c4b2ff9726ced028f779ded272cc3b5d24d7bd6b55d530870fc4281fa560",
+      "archive_member": "page-10.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 11,
+      "sha256": "2e55f19555afdd7d8405d45f963c63e478c82a200b2593d04a546b8ccc04ced6",
+      "archive_member": "page-11.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 12,
+      "sha256": "54088f30f40bf17abcaad61714cd6d134e08813e00f6d4e012af6bca7cf26d23",
+      "archive_member": "page-12.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 13,
+      "sha256": "486bffc9f5a2eefd765179fee9044e478187e2170d0e21abd6b19b634a11a62e",
+      "archive_member": "page-13.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 14,
+      "sha256": "9547f615aa4bc47c90db25bc3dbd6c3db93926f1861a25ddbe87293c5ba64d3d",
+      "archive_member": "page-14.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 15,
+      "sha256": "379daeea9f93423cdde2da09c37de1f31397fe835384e65a8258c8fe686db749",
+      "archive_member": "page-15.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 16,
+      "sha256": "62ef5e46a365609c2308cd4c4904862cb078a7e069ca4713e9a78ec7045ebaac",
+      "archive_member": "page-16.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 17,
+      "sha256": "89ac8013d522b6c7dd34d6c8cb593f889e1ed979a3e6a93be93658fa514a1089",
+      "archive_member": "page-17.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 18,
+      "sha256": "b4556727e9c366302bc702788d3cc7de482e7f9fee621ec325f4a233bc342ee2",
+      "archive_member": "page-18.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 19,
+      "sha256": "dfb12f7ca14243bb622036c186c7c896c6c0ca8502af985565c4753e445eb420",
+      "archive_member": "page-19.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 20,
+      "sha256": "30396ea427a58e5df14df881f8aeec0c66e495c669ed3e72c97f925a7268349a",
+      "archive_member": "page-20.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 21,
+      "sha256": "43398d98b33704c498f117c6d728cb4324e8b9f543cf99d593d72982071800f3",
+      "archive_member": "page-21.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 22,
+      "sha256": "7a71f748c4cc8b871a080fea6247e1351d1000531f0ba011c47844e1d951e57f",
+      "archive_member": "page-22.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 23,
+      "sha256": "426d4fa7842ef6c1f375cc78e6690dcdb8ad030092eac558644b64465aa24e0b",
+      "archive_member": "page-23.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 24,
+      "sha256": "eb3ef74e8d5739a7c1ca8338394d1ff3892c15df732f3bcddc3c92851b91128c",
+      "archive_member": "page-24.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 25,
+      "sha256": "1fbf66f172027b7c22ea9a05f98cc29281349e4ac16b2d248bfc91168834823d",
+      "archive_member": "page-25.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 26,
+      "sha256": "289dabeca1057b21770a65dde4ba1bd744bd868ea935c52dc6354e7067315b3c",
+      "archive_member": "page-26.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 27,
+      "sha256": "9c750168041944ef4b2d17755e1505d075016d26d8c9f994c3b25ed9baf4fe78",
+      "archive_member": "page-27.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 28,
+      "sha256": "2c9fec8d15efeef6faee091857d4b29cb9704da15eab47caf16a8e0d8875c6e7",
+      "archive_member": "page-28.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 29,
+      "sha256": "d8f76f3e9ae5abc7fa61ea75d08ce97cc5ba1d535ee6dc1d123aa725cacc6dfe",
+      "archive_member": "page-29.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 30,
+      "sha256": "6db31a65559d62d95a64d5a5defd0c71f2f47da56122707b58e38091c8929d23",
+      "archive_member": "page-30.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 31,
+      "sha256": "fdf65d4af7a000b53b3381b3ef6b011b8ea0239489d41fa240f85d037c868c14",
+      "archive_member": "page-31.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 32,
+      "sha256": "f9486d1a97b48752d43947e79b14649a91acc4f7fbd8c37db6e294f0eab5bda1",
+      "archive_member": "page-32.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 33,
+      "sha256": "39aa77efd38cac76c765645ed65cbbf8b5f98390a2b21af516fbfc3dadf7db17",
+      "archive_member": "page-33.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 34,
+      "sha256": "c0fbb737f09f0c7b773061e9044fd5c2a42c8c6dc7dfa0199f4842c8e03c34e2",
+      "archive_member": "page-34.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 35,
+      "sha256": "e25dbff0aeacd154a499092ed27939e2d3f668572cc143fc6e9771beabd46aa6",
+      "archive_member": "page-35.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 36,
+      "sha256": "fcd638944f91ad8fc48fdb45e16f72cbb827aace700451cb94bfebd983468dd9",
+      "archive_member": "page-36.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 37,
+      "sha256": "32167ed9fc9882fe262adaec17d78440442a62c4e5706f8f1aef97096155099f",
+      "archive_member": "page-37.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 38,
+      "sha256": "39e576bbd057fe1afbdcf002a0ede31e9ff9d1a5b3a87417baa49765fc969979",
+      "archive_member": "page-38.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 39,
+      "sha256": "161a994dda18eddcae03cfa011ed5b6f35b3e19a4a679cca419241902cdf4f2d",
+      "archive_member": "page-39.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 40,
+      "sha256": "fb3ad4cd225f0bc1c92970869759794623e60316d6ee358bff85d7ba80ddb517",
+      "archive_member": "page-40.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 41,
+      "sha256": "427d0ff35eab6a4723c9bcc2a7f3badc1654993140ca942820aa88cf6e7e5447",
+      "archive_member": "page-41.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 42,
+      "sha256": "12e93cfe4730cd8dfbdfa26abdbd0aa4150ce0cf3b68d35cf1400a4072b013e4",
+      "archive_member": "page-42.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 43,
+      "sha256": "016fcbf6741a08d4a09402baceb1aaa3a1d1cb969359165e2b71120cd5d00e29",
+      "archive_member": "page-43.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 44,
+      "sha256": "567b7311abf7722d00a4482a5ca6773d4a4867f5d56bb6abfb635cd920f48043",
+      "archive_member": "page-44.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 45,
+      "sha256": "ae9cd9053414b8def3e849e611f204dfadf751a3ba6d477cff1f43d3326c1ef6",
+      "archive_member": "page-45.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 46,
+      "sha256": "bea32f5afb05d398199027c890507435c00d58c40850cb68df1eefe3f572952f",
+      "archive_member": "page-46.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 47,
+      "sha256": "b67e7429fbfe1fdafa69e7b3b5ed177a278a58fab2d16adf66cd8108ef5917ea",
+      "archive_member": "page-47.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 48,
+      "sha256": "8bd5e6137809055cb16f38acc9687268ff3c07ffb06c42511a03f7b7b254147a",
+      "archive_member": "page-48.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 49,
+      "sha256": "d6daa7214083485e4d4dd2ceb670298bd3e56dedd4013b64bd389cd167c838b1",
+      "archive_member": "page-49.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 50,
+      "sha256": "6cc8a3ffa44f731f684aea58d17725be78e61dfa1bf9c3e800be85a930f9eea7",
+      "archive_member": "page-50.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 51,
+      "sha256": "8139b6f7d3788030b8275864c4c1a659d1ba164f85315527b9407fcac3bc30ad",
+      "archive_member": "page-51.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 52,
+      "sha256": "5d45e545f9025ca16fbdf4f5252f6b29173a457336abc8e4aa4407bdb6245fd2",
+      "archive_member": "page-52.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 53,
+      "sha256": "ab247bc00c4ab62ed8d0364c003387bf9305e91dca2e79841cae572ea19bfd72",
+      "archive_member": "page-53.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 54,
+      "sha256": "d99068ff2878c12fe6415c8b33b60f06222bcb7df804c12a6fdfdc94c1e76ca9",
+      "archive_member": "page-54.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 55,
+      "sha256": "8e718b1c20db5564172df3f842142ae407848a3ca0bd8697d5c480d0f5efa8e9",
+      "archive_member": "page-55.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 56,
+      "sha256": "f277c06a23088de01dd33ae51adeba16f80108c50f26e2a0528c7ade5a5c2b2f",
+      "archive_member": "page-56.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 57,
+      "sha256": "254b2da70995ab202d10f7a0a9b381a0126303db5af4631c3153a6f8673bad83",
+      "archive_member": "page-57.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 58,
+      "sha256": "a48d66d68b923c4113dfeba31f2fcd4f93c3c6fe1b2996477a242fee74923b45",
+      "archive_member": "page-58.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 59,
+      "sha256": "2449aee47a6442c4f51c7b9f48e6dd742b62e99b086c2461779bd1a8af1acced",
+      "archive_member": "page-59.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 60,
+      "sha256": "e3b7155331fbc44b30ab68dfd10d910f821fdc3906becf7bd589fdf64c60bfb7",
+      "archive_member": "page-60.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 61,
+      "sha256": "37b5952bf51ab0a56460fb26033f40f5d1a535ecd742326a8384b89dc041bab1",
+      "archive_member": "page-61.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 62,
+      "sha256": "59b95c7e0b2bbe74bf2487492823aa6569427c4d09d2e16501fb4165893cc578",
+      "archive_member": "page-62.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 63,
+      "sha256": "404c1c3bcedf05c26e5a6cbbef3c7fbd916eae012098ef2e306d3375d062a5a0",
+      "archive_member": "page-63.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 64,
+      "sha256": "c5fd4c34491ff621e900524a14ba3b5be0ba4a2e9d446fb5aa716f4895a043e6",
+      "archive_member": "page-64.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 65,
+      "sha256": "a2cfaca1c948c17b7efd4625020b102f5889a4e0b8454cfa56ad2350a6ea690a",
+      "archive_member": "page-65.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 66,
+      "sha256": "59a9d0370946383be524b22133d04369b4af067033806c9f41433c8da53b9725",
+      "archive_member": "page-66.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 67,
+      "sha256": "65ba9fb7ecde370b9ae6bf8aa7bd9b118d6cfa4f0a359d847e7a583cecee548c",
+      "archive_member": "page-67.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 68,
+      "sha256": "e09238b3d274de366fec23ad4d1ee8a8b250fff75953756504ef4b31df8d0972",
+      "archive_member": "page-68.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 69,
+      "sha256": "584b62a505ed8f8ce3b47952b45441da62d35ec154cb237dc538384458240313",
+      "archive_member": "page-69.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 70,
+      "sha256": "74fd7a65ba9a7a504bbebdff8e8d6eb8891c5b1dcf72777c54d29833d2e54970",
+      "archive_member": "page-70.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 71,
+      "sha256": "e07c083328fcf87dd0e6308d9f29c2be594ac0447f064a2446571619a2c977ac",
+      "archive_member": "page-71.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    },
+    {
+      "page": 72,
+      "sha256": "0f3cb1249113c7837aa6315ea6f707d3f12dc71d1882c1ae9ffca63583929c80",
+      "archive_member": "page-72.png",
+      "observation": {
+        "actual_view": true,
+        "detail": "original",
+        "observer": "/root/content_professional",
+        "manifest_sha256": "00487f6622ffb9c46dc292e09862811675b1bad33d5b58bdc11b06b448a3fb3f",
+        "finding": null,
+        "observation": "独立会话逐页实看1–72；61–64输出截断后重新分组复读，无版式finding。"
+      }
+    }
+  ],
+  "limits": "PNG actual reading/strict byte inheritance only; Word native refresh, print and teacher/student acceptance untested."
+}
