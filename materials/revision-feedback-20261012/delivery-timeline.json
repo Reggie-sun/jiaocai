@@ -1,0 +1,27 @@
+{
+  "user_clarification": "这个版本就是最新的那个看时间线",
+  "timezone": "Asia/Hong_Kong",
+  "chapter2_first_repository_delivery": "manuscripts/ch02/ch02.md",
+  "chapter2_current_feedback_baseline": "manuscripts/ch01-03-review/ch02.md",
+  "resolution": "Parent依据用户时间线更正与实际Git日期，按仓库最早第二章交付比对第一版，按最后交付稿接收反馈；不恢复仓库外废弃前四章。",
+  "versions": [
+    {
+      "path": "manuscripts/ch02/ch02.md",
+      "history": [
+        "93681de544133ef836bc93deaa31076a8fc7997f 2026-10-11T23:17:06+08:00 Deliver chapter two with independent reviews and formal Word/PDF"
+      ]
+    },
+    {
+      "path": "manuscripts/ch02-progressive/ch02.md",
+      "history": [
+        "85bc920aa986d49b46d65adc376b08a1d1d16082 2026-10-12T01:17:33+08:00 Deliver progressive Chapter 2 with independent review and formal typesetting"
+      ]
+    },
+    {
+      "path": "manuscripts/ch01-03-review/ch02.md",
+      "history": [
+        "8bc73008481200c0c1afd49c1a4ec822afdbd10c 2026-10-12T04:40:48+08:00 Review and refine Chapters 1–3 as a continuous textbook"
+      ]
+    }
+  ]
+}

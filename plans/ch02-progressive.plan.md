@@ -1,5 +1,9 @@
 # Chapter 2 Progressive Edition Implementation Plan
 
+## Current Feedback Revision
+
+2026-10-12最新稿反馈中的第二章初版、递进版和最新跨章审校稿的比对；实际反馈基线为最新稿，按[跨章修订Spec](../specs/revision-feedback.spec.md)与[Plan](../plans/revision-feedback.plan.md)执行。当前用户选择 `AB`，只交付清单/要求/Spec/Plan，未启动正文或Word/PDF修订；下文保留原交付轮次契约，不因新增路由重启旧任务或追认旧稿满足新要求。当前增量与下文冲突时以修订Spec及最新主Skill为准。
+
 ## Goal and Contracts
 
 按[Spec](../specs/ch02-progressive.spec.md)交付第二章递进版，恢复原提纲标题并把AI时代的方法重构写成可理解、可练习的主线。Native Codex拥有lifecycle；复用最新版`textbook-authoring`、Markdown SDD、互斥作者职责、原Harness及`textbook-style-v1.0`。旧章、原材料、引擎、policy、模板不变。

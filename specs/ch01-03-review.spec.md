@@ -1,5 +1,9 @@
 # Chapters 1–3 Cross-Chapter Teaching Review
 
+## Current Feedback Revision
+
+2026-10-12最新稿反馈中的第一、三章全国定位清理与第二章原纲/多案例修订，按[跨章修订Spec](../specs/revision-feedback.spec.md)与[Plan](../plans/revision-feedback.plan.md)执行。当前用户选择 `AB`，只交付清单/要求/Spec/Plan，未启动正文或Word/PDF修订；下文保留原交付轮次契约，不因新增路由重启旧任务或追认旧稿满足新要求。当前增量与下文冲突时以修订Spec及最新主Skill为准。
+
 ## Goal and Authority
 
 按2026-10-12用户授权，审读前三章当前完整交付，从连续大学教材的角度核对递进、衔接、重复、深度、案例练习、图文与原纲定位；直接修复Parent确认的实质问题，不自动编写第四章。Native Codex负责裁决与修订，独立AI意见是证据而非验收权。

@@ -1,0 +1,303 @@
+{
+  "runs": [
+    {
+      "id": "blueprint-20261011",
+      "state": "reviewed",
+      "scope": "blueprint",
+      "stage": "draft",
+      "manuscript": "十章编写蓝图.md",
+      "pending": [
+        "第九章及第十章重组为编写提案，尚待外部确认",
+        "学时与评审意见、校本案例及出版社要求尚未确认",
+        "章级教学图为规划，本轮只制作试写节采用的图"
+      ],
+      "effective_state": "blocked",
+      "stale_reasons": [
+        "policy changed",
+        "engine changed",
+        "file changed: 十章编写蓝图.md"
+      ],
+      "review_kind": "legacy_unspecified"
+    },
+    {
+      "id": "ch01-draft",
+      "state": "accepted",
+      "scope": "chapter",
+      "stage": "draft",
+      "manuscript": "manuscripts/ch01/ch01.md",
+      "pending": [
+        "出版社排版与正式字数口径、校方课程安排尚未确认；当前交付为chapter/draft。",
+        "尚未开展真实课堂试教或教师人工审校；AI自审不替代其验收。"
+      ],
+      "effective_state": "blocked",
+      "stale_reasons": [
+        "file changed: 十章编写蓝图.md"
+      ],
+      "review_kind": "ai_self"
+    },
+    {
+      "id": "ch01-rewrite",
+      "state": "accepted",
+      "scope": "chapter",
+      "stage": "draft",
+      "manuscript": "manuscripts/ch01-rewrite/ch01.md",
+      "pending": [
+        "当前交付为完整初稿及正式Word/PDF排版，沿原G11登记chapter/draft；真实教师/学生试读、课堂试教和校方/出版社审定未完成。",
+        "Microsoft Word原生目录更新、纸张打印未执行；课时、校方目录与出版社要求待明确。改变Word分页或更新域须重新核对目录与页面。"
+      ],
+      "effective_state": "blocked",
+      "stale_reasons": [
+        "file changed: 十章编写蓝图.md",
+        "file changed: skills/textbook-authoring/SKILL.md",
+        "file changed: specs/authoring-quality.spec.md",
+        "file changed: specs/ch01-quality.spec.md"
+      ],
+      "review_kind": "ai_self"
+    },
+    {
+      "id": "ch02-delivery",
+      "state": "accepted",
+      "scope": "chapter",
+      "stage": "draft",
+      "manuscript": "manuscripts/ch02/ch02.md",
+      "pending": [
+        "完整初稿与正式Word/PDF沿用chapter/draft验收；真实教师/学生试读、课堂试教、校方及出版社审定尚未完成。",
+        "Microsoft Word原生目录/交叉引用更新及实体打印未执行；改变分页或更新域后需要重新核对目录和页面。"
+      ],
+      "effective_state": "blocked",
+      "stale_reasons": [
+        "file changed: 十章编写蓝图.md",
+        "file changed: skills/textbook-authoring/SKILL.md",
+        "file changed: specs/authoring-quality.spec.md"
+      ],
+      "review_kind": "ai_self"
+    },
+    {
+      "id": "ch01-figures",
+      "state": "accepted",
+      "scope": "chapter",
+      "stage": "draft",
+      "manuscript": "manuscripts/ch01-figures/ch01.md",
+      "pending": [
+        "当前为完整初稿及正式Word/PDF排版，chapter/draft；真实教师/学生试读、课堂试教和校方/出版社审定未完成。",
+        "Microsoft Word原生域/目录更新、纸张打印未执行；新图增加3页，改变Word分页或更新域须重新核查。"
+      ],
+      "effective_state": "blocked",
+      "stale_reasons": [
+        "file changed: 十章编写蓝图.md",
+        "file changed: skills/textbook-authoring/SKILL.md",
+        "file changed: specs/authoring-quality.spec.md",
+        "file changed: specs/ch01-quality.spec.md"
+      ],
+      "review_kind": "ai_self"
+    },
+    {
+      "id": "ch02-progressive",
+      "state": "accepted",
+      "scope": "chapter",
+      "stage": "draft",
+      "manuscript": "manuscripts/ch02-progressive/ch02.md",
+      "pending": [
+        "完整教材初稿和正式Word/PDF，chapter/draft；真实教师/学生试读、课堂试教、校方/出版社审定未完成。",
+        "Microsoft Word原生目录/交叉引用更新及实体打印未执行；修改Word分页或更新域后须重新核对目录及页面。"
+      ],
+      "effective_state": "blocked",
+      "stale_reasons": [
+        "file changed: skills/textbook-authoring/SKILL.md",
+        "file changed: specs/authoring-quality.spec.md"
+      ],
+      "review_kind": "ai_self"
+    },
+    {
+      "id": "ch01-history-layout",
+      "state": "accepted",
+      "scope": "chapter",
+      "stage": "draft",
+      "manuscript": "manuscripts/ch01-history-layout/ch01.md",
+      "pending": [
+        "完整图文教材初稿及正式Word/PDF，chapter/draft；真实教师/学生试读、课堂试教、校方/出版社审定未完成。",
+        "Microsoft Word原生目录/字段更新及实体打印未执行；更改Word分页或更新字段后须重新核对目录与页面。"
+      ],
+      "effective_state": "blocked",
+      "stale_reasons": [
+        "file changed: skills/textbook-authoring/SKILL.md",
+        "file changed: specs/authoring-quality.spec.md"
+      ],
+      "review_kind": "ai_self"
+    },
+    {
+      "id": "ch03-layout",
+      "state": "accepted",
+      "scope": "chapter",
+      "stage": "draft",
+      "manuscript": "manuscripts/ch03-layout/ch03.md",
+      "pending": [
+        "完整图文教材初稿与Word/PDF排版，chapter/draft；真实教师/学生试读、课堂试教、校方与出版社审定未完成。",
+        "Microsoft Word原生字段/目录刷新及实体打印未执行；修改Word分页或更新域后重新核对目录和页面。"
+      ],
+      "effective_state": "blocked",
+      "stale_reasons": [
+        "file changed: skills/textbook-authoring/SKILL.md",
+        "file changed: specs/authoring-quality.spec.md"
+      ],
+      "review_kind": "ai_self"
+    },
+    {
+      "id": "ch01-crossreview",
+      "state": "accepted",
+      "scope": "chapter",
+      "stage": "draft",
+      "manuscript": "manuscripts/ch01-03-review/ch01.md",
+      "pending": [
+        "跨章审校修订的完整教材初稿及Word/PDF，chapter/draft；真实教师/学生试读、课堂试教、校方与出版社审定尚未完成。",
+        "Microsoft Word原生字段/目录刷新及实体打印未执行；修改Word分页或更新域后重新核对目录与页面。"
+      ],
+      "effective_state": "blocked",
+      "stale_reasons": [
+        "file changed: skills/textbook-authoring/SKILL.md",
+        "file changed: specs/authoring-quality.spec.md"
+      ],
+      "review_kind": "ai_self"
+    },
+    {
+      "id": "ch02-crossreview",
+      "state": "accepted",
+      "scope": "chapter",
+      "stage": "draft",
+      "manuscript": "manuscripts/ch01-03-review/ch02.md",
+      "pending": [
+        "跨章审校修订的完整教材初稿及Word/PDF，chapter/draft；真实教师/学生试读、课堂试教、校方与出版社审定尚未完成。",
+        "Microsoft Word原生字段/目录刷新及实体打印未执行；修改Word分页或更新域后重新核对目录与页面。"
+      ],
+      "effective_state": "blocked",
+      "stale_reasons": [
+        "file changed: skills/textbook-authoring/SKILL.md",
+        "file changed: specs/authoring-quality.spec.md"
+      ],
+      "review_kind": "ai_self"
+    },
+    {
+      "id": "ch03-crossreview",
+      "state": "accepted",
+      "scope": "chapter",
+      "stage": "draft",
+      "manuscript": "manuscripts/ch01-03-review/ch03.md",
+      "pending": [
+        "跨章审校修订的完整教材初稿及Word/PDF，chapter/draft；真实教师/学生试读、课堂试教、校方与出版社审定尚未完成。",
+        "Microsoft Word原生字段/目录刷新及实体打印未执行；修改Word分页或更新域后重新核对目录与页面。"
+      ],
+      "effective_state": "blocked",
+      "stale_reasons": [
+        "file changed: skills/textbook-authoring/SKILL.md",
+        "file changed: specs/authoring-quality.spec.md"
+      ],
+      "review_kind": "ai_self"
+    },
+    {
+      "id": "ch04-layout",
+      "state": "accepted",
+      "scope": "chapter",
+      "stage": "draft",
+      "manuscript": "manuscripts/ch04-layout/ch04.md",
+      "pending": [
+        "完整图文教材初稿和Word/PDF，chapter/draft；真实教师/学生试读、课堂试教、校方与出版社审定未完成。",
+        "Microsoft Word原生字段/目录刷新与实体打印未执行；改变分页或更新域后需重新核对目录和页面。"
+      ],
+      "effective_state": "accepted",
+      "stale_reasons": [],
+      "review_kind": "ai_self"
+    },
+    {
+      "id": "ch05-layout",
+      "state": "accepted",
+      "scope": "chapter",
+      "stage": "draft",
+      "manuscript": "manuscripts/ch05-layout/ch05.md",
+      "pending": [
+        "完整图文教材初稿和Word/PDF，chapter/draft；真实教师/学生试读、课堂试教、校方与出版社审定未完成。",
+        "Microsoft Word原生字段/目录刷新与实体打印未执行；改变分页或更新域后需重新核对目录和页面。",
+        "校本特色行业/领域未核定；现有相关案例与项目使用明确教学模拟，不代表真实校本调查。"
+      ],
+      "effective_state": "accepted",
+      "stale_reasons": [],
+      "review_kind": "ai_self"
+    },
+    {
+      "id": "ch06-layout",
+      "state": "accepted",
+      "scope": "chapter",
+      "stage": "draft",
+      "manuscript": "manuscripts/ch06-layout/ch06.md",
+      "pending": [
+        "完整图文教材初稿和Word/PDF，chapter/draft；真实教师/学生试读、课堂试教、校方与出版社审定未完成。",
+        "Microsoft Word原生字段/目录刷新与实体打印未执行；改变分页或更新域后需重新核对目录和页面。",
+        "校本特色行业/领域未核定；现有相关案例与项目使用明确教学模拟，不代表真实校本调查。"
+      ],
+      "effective_state": "accepted",
+      "stale_reasons": [],
+      "review_kind": "ai_self"
+    },
+    {
+      "id": "ch07-layout",
+      "state": "accepted",
+      "scope": "chapter",
+      "stage": "draft",
+      "manuscript": "manuscripts/ch07-layout/ch07.md",
+      "pending": [
+        "完整图文AI初稿和Word/PDF；真实教师/学生试读、课堂试教、全书人工审校及校方/出版社审定尚未开展。",
+        "Microsoft Word原生域刷新与实体打印未验证；改变分页或更新域后需重新核对目录与页面。",
+        "校本特色领域尚待确认；明确模拟材料不代表真实学生、团队或学校成果。"
+      ],
+      "effective_state": "accepted",
+      "stale_reasons": [],
+      "review_kind": "ai_self"
+    },
+    {
+      "id": "ch08-layout",
+      "state": "accepted",
+      "scope": "chapter",
+      "stage": "draft",
+      "manuscript": "manuscripts/ch08-layout/ch08.md",
+      "pending": [
+        "完整图文AI初稿和Word/PDF；真实教师/学生试读、课堂试教、全书人工审校及校方/出版社审定尚未开展。",
+        "Microsoft Word原生域刷新与实体打印未验证；改变分页或更新域后需重新核对目录与页面。",
+        "校本特色领域尚待确认；明确模拟材料不代表真实学生、团队或学校成果。"
+      ],
+      "effective_state": "accepted",
+      "stale_reasons": [],
+      "review_kind": "ai_self"
+    },
+    {
+      "id": "ch09-layout",
+      "state": "accepted",
+      "scope": "chapter",
+      "stage": "draft",
+      "manuscript": "manuscripts/ch09-layout/ch09.md",
+      "pending": [
+        "完整图文AI初稿和Word/PDF；真实教师/学生试读、课堂试教、全书人工审校及校方/出版社审定尚未开展。",
+        "Microsoft Word原生域刷新与实体打印未验证；改变分页或更新域后需重新核对目录与页面。",
+        "校本特色领域尚待确认；明确模拟材料不代表真实学生、团队或学校成果。",
+        "第九章题名与目录为补充提案，等待确认。"
+      ],
+      "effective_state": "accepted",
+      "stale_reasons": [],
+      "review_kind": "ai_self"
+    },
+    {
+      "id": "ch10-layout",
+      "state": "accepted",
+      "scope": "chapter",
+      "stage": "draft",
+      "manuscript": "manuscripts/ch10-layout/ch10.md",
+      "pending": [
+        "完整图文AI初稿和Word/PDF；真实教师/学生试读、课堂试教、全书人工审校及校方/出版社审定尚未开展。",
+        "Microsoft Word原生域刷新与实体打印未验证；改变分页或更新域后需重新核对目录与页面。",
+        "校本特色领域尚待确认；明确模拟材料不代表真实学生、团队或学校成果。"
+      ],
+      "effective_state": "accepted",
+      "stale_reasons": [],
+      "review_kind": "ai_self"
+    }
+  ],
+  "stale": true
+}

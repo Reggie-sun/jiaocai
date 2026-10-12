@@ -1,5 +1,9 @@
 # Chapters 1–3 Review and Revision Plan
 
+## Current Feedback Revision
+
+2026-10-12最新稿反馈中的第一、三章全国定位清理与第二章原纲/多案例修订，按[跨章修订Spec](../specs/revision-feedback.spec.md)与[Plan](../plans/revision-feedback.plan.md)执行。当前用户选择 `AB`，只交付清单/要求/Spec/Plan，未启动正文或Word/PDF修订；下文保留原交付轮次契约，不因新增路由重启旧任务或追认旧稿满足新要求。当前增量与下文冲突时以修订Spec及最新主Skill为准。
+
 ## Goal and Scope
 
 完成[本轮Spec](../specs/ch01-03-review.spec.md)的横向教学审校、必要内容修订及对应正式交付。Parent是唯一writer与最终裁决者；历史章节、工程机制、模板及第四章以后不在修改范围。

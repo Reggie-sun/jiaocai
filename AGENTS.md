@@ -1,6 +1,6 @@
 # Project Entry
 
-为西南财经大学从头编写完整十章本科教材，面向计算机专业大三、大四学生。核心参考为教材提纲与3.1节样稿；旧前四章不作为正文、案例、引用或结构的来源。
+从头编写面向全国本科学生的完整十章教材，当前主要读者为计算机专业大三、大四学生。核心参考为教材提纲与3.1节样稿；废弃旧前四章不作为正文、案例、引用或结构的来源，本项目新写稿按实际交付时间线比对。
 
 ## Read First
 
@@ -15,9 +15,11 @@
 
 当前教学方法的版本化owner为 [textbook-authoring/SKILL.md](skills/textbook-authoring/SKILL.md)，已安装同名Skill只转接；正文写作/修订还须读取 [质量规格](specs/authoring-quality.spec.md) 及当前章Spec中的质量约定。第一章仅作第一轮基线，不作为后续九章必须模仿的标准样板。
 
+最新稿反馈的跨章增量由[修订Spec](specs/revision-feedback.spec.md)与[修订Plan](plans/revision-feedback.plan.md)维护，原话与逐章清单见[反馈记录](materials/revision-feedback-20261012/feedback.md)。执行范围仍以用户当轮请求为准，规划交付不自动启动正文或Word/PDF修订。
+
 教材必须从基础起步、由浅入深；全书入口、节内铺垫、练习分层及审校按主Skill的 [Difficulty Progression](skills/textbook-authoring/SKILL.md#difficulty-progression) 执行。大三、大四的读者定位不构成开篇直接进入复杂模型与高密度术语的理由。
 
-原提纲作为总纲，已明确的目录标题、章序与主题保持不变。全书围绕AI时代计算思维的变化与重构，培养跨界创新、学习能力与良好思考习惯；定位由主Skill的 [Book Positioning](skills/textbook-authoring/SKILL.md#book-positioning) 维护。第一章以历史回顾为主，第二章集中讲重构，按 [Titles and Chapter Roles](skills/textbook-authoring/SKILL.md#titles-and-chapter-roles) 与当前蓝图执行，缺失章节仍标为提案。
+原提纲作为总纲，已明确的目录标题、章序与主题保持不变；学校专属词及校本占位按全国定位和当前修订Spec作有限清理。全书围绕AI时代计算思维的变化与重构，培养跨界创新、学习能力与良好思考习惯；定位由主Skill的 [Book Positioning](skills/textbook-authoring/SKILL.md#book-positioning) 维护。第一章以历史回顾为主，第二章集中讲重构，按 [Titles and Chapter Roles](skills/textbook-authoring/SKILL.md#titles-and-chapter-roles) 与当前蓝图执行，缺失章节仍标为提案。
 
 每章2.8万—4万字；每节的导语、首小节案例描述与分析、后续讲解、适用时的思维训练及结尾反思按主Skill的 [Teaching Design](skills/textbook-authoring/SKILL.md#teaching-design) 执行。当前文字先行，插图后期统一处理；规划与交付要求按 [Illustrations](skills/textbook-authoring/SKILL.md#illustrations) 执行。
 

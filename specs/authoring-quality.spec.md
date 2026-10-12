@@ -24,13 +24,15 @@
 
 ## Scope
 
+2026-10-12最新稿反馈增量按[全国版修订Spec](revision-feedback.spec.md)及[Plan](../plans/revision-feedback.plan.md)执行；全国定位、每个二级节独立案例及工具/资源方法由唯一主Skill维护。当前用户选择 `AB`，只更新规划与规则，下面原轮次试写范围不重新激活；本轮不追认旧正文满足新要求。
+
 修改教材主Skill的教学策略和内容审校，增加章级质量契约，以第一章的两个代表性片段作有限验证。保留第一章整章、分节、图、练习数据、原始Word与历史审校记录；不把试写自动并入基线，不继续第二章，不承诺全章质量或课堂效果。
 
 ## Ownership
 
 - `skills/textbook-authoring/SKILL.md`：版本化的教学方法与独立内容审校owner；安装入口只转到此文件。
 - `specs/ch01-quality.spec.md`：第一章当前质量增量、先备与试写边界；保留`specs/ch01.spec.md`的历史内容契约，冲突按当前增量规格处理。
-- `十章编写蓝图.md`：当前章标题、章间衔接与编写定位；缺失章节及校本占位保留未决状态。
+- `十章编写蓝图.md`：当前章标题、章间衔接与编写定位；第九章继续为补充提案，校本占位按全国定位作有限清理。
 - `plans/authoring-quality.plan.md`：本轮依赖和验证。原第一章plan作为已完成初稿的历史规划保存。
 - `materials/quality-pilot/`：基线身份、独立诊断、比较报告、Parent裁决及实测记录。
 - `manuscripts/ch01-quality-pilot/`：可读试写片段，独立于原稿。

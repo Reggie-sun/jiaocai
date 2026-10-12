@@ -1,5 +1,9 @@
 # Chapter 2 Progressive Edition Specification
 
+## Current Feedback Revision
+
+2026-10-12最新稿反馈中的第二章初版、递进版和最新跨章审校稿的比对；实际反馈基线为最新稿，按[跨章修订Spec](../specs/revision-feedback.spec.md)与[Plan](../plans/revision-feedback.plan.md)执行。当前用户选择 `AB`，只交付清单/要求/Spec/Plan，未启动正文或Word/PDF修订；下文保留原交付轮次契约，不因新增路由重启旧任务或追认旧稿满足新要求。当前增量与下文冲突时以修订Spec及最新主Skill为准。
+
 ## Goal and Authorization
 
 2026-10-12，用户指出现版太难并选择整章修订，随后要求按最新规则继续。完成第二章的递进版完整教材、独立内容审校、练习复核与正式Word/PDF；保留旧版本。本轮Native Codex为lifecycle owner，Spec/Plan由Parent自审并在当前授权内执行，不增加逐步确认。

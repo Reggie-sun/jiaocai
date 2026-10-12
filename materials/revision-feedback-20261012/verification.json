@@ -1,0 +1,72 @@
+{
+  "scope": "A+B planning only",
+  "head_before": "5806a639eef094c4a5730b0ee7950a3d278b3c89",
+  "branch": "chapter-02-delivery",
+  "checks": {
+    "owned_existing_paths_only": true,
+    "links_and_anchors": {
+      "passed": true,
+      "checked": 105,
+      "scope": "All current added/changed links plus all new Markdown deliverables and archived input"
+    },
+    "case_plan_sections": {
+      "passed": true,
+      "count": 32,
+      "chapter_counts": {
+        "4": 4,
+        "5": 7,
+        "6": 5,
+        "7": 5,
+        "8": 6,
+        "9": 5
+      }
+    },
+    "current_manuscript_sections": 48,
+    "spec_plan_R1_R7_coverage": true,
+    "plan_M0_M5_and_no_placeholders": true,
+    "active_nationwide_rules": true,
+    "protected_tracked": {
+      "passed": true,
+      "count": 1754
+    },
+    "foreign_untracked": {
+      "passed": true,
+      "count": 18
+    },
+    "source_receipt_actual_reads_and_artifact_hashes": true,
+    "harness_validate": {
+      "passed": true,
+      "runs": 18
+    },
+    "harness_status": {
+      "before_accepted": 7,
+      "before_blocked": 11,
+      "after_accepted": 0,
+      "after_blocked": 18,
+      "history_and_config_unchanged": true
+    },
+    "skill_validation": {
+      "passed": true,
+      "runtime": "/usr/bin/python3",
+      "initial_default_python_failure": "PyYAML unavailable; resolved using existing /usr/bin/python3, no dependency installation"
+    },
+    "chapter_contract_routing": {
+      "passed": true,
+      "groups": 9,
+      "files": 18
+    },
+    "git_diff_check": true,
+    "parent_diff_review": {
+      "passed": true,
+      "scope": "24 owned existing documents plus new requirements/plan/feedback/case/source/verification/report files; no source-code edits"
+    }
+  },
+  "not_performed": [
+    "manuscript revision",
+    "Word/PDF rendering or editing",
+    "online tool/resource recommendation validation",
+    "new chapter acceptance",
+    "real classroom/publisher acceptance"
+  ],
+  "completion": "A+B documentation criteria verified; owned stable candidate ready for commit. Commit ID is verified and reported after creation."
+}
